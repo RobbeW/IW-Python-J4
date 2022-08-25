@@ -33,6 +33,7 @@ aantal_succes = resultaten.count(2) + resultaten.count(3) + resultaten.count(4) 
 resultaten = []
 
 # Verwonden van het doel: 
+for i in range (0, ... ): 
 
 # Hoeveel verwondingen worden gered door het harnas: 
 
