@@ -13,9 +13,9 @@ Een aanval moet:
 * voorbij het harnas van de vijand raken. 
 
 De soldaten zijn vrij krachtig en hebben volgende eigenschappen met hun wapens: 
-* op 2+ raken ze hun doel; 
-* op een 3+ verwonden ze de tegenstrever; 
-* op een 6 raakt de speer het harnas en wordt geen verwonding toegebracht. 
+* Stap 1: op 2+ raken ze hun doel; 
+* Stap 2: op een 3+ verwonden ze de tegenstrever; 
+* Stap 3: op een 6 raakt de speer het harnas en wordt géén verwonding toegebracht. 
 
 
 **Opgave:**
