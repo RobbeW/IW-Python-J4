@@ -25,11 +25,10 @@ Tijdens het spel is Robbe zijn zak met dobbelstenen thuis verloren. Dat maakt he
 
 
 **Syntax van de random-functie**
-´´´
+```
 import random # We laden de random-bibliotheek in. 
 worp = random.randint(begingetal, eindgetal inclusief) # We genereren een willekeurig getal dat ligt tussen begingetal en eindgetal. Begingetal en eindgetal inbegrepen. 
-
-´´´
+```
 **Dus:** 
 * Gebruik je kennis en vaardigheden in Python-code om een algoritme te ontwerpen; 
 * Maak correct gebruik van de **random-functie**; 
