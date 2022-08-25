@@ -32,6 +32,10 @@ for i in range (0, 40):
 aantal_succes = resultaten.count(2) + resultaten.count(3) + resultaten.count(4) + resultaten.count(5) + resultaten.count(6)
 resultaten = []
 
+# Verwonden van het doel: 
+
+# Hoeveel verwondingen worden gered door het harnas: 
+
 ```
 
 * Gebruik je kennis en vaardigheden in Python-code om een algoritme te ontwerpen; 
