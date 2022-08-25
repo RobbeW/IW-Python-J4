@@ -12,7 +12,7 @@ De kleur van de achtergrond wordt als volgt bepaald:
 * De achtergrondkleur of wordt uitgedrukt in RGB-code; 
 * Elke van de drie RGB-waardes van de achtergrondkleur is het **gemiddelde van de waarden van afbeelding 1, 2 en 3.**
 
-<img src="[https://tutorial.techaltum.com/images/css-colors.jpg](https://tutorial.techaltum.com/images/css-colors.jpg)" width="60%"/>
+<img src="https://tutorial.techaltum.com/images/css-colors.jpg" width="60%"/>
 
 **Opgave:**
 
