@@ -1,0 +1,23 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "access": "public",
+  "description": {
+    "names": {
+      "nl": "4.1 - Lijsten in Python",
+      "en": "4.1 - Lists in Python"
+    }
+  },
+  "evaluation": {
+    "pythia_judge": "doctest"
+  },
+  "labels": [
+    "python",
+    "VBTL"
+  ],
+  "contact": "Robbe W <robbe.wulgaert@sintlievenscollege.be>",
+  "internals": {
+    "token": "CtAXHnWC2bI2Cwh-gN2hKsqiAfDJWAMFvhF5Fz5cndBBaIiyiWnCU_rUvvF4VHDt",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

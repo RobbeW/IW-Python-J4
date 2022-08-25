@@ -1,0 +1,4 @@
+- tab: "Feedback"
+  contexts:
+  - stdin: "120\75"
+    stdout: "9000\390"
