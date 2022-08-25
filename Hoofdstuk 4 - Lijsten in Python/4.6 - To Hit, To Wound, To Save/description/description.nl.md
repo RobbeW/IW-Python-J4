@@ -21,7 +21,7 @@ De soldaten zijn vrij krachtig en hebben volgende eigenschappen met hun wapens:
 **Opgave:**
 Ontwerp een algoritme dat kan berekenen hoeveel verwondingen werden toegebracht. Je krijgt volgende codes om je te helpen: 
 
-´´´
+```
 import random 
 resultaten = []
 
@@ -32,7 +32,7 @@ for i in range (0, 40):
 aantal_succes = resultaten.count(2) + resultaten.count(3) + resultaten.count(4) + resultaten.count(5) + resultaten.count(6)
 resultaten = []
 
-´´´
+```
 
 * Gebruik je kennis en vaardigheden in Python-code om een algoritme te ontwerpen; 
 * Maak voor jouw algoritme gebruik van volgende functies: **random, lijsten, begrensde herhaling**; 
