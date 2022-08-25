@@ -9,9 +9,9 @@ Binnen Python kennen verschillende datatypes. We leerden reeds over:
 Die **items** kunnen bestaan uit verschillende getallen of strings. Die data wordt van **elkaar gescheiden door een komma.**
 
 **Een voorbeeld van een lijst:**
-´´´
+```
 hoofdsteden_provincie = ['Brugge', 'Gent', 'Leuven']
-´´´
+```
 
 **Voordelen van een lijst:**
 Een lijst kan je bewaren in een variabele. Je kan er doorheen jouw algoritme data aan toevoegen uit een berekening of herhaling aan berekeningen. 
@@ -21,21 +21,21 @@ Je kan een lijst ook gebruiken om over te **itereren**, dit je zeggen dat je elk
 **Data toevoegen aan een bestaande lijst:** 
 Wanneer we data willen toevoegen aan het einde van een bestaande lijst gebruiken we de **append-functie.**
 De **syntax** van de **append-functie** gaat als volgt: 
-´´´
+```
 # Hoe te lezen: 
 # voeg toe. aan het einde deze lijst (dit item)
 naam_lijst.append(item_dat_je_wil_toevoegen)
 
-´´´
+```
 
 **Opgave:**
 
 Bekijk volgende code: 
 
-´´´
+```
 hoofdsteden_provincie = ['Brugge', 'Gent', 'Leuven']
 
-´´´
+```
 
 Er ontbreken hier enkele Vlaamse provinciehoofdsteden, namelijk Hasselt en Antwerpen. (Brussel is technisch gezien de hoofdstad van een gewest)
 
