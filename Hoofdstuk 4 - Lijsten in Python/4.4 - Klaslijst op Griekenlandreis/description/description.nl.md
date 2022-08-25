@@ -7,14 +7,14 @@ Op Griekenlandreis hebben we een grote(re) groep leerlingen mee. Die moeten op d
 
 
 We krijgen volgende lijsten: 
-´´´
+```
 namen = ['Malina', 'Briek', 'Rémi', 'Ferit', 'Agon', 'Thomas', 'Julie', 'Floor', 'Menke', 'Bastiaan', 'Camu', 'Mateo', 'Mathias', 'Amélie', 'Julien', 'Veronika', 'Alice', 'Sieben', 'Marit', 'Hanne', 'Pieter-Jan', 'Jules', 'Oscar', 'Sanne', 'Tarik', 'Berfin', 'Lotte', 'Sien', 'Caro', 'Louise', 'Theo', 'Julie']
 kamer = [201, 202, 209, 218, 220, 221, 224, 226, 201, 202, 209, 218, 220, 221, 224, 226, 201, 202, 209, 218, 220, 221, 224, 226, 201, 202, 209, 218, 220, 221, 224, 226]
-´´´
+```
 
 Je krijgt van de reisleider de opdracht om de leerlingen te verdelen over de verschillende kamers. Zo kunnen we een overzichtelijke lijst afgeven aan de receptie en andere begeleiders. 
 
-´´´
+```
 201 = []
 202 = []
 209 = []
@@ -23,28 +23,27 @@ Je krijgt van de reisleider de opdracht om de leerlingen te verdelen over de ver
 221 = []
 224 = []
 226 = []
-
-´´´
+```
 
 <img src="https://images.pexels.com/photos/1518498/pexels-photo-1518498.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="50%"/>
 
 ## **Itereren over een lijst**
 Het **programmeerconcept 'De Begrensde Herhaling** ken je reeds. Je kan deze gebruiken om exact aantal keer te herhalen. Dit deden we via volgende syntax:
 
-´´´
+```
 for teller in range (begingetal, eindgetal): 
 # teller zal bij deze telkens +1 gaan.
 # begingetal zit binnen deze herhaling, eindgetal niet! 
-´´´
+```
 
 Je kan bovenstaande functie ook gebruiken om **te itereren over lijsten!**. 
-´´´
+```
 for teller_1, teller_2 in zip (namen, kamer): 
 # We gebruiken hier twee tellers. 
 # Zo selecteren we item_1 uit de lijst namen en item_1 uit de lijst kamer. 
-´´´
+```
 Je krijgt reeds volgende code: 
-´´´
+```
 # Gegeven:
 namen = ['Malina', 'Briek', 'Rémi', 'Ferit', 'Agon', 'Thomas', 'Julie', 'Floor', 'Menke', 'Bastiaan', 'Camu', 'Mateo', 'Mathias', 'Amélie', 'Julien', 'Veronika', 'Alice', 'Sieben', 'Marit', 'Hanne', 'Pieter-Jan', 'Jules', 'Oscar', 'Sanne', 'Tarik', 'Berfin', 'Lotte', 'Sien', 'Caro', 'Louise', 'Theo', 'Julie']
 kamer = [201, 202, 209, 218, 220, 221, 224, 226, 201, 202, 209, 218, 220, 221, 224, 226, 201, 202, 209, 218, 220, 221, 224, 226, 201, 202, 209, 218, 220, 221, 224, 226]
@@ -79,7 +78,7 @@ kamer_226 = []
 # Output
 print("In de kajuit 201 zitten volgende leerlingen: ", kamer_201)
 # HIER ONTBREKEN NOG OUTPUTS
-´´´
+```
 
 **Opgave:**
 Bekijk bovenstaande algoritme. 
