@@ -5,19 +5,19 @@ Elke leerling kiest een richting die best past bij de interesses en talenten van
 Zo stelt men klaslijsten samen voor de nieuwe eerstejaars. 
 
 We krijgen volgende lijsten: 
-´´´
+```
 namen = ['Malina', 'Briek', 'Rémi', 'Ferit', 'Agon', 'Thomas', 'Julie', 'Floor', 'Menke']
 Richting = ['Latijn', 'STEaM', 'Talen','Latijn', 'STEaM', 'Talen', 'Latijn', 'STEaM', 'Talen', ]
-´´´
+```
 
 Je krijgt vanuit de administratie volgende startgegevens mee. Deze **klaslijsten** moeten worden aangevuld. 
 
-´´´
+```
 1L1 = []
 1ST1 = []
 1TC = []
 
-´´´
+```
 
 <img src="https://images.pexels.com/photos/210661/pexels-photo-210661.jpeg?cs=srgb&dl=pexels-picjumbocom-210661.jpg&fm=jpg" width="33%"/>
 
@@ -26,10 +26,10 @@ Ontwerp een algoritme waar je de naam en vervolgens de klas van de leerling invo
 
 Ter herhaling: de syntax van de **append-functie:**
 
-´´´
+```
 naam_klas.append('Voornaam')
 1L1.append('Malina')
-´´´
+```
 
 
 * Gebruik voor jouw algoritme volgende functies: **append, if, elif, else en de begrensde herhaling**; 
