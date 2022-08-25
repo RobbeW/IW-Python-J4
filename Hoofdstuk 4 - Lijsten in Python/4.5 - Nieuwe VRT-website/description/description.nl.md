@@ -10,7 +10,7 @@ De kleur van de achtergrond wordt als volgt bepaald:
 * Een RGB-code is een lijst of *list* met drie items; 
 * Een voorbeeld van een RGB-code: rood = [255, 0, 0]
 * De achtergrondkleur of wordt uitgedrukt in RGB-code; 
-* Elke van de drie RGB-waardes van de achtergrondkleur is het gemiddelde van de waarden van afbeelding 1, 2 en 3. 
+* Elke van de drie RGB-waardes van de achtergrondkleur is het **gemiddelde van de waarden van afbeelding 1, 2 en 3.**
 
 <img src="https://tutorial.techaltum.com/images/css-colors.jpg" width="60%"/>
 
