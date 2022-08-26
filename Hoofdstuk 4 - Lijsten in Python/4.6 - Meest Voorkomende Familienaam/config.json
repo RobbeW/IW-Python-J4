@@ -1,0 +1,23 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "access": "public",
+  "description": {
+    "names": {
+      "nl": "4.6 - Meest Voorkomende Familienaam",
+      "en": "4.6 - Most Common Name"
+    }
+  },
+  "evaluation": {
+    "pythia_judge": "output"
+  },
+  "labels": [
+    "python",
+    "VBTL"
+  ],
+  "contact": "Robbe W <robbe.wulgaert@sintlievenscollege.be>",
+  "internals": {
+    "token": "4As99W5cpk3yiP2SCzceNNmDwz9IQHAvcapmwTujksrniNbNtFZhk_HJ89AQ4F4H",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
