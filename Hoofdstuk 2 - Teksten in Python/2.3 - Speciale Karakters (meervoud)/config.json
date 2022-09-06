@@ -1,0 +1,23 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "access": "public",
+  "description": {
+    "names": {
+      "nl": "2.3 - Speciale Karakters (meervoud)",
+      "en": "2.3 - Special Characters (plural)"
+    }
+  },
+  "evaluation": {
+    "pythia_judge": "output"
+  },
+  "labels": [
+    "python",
+    "VBTL"
+  ],
+  "contact": "Robbe W <robbe.wulgaert@sintlievenscollege.be>",
+  "internals": {
+    "token": "wDMI6SfI8QCkyaGbh4zGGmxbdzhMEze9sZxcGp-PVavDwuFEUF5-MPDEHibjPHft",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
