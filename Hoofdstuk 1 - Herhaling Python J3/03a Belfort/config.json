@@ -1,0 +1,19 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "access": "public",
+  "description": {
+    "names": {
+      "nl": "Oefening - De Hoogte van het belfort",
+      "en": "Exercise - Height of the belfry"
+    }
+  },
+  "evaluation": {
+    "pythia_judge": "output"
+  },
+  "contact": "Robbe W <robbe.wulgaert@sintlievenscollege.be>",
+  "internals": {
+    "token": "4jNgGrdKau6i9feAKUKAhqrr-9px3yfcKYgTNR2GFUdYUYbIXhDZB2MjDrUr8EkK",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
