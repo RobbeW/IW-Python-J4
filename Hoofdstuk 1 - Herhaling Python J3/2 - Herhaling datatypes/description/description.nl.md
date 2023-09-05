@@ -9,7 +9,7 @@ In Python heeft elke variabele een bepaald datatype, de basistypes zijn:
 - Booleaanse waarden of **booleans**: deze kunnen enkel de waarde waarde `True` of `False` hebben.
 
 ## Opgave
-- Schrijf een programma dat een gebruiker in de volgende volgorde **vraagt** om zijn/haar **voornaam**, **naam**, zijn/haar **maandelijks nettoloon** en *leeftijd* in aantal jaar;
+- Schrijf een programma dat een gebruiker in de volgende volgorde **vraagt** om zijn/haar **voornaam**, **naam**, zijn/haar **maandelijks nettoloon** en **leeftijd** in aantal jaar;
 - Bewaar deze gegevens in variabelen met een logische naam; 
 - Bereken het nettoloon op **jaarbasis**, plus dertiende maand (+1 maandloon). Rond dit jaarloon af op **2 cijfers na de komma**.
 - Print de gegevens naar het scherm in een verzorgde volzin.
