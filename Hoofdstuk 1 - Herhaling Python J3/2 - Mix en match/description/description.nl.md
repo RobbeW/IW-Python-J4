@@ -1,4 +1,4 @@
-Binnen Python kan je aan een gebruiker **invoer** vragen via:
+Binnen Python kan je aan een gebruiker **invoer** vragen via de `input()` functie.
 
 ```python
 input('Geef je voornaam in:')
@@ -10,7 +10,7 @@ Deze invoer kan je vervolgens opslaan in een variabele. Een variabele op het sch
 print(variabele)
 ```
 
-Om verschillende variabelen of teksten te **concateneren** gebruik je de uitgebreide `print()` opdracht:
+Om verschillende variabelen of teksten te **concateneren** gebruik je de uitgebreide `print()` functie.
 
 ```python
 print(voornaam1, naam1)
