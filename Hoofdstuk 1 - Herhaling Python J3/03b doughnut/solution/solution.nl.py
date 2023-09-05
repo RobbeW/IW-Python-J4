@@ -1,10 +1,13 @@
 PI = 3.141592
 
+# Invoer van de variabelen
 r = float( input( 'Geef de kleine straal in:' ) )
 R = float( input( 'Geef de grote straal in:' ) )
 
-A = 4 * pow( PI, 2 ) * r * R
-V = 2 * pow( PI, 2 ) * pow( r, 2 ) * R
+# Berekeningen
+A = round( 4 * PI**2 * r * R, 3)
+V = round( 2 * PI** 2 * r ** 2 * R, 3)
 
-print('\nOppervlakte: {} cm²'.format( round( A, 3 ) ) )
-print('Volume: {} cm³'.format( round( V, 3 ) ) )
+# Uitvoer
+print( 'Oppervlakte:', A, 'cm²' )
+print( 'Volume:', V, 'cm³' )
