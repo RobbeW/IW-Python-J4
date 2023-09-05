@@ -1,13 +1,14 @@
-PI = 3.141592
+import math
 
 # Invoer van de variabelen
 r = float( input( 'Geef de kleine straal in:' ) )
 R = float( input( 'Geef de grote straal in:' ) )
 
 # Berekeningen
-A = round( 4 * PI**2 * r * R, 3)
-V = round( 2 * PI** 2 * r ** 2 * R, 3)
+A = round( 4 * math.pi**2 * r * R, 3)
+V = round( 2 * math.pi** 2 * r ** 2 * R, 3)
 
 # Uitvoer
+print()
 print( 'Oppervlakte:', A, 'cm²' )
 print( 'Volume:', V, 'cm³' )

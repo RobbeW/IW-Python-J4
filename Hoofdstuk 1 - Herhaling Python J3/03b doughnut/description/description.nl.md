@@ -16,6 +16,10 @@ Schrijf een programma dat in **volgorde** de kleine en grote straal inleest (waa
 #### Voorbeeld
 Indien `r = 3.57` en `R = 6.21` dan verschijnt er:
 ```
-Oppervlakte: 875.224 cm²
-Volume: 1562.275 cm³
+Oppervlakte: 875.225 cm²
+Volume: 1562.276 cm³
 ```
+
+{: .callout.callout-info}
+> #### Tips
+> - Gebruik $$\pi$$ uit de module `import math` via `math.pi`.
