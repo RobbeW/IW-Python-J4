@@ -19,5 +19,5 @@ De rest bij deling van 20 en 7 is 6
 
 De inputs `20` en `3` leiden tot
 ```
-De rest bij deling van 20 en 3 is 1
+De rest bij deling van 20 en 3 is 2
 ```
