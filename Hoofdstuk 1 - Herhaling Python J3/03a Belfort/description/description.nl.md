@@ -1,7 +1,7 @@
-Wim wil de hoogte van een Belfort meten. Daarvoor gebruikt hij een laser van het bouwbedrijf. 
+Wim wil de hoogte van een Belfort meten. Daarvoor gebruikt hij een laser van een bouwbedrijf. 
 Met deze laser kan je eenvoudig een straal fotonen schieten naar een punt. Wanneer deze terugkaatsen, dan vertelt het toestel de afstand tussen Wim en het object. 
 
-![Het belfort in Gent.](media/arnaud-weyts.jpg "Foto door Arnaud Weyts op Unsplash."){:data-caption="Het belfort in Gent." width="45%"}
+![Het belfort in Gent.](media/juli-sure.jpg "Foto door Juli Sure op Pexels."){:data-caption="Het belfort in Gent." width="30%"}
 
 ## Opgave
 
