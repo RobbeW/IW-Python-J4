@@ -1,15 +1,12 @@
 {
-  "type": "exercise",
+  "type": "content",
   "programming_language": "python",
   "access": "public",
   "description": {
     "names": {
-      "nl": "1 - Wat voorafging ...",
-      "en": "1 - What happened before"
+      "nl": "Wat voorafging ...",
+      "en": "What happened before"
     }
-  },
-  "evaluation": {
-    "pythia_judge": "output"
   },
   "labels": [
 
