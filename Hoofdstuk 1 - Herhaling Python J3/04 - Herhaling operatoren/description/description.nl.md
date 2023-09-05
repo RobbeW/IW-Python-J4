@@ -5,7 +5,8 @@ De basisoperatoren `+`, `-`, `*`, `/` en `**` voor de **machtsverheffing** ken j
 {: .callout.callout-danger}
 > #### Belangrijk
 > - De **modulo** `%` operator bepaalt **de rest**. Zo geldt `20 % 7 = 6` want 20 is 2 · 7 met als rest 6.
-> - De **gehele deling** `//` bepaalt hoeveel keer een deler binnen een deeltal past. Er geldt dat `20 // 7 = 2` want 7 past 2 keer in 20.
+> - De **gehele deling** `//` bepaalt hoeveel keer een deler binnen een deeltal past. 
+> Er geldt dat `20 // 7 = 2` want 7 past 2 keer in 20.
 
 ## Opgave
 Schrijf een programma waarin twee **natuurlijke getallen** worden ingelezen. Als resultaat wordt de rest bij deling weergegeven op het scherm.
