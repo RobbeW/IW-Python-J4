@@ -4,7 +4,7 @@ Binnen Python kan je aan een gebruiker **invoer** vragen via:
 input('Geef je voornaam in:')
 ```
 
-Deze invoer kan je vervolgens opslaan in een variabele. Een variabele op het scherm printen kan via:
+Deze invoer kan je vervolgens opslaan in een variabele. Een variabele op het scherm **weergeven** of printen kan via:
 
 ```python
 print(variabele)
