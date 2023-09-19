@@ -1,0 +1,20 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "evaluation": {
+    "pythia_judge": "output"
+  },
+  "description": {
+    "names": {
+      "nl": "Blikseminslag"
+    }
+  },
+  "labels": [
+
+  ],
+  "access": "public",
+  "internals": {
+    "token": "fqtcTYh-GIv48uSvuWNj_pXIa_T6d59FEtpNF5u8Zk7_scvK3sMaGKJFw3SRVdXg",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
