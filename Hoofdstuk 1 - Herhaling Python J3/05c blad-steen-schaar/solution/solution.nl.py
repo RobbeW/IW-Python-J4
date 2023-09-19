@@ -3,7 +3,6 @@ woord1 = input( "Geef het woord van speler 1 in: ")
 woord2 = input( "Geef het woord van speler 2 in: ")
 
 # Verwerking en uitvoer
-print()
 if woord1 == woord2:
     print( 'onbeslist' )
 elif woord1 == 'paper' and woord2 == 'rock':
