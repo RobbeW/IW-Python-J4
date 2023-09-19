@@ -2,7 +2,6 @@
 niveau = float( input('Geef het tonerniveau (in percentage): '))
 
 # Verwerking en afdrukken
-print()
 if niveau == 0:
     print("Toner is volledig leeg.")
     print("Je kan niet meer afdrukken.")
