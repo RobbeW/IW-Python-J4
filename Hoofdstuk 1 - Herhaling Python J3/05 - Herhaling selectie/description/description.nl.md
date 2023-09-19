@@ -47,7 +47,7 @@ Je kan voorwaarden **combineren** met de **booleaanse operatoren**, `and`, `or` 
 
 Een printer kan kleurkopies afdrukken door gebruik te maken van toner, deze bevat een soort poeder dat fungeert als kleurstof. 
 
-Schrijf een programma dat aan de gebruiker het huidige toner-niveau (als percentage) vraagt. Afhankelijk van het toner-niveau gebeuren verschillende acties.
+Schrijf een programma dat aan de gebruiker het huidige toner-niveau (als percentage) **vraagt**. Afhankelijk van het toner-niveau verschijnt een andere boodschap
 
 - Indien de toner bijna op is (minstens 75% leeg), krijgen de mensen van de IT-dienst een melding om een nieuwe toner te bestellen;
 - Is de toner minstens 90% leeg, dan verschijnt er een waarschuwing op het scherm van de printen én wordt eenzelfde melding naar de IT-dienst gestuurd;
