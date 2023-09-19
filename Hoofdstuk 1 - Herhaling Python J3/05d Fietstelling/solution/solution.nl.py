@@ -5,7 +5,6 @@ snelheid_m_per_sec = float( input( "Geef een snelheid in: " ) )
 snelheid = snelheid_m_per_sec / 1000 * 3600
 
 # Verwerking en uitvoer
-print()
 if snelheid >= 50:
     print( "Deze persoon fietst te snel, er volgt een boete." )
 elif snelheid > 36:
