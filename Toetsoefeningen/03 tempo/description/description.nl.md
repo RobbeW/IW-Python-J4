@@ -9,6 +9,11 @@ Schrijf een programma dat een snelheid vraagt (in km/u) en het corresponderende 
 
 
 #### Voorbeelden
+De invoer `12.000` leidt tot uitvoer:
+```
+5.00
+```
+
 De invoer `21.322` leidt tot uitvoer:
 ```
 2.81
