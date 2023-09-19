@@ -1,17 +1,21 @@
-**Oefening 2 – Fietsentelling aan de Coupure**
-
-**Gegeven:**
-
 De Gentse politie heeft een nieuwe camera geïnstalleerd langs de Coupure. Deze moet proberen om het aantal fietsers te tellen. Ze willen onderscheid maken tussen reguliere fietsen, e-bikes, speedpedelecs en koersfietsen. Hiervoor gebruiken ze de snelheid in meter/seconde. 
-Men wil het systeem testen, maar de automatische doorgifte van camera naar systeem is nog niet klaar! We maken momenteel gebruik van een invoer door een mens (input-functie). 
 
-**Gevraagd:**
+Men wil het systeem testen, maar de automatische doorgifte van camera naar systeem is nog niet klaar!
 
-Schrijf de code die: 
-* Een vraag op het scherm laat verschijnen (“Wat is de gemeten snelheid in meter per seconde?”);
-* De input bewaart in een variabele;
-* Deze omzet in km/u;
-* Als de snelheid lager is dan 25km/u zal het wellicht een reguliere fietser zijn. Print deze uitkomst naar het scherm;
-* Als de snelheid hoger is dan 50km/u, dan rijdt de persoon te snel en moet eigenlijk een boete volgen. Print deze uitkomst naar het scherm;
-* Als de snelheid tussen 35km/u en 50km/u ligt, zal het wellicht een speedpedelec zijn. Print deze uitkomst naar het scherm;
-* In andere gevallen gaat het om een (lichte) e-bike zonder verplicht kenteken. 
+![Verschillende fietsers.](media/bike.gif "Verschillende fietsers."){:data-caption="Verschillende fietsers." width="35%"}
+
+## Opgave
+
+Schrijf de code die aan de gebruiker de snelheid in meter per seconde vraagt. Afhankelijk van de invoer verschijnt een andere boodschap.
+
+- Is deze snelheid lager dan 25 km/u dan is het wellicht een reguliere fietser;
+- Is de snelheid 50 km/u **of meer** dan rijdt deze persoon te snel en moet eigenlijk een boete volgen;
+- Ligt de snelheid **tussen** 36 km/u en 50 km/u dan zal het wellicht een speedpedelec zijn;
+- Bij de andere gevallen gaat het waarschijnlijk om een lichte e-bike zonder verplicht kenteken.
+
+#### Voorbeelden
+
+
+{: .callout.callout-info}
+> #### Tip
+> Je zal de snelheid moeten **omvormen** naar km/u!

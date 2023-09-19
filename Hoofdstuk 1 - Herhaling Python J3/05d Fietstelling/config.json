@@ -4,18 +4,12 @@
   "access": "public",
   "description": {
     "names": {
-      "nl": "1.7 - Opdracht 2 – Fietsentelling aan de Coupure",
-      "en": "1.7 - Ex. 2 - Counting Bicycles at the Coupure"
+      "nl": "Oefening - Fietsentelling aan de Coupure"
     }
   },
   "evaluation": {
     "pythia_judge": "output"
   },
-  "labels": [
-    "python",
-    "VBTL"
-  ],
-  "contact": "Robbe W <robbe.wulgaert@sintlievenscollege.be>",
   "internals": {
     "token": "zV-dGt5H2m4iF63F4CqQf2eYFgWusizuuhuvEMjIkb-Q6jIIjgQti5NhmHdvMh-g",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
