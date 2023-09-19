@@ -11,7 +11,7 @@ waarbij $$r$$ de (kleine) straal van de binnenste cirkel en $$R$$ de (grote) str
 ![Hmm, doughnuts...](media/Homer_doughnut.gif "Hmm, doughnuts..."){:data-caption="Hmm, doughnuts..." width="498px"}
 
 ## Opgave
-Schrijf een programma dat in **volgorde** de kleine en grote straal inleest (waarbij de kleine straal kleiner is dan de grote straal) en nadien de oppervlakte en het volume uitrekent. Je rondt hierbij af op **3 cijfers na de komma**. Gebruik de waarde van `PI = 3.141592` die reeds klaar staat in onderstaand programma.
+Schrijf een programma dat in **volgorde** de kleine en grote straal inleest (waarbij de kleine straal kleiner is dan de grote straal) en nadien de oppervlakte en het volume uitrekent. Je rondt hierbij af op **3 cijfers na de komma**.
 
 #### Voorbeeld
 Indien `r = 3.57` en `R = 6.21` dan verschijnt er:
