@@ -27,7 +27,7 @@ else:
 > #### Opgelet!
 > Code die bij een bepaalde voorwaarde uitgevoerd wordt krijgt een **indent** of **insprong**.  Python is hier zeer gevoelig voor!
 
-Je voorwaarden opschrijven met de volgende symbolen:
+Je kan voorwaarden coderen met de volgende symbolen:
 
 |-----------+---------------------------+
 | Symbool   | Grootte                   |
