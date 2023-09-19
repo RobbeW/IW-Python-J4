@@ -55,5 +55,21 @@ Schrijf een programma dat aan de gebruiker het huidige toner-niveau (als percent
 
 #### Voorbeelden
 
+Bij invoer `0.15` (15% vol) verschijnt er:
+```
+Bestel een nieuwe toner.
+```
 
-* Boodschap voor de IT-dienst: "Toner is bijna op, plaats bestelling bij" of "Toner is volledig op". 
+Bij invoer `0.0` (0% vol) verschijnt er:
+```
+Toner is volledig leeg.
+Je kan niet meer afdrukken.
+```
+
+Bij invoer `0.05` (5% vol) verschijnt er:
+```
+Toner is bijna leeg.
+Bestel een nieuwe toner.
+```
+
+Bij invoer `0.45` (45% vol) verschijnt er niets.
