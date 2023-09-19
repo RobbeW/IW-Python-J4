@@ -1,0 +1,24 @@
+onbeslist
+
+speler 1 wint
+
+speler 2 wint
+
+speler 2 wint
+
+onbeslist
+
+speler 1 wint
+
+speler 1 wint
+
+speler 2 wint
+
+onbeslist
+-----------------------------------------
+tab name: Feedback
+python input without prompt: true
+block count: multi
+input block size: 2
+output block size: ends with
+comparison: exact match

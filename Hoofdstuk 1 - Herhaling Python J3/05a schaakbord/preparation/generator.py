@@ -22,16 +22,16 @@ settings = f'''
 tab name: {tab_name}
 python input without prompt: true
 block count: multi
-input block size: 1
+input block size: 2
 output block size: ends with
 comparison: exact match
 '''
 
 # generate test data
 ntests= 20
-cases = [(0.15,), (0,), (0.1,), (0.25,)]
+cases = [(1,1), (2,6), (8,7)]
 while len(cases) < ntests:
-    cases.append( tuple(round(random.uniform(0, 0.5), 2) for _ in range(1)) )
+    cases.append( tuple(random.randint(1, 8) for _ in range(2)) )
 
 # configure test files
 infile = open(os.path.join(evaldir, '0.in'), 'w')
