@@ -1,8 +1,11 @@
+## Gegeven
 Er bestaat een methode om manueel te controleren of een getal deelbaar is door 7. De methode werkt als volgt:
 
 - Verdubbel het cijfer van de eenheid;
 - Bereken het verschil van het getal zonder het cijfer van de eenheden en het vorig getal;
 - Is dit verschil deelbaar door 7, dan ben je klaar. Zo niet, herhaal.
+
+![Het getal 7.](media/alejandro-barba.jpg "Foto door Alejandro Barba op Unsplash."){:data-caption="Het getal 7." width="30%"}
 
 Beschouw bijvoorbeeld het getal 3024. Het cijfer van de eenheden is 4, het dubbele hiervan is 8. Het getal zonder het cijfer van de eenheden is 302. Het verschil van 302 en 8 is 294.
 
@@ -18,12 +21,12 @@ De invoer `3024` levert als uitvoer
 ```
 1e stap: Het verschil van 302 en 8 is 294
 2e stap: Het verschil van 29 en 8 is 21
-Dit is duidelijk deelbaar door 7, dus ook 3024 is deelbaar door 7
+21 is duidelijk deelbaar door 7, dus ook 3024 is deelbaar door 7.
 ```
 
 De invoer `4711` levert als uitvoer
 ```
 1e stap: Het verschil van 471 en 2 is 469
 2e stap: Het verschil van 46 en 18 is 28
-Dit is duidelijk deelbaar door 7, dus ook 4711 is deelbaar door 7
+28 is duidelijk deelbaar door 7, dus ook 4711 is deelbaar door 7.
 ```

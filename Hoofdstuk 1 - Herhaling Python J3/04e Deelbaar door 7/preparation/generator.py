@@ -31,7 +31,7 @@ comparison: exact match
 ntests= 20
 cases = [(3024,), (4711,)]
 while len(cases) < ntests:
-    cases.append( (random.randint(100, 999),) )
+    cases.append( (random.randint(300, 1300) * 7,) )
 
 # configure test files
 infile = open(os.path.join(evaldir, '0.in'), 'w')
