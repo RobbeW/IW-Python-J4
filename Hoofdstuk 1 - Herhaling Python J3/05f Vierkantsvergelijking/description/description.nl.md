@@ -11,7 +11,7 @@ Daarna wordt, indien mogelijk, de oplossingenverzameling berekend. De mogelijke 
 #### Voorbeelden
 De vierkantsvergelijking $$x^2+3x-4 = 0$$ heeft als oplossingenverzameling $$V = \{-4, 1\}$$.
 ```
-Er zijn 2 reële oplossingen, namelijk 1.0 en -4.0
+Er zijn twee verschillende reële oplossingen, namelijk -4.0 en 1.0
 ```
 
 De vierkantsvergelijking $$x^2+2x+1 = 0$$ heeft als oplossingenverzameling $$V = \{-1\}$$.
