@@ -16,10 +16,10 @@ Er zijn twee verschillende reële oplossingen, namelijk -4.0 en 1.0
 
 De vierkantsvergelijking $$x^2+2x+1 = 0$$ heeft als oplossingenverzameling $$V = \{-1\}$$.
 ```
-Er is één oplossing, namelijk: -1.0
+Er is exact één reële oplossing, namelijk: -1.0
 ```
 
 De vierkantsvergelijking $$2x^2+6x+5 = 0$$ heeft geen reële oplossingen.
 ```
-Er zijn geen reële oplossingen
+Er zijn geen reële oplossingen.
 ```
