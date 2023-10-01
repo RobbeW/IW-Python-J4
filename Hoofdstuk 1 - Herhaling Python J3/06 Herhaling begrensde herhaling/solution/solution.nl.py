@@ -3,7 +3,6 @@ toename = 62770
 jaar = 2023
 
 eindjaar = int( input( "Geef het eindjaar in: " ) )
-print()
 for i in range( jaar, eindjaar):
     jaar += 1
     inwoners += toename
