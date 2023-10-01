@@ -6,7 +6,6 @@ b = float(input("Geef de waarde van b in: "))
 c = float(input("Geef de waarde van c in: "))
 
 # Berekening en printinstructies
-print()
 D = b**2 - 4*a*c
 if D < 0 :
     print( 'Er zijn geen reële oplossingen.' )
@@ -16,7 +15,4 @@ elif D == 0:
 else:
     x1 = round( ( -b + math.sqrt( D ) ) / ( 2 * a ), 2)
     x2 = round( ( -b - math.sqrt( D ) ) / ( 2 * a ), 2)
-    
-    
-    
     print( 'Er zijn twee verschillende reële oplossingen, namelijk', min( x1, x2 ), 'en', max( x1, x2 ) )
