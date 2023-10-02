@@ -3,12 +3,13 @@ Het <a href="https://nl.wikipedia.org/wiki/Getal_van_Ohnesorge" target="_blank">
 Men kan dit getal berekenen via de formule:
 
 $$
-\text{Oh} = \dfrac{\neta}{\sqrt{\rho\cdot d\cdot \sigma}}
+\text{Oh} = \dfrac{\eta}{\sqrt{\rho\cdot d\cdot \sigma}}
 $$
 
-Waarbij neta $$\neta$$ staat voor de **viscositeit** (stroperigheid) van de vloeistof ( in kg/(m·s) ), rho $$\rho$$ de **massadichtheid** van de vloeistof ( in kg/m³ ), $$d$$ de **diameter** van de vloeistofdruppels ( in m ) en tot slot sigma $$\sigma$$ de **oppervlaktespanning** ( in N/m ).
+Waarbij eta $$\eta$$ staat voor de **viscositeit** (stroperigheid) van de vloeistof ( in kg/(m·s) ), rho $$\rho$$ de **massadichtheid** van de vloeistof ( in kg/m³ ), $$d$$ de **diameter** van de vloeistofdruppels ( in m ) en tot slot sigma $$\sigma$$ de **oppervlaktespanning** ( in N/m ).
 
-Een *inkjetprinter* kan bijvoorbeeld enkel werken met vloeistoffen waarvan het getal van Ohnsorge tussen 0,1 en 1,0 ligt.   
+Een *inkjetprinter* kan bijvoorbeeld enkel werken met vloeistoffen waarvan het getal van Ohnsorge tussen 0,1 en 1,0 ligt.
+
 ![Inktdruppels bij een inkjetprinter.](media/inkjet.gif "Inktdruppels bij een inkjetprinter."){:data-caption="Inktdruppels bij een inkjetprinter." width="480px"}
 
 

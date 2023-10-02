@@ -11,5 +11,4 @@ sigma = float(input( 'Geef de oppervlaktespanning in (in N/m): '))
 ohne = round( neta / math.sqrt( rho * d * 10**-6 * sigma), 3)
 
 # Uitvoer
-print()
 print("Het Ohnsorge getal van kleine druppels", vloeistof, "is", str( ohne )+".")
