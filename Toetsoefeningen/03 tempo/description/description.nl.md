@@ -14,11 +14,6 @@ De invoer `12.000` leidt tot uitvoer:
 5.00
 ```
 
-De invoer `10.000` leidt tot uitvoer:
-```
-6.00
-```
-
 De invoer `21.322` leidt tot uitvoer:
 ```
 2.81
