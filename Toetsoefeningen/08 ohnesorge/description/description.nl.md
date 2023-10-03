@@ -16,7 +16,7 @@ Een *inkjetprinter* kan bijvoorbeeld enkel werken met vloeistoffen waarvan het g
 ## Opgave
 Schrijf een programma dat de naam van de vloeistof vraagt en vervolgens **in volgorde** de viscositeit, de massadichtheid, de diameter (**in μm**) en de oppervlaktespanning. 
 
-Tot slot berekent het programma het getal van Ohnesorge geeft dit weer op een specifieke manier. Het getal wordt weergegeven op 3 cijfers na de komma.
+Tot slot berekent het programma het getal van Ohnesorge en geeft het dit weer op een specifieke manier. Het getal wordt weergegeven op 3 cijfers na de komma.
 
 #### Voorbeeld
 Voor `printerinkt` met een viscositeit van `0.015` kg/(m·s), massadichtheid `920` kg/m³, diameter `50` μm en oppervlaktespanning van `0.029` N/m verschijnt er:
