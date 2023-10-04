@@ -1,12 +1,8 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-
 # invoer
 u = int( input( 'Geef u in:' ) )
 z = int( input( 'Geef z in:' ) )
 vertrek = int( input( 'Geef vertrek in:' ) )
 aankomst = int( input( 'Geef aankomst in:' ) )
-
 
 # berekeningen
 v = 4
@@ -34,5 +30,4 @@ if aankomst > 1:
 d = round( ((u / 2)+z-3+v+a) / 10, 2)
 
 # uitvoer
-print('')
 print('Je hebt', d, 'dagen nodig om te herstellen.')
