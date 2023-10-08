@@ -1,4 +1,4 @@
-De <a href='https://nl.wikipedia.org/wiki/Wortelformule' target='_blanc'>wortelformule</a> is **de** algemene methode om een vierkantsvergelijking op te lossen. In de deze opdracht ga je implementeren in Python code.
+De <a href='https://nl.wikipedia.org/wiki/Wortelformule' target='_blanc'>wortelformule</a> is **de** algemene methode om een vierkantsvergelijking op te lossen. In deze opdracht ga je dit implementeren in Python code.
 
 ![wortelformule](media/tattoo.jpeg "De wortelformule"){:data-caption="De oplossingen van een vierkantsvergelijking." width="300px"}
 
