@@ -29,7 +29,8 @@ comparison: exact match
 
 # generate test data
 ntests= 20
-cases = [("016","1780","000")]
+cases = [("016", "1780", "000"),
+         ("140", "7610", "068")]
 while len(cases) < ntests: 
     cases.append( (str(random.randint(0, 999)).zfill(3), 
                    str(random.randint(0, 9999)).zfill(4), 
