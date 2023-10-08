@@ -25,5 +25,5 @@ Voor het bovenstaande voorbeeld zouden de getallen `016`, `1780` en `000` dus le
 
 {: .callout.callout-info}
 > #### Tip
-> Je kan voorloopnullen creëren via `zfill()`, bijvoorbeeld: `str( getal2 ).zfill(4)`. Dit zorgt ervoor dat `getal4` steeds geschreven wordt met voorloopnullen tot er vier tekens zijn.
+> Je kan voorloopnullen creëren via `zfill()`, bijvoorbeeld: `str( getal2 ).zfill(4)`. Dit zorgt ervoor dat `getal2` steeds geschreven wordt met voorloopnullen tot er vier tekens zijn. Indien `getal2 = 17` dan is het vorige gelijk aan `0017`.
 
