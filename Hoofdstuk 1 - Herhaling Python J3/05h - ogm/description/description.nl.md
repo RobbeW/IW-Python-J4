@@ -6,16 +6,12 @@ Vaak wordt aan een overschrijving een gestructureerde mededeling (ogm) toegevoeg
 Deze mededeling bestaat steeds uit **drie getallen** van achtereenvolgens 3, 4 en 5 cijfers.
 
 $$
-016/1780/000\,\,\mathbf{05}
+\mathsf{016/1780/000\,\,\mathbf{05}}
 $$
 
 Er is een mechanisme in deze mededeling ingebouwd, zodat je beschermd bent tegen tikfoutjes. De laatste 2 cijfers (het controlegetal) zijn immers steeds de rest bij deling van alle voorgaande getallen door 97. In het bovenstaande geval zal je merken dat 161 780 000 rest 5 heeft bij een deling door 97.
 
 Indien de rest nul bedraagt wordt het getal 97 als controlegetal gebruikt.
-
-{: .callout.callout-info}
-> #### Tip
-> Gebruik opnieuw de **modulo**-operator `%`. Controleer bijvoorbeeld `161 780 000 % 97`.
 
 Maak nu een programma dat achtereenvolgens een getal van 3, 4 en tot slot opnieuw 3 cijfers vraagt en vervolgens de gestructureerde medeling op het scherm weergeeft.
 
