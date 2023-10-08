@@ -6,7 +6,7 @@ Vaak wordt aan een overschrijving een gestructureerde mededeling (ogm) toegevoeg
 Deze mededeling bestaat steeds uit **drie getallen** van achtereenvolgens 3, 4 en 5 cijfers.
 
 $$
-\mathsf{016/1780/000}\,\,\mathbf{\color{red}{\mathsf{05}}}
+\mathsf{016/1780/000}\,\,\mathbf{\mathsf{05}}
 $$
 
 Er is een mechanisme in deze mededeling ingebouwd, zodat je beschermd bent tegen tikfoutjes. De laatste 2 cijfers (het controlegetal) zijn immers steeds de rest bij deling van alle voorgaande getallen door 97. In het bovenstaande geval zal je merken dat 161 780 000 rest 5 heeft bij een deling door 97.
