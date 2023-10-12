@@ -11,6 +11,4 @@ h = ( a - b )**2 / ( a + b )**2
 P = math.pi * ( a + b ) * ( 1 + 3 * h / ( 10 + math.sqrt(4 - 3 * h ) ) )
 
 # Uitvoer
-print()
 print( "De omtrek van de ellips meet bij benadering:", round( P, 2 ), "cm." )
-
