@@ -29,7 +29,8 @@ comparison: exact match
 
 # generate test data
 ntests = 20
-cases = [(14, 25, 2, 20, 30)]
+cases = [(14, 25, 2, 20, 30),
+         (23, 30, 0, 25, 10)]
 while len(cases) < ntests:
     u1 = random.randint(6,23)
     m1 = random.randint(0,59)
