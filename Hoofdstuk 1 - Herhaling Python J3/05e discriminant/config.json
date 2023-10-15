@@ -1,0 +1,20 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "evaluation": {
+    "pythia_judge": "output"
+  },
+  "description": {
+    "names": {
+      "nl": "Oefening - Discriminant"
+    }
+  },
+  "labels": [
+
+  ],
+  "access": "public",
+  "internals": {
+    "token": "GdWnBu9DnwW6JrnqzNhpFIyw7fxE2rZwupakqTI2ijyw4BPnaH8QAy9aDNDA9w2C",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

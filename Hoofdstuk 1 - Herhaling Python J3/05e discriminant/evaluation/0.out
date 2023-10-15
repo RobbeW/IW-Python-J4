@@ -1,0 +1,66 @@
+Discriminant = -4.0
+Er zijn geen reële oplossingen.
+
+Discriminant = 0.0
+Er is exact één reële oplossing.
+
+Discriminant = 25.0
+Er zijn twee verschillende reële oplossingen.
+
+Discriminant = 48.0
+Er zijn twee verschillende reële oplossingen.
+
+Discriminant = 0.0
+Er is exact één reële oplossing.
+
+Discriminant = -159.5
+Er zijn geen reële oplossingen.
+
+Discriminant = 138.2
+Er zijn twee verschillende reële oplossingen.
+
+Discriminant = 125.2
+Er zijn twee verschillende reële oplossingen.
+
+Discriminant = 21.6
+Er zijn twee verschillende reële oplossingen.
+
+Discriminant = -313.4
+Er zijn geen reële oplossingen.
+
+Discriminant = 98.6
+Er zijn twee verschillende reële oplossingen.
+
+Discriminant = -79.5
+Er zijn geen reële oplossingen.
+
+Discriminant = 97.4
+Er zijn twee verschillende reële oplossingen.
+
+Discriminant = -181.2
+Er zijn geen reële oplossingen.
+
+Discriminant = 77.9
+Er zijn twee verschillende reële oplossingen.
+
+Discriminant = -59.6
+Er zijn geen reële oplossingen.
+
+Discriminant = 134.4
+Er zijn twee verschillende reële oplossingen.
+
+Discriminant = 151.2
+Er zijn twee verschillende reële oplossingen.
+
+Discriminant = 146.4
+Er zijn twee verschillende reële oplossingen.
+
+Discriminant = 110.8
+Er zijn twee verschillende reële oplossingen.
+-----------------------------------------
+tab name: Feedback
+python input without prompt: true
+block count: multi
+input block size: 3
+output block size: ends with
+comparison: exact match

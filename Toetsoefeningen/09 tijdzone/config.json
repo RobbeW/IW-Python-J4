@@ -1,0 +1,20 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "evaluation": {
+    "pythia_judge": "output"
+  },
+  "description": {
+    "names": {
+      "nl": "Tijdzone"
+    }
+  },
+  "labels": [
+    "modulo"
+  ],
+  "access": "public",
+  "internals": {
+    "token": "96y9S4s2HCDddHqEJjis7INhsdR7ZRvCAKuzx4T49XJxQuIsFEvfgc_Zf32kiWR4",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

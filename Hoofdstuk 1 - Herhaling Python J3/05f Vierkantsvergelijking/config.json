@@ -1,0 +1,20 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "evaluation": {
+    "pythia_judge": "output"
+  },
+  "description": {
+    "names": {
+      "nl": "Oefening - Wortelformule"
+    }
+  },
+  "labels": [
+
+  ],
+  "access": "public",
+  "internals": {
+    "token": "2h7abJHAi8HWAGQsQPFMRr6bxexb4n4vBiqNv4q-E2WvqbvWUSzkK9eUvatK4r_H",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

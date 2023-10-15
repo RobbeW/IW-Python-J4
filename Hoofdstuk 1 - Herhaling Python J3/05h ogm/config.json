@@ -1,0 +1,20 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "evaluation": {
+    "pythia_judge": "output"
+  },
+  "description": {
+    "names": {
+      "nl": "Oefening - Gestructureerde mededeling"
+    }
+  },
+  "labels": [
+
+  ],
+  "access": "public",
+  "internals": {
+    "token": "2WGSVCG93hGRYHt-shvbEy3EYb2UcREZuIaT86sKQgiwCRUUd64dC7TYJMV6z7tu",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

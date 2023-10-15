@@ -1,0 +1,20 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "evaluation": {
+    "pythia_judge": "output"
+  },
+  "description": {
+    "names": {
+      "nl": "Ellips"
+    }
+  },
+  "labels": [
+
+  ],
+  "access": "public",
+  "internals": {
+    "token": "jS6MxmAFH8_gbn7iDxNJAD-hx4TXSI7h3a_YEM77nw7drNFbC_7BvV2rJ_sghEX_",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
