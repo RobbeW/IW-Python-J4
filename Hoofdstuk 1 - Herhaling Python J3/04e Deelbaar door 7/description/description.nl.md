@@ -13,7 +13,7 @@ Omdat 21 nu duidelijk deelbaar is door 7 geldt er dat het volledig getal, 3024 o
 ## Gevraagd
 Schrijf een progamma dat een getal vraagt aan de gebruiker en dit proces uitvoert. Steeds twee keer.
 
-#### Voorbeelden
+#### Voorbeeld 1
 De invoer `3024` levert als uitvoer
 ```
 1e stap: Het verschil van 302 en 8 is 294
@@ -21,6 +21,7 @@ De invoer `3024` levert als uitvoer
 Dit is duidelijk deelbaar door 7, dus ook 3024 is deelbaar door 7
 ```
 
+#### Voorbeeld 2
 De invoer `4711` levert als uitvoer
 ```
 1e stap: Het verschil van 471 en 2 is 469
