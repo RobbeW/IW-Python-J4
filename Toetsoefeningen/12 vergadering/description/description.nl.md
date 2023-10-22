@@ -1,6 +1,6 @@
 "Tot hoelang duurt dit nog?" is een vraag die vaak gesteld wordt tijdens schijnbaar nutteloze vergadering.
 
-![During my meeting.](media/meeting.gif "During my meeting."){:data-caption="During my meeting." width="498px"}
+![During my meeting.](media/meeting.gif "During my meeting."){:data-caption="During my meeting." width="320px"}
 
 ## Opgave
 Schrijf een programma dat eerst naar het tijdstip waarop de vergadering start vraagt. Eerst het **startuur**, daarna de bijbehorende **minuten**.

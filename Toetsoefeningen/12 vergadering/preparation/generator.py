@@ -34,7 +34,7 @@ while len(cases) < ntests:
     u1 = random.randint(6,23)
     m1 = random.randint(0,11) * 5
     minuten = random.randint(10,25) * 10
-    pauzes = random.randint(0, minuten // 20 )
+    pauzes = random.randint(0, minuten // 40 )
     cases.append( ( u1, m1, minuten, pauzes ) )
 
 
