@@ -29,9 +29,9 @@ comparison: exact match
 
 # generate test data
 ntests= 20
-cases = [(1.2,),(30,),]
+cases = [(4.3,),(108,),]
 while len(cases) < ntests:
-    v = round( random.uniform(0, 40), 1)
+    v = round( random.uniform(0, 130), 1)
     cases.append( (v, ) )
 
 # configure test files
