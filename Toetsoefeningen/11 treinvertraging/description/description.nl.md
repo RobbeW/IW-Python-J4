@@ -15,7 +15,6 @@ Voor een trein met vertrektijd 14.25 u. en  2 uur en 20 minuten reistijd met 30 
 Je trein komt aan om 17.15 u.
 ```
 
-
 {: .callout.callout-info}
 > #### Tip
-> - Om bij de weergave op het scherm het eindpunt aan het getal vast te *plakken* kan je gebruik maken van `str()` (om een getal om te zetten naar tekst) en `+` (om te concateneren - tekst samenvoegen - zonder spatie).
+> Om het punt `.` tussen de uren en de minuten aan de uren vast te *plakken* kan je gebruik maken van `str()` (om een getal om te zetten naar tekst) en `+` (om te concateneren - tekst samenvoegen - zonder spatie).
