@@ -49,7 +49,7 @@ Een printer kan kleurkopies afdrukken door gebruik te maken van toner, deze beva
 
 Schrijf een programma dat aan de gebruiker het huidige toner-niveau (als percentage) **vraagt**. Afhankelijk van het toner-niveau verschijnt een andere boodschap
 
-- Indien de toner bijna op is (slechts 15% vol), krijgen de mensen van de IT-dienst een melding om een nieuwe toner te bestellen;
+- Indien de toner bijna op is (slechts 25% vol), krijgen de mensen van de IT-dienst een melding om een nieuwe toner te bestellen;
 - Is de toner bijna volledig leeg is (slechts 10% vol), dan verschijnt er een waarschuwing op het scherm van de printen **én** wordt eenzelfde melding naar de IT-dienst gestuurd;
 - Is de toner volledig leeg, dan verschijnt een dwingende melding op het scherm van de printer en kan er niet meer afgedrukt worden. 
 
