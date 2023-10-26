@@ -1,0 +1,29 @@
+\documentclass[dvipsnames,tikz]{standalone}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{decorations.pathreplacing,calligraphy,3d}
+\usetikzlibrary{positioning}
+
+\tikzset{main/.style={draw=black, circle, color=black}}
+
+\newcommand\frames{60}
+
+\begin{document}
+	
+	\foreach \x [evaluate=\x as \ang using (\x/\frames * 6.28), evaluate=\x as \angs using ( \x/\frames * 6.28 * 3 + \ang +3.14)] in {0,...,\frames}{
+		\begin{tikzpicture}[thick, main]
+			\clip (-5.05,-5) rectangle (5,5);
+			\draw[black!75] (\ang r:4cm) circle (1cm);
+			\draw[black!75] (\ang r:4cm)++(\angs r:1cm) -- (\ang r:4cm);
+			
+			\draw[very thick] (0,0) circle (3cm);
+			
+			\draw[smooth,samples=100,domain=0:\ang, very thick, BurntOrange] plot[parametric] function{4*cos(t)-cos(4*t),4*sin(t)-sin(4*t)};
+			
+			\fill[BurntOrange] (\ang r:4cm)++(\angs r:1cm) circle (1.4pt);
+			
+		\end{tikzpicture}
+	}
+\end{document}
