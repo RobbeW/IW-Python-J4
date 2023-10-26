@@ -4,7 +4,7 @@ In de meetkunde is een **epicycloïde** een vlakke kromme die ontstaat door een 
 
 ![DEen epicycloïde](media/image_dark.png "Een epicycloïde"){:data-caption="Een epicycloïde" .dark-only width="30%"}
 
-De oppervlakte $$A$$ van zo'n epicycloïde (de rode figuur) valt eenvoudig te berekenen via de formule:
+De oppervlakte $$A$$ van zo'n epicycloïde (de oranje figuur) valt eenvoudig te berekenen via de formule:
 
 $$
     A = (k+1)\cdot (k+2)\cdot \pi r^2
