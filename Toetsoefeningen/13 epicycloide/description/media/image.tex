@@ -14,7 +14,7 @@
 	
 	\foreach \x [evaluate=\x as \ang using (\x/\frames * 6.28), evaluate=\x as \angs using ( \x/\frames * 6.28 * 3 + \ang +3.14)] in {0,...,\frames}{
 		\begin{tikzpicture}[thick, main, line join=bevel]
-			\clip (-5.05,-5) rectangle (5,5);
+			\clip (-5.05,-5.05) rectangle (5.05,5.05);
 			\draw[black!75,line width=0.5mm] (\ang r:4cm) circle (1cm);
 			\draw[black!75,line width=0.5mm] (\ang r:4cm)++(\angs r:1cm) -- (\ang r:4cm);
 			
