@@ -4,8 +4,7 @@
   "access": "public",
   "description": {
     "names": {
-      "nl": "1.5 - Herhaling Voorwaardelijke herhaling",
-      "en": "1.5 - While Function"
+      "nl": "Herhaling voorwaardelijke herhaling"
     }
   },
   "evaluation": {
