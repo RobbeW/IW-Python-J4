@@ -1,21 +1,18 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "access": "public",
-  "description": {
-    "names": {
-      "nl": "1.9 - Oefening 4 – Exponentiële Groei op Hydrocultuur",
-      "en": "1.9 - Ex. 4 - Exponential Growth on Hydro Culture"
-    }
-  },
   "evaluation": {
     "pythia_judge": "output"
   },
+  "description": {
+    "names": {
+      "nl": "Oefening - Bacteriën"
+    }
+  },
   "labels": [
-    "python",
-    "VBTL"
+
   ],
-  "contact": "Robbe W <robbe.wulgaert@sintlievenscollege.be>",
+  "access": "public",
   "internals": {
     "token": "xYZXXBFFRA4_n5YyxvPcmYPIUfqTefe32TqbaiuXxB6bVBCwePNrS9XEgtRDzMAv",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
