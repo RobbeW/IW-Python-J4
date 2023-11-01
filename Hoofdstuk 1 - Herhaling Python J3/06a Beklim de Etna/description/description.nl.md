@@ -7,7 +7,9 @@ Eenmaal op reis wil de groep vrienden van Laura <a href="https://nl.wikipedia.or
 ![De Etna tijdens een actieve periode.](media/shawn-appel.jpg "Foto door Shawn Appel op Unsplash."){:data-caption="De Etna tijdens een actieve periode." width="40%"}
 
 ## Opgave
-Schrijf een programma dat de temperatuur op het vertrekpunt vraagt en daarna voor elke stijging van 100 m de temperatuur berekent en weergeeft. Herhaal dit tot het eindpunt (2 900 meter boven de zeespiegel) werd bereikt. **Rond** de temperatuur steeds **af** op 0,1°C.
+Schrijf een programma dat de temperatuur op het vertrekpunt vraagt en daarna voor elke stijging van 100 m de temperatuur berekent en weergeeft. Herhaal dit tot het eindpunt (2 900 meter boven de zeespiegel) werd bereikt. 
+
+**Rond** de temperatuur steeds **af** op 0,1°C.
 
 #### Voorbeeld
 Bij een starttemperatuur van 27,3°C verschijnt:
