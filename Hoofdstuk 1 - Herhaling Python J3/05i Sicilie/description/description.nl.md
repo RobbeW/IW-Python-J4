@@ -1,5 +1,7 @@
 Laura en haar groep vrienden plannen een reis naar Sicilië. Ze gaan negen dagen op reis. Er zijn twee verschillende huisjes waaruit ze kunnen kiezen, met elk hun eigen voordeelformule. Afhankelijk van hoeveel vrienden op reis gaan, zou een van de twee formules het voordeligst kunnen zijn. Help jij Laura kiezen? 
 
+![Op reis naar Italië.](media/davide-ragusa.jpg "Op reis naar Italië."){:data-caption="Op reis naar Italië." width="40%"}
+
 #### Verblijf 1
 - per reiziger kost het € 55 per dag; 
 - als er drie reizigers zijn, krijgen ze 10% korting; 
