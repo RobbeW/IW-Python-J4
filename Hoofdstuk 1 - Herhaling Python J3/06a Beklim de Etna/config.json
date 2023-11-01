@@ -1,21 +1,18 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "access": "public",
-  "description": {
-    "names": {
-      "nl": "1.11 - Oefening 6 – Beklim de Etna",
-      "en": "1.11 - Ex. 6 - Climbing the Etna"
-    }
-  },
   "evaluation": {
     "pythia_judge": "output"
   },
+  "description": {
+    "names": {
+      "nl": "Oefening - Beklim de Etna"
+    }
+  },
   "labels": [
-    "python",
-    "VBTL"
+
   ],
-  "contact": "Robbe W <robbe.wulgaert@sintlievenscollege.be>",
+  "access": "public",
   "internals": {
     "token": "cDtS86qzgCkn8H3yy9eQFXv27KU_cBnjZxB42K_mV4niVWvTQNgnS33JKTrN8bD8",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
