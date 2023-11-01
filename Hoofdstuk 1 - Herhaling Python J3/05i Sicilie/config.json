@@ -1,21 +1,18 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "access": "public",
-  "description": {
-    "names": {
-      "nl": "1.10 - Oefening 5 – Op Reis naar Sicilië",
-      "en": "1.10 - Ex. 5 - Travelling to Sicily"
-    }
-  },
   "evaluation": {
     "pythia_judge": "output"
   },
+  "description": {
+    "names": {
+      "nl": "Oefening - Op reis naar Sicilië"
+    }
+  },
   "labels": [
-    "python",
-    "VBTL"
+
   ],
-  "contact": "Robbe W <robbe.wulgaert@sintlievenscollege.be>",
+  "access": "public",
   "internals": {
     "token": "wgxc49awFAJyE-UAHNqDh9detDxrHGkNJBkr-bv6ZqdmvyBGJ5DEbJmPtt-bWTZA",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
