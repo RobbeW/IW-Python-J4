@@ -1,8 +1,8 @@
-Bacteriën vormen een domein van eencellige, soms in kolonies levende micro-organismen, ze kunnen zich zeer snel vermeerderen door binaire deling. Over het algemeen zijn ze zeer klein, dat ze alleen onder een microscoop zichtbaar zijn. De meeste bacteriën zijn **niet schadelijk** maar **juist onmisbaar** voor het leven op aarde en onontbeerlijk voor de gezondheid van plant, dier en mens. 
+Bacteriën vormen een domein van eencellige, soms in kolonies levende micro-organismen, ze kunnen zich zeer snel vermeerderen door binaire deling (verdubbeling van het aantal cellen). Over het algemeen zijn ze zeer klein, dat ze alleen onder een microscoop zichtbaar zijn. De meeste bacteriën zijn **niet schadelijk** maar **juist onmisbaar** voor het leven op aarde en onontbeerlijk voor de gezondheid van plant, dier en mens. 
 
 ![Exponentiële groei van een kolonie bacteriën.](media/bacteria.gif "Exponentiële groei van een kolonie bacteriën."){:data-caption="DExponentiële groei van een kolonie bacteriën." width="334px"}
 
-<a href="https://nl.wikipedia.org/wiki/Escherichia_coli" target="_blank">Escherichia coli</a> is een voorbeeld van een bacterie waarbij een celdeling ongeveer **elke 20 minuten** optreedt.
+<a href="https://nl.wikipedia.org/wiki/Escherichia_coli" target="_blank">Escherichia coli</a> is een voorbeeld van een bacterie waarbij een celdeling (verdubbeling) ongeveer **elke 20 minuten** optreedt.
 
 ## Opgave
 Schrijf een programma dat aan de gebruiker in volgorde naar een startaantal bacteriën en een tijdsduur (in minuten) vraagt. Vervolgens laat je het uiteindelijke aantal bacterieën berekenen. Geef ook het aantal bacteriën **na elke celdeling** op het scherm weer.
