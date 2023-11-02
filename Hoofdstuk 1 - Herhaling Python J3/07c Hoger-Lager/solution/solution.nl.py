@@ -1,5 +1,4 @@
 import random
-random.seed(123)
 
 # Initialisatie
 getal = random.randint( 1, 1000 )
@@ -11,12 +10,12 @@ while not geraden:
     gok = int( input( "Gok een getal: " ) )
     aantal += 1
     if gok > getal:
-        print( "Lager" )
+        print( "Het getal is lager dan", gok )
     elif gok < getal:
-        print( "Hoger" )
+        print( "Het getal is hoger dan", gok )
     else:
         geraden = True
         if aantal == 1:
-            print("Je hebt het meteen geraden!")
+            print("Je hebt", getal, "meteen geraden!")
         else:
-            print("Je hebt het geraden in", aantal, "pogingen!")
+            print("Je hebt", getal, "geraden in", aantal, "pogingen!")

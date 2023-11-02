@@ -44,8 +44,8 @@
               },
               "output": {
                 "stdout": {
-                  "data": "Gok een getal: Je hebt het meteen geraden!",
-                  "type": "text"
+                  "type": "text",
+                  "data": "Gok een getal: Je hebt het meteen geraden!"
                 }
               }
             }
