@@ -6,4 +6,3 @@ Schrijf een programma dat een willekeurig getal neemt tussen 1 en 1000. Het prog
 > #### Tip
 > - Voor test-doeleinden kan het slim zijn om het te raden getal op het scherm te laten zien, totdat je zeker weet dat het programma goed werkt.
 > - Gebruik `random.randint( 1, 1000 )` om een willekeurig getal tussen 1 en 1000 door de computer te laten genereren.
-

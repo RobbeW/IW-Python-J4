@@ -21,7 +21,7 @@
               "output": {
                 "stdout": {
                   "type": "text",
-                  "data": "Resolved with the evaluator function"
+                  "data": "Gok een getal: Lager\nGok een getal: Lager\nGok een getal: Lager\nGok een getal: Lager\nGok een getal: Hoger\nGok een getal: Hoger\nGok een getal: Je hebt het geraden in 7 pogingen!"
                 }
               }
             }
@@ -44,7 +44,7 @@
               },
               "output": {
                 "stdout": {
-                  "data": "Gok een getal: Aantal pogingen: 1",
+                  "data": "Gok een getal: Je hebt het meteen geraden!",
                   "type": "text"
                 }
               }
