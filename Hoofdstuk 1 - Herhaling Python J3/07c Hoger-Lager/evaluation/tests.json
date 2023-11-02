@@ -1,0 +1,57 @@
+{
+  "tabs": [
+    {
+      "name": "Feedback",
+      "contexts": [
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed(123)"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren van de code met seed 123 leidt tot:",
+              "input": {
+                "stdin": {
+                    "type": "text",
+                    "data": "500\n250\n125\n62\n31\n46\n54"
+                  }
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "Resolved with the evaluator function"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "before": {
+            "python": {
+              "data": "import random; random.seed(524)"
+            }
+          },
+          "testcases": [
+            {
+              "description": "Uitvoeren van de code met seed 524 leidt tot:",
+              "input": {
+                "stdin": {
+                    "type": "text",
+                    "data": "231"
+                  }
+              },
+              "output": {
+                "stdout": {
+                  "data": "Gok een getal: Aantal pogingen: 1",
+                  "type": "text"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

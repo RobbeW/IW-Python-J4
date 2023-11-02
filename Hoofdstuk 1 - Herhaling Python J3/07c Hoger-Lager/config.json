@@ -1,0 +1,17 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "evaluation": {
+    "handler": "TESTed",
+    "test_suite": "tests.json"
+  },
+  "description": {
+    "names": {
+      "nl": "Oefening - Hoger-Lager"
+    }
+  },
+  "labels": [
+
+  ],
+  "access": "public"
+}
