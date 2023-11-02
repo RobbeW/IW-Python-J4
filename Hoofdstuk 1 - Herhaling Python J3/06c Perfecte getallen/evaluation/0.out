@@ -1,0 +1,32 @@
+6 is een perfect getal.
+
+10 is geen perfect getal.
+
+25 is geen perfect getal.
+
+28 is een perfect getal.
+
+315 is geen perfect getal.
+
+442 is geen perfect getal.
+
+496 is een perfect getal.
+
+4998 is geen perfect getal.
+
+7266 is geen perfect getal.
+
+8128 is een perfect getal.
+
+8903 is geen perfect getal.
+
+102452 is geen perfect getal.
+
+33550336 is een perfect getal.
+-----------------------------------------
+tab name: Feedback
+python input without prompt: true
+block count: multi
+input block size: 1
+output block size: ends with
+comparison: exact match
