@@ -8,5 +8,4 @@ while getal > 0:
     getal //= 10
 
 # En weergeven
-print()
 print( "De getalsom is", str(som) + "." )
