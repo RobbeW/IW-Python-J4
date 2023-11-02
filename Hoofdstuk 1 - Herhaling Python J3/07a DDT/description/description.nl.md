@@ -1,6 +1,6 @@
 Dichloordifenyltrichloorethaan of <a href="https://nl.wikipedia.org/wiki/Dichloordifenyltrichloorethaan" target="_blank">DDT</a> is een chemische insecticide die midden de jaren 1900 frequent gebruikt werd. Het werd pas later duidelijk dat de stof een zeer grote impact had op het milieu. Daarnaast bleek het grootschalige gebruik te leiden tot verminderde vruchtbaarheid, meer geboortedefecten, enz... Pas in 1972 werd het gebruik van DDT verboden werd in de Verenigde Staten.
 
-![Poster van "Office of War Information" ca. 1943.](media/poster.jpg "Poster van "Office of War Information" ca. 1943. "){:data-caption="Poster van "Office of War Information" ca. 1943." width="30%"}
+![Poster van 'Office of War Information' ca. 1943.](media/poster.jpg "Poster van 'Office of War Information' ca. 1943."){:data-caption="Poster van 'Office of War Information' ca. 1943." width="30%"}
 
 
 ## Opgave
