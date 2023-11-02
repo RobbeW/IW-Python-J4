@@ -1,21 +1,18 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "access": "public",
-  "description": {
-    "names": {
-      "nl": "1.8 - Oefening 3 - Lineaire Groei op Hydrocultuur",
-      "en": "1.8 - Ex. 3 - Liniair Growth on Hydro Culture"
-    }
-  },
   "evaluation": {
     "pythia_judge": "output"
   },
+  "description": {
+    "names": {
+      "nl": "Oefening - DDT"
+    }
+  },
   "labels": [
-    "python",
-    "VBTL"
+
   ],
-  "contact": "Robbe W <robbe.wulgaert@sintlievenscollege.be>",
+  "access": "public",
   "internals": {
     "token": "E5qpBn4TMP8GTMbw4QYNMhtsKcr8WxTb66SNK6FT8KCDnZqkwbEduMh7SV5m5Tz3",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
