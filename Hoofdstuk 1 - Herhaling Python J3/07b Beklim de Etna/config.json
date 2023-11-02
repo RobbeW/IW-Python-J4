@@ -1,21 +1,18 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "access": "public",
-  "description": {
-    "names": {
-      "nl": "1.12 - Oefening 7 – Tussenstop op de Etna",
-      "en": "1.12 - Ex. 7 - Resting Stop on the Etna"
-    }
-  },
   "evaluation": {
     "pythia_judge": "output"
   },
+  "description": {
+    "names": {
+      "nl": "Oefening - Beklim de Etna"
+    }
+  },
   "labels": [
-    "python",
-    "VBTL"
+
   ],
-  "contact": "Robbe W <robbe.wulgaert@sintlievenscollege.be>",
+  "access": "public",
   "internals": {
     "token": "5K-H29Sg6MamdPFG6WZXWx4_utepW-TAE6AWye3JmFU_dpaK7emIduNe-y9wzBXf",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
