@@ -9,7 +9,7 @@ if snelheid >= 50:
     print( "Deze persoon fietst te snel, er volgt een boete." )
 elif snelheid > 36:
     print( "Deze persoon fietst waarschijnlijk met een speedpedelec." )
-elif snelheid < 25:
-    print( "Dit is waarschijnlijk een reguliere fietser." )
-else:
+elif snelheid >= 25:
     print( "Het gaat hier waarschijnlijk om een (lichte) e-bike.")
+else:
+    print( "Dit is waarschijnlijk een reguliere fietser." )
