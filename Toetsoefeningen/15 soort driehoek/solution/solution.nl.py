@@ -18,7 +18,6 @@ else:
     z = b
 
 # Weergave op het scherm
-print()
 if x**2 < y**2 + z**2:
     print("De driehoek is scherphoekig.")
 elif x**2 > y**2 + z**2:
