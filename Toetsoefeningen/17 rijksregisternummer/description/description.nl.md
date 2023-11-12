@@ -21,9 +21,15 @@ De achtereenvolgende invoer van `1990`, `2`, `1` en `997` leidt dus tot:
 Het rijksregisternummer is 90.02.01-997-04.
 ```
 
-Is een vrouw geboren op 25 januari 2003, dan is een mogelijk nummer `03.01.25-224-95`. Immers, de rest van `2030125224` gedeeld door 97 is 2. Het verschil van 97 en de rest levert 97 - 2 = 95 op. 
+Is een vrouw geboren op 25 januari 2003, dan is een mogelijk nummer `03.01.25-224-95`. Immers, de rest van 2030125224 gedeeld door 97 is 2. Het verschil van 97 en de rest levert 97 - 2 = 95 op. Omdat het geboortejaar meer dan het jaar 2000 is, werd 2000000000 toegevoegd tijdens de berekening.
 
 De achtereenvolgende invoer van `2003`, `1`, `25` en `224` leidt dus tot:
 ```
 Het rijksregisternummer is 03.01.25-224-95.
 ```
+
+{: .callout.callout-info}
+> #### Tips
+> - Gebruik `% 100`.
+> - Je kan voorloopnullen creëren via `zfill()`, bijvoorbeeld: `str( dagteller ).zfill(3)`. Dit zorgt ervoor dat `dagteller` steeds geschreven wordt met voorloopnullen tot er vier tekens zijn. Indien `dagteller = 17` dan is het vorige gelijk aan `003`.
+
