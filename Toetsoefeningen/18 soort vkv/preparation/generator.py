@@ -29,7 +29,7 @@ comparison: exact match
 
 # generate test data
 ntests= 20
-cases = [(1.0,0.0,-4.0), (1.0,2.0,1.0)]
+cases = [(1.0,0.0,-4.0), (1.0,2.0,1.0), (5.0,0.0,0.0)]
 while len(cases) < ntests:
     a = round(random.uniform(-4,4),1)
     b = round(random.uniform(-4,4),1)
