@@ -8,11 +8,6 @@ Het eerste levensjaar van een kat telt meteen voor 15 mensenjaren. Het volgende 
 Schrijf een programma dat aan de gebruiker de leeftijd van de kat vraagt (in katjaren). Vervolgens drukt dit het aantal benaderde mensenjaren af.
 
 #### Voorbeelden
-Voor de invoer `4` verschijnt:
-```
-Een kat van 4 jaar is 32 jaar in mensenjaren!
-```
-
 Voor invoer `1` verschijnt:
 ```
 Een kat van 1 jaar is 15 jaar in mensenjaren!
@@ -21,4 +16,9 @@ Een kat van 1 jaar is 15 jaar in mensenjaren!
 Voor invoer `2` verschijnt:
 ```
 Een kat van 2 jaar is 24 jaar in mensenjaren!
+```
+
+Voor de invoer `4` verschijnt:
+```
+Een kat van 4 jaar is 32 jaar in mensenjaren!
 ```
