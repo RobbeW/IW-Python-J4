@@ -23,17 +23,17 @@ Schrijf een programma dat voor een gegeven vergelijking **in volgorde** naar de 
 Het is **niet toegelaten** in deze oefening om de discrimant uit te rekenen.
 
 #### Voorbeelden
-Voor vierkantsvergelijking $$\mathsf{ 4x^2 -12x + 9 = 0}$ verschijnt er:
+Voor vierkantsvergelijking $$\mathsf{ 4x^2 -12x + 9 = 0}$$ verschijnt er:
 ```
 Deze vkv kan eenvoudiger geschreven worden.
 ```
 
-Voor vierkantsvergelijking $$\mathsf{ 4x^2 -6x + 9 = 0}$ verschijnt er:
+Voor vierkantsvergelijking $$\mathsf{ 4x^2 -6x + 9 = 0}$$ verschijnt er:
 ```
 Deze vkv kan niet eenvoudiger geschreven worden.
 ```
 
-Voor vierkantsvergelijking $$\mathsf{ 4x^2 +12x - 9 = 0}$ verschijnt er:
+Voor vierkantsvergelijking $$\mathsf{ 4x^2 +12x - 9 = 0}$$ verschijnt er:
 ```
 Deze vkv kan niet eenvoudiger geschreven worden.
 ```
