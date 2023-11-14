@@ -22,3 +22,7 @@ Voor de invoer `4` verschijnt:
 ```
 Een kat van 4 jaar is 32 jaar in mensenjaren!
 ```
+
+{: .callout.callout-info}
+> #### Tip
+> Bereken op papier met hoeveel mensenjaren een kat van 1,2 3, 4, enz ... overeenkomt. Bepaal op deze manier het patroon.
