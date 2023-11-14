@@ -41,7 +41,7 @@ Deze vkv kan niet naar een kwadraat herleid worden.
 {: .callout.callout-info}
 > #### Tips
 > - Noteer zelf nog een ander voorbeeld van een vierkantsvergelijking die te herleiden valt.
-> - Je mag er van uit gaan dat de coëfficienten steeds geheel zijn.
+> - Je mag ervan uitgaan dat de coëfficienten steeds geheel zijn.
 > - Gebruik `import math`.
 > - De coëfficienten kunnen negatief zijn... Hou daarmee, indien nodig, rekening.
 
