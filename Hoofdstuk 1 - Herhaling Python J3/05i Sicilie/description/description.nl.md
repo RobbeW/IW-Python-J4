@@ -14,7 +14,7 @@ Laura en haar groep vrienden plannen een reis naar Sicilië. Ze gaan negen dagen
 - als er zes reizigers zijn, verblijven twee reizigers volledig gratis. 
 
 ## Opgave
-Schrijf een programma dat de gebruiker vraagt naar het aantal reizigers. Bereken daarna de kostrpijs voor beide formules en toon deze kostprijzen op het scherm. Geef ook weer welke keuze het voordeligst is.
+Schrijf een programma dat de gebruiker vraagt naar het aantal reizigers. Bereken daarna de kostprijs voor beide formules en toon deze kostprijzen op het scherm. Geef ook weer welke keuze het voordeligst is.
 
 #### Voorbeeld
 Voor twee reizigers verschijnt er:
