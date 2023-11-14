@@ -1,6 +1,6 @@
-Een vierkantsvergelijking is een vergelijking van de vorm:
+Een **volledige** vierkantsvergelijking is een vergelijking van de vorm:
 
-$$\mathsf{ ax^2+bx+c = 0 \qquad \text{met } a\not = 0}$$
+$$\mathsf{ ax^2+bx+c = 0 \qquad \text{met } a\not = 0, b\not = 0, c \not = 0}$$
 
 Bij sommige vierkantsvergelijkingen is de veelterm van de tweede graad te schrijven als een **kwadraat van een som**. Beschouw bijvoorbeeld het onderstaande voorbeeld:
 
@@ -25,17 +25,17 @@ Het is **niet toegelaten** in deze oefening om de discrimant uit te rekenen.
 #### Voorbeelden
 Voor vierkantsvergelijking $$\mathsf{ 4x^2 -12x + 9 = 0}$$ verschijnt er:
 ```
-Deze vkv kan eenvoudiger geschreven worden.
+Deze vkv kan meteen naar een kwadraat herleid worden.
 ```
 
 Voor vierkantsvergelijking $$\mathsf{ 4x^2 -6x + 9 = 0}$$ verschijnt er:
 ```
-Deze vkv kan niet eenvoudiger geschreven worden.
+Deze vkv kan niet naar een kwadraat herleid worden.
 ```
 
 Voor vierkantsvergelijking $$\mathsf{ 4x^2 +12x - 9 = 0}$$ verschijnt er:
 ```
-Deze vkv kan niet eenvoudiger geschreven worden.
+Deze vkv kan niet naar een kwadraat herleid worden.
 ```
 
 {: .callout.callout-info}

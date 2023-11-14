@@ -35,24 +35,25 @@ while len(cases) < ntests:
     b = random.randint(-20,20)
     c = random.randint(-10,10)
     decision = random.randint(0,4)
-    if decision == 1: # ja, pos en dubbel
-        b = 2*a*c
-        a = a**2
-        c = c**2
-    elif decision == 2: # ja, neg, en dubbel
-        b = 2*a*c
-        a = -a**2
-        c = -c**2
-    elif decision == 3: #nee, - aan de ene kant
-        b = 2*a*c
-        if random.randint(0,1) == 0:
-            a = -a**2
-            c = c**2
-        else:
+    if a != 0 and c != 0 and b != 0:
+        if decision == 1: # ja, pos en dubbel
+            b = 2*a*c
             a = a**2
+            c = c**2
+        elif decision == 2: # ja, neg, en dubbel
+            b = 2*a*c
+            a = -a**2
             c = -c**2
+        elif decision == 3: #nee, - aan de ene kant
+            b = 2*a*c
+            if random.randint(0,1) == 0:
+                a = -a**2
+                c = c**2
+            else:
+                a = a**2
+                c = -c**2
     
-    cases.append( (a, b, c) )
+        cases.append( (a, b, c) )
 
 # configure test files
 infile = open(os.path.join(evaldir, '0.in'), 'w')
