@@ -1,4 +1,4 @@
-![Een lol-cat.](media/lol-cat.gif "Een lol-cat."){:data-caption="Een lol-cat." width="300px"}
+![Een lol-cat.](media/lol-cat.gif "Een lol-cat."){:data-caption="Een lol-cat." width="200px"}
 
 De meeste mensen geloven dat één levensjaar van een kat overeenkomt met zeven mensenjaren. Maar in realiteit is een kat van één jaar veel meer matuur dan een kind van zeven. Er lijkt voldoende consensus te zijn om dit op een andere manier te berekenen.
 
@@ -25,4 +25,4 @@ Een kat van 4 jaar is 32 jaar in mensenjaren!
 
 {: .callout.callout-info}
 > #### Tip
-> Bereken op papier met hoeveel mensenjaren een kat van 1,2 3, 4, enz ... overeenkomt. Bepaal op deze manier het patroon.
+> Bereken op papier met hoeveel mensenjaren een kat van 1, 2, 3, 4, enz ... overeenkomt. Bepaal op deze manier het patroon.
