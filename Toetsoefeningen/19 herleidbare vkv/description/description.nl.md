@@ -42,5 +42,5 @@ Deze vkv kan niet eenvoudiger geschreven worden.
 > #### Tips
 > - Je mag er van uit gaan dat de coëfficienten steeds geheel zijn.
 > - Gebruik `import math`.
-> - De coëfficienten kunnen negatief zijn... Hou daarmee indien nodig rekening.
+> - De coëfficienten kunnen negatief zijn... Hou daarmee, indien nodig, rekening.
 
