@@ -28,8 +28,8 @@ comparison: exact match
 '''
 
 # generate test data
-ntests= 20
-cases = [(25.6,3),(514.6,12), (350, 3), (100,13)]
+ntests= 30
+cases = [(25.6,3),(514.6,12), (350.0, 3), (349.9,7), (349.0,2), (100.0,13), (99.7,5)]
 while len(cases) < ntests:
     cases.append( ( round(random.uniform(1, 999), 1), random.randint(1,20) ) )
 
