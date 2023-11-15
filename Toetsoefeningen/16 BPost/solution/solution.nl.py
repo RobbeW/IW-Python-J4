@@ -19,4 +19,5 @@ else:
         multi = 3.78
 
 # Weergave
+print()
 print( 'U dient EUR', round( aantal * multi, 2), 'te betalen.' )

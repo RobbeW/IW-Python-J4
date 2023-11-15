@@ -5,9 +5,9 @@ BPost hanteert de volgende tarieven voor verzending van pakjes binnen België. H
 
 | massa| eenheidsprijs | eenheidsprijs bij 10 of meer pakjes
 |:--------:|:-----------:|:--------:|
-| [0 g, 100 g[| € 3,78 | € 3,72 |
+| ]0 g, 100 g[| € 3,78 | € 3,72 |
 | [100 g, 350 g[ | € 5,67 | € 5,58 |
-| [350 g, 1 kg[ | € 9,45 | € 9,30
+| [350 g, ... | € 9,45 | € 9,30
 {:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
 
 ## Opgave
@@ -18,6 +18,7 @@ Voor achtereenvolgende invoer `25.6` en `3` verschijnt
 ```
 U dient EUR 11.34 te betalen.
 ```
+
 Voor achtereenvolgende invoer `514.6` en `12` verschijnt
 ```
 U dient EUR 111.6 te betalen.
