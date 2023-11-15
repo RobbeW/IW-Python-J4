@@ -4,18 +4,9 @@ b = float( input( "Voer de lengte van de tweede zijde in: " ) )
 c = float( input( "Voer de lengte van de derde zijde in: " ) )
 
 # Bepalen van de langste zijde
-if a > b and a > c:
-    x = a
-    y = b
-    z = c
-elif b > a and b > c:
-    x = b
-    y = a
-    z = c
-else:
-    x = c
-    y = a
-    z = b
+x = max( a, b, c )
+y = min( a, b, c )
+z = a + b + c - ( x + y )
 
 # Weergave op het scherm
 if x**2 < y**2 + z**2:
