@@ -31,6 +31,8 @@ Schrijf een programma dat:
 - indien het jaartal deelbaar is door tien, het jaartal en het aantal inwoners weergeeft op het scherm;
 - het aantal inwoners in 2070 weergeeft op het scherm.  
 
+Het aantal Belgen wordt op het einde **steeds** weergeven, onafhankelijk of het eindjaar deelbaar is door 10.
+
 Vul onderstaande variabelen `inwoners` en `toename` aan met de **juiste waarden**.
 
 #### Voorbeeld
