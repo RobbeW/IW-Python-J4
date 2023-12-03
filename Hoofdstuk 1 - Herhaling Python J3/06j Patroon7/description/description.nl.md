@@ -22,6 +22,7 @@ Geeft de gebruiker `6` in, dan verschijnt er:
  *****
 ******
  *****
+  ****
    ***
     **
      *
