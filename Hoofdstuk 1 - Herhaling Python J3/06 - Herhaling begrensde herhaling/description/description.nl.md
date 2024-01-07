@@ -21,21 +21,18 @@ range( 0, 8, 2 ) # i is achtereenvolgens 0, 2, 4, 6
 
 ## Opgave
 
-Elk jaar groeit de bevolking van België aan met 62 770 inwoners. Dit door een combinatie van geboortecijfers (nataliteit die hoger ligt dan de mortaliteit) en immigratie. Op 1 januari 2023 telde België 11 697 557 inwoners.
+Elk jaar groeit de bevolking van België aan met ongeveer 62 770 inwoners. Dit door een combinatie van geboortecijfers (nataliteit die hoger ligt dan de mortaliteit) en immigratie. Op 1 januari 2023 telde België 11 697 557 inwoners.
 
-Voor de begrotingsopmaak en de staatsschuld wil men berekenen hoeveel Belgen er zullen zijn in het jaar 2070. 
+Voor de begrotingsopmaak en de staatsschuld wil men berekenen hoeveel Belgen er zullen zijn in een eindjaar. 
 
 Schrijf een programma dat:
 - Het eindjaar vraagt (bvb 2070);
-- per jaar berekent hoeveel inwoners België volgens de verwachtingen zal tellen;
-- indien het jaartal deelbaar is door tien, het jaartal en het aantal inwoners weergeeft op het scherm;
-- het aantal inwoners in 2070 weergeeft op het scherm.  
-
-Het aantal Belgen wordt op het einde **steeds** weergeven, onafhankelijk of het eindjaar deelbaar is door 10.
+- per jaar berekent hoeveel inwoners België volgens de verwachtingen zal tellen (op 1 januari van dat jaar);
+- **indien** het jaartal deelbaar is door tien, het jaartal en het aantal inwoners weergeeft op het scherm;
 
 Vul onderstaande variabelen `inwoners` en `toename` aan met de **juiste waarden**.
 
-#### Voorbeeld
+#### Voorbeelden
 
 Bij een invoer van `2070` krijgt men de volgende uitvoer:
 ```
@@ -46,3 +43,7 @@ In 2060 verwacht men 14020047 inwoners in België.
 In 2070 verwacht men 14647747 inwoners in België.
 ```
 
+Bij een invoer van `2030` krijgt men de volgende uitvoer:
+```
+In 2030 verwacht men 12136947 inwoners in België.
+```
