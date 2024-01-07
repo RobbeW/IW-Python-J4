@@ -1,7 +1,7 @@
 Onderstaande **oneindige** som noemt men in de wiskunde een **reeks**.
 
 $$
-\mathdsf{\dfrac{1}{2} + \dfrac{1}{4} +\dfrac{1}{8}+\dfrac{1}{16}+\dfrac{1}{32}+\ldots}
+\mathsf{\dfrac{1}{2} + \dfrac{1}{4} +\dfrac{1}{8}+\dfrac{1}{16}+\dfrac{1}{32}+\ldots}
 $$
 
 Het valt vrij eenvoudig te bewijzen dat deze **oneindige** som uitrekenen in het getal 1 resulteert. Hieronder zie je een *meetkundig bewijs*, de volledige reeks vult namelijk een vierkant met oppervlakte 1.
@@ -13,13 +13,13 @@ Het valt vrij eenvoudig te bewijzen dat deze **oneindige** som uitrekenen in het
 Een **oneindige** som kan je in realiteit niet uitvoeren, maar je kan deze wel benaderen via een **partieelsom**. Zo is de partieelsom van de eerste 2 termen gelijk aan:
 
 $$
-\mathdsf{\dfrac{1}{2} + \dfrac{1}{4} = 0,75}
+\mathsf{\dfrac{1}{2} + \dfrac{1}{4} = 0,75}
 $$
 
 En de partieelsom van de eerste 4 termen:
 
 $$
-\mathdsf{\dfrac{1}{2} + \dfrac{1}{4} + \dfrac{1}{8}+ \dfrac{1}{16} = 0,9375}
+\mathsf{\dfrac{1}{2} + \dfrac{1}{4} + \dfrac{1}{8}+ \dfrac{1}{16} = 0,9375}
 $$
 
 ## Opgave
