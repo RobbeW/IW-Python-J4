@@ -7,13 +7,13 @@ Bacteriën vormen een domein van eencellige, soms in kolonies levende micro-orga
 ## Opgave
 Schrijf een programma dat aan de gebruiker in volgorde naar een startaantal bacteriën en een tijdsduur (in minuten) vraagt. Vervolgens laat je het uiteindelijke aantal bacterieën berekenen. Geef ook het aantal bacteriën **na elke celdeling** op het scherm weer.
 
-Geef nadien ook weer met **hoeveel procent** het aantal bacteriën **toegenomen** is.
+Geef nadien ook weer met **hoeveel** het aantal bacteriën **toegenomen** is.
 
 #### Voorbeelden
 Begint men met `43` bacteriën en wacht men `20` minuten dan verschijnt:
 ```
 Na 20 minuten zijn er 86 bacteriën.
-Het aantal is toegenomen met ongeveer 200%.
+Het startaantal werd met 2 vermenigvuldigd!
 ```
 
 Begint men met `43` bacteriën en wacht men `173` minuten dan verschijnt:
@@ -26,5 +26,5 @@ Na 100 minuten zijn er 1376 bacteriën.
 Na 120 minuten zijn er 2752 bacteriën.
 Na 140 minuten zijn er 5504 bacteriën.
 Na 160 minuten zijn er 11008 bacteriën.
-Het aantal is toegenomen met ongeveer 25600%.
+Het startaantal werd met 256 vermenigvuldigd!
 ```

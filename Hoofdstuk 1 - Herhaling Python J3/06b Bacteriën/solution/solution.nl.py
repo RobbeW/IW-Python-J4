@@ -10,5 +10,5 @@ for i in range(cycli):
     print("Na", (i+1) * 20, "minuten zijn er", aantal_temp, "bacteriën.")
 
 # Finale berekening
-perc = int(round(aantal_temp / aantal * 100))
-print("Het aantal is toegenomen met ongeveer", str(perc) + "%.")
+toename = aantal_temp // aantal
+print("Het startaantal werd met", toename, "vermenigvuldigd!")
