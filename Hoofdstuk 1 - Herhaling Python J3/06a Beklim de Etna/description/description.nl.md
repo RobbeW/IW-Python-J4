@@ -11,7 +11,7 @@ Schrijf een programma dat de temperatuur op het vertrekpunt vraagt en daarna voo
 
 **Rond** de temperatuur steeds **af** op 0,1 °C.
 
-#### Voorbeeld
+#### Voorbeelden
 Bij een starttemperatuur van 27,3 °C verschijnt:
 ```
 Op een hoogte van 1900 m meet de temperatuur 27.3 °C.
@@ -25,4 +25,19 @@ Op een hoogte van 2600 m meet de temperatuur 22.8 °C.
 Op een hoogte van 2700 m meet de temperatuur 22.1 °C.
 Op een hoogte van 2800 m meet de temperatuur 21.5 °C.
 Op een hoogte van 2900 m meet de temperatuur 20.8 °C.
+```
+
+Bij een starttemperatuur van 23,6 °C verschijnt:
+```
+Op een hoogte van 1900 m meet de temperatuur 23.6 °C.
+Op een hoogte van 2000 m meet de temperatuur 23.0 °C.
+Op een hoogte van 2100 m meet de temperatuur 22.3 °C.
+Op een hoogte van 2200 m meet de temperatuur 21.7 °C.
+Op een hoogte van 2300 m meet de temperatuur 21.0 °C.
+Op een hoogte van 2400 m meet de temperatuur 20.4 °C.
+Op een hoogte van 2500 m meet de temperatuur 19.7 °C.
+Op een hoogte van 2600 m meet de temperatuur 19.1 °C.
+Op een hoogte van 2700 m meet de temperatuur 18.4 °C.
+Op een hoogte van 2800 m meet de temperatuur 17.8 °C.
+Op een hoogte van 2900 m meet de temperatuur 17.1 °C.
 ```
