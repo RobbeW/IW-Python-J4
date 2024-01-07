@@ -30,7 +30,7 @@ Schrijf een programma dat:
 - per jaar berekent hoeveel inwoners België volgens de verwachtingen zal tellen (op 1 januari van dat jaar);
 - **indien** het jaartal deelbaar is door tien, het jaartal en het aantal inwoners weergeeft op het scherm;
 
-Vul onderstaande variabelen `inwoners` en `toename` aan met de **juiste waarden**.
+Gebruik de voorgedefinieerde variabelen `inwoners` en `toename`.
 
 #### Voorbeelden
 
