@@ -13,5 +13,5 @@ Het gemiddelde van de getallen is: 3.7
 {: .callout.callout-info}
 >#### Tips
 > 
-> - Vraag eerst naar het allereerste getal. Op dat moment is dat meteen het grootste en het kleinste getal dat verschenen is.
+> - Vraag eerst naar het allereerste getal. Op dat moment is dat meteen het grootste en het kleinste getal dat ingevoerd werd.
 > - Vraag nadien nog 9 keer naar een getal en pas telkens het grootste of het kleinste getal aan, indien nodig.

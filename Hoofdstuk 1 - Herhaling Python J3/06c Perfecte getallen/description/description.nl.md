@@ -19,3 +19,8 @@ Geef de gebruiker `10` in, dan verschijnt er:
 ```
 10 is geen perfect getal.
 ```
+
+{: .callout.callout-info}
+>#### Tip
+> 
+> Controleer dus voor elk getal kleiner dan het gegeven getal of het een deler is. Indien ja, dan tel je dat op bij de som. (Begin met de som = 0)
