@@ -1,6 +1,6 @@
 Goed bosbeheer is van veel belang om een bos in stand te houden. Daar hoort ondere bij dat zieke bomen geveld worden en er nieuwe bomen worden aangeplant.
 
-![Foto door Ruben Hanssen op Unsplash.](media/ruben-hanssen.jpg "Foto door Ruben Hanssen op Unsplash."){:data-caption="Foto door Ruben Hanssen op Unsplash." width="20%"}
+![Foto door Ruben Hanssen op Unsplash.](media/ruben-hanssen.jpg "Foto door Ruben Hanssen op Unsplash."){:data-caption="Foto door Ruben Hanssen op Unsplash." width="45%"}
 
 
 ## Opgave
