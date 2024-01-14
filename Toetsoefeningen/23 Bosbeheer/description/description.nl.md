@@ -26,6 +26,8 @@ na 90 jaar zijn er 2400 bomen.
 na 100 jaar zijn er 2400 bomen.
 ```
 
+5% van 2000 is 100 en daarna worden er 120 bijgeplant. Dit levert na 1 jaar dus 2020 bomen op. Het proces herhalen leidt na 2 jaar tot 2039 bomen. Hiervan 5% berekenen levert 101,95, of met andere woorden 101 bomen (naar beneden afgerond). Zodat er na 3 jaar 2058 bomen zijn, enz...
+
 {: .callout.callout-info}
 > #### Tips
 > - Vraag het aantal percentage als een geheel getal. Bij 5% tikt de gebruiker 5 in.
