@@ -2,7 +2,7 @@ import math
 
 # Invoer
 n = int(input("Geef het aantal bomen in: "))
-perc = int(input("Geef het percentage in: "))
+percentage = int(input("Geef het percentage in: "))
 bijplanten = int(input("Geef het aantal nieuwe bomen in: "))
 
 # Berekening
@@ -11,7 +11,7 @@ flag = True
 i = 0
 while flag:
     i += 1
-    omhakken = math.floor( n*perc/100 )
+    omhakken = math.floor( n*percentage/100 )
     nieuw = n - omhakken + bijplanten
     flag = nieuw != n
     n = nieuw
