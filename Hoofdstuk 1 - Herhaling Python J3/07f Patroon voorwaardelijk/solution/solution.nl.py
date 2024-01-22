@@ -2,5 +2,9 @@
 n = int( input( 'Geef het getal in: ' ) )
 
 # Berekening
-for _ in range( n ):
-    print( "*" * n )
+flag = True
+i = 0
+while flag:
+    print("*" * n)
+    i +=1
+    flag = i < n
