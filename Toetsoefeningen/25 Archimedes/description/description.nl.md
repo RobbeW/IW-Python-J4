@@ -23,7 +23,7 @@ $$
 
 Zodat er verschijnt:
 ```
-Bij 2 termen is de som van de Archimedes reeks 0.3125
+Bij 2 termen benadert men de Archimedes reeks als 0.3125
 ```
 
 Indien de gebruiker `4` intikt, dan wordt de volgende berekening uitgevoerd:
@@ -34,5 +34,5 @@ $$
 
 Zodat er verschijnt:
 ```
-Bij 4 termen is de som van de Archimedes reeks 0.33203125
+Bij 4 termen benadert men de Archimedes reeks als 0.33203125
 ```

@@ -7,4 +7,4 @@ for i in range(n):
     som += 1/4**(i+1)
 
 # Weergave
-print( "Bij", n, "termen is de som van de Archimedes reeks", round(som, 9 ) )
+print( "Bij", n, "termen benadert men de Archimedes reeks als", round(som, 9 ) )
