@@ -13,7 +13,7 @@ Bereken vervolgens hoe het aantal bomen evolueert na 100 jaar, waarbij je elke 1
 Indien er `2000` bomen zijn en er wordt jaarlijks `5` procent gekapt en nadien `120` bomen bijgeplant, dan verschijnt er:
 
 ```
-Er zijn eerst 2000 bomen.
+Er zijn eerst 2000 bomen in het bos.
 na 10 jaar zijn er 2165 bomen.
 na 20 jaar zijn er 2263 bomen.
 na 30 jaar zijn er 2322 bomen.
