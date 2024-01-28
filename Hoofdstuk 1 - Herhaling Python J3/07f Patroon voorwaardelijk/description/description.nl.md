@@ -24,4 +24,3 @@ Geeft de gebruiker `6` in, dan verschijnt er:
 {: .callout.callout-warning}
 > #### Besluit
 > Elke begrensde herhaling kan geschreven worden als een voorwaardelijke herhaling, maar omgekeerd is dit niet altijd waar.
-
