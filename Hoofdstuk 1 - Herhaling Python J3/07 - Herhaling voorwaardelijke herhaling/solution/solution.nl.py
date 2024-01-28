@@ -1,20 +1,20 @@
 # Initialisatie
-aantal_dagen = 0
-aantal_dagen_30 = 0
-hoogste = 0
+aantal = 0
+som = 0
 
 # Lus
 flag = True
 while flag:
-    temp = float( input( "Geef de maximale temperatuur in: " ) )
-    aantal_dagen += 1
-    if temp >= 30:
-        aantal_dagen_30 += 1
-    if temp > hoogste:
-        hoogste = temp
-    
-    flag = aantal_dagen_30 < 3
+    getal = int( input( "Geef een getal in: " ) )
+    if getal != -1:
+        som += getal
+        aantal += 1
+    else:
+        flag = False
 
 # Eindweergave
-print( "Er werden", aantal_dagen,"temperaturen ingevoerd." )
-print( "De hoogste temperatuur was", hoogste,"°C." )
+if aantal != 0:
+    gem = som / aantal
+    print( "Het gemiddelde van de getallen is", round(gem, 2) )
+else:
+    print("Er werd geen enkel getal ingevoerd.")

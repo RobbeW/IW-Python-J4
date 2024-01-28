@@ -25,17 +25,12 @@ omdraaien()
 
 ## Opgave
 
-Door de klimaatopwarming komen hittegolven steeds vaker voor. Het KMI gebruikt de volgende definitie voor een hittegolf: 
-
-{: .callout.callout-danger}
-> Ten minste vijf dagen achtereen waarop de maximumtemperatuur 25,0°C of meer bedraagt (zogenaamde **zomerse dagen**); waarbij ten minste op drie dagen de maximumtemperatuur 30,0°C of meer bedraagt (zogenaamde **tropische dagen**).
-
-Schrijf een programma dat de gebruiker telkens om de maximale dagtemperatuur vraagt. Het programma stopt nadat er **drie tropische dagen** werden ingevoerd en geeft nadien het totale aantal dagen en de hoogste temperatuur weer op het scherm.
+Schrijf een programma dat continu om **gehele** getallen vraagt, **totdat** het getal `-1` ingevoerd wordt.
+Het programma geeft vervolgens het gemiddelde van alle ingevoerde getallen, afgerond op 2 cijfers na de komma.
 
 #### Voorbeeld
-Bij achtereenvolgende invoer van de volgende 7 temperaturen `27.6`, `29.1`, `31.1`, `28.0`, `30.0`, `25.1` en `30.5` verschijnt er:
 
+Voor de achtereenvolgende invoer van `5`, `1`, `0`, `0`, `15` en `-1` verschijnt er:
 ```
-Er werden 7 temperaturen ingevoerd.
-De hoogste temperatuur was 31.1 °C.
+Het gemiddelde van de getallen is 4.2
 ```

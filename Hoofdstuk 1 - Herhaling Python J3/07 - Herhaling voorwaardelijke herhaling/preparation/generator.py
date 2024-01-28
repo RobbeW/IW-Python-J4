@@ -29,15 +29,13 @@ comparison: exact match
 
 # generate test data
 ntests = 20
-cases = [(27.6,29.1,31.1,28.0,30.0,25.1,30.5)]
+cases = [(5,1,0,0,15,-1),(-1,)]
 while len(cases) < ntests:
-    n = random.randint(4,15)
-    temps = [round(random.uniform(25,29.9), 1) for _ in range(n)]
-    temps[n-1] = round(random.uniform(30,35), 1)
-    i, j = random.sample(range(0, n-2), 2)
-    temps[i] = round(random.uniform(30,35), 1)
-    temps[j] = round(random.uniform(30,35), 1)
-    cases.append( temps )
+    n = random.randint(1,15)
+    getallen = [random.randint(0,30) for _ in range(n)]
+    getallen.append(-1)
+    getal_tuple = (tuple)(getallen)
+    cases.append( getal_tuple )
 
 # configure test files
 infile = open(os.path.join(evaldir, '0.in'), 'w')
