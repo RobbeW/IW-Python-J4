@@ -88,9 +88,9 @@ for test in cases:
     # setup for return expressions
     if len(gokken) != 1:
         gokjes_txt = ', '.join(map(str, gokken)) 
-        testcase["output"]["description"] = "Uitvoeren met seed "+str(seed)+" en gokken "+ gokjes_txt +" leidt tot:"
+        testcase["description"] = "Uitvoeren met seed "+str(seed)+" en gokken "+ gokjes_txt +" leidt tot:"
     else:
-        testcase["output"]["description"] = "Uitvoeren met seed "+str(seed)+" en gok "+ str(gokken[0]) +" leidt tot:"
+        testcase["description"] = "Uitvoeren met seed "+str(seed)+" en gok "+ str(gokken[0]) +" leidt tot:"
     testcase["input"]["stdin"] = {"type": "text", 
                                   "data": inputtxt }
     testcase["output"]["stdout"] = {"type": "text", 
