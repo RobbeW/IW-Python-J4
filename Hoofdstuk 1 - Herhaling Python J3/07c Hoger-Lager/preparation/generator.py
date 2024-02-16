@@ -83,7 +83,7 @@ for test in cases:
                 b = gok
             else:
                 geraden = True
-        outputtxt += "Je hebt "+str(getal)+" geraden in " + str(aantal) + " pogingen!"
+        outputtxt += "Je hebt "+str(getal)+" geraden in " + str(aantal) + " pogingen!\n"
     
     # setup for return expressions
     if len(gokken) != 1:
