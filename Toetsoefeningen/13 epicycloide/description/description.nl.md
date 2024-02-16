@@ -2,7 +2,7 @@ In de meetkunde is een **epicycloïde** een vlakke kromme die ontstaat door een 
 
 ![Een epicycloïde.](media/image.png "Een epicycloïde."){:data-caption="Een epicycloïde." .light-only width="30%"}
 
-!DEen epicycloïde.](media/image_dark.png "Een epicycloïde."){:data-caption="Een epicycloïde." .dark-only width="30%"}
+![Een epicycloïde.](media/image_dark.png "Een epicycloïde."){:data-caption="Een epicycloïde." .dark-only width="30%"}
 
 De oppervlakte $$A$$ van zo'n epicycloïde (de oranje figuur) valt eenvoudig te berekenen via de formule:
 
