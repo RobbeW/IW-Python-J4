@@ -19,4 +19,4 @@ De getalsom is 21.
 
 {: .callout.callout-info}
 > #### Tip
-> Gebruik `%` en `//`.
+> Gebruik `%` en `//`. Zo kan je de getalsom van `123456` berekenen door `6 + 5 + 4 + 3 + 2 + 1` uit te rekenen. (begin dus met de eenheden...)
