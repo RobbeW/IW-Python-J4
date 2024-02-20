@@ -18,6 +18,7 @@ Het duurt nog 60 jaar om een veilige dosering van 0.0075 mg/kg te bereiken.
 
 {: .callout.callout-primary}
 > DDT, niet te verwarren met ...
-> ![DDT.](media/fck-ddt.gif "DDT"){:data-caption="DDT." width="220px"}
+>
+> ![DDT.](media/fcdk-ddt.gif "DDT"){:data-caption="DDT." width="220px"}
 
 
