@@ -14,3 +14,10 @@ Bij een invoer van `0.12` mg/kg verschijnt er:
 ```
 Het duurt nog 60 jaar om een veilige dosering van 0.0075 mg/kg te bereiken.
 ```
+
+
+{: .callout.callout-primary}
+> DDT, niet te verwarren met ...
+> ![DDT.](media/fck-ddt.gif "DDT"){:data-caption="DDT." width="220px"}
+
+
