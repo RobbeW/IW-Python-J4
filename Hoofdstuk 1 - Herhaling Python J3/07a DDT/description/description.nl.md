@@ -7,7 +7,7 @@ Dichloordifenyltrichloorethaan of <a href="https://nl.wikipedia.org/wiki/Dichloo
 
 DDT heeft een **halveringstijd** van 15 jaar. Dit betekent dat het 15 jaar duurt tot de helft van een hoeveelheid DDT omgezet wordt in een onschuldige chemische stof. Stel dat een wetenschapper 0,12 mg DDT in een bodemstaal van 1 kg vindt, dan zal daar 15 jaar later nog 0,06 mg DDT teruggevonden worden.
 
-Schrijf een programma dat de gebruiker vraagt naar de aangetroffen dosis DDT in een bodemstaal (in mg per kg). Daarna berekent het programma hoeveel jaar het nog duurt vooraleer de hoeveelheid DDT er **onder** de Europese grens van 0,01 mg/kg duikt. Geef dan ook de **uiteindelijke dosis** weer op het scherm.
+Schrijf een programma dat de gebruiker vraagt naar de aangetroffen dosis DDT in een bodemstaal (in mg per kg). Daarna berekent het programma hoeveel jaar het nog duurt vooraleer de hoeveelheid DDT er **onder** de Europese grens van 0,01 mg/kg duikt. Geef dan ook de **uiteindelijke dosis** weer op het scherm. Rond af op 4 cijfers na de komma.
 
 #### Voorbeeld
 Bij een invoer van `0.12` mg/kg verschijnt er:
