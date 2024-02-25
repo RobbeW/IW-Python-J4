@@ -32,10 +32,11 @@ ncases = 20
 cases = [(452529,), (4758,)]
 
 while len(cases) < ncases:
+    power = random.randint(2,10)
     if random.randint(0,3) == 0:
-        cases.append((11*random.randint(40000,400000),))
+        cases.append((11*random.randint(10**(power-1),10**power),))
     else:
-        cases.append((random.randint(40000,400000),))
+        cases.append((random.randint(10**(power-1),10**power),))
 
 
 # configure test files

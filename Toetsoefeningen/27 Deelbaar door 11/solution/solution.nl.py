@@ -20,6 +20,7 @@ while voorwaarde:
         voorwaarde = False
 
 # Weergave
+print()
 print("De som van de getallen op de oneven rang is:", som_oneven)
 print("De som van de getallen op de even rang is:", som_even)
 if (som_even - som_oneven) % 11 == 0:
