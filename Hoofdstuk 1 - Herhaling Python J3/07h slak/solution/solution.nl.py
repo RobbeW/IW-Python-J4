@@ -8,8 +8,8 @@ flag = True
 while flag:
     dag += 1
     hoogte += 20
-    hoogte *= 5/6
     flag = hoogte < d 
+    hoogte *= 5/6
 
 # Eindweergave
 if dag == 1:
