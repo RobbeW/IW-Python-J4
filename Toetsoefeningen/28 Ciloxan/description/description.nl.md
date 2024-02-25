@@ -10,9 +10,9 @@ De **halveringstijd** van Ciloxan® is 1 dag. Op het einde van de dag blijft dus
 
 Schrijf een programma dat de initiële hoeveelheid aan de gebruiker vraagt. 
 
-De bovenstaande situatie zal stabiliseren, maar omdat je met kommagetallen werkt zal dit soms niet **perfect** stabiel zijn. We noemen de situati echter stabiel indien de situatie op het einde van de dag hoogstens 0,01 ml verschilt met deze in het begin van de dag.
+De bovenstaande situatie zal stabiliseren, maar omdat je met kommagetallen werkt zal dit soms niet **perfect** stabiel zijn. We noemen de situatie echter *stabiel* indien de hoeveelheid op het einde van de dag hoogstens 0,01 ml verschilt met deze in het begin van de dag.
 
-Is de concentratie in het begin van de dag dus 0,6125 ml en op het einde van de dag 0,6062 dan beschouwt men dit als een stabiele situatie. (het verschil is immers kleiner dan 0,01 ml)
+Is de concentratie in het begin van de dag dus 0,6125 ml en op het einde van de dag 0,6062 dan beschouwt men dit als een stabiele situatie. (het verschil tussen beide is immers kleiner dan 0,01 ml)
 
 **Rond** in je printopdrachten telkens **af** op 4 cijfers na de komma.
 
