@@ -1,10 +1,10 @@
-**Ciloxan**™ is een <a href="https://nl.wikipedia.org/wiki/Antibioticum" target="_blank">antibioticum</a> dat gebruikt wordt om bacteriële infecties in ogen of oren te behandelen. Het is belangrijk om de hoeveelheid van het geneesmiddel in je bloedsomloop vrij constant te houden. Te weinig en de hoeveelheid bacterieën kan terug toenemen, een te hoge hoeveelheid kan dan weer leiden tot bepaalde ongewenste neveneffecten.
+**Ciloxan**® is een <a href="https://nl.wikipedia.org/wiki/Antibioticum" target="_blank">antibioticum</a> dat gebruikt wordt om bacteriële infecties in ogen of oren te behandelen. Het is belangrijk om de hoeveelheid van het geneesmiddel in je bloedsomloop vrij constant te houden. Te weinig en de hoeveelheid bacterieën kan terug toenemen, een te hoge hoeveelheid kan dan weer leiden tot bepaalde ongewenste neveneffecten.
 
 
-![Ciloxan™ oogdruppels.](media/ciloxan.jpg "Ciloxan™ oogdruppels."){:data-caption="Ciloxan™ oogdruppels." width="30%"}
+![Ciloxan® oogdruppels.](media/ciloxan.jpg "Ciloxan® oogdruppels."){:data-caption="Ciloxan® oogdruppels." width="30%"}
 
 
-De **halveringstijd** van Ciloxan™ is 1 dag. Op het einde van de dag blijft dus de helft van de oorspronkelijke hoeveelheid over. Om hiervoor te compenseren wordt op het einde van de dag 0,3 ml Ciloxan™ ingenomen.
+De **halveringstijd** van Ciloxan® is 1 dag. Op het einde van de dag blijft dus de helft van de oorspronkelijke hoeveelheid over. Om hiervoor te compenseren wordt op het einde van de dag 0,3 ml Ciloxan® ingenomen.
 
 ## Opgave
 
