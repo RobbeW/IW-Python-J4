@@ -14,7 +14,7 @@ De bovenstaande situatie zal stabiliseren, maar omdat je met kommagetallen werkt
 
 Is de concentratie in het begin van de dag dus 0,6125 ml en op het einde van de dag 0,6062 dan beschouwt men dit als een stabiele situatie. (het verschil is immers kleiner dan 0,01 ml)
 
-Rond in je printopdrachten telkens af op 4 cijfers na de komma.
+**Rond** in je printopdrachten telkens **af** op 4 cijfers na de komma.
 
 #### Voorbeelden
 Is de initiële dosis `1` ml, dan verschijnt er:
