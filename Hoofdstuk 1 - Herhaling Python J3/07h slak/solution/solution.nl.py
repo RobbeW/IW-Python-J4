@@ -13,6 +13,6 @@ while flag:
 
 # Eindweergave
 if dag == 1:
-    print( "Het duurt één dag om uit een put met diepte", d,"m te klimmen." )
+    print( "Het duurt één dag om uit een put met diepte", d,"cm te klimmen." )
 else:
-    print( "Het duurt", dag, "dagen om uit een put met diepte", d,"m te klimmen." )
+    print( "Het duurt", dag, "dagen om uit een put met diepte", d,"cm te klimmen." )
