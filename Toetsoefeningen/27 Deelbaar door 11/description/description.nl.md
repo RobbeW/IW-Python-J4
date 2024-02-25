@@ -1,6 +1,6 @@
 Om manueel te controleren of een getal deelbaar is door 11 neemt men het verschil van de som van de cijfers op de even en oneven rang. Is dit verschil deelbaar door 11, dan is het volledig getal ook deelbaar door 11.
 
-Een voorbeeld om dit te verduidelijken. Beschouw het getal <span style="color:#FF8E27"><span style="color:#086FBD">4</span></span><span style="color:#086FBD">5</span><span style="color:#FF8E27">2</span><span style="color:#086FBD">5</span><span style="color:#FF8E27">2</span><span style="color:#086FBD">9</span>. 
+Een voorbeeld om dit te verduidelijken. Beschouw het getal <span style="color:#FF8E27">4</span><span style="color:#086FBD">5</span><span style="color:#FF8E27">2</span> <span style="color:#086FBD">5</span><span style="color:#FF8E27">2</span><span style="color:#086FBD">9</span>. 
 
 Dit getal kan je delen door 11 want de som van de getallen op de <span style="color:#086FBD">oneven rang</span> is 9 + 5 + 5 of 19.
 De som van de getallen op de <span style="color:#FF8E27">even rang</span> is 2 + 2 + 4 of 8.
@@ -30,4 +30,5 @@ Dit getal is NIET deelbaar door 11!
 
 {: .callout.callout-info}
 > #### Tip
-> Hou een teller `i` bij die je telkens met één verhoogt. Is `i` even, dan hoort het cijfer bij de even rangen, zoniet, de oneven rangen.
+> Hou een variabele `i` bij die je telkens met één verhoogt. 
+> Is `i` even, dan hoort het cijfer bij de even rangen, zoniet, de oneven rangen.
