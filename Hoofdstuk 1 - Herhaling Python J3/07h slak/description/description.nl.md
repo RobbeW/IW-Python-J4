@@ -13,3 +13,9 @@ Het duurt 3 dagen om uit een put met diepte 50 m te klimmen.
 ```
 
 ![Traag maar zeker.](media/slak.gif "Traag maar zeker."){:data-caption="Traag maar zeker." width="480px"}
+
+{: .callout.callout-primary}
+> #### Tip
+>
+> Indien de slak na 2 dagen op 30,5 cm omhoog heeft kunnen klimmen, dan start deze de 3e dag eerst met 20 cm te klimmen. De nieuwe hoogte is dan 50,5 cm. Dat betekent dat de slak uit de put kon ontsnappen. Het naar beneden glijden gebeurt pas op het einde van de dag.
+
