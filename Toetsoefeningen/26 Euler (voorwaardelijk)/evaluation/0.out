@@ -1,0 +1,33 @@
+De Bazel-benadering van pi met 2 termen is 2.738613
+
+De Bazel-benadering van pi met 4 termen is 2.922613
+
+De Bazel-benadering van pi met 10 termen is 3.049362
+
+De Bazel-benadering van pi met 15 termen is 3.07939
+
+De Bazel-benadering van pi met 20 termen is 3.09467
+
+De Bazel-benadering van pi met 50 termen is 3.122627
+
+De Bazel-benadering van pi met 100 termen is 3.132077
+
+De Bazel-benadering van pi met 500 termen is 3.139684
+
+De Bazel-benadering van pi met 1000 termen is 3.140638
+
+De Bazel-benadering van pi met 2000 termen is 3.141115
+
+De Bazel-benadering van pi met 5000 termen is 3.141402
+
+De Bazel-benadering van pi met 10000 termen is 3.141497
+
+De Bazel-benadering van pi met 50000 termen is 3.141574
+
+-----------------------------------------
+tab name: Feedback
+python input without prompt: true
+block count: multi
+input block size: 1
+output block size: ends with
+comparison: exact match
