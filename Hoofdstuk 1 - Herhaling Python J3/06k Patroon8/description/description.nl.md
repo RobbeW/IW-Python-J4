@@ -1,5 +1,5 @@
 ## Opgave
-Schrijf een programma dat een natuurlijk getal vraagt en vervolgens een ruit symbool `*` op het scherm weergeeft. Het dikste gedeelte komt op de regel van het ingegeven getal.
+Schrijf een programma dat een natuurlijk getal vraagt en vervolgens een ruit gevuld met het symbool `*` weergeeft. Het dikste gedeelte komt op de regel van het ingegeven getal.
 
 #### Voorbeelden
 Geeft de gebruiker `4` in, dan verschijnt er:
