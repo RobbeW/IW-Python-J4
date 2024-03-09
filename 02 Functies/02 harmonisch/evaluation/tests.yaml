@@ -1,0 +1,84 @@
+- tab: Invoer/uitvoer feedback
+  testcases:
+  - stdin: "100\n120"
+    stdout: '109.09'
+  - stdin: "128\n26"
+    stdout: '43.22'
+  - stdin: "185\n26"
+    stdout: '45.59'
+  - stdin: "163\n151"
+    stdout: '156.77'
+  - stdin: "59\n195"
+    stdout: '90.59'
+  - stdin: "65\n199"
+    stdout: '97.99'
+  - stdin: "156\n132"
+    stdout: '143.0'
+  - stdin: "151\n188"
+    stdout: '167.48'
+  - stdin: "131\n20"
+    stdout: '34.7'
+  - stdin: "196\n86"
+    stdout: '119.55'
+  - stdin: "32\n39"
+    stdout: '35.15'
+  - stdin: "90\n7"
+    stdout: '12.99'
+  - stdin: "127\n11"
+    stdout: '20.25'
+  - stdin: "197\n95"
+    stdout: '128.18'
+  - stdin: "185\n58"
+    stdout: '88.31'
+  - stdin: "124\n139"
+    stdout: '131.07'
+  - stdin: "12\n118"
+    stdout: '21.78'
+  - stdin: "57\n141"
+    stdout: '81.18'
+  - stdin: "33\n66"
+    stdout: '44.0'
+  - stdin: "18\n96"
+    stdout: '30.32'
+- tab: Functie harmonisch_gemiddelde feedback
+  testcases:
+  - expression: harmonisch_gemiddelde( 100 , 120 )
+    return: 109.09
+  - expression: harmonisch_gemiddelde( 128 , 26 )
+    return: 43.22
+  - expression: harmonisch_gemiddelde( 185 , 26 )
+    return: 45.59
+  - expression: harmonisch_gemiddelde( 163 , 151 )
+    return: 156.77
+  - expression: harmonisch_gemiddelde( 59 , 195 )
+    return: 90.59
+  - expression: harmonisch_gemiddelde( 65 , 199 )
+    return: 97.99
+  - expression: harmonisch_gemiddelde( 156 , 132 )
+    return: 143.0
+  - expression: harmonisch_gemiddelde( 151 , 188 )
+    return: 167.48
+  - expression: harmonisch_gemiddelde( 131 , 20 )
+    return: 34.7
+  - expression: harmonisch_gemiddelde( 196 , 86 )
+    return: 119.55
+  - expression: harmonisch_gemiddelde( 32 , 39 )
+    return: 35.15
+  - expression: harmonisch_gemiddelde( 90 , 7 )
+    return: 12.99
+  - expression: harmonisch_gemiddelde( 127 , 11 )
+    return: 20.25
+  - expression: harmonisch_gemiddelde( 197 , 95 )
+    return: 128.18
+  - expression: harmonisch_gemiddelde( 185 , 58 )
+    return: 88.31
+  - expression: harmonisch_gemiddelde( 124 , 139 )
+    return: 131.07
+  - expression: harmonisch_gemiddelde( 12 , 118 )
+    return: 21.78
+  - expression: harmonisch_gemiddelde( 57 , 141 )
+    return: 81.18
+  - expression: harmonisch_gemiddelde( 33 , 66 )
+    return: 44.0
+  - expression: harmonisch_gemiddelde( 18 , 96 )
+    return: 30.32
