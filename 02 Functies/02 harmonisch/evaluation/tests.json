@@ -31,7 +31,7 @@
             {
               "input": {
                 "stdin": "none",
-                "stdout": "none",
+                "stdout": "ignored",
                 "type": "function",
                 "name": "harmonisch_gemiddelde",
                 "arguments": [
