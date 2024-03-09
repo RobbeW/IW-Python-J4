@@ -7,7 +7,12 @@
           "testcases": [
             {
               "input": {
-                "stdin": "100\n120"
+                "stdin": [
+                  {
+                    "type": "text",
+                    "data": "100\n120"
+                  }
+                ]
               },
               "output": {
                 "stdout": "109.09"
