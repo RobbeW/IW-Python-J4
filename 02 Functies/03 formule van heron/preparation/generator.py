@@ -54,7 +54,7 @@ spec.loader.exec_module(module)
 
 for test in cases:
     # generate test expression
-    expression_name = 'oppervlakte( {} , {} )'.format( test[0] , test[1], test[2] )
+    expression_name = 'oppervlakte( {} , {}, {} )'.format( test[0] , test[1], test[2] )
     result = module.oppervlakte( test[0], test[1], test[2] )
 
     print(result)

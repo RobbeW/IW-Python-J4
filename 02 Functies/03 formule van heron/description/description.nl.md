@@ -1,6 +1,6 @@
 De formule van Heron is een bijzondere formule waarmee de oppervlakte van een driehoek berekend kan worden aan de hand van de zijden. De formule is genoemd naar <a href="https://nl.wikipedia.org/wiki/Heron_van_Alexandri%C3%AB" target="_blank">Heron van Alexandrië</a> die deze bewezen heeft in zijn grote werk *Metrica*.
 
-De formule voor een driehoek met zijden $$a$$, $$b$$ en $$c$$ is als volgt:
+De formule voor een driehoek met zijden $$\mathsf{a}$$, $$\mathsf{b}$$ en $$\mathsf{c}$$ is als volgt:
 
 $$
     \mathsf{A = \sqrt{s \cdot (s-a)\cdot (s-b)\cdot (s-c) } }
