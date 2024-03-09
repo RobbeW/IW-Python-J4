@@ -42,7 +42,8 @@
     stdout: '30.32'
 - tab: Functie harmonisch_gemiddelde feedback
   testcases:
-  - expression: harmonisch_gemiddelde( 100 , 120 )
+  - stdin: "1\n1"
+    expression: harmonisch_gemiddelde( 100 , 120 )
     return: 109.09
   - expression: harmonisch_gemiddelde( 128 , 26 )
     return: 43.22
