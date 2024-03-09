@@ -1,0 +1,62 @@
+- tab: Functie feedback
+  testcases:
+  - expression: is_palindroom( 1221 )
+    return: true
+  - expression: is_palindroom( 14541 )
+    return: true
+  - expression: is_palindroom( 13321 )
+    return: false
+  - expression: is_palindroom( 99 )
+    return: true
+  - expression: is_palindroom( 5 )
+    return: true
+  - expression: is_palindroom( 1440109146 )
+    return: false
+  - expression: is_palindroom( 1503425743 )
+    return: false
+  - expression: is_palindroom( 66 )
+    return: true
+  - expression: is_palindroom( 4484369682 )
+    return: false
+  - expression: is_palindroom( 2356872948 )
+    return: false
+  - expression: is_palindroom( 606 )
+    return: true
+  - expression: is_palindroom( 9770217308 )
+    return: false
+  - expression: is_palindroom( 40288204 )
+    return: true
+  - expression: is_palindroom( 540349950 )
+    return: false
+  - expression: is_palindroom( 6029372840 )
+    return: false
+  - expression: is_palindroom( 6800321947 )
+    return: false
+  - expression: is_palindroom( 955547095 )
+    return: false
+  - expression: is_palindroom( 1892594344 )
+    return: false
+  - expression: is_palindroom( 36063 )
+    return: true
+  - expression: is_palindroom( 325704407523 )
+    return: true
+  - expression: is_palindroom( 1694928553 )
+    return: false
+  - expression: is_palindroom( 1429170719241 )
+    return: true
+  - expression: is_palindroom( 523814418325 )
+    return: true
+  - expression: is_palindroom( 483384 )
+    return: true
+  - expression: is_palindroom( 4151160611514 )
+    return: true
+  - expression: is_palindroom( 5642517013 )
+    return: false
+  - expression: is_palindroom( 9028583028 )
+    return: false
+  - expression: is_palindroom( 3180382826 )
+    return: false
+  - expression: is_palindroom( 46064 )
+    return: true
+  - expression: is_palindroom( 44 )
+    return: true
