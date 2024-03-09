@@ -1,0 +1,43 @@
+- tab: Functie feedback
+  testcases:
+  - expression: discriminant( -3 , 2 )
+    return: 0
+    stdout: "Van de drie oplossingen zijn er minstens twee aan elkaar gelijk"
+  - expression: discriminant( 1 , 2 )
+    return: -112
+  - expression: discriminant( -4 , 0 )
+    return: 256
+  - expression: discriminant( -27 , 54 )
+    return: 0
+  - expression: discriminant( 0 , 0 )
+    return: 0
+  - expression: discriminant( 42 , -38 )
+    return: -335340
+  - expression: discriminant( 31 , 25 )
+    return: -136039
+  - expression: discriminant( -21 , 47 )
+    return: -22599
+  - expression: discriminant( -18 , 49 )
+    return: -41499
+  - expression: discriminant( 27 , 15 )
+    return: -84807
+  - expression: discriminant( 25 , 43 )
+    return: -112423
+  - expression: discriminant( 15 , -41 )
+    return: -58887
+  - expression: discriminant( 47 , -8 )
+    return: -417020
+  - expression: discriminant( -35 , -31 )
+    return: 145553
+  - expression: discriminant( -6 , -47 )
+    return: -58779
+  - expression: discriminant( 13 , -45 )
+    return: -63463
+  - expression: discriminant( 48 , -3 )
+    return: -442611
+  - expression: discriminant( 42 , -22 )
+    return: -309420
+  - expression: discriminant( 11 , 19 )
+    return: -15071
+  - expression: discriminant( -45 , 8 )
+    return: 362772
