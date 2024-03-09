@@ -13,7 +13,10 @@
                   }
               },
               "output": {
-                "stdout": "109.09"
+                "stdout": {
+                  "type": "text",
+                  "data": "109.09"
+                }
               }
             }
           ]
