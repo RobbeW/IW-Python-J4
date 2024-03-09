@@ -1,17 +1,21 @@
 {
-    "type": "exercise",
-    "programming_language": "python",
-    "evaluation": {
-        "handler": "tested",
-        "test_suite": "tests.yaml"
-      },
-    "description": {
-      "names": {
-        "nl": "Functies"
-      }
-    },
-    "labels": [
-  
-    ],
-    "access": "public"
+  "type": "exercise",
+  "programming_language": "python",
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "description": {
+    "names": {
+      "nl": "Functies"
+    }
+  },
+  "labels": [
+
+  ],
+  "access": "public",
+  "internals": {
+    "token": "_kFTwgDCEpVQjk6JNnPxcWR9EX6xkZyFnJcqBthAbDrc4kRmnw-e6Z--Q7UrxQxK",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
+}
