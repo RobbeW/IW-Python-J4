@@ -1,0 +1,62 @@
+- tab: Functie feedback
+  testcases:
+  - expression: priemtweeling( 5 )
+    stdout: Je kan twee priemtweelingen vinden van 5, namelijk 3 en 7.
+  - expression: priemtweeling( 11 )
+    stdout: Je kan één priemtweeling vinden van 11, namelijk 13.
+  - expression: priemtweeling( 20 )
+    stdout: Je kan geen priemtweeling vinden van 20.
+  - expression: priemtweeling( 53 )
+    stdout: Je kan geen priemtweeling vinden van 53.
+  - expression: priemtweeling( 739 )
+    stdout: Je kan geen priemtweeling vinden van 739.
+  - expression: priemtweeling( 104 )
+    stdout: Je kan geen priemtweeling vinden van 104.
+  - expression: priemtweeling( 650 )
+    stdout: Je kan geen priemtweeling vinden van 650.
+  - expression: priemtweeling( 605 )
+    stdout: Je kan één priemtweeling vinden van 605, namelijk 607.
+  - expression: priemtweeling( 236 )
+    stdout: Je kan geen priemtweeling vinden van 236.
+  - expression: priemtweeling( 781 )
+    stdout: Je kan geen priemtweeling vinden van 781.
+  - expression: priemtweeling( 260 )
+    stdout: Je kan geen priemtweeling vinden van 260.
+  - expression: priemtweeling( 794 )
+    stdout: Je kan geen priemtweeling vinden van 794.
+  - expression: priemtweeling( 622 )
+    stdout: Je kan geen priemtweeling vinden van 622.
+  - expression: priemtweeling( 529 )
+    stdout: Je kan geen priemtweeling vinden van 529.
+  - expression: priemtweeling( 602 )
+    stdout: Je kan geen priemtweeling vinden van 602.
+  - expression: priemtweeling( 750 )
+    stdout: Je kan geen priemtweeling vinden van 750.
+  - expression: priemtweeling( 934 )
+    stdout: Je kan geen priemtweeling vinden van 934.
+  - expression: priemtweeling( 523 )
+    stdout: Je kan één priemtweeling vinden van 523, namelijk 521.
+  - expression: priemtweeling( 81 )
+    stdout: Je kan twee priemtweelingen vinden van 81, namelijk 79 en 83.
+  - expression: priemtweeling( 785 )
+    stdout: Je kan één priemtweeling vinden van 785, namelijk 787.
+  - expression: priemtweeling( 345 )
+    stdout: Je kan één priemtweeling vinden van 345, namelijk 347.
+  - expression: priemtweeling( 127 )
+    stdout: Je kan geen priemtweeling vinden van 127.
+  - expression: priemtweeling( 154 )
+    stdout: Je kan geen priemtweeling vinden van 154.
+  - expression: priemtweeling( 970 )
+    stdout: Je kan geen priemtweeling vinden van 970.
+  - expression: priemtweeling( 862 )
+    stdout: Je kan geen priemtweeling vinden van 862.
+  - expression: priemtweeling( 360 )
+    stdout: Je kan geen priemtweeling vinden van 360.
+  - expression: priemtweeling( 26 )
+    stdout: Je kan geen priemtweeling vinden van 26.
+  - expression: priemtweeling( 980 )
+    stdout: Je kan geen priemtweeling vinden van 980.
+  - expression: priemtweeling( 985 )
+    stdout: Je kan één priemtweeling vinden van 985, namelijk 983.
+  - expression: priemtweeling( 899 )
+    stdout: Je kan geen priemtweeling vinden van 899.
