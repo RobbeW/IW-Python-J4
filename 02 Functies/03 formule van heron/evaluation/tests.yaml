@@ -1,0 +1,42 @@
+- tab: Functie feedback
+  testcases:
+  - expression: oppervlakte( 4 , 13 )
+    return: 24.0
+  - expression: oppervlakte( 9 , 20 )
+    return: 76.13
+  - expression: oppervlakte( 19 , 17 )
+    return: 20.05
+  - expression: oppervlakte( 15 , 8 )
+    return: 59.36
+  - expression: oppervlakte( 9 , 18 )
+    return: 27.33
+  - expression: oppervlakte( 5 , 8 )
+    return: 17.32
+  - expression: oppervlakte( 18 , 13 )
+    return: 100.89
+  - expression: oppervlakte( 6 , 17 )
+    return: 50.2
+  - expression: oppervlakte( 13 , 8 )
+    return: 24.25
+  - expression: oppervlakte( 11 , 13 )
+    return: 67.53
+  - expression: oppervlakte( 9 , 12 )
+    return: 31.65
+  - expression: oppervlakte( 9 , 10 )
+    return: 30.59
+  - expression: oppervlakte( 11 , 14 )
+    return: 16.32
+  - expression: oppervlakte( 12 , 8 )
+    return: 39.69
+  - expression: oppervlakte( 17 , 20 )
+    return: 109.54
+  - expression: oppervlakte( 16 , 11 )
+    return: 70.99
+  - expression: oppervlakte( 11 , 6 )
+    return: 21.83
+  - expression: oppervlakte( 5 , 7 )
+    return: 12.5
+  - expression: oppervlakte( 4 , 5 )
+    return: 9.17
+  - expression: oppervlakte( 15 , 10 )
+    return: 20.12
