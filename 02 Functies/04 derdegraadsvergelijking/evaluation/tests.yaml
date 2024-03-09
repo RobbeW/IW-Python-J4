@@ -2,42 +2,61 @@
   testcases:
   - expression: discriminant( -3 , 2 )
     return: 0
-    stdout: "Van de drie oplossingen zijn er minstens twee aan elkaar gelijk"
+    stdout: Van de drie oplossingen zijn er minstens twee aan elkaar gelijk.
   - expression: discriminant( 1 , 2 )
     return: -112
+    stdout: Er is exact één reële oplossing.
   - expression: discriminant( -4 , 0 )
     return: 256
+    stdout: Er zijn drie verschillende reële oplossingen.
   - expression: discriminant( -27 , 54 )
     return: 0
+    stdout: Van de drie oplossingen zijn er minstens twee aan elkaar gelijk.
   - expression: discriminant( 0 , 0 )
     return: 0
-  - expression: discriminant( 42 , -38 )
-    return: -335340
-  - expression: discriminant( 31 , 25 )
-    return: -136039
-  - expression: discriminant( -21 , 47 )
-    return: -22599
-  - expression: discriminant( -18 , 49 )
-    return: -41499
-  - expression: discriminant( 27 , 15 )
-    return: -84807
-  - expression: discriminant( 25 , 43 )
-    return: -112423
-  - expression: discriminant( 15 , -41 )
-    return: -58887
-  - expression: discriminant( 47 , -8 )
-    return: -417020
-  - expression: discriminant( -35 , -31 )
-    return: 145553
-  - expression: discriminant( -6 , -47 )
-    return: -58779
-  - expression: discriminant( 13 , -45 )
-    return: -63463
-  - expression: discriminant( 48 , -3 )
-    return: -442611
-  - expression: discriminant( 42 , -22 )
-    return: -309420
-  - expression: discriminant( 11 , 19 )
-    return: -15071
-  - expression: discriminant( -45 , 8 )
-    return: 362772
+    stdout: Van de drie oplossingen zijn er minstens twee aan elkaar gelijk.
+  - expression: discriminant( -7 , 10 )
+    return: -1328
+    stdout: Er is exact één reële oplossing.
+  - expression: discriminant( 8 , -3 )
+    return: -2291
+    stdout: Er is exact één reële oplossing.
+  - expression: discriminant( -2 , 9 )
+    return: -2155
+    stdout: Er is exact één reële oplossing.
+  - expression: discriminant( 6 , 8 )
+    return: -2592
+    stdout: Er is exact één reële oplossing.
+  - expression: discriminant( 6 , -8 )
+    return: -2592
+    stdout: Er is exact één reële oplossing.
+  - expression: discriminant( -6 , 1 )
+    return: 837
+    stdout: Er zijn drie verschillende reële oplossingen.
+  - expression: discriminant( -10 , 5 )
+    return: 3325
+    stdout: Er zijn drie verschillende reële oplossingen.
+  - expression: discriminant( -9 , 1 )
+    return: 2889
+    stdout: Er zijn drie verschillende reële oplossingen.
+  - expression: discriminant( -3 , 5 )
+    return: -567
+    stdout: Er is exact één reële oplossing.
+  - expression: discriminant( 7 , -9 )
+    return: -3559
+    stdout: Er is exact één reële oplossing.
+  - expression: discriminant( 4 , -3 )
+    return: -499
+    stdout: Er is exact één reële oplossing.
+  - expression: discriminant( 7 , -6 )
+    return: -2344
+    stdout: Er is exact één reële oplossing.
+  - expression: discriminant( -2 , -8 )
+    return: -1696
+    stdout: Er is exact één reële oplossing.
+  - expression: discriminant( 1 , -9 )
+    return: -2191
+    stdout: Er is exact één reële oplossing.
+  - expression: discriminant( 3 , -2 )
+    return: -216
+    stdout: Er is exact één reële oplossing.

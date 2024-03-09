@@ -4,6 +4,7 @@ import importlib
 import random
 import ruamel.yaml
 import subprocess
+from io import StringIO 
 
 yaml = ruamel.yaml.YAML()
 
@@ -25,11 +26,21 @@ def write_yaml( data:list ):
     with open(os.path.join('..', 'evaluation', 'tests.yaml'), 'w', encoding='utf-8') as f:
         yaml.dump(data, f)
 
+class Capturing(list):
+    def __enter__(self):
+        self._stdout = sys.stdout
+        sys.stdout = self._stringio = StringIO()
+        return self
+    def __exit__(self, *args):
+        self.extend(self._stringio.getvalue().splitlines())
+        del self._stringio    # free up some memory
+        sys.stdout = self._stdout
+
 # generate test data
 ntests= 20
 cases = [(-3,2),(1,2),(-4,0),(-27,54),(0,0)]
 while len(cases) < ntests:
-    item = tuple(random.randint(-50,50) for _ in range(2))
+    item = tuple(random.randint(-10,10) for _ in range(2))
     if item[0] != 0 and item[1] != 0:
         cases.append( item )
 
@@ -53,11 +64,13 @@ spec.loader.exec_module(module)
 for test in cases:
     # generate test expression
     expression_name = 'discriminant( {} , {} )'.format( test[0] , test[1] )
-    result = module.discriminant( test[0], test[1] )
-
+    with Capturing() as captured:
+        result = module.discriminant( test[0], test[1] )
+    
     print(result)
+
     # setup for return expressions
-    testcase = { input: expression_name, output: result }
+    testcase = { input: expression_name, output: result, "stdout": captured[0]}
     yamldata[0]['testcases'].append( testcase)
 
 write_yaml(yamldata)

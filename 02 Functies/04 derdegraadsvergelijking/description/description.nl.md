@@ -18,22 +18,22 @@ $$\mathsf{D = -4p^3 -27q^2}$$
 
 Een derdegraadsvergelijking zal in het meest algemene geval, namelijk indien de discriminant strikt positief is, drie verschillende reële oplossingen hebben. Is de discriminant echter gelijk aan nul dan zullen minstens 2twee oplossingen aan elkaar gelijk zijn. En bij een strikt negatieve discriminant is altijd slechts één reële oplossing
 
-Schrijf een functie `discriminant( p, q )` die voor een gereduceerde derdegraadsvergelijking $$x^3+px+q=0$$ het **aantal oplossingen** op het scherm afdrukt **en** de waarde van de discriminant retourneert.
+Schrijf een functie `discriminant( p, q )` die voor een gereduceerde derdegraadsvergelijking $$\mathsf{x^3+px+q=0}$$ het **aantal oplossingen** op het scherm afdrukt **en** de waarde van de discriminant retourneert.
 
 #### Voorbeelden
-De derdegraadsvergeliking $$x^3-3x+2=0$$ heeft als oplossingenverzameling $$V = \{-2, 1\}$$.
+De derdegraadsvergeliking $$\mathsf{x^3-3x+2=0}$$ heeft als oplossingenverzameling $$\mathsf{V = \{-2, 1\}}$$.
 ```
 >>> discriminant( -3, 2 )
 Van de drie oplossingen zijn er minstens twee aan elkaar gelijk
 ```
 
-De derdegraadsvergeliking $$x^3+x+2 = 0$$ heeft als oplossingenverzameling $$V = \{-1\}$$.
+De derdegraadsvergeliking $$\mathsf{x^3+x+2 = 0}$$ heeft als oplossingenverzameling $$\mathsf{V = \{-1\}}$$.
 ```
 >>> discriminant( 1, 2 )
 Er is exact één reële oplossing
 ```
 
-De derdegraadsvergeliking $$x^3-4x= 0$$ heeft als oplossingenverzameling $$V = \{-2,0,2\}$$.
+De derdegraadsvergeliking $$\mathsf{x^3-4x= 0}$$ heeft als oplossingenverzameling $$\mathsf{V = \{-2,0,2\}}$$.
 ```
 >>> discriminant( -4, 0 ) 
 Er zijn drie verschillende reële oplossingen
