@@ -46,10 +46,10 @@ vermenigvuldig( 2, 3 )
 
 Parameters worden gebruikt om informatie van buiten de functie naar de functie toe te communiceren. Vaak wil je ook informatie vanuit de functie naar het programma buiten de functie toe communiceren. Daartoe dient het commando `return`.
 
-Uit de wetten van Newton volgt de volgende formule voor de valafstand $$d$$ van een object gedurende een tijd $$t$$. Op aarde is de zwaarteveldsterkte $$g = 9.81 \frac{\text{m}}{\text{s}^2}$$
+Uit de wetten van Newton volgt de volgende formule voor de valafstand $$d$$ van een object gedurende een tijd $$t$$. Op aarde is de zwaarteveldsterkte $$\mathsf{g = 9.81 \frac{\text{m}}{\text{s}^2}}$$
 
 $$
-d = \dfrac{1}{2}\cdot g \cdot t^2
+\mathsf{d = \dfrac{1}{2}\cdot g \cdot t^2}
 $$
 
 We kunnen de valafstand eenvoudig berekenen met behulp van een functie in Python. 
