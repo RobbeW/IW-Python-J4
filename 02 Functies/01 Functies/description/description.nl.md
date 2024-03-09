@@ -70,4 +70,4 @@ print( 'Als een object 3 seconden valt op de maan, dan legt het', valafstand( 3,
 ## Opgave
 Beschouw onderstaande code, deze bevat een kleine **foutje**. 
 
-Corrigeer deze code zodat als uitvoer verschijnt `Een driehoek met basis 4.5 cm en hoogte 1.0 cm heeft oppervlakte 2.25cm².`.
+Corrigeer deze code zodat als uitvoer verschijnt `Een driehoek met basis 4.5 cm en hoogte 1.0 cm heeft oppervlakte 2.25cm².`
