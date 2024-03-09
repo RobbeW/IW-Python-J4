@@ -16,7 +16,7 @@ Net als bij een vierkantsvergelijking speelt een getal $$\mathsf{D}$$, genaamd d
 
 $$\mathsf{D = -4p^3 -27q^2}$$
 
-Een derdegraadsvergelijking zal in het meest algemene geval, namelijk indien de discriminant strikt positief is, drie verschillende reële oplossingen hebben. Is de discriminant echter gelijk aan nul dan zullen minstens 2twee oplossingen aan elkaar gelijk zijn. En bij een strikt negatieve discriminant is altijd slechts één reële oplossing
+Een derdegraadsvergelijking zal in het meest algemene geval, namelijk indien de discriminant strikt positief is, **drie verschillende** reële oplossingen hebben. Is de discriminant echter gelijk aan nul dan zullen **minstens twee oplossingen aan elkaar gelijk zijn**. En bij een strikt negatieve discriminant is altijd **slechts één reële oplossing**.
 
 Schrijf een functie `discriminant( p, q )` die voor een gereduceerde derdegraadsvergelijking $$\mathsf{x^3+px+q=0}$$ het **aantal oplossingen** op het scherm afdrukt **en** de waarde van de discriminant retourneert.
 
