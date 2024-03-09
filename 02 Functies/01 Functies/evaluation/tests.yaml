@@ -1,0 +1,3 @@
+- tab: Feedback
+  testcases:
+  - stdout: "Een driehoek met basis 4.5 cm en hoogte 1.0 cm heeft oppervlakte 2.25 cm²."
