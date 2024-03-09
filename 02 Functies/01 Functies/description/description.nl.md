@@ -62,7 +62,7 @@ print( 'Als een object 3 seconden valt, dan legt het', valafstand( 3 ), 'm af.')
 ```
 Je merkt dat alle complexiteit in de functie bevat zit en de `print`-opdracht zeer natuurlijk leest.
 
-De toevoeging `g = 9.81` bij de parameter zorgde ervoor dat $$g$$ **standaard** de waarde $$9.81$$ krijgt. Op de maan is dit slechts $$1,625 \frac{\text{m}}{\text{s}^2}$$, zodat we de vorige zin bijvoorbeeld eenvoudig kunnen aanpassen. $$g$$ was bij deze functie dus een *optionele* parameter.
+De toevoeging `g = 9.81` bij de parameter zorgde ervoor dat $$g$$ **standaard** de waarde $$9.81$$ krijgt. Op de maan is dit slechts $$\mathsf{1,625 \frac{\text{m}}{\text{s}^2}}$$, zodat we de vorige zin bijvoorbeeld eenvoudig kunnen aanpassen. $$\mathsf{g$}$ was bij deze functie dus een *optionele* parameter.
 ```python
 print( 'Als een object 3 seconden valt op de maan, dan legt het', valafstand( 3, 1.625 ), 'm af.')
 ```
