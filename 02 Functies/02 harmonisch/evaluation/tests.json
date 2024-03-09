@@ -1,6 +1,29 @@
 {
   "tabs": [
     {
+      "name": "Feedback",
+      "contexts": [
+        {
+          "testcases": [
+            {
+              "input": {
+                "stdin": {
+                    "type": "text",
+                    "data": "100\n120"
+                  }
+              },
+              "output": {
+                "stdout": {
+                  "type": "text",
+                  "data": "109.09\n"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Functie feedback",
       "contexts": [
         {
