@@ -7,6 +7,23 @@
           "testcases": [
             {
               "input": {
+                "stdin": "100\n120"
+              },
+              "output": {
+                "stdout": "109.09"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Feedback",
+      "contexts": [
+        {
+          "testcases": [
+            {
+              "input": {
                 "type": "function",
                 "name": "harmonisch_gemiddelde",
                 "arguments": [
@@ -25,6 +42,7 @@
                   "value": {
                     "type": "real",
                     "data": 109.09
+                  }
                 }
               }
             }
