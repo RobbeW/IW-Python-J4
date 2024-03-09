@@ -1,0 +1,36 @@
+{
+  "tabs": [
+    {
+      "name": "Feedback",
+      "contexts": [
+        {
+          "testcases": [
+            {
+              "input": {
+                "type": "function",
+                "name": "harmonisch_gemiddelde",
+                "arguments": [
+                  {
+                    "type": "integer",
+                    "data": 100
+                  },
+                  {
+                    "type": "integer",
+                    "data": 120
+                  },
+                ]
+              },
+              "output": {
+                "result": {
+                  "value": {
+                    "type": "real",
+                    "data": 109.09
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

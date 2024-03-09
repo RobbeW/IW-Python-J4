@@ -3,7 +3,7 @@
   "programming_language": "python",
   "evaluation": {
     "handler": "tested",
-    "test_suite": "tests.yaml"
+    "test_suite": "tests.json"
   },
   "description": {
     "names": {
