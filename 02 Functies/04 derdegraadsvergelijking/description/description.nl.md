@@ -6,7 +6,7 @@ In 1545 onstond in Italië een ware rel toen de wiskundige Gerolamo Cardano een 
 
 $$\mathsf{x^3+px+q=0}$$
 
-![Cardano, Del Ferro en Tartaglia](media/cardano_delferro_tartaglia.jpg "Cardano, Del Ferro en Tartaglia"){:data-caption="De wiskundigen Gerolamo Cardano, Scipione del Ferro en Niccolò Fontana Tartaglia." width="500px"}
+![De wiskundigen Gerolamo Cardano en Niccolò Fontana Tartaglia.](media/Cardano-Tartaglia.jpg "Cardano en Tartaglia"){:data-caption="De wiskundigen Gerolamo Cardano en Niccolò Fontana Tartaglia." width="30%"}
 
 Oorzaak van de rel was dat een andere wiskundige Niccolò Fontana Tartaglia in 1539 zijn oplossingsmethode deelde met Cardano, maar onder de belofte dat hij dit nooit zou publiceren. Ondertussen had Cardano een analoge oplossingsmethode besproken met een derde wiskundige, namelijk Scipione del Ferro. Het volledige dispuut ging gepaard met heel wat beledigingen.
 
