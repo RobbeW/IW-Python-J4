@@ -30,7 +30,6 @@
           "testcases": [
             {
               "input": {
-                "stdin": "none",
                 "type": "function",
                 "name": "harmonisch_gemiddelde",
                 "arguments": [
