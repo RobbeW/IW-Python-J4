@@ -45,7 +45,7 @@
                 ]
               },
               "output": {
-                "output": "ignored",
+                "stdout": "ignored",
                 "result": {
                   "value": {
                     "type": "real",
