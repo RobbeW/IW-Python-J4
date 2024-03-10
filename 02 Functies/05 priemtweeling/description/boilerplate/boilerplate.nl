@@ -6,5 +6,4 @@ def is_priem( getal ):
     
     return priem
 
-def priemtweeling( getal ):
-    
+# Schrijf hieronder je programma
