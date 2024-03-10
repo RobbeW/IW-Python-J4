@@ -27,9 +27,9 @@ False
 Vervolgens kan je deze functie gebruiken in andere programma's zoals:
 
 ```python
-for i in range(2, 100):
-    if is_priem( i ):
-        print( i )
+for getal in range(2, 100):
+    if is_priem( getal ):
+        print( getal )
 ```
 
 Dit programma zal alle priemgetallen kleiner dan 100 afdrukken. Merk op dat de code zeer gemakkelijk leest. Je hoeft niet te weten wat de exacte details van de functie `is_priem()` zijn. De naamgeving zorgt ervoor dat dit duidelijk is.
