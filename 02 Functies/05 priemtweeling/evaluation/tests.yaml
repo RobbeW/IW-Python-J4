@@ -1,42 +1,43 @@
 - tab: Feedback
   testcases:
   - stdin: '20'
-    stdout: "5 en 7 zijn priemtweelingen.\n11 en 13 zijn priemtweelingen.\n17 en 19\
-      \ zijn priemtweelingen."
+    stdout: "3 en 5 zijn priemtweelingen.\n5 en 7 zijn priemtweelingen.\n11 en 13\
+      \ zijn priemtweelingen.\n17 en 19 zijn priemtweelingen."
   - stdin: '100'
-    stdout: "5 en 7 zijn priemtweelingen.\n11 en 13 zijn priemtweelingen.\n17 en 19\
-      \ zijn priemtweelingen.\n29 en 31 zijn priemtweelingen.\n41 en 43 zijn priemtweelingen.\n\
-      59 en 61 zijn priemtweelingen.\n71 en 73 zijn priemtweelingen."
+    stdout: "3 en 5 zijn priemtweelingen.\n5 en 7 zijn priemtweelingen.\n11 en 13\
+      \ zijn priemtweelingen.\n17 en 19 zijn priemtweelingen.\n29 en 31 zijn priemtweelingen.\n\
+      41 en 43 zijn priemtweelingen.\n59 en 61 zijn priemtweelingen.\n71 en 73 zijn\
+      \ priemtweelingen."
   - stdin: '200'
-    stdout: "5 en 7 zijn priemtweelingen.\n11 en 13 zijn priemtweelingen.\n17 en 19\
-      \ zijn priemtweelingen.\n29 en 31 zijn priemtweelingen.\n41 en 43 zijn priemtweelingen.\n\
-      59 en 61 zijn priemtweelingen.\n71 en 73 zijn priemtweelingen.\n101 en 103 zijn\
-      \ priemtweelingen.\n107 en 109 zijn priemtweelingen.\n137 en 139 zijn priemtweelingen.\n\
-      149 en 151 zijn priemtweelingen.\n179 en 181 zijn priemtweelingen.\n191 en 193\
-      \ zijn priemtweelingen.\n197 en 199 zijn priemtweelingen."
+    stdout: "3 en 5 zijn priemtweelingen.\n5 en 7 zijn priemtweelingen.\n11 en 13\
+      \ zijn priemtweelingen.\n17 en 19 zijn priemtweelingen.\n29 en 31 zijn priemtweelingen.\n\
+      41 en 43 zijn priemtweelingen.\n59 en 61 zijn priemtweelingen.\n71 en 73 zijn\
+      \ priemtweelingen.\n101 en 103 zijn priemtweelingen.\n107 en 109 zijn priemtweelingen.\n\
+      137 en 139 zijn priemtweelingen.\n149 en 151 zijn priemtweelingen.\n179 en 181\
+      \ zijn priemtweelingen.\n191 en 193 zijn priemtweelingen.\n197 en 199 zijn priemtweelingen."
   - stdin: '500'
-    stdout: "5 en 7 zijn priemtweelingen.\n11 en 13 zijn priemtweelingen.\n17 en 19\
-      \ zijn priemtweelingen.\n29 en 31 zijn priemtweelingen.\n41 en 43 zijn priemtweelingen.\n\
-      59 en 61 zijn priemtweelingen.\n71 en 73 zijn priemtweelingen.\n101 en 103 zijn\
-      \ priemtweelingen.\n107 en 109 zijn priemtweelingen.\n137 en 139 zijn priemtweelingen.\n\
-      149 en 151 zijn priemtweelingen.\n179 en 181 zijn priemtweelingen.\n191 en 193\
-      \ zijn priemtweelingen.\n197 en 199 zijn priemtweelingen.\n227 en 229 zijn priemtweelingen.\n\
-      239 en 241 zijn priemtweelingen.\n269 en 271 zijn priemtweelingen.\n281 en 283\
-      \ zijn priemtweelingen.\n311 en 313 zijn priemtweelingen.\n347 en 349 zijn priemtweelingen.\n\
-      419 en 421 zijn priemtweelingen.\n431 en 433 zijn priemtweelingen.\n461 en 463\
-      \ zijn priemtweelingen."
+    stdout: "3 en 5 zijn priemtweelingen.\n5 en 7 zijn priemtweelingen.\n11 en 13\
+      \ zijn priemtweelingen.\n17 en 19 zijn priemtweelingen.\n29 en 31 zijn priemtweelingen.\n\
+      41 en 43 zijn priemtweelingen.\n59 en 61 zijn priemtweelingen.\n71 en 73 zijn\
+      \ priemtweelingen.\n101 en 103 zijn priemtweelingen.\n107 en 109 zijn priemtweelingen.\n\
+      137 en 139 zijn priemtweelingen.\n149 en 151 zijn priemtweelingen.\n179 en 181\
+      \ zijn priemtweelingen.\n191 en 193 zijn priemtweelingen.\n197 en 199 zijn priemtweelingen.\n\
+      227 en 229 zijn priemtweelingen.\n239 en 241 zijn priemtweelingen.\n269 en 271\
+      \ zijn priemtweelingen.\n281 en 283 zijn priemtweelingen.\n311 en 313 zijn priemtweelingen.\n\
+      347 en 349 zijn priemtweelingen.\n419 en 421 zijn priemtweelingen.\n431 en 433\
+      \ zijn priemtweelingen.\n461 en 463 zijn priemtweelingen."
   - stdin: '1000'
-    stdout: "5 en 7 zijn priemtweelingen.\n11 en 13 zijn priemtweelingen.\n17 en 19\
-      \ zijn priemtweelingen.\n29 en 31 zijn priemtweelingen.\n41 en 43 zijn priemtweelingen.\n\
-      59 en 61 zijn priemtweelingen.\n71 en 73 zijn priemtweelingen.\n101 en 103 zijn\
-      \ priemtweelingen.\n107 en 109 zijn priemtweelingen.\n137 en 139 zijn priemtweelingen.\n\
-      149 en 151 zijn priemtweelingen.\n179 en 181 zijn priemtweelingen.\n191 en 193\
-      \ zijn priemtweelingen.\n197 en 199 zijn priemtweelingen.\n227 en 229 zijn priemtweelingen.\n\
-      239 en 241 zijn priemtweelingen.\n269 en 271 zijn priemtweelingen.\n281 en 283\
-      \ zijn priemtweelingen.\n311 en 313 zijn priemtweelingen.\n347 en 349 zijn priemtweelingen.\n\
-      419 en 421 zijn priemtweelingen.\n431 en 433 zijn priemtweelingen.\n461 en 463\
-      \ zijn priemtweelingen.\n521 en 523 zijn priemtweelingen.\n569 en 571 zijn priemtweelingen.\n\
-      599 en 601 zijn priemtweelingen.\n617 en 619 zijn priemtweelingen.\n641 en 643\
-      \ zijn priemtweelingen.\n659 en 661 zijn priemtweelingen.\n809 en 811 zijn priemtweelingen.\n\
-      821 en 823 zijn priemtweelingen.\n827 en 829 zijn priemtweelingen.\n857 en 859\
-      \ zijn priemtweelingen.\n881 en 883 zijn priemtweelingen."
+    stdout: "3 en 5 zijn priemtweelingen.\n5 en 7 zijn priemtweelingen.\n11 en 13\
+      \ zijn priemtweelingen.\n17 en 19 zijn priemtweelingen.\n29 en 31 zijn priemtweelingen.\n\
+      41 en 43 zijn priemtweelingen.\n59 en 61 zijn priemtweelingen.\n71 en 73 zijn\
+      \ priemtweelingen.\n101 en 103 zijn priemtweelingen.\n107 en 109 zijn priemtweelingen.\n\
+      137 en 139 zijn priemtweelingen.\n149 en 151 zijn priemtweelingen.\n179 en 181\
+      \ zijn priemtweelingen.\n191 en 193 zijn priemtweelingen.\n197 en 199 zijn priemtweelingen.\n\
+      227 en 229 zijn priemtweelingen.\n239 en 241 zijn priemtweelingen.\n269 en 271\
+      \ zijn priemtweelingen.\n281 en 283 zijn priemtweelingen.\n311 en 313 zijn priemtweelingen.\n\
+      347 en 349 zijn priemtweelingen.\n419 en 421 zijn priemtweelingen.\n431 en 433\
+      \ zijn priemtweelingen.\n461 en 463 zijn priemtweelingen.\n521 en 523 zijn priemtweelingen.\n\
+      569 en 571 zijn priemtweelingen.\n599 en 601 zijn priemtweelingen.\n617 en 619\
+      \ zijn priemtweelingen.\n641 en 643 zijn priemtweelingen.\n659 en 661 zijn priemtweelingen.\n\
+      809 en 811 zijn priemtweelingen.\n821 en 823 zijn priemtweelingen.\n827 en 829\
+      \ zijn priemtweelingen.\n857 en 859 zijn priemtweelingen.\n881 en 883 zijn priemtweelingen."
