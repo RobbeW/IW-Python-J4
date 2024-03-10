@@ -38,28 +38,28 @@ Dit programma zal alle priemgetallen kleiner dan 100 afdrukken. Merk op dat de c
 
 Men noemt twee getallen <a href="https://nl.wikipedia.org/wiki/Priemtweeling" target="_blank">priemtweelingen</a> indien het beide priemgetallen zijn en ze precies twee van elkaar verwijderd zijn. Zo zijn 3 en 5 bijvoorbeeld priemtweelingen.
 
-Schrijf een functie `priemtweeling( getal )` dat controleert of er van een gegeven getal een priemtweeling gevonden kan worden. Gebruik hierbij de functie `is_priem()`.
+Schrijf een programma dat aan de gebruiker een bovengrens vraagt en vervolgens alle priemtweelingen **kleiner** dan deze bovengrens op het scherm afdrukt. Gebruik hierbij de functie `is_priem()`.
 
 #### Voorbeelden
 
+Bij invoer `20` verschijnt er:
 ```
->>> priemtweeling( 5 )
-Je kan twee priemtweelingen vinden van 5, namelijk 3 en 7.
-```
-
-```
->>> priemtweeling( 11 )
-Je kan één priemtweeling vinden van 11, namelijk 13.
+3 en 5 zijn priemtweelingen.
+5 en 7 zijn priemtweelingen.
+11 en 13 zijn priemtweelingen.
+17 en 19 zijn priemtweelingen.
 ```
 
+Bij invoer `100` verschijnt er:
 ```
->>> priemtweeling( 20 )
-Je kan geen priemtweeling vinden van 20.
-```
-
-```
->>> priemtweeling( 53 )
-Je kan geen priemtweeling vinden van 53.
+3 en 5 zijn priemtweelingen.
+5 en 7 zijn priemtweelingen.
+11 en 13 zijn priemtweelingen.
+17 en 19 zijn priemtweelingen.
+29 en 31 zijn priemtweelingen.
+41 en 43 zijn priemtweelingen.
+59 en 61 zijn priemtweelingen.
+71 en 73 zijn priemtweelingen.
 ```
 
 {: .callout.callout-primary}

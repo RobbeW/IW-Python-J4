@@ -6,12 +6,10 @@ def is_priem( getal ):
     
     return priem
 
-def priemtweeling( getal ):
-    if is_priem( getal - 2) and is_priem( getal +2 ):
-        print(f"Je kan twee priemtweelingen vinden van {getal}, namelijk {getal-2} en {getal+2}.")
-    elif is_priem( getal - 2):
-        print(f"Je kan één priemtweeling vinden van {getal}, namelijk {getal-2}.")
-    elif is_priem( getal + 2):
-        print(f"Je kan één priemtweeling vinden van {getal}, namelijk {getal+2}.")
-    else:
-        print(f"Je kan geen priemtweeling vinden van {getal}.")
+# invoer vragen
+bovengrens = int( input( "Geef een bovengrens in: " ) )
+
+# priemtweelingen afdrukken
+for i in range(2, bovengrens):
+    if is_priem(i) and is_priem(i+2) and i+2 < bovengrens:
+        print(i, "en", i+2, "zijn priemtweelingen.")
