@@ -3,6 +3,10 @@
   - stdin: '20'
     stdout: "3 en 5 zijn priemtweelingen.\n5 en 7 zijn priemtweelingen.\n11 en 13\
       \ zijn priemtweelingen.\n17 en 19 zijn priemtweelingen."
+  - stdin: '60'
+    stdout: "3 en 5 zijn priemtweelingen.\n5 en 7 zijn priemtweelingen.\n11 en 13\
+      \ zijn priemtweelingen.\n17 en 19 zijn priemtweelingen.\n29 en 31 zijn priemtweelingen.\n\
+      41 en 43 zijn priemtweelingen."
   - stdin: '100'
     stdout: "3 en 5 zijn priemtweelingen.\n5 en 7 zijn priemtweelingen.\n11 en 13\
       \ zijn priemtweelingen.\n17 en 19 zijn priemtweelingen.\n29 en 31 zijn priemtweelingen.\n\

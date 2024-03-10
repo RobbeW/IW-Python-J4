@@ -40,7 +40,7 @@ class Capturing(list):
 
 # generate test data
 
-cases = [(20,),(100,),(200,),(500,),(1000,)]
+cases = [(20,),(60,),(100,),(200,),(500,),(1000,)]
 
 
 # generate unit tests for functions
