@@ -1,4 +1,4 @@
-Functies zijn zeer handig om **complexe voorwaarden** tot één *zin* te reduceren.
+Functies zijn zeer handig om **complexere code** tot één *regel* te reduceren.
 
 Beschouw bijvoorbeeld onderstaande functie:
 
