@@ -1,0 +1,62 @@
+- tab: Functie feedback
+  testcases:
+  - expression: midden( 2, 3, 4 )
+    return: 3
+  - expression: midden( 5, 2, 3 )
+    return: 3
+  - expression: midden( 8, 9, 8 )
+    return: 8
+  - expression: midden( 8, 8, 8 )
+    return: 8
+  - expression: midden( 13, -7, 10 )
+    return: 10
+  - expression: midden( 8, -3, 14 )
+    return: 8
+  - expression: midden( -2, 14, 9 )
+    return: 9
+  - expression: midden( 6, 8, 13 )
+    return: 8
+  - expression: midden( 19, 6, -8 )
+    return: 6
+  - expression: midden( 14, 0, -7 )
+    return: 0
+  - expression: midden( -6, 20, 16 )
+    return: 16
+  - expression: midden( 1, -10, 20 )
+    return: 1
+  - expression: midden( 20, 18, 5 )
+    return: 18
+  - expression: midden( -9, 14, 16 )
+    return: 14
+  - expression: midden( 1, 13, 17 )
+    return: 13
+  - expression: midden( -3, 5, 7 )
+    return: 5
+  - expression: midden( -9, 4, -3 )
+    return: -3
+  - expression: midden( 7, -6, -2 )
+    return: -2
+  - expression: midden( -8, 1, -9 )
+    return: -8
+  - expression: midden( 3, 17, -2 )
+    return: 3
+  - expression: midden( 7, 16, 10 )
+    return: 10
+  - expression: midden( -1, 2, -5 )
+    return: -1
+  - expression: midden( 12, -9, -6 )
+    return: -6
+  - expression: midden( -3, -4, 15 )
+    return: -3
+  - expression: midden( 7, 2, 5 )
+    return: 5
+  - expression: midden( -5, 18, 6 )
+    return: 6
+  - expression: midden( 8, 4, 13 )
+    return: 8
+  - expression: midden( -9, 1, 9 )
+    return: 1
+  - expression: midden( -3, -6, -7 )
+    return: -6
+  - expression: midden( 4, -6, 16 )
+    return: 4
