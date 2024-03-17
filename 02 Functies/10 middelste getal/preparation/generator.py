@@ -1,11 +1,9 @@
 import os
-import math
 import sys
 import importlib
 import random
 import ruamel.yaml
 import subprocess
-from io import StringIO 
 
 yaml = ruamel.yaml.YAML()
 
@@ -27,18 +25,12 @@ def write_yaml( data:list ):
     with open(os.path.join('..', 'evaluation', 'tests.yaml'), 'w', encoding='utf-8') as f:
         yaml.dump(data, f)
 
-def construct_palindrome( a ):
-    n = a // 2
-    start = random.randint(10**(n-1), 10**(n)-1)
-    orig = start
-    nieuw = 0
-    while start // 1 !=0:
-        eenheid = start % 10
-        nieuw = nieuw*10 + eenheid
-        start //= 10
 
-    print(a, orig, nieuw)
-    return orig* (10**math.ceil(a/2)) + nieuw
+module_name = 'solution'
+file_path = os.path.join(solutiondir, 'solution.nl.py')
+spec = importlib.util.spec_from_file_location(module_name, file_path)
+module = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(module)
 
 # generate test data
 ntests= 30
@@ -49,30 +41,54 @@ while len(cases) < ntests:
     c = random.randint(-10,20)
     cases.append( (a,b,c))
 
+    
 # generate unit tests for functions
 yamldata = []
 
 # input, expression, statement or stdin?
-input = 'expression'
+input = 'stdin'
 # output, stdout or return?
-output = 'return'
-tabtitle = "Functie feedback"
+output = 'stdout'
+tabtitle = "Feedback"
 
-yamldata.append( {'tab': tabtitle, 'testcases': []})
+yamldata.append( {'tab': tabtitle, 'contexts': []})
 
-module_name = 'solution'
-file_path = os.path.join(solutiondir, 'solution.nl.py')
-spec = importlib.util.spec_from_file_location(module_name, file_path)
-module = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(module)
-
-for test in cases:
+for i in range(len(cases)):
+    test = cases[i]
+    yamldata[0]['contexts'].append( {'testcases' : []})
     # generate test expression
-    expression_name = 'midden( {}, {}, {} )'.format( test[0],test[1],test[2])
-    result = module.midden( test[0],test[1],test[2] )
+    # add input to input file
+    stdin = '\n'.join(f'{line}' for line in test)
 
+    # generate output to output file
+    script = os.path.join(solutiondir, 'solution.nl.py')
+    process= subprocess.run(
+        ['python3', script],
+        input=stdin,
+        encoding='utf-8',
+        capture_output=True
+    )
+    
+    result_lines = process.stdout.split("\n")
+    result_lines = [x for x in result_lines[:-1]] ## drop last element
+    
+    outputtxt = ""
+    for line in result_lines:
+        if not(line.startswith( 'Geef' )):
+            print(line)
+            outputtxt += line
+            
+    testcase = { input: stdin, output: outputtxt }            
+    yamldata[0]['contexts'][i]["testcases"].append( testcase)
+    
+    # generate test expression
+    #
+    expression_name = f"midden( {test[0]}, {test[1]}, {test[2]} )"
+    result = module.midden( test[0], test[1], test[2] )
+
+    print(result)
     # setup for return expressions
-    testcase = { input: expression_name, output: result}
-    yamldata[0]['testcases'].append( testcase)
+    testcase = { "expression": expression_name, "return": result }
+    yamldata[0]['contexts'][i]["testcases"].append( testcase)
 
 write_yaml(yamldata)
