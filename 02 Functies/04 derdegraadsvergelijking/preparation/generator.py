@@ -86,7 +86,7 @@ for i in range(len(cases)):
 
     print(result)
     # setup for return expressions
-    testcase = { "expression": expression_name, "return": result }
+    testcase = { "expression": expression_name, "stdout": outputtxt, "return": result }
     yamldata[0]['contexts'][i]["testcases"].append( testcase)
 
 write_yaml(yamldata)

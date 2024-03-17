@@ -4,99 +4,119 @@
     - stdin: "-3\n2"
       stdout: Van de drie oplossingen zijn er minstens twee aan elkaar gelijk.
     - expression: discriminant( -3, 2 )
+      stdout: Van de drie oplossingen zijn er minstens twee aan elkaar gelijk.
       return: 0
   - testcases:
     - stdin: "1\n2"
       stdout: Er is exact één reële oplossing.
     - expression: discriminant( 1, 2 )
+      stdout: Er is exact één reële oplossing.
       return: -112
   - testcases:
     - stdin: "-4\n0"
       stdout: Er zijn drie verschillende reële oplossingen.
     - expression: discriminant( -4, 0 )
+      stdout: Er zijn drie verschillende reële oplossingen.
       return: 256
   - testcases:
     - stdin: "-27\n54"
       stdout: Van de drie oplossingen zijn er minstens twee aan elkaar gelijk.
     - expression: discriminant( -27, 54 )
+      stdout: Van de drie oplossingen zijn er minstens twee aan elkaar gelijk.
       return: 0
   - testcases:
     - stdin: "0\n0"
       stdout: Van de drie oplossingen zijn er minstens twee aan elkaar gelijk.
     - expression: discriminant( 0, 0 )
+      stdout: Van de drie oplossingen zijn er minstens twee aan elkaar gelijk.
       return: 0
   - testcases:
     - stdin: "-7\n10"
       stdout: Er is exact één reële oplossing.
     - expression: discriminant( -7, 10 )
+      stdout: Er is exact één reële oplossing.
       return: -1328
   - testcases:
     - stdin: "8\n-3"
       stdout: Er is exact één reële oplossing.
     - expression: discriminant( 8, -3 )
+      stdout: Er is exact één reële oplossing.
       return: -2291
   - testcases:
     - stdin: "-2\n9"
       stdout: Er is exact één reële oplossing.
     - expression: discriminant( -2, 9 )
+      stdout: Er is exact één reële oplossing.
       return: -2155
   - testcases:
     - stdin: "6\n8"
       stdout: Er is exact één reële oplossing.
     - expression: discriminant( 6, 8 )
+      stdout: Er is exact één reële oplossing.
       return: -2592
   - testcases:
     - stdin: "6\n-8"
       stdout: Er is exact één reële oplossing.
     - expression: discriminant( 6, -8 )
+      stdout: Er is exact één reële oplossing.
       return: -2592
   - testcases:
     - stdin: "-6\n1"
       stdout: Er zijn drie verschillende reële oplossingen.
     - expression: discriminant( -6, 1 )
+      stdout: Er zijn drie verschillende reële oplossingen.
       return: 837
   - testcases:
     - stdin: "-10\n5"
       stdout: Er zijn drie verschillende reële oplossingen.
     - expression: discriminant( -10, 5 )
+      stdout: Er zijn drie verschillende reële oplossingen.
       return: 3325
   - testcases:
     - stdin: "-9\n1"
       stdout: Er zijn drie verschillende reële oplossingen.
     - expression: discriminant( -9, 1 )
+      stdout: Er zijn drie verschillende reële oplossingen.
       return: 2889
   - testcases:
     - stdin: "-3\n5"
       stdout: Er is exact één reële oplossing.
     - expression: discriminant( -3, 5 )
+      stdout: Er is exact één reële oplossing.
       return: -567
   - testcases:
     - stdin: "7\n-9"
       stdout: Er is exact één reële oplossing.
     - expression: discriminant( 7, -9 )
+      stdout: Er is exact één reële oplossing.
       return: -3559
   - testcases:
     - stdin: "4\n-3"
       stdout: Er is exact één reële oplossing.
     - expression: discriminant( 4, -3 )
+      stdout: Er is exact één reële oplossing.
       return: -499
   - testcases:
     - stdin: "7\n-6"
       stdout: Er is exact één reële oplossing.
     - expression: discriminant( 7, -6 )
+      stdout: Er is exact één reële oplossing.
       return: -2344
   - testcases:
     - stdin: "-2\n-8"
       stdout: Er is exact één reële oplossing.
     - expression: discriminant( -2, -8 )
+      stdout: Er is exact één reële oplossing.
       return: -1696
   - testcases:
     - stdin: "1\n-9"
       stdout: Er is exact één reële oplossing.
     - expression: discriminant( 1, -9 )
+      stdout: Er is exact één reële oplossing.
       return: -2191
   - testcases:
     - stdin: "3\n-2"
       stdout: Er is exact één reële oplossing.
     - expression: discriminant( 3, -2 )
+      stdout: Er is exact één reële oplossing.
       return: -216
