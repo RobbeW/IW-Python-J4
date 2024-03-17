@@ -3,5 +3,5 @@
   - testcases:
     - stdin: "100\n120"
       stdout: Het harmonisch gemiddelde van 100 en 120 is 109.09
-    - expression: harmonisch_gemiddelde( 100 , 120 )
+    - expression: "harmonisch_gemiddelde( 100 , 120 )"
       return: 109.09
