@@ -24,6 +24,14 @@ def write_yaml( data:list ):
     """ A function to write YAML file"""
     with open(os.path.join('..', 'evaluation', 'tests.yaml'), 'w', encoding='utf-8') as f:
         yaml.dump(data, f)
+
+
+module_name = 'solution'
+file_path = os.path.join(solutiondir, 'solution.nl.py')
+spec = importlib.util.spec_from_file_location(module_name, file_path)
+module = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(module)
+
 # generate test data
 ntests = 20
 cases = [ (100,120),(128,26)]
@@ -40,7 +48,7 @@ yamldata = []
 input = 'stdin'
 # output, stdout or return?
 output = 'stdout'
-tabtitle = "Invoer/uitvoer feedback"
+tabtitle = "Feedback"
 
 yamldata.append( {'tab': tabtitle, 'testcases': []})
 
@@ -66,35 +74,18 @@ for test in cases:
         if not(line.startswith( 'Geef' )):
             print(line)
             outputtxt += line
-    
-    # setup for return expressions
-    testcase = { input: stdin, output: outputtxt }
+            
+    testcase = { input: stdin, output: outputtxt }            
     yamldata[0]['testcases'].append( testcase)
-
-# input, expression, statement or stdin?
-input = 'expression'
-# output, stdout or return?
-output = 'return'
-tabtitle = "Functie harmonisch_gemiddelde feedback"
-
-yamldata.append( {'tab': tabtitle, 'testcases': []})
-
-print(yamldata[1])
-
-module_name = 'solution'
-file_path = os.path.join(solutiondir, 'solution.nl.py')
-spec = importlib.util.spec_from_file_location(module_name, file_path)
-module = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(module)
-
-for test in cases:
+    
     # generate test expression
+    #
     expression_name = 'harmonisch_gemiddelde( {} , {} )'.format( test[0] , test[1] )
     result = module.harmonisch_gemiddelde( test[0], test[1] )
 
     print(result)
     # setup for return expressions
-    testcase = { input: expression_name, output: result }
-    yamldata[1]['testcases'].append( testcase)
+    testcase = { "expression": expression_name, "return": result }
+    yamldata[0]['testcases'].append( testcase)
 
 write_yaml(yamldata)

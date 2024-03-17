@@ -12,10 +12,10 @@ Vraag aan de gebruiker **vervolgens** twee getallen `a` en `b` en laat de functi
 #### Voorbeelden
 Indien de gebruiker `100` en `120` intikt, dan verschijnt er:
 ```
-109.09
+Het harmonisch gemiddelde van 100 en 120 is 109.09
 ```
 
 Indien de gebruiker `128` en `26` intikt, dan verschijnt er:
 ```
-43.22
+Het harmonisch gemiddelde van 128 en 26 is 43.22
 ```
