@@ -50,9 +50,11 @@ input = 'stdin'
 output = 'stdout'
 tabtitle = "Feedback"
 
-yamldata.append( {'tab': tabtitle, 'testcases': []})
+yamldata.append( {'tab': tabtitle, 'contexts': []})
 
-for test in cases:
+for i in range(len(cases)):
+    test = cases[i]
+    yamldata[0]['contexts'].append( {'testcases' : []})
     # generate test expression
     # add input to input file
     stdin = '\n'.join(f'{line}' for line in test)
@@ -76,7 +78,7 @@ for test in cases:
             outputtxt += line
             
     testcase = { input: stdin, output: outputtxt }            
-    yamldata[0]['testcases'].append( testcase)
+    yamldata[0]['contexts'][i]["testcases"].append( testcase)
     
     # generate test expression
     #
@@ -86,6 +88,6 @@ for test in cases:
     print(result)
     # setup for return expressions
     testcase = { "expression": expression_name, "return": result }
-    yamldata[0]['testcases'].append( testcase)
+    yamldata[0]['contexts'][i]["testcases"].append( testcase)
 
 write_yaml(yamldata)

@@ -10,3 +10,93 @@
       stdout: Het harmonisch gemiddelde van 128 en 26 is 43.22
     - expression: harmonisch_gemiddelde( 128 , 26 )
       return: 43.22
+  - testcases:
+    - stdin: "185\n26"
+      stdout: Het harmonisch gemiddelde van 185 en 26 is 45.59
+    - expression: harmonisch_gemiddelde( 185 , 26 )
+      return: 45.59
+  - testcases:
+    - stdin: "163\n151"
+      stdout: Het harmonisch gemiddelde van 163 en 151 is 156.77
+    - expression: harmonisch_gemiddelde( 163 , 151 )
+      return: 156.77
+  - testcases:
+    - stdin: "59\n195"
+      stdout: Het harmonisch gemiddelde van 59 en 195 is 90.59
+    - expression: harmonisch_gemiddelde( 59 , 195 )
+      return: 90.59
+  - testcases:
+    - stdin: "65\n199"
+      stdout: Het harmonisch gemiddelde van 65 en 199 is 97.99
+    - expression: harmonisch_gemiddelde( 65 , 199 )
+      return: 97.99
+  - testcases:
+    - stdin: "156\n132"
+      stdout: Het harmonisch gemiddelde van 156 en 132 is 143.0
+    - expression: harmonisch_gemiddelde( 156 , 132 )
+      return: 143.0
+  - testcases:
+    - stdin: "151\n188"
+      stdout: Het harmonisch gemiddelde van 151 en 188 is 167.48
+    - expression: harmonisch_gemiddelde( 151 , 188 )
+      return: 167.48
+  - testcases:
+    - stdin: "131\n20"
+      stdout: Het harmonisch gemiddelde van 131 en 20 is 34.7
+    - expression: harmonisch_gemiddelde( 131 , 20 )
+      return: 34.7
+  - testcases:
+    - stdin: "196\n86"
+      stdout: Het harmonisch gemiddelde van 196 en 86 is 119.55
+    - expression: harmonisch_gemiddelde( 196 , 86 )
+      return: 119.55
+  - testcases:
+    - stdin: "32\n39"
+      stdout: Het harmonisch gemiddelde van 32 en 39 is 35.15
+    - expression: harmonisch_gemiddelde( 32 , 39 )
+      return: 35.15
+  - testcases:
+    - stdin: "90\n7"
+      stdout: Het harmonisch gemiddelde van 90 en 7 is 12.99
+    - expression: harmonisch_gemiddelde( 90 , 7 )
+      return: 12.99
+  - testcases:
+    - stdin: "127\n11"
+      stdout: Het harmonisch gemiddelde van 127 en 11 is 20.25
+    - expression: harmonisch_gemiddelde( 127 , 11 )
+      return: 20.25
+  - testcases:
+    - stdin: "197\n95"
+      stdout: Het harmonisch gemiddelde van 197 en 95 is 128.18
+    - expression: harmonisch_gemiddelde( 197 , 95 )
+      return: 128.18
+  - testcases:
+    - stdin: "185\n58"
+      stdout: Het harmonisch gemiddelde van 185 en 58 is 88.31
+    - expression: harmonisch_gemiddelde( 185 , 58 )
+      return: 88.31
+  - testcases:
+    - stdin: "124\n139"
+      stdout: Het harmonisch gemiddelde van 124 en 139 is 131.07
+    - expression: harmonisch_gemiddelde( 124 , 139 )
+      return: 131.07
+  - testcases:
+    - stdin: "12\n118"
+      stdout: Het harmonisch gemiddelde van 12 en 118 is 21.78
+    - expression: harmonisch_gemiddelde( 12 , 118 )
+      return: 21.78
+  - testcases:
+    - stdin: "57\n141"
+      stdout: Het harmonisch gemiddelde van 57 en 141 is 81.18
+    - expression: harmonisch_gemiddelde( 57 , 141 )
+      return: 81.18
+  - testcases:
+    - stdin: "33\n66"
+      stdout: Het harmonisch gemiddelde van 33 en 66 is 44.0
+    - expression: harmonisch_gemiddelde( 33 , 66 )
+      return: 44.0
+  - testcases:
+    - stdin: "18\n96"
+      stdout: Het harmonisch gemiddelde van 18 en 96 is 30.32
+    - expression: harmonisch_gemiddelde( 18 , 96 )
+      return: 30.32
