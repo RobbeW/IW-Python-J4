@@ -8,22 +8,22 @@ Schrijf **uiteindelijk** een programma dat een getal aan de gebruiker vraagt en 
 
 #### Voorbeelden
 
+Geeft de gebruiker `5` in, dan verschijnt er:
 ```
->>> priemtweeling( 5 )
 Je kan twee priemtweelingen vinden van 5, namelijk 3 en 7.
 ```
 
+Geeft de gebruiker `11` in, dan verschijnt er:
 ```
->>> priemtweeling( 11 )
 Je kan één priemtweeling vinden van 11, namelijk 13.
 ```
 
+Geeft de gebruiker `20` in, dan verschijnt er:
 ```
->>> priemtweeling( 20 )
 Je kan geen priemtweeling vinden van 20.
 ```
 
+Geeft de gebruiker `53` in, dan verschijnt er:
 ```
->>> priemtweeling( 53 )
 Je kan geen priemtweeling vinden van 53.
 ```
