@@ -4,6 +4,8 @@ Men noemt twee getallen <a href="https://nl.wikipedia.org/wiki/Priemtweeling" ta
 
 Schrijf een functie `priemtweeling( getal )` dat controleert of er voor een gegeven getal een priemtweeling gevonden kan worden. Gebruik hierbij de functie `is_priem()`.
 
+Schrijf **uiteindelijk** een programma dat een getal aan de gebruiker vraagt en daar de functie `priemtweeling()` op los laat.
+
 #### Voorbeelden
 
 ```

@@ -15,3 +15,7 @@ def priemtweeling( getal ):
         print(f"Je kan één priemtweeling vinden van {getal}, namelijk {getal+2}.")
     else:
         print(f"Je kan geen priemtweeling vinden van {getal}.")
+
+getal = int(input( "Geef een getal in: " ) )
+print()
+priemtweeling(getal)
