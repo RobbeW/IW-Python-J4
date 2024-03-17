@@ -15,14 +15,16 @@ hierbij stelt $$\mathsf{s}$$ de halve omtrek voor.
 ## Opgave
 Schrijf een functie `oppervlakte( a, b, c )` die de oppervlakte van een willekeurige driehoek berekent met behulp van de formule van Heron. Rond het resultaat af op 2 cijfers na de komma.
 
+Schrijf eronder een programma dat aan de gebruiker drie getallen **vraagt** en vervolgens de oppervlakte van de driehoek op het scherm **weergeeft**.
+
 #### Voorbeelden
 
+Geeft de gebruiker `4`, `13` en `15` in, dan verschijnt er:
 ```
->>> oppervlakte( 4, 13, 15 )
-24.0
+De oppervlakte bedraagt 24.0 cm².
 ```
 
+Geeft de gebruiker `15`, `18` en `20` in, dan verschijnt er:
 ```
->>> oppervlakte( 15, 18, 20 ) 
-129.76
+De oppervlakte bedraagt 129.76 cm².
 ```
