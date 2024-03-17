@@ -73,5 +73,5 @@ Beschouw onderstaande code, deze bevat een kleine **foutje**.
 Corrigeer deze code zodat als uitvoer verschijnt:
 
 ```
-Een driehoek met basis 4.5 cm en hoogte 1.0 cm heeft oppervlakte 2.25cm².
+Een driehoek met basis 4.5 cm en hoogte 1.0 cm heeft oppervlakte 2.25 cm².
 ```
