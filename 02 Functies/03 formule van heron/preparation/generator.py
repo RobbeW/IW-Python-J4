@@ -83,7 +83,7 @@ for i in range(len(cases)):
     
     # generate test expression
     #
-    expression_name = f"oppervlakte( {test[0]} , {test[1]}, {test[2]} )"
+    expression_name = f"oppervlakte( {test[0]}, {test[1]}, {test[2]} )"
     result = module.oppervlakte( test[0], test[1], test[2] )
 
     print(result)
