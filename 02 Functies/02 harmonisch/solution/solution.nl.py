@@ -11,4 +11,3 @@ c = harmonisch_gemiddelde(a,b)
 
 # Weergeven op het scherm
 print(f"Het harmonisch gemiddelde van {a} en {b} is {c}")
-
