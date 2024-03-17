@@ -9,3 +9,12 @@ def is_palindroom( getal ):
         nieuw = nieuw * 10 + eenheden
     
     return nieuw == oorspronkelijke
+
+# Invoer vragen
+a = int(input())
+
+# Uitvoer
+if is_palindroom(a):
+    print( f"{a} is een palindroomgetal." )
+else:
+    print( f"{a} is geen palindroomgetal." )

@@ -2,21 +2,23 @@
 
 Schrijf een functie `is_palindroom( getal )` dat gegeven een natuurlijk getal controleert of dit een palindroomgetal is.
 
+Test deze functie uit door een getal te vragen en vervolgens weer te geven of het al dan niet een palindroomgetal is.
+
 #### Voorbeelden
 
+Bij invoer `1221` verschijnt er:
 ```
->>> is_palindroom( 1221 )
-True
-```
-
-```
->>> is_palindroom( 14541 )
-True
+Dit is een palindroomgetal.
 ```
 
+Bij invoer `14541` verschijnt er:
 ```
->>> is_palindroom( 13321 )
-False
+Dit is een palindroomgetal.
+```
+
+Bij invoer `13321` verschijnt er:
+```
+Dit is geen palindroomgetal.
 ```
 
 {: .callout.callout-info}
