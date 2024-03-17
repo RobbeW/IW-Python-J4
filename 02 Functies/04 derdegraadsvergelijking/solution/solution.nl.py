@@ -8,3 +8,10 @@ def discriminant( p, q ):
         print( 'Van de drie oplossingen zijn er minstens twee aan elkaar gelijk.' )
     
     return D
+
+# Invoer vragen
+p = int(input())
+q = int(input())
+
+# Uitvoer
+discriminant( p, q )

@@ -20,21 +20,20 @@ Een derdegraadsvergelijking zal in het meest algemene geval, namelijk indien de 
 
 Schrijf een functie `discriminant( p, q )` die voor een gereduceerde derdegraadsvergelijking $$\mathsf{x^3+px+q=0}$$ het **aantal oplossingen** op het scherm afdrukt **en** nadien de waarde van de discriminant retourneert.
 
+Test het programma vervolgens uit door aan de gebruiker de waarde van $$\mathsf{p}$$ en $$\mathsf{q}$$ te vragen, en vervolgens de functie `discriminant()` hierop loslaat.
+
 #### Voorbeelden
-De derdegraadsvergeliking $$\mathsf{x^3-3x+2=0}$$ heeft als oplossingenverzameling $$\mathsf{V = \{-2, 1\}}$$.
+De derdegraadsvergelijking $$\mathsf{x^3-3x+2=0}$$ heeft als oplossingenverzameling $$\mathsf{V = \{-2, 1\}}$$.
 ```
->>> discriminant( -3, 2 )
 Van de drie oplossingen zijn er minstens twee aan elkaar gelijk
 ```
 
-De derdegraadsvergeliking $$\mathsf{x^3+x+2 = 0}$$ heeft als oplossingenverzameling $$\mathsf{V = \{-1\}}$$.
+De derdegraadsvergelijking $$\mathsf{x^3+x+2 = 0}$$ heeft als oplossingenverzameling $$\mathsf{V = \{-1\}}$$.
 ```
->>> discriminant( 1, 2 )
 Er is exact één reële oplossing
 ```
 
-De derdegraadsvergeliking $$\mathsf{x^3-4x= 0}$$ heeft als oplossingenverzameling $$\mathsf{V = \{-2,0,2\}}$$.
+De derdegraadsvergelijking $$\mathsf{x^3-4x= 0}$$ heeft als oplossingenverzameling $$\mathsf{V = \{-2,0,2\}}$$.
 ```
->>> discriminant( -4, 0 ) 
 Er zijn drie verschillende reële oplossingen
 ```
