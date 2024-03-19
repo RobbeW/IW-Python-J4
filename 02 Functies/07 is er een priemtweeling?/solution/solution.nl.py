@@ -16,6 +16,7 @@ def priemtweeling( getal ):
     else:
         print(f"Je kan geen priemtweeling vinden van {getal}.")
 
+# Invoer vragen
 getal = int(input( "Geef een getal in: " ) )
-print()
+# Uitvoer
 priemtweeling(getal)
