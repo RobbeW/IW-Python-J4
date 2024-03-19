@@ -23,12 +23,12 @@ Hieronder zie je een voorbeeld van een functie. Deze functie bevat één paramet
 
 ```python
 def begroeting( naam ):
-    print( 'Hallo ' + naam + ' !' )
+    print( "Hallo", naam, "!" )
 
-begroeting( 'Jan' ) 
-begroeting( 'Piet' )
-begroeting( 'Joris' )
-begroeting( 'Korneel' )
+begroeting( "Jan" ) 
+begroeting( "Piet" )
+begroeting( "Joris" )
+begroeting( "Korneel" )
 ```
 
 Je kan eenvoudig een functie met meerdere **parameters** aanmaken, bijvoorbeeld:
@@ -36,7 +36,7 @@ Je kan eenvoudig een functie met meerdere **parameters** aanmaken, bijvoorbeeld:
 ```python
 def vermenigvuldig( x, y ):
     resultaat = x * y
-    print( resultaat )
+    print( "Het product van", x, "en", y, "is", resultaat )
 
 vermenigvuldig( 2023 , 5278238 )
 vermenigvuldig( 2, 3 )
@@ -46,7 +46,7 @@ vermenigvuldig( 2, 3 )
 
 Parameters worden gebruikt om informatie van buiten de functie naar de functie toe te communiceren. Vaak wil je ook informatie vanuit de functie naar het programma buiten de functie toe communiceren. Daartoe dient het commando `return`.
 
-Uit de wetten van Newton volgt de volgende formule voor de valafstand $$d$$ van een object gedurende een tijd $$t$$. Op aarde is de zwaarteveldsterkte $$\mathsf{g = 9.81 \frac{\text{m}}{\text{s}^2}}$$
+Uit de wetten van Newton volgt de volgende formule voor de valafstand $$\mathsf{d}$$ van een object gedurende een tijd $$\mathsf{t}$$. Op aarde is de zwaarteveldsterkte $$\mathsf{g = 9.81 \frac{\text{m}}{\text{s}^2}}$$
 
 $$
 \mathsf{d = \dfrac{1}{2}\cdot g \cdot t^2}
@@ -58,13 +58,13 @@ def valafstand( t, g = 9.81 ):
     d = 1/2 * g * pow( t, 2 )
     return d
 
-print( 'Als een object 3 seconden valt, dan legt het', valafstand( 3 ), 'm af.')
+print( "Als een object 3 seconden valt, dan legt het", valafstand( 3 ), "m af.")
 ```
 Je merkt dat alle complexiteit in de functie bevat zit en de `print`-opdracht zeer natuurlijk leest.
 
 De toevoeging `g = 9.81` bij de parameter zorgde ervoor dat $$\mathsf{g}$$ **standaard** de waarde $$\mathsf{9.81}$$ krijgt. Op de maan is dit slechts $$\mathsf{1,625 \frac{\text{m}}{\text{s}^2}}$$, zodat we de vorige zin bijvoorbeeld eenvoudig kunnen aanpassen. $$\mathsf{g}$$ was bij deze functie dus een *optionele* parameter.
 ```python
-print( 'Als een object 3 seconden valt op de maan, dan legt het', valafstand( 3, 1.625 ), 'm af.')
+print( "Als een object 3 seconden valt op de maan, dan legt het", valafstand( 3, 1.625 ), "m af.")
 ```
 
 ## Opgave
