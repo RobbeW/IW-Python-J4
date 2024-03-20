@@ -7,12 +7,15 @@ def is_priem( getal ):
     return priem
 
 def priemtweeling( getal ):
-    if is_priem( getal - 2) and is_priem( getal +2 ):
-        print(f"Je kan twee priemtweelingen vinden van {getal}, namelijk {getal-2} en {getal+2}.")
-    elif is_priem( getal - 2):
-        print(f"Je kan één priemtweeling vinden van {getal}, namelijk {getal-2}.")
-    elif is_priem( getal + 2):
-        print(f"Je kan één priemtweeling vinden van {getal}, namelijk {getal+2}.")
+    if is_priem( getal ):
+        if is_priem( getal - 2) and is_priem( getal +2 ):
+            print(f"Je kan twee priemtweelingen vinden van {getal}, namelijk {getal-2} en {getal+2}.")
+        elif is_priem( getal - 2):
+            print(f"Je kan één priemtweeling vinden van {getal}, namelijk {getal-2}.")
+        elif is_priem( getal + 2):
+            print(f"Je kan één priemtweeling vinden van {getal}, namelijk {getal+2}.")
+        else:
+            print(f"Je kan geen priemtweeling vinden van {getal}.")
     else:
         print(f"Je kan geen priemtweeling vinden van {getal}.")
 

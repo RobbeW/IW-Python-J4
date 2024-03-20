@@ -21,6 +21,41 @@
     - expression: priemtweeling( 53 )
       stdout: Je kan geen priemtweeling vinden van 53.
   - testcases:
+    - stdin: '599'
+      stdout: Je kan één priemtweeling vinden van 599, namelijk 601.
+    - expression: priemtweeling( 599 )
+      stdout: Je kan één priemtweeling vinden van 599, namelijk 601.
+  - testcases:
+    - stdin: '521'
+      stdout: Je kan één priemtweeling vinden van 521, namelijk 523.
+    - expression: priemtweeling( 521 )
+      stdout: Je kan één priemtweeling vinden van 521, namelijk 523.
+  - testcases:
+    - stdin: '523'
+      stdout: Je kan één priemtweeling vinden van 523, namelijk 521.
+    - expression: priemtweeling( 523 )
+      stdout: Je kan één priemtweeling vinden van 523, namelijk 521.
+  - testcases:
+    - stdin: '605'
+      stdout: Je kan geen priemtweeling vinden van 605.
+    - expression: priemtweeling( 605 )
+      stdout: Je kan geen priemtweeling vinden van 605.
+  - testcases:
+    - stdin: '827'
+      stdout: Je kan één priemtweeling vinden van 827, namelijk 829.
+    - expression: priemtweeling( 827 )
+      stdout: Je kan één priemtweeling vinden van 827, namelijk 829.
+  - testcases:
+    - stdin: '881'
+      stdout: Je kan één priemtweeling vinden van 881, namelijk 883.
+    - expression: priemtweeling( 881 )
+      stdout: Je kan één priemtweeling vinden van 881, namelijk 883.
+  - testcases:
+    - stdin: '883'
+      stdout: Je kan één priemtweeling vinden van 883, namelijk 881.
+    - expression: priemtweeling( 883 )
+      stdout: Je kan één priemtweeling vinden van 883, namelijk 881.
+  - testcases:
     - stdin: '739'
       stdout: Je kan geen priemtweeling vinden van 739.
     - expression: priemtweeling( 739 )
@@ -37,9 +72,9 @@
       stdout: Je kan geen priemtweeling vinden van 650.
   - testcases:
     - stdin: '605'
-      stdout: Je kan één priemtweeling vinden van 605, namelijk 607.
+      stdout: Je kan geen priemtweeling vinden van 605.
     - expression: priemtweeling( 605 )
-      stdout: Je kan één priemtweeling vinden van 605, namelijk 607.
+      stdout: Je kan geen priemtweeling vinden van 605.
   - testcases:
     - stdin: '236'
       stdout: Je kan geen priemtweeling vinden van 236.
@@ -92,19 +127,19 @@
       stdout: Je kan één priemtweeling vinden van 523, namelijk 521.
   - testcases:
     - stdin: '81'
-      stdout: Je kan twee priemtweelingen vinden van 81, namelijk 79 en 83.
+      stdout: Je kan geen priemtweeling vinden van 81.
     - expression: priemtweeling( 81 )
-      stdout: Je kan twee priemtweelingen vinden van 81, namelijk 79 en 83.
+      stdout: Je kan geen priemtweeling vinden van 81.
   - testcases:
     - stdin: '785'
-      stdout: Je kan één priemtweeling vinden van 785, namelijk 787.
+      stdout: Je kan geen priemtweeling vinden van 785.
     - expression: priemtweeling( 785 )
-      stdout: Je kan één priemtweeling vinden van 785, namelijk 787.
+      stdout: Je kan geen priemtweeling vinden van 785.
   - testcases:
     - stdin: '345'
-      stdout: Je kan één priemtweeling vinden van 345, namelijk 347.
+      stdout: Je kan geen priemtweeling vinden van 345.
     - expression: priemtweeling( 345 )
-      stdout: Je kan één priemtweeling vinden van 345, namelijk 347.
+      stdout: Je kan geen priemtweeling vinden van 345.
   - testcases:
     - stdin: '127'
       stdout: Je kan geen priemtweeling vinden van 127.
@@ -115,38 +150,3 @@
       stdout: Je kan geen priemtweeling vinden van 154.
     - expression: priemtweeling( 154 )
       stdout: Je kan geen priemtweeling vinden van 154.
-  - testcases:
-    - stdin: '970'
-      stdout: Je kan geen priemtweeling vinden van 970.
-    - expression: priemtweeling( 970 )
-      stdout: Je kan geen priemtweeling vinden van 970.
-  - testcases:
-    - stdin: '862'
-      stdout: Je kan geen priemtweeling vinden van 862.
-    - expression: priemtweeling( 862 )
-      stdout: Je kan geen priemtweeling vinden van 862.
-  - testcases:
-    - stdin: '360'
-      stdout: Je kan geen priemtweeling vinden van 360.
-    - expression: priemtweeling( 360 )
-      stdout: Je kan geen priemtweeling vinden van 360.
-  - testcases:
-    - stdin: '26'
-      stdout: Je kan geen priemtweeling vinden van 26.
-    - expression: priemtweeling( 26 )
-      stdout: Je kan geen priemtweeling vinden van 26.
-  - testcases:
-    - stdin: '980'
-      stdout: Je kan geen priemtweeling vinden van 980.
-    - expression: priemtweeling( 980 )
-      stdout: Je kan geen priemtweeling vinden van 980.
-  - testcases:
-    - stdin: '985'
-      stdout: Je kan één priemtweeling vinden van 985, namelijk 983.
-    - expression: priemtweeling( 985 )
-      stdout: Je kan één priemtweeling vinden van 985, namelijk 983.
-  - testcases:
-    - stdin: '899'
-      stdout: Je kan geen priemtweeling vinden van 899.
-    - expression: priemtweeling( 899 )
-      stdout: Je kan geen priemtweeling vinden van 899.
