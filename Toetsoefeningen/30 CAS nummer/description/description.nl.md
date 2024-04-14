@@ -7,7 +7,7 @@ Er geldt bijvoorbeeld dat <a href="https://commonchemistry.cas.org/detail?cas_rn
 Er geldt bijvoorbeeld voor **cafeïne**:
 
 $$
-\mathsf{1*8 + 2*0 +3*8+4*5 = 52}
+\mathsf{1\cdot 8 + 2\cdot 0 +3\cdot 8+4\cdot 5 = 52}
 $$
 
 En inderdaad 52 heeft als rest 2 bij deling door 10.
@@ -15,7 +15,7 @@ En inderdaad 52 heeft als rest 2 bij deling door 10.
 Als extra voorbeeld: **Polypropeen** heeft als CAS nummer 9003-07-0. En inderdaad 
 
 $$
-\mathsf{1 * 7 + 2*0 + 3*3+4*0+5*0+6*9 = 70}
+\mathsf{1 \cdot 7 + 2\cdot 0 + 3\cdot 3+4\cdot 0+5\cdot 0+6\cdot 9 = 70}
 $$
 
 wat rest 0 heeft bij deling door 10. Het controlegetal is dus inderdaad 0.
