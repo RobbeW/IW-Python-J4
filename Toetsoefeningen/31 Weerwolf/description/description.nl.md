@@ -10,11 +10,11 @@ Indien er één trein actief is, dan kan deze per rit 24 personen vervoeren. Een
 
 ## Opgave
 
-Schrijf een programma dat aan de gebruiker **eerst** het aantal mensen in de wachtrij vraagt, daarna wordt er gevraagd naar hoeveel mensen er na 3 minuten bijkomen. 
+Schrijf een programma dat aan de gebruiker **eerst** het aantal mensen in de wachtrij vraagt, **daarna** wordt er gevraagd naar hoeveel mensen er na 3 minuten bijkomen. 
 
 Omdat de wachtrij niet eindeloos blijft groeien mag je er van uitgaan dat dat er telkens minder mensen aanschuiven. Vraag de gebruiker hoeveel mensen er elke beurt **minder** aanschuiven. 
 
-Geef telkens het scherm weer **hoeveel mensen er aanschuiven** zolang de wachtrij groter wordt. Geef nadien weer na hoeveel minuten de wachttijd het langst was.
+Geef telkens op het scherm weer **hoeveel mensen er aanschuiven** zolang de wachtrij groter wordt. Geef nadien weer na hoeveel minuten de wachttijd het langst was.
 
 #### Voorbeeld 1
 Stel bijvoorbeeld dat er `40` mensen in de wachtrij staan. Elke 3 minuten komen er `30` en dit aantal neemt telkens met `5` af. De eerste keer komen er dus 30 mensen bij, daarna 25, daarna 20, daarna 15, enz...
