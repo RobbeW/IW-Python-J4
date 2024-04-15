@@ -1,10 +1,6 @@
 De Weerwolf is een <a href="https://nl.wikipedia.org/wiki/Weerwolf_(achtbaan)" target="_blank">houten achtbaan</a> in Walibi Waver. 
 
-<div class="hidden-print">
-    <div class="dodona-centered-group">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/jBsPNMuXcEI?start=54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-</div>
+![Despicable Me.](media/coaster.gif "Despicable Me."){:data-caption="Despicable Me." width="400px"}
 
 Indien er één trein actief is, dan kan deze per rit 24 personen vervoeren. Een rit duurt met in- en uitladen van personen ongeveer 3 minuten.
 
