@@ -2,7 +2,7 @@ Een CAS-nummer is een unieke numerieke identificatie voor chemische elementen. C
 
 Via <a href="https://commonchemistry.cas.org/" target="_blank">deze website</a> kan je bijvoorbeeld gemakklijk CAS-nummers gaan opzoeken.
 
-Er geldt bijvoorbeeld dat <a href="https://commonchemistry.cas.org/detail?cas_rn=58-08-2" target="_blank">58-08-2</a> het CAS-nummer van cafeïne is. Het nummer wordt op een bepaalde manier opgebouwd. Helemaal links staan maximaal 7 cijfers, gevolgd door 2 cijfers en een controlegetal. Om het controlegetal te bepalen neemt men eerst de som van de getallen ervoor, telkens vermenigvuligd met hun rangnummer. Daarna bepaalt men de rest bij deling door 10.
+Er geldt bijvoorbeeld dat <a href="https://commonchemistry.cas.org/detail?cas_rn=58-08-2" target="_blank">58-08-2</a> het CAS-nummer van cafeïne is. Het nummer wordt op een bepaalde manier opgebouwd. Helemaal links staan maximaal 7 cijfers, gevolgd door 2 cijfers en een controlegetal. Om het controlegetal te bepalen neemt men eerst de som van de getallen ervoor, telkens vermenigvuldigd met hun rangnummer. Daarna bepaalt men de rest bij deling door 10.
 
 Er geldt bijvoorbeeld voor **cafeïne**:
 
