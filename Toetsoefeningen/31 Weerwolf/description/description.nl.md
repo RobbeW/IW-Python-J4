@@ -8,7 +8,7 @@ Indien er één trein actief is, dan kan deze per rit 24 personen vervoeren. Een
 
 Schrijf een programma dat aan de gebruiker **eerst** het aantal mensen in de wachtrij vraagt, **daarna** wordt er gevraagd naar hoeveel mensen er na 3 minuten bijkomen. 
 
-Omdat de wachtrij niet eindeloos blijft groeien mag je er van uitgaan dat dat er telkens minder mensen aanschuiven. Vraag de gebruiker hoeveel mensen er elke beurt **minder** aanschuiven. 
+Omdat de wachtrij niet eindeloos blijft groeien mag je er van uitgaan dat er telkens minder mensen aanschuiven. Vraag de gebruiker hoeveel mensen er elke beurt **minder** aanschuiven. 
 
 Geef telkens op het scherm weer **hoeveel mensen er aanschuiven** zolang de wachtrij groter wordt. Geef nadien weer na hoeveel minuten de wachttijd het langst was.
 
