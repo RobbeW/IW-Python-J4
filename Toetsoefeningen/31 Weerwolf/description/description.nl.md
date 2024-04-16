@@ -6,14 +6,14 @@ Indien er één trein actief is, dan kan deze per rit 24 personen vervoeren. Een
 
 ## Opgave
 
-Schrijf een programma dat aan de gebruiker **eerst** het aantal mensen in de wachtrij vraagt, **daarna** wordt er gevraagd naar hoeveel mensen er na 3 minuten bijkomen. 
+Schrijf een programma dat aan de gebruiker **eerst** het aantal mensen in de wachtrij vraagt, **daarna** wordt er gevraagd hoeveel mensen er na 3 minuten bijkomen. 
 
 Omdat de wachtrij niet eindeloos blijft groeien mag je er van uitgaan dat er telkens minder mensen aanschuiven. Vraag de gebruiker hoeveel mensen er elke beurt **minder** aanschuiven. 
 
 Geef telkens op het scherm weer **hoeveel mensen er aanschuiven** zolang de wachtrij groter wordt. Geef nadien weer na hoeveel minuten de wachttijd het langst was.
 
 #### Voorbeeld 1
-Stel bijvoorbeeld dat er `40` mensen in de wachtrij staan. Elke 3 minuten komen er `30` en dit aantal neemt telkens met `5` af. De eerste keer komen er dus 30 mensen bij, daarna 25, daarna 20, daarna 15, enz...
+Stel bijvoorbeeld dat er `40` mensen in de wachtrij staan. Elke 3 minuten komen er `30` bij en dit aantal neemt telkens met `5` af. De eerste keer komen er dus 30 mensen bij, daarna 25, daarna 20, daarna 15, enz...
 
 ```
 Na 3 minuten bevat de wachtrij 46 personen
@@ -24,7 +24,7 @@ De wachtrij was het langst na 6 minuten.
 Inderdaad, want de eerste keer berekent men het aantal mensen in de wachtrij via: 40 - 24 + 30 = 46. De tweede keer via: 46 - 24 + 25 = 47. De volgende keer via: 47 - 24 + 20 = 43. De wachtrij was na 6 minuten dus het langste.
 
 #### Voorbeeld 2
-Stel bijvoorbeeld dat er `60` mensen in de wachtrij staan. Elke 3 minuten komen er `50` en dit aantal neemt telkens met `3` af. De eerste keer komen er dus 50 mensen bij, daarna 47, daarna 44, daarna 41, enz...
+Stel bijvoorbeeld dat er `60` mensen in de wachtrij staan. Elke 3 minuten komen er `50` bij en dit aantal neemt telkens met `3` af. De eerste keer komen er dus 50 mensen bij, daarna 47, daarna 44, daarna 41, enz...
 
 ```
 Na 3 minuten bevat de wachtrij 86 personen
