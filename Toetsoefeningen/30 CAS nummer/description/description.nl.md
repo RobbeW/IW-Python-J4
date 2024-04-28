@@ -31,7 +31,7 @@ Indien de gebruiker de code van cafeïne, `5808`, intikt, dan verschijnt er:
 Het CAS-nummer is: 58-08-2
 ```
 
-Indien de gebruiker de code van Polypropeen, `9000307`, intikt, dan verschijnt er:
+Indien de gebruiker de code van Polypropeen, `900307`, intikt, dan verschijnt er:
 
 ```
 Het CAS-nummer is: 9003-07-0
