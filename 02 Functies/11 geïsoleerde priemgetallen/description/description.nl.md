@@ -1,6 +1,6 @@
 ## Opgave
 
-Men noemt een priemgetal $$\mathsf{p}$$ een geïsoleerd priemgetal indien het priem is en $$\mathsf{p-2}$$ en $$\mathsf{p+2}$$ **niet** priem zijn. Met andere woorden, $$\mathsf{p}$$ is geen deel van een priemtweeling.
+Men noemt een priemgetal $$\mathsf{p}$$ een **geïsoleerd priemgetal** indien het priem is en $$\mathsf{p-2}$$ en $$\mathsf{p+2}$$ **niet** priem zijn. Met andere woorden, $$\mathsf{p}$$ is geen deel van een priemtweeling.
 
 Er geldt bijvoorbeeld dat 23 een geïsoleerd priemgetal is, immers noch 21, noch 25 zien priemgetallen.
 
