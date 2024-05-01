@@ -1,5 +1,5 @@
 def bijnagelijk( a, b, tolerantie ):
-    return abs(a - b) < tolerantie
+    return abs(a - b) <= tolerantie
 
 x = float(input( "Geef een eerste getal in: ") )
 y = float(input( "Geef een eerste getal in: ") )
