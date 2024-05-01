@@ -1,0 +1,152 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "150\n150.1\n0.5"
+      stdout: 150.0 en 150.1 zijn bijna aan elkaar gelijk.
+    - expression: bijnagelijk( 150 , 150.1, 0.5 )
+      return: true
+  - testcases:
+    - stdin: "150\n150.1\n0.01"
+      stdout: 150.0 en 150.1 verschillen teveel.
+    - expression: bijnagelijk( 150 , 150.1, 0.01 )
+      return: false
+  - testcases:
+    - stdin: "150\n150.1\n0.1"
+      stdout: 150.0 en 150.1 zijn bijna aan elkaar gelijk.
+    - expression: bijnagelijk( 150 , 150.1, 0.1 )
+      return: true
+  - testcases:
+    - stdin: "150\n149.9\n0.5"
+      stdout: 150.0 en 149.9 zijn bijna aan elkaar gelijk.
+    - expression: bijnagelijk( 150 , 149.9, 0.5 )
+      return: true
+  - testcases:
+    - stdin: "150\n149.9\n0.01"
+      stdout: 150.0 en 149.9 verschillen teveel.
+    - expression: bijnagelijk( 150 , 149.9, 0.01 )
+      return: false
+  - testcases:
+    - stdin: "150\n149.9\n0.1"
+      stdout: 150.0 en 149.9 zijn bijna aan elkaar gelijk.
+    - expression: bijnagelijk( 150 , 149.9, 0.1 )
+      return: true
+  - testcases:
+    - stdin: "185.0\n186.161\n0.5"
+      stdout: 185.0 en 186.161 verschillen teveel.
+    - expression: bijnagelijk( 185.0 , 186.161, 0.5 )
+      return: false
+  - testcases:
+    - stdin: "132.0\n132.946\n0.5"
+      stdout: 132.0 en 132.946 verschillen teveel.
+    - expression: bijnagelijk( 132.0 , 132.946, 0.5 )
+      return: false
+  - testcases:
+    - stdin: "90.0\n92.163\n1"
+      stdout: 90.0 en 92.163 verschillen teveel.
+    - expression: bijnagelijk( 90.0 , 92.163, 1 )
+      return: false
+  - testcases:
+    - stdin: "58.0\n58.0\n0.001"
+      stdout: 58.0 en 58.0 zijn bijna aan elkaar gelijk.
+    - expression: bijnagelijk( 58.0 , 58.0, 0.001 )
+      return: true
+  - testcases:
+    - stdin: "33.0\n32.998\n0.05"
+      stdout: 33.0 en 32.998 zijn bijna aan elkaar gelijk.
+    - expression: bijnagelijk( 33.0 , 32.998, 0.05 )
+      return: true
+  - testcases:
+    - stdin: "71.0\n71.006\n0.05"
+      stdout: 71.0 en 71.006 zijn bijna aan elkaar gelijk.
+    - expression: bijnagelijk( 71.0 , 71.006, 0.05 )
+      return: true
+  - testcases:
+    - stdin: "56.0\n56.015\n0.005"
+      stdout: 56.0 en 56.015 verschillen teveel.
+    - expression: bijnagelijk( 56.0 , 56.015, 0.005 )
+      return: false
+  - testcases:
+    - stdin: "192.0\n192.208\n1"
+      stdout: 192.0 en 192.208 zijn bijna aan elkaar gelijk.
+    - expression: bijnagelijk( 192.0 , 192.208, 1 )
+      return: true
+  - testcases:
+    - stdin: "37.0\n37.003\n0.005"
+      stdout: 37.0 en 37.003 zijn bijna aan elkaar gelijk.
+    - expression: bijnagelijk( 37.0 , 37.003, 0.005 )
+      return: true
+  - testcases:
+    - stdin: "169.0\n168.977\n0.1"
+      stdout: 169.0 en 168.977 zijn bijna aan elkaar gelijk.
+    - expression: bijnagelijk( 169.0 , 168.977, 0.1 )
+      return: true
+  - testcases:
+    - stdin: "160.0\n160.003\n0.001"
+      stdout: 160.0 en 160.003 verschillen teveel.
+    - expression: bijnagelijk( 160.0 , 160.003, 0.001 )
+      return: false
+  - testcases:
+    - stdin: "105.0\n104.892\n0.05"
+      stdout: 105.0 en 104.892 verschillen teveel.
+    - expression: bijnagelijk( 105.0 , 104.892, 0.05 )
+      return: false
+  - testcases:
+    - stdin: "190.0\n189.946\n0.1"
+      stdout: 190.0 en 189.946 zijn bijna aan elkaar gelijk.
+    - expression: bijnagelijk( 190.0 , 189.946, 0.1 )
+      return: true
+  - testcases:
+    - stdin: "84.0\n85.56\n0.5"
+      stdout: 84.0 en 85.56 verschillen teveel.
+    - expression: bijnagelijk( 84.0 , 85.56, 0.5 )
+      return: false
+  - testcases:
+    - stdin: "181.0\n180.18\n0.5"
+      stdout: 181.0 en 180.18 verschillen teveel.
+    - expression: bijnagelijk( 181.0 , 180.18, 0.5 )
+      return: false
+  - testcases:
+    - stdin: "133.0\n133.004\n0.005"
+      stdout: 133.0 en 133.004 zijn bijna aan elkaar gelijk.
+    - expression: bijnagelijk( 133.0 , 133.004, 0.005 )
+      return: true
+  - testcases:
+    - stdin: "58.0\n55.819\n1"
+      stdout: 58.0 en 55.819 verschillen teveel.
+    - expression: bijnagelijk( 58.0 , 55.819, 1 )
+      return: false
+  - testcases:
+    - stdin: "197.0\n197.0\n0.005"
+      stdout: 197.0 en 197.0 zijn bijna aan elkaar gelijk.
+    - expression: bijnagelijk( 197.0 , 197.0, 0.005 )
+      return: true
+  - testcases:
+    - stdin: "61.0\n61.027\n0.25"
+      stdout: 61.0 en 61.027 zijn bijna aan elkaar gelijk.
+    - expression: bijnagelijk( 61.0 , 61.027, 0.25 )
+      return: true
+  - testcases:
+    - stdin: "34.0\n33.668\n0.25"
+      stdout: 34.0 en 33.668 verschillen teveel.
+    - expression: bijnagelijk( 34.0 , 33.668, 0.25 )
+      return: false
+  - testcases:
+    - stdin: "46.0\n45.996\n0.005"
+      stdout: 46.0 en 45.996 zijn bijna aan elkaar gelijk.
+    - expression: bijnagelijk( 46.0 , 45.996, 0.005 )
+      return: true
+  - testcases:
+    - stdin: "116.0\n115.991\n0.005"
+      stdout: 116.0 en 115.991 verschillen teveel.
+    - expression: bijnagelijk( 116.0 , 115.991, 0.005 )
+      return: false
+  - testcases:
+    - stdin: "148.0\n148.003\n0.005"
+      stdout: 148.0 en 148.003 zijn bijna aan elkaar gelijk.
+    - expression: bijnagelijk( 148.0 , 148.003, 0.005 )
+      return: true
+  - testcases:
+    - stdin: "158.0\n158.0\n0.001"
+      stdout: 158.0 en 158.0 zijn bijna aan elkaar gelijk.
+    - expression: bijnagelijk( 158.0 , 158.0, 0.001 )
+      return: true
