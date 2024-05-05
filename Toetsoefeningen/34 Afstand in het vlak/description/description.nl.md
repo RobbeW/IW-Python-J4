@@ -21,3 +21,7 @@ Bij de punten A(0,0), B(4, 0) en C(2,3.46) verschijnt er:
 ```
 Driehoek ABC is gelijkzijdig.
 ```
+
+{: .callout.callout-info}
+> #### Tip
+> Vergeet niet de wiskunde module te importeren...
