@@ -1,4 +1,4 @@
-In de lessen wiskunde heb je gezien hoe je de aftand tussen 2 punten $$\mathsf{(x_1, y_1)}$$ en $$\mathsf{(x_2,y_2)}$$ kan berekenen. Deze formule is in essentie gewoon een toepassing van de stelling van Pythagoras.
+In de lessen wiskunde heb je gezien hoe je de afstand tussen 2 punten $$\mathsf{(x_1, y_1)}$$ en $$\mathsf{(x_2,y_2)}$$ kan berekenen. Deze formule is in essentie gewoon een toepassing van de stelling van Pythagoras.
 
 ![Toepassing van de Euclidische afstand.](media/image.png "Toepassing van de Euclidische afstand."){:data-caption="Toepassing van de Euclidische afstand." .light-only width="419px"}
 
