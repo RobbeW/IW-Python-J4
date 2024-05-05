@@ -46,7 +46,8 @@
       \ een geïsoleerd priemgetal.\n439 is een geïsoleerd priemgetal.\n443 is een\
       \ geïsoleerd priemgetal.\n449 is een geïsoleerd priemgetal.\n457 is een geïsoleerd\
       \ priemgetal.\n467 is een geïsoleerd priemgetal.\n479 is een geïsoleerd priemgetal.\n\
-      487 is een geïsoleerd priemgetal.\n491 is een geïsoleerd priemgetal."
+      487 is een geïsoleerd priemgetal.\n491 is een geïsoleerd priemgetal.\n499 is\
+      \ een geïsoleerd priemgetal."
   - stdin: '1000'
     stdout: "2 is een geïsoleerd priemgetal.\n23 is een geïsoleerd priemgetal.\n37\
       \ is een geïsoleerd priemgetal.\n47 is een geïsoleerd priemgetal.\n53 is een\
