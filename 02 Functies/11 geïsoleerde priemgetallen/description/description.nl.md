@@ -8,7 +8,7 @@ Schrijf een programma dat aan de gebruiker een bovengrens vraagt en vervolgens a
 
 #### Voorbeelden
 
-Bij invoer `20` verschijnt er:
+Bij invoer `30` verschijnt er:
 ```
 2 is een geïsoleerd priemgetal.
 23 is een geïsoleerd priemgetal.
