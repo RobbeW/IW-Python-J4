@@ -3,7 +3,7 @@ import math
 # Programmeer hier je functie
 def afstand( x1, y1, x2, y2 ):
     d = math.sqrt((x2-x1)**2 + (y2-y1)**2)
-    return round(d, 2)
+    return round(d, 1)
 
 # Alle coördinaten vragen
 xA = float( input( "Geef de x-coördinaat van punt A in: " ) )

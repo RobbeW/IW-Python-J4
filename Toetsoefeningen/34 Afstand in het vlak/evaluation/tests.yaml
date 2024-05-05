@@ -6,9 +6,9 @@
     - expression: afstand( 0.0 , 0.0, 4.0, 0.0 )
       return: 4.0
     - expression: afstand( 0.0 , 0.0, 2.0, 5.0 )
-      return: 5.39
+      return: 5.4
     - expression: afstand( 4.0 , 0.0, 2.0, 5.0 )
-      return: 5.39
+      return: 5.4
   - testcases:
     - stdin: "0.0\n0.0\n4.0\n0.0\n2.0\n3.46"
       stdout: Driehoek ABC is gelijkzijdig.
@@ -33,27 +33,27 @@
     - expression: afstand( 1.0 , -10.0, 15.6, -4.8 )
       return: 15.5
     - expression: afstand( 1.0 , -10.0, 1.88, -6.5 )
-      return: 3.61
+      return: 3.6
     - expression: afstand( 15.6 , -4.8, 1.88, -6.5 )
-      return: 13.82
+      return: 13.8
   - testcases:
     - stdin: "-9.0\n4.0\n-10.79\n3.81\n-14.53\n-0.62"
       stdout: Driehoek ABC is ongelijkbenig.
     - expression: afstand( -9.0 , 4.0, -10.79, 3.81 )
       return: 1.8
     - expression: afstand( -9.0 , 4.0, -14.53, -0.62 )
-      return: 7.21
+      return: 7.2
     - expression: afstand( -10.79 , 3.81, -14.53, -0.62 )
       return: 5.8
   - testcases:
     - stdin: "-9.0\n3.0\n1.35\n-1.77\n-1.73\n5.15"
-      stdout: Driehoek ABC is ongelijkbenig.
+      stdout: Driehoek ABC is gelijkbenig.
     - expression: afstand( -9.0 , 3.0, 1.35, -1.77 )
       return: 11.4
     - expression: afstand( -9.0 , 3.0, -1.73, 5.15 )
-      return: 7.58
+      return: 7.6
     - expression: afstand( 1.35 , -1.77, -1.73, 5.15 )
-      return: 7.57
+      return: 7.6
   - testcases:
     - stdin: "-1.0\n2.0\n-8.77\n10.61\n-12.34\n-0.43"
       stdout: Driehoek ABC is gelijkzijdig.
@@ -65,11 +65,11 @@
       return: 11.6
   - testcases:
     - stdin: "7.0\n2.0\n7.59\n-12.59\n10.29\n-5.17"
-      stdout: Driehoek ABC is ongelijkbenig.
+      stdout: Driehoek ABC is gelijkbenig.
     - expression: afstand( 7.0 , 2.0, 7.59, -12.59 )
       return: 14.6
     - expression: afstand( 7.0 , 2.0, 10.29, -5.17 )
-      return: 7.89
+      return: 7.9
     - expression: afstand( 7.59 , -12.59, 10.29, -5.17 )
       return: 7.9
   - testcases:
@@ -78,36 +78,36 @@
     - expression: afstand( -9.0 , 1.0, -13.13, -0.19 )
       return: 4.3
     - expression: afstand( -9.0 , 1.0, -14.88, -11.1 )
-      return: 13.45
+      return: 13.5
     - expression: afstand( -13.13 , -0.19, -14.88, -11.1 )
-      return: 11.05
+      return: 11.0
   - testcases:
     - stdin: "2.0\n-3.0\n4.34\n-6.0\n9.48\n0.43"
       stdout: Driehoek ABC is gelijkbenig.
     - expression: afstand( 2.0 , -3.0, 4.34, -6.0 )
       return: 3.8
     - expression: afstand( 2.0 , -3.0, 9.48, 0.43 )
-      return: 8.23
+      return: 8.2
     - expression: afstand( 4.34 , -6.0, 9.48, 0.43 )
-      return: 8.23
+      return: 8.2
   - testcases:
     - stdin: "-3.0\n9.0\n6.88\n4.64\n3.56\n10.48"
       stdout: Driehoek ABC is gelijkbenig.
     - expression: afstand( -3.0 , 9.0, 6.88, 4.64 )
       return: 10.8
     - expression: afstand( -3.0 , 9.0, 3.56, 10.48 )
-      return: 6.72
+      return: 6.7
     - expression: afstand( 6.88 , 4.64, 3.56, 10.48 )
-      return: 6.72
+      return: 6.7
   - testcases:
     - stdin: "3.0\n-2.0\n-9.33\n12.06\n-2.17\n-5.2"
-      stdout: Driehoek ABC is ongelijkbenig.
+      stdout: Driehoek ABC is gelijkbenig.
     - expression: afstand( 3.0 , -2.0, -9.33, 12.06 )
       return: 18.7
     - expression: afstand( 3.0 , -2.0, -2.17, -5.2 )
-      return: 6.08
+      return: 6.1
     - expression: afstand( -9.33 , 12.06, -2.17, -5.2 )
-      return: 18.69
+      return: 18.7
   - testcases:
     - stdin: "-1.0\n-4.0\n-2.19\n-16.74\n9.44\n-11.4"
       stdout: Driehoek ABC is gelijkzijdig.
@@ -119,49 +119,49 @@
       return: 12.8
   - testcases:
     - stdin: "0.0\n-7.0\n-8.86\n-4.51\n-6.59\n-13.42"
-      stdout: Driehoek ABC is gelijkbenig.
+      stdout: Driehoek ABC is gelijkzijdig.
     - expression: afstand( 0.0 , -7.0, -8.86, -4.51 )
       return: 9.2
     - expression: afstand( 0.0 , -7.0, -6.59, -13.42 )
       return: 9.2
     - expression: afstand( -8.86 , -4.51, -6.59, -13.42 )
-      return: 9.19
+      return: 9.2
   - testcases:
     - stdin: "-7.0\n1.0\n-3.71\n17.78\n-13.21\n10.93"
       stdout: Driehoek ABC is gelijkbenig.
     - expression: afstand( -7.0 , 1.0, -3.71, 17.78 )
       return: 17.1
     - expression: afstand( -7.0 , 1.0, -13.21, 10.93 )
-      return: 11.71
+      return: 11.7
     - expression: afstand( -3.71 , 17.78, -13.21, 10.93 )
-      return: 11.71
+      return: 11.7
   - testcases:
     - stdin: "-9.0\n-4.0\n-20.93\n7.54\n-21.22\n-4.7"
       stdout: Driehoek ABC is gelijkbenig.
     - expression: afstand( -9.0 , -4.0, -20.93, 7.54 )
       return: 16.6
     - expression: afstand( -9.0 , -4.0, -21.22, -4.7 )
-      return: 12.24
+      return: 12.2
     - expression: afstand( -20.93 , 7.54, -21.22, -4.7 )
-      return: 12.24
+      return: 12.2
   - testcases:
     - stdin: "-10.0\n9.0\n-15.32\n25.99\n-27.37\n12.88"
-      stdout: Driehoek ABC is gelijkbenig.
+      stdout: Driehoek ABC is gelijkzijdig.
     - expression: afstand( -10.0 , 9.0, -15.32, 25.99 )
       return: 17.8
     - expression: afstand( -10.0 , 9.0, -27.37, 12.88 )
       return: 17.8
     - expression: afstand( -15.32 , 25.99, -27.37, 12.88 )
-      return: 17.81
+      return: 17.8
   - testcases:
     - stdin: "5.0\n-7.0\n-4.5\n-23.69\n8.12\n-15.68"
       stdout: Driehoek ABC is ongelijkbenig.
     - expression: afstand( 5.0 , -7.0, -4.5, -23.69 )
       return: 19.2
     - expression: afstand( 5.0 , -7.0, 8.12, -15.68 )
-      return: 9.22
+      return: 9.2
     - expression: afstand( -4.5 , -23.69, 8.12, -15.68 )
-      return: 14.95
+      return: 14.9
   - testcases:
     - stdin: "-6.0\n-6.0\n-1.69\n-9.42\n-1.0\n-6.13"
       stdout: Driehoek ABC is ongelijkbenig.
@@ -170,13 +170,13 @@
     - expression: afstand( -6.0 , -6.0, -1.0, -6.13 )
       return: 5.0
     - expression: afstand( -1.69 , -9.42, -1.0, -6.13 )
-      return: 3.36
+      return: 3.4
   - testcases:
     - stdin: "-5.0\n2.0\n-14.12\n17.28\n-10.14\n4.76"
       stdout: Driehoek ABC is ongelijkbenig.
     - expression: afstand( -5.0 , 2.0, -14.12, 17.28 )
-      return: 17.79
+      return: 17.8
     - expression: afstand( -5.0 , 2.0, -10.14, 4.76 )
-      return: 5.83
+      return: 5.8
     - expression: afstand( -14.12 , 17.28, -10.14, 4.76 )
-      return: 13.14
+      return: 13.1
