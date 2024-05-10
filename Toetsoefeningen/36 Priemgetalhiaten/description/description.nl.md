@@ -24,4 +24,4 @@ Het 6 e priemgetalhiaat is 4
 
 {: .callout.callout-info}
 > #### Tip
-> Gebruik een `while` lus, je weet immers niet wanneer je het n<sup>de</sup> getal zal ontmoeten.
+> Gebruik een `while` lus, je weet immers niet **op voorhand** wanneer je het n<sup>de</sup> getal zal ontmoeten.
