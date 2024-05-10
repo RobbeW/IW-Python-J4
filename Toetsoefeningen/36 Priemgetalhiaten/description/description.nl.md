@@ -2,7 +2,7 @@ Een **priemgetalhiaat** is het verschil tussen twee opeenvolgende priemgetallen.
 
 De eerste 30 priemgetalhiaten zijn:
 
-    1, 2, 2, 4, 2, 4, 2, 4, 6, 2, 6, 4, 2, 4, 6, 6, 2, 6, 4, 2, 6, 4, 6, 8, 4, 2, 4, 2, 4, 14
+<p style="text-align: center;">1, 2, 2, 4, 2, 4, 2, 4, 6, 2, 6, 4, 2, 4, 6, 6, 2, 6, 4, 2, 6, 4, 6, 8, 4, 2, 4, 2, 4, 14</p>
 
 ## Opgave
 
