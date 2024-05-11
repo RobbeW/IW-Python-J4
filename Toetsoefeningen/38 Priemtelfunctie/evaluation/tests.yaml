@@ -1,0 +1,246 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '10.0'
+      stdout: Er zijn 4 priemgetallen kleiner dan of gelijk aan 10.0
+    - expression: telpriem( 10.0 )
+      return: 4
+    - expression: is_priem( 7 )
+      return: true
+    - expression: is_priem( 5 )
+      return: true
+    - expression: is_priem( 3 )
+      return: true
+    - expression: is_priem( 2 )
+      return: true
+  - testcases:
+    - stdin: '100.5'
+      stdout: Er zijn 25 priemgetallen kleiner dan of gelijk aan 100.5
+    - expression: telpriem( 100.5 )
+      return: 25
+    - expression: is_priem( 97 )
+      return: true
+    - expression: is_priem( 89 )
+      return: true
+    - expression: is_priem( 83 )
+      return: true
+    - expression: is_priem( 79 )
+      return: true
+  - testcases:
+    - stdin: '2'
+      stdout: Er is 1 priemgetal kleiner dan of gelijk aan 2.0
+    - expression: telpriem( 2 )
+      return: 1
+    - expression: is_priem( 2 )
+      return: true
+  - testcases:
+    - stdin: '11'
+      stdout: Er zijn 5 priemgetallen kleiner dan of gelijk aan 11.0
+    - expression: telpriem( 11 )
+      return: 5
+    - expression: is_priem( 7 )
+      return: true
+    - expression: is_priem( 5 )
+      return: true
+    - expression: is_priem( 3 )
+      return: true
+    - expression: is_priem( 2 )
+      return: true
+  - testcases:
+    - stdin: '23.8'
+      stdout: Er zijn 9 priemgetallen kleiner dan of gelijk aan 23.8
+    - expression: telpriem( 23.8 )
+      return: 9
+    - expression: is_priem( 23 )
+      return: true
+    - expression: is_priem( 19 )
+      return: true
+    - expression: is_priem( 17 )
+      return: true
+    - expression: is_priem( 13 )
+      return: true
+  - testcases:
+    - stdin: '22.9'
+      stdout: Er zijn 8 priemgetallen kleiner dan of gelijk aan 22.9
+    - expression: telpriem( 22.9 )
+      return: 8
+    - expression: is_priem( 19 )
+      return: true
+    - expression: is_priem( 17 )
+      return: true
+    - expression: is_priem( 13 )
+      return: true
+    - expression: is_priem( 11 )
+      return: true
+  - testcases:
+    - stdin: '7.1'
+      stdout: Er zijn 4 priemgetallen kleiner dan of gelijk aan 7.1
+    - expression: telpriem( 7.1 )
+      return: 4
+    - expression: is_priem( 7 )
+      return: true
+    - expression: is_priem( 5 )
+      return: true
+    - expression: is_priem( 3 )
+      return: true
+    - expression: is_priem( 2 )
+      return: true
+  - testcases:
+    - stdin: '78.5'
+      stdout: Er zijn 21 priemgetallen kleiner dan of gelijk aan 78.5
+    - expression: telpriem( 78.5 )
+      return: 21
+    - expression: is_priem( 73 )
+      return: true
+    - expression: is_priem( 71 )
+      return: true
+    - expression: is_priem( 67 )
+      return: true
+    - expression: is_priem( 61 )
+      return: true
+  - testcases:
+    - stdin: '8.1'
+      stdout: Er zijn 4 priemgetallen kleiner dan of gelijk aan 8.1
+    - expression: telpriem( 8.1 )
+      return: 4
+    - expression: is_priem( 7 )
+      return: true
+    - expression: is_priem( 5 )
+      return: true
+    - expression: is_priem( 3 )
+      return: true
+    - expression: is_priem( 2 )
+      return: true
+  - testcases:
+    - stdin: '3.2'
+      stdout: Er zijn 2 priemgetallen kleiner dan of gelijk aan 3.2
+    - expression: telpriem( 3.2 )
+      return: 2
+    - expression: is_priem( 3 )
+      return: true
+    - expression: is_priem( 2 )
+      return: true
+  - testcases:
+    - stdin: '121.1'
+      stdout: Er zijn 30 priemgetallen kleiner dan of gelijk aan 121.1
+    - expression: telpriem( 121.1 )
+      return: 30
+    - expression: is_priem( 113 )
+      return: true
+    - expression: is_priem( 109 )
+      return: true
+    - expression: is_priem( 107 )
+      return: true
+    - expression: is_priem( 103 )
+      return: true
+  - testcases:
+    - stdin: '1365.9'
+      stdout: Er zijn 218 priemgetallen kleiner dan of gelijk aan 1365.9
+    - expression: telpriem( 1365.9 )
+      return: 218
+    - expression: is_priem( 1361 )
+      return: true
+    - expression: is_priem( 1327 )
+      return: true
+    - expression: is_priem( 1321 )
+      return: true
+    - expression: is_priem( 1319 )
+      return: true
+  - testcases:
+    - stdin: '748.9'
+      stdout: Er zijn 132 priemgetallen kleiner dan of gelijk aan 748.9
+    - expression: telpriem( 748.9 )
+      return: 132
+    - expression: is_priem( 743 )
+      return: true
+    - expression: is_priem( 739 )
+      return: true
+    - expression: is_priem( 733 )
+      return: true
+    - expression: is_priem( 727 )
+      return: true
+  - testcases:
+    - stdin: '53.5'
+      stdout: Er zijn 16 priemgetallen kleiner dan of gelijk aan 53.5
+    - expression: telpriem( 53.5 )
+      return: 16
+    - expression: is_priem( 53 )
+      return: true
+    - expression: is_priem( 47 )
+      return: true
+    - expression: is_priem( 43 )
+      return: true
+    - expression: is_priem( 41 )
+      return: true
+  - testcases:
+    - stdin: '5.7'
+      stdout: Er zijn 3 priemgetallen kleiner dan of gelijk aan 5.7
+    - expression: telpriem( 5.7 )
+      return: 3
+    - expression: is_priem( 5 )
+      return: true
+    - expression: is_priem( 3 )
+      return: true
+    - expression: is_priem( 2 )
+      return: true
+  - testcases:
+    - stdin: '33.0'
+      stdout: Er zijn 11 priemgetallen kleiner dan of gelijk aan 33.0
+    - expression: telpriem( 33.0 )
+      return: 11
+    - expression: is_priem( 31 )
+      return: true
+    - expression: is_priem( 29 )
+      return: true
+    - expression: is_priem( 23 )
+      return: true
+    - expression: is_priem( 19 )
+      return: true
+  - testcases:
+    - stdin: '133.2'
+      stdout: Er zijn 32 priemgetallen kleiner dan of gelijk aan 133.2
+    - expression: telpriem( 133.2 )
+      return: 32
+    - expression: is_priem( 131 )
+      return: true
+    - expression: is_priem( 127 )
+      return: true
+    - expression: is_priem( 113 )
+      return: true
+    - expression: is_priem( 109 )
+      return: true
+  - testcases:
+    - stdin: '603.3'
+      stdout: Er zijn 110 priemgetallen kleiner dan of gelijk aan 603.3
+    - expression: telpriem( 603.3 )
+      return: 110
+    - expression: is_priem( 601 )
+      return: true
+    - expression: is_priem( 599 )
+      return: true
+    - expression: is_priem( 593 )
+      return: true
+    - expression: is_priem( 587 )
+      return: true
+  - testcases:
+    - stdin: '443.9'
+      stdout: Er zijn 86 priemgetallen kleiner dan of gelijk aan 443.9
+    - expression: telpriem( 443.9 )
+      return: 86
+    - expression: is_priem( 443 )
+      return: true
+    - expression: is_priem( 439 )
+      return: true
+    - expression: is_priem( 433 )
+      return: true
+    - expression: is_priem( 431 )
+      return: true
+  - testcases:
+    - stdin: '3.0'
+      stdout: Er zijn 2 priemgetallen kleiner dan of gelijk aan 3.0
+    - expression: telpriem( 3.0 )
+      return: 2
+    - expression: is_priem( 3 )
+      return: true
+    - expression: is_priem( 2 )
+      return: true
