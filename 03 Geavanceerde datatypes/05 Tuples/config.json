@@ -1,0 +1,21 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "description": {
+    "names": {
+      "nl": "Lijsten"
+    }
+  },
+  "labels": [
+
+  ],
+  "access": "public",
+  "internals": {
+    "token": "PGdbvewFQg4zWrRZiRpQIqJYJ7GZ8BZZvd9YekgDyWUUrjX7Pv5W6zMaNXEiW_Bu",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
