@@ -2,7 +2,7 @@ Bij heel wat sporten waar een jury punten toekent maakt men gebruik van het zoge
 
 Bijvoorbeeld: tijdens het skateboarden op de Olympische spelen van 2020 kreeg Yuto Horigome de volgende scores van de jury 9.03, 9.30, 9.35, 9.45 en 9.50. De laagste score is 9.03 en de hoogste score is 9.50, deze waarden worden weggelaten. Van de resterende vier scores is het gemiddelde 9.37, dit is dan ook de score die de skateboarder krijgt.
 
-![Yuto Horigome uit Japan op de Olympische spelen van Tokyo (25 juli 2020), foto door Jeff Pachoud.](media/image.png "Yuto Horigome uit Japan op de Olympische spelen van Tokyo (25 juli 2020), foto door Jeff Pachoud."){:data-caption="Yuto Horigome uit Japan op de Olympische spelen van Tokyo (25 juli 2020), foto door Jeff Pachoud." width="45%"}
+![Yuto Horigome uit Japan op de Olympische spelen van Tokyo (25 juli 2020), foto door Jeff Pachoud.](media/skateboarding-horigome.jpg "Yuto Horigome uit Japan op de Olympische spelen van Tokyo (25 juli 2020), foto door Jeff Pachoud."){:data-caption="Yuto Horigome uit Japan op de Olympische spelen van Tokyo (25 juli 2020), foto door Jeff Pachoud." width="45%"}
 
 ## Opgave
 
