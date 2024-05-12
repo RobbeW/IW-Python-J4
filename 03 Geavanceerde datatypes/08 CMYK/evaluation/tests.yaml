@@ -1,241 +1,241 @@
 - tab: Feedback
   contexts:
   - testcases:
-    - expression: "RGB_to_CMYK( (48, 213, 200) )"
+    - expression: RGBtoCMYK( (48, 213, 200) )
       return:
       - 0.78
       - 0.01
       - 0.07
       - 0.16
-    - expression: "CMYK_to_RGB( (0.78, 0.01, 0.07, 0.16) )"
+    - expression: CMYKtoRGB( (0.78, 0.01, 0.07, 0.16) )
       return:
       - 48
       - 213
       - 200
   - testcases:
-    - expression: RGB_to_CMYK( (0, 255, 255) )
+    - expression: RGBtoCMYK( (0, 255, 255) )
       return:
       - 1.0
       - 0.0
       - 0.0
       - 0.0
-    - expression: CMYK_to_RGB( (1.0, 0.0, 0.0, 0.0) )
+    - expression: CMYKtoRGB( (1.0, 0.0, 0.0, 0.0) )
       return:
       - 0
       - 255
       - 255
   - testcases:
-    - expression: RGB_to_CMYK( (255, 0, 255) )
+    - expression: RGBtoCMYK( (255, 0, 255) )
       return:
       - 0.0
       - 1.0
       - 0.0
       - 0.0
-    - expression: CMYK_to_RGB( (0.0, 1.0, 0.0, 0.0) )
+    - expression: CMYKtoRGB( (0.0, 1.0, 0.0, 0.0) )
       return:
       - 255
       - 0
       - 255
   - testcases:
-    - expression: RGB_to_CMYK( (255, 255, 0) )
+    - expression: RGBtoCMYK( (255, 255, 0) )
       return:
       - 0.0
       - 0.0
       - 1.0
       - 0.0
-    - expression: CMYK_to_RGB( (0.0, 0.0, 1.0, 0.0) )
+    - expression: CMYKtoRGB( (0.0, 0.0, 1.0, 0.0) )
       return:
       - 255
       - 255
       - 0
   - testcases:
-    - expression: RGB_to_CMYK( (0, 0, 0) )
+    - expression: RGBtoCMYK( (0, 0, 0) )
       return:
       - 0
       - 0
       - 0
       - 1.0
-    - expression: CMYK_to_RGB( (0, 0, 0, 1.0) )
+    - expression: CMYKtoRGB( (0, 0, 0, 1.0) )
       return:
       - 0
       - 0
       - 0
   - testcases:
-    - expression: RGB_to_CMYK( (51, 117, 129) )
+    - expression: RGBtoCMYK( (51, 117, 129) )
       return:
       - 0.61
       - 0.1
       - 0.01
       - 0.49
-    - expression: CMYK_to_RGB( (0.61, 0.1, 0.01, 0.49) )
+    - expression: CMYKtoRGB( (0.61, 0.1, 0.01, 0.49) )
       return:
       - 51
       - 118
       - 129
   - testcases:
-    - expression: RGB_to_CMYK( (39, 171, 62) )
+    - expression: RGBtoCMYK( (39, 171, 62) )
       return:
       - 0.77
       - -0.0
       - 0.64
       - 0.33
-    - expression: CMYK_to_RGB( (0.77, -0.0, 0.64, 0.33) )
+    - expression: CMYKtoRGB( (0.77, -0.0, 0.64, 0.33) )
       return:
       - 40
       - 171
       - 62
   - testcases:
-    - expression: RGB_to_CMYK( (76, 179, 12) )
+    - expression: RGBtoCMYK( (76, 179, 12) )
       return:
       - 0.57
       - -0.0
       - 0.93
       - 0.3
-    - expression: CMYK_to_RGB( (0.57, -0.0, 0.93, 0.3) )
+    - expression: CMYKtoRGB( (0.57, -0.0, 0.93, 0.3) )
       return:
       - 77
       - 179
       - 13
   - testcases:
-    - expression: RGB_to_CMYK( (253, 20, 188) )
+    - expression: RGBtoCMYK( (253, 20, 188) )
       return:
       - -0.0
       - 0.92
       - 0.26
       - 0.01
-    - expression: CMYK_to_RGB( (-0.0, 0.92, 0.26, 0.01) )
+    - expression: CMYKtoRGB( (-0.0, 0.92, 0.26, 0.01) )
       return:
       - 253
       - 21
       - 187
   - testcases:
-    - expression: RGB_to_CMYK( (115, 247, 22) )
+    - expression: RGBtoCMYK( (115, 247, 22) )
       return:
       - 0.54
       - 0.0
       - 0.91
       - 0.03
-    - expression: CMYK_to_RGB( (0.54, 0.0, 0.91, 0.03) )
+    - expression: CMYKtoRGB( (0.54, 0.0, 0.91, 0.03) )
       return:
       - 114
       - 248
       - 23
   - testcases:
-    - expression: RGB_to_CMYK( (234, 113, 65) )
+    - expression: RGBtoCMYK( (234, 113, 65) )
       return:
       - 0.0
       - 0.52
       - 0.72
       - 0.08
-    - expression: CMYK_to_RGB( (0.0, 0.52, 0.72, 0.08) )
+    - expression: CMYKtoRGB( (0.0, 0.52, 0.72, 0.08) )
       return:
       - 235
       - 113
       - 66
   - testcases:
-    - expression: RGB_to_CMYK( (130, 35, 190) )
+    - expression: RGBtoCMYK( (130, 35, 190) )
       return:
       - 0.32
       - 0.82
       - 0.01
       - 0.25
-    - expression: CMYK_to_RGB( (0.32, 0.82, 0.01, 0.25) )
+    - expression: CMYKtoRGB( (0.32, 0.82, 0.01, 0.25) )
       return:
       - 131
       - 35
       - 190
   - testcases:
-    - expression: RGB_to_CMYK( (18, 219, 140) )
+    - expression: RGBtoCMYK( (18, 219, 140) )
       return:
       - 0.92
       - 0.0
       - 0.36
       - 0.14
-    - expression: CMYK_to_RGB( (0.92, 0.0, 0.36, 0.14) )
+    - expression: CMYKtoRGB( (0.92, 0.0, 0.36, 0.14) )
       return:
       - 18
       - 220
       - 141
   - testcases:
-    - expression: RGB_to_CMYK( (157, 195, 94) )
+    - expression: RGBtoCMYK( (157, 195, 94) )
       return:
       - 0.19
       - -0.01
       - 0.51
       - 0.24
-    - expression: CMYK_to_RGB( (0.19, -0.01, 0.51, 0.24) )
+    - expression: CMYKtoRGB( (0.19, -0.01, 0.51, 0.24) )
       return:
       - 157
       - 196
       - 95
   - testcases:
-    - expression: RGB_to_CMYK( (28, 64, 124) )
+    - expression: RGBtoCMYK( (28, 64, 124) )
       return:
       - 0.78
       - 0.49
       - 0.01
       - 0.51
-    - expression: CMYK_to_RGB( (0.78, 0.49, 0.01, 0.51) )
+    - expression: CMYKtoRGB( (0.78, 0.49, 0.01, 0.51) )
       return:
       - 28
       - 64
       - 124
   - testcases:
-    - expression: RGB_to_CMYK( (111, 206, 250) )
+    - expression: RGBtoCMYK( (111, 206, 250) )
       return:
       - 0.56
       - 0.18
       - -0.0
       - 0.02
-    - expression: CMYK_to_RGB( (0.56, 0.18, -0.0, 0.02) )
+    - expression: CMYKtoRGB( (0.56, 0.18, -0.0, 0.02) )
       return:
       - 110
       - 205
       - 250
   - testcases:
-    - expression: RGB_to_CMYK( (89, 233, 30) )
+    - expression: RGBtoCMYK( (89, 233, 30) )
       return:
       - 0.62
       - -0.0
       - 0.87
       - 0.09
-    - expression: CMYK_to_RGB( (0.62, -0.0, 0.87, 0.09) )
+    - expression: CMYKtoRGB( (0.62, -0.0, 0.87, 0.09) )
       return:
       - 89
       - 233
       - 31
   - testcases:
-    - expression: RGB_to_CMYK( (190, 113, 75) )
+    - expression: RGBtoCMYK( (190, 113, 75) )
       return:
       - 0.01
       - 0.41
       - 0.61
       - 0.25
-    - expression: CMYK_to_RGB( (0.01, 0.41, 0.61, 0.25) )
+    - expression: CMYKtoRGB( (0.01, 0.41, 0.61, 0.25) )
       return:
       - 190
       - 113
       - 75
   - testcases:
-    - expression: RGB_to_CMYK( (53, 225, 73) )
+    - expression: RGBtoCMYK( (53, 225, 73) )
       return:
       - 0.76
       - -0.0
       - 0.67
       - 0.12
-    - expression: CMYK_to_RGB( (0.76, -0.0, 0.67, 0.12) )
+    - expression: CMYKtoRGB( (0.76, -0.0, 0.67, 0.12) )
       return:
       - 54
       - 225
       - 75
   - testcases:
-    - expression: RGB_to_CMYK( (206, 121, 106) )
+    - expression: RGBtoCMYK( (206, 121, 106) )
       return:
       - 0.0
       - 0.41
       - 0.49
       - 0.19
-    - expression: CMYK_to_RGB( (0.0, 0.41, 0.49, 0.19) )
+    - expression: CMYKtoRGB( (0.0, 0.41, 0.49, 0.19) )
       return:
       - 207
       - 122

@@ -1,5 +1,5 @@
 import math
-def RGB_to_CMYK( code ):
+def RGBtoCMYK( code ):
     R = code[0]
     G = code[1]
     B = code[2]
@@ -15,7 +15,7 @@ def RGB_to_CMYK( code ):
         Y = 0
     return (C, M, Y, K)
 
-def CMYK_to_RGB( code ):
+def CMYKtoRGB( code ):
     C = code[0]
     M = code[1]
     Y = code[2]

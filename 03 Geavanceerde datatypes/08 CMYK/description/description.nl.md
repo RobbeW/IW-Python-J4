@@ -3,7 +3,7 @@ Bij kwalitatieve kleurendruk wordt meestal geen RGB kleurensysteem gebruikt, maa
 ![Het CYMK kleurmodel.](media/CMYK.png "Afbeelding door Hemidah op Wikipedia."){:data-caption="Het CYMK kleurmodel." width="30%"}
 
 ## Opgave
-Schrijf een functie `RGB_to_CMYK(kleurcode)` die gegeven een **RGB**-kleurcode als **tupel** de vier CMYK-waarden (als tupel) bepaalt. Rond af op 2 decimalen. Gebruik hiervoor de volgende formules:
+Schrijf een functie `RGBtoCMYK(kleurcode)` die gegeven een **RGB**-kleurcode als **tupel** de vier CMYK-waarden (als tupel) bepaalt. Rond af op 2 decimalen. Gebruik hiervoor de volgende formules:
 
 <div class="dodona-centered-group">
 
@@ -17,7 +17,7 @@ K = 1- maximum (<span style="color:#FF0000">R</span>, <span style="color:#00FF00
 
 Indien K gelijk is aan 1, dan zijn alle waarden <span style="color:#00C5C0">C</span>, <span style="color:#FD01FD">M</span>, <span style="color:#F1EB01">Y</span> allen gelijk aan 0.
 
-Schrijf daarna een tweede functie `CMYK_to_RGB(kleurcode)` die gegeven een **CMYK**-kleurcode als **tupel** de drie RGB-waarden (als tupel) bepaalt. Vorm dit om naar gehele getallen door **naar boven af te ronden**. Gebruik hierbij de volgende formules
+Schrijf daarna een tweede functie `CMYKtoRGB(kleurcode)` die gegeven een **CMYK**-kleurcode als **tupel** de drie RGB-waarden (als tupel) bepaalt. Vorm dit om naar gehele getallen door **naar boven af te ronden**. Gebruik hierbij de volgende formules
 
 <div class="dodona-centered-group">
 
@@ -29,14 +29,14 @@ Schrijf daarna een tweede functie `CMYK_to_RGB(kleurcode)` die gegeven een **CMY
 #### Voorbeeld
 
 ```
->>> RGB_to_CMYK( (48, 213, 200) )
+>>> RGBtoCMYK( (48, 213, 200) )
 (0.78, 0.01, 0.07, 0.16)
 ```
 
 en 
 
 ```
->>> CMYK_to_RGB( (0.78, 0.01, 0.07, 0.16) )
+>>> CMYKtoRGB( (0.78, 0.01, 0.07, 0.16) )
 (48, 213, 200)
 ```
 
