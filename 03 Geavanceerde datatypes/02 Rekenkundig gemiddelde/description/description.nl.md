@@ -22,7 +22,7 @@ for fruit in lijst:
 
 Vul de functie `gemiddelde(lijst)` aan, zodat deze gegeven een lijst met een aantal getallen, het rekenkundig gemiddelde berekent. Het gemiddelde wordt afgerond op 3 decimalen.
 
-#### Voorbeelden
+#### Voorbeeld
 
 ```
 >>> gemiddelde( [3.0, 2.0, 5.0, 4.0] )
