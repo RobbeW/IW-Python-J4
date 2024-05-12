@@ -14,3 +14,7 @@ Programmeer een functie `olympisch_gemiddelde(lijst)`, zodat deze gegeven een li
 >>> olympisch_gemiddelde( [9.03, 9.30, 9.35, 9.45, 9.50] )
 9.37
 ```
+
+{: .callout.callout-info}
+> #### Tip
+> Je kan de functies `max()` en `min()` meteen gebruiken op lijsten.
