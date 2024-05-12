@@ -11,7 +11,7 @@ print( len( tupel ) )  # Dit print 3, want de tupel bevat 3 elementen
 Tupels zijn zeer gelijkaardig als lijsten, ze worden vooral gebruikt om met coördinaten te werken.
 
 ```python
-A = ( 1, 3)
+A = (1, 3)
 print( 'Punt A heeft x-coördinaat', A[0], 'en y-coördinaat', A[1] )
 ```
 
@@ -25,7 +25,7 @@ $$
     \mathsf{d = \sqrt{x^2+y^2}}
 $$
 
-Vul onderstaande functie `afstand( coordinaat )` aan die de afstand van een bepaalde coördinaat tot de oorsprong berekent. Rond hierbij af op 2 cijfers.
+Vul onderstaande functie `afstand(coordinaat)` aan die de afstand van een bepaalde coördinaat tot de oorsprong berekent. Rond hierbij af op 2 cijfers.
 
 #### Voorbeeld
 

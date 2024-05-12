@@ -1,4 +1,4 @@
 import 
 
-def afstand( tupel ):
+def afstand( coordinaat ):
     
