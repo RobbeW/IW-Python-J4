@@ -3,7 +3,7 @@ In kleurtheorie zijn complementaire kleuren, kleuren die sterk contrasteren. Dez
 ![De kleurencirkel.](media/color-wheel.png "Afbeelding door Sakurambo op Wikipedia."){:data-caption="De kleurencirkel." width="300px"}
 
 ## Opgave
-Schrijf een functie `complementair(kleurcode)` die gegeven een RGB-kleurcode als **tupel** de complementaire kleurcode (een tupel) als `return` waarde geeft. Je kan de complementaire kleur berekenen via de formule:
+Schrijf een functie `complementair(kleurcode)` die gegeven een **RGB**-kleurcode als **tupel** de complementaire kleurcode (een tupel) als `return` waarde geeft. Je kan de complementaire kleur berekenen via de formule:
 
 <div class="dodona-centered-group">
 (255 - <span style="color:#FF0000">rood</span>, 255 - <span style="color:#00FF00">groen</span>, 255 - <span style="color:#0000FF">blauw</span>)
