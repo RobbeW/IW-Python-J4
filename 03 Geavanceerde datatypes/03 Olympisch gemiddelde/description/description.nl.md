@@ -6,7 +6,7 @@ Bijvoorbeeld: tijdens het skateboarden op de Olympische spelen van 2020 kreeg Yu
 
 ## Opgave
 
-Vul de functie `olympisch_gemiddelde(lijst)` aan, zodat deze gegeven een lijst (niet noodzakelijk geordend) met een aantal scores, het olympisch gemiddelde berekent. Dit gemiddelde wordt afgerond op 2 decimalen.
+Programmeer een functie `olympisch_gemiddelde(lijst)`, zodat deze gegeven een lijst (niet noodzakelijk geordend) met een aantal scores, het olympisch gemiddelde berekent. Dit gemiddelde wordt afgerond op 2 decimalen.
 
 #### Voorbeeld
 
