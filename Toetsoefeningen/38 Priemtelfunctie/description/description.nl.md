@@ -1,8 +1,10 @@
-In de getaltheorie telt een priemgetal-telfunctie het aantal priemgetallen **kleiner** dan of **gelijk** aan een gegeven **strikt positief reëel getal** x.
+In de getaltheorie telt een priemgetal-telfunctie (vaak genoteerd als $$\mathsf{\pi(x)}$$) het aantal priemgetallen **kleiner** dan of **gelijk** aan een gegeven **strikt positief reëel getal** x.
 
 De grafiek van de priemgetal-telfunctie ziet er als volgt uit:
 
-![De grafiek van de priemgetal-telfunctie.](media/PrimePi.png "De grafiek van de priemgetal-telfunctie, afbeelding van WikiMedia."){:data-caption="De grafiek van de priemgetal-telfunctie." .light-only width="40%"}
+![De grafiek van de priemgetal-telfunctie.](media/image.png "De grafiek van de priemgetal-telfunctie."){:data-caption="De grafiek van de priemgetal-telfunctie." .light-only width="50%"}
+
+![De grafiek van de priemgetal-telfunctie.](media/image_dark.png "De grafiek van de priemgetal-telfunctie."){:data-caption="De grafiek van de priemgetal-telfunctie." .dark-only width="50%"}
 
 ## Opgave
 

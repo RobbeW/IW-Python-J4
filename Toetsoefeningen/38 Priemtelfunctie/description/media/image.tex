@@ -1,0 +1,108 @@
+\documentclass[dvipsnames,tikz]{standalone}
+\usepackage{amsmath}
+\usepackage{arevmath}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{decorations.pathreplacing,calligraphy,3d}
+\usetikzlibrary{lindenmayersystems}
+\usepackage{pgfplots}
+\pgfplotsset{compat = newest}
+
+\tikzset{main/.style={draw=black, color=black}}
+
+
+\begin{document}
+	\def\xscale{0.2}
+	\def\yscale{0.5}
+	\begin{tikzpicture}[font=\small, tl/.style = {black, inner sep=1pt, font=\scriptsize}, xscale=\xscale, yscale=\yscale]
+		% grid
+		\draw[main, very thin, xstep=5, ystep=1, nearly transparent] (0,0) grid (60,17);
+		
+		% y tick label
+		\foreach \y in {1, ..., 17}{\node[tl,left=1mm] at (0,\y) {$\y$};}
+		% x tick label
+		\foreach \x in {1, ..., 12}{
+			\pgfmathtruncatemacro\result{\x*5}
+			\node[tl,below=1mm] at (\result, 0) {$\result$};
+		}
+		\draw[tl] (0, 0) node [below left=1mm] {$0$};
+		
+		% axes
+		\draw[main, ->,thick] (0,0) -- (60.8,0) node[right] {$x$};
+		\draw[main, ->,thick] (0,0) -- (0, 17.2) node[above] {$y$};
+		% curve
+		
+		% This is ugly, i know...		
+		\draw[thick, PineGreen] (-0.05,0) --(2,0);
+		\fill[shift={(2,0)}, BrickRed, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+		
+		\draw[thick, PineGreen] (2,1) --(3,1);
+		\fill[shift={(3,1)}, BrickRed, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+		\fill[shift={(2,1)}, PineGreen, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+		
+		\draw[thick, PineGreen] (3,2) --(5,2);
+		\fill[shift={(5,2)}, BrickRed, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+		\fill[shift={(3,2)}, PineGreen, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+		
+		\draw[thick, PineGreen] (5,3) --(7,3);
+		\fill[shift={(5,3)}, PineGreen, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+		\fill[shift={(7,3)}, BrickRed, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+		
+		\draw[thick, PineGreen] (7,4) --(11,4);
+		\fill[shift={(7,4)}, PineGreen, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+		\fill[shift={(11,4)}, BrickRed, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+		
+		\draw[thick, PineGreen] (11,5) --(13,5);
+		\fill[shift={(11,5)}, PineGreen, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+		\fill[shift={(13,5)}, BrickRed, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+		
+		\draw[thick, PineGreen] (13,6) --(17,6);
+		\fill[shift={(13,6)}, PineGreen, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+		\fill[shift={(17,6)}, BrickRed, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+		
+		\draw[thick, PineGreen] (17,7) --(19,7);
+		\fill[shift={(17,7)}, PineGreen, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+		\fill[shift={(19,7)}, BrickRed, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+		
+		\draw[thick, PineGreen] (19,8) --(23,8);
+		\fill[shift={(19,8)}, PineGreen, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+		\fill[shift={(23,8)}, BrickRed, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+		
+		\draw[thick, PineGreen] (23,9) --(29,9);
+		\fill[shift={(23,9)}, PineGreen, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+		\fill[shift={(29,9)}, BrickRed, xscale=1/\xscale5, yscale=1/\yscale] (0,0) circle (1.4pt);
+		
+		\draw[thick, PineGreen] (29,10) --(31,10);
+		\fill[shift={(29,10)}, PineGreen, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+		\fill[shift={(31,10)}, BrickRed, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+		
+		\draw[thick, PineGreen] (31,11) --(37,11);
+		\fill[shift={(31,11)}, PineGreen, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+		\fill[shift={(37,11)}, BrickRed, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+		
+		\draw[thick, PineGreen] (37,12) --(41,12);
+		\fill[shift={(37,12)}, PineGreen, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+		\fill[shift={(41,12)}, BrickRed, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+		
+		\draw[thick, PineGreen] (41,13) --(43,13);
+		\fill[shift={(41,13)}, PineGreen, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+		\fill[shift={(43,13)}, BrickRed, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+		
+		\draw[thick, PineGreen] (43,14) --(47,14);
+		\fill[shift={(43,14)}, PineGreen, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+		\fill[shift={(47,14)}, BrickRed, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+		
+		\draw[thick, PineGreen] (47,15) --(53,15);
+		\fill[shift={(47,15)}, PineGreen, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+		\fill[shift={(53,15)}, BrickRed, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+		\draw[PineGreen] (53,15) node [below right, xshift=-2pt] {$y=\pi(x)$};
+		
+		\draw[thick, PineGreen] (53,16) --(59,16);
+		\fill[shift={(53,16)}, PineGreen, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+		\fill[shift={(59,16)}, BrickRed, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+		
+		\draw[thick, PineGreen] (59,17) --(60,17);
+		\fill[shift={(59,17)}, PineGreen, xscale=1/\xscale, yscale=1/\yscale] (0,0) circle (1.4pt);
+	\end{tikzpicture}
+\end{document}
