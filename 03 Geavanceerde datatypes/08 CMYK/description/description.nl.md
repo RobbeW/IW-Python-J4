@@ -2,7 +2,7 @@ Bij kwalitatieve kleurendruk wordt meestal geen RGB kleurensysteem gebruikt, maa
 
 ![Het CYMK kleurmodel.](media/CMYK.png "Afbeelding door Hemidah op Wikipedia."){:data-caption="Het CYMK kleurmodel." width="30%"}
 
-Een CMYK kleurcode bestaat uit vier percentages of kommagetallen, die telkens aangeven hoeveel procent van de specifieke kleur gedrukt moet worden. Key staat voor de hoeveelheid zwart, zo staat de CMYK kleurcode (0%, 0%, 0%, 100%) voor een zwarte kleur.
+Een CMYK kleurcode bestaat uit **vier percentages** of **kommagetallen**, die telkens aangeven hoeveel procent van de specifieke kleur gedrukt moet worden. Key staat voor de hoeveelheid zwart, zo staat de CMYK kleurcode (0%, 0%, 0%, 100%) voor een zwarte kleur.
 
 ## Opgave
 Schrijf een functie `RGBtoCMYK(kleurcode)` die gegeven een **RGB**-kleurcode als **tupel** de vier CMYK-waarden (als tupel) bepaalt. Rond af op 2 decimalen. Gebruik hiervoor de volgende formules:

@@ -4,11 +4,11 @@ def RGBtoCMYK( code ):
     G = code[1]
     B = code[2]
     
-    K = round(1 - max(R,G,B)/255, 2)
+    K = 1 - max(R,G,B)/255
     if K != 1:
-        C = abs( round( (1 - R/255 - K) / (1-K), 2) )
-        M = abs( round( (1 - G/255 - K) / (1-K), 2) )
-        Y = abs( round( (1 - B/255 - K) / (1-K), 2) )
+        C = round( (1 - R/255 - K) / (1-K), 2)
+        M = round( (1 - G/255 - K) / (1-K), 2)
+        Y = round( (1 - B/255 - K) / (1-K), 2)
     else:
         C = 0
         M = 0
