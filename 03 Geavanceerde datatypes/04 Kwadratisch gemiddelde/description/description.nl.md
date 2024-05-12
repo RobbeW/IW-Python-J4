@@ -1,4 +1,4 @@
-Het kwadratisch gemiddelde van $$\mathsf{n}$$ getallen $$\mathsf{x_1}$$, $$\mathsf{x_2}$$, ..., $$\mathsf{x_n}$$ wordt gedefinieerd:
+Het kwadratisch gemiddelde van $$\mathsf{n}$$ getallen $$\mathsf{x_1}$$, $$\mathsf{x_2}$$, ..., $$\mathsf{x_n}$$ wordt als volgt berekend:
 
 $$
 \mathsf{\dfrac{1}{n} \sqrt{x_1^2+ x_2^2 + \ldots + x_n^2}}
