@@ -6,14 +6,14 @@ def RGBtoCMYK( code ):
     
     K = round(1 - max(R,G,B)/255, 2)
     if K != 1:
-        C = round( (1 - R/255 - K) / (1-K), 2)
-        M = round( (1 - G/255 - K) / (1-K), 2)
-        Y = round( (1 - B/255 - K) / (1-K), 2)
+        C = abs( round( (1 - R/255 - K) / (1-K), 2) )
+        M = abs( round( (1 - G/255 - K) / (1-K), 2) )
+        Y = abs( round( (1 - B/255 - K) / (1-K), 2) )
     else:
         C = 0
         M = 0
         Y = 0
-    return (C, M, Y, K)
+    return (C, M, Y, round(K, 2) )
 
 def CMYKtoRGB( code ):
     C = code[0]

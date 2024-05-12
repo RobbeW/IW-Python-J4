@@ -76,10 +76,10 @@
     - expression: RGBtoCMYK( (39, 171, 62) )
       return:
       - 0.77
-      - -0.0
+      - 0.0
       - 0.64
       - 0.33
-    - expression: CMYKtoRGB( (0.77, -0.0, 0.64, 0.33) )
+    - expression: CMYKtoRGB( (0.77, 0.0, 0.64, 0.33) )
       return:
       - 40
       - 171
@@ -88,10 +88,10 @@
     - expression: RGBtoCMYK( (76, 179, 12) )
       return:
       - 0.57
-      - -0.0
+      - 0.0
       - 0.93
       - 0.3
-    - expression: CMYKtoRGB( (0.57, -0.0, 0.93, 0.3) )
+    - expression: CMYKtoRGB( (0.57, 0.0, 0.93, 0.3) )
       return:
       - 77
       - 179
@@ -99,11 +99,11 @@
   - testcases:
     - expression: RGBtoCMYK( (253, 20, 188) )
       return:
-      - -0.0
+      - 0.0
       - 0.92
       - 0.26
       - 0.01
-    - expression: CMYKtoRGB( (-0.0, 0.92, 0.26, 0.01) )
+    - expression: CMYKtoRGB( (0.0, 0.92, 0.26, 0.01) )
       return:
       - 253
       - 21
@@ -160,13 +160,13 @@
     - expression: RGBtoCMYK( (157, 195, 94) )
       return:
       - 0.19
-      - -0.01
+      - 0.01
       - 0.51
       - 0.24
-    - expression: CMYKtoRGB( (0.19, -0.01, 0.51, 0.24) )
+    - expression: CMYKtoRGB( (0.19, 0.01, 0.51, 0.24) )
       return:
       - 157
-      - 196
+      - 192
       - 95
   - testcases:
     - expression: RGBtoCMYK( (28, 64, 124) )
@@ -185,9 +185,9 @@
       return:
       - 0.56
       - 0.18
-      - -0.0
+      - 0.0
       - 0.02
-    - expression: CMYKtoRGB( (0.56, 0.18, -0.0, 0.02) )
+    - expression: CMYKtoRGB( (0.56, 0.18, 0.0, 0.02) )
       return:
       - 110
       - 205
@@ -196,10 +196,10 @@
     - expression: RGBtoCMYK( (89, 233, 30) )
       return:
       - 0.62
-      - -0.0
+      - 0.0
       - 0.87
       - 0.09
-    - expression: CMYKtoRGB( (0.62, -0.0, 0.87, 0.09) )
+    - expression: CMYKtoRGB( (0.62, 0.0, 0.87, 0.09) )
       return:
       - 89
       - 233
@@ -220,10 +220,10 @@
     - expression: RGBtoCMYK( (53, 225, 73) )
       return:
       - 0.76
-      - -0.0
+      - 0.0
       - 0.67
       - 0.12
-    - expression: CMYKtoRGB( (0.76, -0.0, 0.67, 0.12) )
+    - expression: CMYKtoRGB( (0.76, 0.0, 0.67, 0.12) )
       return:
       - 54
       - 225
