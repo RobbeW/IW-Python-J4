@@ -1,9 +1,9 @@
 De formule van Brahmagupta (ब्रह्मगुप्त) is een bijzondere formule waarmee de oppervlakte van een vierhoek, ingeschreven in een cirkel, kan berekend worden op basis van de zijden. De formule is genoemd naar de Indiase wiskundige <a href="https://nl.wikipedia.org/wiki/Brahmagupta" target="_blank">Brahmagupta</a>.
 
-De formule voor een vierkhoek met zijden $$\mathsf{a}$$, $$\mathsf{b}$$, $\mathsf{c}$$ en $$\mathsf{d}$$ is als volgt:
+De formule voor een vierkhoek met zijden $$\mathsf{a}$$, $$\mathsf{b}$$, $$\mathsf{c}$$ en $$\mathsf{d}$$ is als volgt:
 
 $$
-    \mathsf{A = \sqrt{\cdot (s-a)\cdot (s-b)\cdot (s-c)\cdot \cdot (s-d) } }
+    \mathsf{A = \sqrt{(s-a)\cdot (s-b)\cdot (s-c)\cdot (s-d) } }
 $$
 
 hierbij stelt $$\mathsf{s}$$ de halve omtrek voor.
