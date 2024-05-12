@@ -15,8 +15,32 @@ K = 1- maximum (<span style="color:#FF0000">R</span>, <span style="color:#00FF00
 <span style="color:#F1EB01">Y</span> = (1- <span style="color:#0000FF">B</span>/255 - K) / (1 - K)
 </div>
 
+Indien K gelijk is aan 1, dan zijn alle waarden <span style="color:#00C5C0">C</span>, <span style="color:#FD01FD">M</span>, <span style="color:#F1EB01">Y</span> allen gelijk aan 0.
+
+Schrijf daarna een tweede functie `CMYK_to_RGB(kleurcode)` die gegeven een **CMYK**-kleurcode als **tupel** de drie RGB-waarden (als tupel) bepaalt. Vorm dit om naar gehele getallen door **naar boven af te ronden**. Gebruik hierbij de volgende formules
+
+<div class="dodona-centered-group">
+
+<span style="color:#FF0000">R</span> = 255 · ( 1 - <span style="color:#00C5C0">C</span> ) · ( 1 - K) <br/>
+<span style="color:#00FF00">G</span> = 255 · ( 1 - <span style="color:#FD01FD">M</span> ) · ( 1 - K) <br/>
+<span style="color:#0000FF">B</span> = 255 · ( 1 - <span style="color:#F1EB01">K</span> ) · ( 1 - K)
+</div>
+
 #### Voorbeeld
+
 ```
 >>> RGB_to_CMYK( (48, 213, 200) )
-(255, 127, 127)
+(0.78, 0.01, 0.07, 0.16)
 ```
+
+en 
+
+```
+>>> CMYK_to_RGB( (0.78, 0.01, 0.07, 0.16) )
+(48, 213, 200)
+```
+
+
+{: .callout.callout-info}
+> #### Tip
+> Afronden naar boven doe je via `math.ceil()`.
