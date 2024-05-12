@@ -1,0 +1,10 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: verwissel( ['Cédric', 'Luiz', 'Ward', 'Briek', 'Miel'] )
+      return:
+      - Miel
+      - Luiz
+      - Ward
+      - Briek
+      - Cédric
