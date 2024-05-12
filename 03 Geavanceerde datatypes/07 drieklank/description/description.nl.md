@@ -20,4 +20,4 @@ schrijf een functie `drieklank(kleurcode)` die gegeven een **RGB**-kleurcode als
 
 {: .callout.callout-info}
 > #### Tip
-> Bij deze functie hoef je (vrij uitzonderlijk) niets te `return`-en. Je hoeft enkel de twee andere kleuren af te drukken.
+> Bij deze functie hoef je (vrij uitzonderlijk) niets te `return`-en. Je dient enkel de twee andere kleuren af te drukken.
