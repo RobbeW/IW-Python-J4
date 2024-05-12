@@ -2,7 +2,7 @@
   contexts:
   - testcases:
     - expression: complementair( (0, 128, 128) )
-      return: "tuple( (255, 127, 127) )"
+      return: "(255, 127, 127)"
   - testcases:
     - expression: complementair( (255, 255, 255) )
       return:
