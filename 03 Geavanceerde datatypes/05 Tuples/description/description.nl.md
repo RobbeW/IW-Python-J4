@@ -4,7 +4,7 @@ Een tupel is ook een **geordend** datatype dat meerdere elementen kan bevatten v
 
 ```python
 tupel = ( -5, 6, 8 )
-print( tupel )         # Dit print ["banaan", "appel", "mango"]
+print( tupel )         # Dit print (-5, 6, 8)
 print( len( tupel ) )  # Dit print 3, want de tupel bevat 3 elementen
 ```
 
@@ -19,7 +19,7 @@ Het belangrijkste **verschil** met lijsten is dat je ze *niet meer kan aanpassen
 
 
 ## Opgave
-De (Euclidische) afstand $$\mathsf{d}$$ van de oorsprong tot een punt $$mathsf{P(x,y)}$$ wordt gegeven door de volgende formule:
+De (Euclidische) afstand $$\mathsf{d}$$ van de oorsprong tot een punt $$\mathsf{P(x,y)}$$ wordt gegeven door de volgende formule:
 
 $$
     \mathsf{d = \sqrt{x^2+y^2}}
