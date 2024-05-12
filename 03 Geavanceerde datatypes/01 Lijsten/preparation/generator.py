@@ -32,9 +32,21 @@ spec = importlib.util.spec_from_file_location(module_name, file_path)
 module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 
+names = ["Cédric", "Luiz", "Ward", "Briek", "Miel", "Menno", "Alice", "Andreas","Ishita", 
+         "Eben", "Arend", "Joppe", "Veronika", "Lieze", "Kristina", "Cristina", "Lisa", 
+         "Daan", "Ana", "Lous", "Maarte","Hanne", "Arnaud", "Rosie Lou", "Lasse", "Marcel",
+         "Calin", "Xander", "Tiemen", "Faris", "Ruben", "Manu", "Bolder", "Alexander", "Jonas", 
+         "Jonas", "Simon", "Victor", "Helena", "Hasse", "Alice", "Melanie", "Anna", "Mien", "Marthe",
+         "Jary Sirin", "Babette", "Bastiaan", "Ides", "Ferit", "Camu", "Michiel", "Ro", "Jelena",
+         "Thomas", "Mano", "Agon", "Arthur", "Arne", "Julien", "Sunny","Marthe", "Zahidullah", 
+         "Jitske", "Jules", "Sieben", "Nikolay"]
 # generate test data
-ntests= 30
-cases = [["Cédric", "Luiz", "Ward", "Briek", "Miel"]]
+ntests= 20
+cases = [["Cédric", "Luiz", "Ward", "Briek", "Miel"], ["Babette","Nikolay"], ["Daan"]]
+while len(cases) < ntests:
+    n = random.randint(1,len(names))
+    test = list(random.choices(names, k = n))
+    cases.append(test)
     
 # generate unit tests for functions
 yamldata = []
