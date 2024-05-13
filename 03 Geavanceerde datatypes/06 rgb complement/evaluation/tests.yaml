@@ -2,61 +2,121 @@
   contexts:
   - testcases:
     - expression: complementair( (0, 128, 128) )
-      return: '!tuple [255, 127, 127]'
+      return: !tuple
+      - 255
+      - 127
+      - 127
   - testcases:
     - expression: complementair( (255, 255, 255) )
-      return: '!tuple [0, 0, 0]'
+      return: !tuple
+      - 0
+      - 0
+      - 0
   - testcases:
     - expression: complementair( (0, 0, 0) )
-      return: '!tuple [255, 255, 255]'
+      return: !tuple
+      - 255
+      - 255
+      - 255
   - testcases:
     - expression: complementair( (51, 117, 129) )
-      return: '!tuple [204, 138, 126]'
+      return: !tuple
+      - 204
+      - 138
+      - 126
   - testcases:
     - expression: complementair( (39, 171, 62) )
-      return: '!tuple [216, 84, 193]'
+      return: !tuple
+      - 216
+      - 84
+      - 193
   - testcases:
     - expression: complementair( (76, 179, 12) )
-      return: '!tuple [179, 76, 243]'
+      return: !tuple
+      - 179
+      - 76
+      - 243
   - testcases:
     - expression: complementair( (253, 20, 188) )
-      return: '!tuple [2, 235, 67]'
+      return: !tuple
+      - 2
+      - 235
+      - 67
   - testcases:
     - expression: complementair( (115, 247, 22) )
-      return: '!tuple [140, 8, 233]'
+      return: !tuple
+      - 140
+      - 8
+      - 233
   - testcases:
     - expression: complementair( (234, 113, 65) )
-      return: '!tuple [21, 142, 190]'
+      return: !tuple
+      - 21
+      - 142
+      - 190
   - testcases:
     - expression: complementair( (130, 35, 190) )
-      return: '!tuple [125, 220, 65]'
+      return: !tuple
+      - 125
+      - 220
+      - 65
   - testcases:
     - expression: complementair( (18, 219, 140) )
-      return: '!tuple [237, 36, 115]'
+      return: !tuple
+      - 237
+      - 36
+      - 115
   - testcases:
     - expression: complementair( (157, 195, 94) )
-      return: '!tuple [98, 60, 161]'
+      return: !tuple
+      - 98
+      - 60
+      - 161
   - testcases:
     - expression: complementair( (28, 64, 124) )
-      return: '!tuple [227, 191, 131]'
+      return: !tuple
+      - 227
+      - 191
+      - 131
   - testcases:
     - expression: complementair( (111, 206, 250) )
-      return: '!tuple [144, 49, 5]'
+      return: !tuple
+      - 144
+      - 49
+      - 5
   - testcases:
     - expression: complementair( (89, 233, 30) )
-      return: '!tuple [166, 22, 225]'
+      return: !tuple
+      - 166
+      - 22
+      - 225
   - testcases:
     - expression: complementair( (190, 113, 75) )
-      return: '!tuple [65, 142, 180]'
+      return: !tuple
+      - 65
+      - 142
+      - 180
   - testcases:
     - expression: complementair( (53, 225, 73) )
-      return: '!tuple [202, 30, 182]'
+      return: !tuple
+      - 202
+      - 30
+      - 182
   - testcases:
     - expression: complementair( (206, 121, 106) )
-      return: '!tuple [49, 134, 149]'
+      return: !tuple
+      - 49
+      - 134
+      - 149
   - testcases:
     - expression: complementair( (143, 110, 33) )
-      return: '!tuple [112, 145, 222]'
+      return: !tuple
+      - 112
+      - 145
+      - 222
   - testcases:
     - expression: complementair( (202, 117, 237) )
-      return: '!tuple [53, 138, 18]'
+      return: !tuple
+      - 53
+      - 138
+      - 18
