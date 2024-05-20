@@ -6,7 +6,7 @@ $$
     \mathsf{A = \sqrt{(s-a)\cdot (s-b)\cdot (s-c)\cdot (s-d) } }
 $$
 
-hierbij stelt $$\mathsf{s}$$ de halve omtrek voor.
+hierbij stelt $$\mathsf{s}$$ de halve omtrek van de vierhoek voor.
 
 ![Een vierhoek met zijden a, b, c en d.](media/image.png "Een vierhoek met zijden a, b, c en d."){:data-caption="Een vierhoek met zijden a, b, c en d." .light-only width="20%"}
 
