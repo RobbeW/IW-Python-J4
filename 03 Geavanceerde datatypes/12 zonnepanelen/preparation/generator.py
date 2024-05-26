@@ -45,7 +45,7 @@ while len(cases) < ntests:
 n = 20000
 lijst = list( random.randint(0,100) for _ in range(n) )
 a = random.randint(1,n//2)
-cases.append( (lijst, a) )
+cases.append( (lijst, 10000) )
 
 # generate unit tests for functions
 yamldata = []
