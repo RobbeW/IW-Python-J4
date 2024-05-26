@@ -42,7 +42,7 @@ while len(cases) < ntests:
     
 
 # some huge tests
-lijst = list( random.randint(-100,100) for _ in range(5000) )
+lijst = list( random.randint(-100,100) for _ in range(10000) )
 cases.append( lijst )
 
 # generate unit tests for functions
