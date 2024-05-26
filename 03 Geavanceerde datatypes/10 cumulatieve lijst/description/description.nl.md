@@ -10,7 +10,7 @@ Bestudeer onderstaande voorbeelden grondig.
 [1, 6, 12, 10]
 ```
 
-Want er geldt bijvoorbeeld dat 12 = 1 + 5 +6.
+Want er geldt **bijvoorbeeld** dat 12 = 1 + 5 + 6.
 
 ```
 >>> somlijst( [1, 5, 6, -2, 0, 5, 9] )
