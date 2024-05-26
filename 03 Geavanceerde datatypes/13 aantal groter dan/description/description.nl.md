@@ -1,6 +1,6 @@
 ## Opgave
 
-Programmeer een functie `groter_dan(lijst, getal)` dat gegeven een lijst het aantal getallen **groter dan** het gegeven getal `return`d. Daarnaast **print** je functie ook op welke plaatsen deze getallen voorkomen.
+Programmeer een functie `groter_dan(lijst, getal)` dat gegeven een lijst het aantal getallen **groter dan** het gegeven getal bepaalt. Daarnaast **print** je functie ook op welke plaatsen deze getallen voorkomen.
 
 #### Voorbeeld
 
