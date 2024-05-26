@@ -42,8 +42,8 @@ while len(cases) < ntests:
     cases.append( (lijst, a) )
 
 # some huge tests
-n = 10000
-lijst = list( random.randint(0,50) for _ in range(n) )
+n = 20000
+lijst = list( random.randint(0,100) for _ in range(n) )
 a = random.randint(1,n//2)
 cases.append( (lijst, a) )
 
