@@ -2,8 +2,13 @@
   "type": "exercise",
   "programming_language": "python",
   "evaluation": {
+    "time_limit": 10,
     "handler": "tested",
-    "test_suite": "tests.yaml"
+    "test_suite": "tests.yaml",
+    "options": {
+      "mode": "batch",
+      "allow_fallback": false
+    } 
   },
   "description": {
     "names": {
