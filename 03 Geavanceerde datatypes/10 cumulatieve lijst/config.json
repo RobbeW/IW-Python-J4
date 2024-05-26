@@ -2,12 +2,11 @@
   "type": "exercise",
   "programming_language": "python",
   "evaluation": {
-    "time_limit": 10,
+    "time_limit": 5,
     "handler": "tested",
     "test_suite": "tests.yaml",
     "options": {
-      "mode": "batch",
-      "allow_fallback": false
+      "mode": "context"
     } 
   },
   "description": {
