@@ -40,6 +40,10 @@ while len(cases) < ntests:
     lijst1 = list( random.randint(-30,30) for _ in range(n) )
     lijst2 = list( random.randint(-30,30) for _ in range(n) )
     cases.append( (lijst1, lijst2))
+
+lijst1 = list( random.randint(-100,100) for _ in range(5000) )
+lijst2 = list( random.randint(-100,100) for _ in range(5000) )
+cases.append( (lijst1, lijst2))
     
 # generate unit tests for functions
 yamldata = []
