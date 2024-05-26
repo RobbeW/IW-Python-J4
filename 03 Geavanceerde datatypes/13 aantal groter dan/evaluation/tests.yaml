@@ -1,0 +1,271 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: groter_dan( [1, 2, 3, 4, 1, 6], 3 )
+      stdout: "Op plaats 3 staat een getal groter dan 3\nOp plaats 5 staat een getal\
+        \ groter dan 3\n"
+      return: 2
+  - testcases:
+    - expression: groter_dan( [1, 2, 3, 4, 1, 6], 6 )
+      stdout: ''
+      return: 0
+  - testcases:
+    - expression: groter_dan( [25, 150, 58, 64, 131, 150, 130, 19, 85, 31, 38, 89,
+        6, 126, 10, 94, 57, 123, 138, 11, 117, 56, 140, 32, 65, 17, 95, 9, 109, 70,
+        143, 78, 97, 47, 14, 32, 62, 55, 138, 103, 125, 44, 133, 149, 116, 15, 95,
+        56, 37], 26 )
+      stdout: "Op plaats 1 staat een getal groter dan 26\nOp plaats 2 staat een getal\
+        \ groter dan 26\nOp plaats 3 staat een getal groter dan 26\nOp plaats 4 staat\
+        \ een getal groter dan 26\nOp plaats 5 staat een getal groter dan 26\nOp plaats\
+        \ 6 staat een getal groter dan 26\nOp plaats 8 staat een getal groter dan\
+        \ 26\nOp plaats 9 staat een getal groter dan 26\nOp plaats 10 staat een getal\
+        \ groter dan 26\nOp plaats 11 staat een getal groter dan 26\nOp plaats 13\
+        \ staat een getal groter dan 26\nOp plaats 15 staat een getal groter dan 26\n\
+        Op plaats 16 staat een getal groter dan 26\nOp plaats 17 staat een getal groter\
+        \ dan 26\nOp plaats 18 staat een getal groter dan 26\nOp plaats 20 staat een\
+        \ getal groter dan 26\nOp plaats 21 staat een getal groter dan 26\nOp plaats\
+        \ 22 staat een getal groter dan 26\nOp plaats 23 staat een getal groter dan\
+        \ 26\nOp plaats 24 staat een getal groter dan 26\nOp plaats 26 staat een getal\
+        \ groter dan 26\nOp plaats 28 staat een getal groter dan 26\nOp plaats 29\
+        \ staat een getal groter dan 26\nOp plaats 30 staat een getal groter dan 26\n\
+        Op plaats 31 staat een getal groter dan 26\nOp plaats 32 staat een getal groter\
+        \ dan 26\nOp plaats 33 staat een getal groter dan 26\nOp plaats 35 staat een\
+        \ getal groter dan 26\nOp plaats 36 staat een getal groter dan 26\nOp plaats\
+        \ 37 staat een getal groter dan 26\nOp plaats 38 staat een getal groter dan\
+        \ 26\nOp plaats 39 staat een getal groter dan 26\nOp plaats 40 staat een getal\
+        \ groter dan 26\nOp plaats 41 staat een getal groter dan 26\nOp plaats 42\
+        \ staat een getal groter dan 26\nOp plaats 43 staat een getal groter dan 26\n\
+        Op plaats 44 staat een getal groter dan 26\nOp plaats 46 staat een getal groter\
+        \ dan 26\nOp plaats 47 staat een getal groter dan 26\nOp plaats 48 staat een\
+        \ getal groter dan 26\n"
+      return: 40
+  - testcases:
+    - expression: groter_dan( [36, 103, 60, 53, 132, 71, 55, 16, 101, 58, 118, 10,
+        80, 103, 104, 65, 95, 67, 76, 51, 80, 109, 28, 139, 83, 26, 48, 123, 26, 90,
+        62], 72 )
+      stdout: "Op plaats 1 staat een getal groter dan 72\nOp plaats 4 staat een getal\
+        \ groter dan 72\nOp plaats 8 staat een getal groter dan 72\nOp plaats 10 staat\
+        \ een getal groter dan 72\nOp plaats 12 staat een getal groter dan 72\nOp\
+        \ plaats 13 staat een getal groter dan 72\nOp plaats 14 staat een getal groter\
+        \ dan 72\nOp plaats 16 staat een getal groter dan 72\nOp plaats 18 staat een\
+        \ getal groter dan 72\nOp plaats 20 staat een getal groter dan 72\nOp plaats\
+        \ 21 staat een getal groter dan 72\nOp plaats 23 staat een getal groter dan\
+        \ 72\nOp plaats 24 staat een getal groter dan 72\nOp plaats 27 staat een getal\
+        \ groter dan 72\nOp plaats 29 staat een getal groter dan 72\n"
+      return: 15
+  - testcases:
+    - expression: groter_dan( [101, 15, 51, 70, 57, 1, 125, 85, 100, 85, 41, 124,
+        25, 118, 60, 36, 51, 39, 27, 33, 39, 115, 72, 41, 63, 45, 103, 115, 105, 61,
+        123, 122, 115, 108, 74, 115], 74 )
+      stdout: "Op plaats 0 staat een getal groter dan 74\nOp plaats 6 staat een getal\
+        \ groter dan 74\nOp plaats 7 staat een getal groter dan 74\nOp plaats 8 staat\
+        \ een getal groter dan 74\nOp plaats 9 staat een getal groter dan 74\nOp plaats\
+        \ 11 staat een getal groter dan 74\nOp plaats 13 staat een getal groter dan\
+        \ 74\nOp plaats 21 staat een getal groter dan 74\nOp plaats 26 staat een getal\
+        \ groter dan 74\nOp plaats 27 staat een getal groter dan 74\nOp plaats 28\
+        \ staat een getal groter dan 74\nOp plaats 30 staat een getal groter dan 74\n\
+        Op plaats 31 staat een getal groter dan 74\nOp plaats 32 staat een getal groter\
+        \ dan 74\nOp plaats 33 staat een getal groter dan 74\nOp plaats 35 staat een\
+        \ getal groter dan 74\n"
+      return: 16
+  - testcases:
+    - expression: groter_dan( [56, 147, 99, 48, 60, 68, 133, 113, 8, 72, 115, 79,
+        52, 35, 81, 64, 57, 36, 99, 17, 53, 101, 50, 51, 140, 63, 90, 145, 36, 6,
+        32, 110, 8, 135, 50, 78, 30, 119, 88, 54, 109, 57, 121, 124], 143 )
+      stdout: "Op plaats 1 staat een getal groter dan 143\nOp plaats 27 staat een\
+        \ getal groter dan 143\n"
+      return: 2
+  - testcases:
+    - expression: groter_dan( [52, 87, 22, 38, 77, 142, 8, 52, 88, 27, 7, 31, 122,
+        55, 149, 88, 66, 21, 120, 78, 144, 147, 146, 86, 11, 26, 13, 143, 81, 11,
+        119, 110, 116, 59, 57, 77, 26, 124, 133, 10, 40, 98, 3, 63, 0], 126 )
+      stdout: "Op plaats 5 staat een getal groter dan 126\nOp plaats 14 staat een\
+        \ getal groter dan 126\nOp plaats 20 staat een getal groter dan 126\nOp plaats\
+        \ 21 staat een getal groter dan 126\nOp plaats 22 staat een getal groter dan\
+        \ 126\nOp plaats 27 staat een getal groter dan 126\nOp plaats 38 staat een\
+        \ getal groter dan 126\n"
+      return: 7
+  - testcases:
+    - expression: groter_dan( [136, 147, 89, 143, 0, 13, 135, 98, 129, 100, 18, 69,
+        16, 20, 52, 6, 74, 25, 96, 18, 45, 114], 58 )
+      stdout: "Op plaats 0 staat een getal groter dan 58\nOp plaats 1 staat een getal\
+        \ groter dan 58\nOp plaats 2 staat een getal groter dan 58\nOp plaats 3 staat\
+        \ een getal groter dan 58\nOp plaats 6 staat een getal groter dan 58\nOp plaats\
+        \ 7 staat een getal groter dan 58\nOp plaats 8 staat een getal groter dan\
+        \ 58\nOp plaats 9 staat een getal groter dan 58\nOp plaats 11 staat een getal\
+        \ groter dan 58\nOp plaats 16 staat een getal groter dan 58\nOp plaats 18\
+        \ staat een getal groter dan 58\nOp plaats 21 staat een getal groter dan 58\n"
+      return: 12
+  - testcases:
+    - expression: groter_dan( [40, 40, 28, 13, 40, 84, 24, 124, 119, 131, 15, 91,
+        3, 14, 26, 24, 19, 17, 47, 136, 149, 26, 31, 81, 72, 134, 45, 79, 100, 137,
+        122, 149, 33, 53, 113, 72, 73, 70, 118, 62, 93, 141, 66, 47, 12, 18, 110,
+        44, 43, 42], 90 )
+      stdout: "Op plaats 7 staat een getal groter dan 90\nOp plaats 8 staat een getal\
+        \ groter dan 90\nOp plaats 9 staat een getal groter dan 90\nOp plaats 11 staat\
+        \ een getal groter dan 90\nOp plaats 19 staat een getal groter dan 90\nOp\
+        \ plaats 20 staat een getal groter dan 90\nOp plaats 25 staat een getal groter\
+        \ dan 90\nOp plaats 28 staat een getal groter dan 90\nOp plaats 29 staat een\
+        \ getal groter dan 90\nOp plaats 30 staat een getal groter dan 90\nOp plaats\
+        \ 31 staat een getal groter dan 90\nOp plaats 34 staat een getal groter dan\
+        \ 90\nOp plaats 38 staat een getal groter dan 90\nOp plaats 40 staat een getal\
+        \ groter dan 90\nOp plaats 41 staat een getal groter dan 90\nOp plaats 46\
+        \ staat een getal groter dan 90\n"
+      return: 16
+  - testcases:
+    - expression: groter_dan( [36, 27, 104, 143, 96, 121, 109, 104, 39, 45, 83, 117,
+        47], 83 )
+      stdout: "Op plaats 2 staat een getal groter dan 83\nOp plaats 3 staat een getal\
+        \ groter dan 83\nOp plaats 4 staat een getal groter dan 83\nOp plaats 5 staat\
+        \ een getal groter dan 83\nOp plaats 6 staat een getal groter dan 83\nOp plaats\
+        \ 7 staat een getal groter dan 83\nOp plaats 11 staat een getal groter dan\
+        \ 83\n"
+      return: 7
+  - testcases:
+    - expression: groter_dan( [141, 13, 37, 69, 125, 124, 105, 63, 80], 139 )
+      stdout: "Op plaats 0 staat een getal groter dan 139\n"
+      return: 1
+  - testcases:
+    - expression: groter_dan( [134, 76, 99, 105, 21, 2, 60, 110, 45, 4, 52, 52, 35,
+        146, 93, 108, 143, 13, 38, 106, 50, 22, 36, 146, 65, 62, 70, 78, 68, 10, 13,
+        146], 51 )
+      stdout: "Op plaats 0 staat een getal groter dan 51\nOp plaats 1 staat een getal\
+        \ groter dan 51\nOp plaats 2 staat een getal groter dan 51\nOp plaats 3 staat\
+        \ een getal groter dan 51\nOp plaats 6 staat een getal groter dan 51\nOp plaats\
+        \ 7 staat een getal groter dan 51\nOp plaats 10 staat een getal groter dan\
+        \ 51\nOp plaats 11 staat een getal groter dan 51\nOp plaats 13 staat een getal\
+        \ groter dan 51\nOp plaats 14 staat een getal groter dan 51\nOp plaats 15\
+        \ staat een getal groter dan 51\nOp plaats 16 staat een getal groter dan 51\n\
+        Op plaats 19 staat een getal groter dan 51\nOp plaats 23 staat een getal groter\
+        \ dan 51\nOp plaats 24 staat een getal groter dan 51\nOp plaats 25 staat een\
+        \ getal groter dan 51\nOp plaats 26 staat een getal groter dan 51\nOp plaats\
+        \ 27 staat een getal groter dan 51\nOp plaats 28 staat een getal groter dan\
+        \ 51\nOp plaats 31 staat een getal groter dan 51\n"
+      return: 20
+  - testcases:
+    - expression: groter_dan( [56, 134, 38, 58, 15, 87, 10, 6, 82, 49, 5, 59, 18,
+        5, 128, 127, 52, 132, 30, 62, 116, 147, 0, 64, 115, 68], 79 )
+      stdout: "Op plaats 1 staat een getal groter dan 79\nOp plaats 5 staat een getal\
+        \ groter dan 79\nOp plaats 8 staat een getal groter dan 79\nOp plaats 14 staat\
+        \ een getal groter dan 79\nOp plaats 15 staat een getal groter dan 79\nOp\
+        \ plaats 17 staat een getal groter dan 79\nOp plaats 20 staat een getal groter\
+        \ dan 79\nOp plaats 21 staat een getal groter dan 79\nOp plaats 24 staat een\
+        \ getal groter dan 79\n"
+      return: 9
+  - testcases:
+    - expression: groter_dan( [109, 149, 108, 85, 137, 90, 85, 55, 45, 84, 79, 46,
+        9, 16, 136, 94, 60, 142, 114, 10, 59, 56, 146, 41, 142, 150, 4, 98, 48, 106,
+        148, 69, 131, 116, 139, 40, 11, 87, 145, 96, 144, 83, 33, 101, 28, 65, 99,
+        19], 38 )
+      stdout: "Op plaats 0 staat een getal groter dan 38\nOp plaats 1 staat een getal\
+        \ groter dan 38\nOp plaats 2 staat een getal groter dan 38\nOp plaats 3 staat\
+        \ een getal groter dan 38\nOp plaats 4 staat een getal groter dan 38\nOp plaats\
+        \ 5 staat een getal groter dan 38\nOp plaats 6 staat een getal groter dan\
+        \ 38\nOp plaats 7 staat een getal groter dan 38\nOp plaats 8 staat een getal\
+        \ groter dan 38\nOp plaats 9 staat een getal groter dan 38\nOp plaats 10 staat\
+        \ een getal groter dan 38\nOp plaats 11 staat een getal groter dan 38\nOp\
+        \ plaats 14 staat een getal groter dan 38\nOp plaats 15 staat een getal groter\
+        \ dan 38\nOp plaats 16 staat een getal groter dan 38\nOp plaats 17 staat een\
+        \ getal groter dan 38\nOp plaats 18 staat een getal groter dan 38\nOp plaats\
+        \ 20 staat een getal groter dan 38\nOp plaats 21 staat een getal groter dan\
+        \ 38\nOp plaats 22 staat een getal groter dan 38\nOp plaats 23 staat een getal\
+        \ groter dan 38\nOp plaats 24 staat een getal groter dan 38\nOp plaats 25\
+        \ staat een getal groter dan 38\nOp plaats 27 staat een getal groter dan 38\n\
+        Op plaats 28 staat een getal groter dan 38\nOp plaats 29 staat een getal groter\
+        \ dan 38\nOp plaats 30 staat een getal groter dan 38\nOp plaats 31 staat een\
+        \ getal groter dan 38\nOp plaats 32 staat een getal groter dan 38\nOp plaats\
+        \ 33 staat een getal groter dan 38\nOp plaats 34 staat een getal groter dan\
+        \ 38\nOp plaats 35 staat een getal groter dan 38\nOp plaats 37 staat een getal\
+        \ groter dan 38\nOp plaats 38 staat een getal groter dan 38\nOp plaats 39\
+        \ staat een getal groter dan 38\nOp plaats 40 staat een getal groter dan 38\n\
+        Op plaats 41 staat een getal groter dan 38\nOp plaats 43 staat een getal groter\
+        \ dan 38\nOp plaats 45 staat een getal groter dan 38\nOp plaats 46 staat een\
+        \ getal groter dan 38\n"
+      return: 40
+  - testcases:
+    - expression: groter_dan( [10, 28, 16, 112, 3, 3, 137, 67, 91, 133, 11, 87, 21,
+        116, 47, 60, 7, 34, 108, 51, 49, 21, 147, 53, 86, 103, 137, 123, 108, 9, 78,
+        73, 107, 100, 107, 125, 57, 150, 95, 63, 134, 70, 85], 68 )
+      stdout: "Op plaats 3 staat een getal groter dan 68\nOp plaats 6 staat een getal\
+        \ groter dan 68\nOp plaats 8 staat een getal groter dan 68\nOp plaats 9 staat\
+        \ een getal groter dan 68\nOp plaats 11 staat een getal groter dan 68\nOp\
+        \ plaats 13 staat een getal groter dan 68\nOp plaats 18 staat een getal groter\
+        \ dan 68\nOp plaats 22 staat een getal groter dan 68\nOp plaats 24 staat een\
+        \ getal groter dan 68\nOp plaats 25 staat een getal groter dan 68\nOp plaats\
+        \ 26 staat een getal groter dan 68\nOp plaats 27 staat een getal groter dan\
+        \ 68\nOp plaats 28 staat een getal groter dan 68\nOp plaats 30 staat een getal\
+        \ groter dan 68\nOp plaats 31 staat een getal groter dan 68\nOp plaats 32\
+        \ staat een getal groter dan 68\nOp plaats 33 staat een getal groter dan 68\n\
+        Op plaats 34 staat een getal groter dan 68\nOp plaats 35 staat een getal groter\
+        \ dan 68\nOp plaats 37 staat een getal groter dan 68\nOp plaats 38 staat een\
+        \ getal groter dan 68\nOp plaats 40 staat een getal groter dan 68\nOp plaats\
+        \ 41 staat een getal groter dan 68\nOp plaats 42 staat een getal groter dan\
+        \ 68\n"
+      return: 24
+  - testcases:
+    - expression: groter_dan( [7, 78, 36, 42, 124, 43, 34, 72, 135, 104, 118, 0, 94,
+        148, 120, 86], 69 )
+      stdout: "Op plaats 1 staat een getal groter dan 69\nOp plaats 4 staat een getal\
+        \ groter dan 69\nOp plaats 7 staat een getal groter dan 69\nOp plaats 8 staat\
+        \ een getal groter dan 69\nOp plaats 9 staat een getal groter dan 69\nOp plaats\
+        \ 10 staat een getal groter dan 69\nOp plaats 12 staat een getal groter dan\
+        \ 69\nOp plaats 13 staat een getal groter dan 69\nOp plaats 14 staat een getal\
+        \ groter dan 69\nOp plaats 15 staat een getal groter dan 69\n"
+      return: 10
+  - testcases:
+    - expression: groter_dan( [134, 31, 55, 55, 48, 6, 62, 46, 6, 146, 78, 10, 109,
+        34, 57, 12, 148, 4], 4 )
+      stdout: "Op plaats 0 staat een getal groter dan 4\nOp plaats 1 staat een getal\
+        \ groter dan 4\nOp plaats 2 staat een getal groter dan 4\nOp plaats 3 staat\
+        \ een getal groter dan 4\nOp plaats 4 staat een getal groter dan 4\nOp plaats\
+        \ 5 staat een getal groter dan 4\nOp plaats 6 staat een getal groter dan 4\n\
+        Op plaats 7 staat een getal groter dan 4\nOp plaats 8 staat een getal groter\
+        \ dan 4\nOp plaats 9 staat een getal groter dan 4\nOp plaats 10 staat een\
+        \ getal groter dan 4\nOp plaats 11 staat een getal groter dan 4\nOp plaats\
+        \ 12 staat een getal groter dan 4\nOp plaats 13 staat een getal groter dan\
+        \ 4\nOp plaats 14 staat een getal groter dan 4\nOp plaats 15 staat een getal\
+        \ groter dan 4\nOp plaats 16 staat een getal groter dan 4\n"
+      return: 17
+  - testcases:
+    - expression: groter_dan( [66, 117, 25, 44, 79, 49, 127, 54, 54, 46, 23, 41, 109,
+        108, 140, 93, 72, 21, 43, 143, 64, 29, 104, 17, 57, 89, 100, 124, 109, 116,
+        15, 117, 29, 55, 11, 134, 104, 12, 26, 21, 7, 143], 111 )
+      stdout: "Op plaats 1 staat een getal groter dan 111\nOp plaats 6 staat een getal\
+        \ groter dan 111\nOp plaats 14 staat een getal groter dan 111\nOp plaats 19\
+        \ staat een getal groter dan 111\nOp plaats 27 staat een getal groter dan\
+        \ 111\nOp plaats 29 staat een getal groter dan 111\nOp plaats 31 staat een\
+        \ getal groter dan 111\nOp plaats 35 staat een getal groter dan 111\nOp plaats\
+        \ 41 staat een getal groter dan 111\n"
+      return: 9
+  - testcases:
+    - expression: groter_dan( [87, 117, 122, 61, 101, 51, 148, 93, 45, 81, 37, 35,
+        149, 28, 79, 144, 36, 141, 36, 23, 98, 131, 26, 17, 140, 135, 57, 87, 145,
+        99, 146], 30 )
+      stdout: "Op plaats 0 staat een getal groter dan 30\nOp plaats 1 staat een getal\
+        \ groter dan 30\nOp plaats 2 staat een getal groter dan 30\nOp plaats 3 staat\
+        \ een getal groter dan 30\nOp plaats 4 staat een getal groter dan 30\nOp plaats\
+        \ 5 staat een getal groter dan 30\nOp plaats 6 staat een getal groter dan\
+        \ 30\nOp plaats 7 staat een getal groter dan 30\nOp plaats 8 staat een getal\
+        \ groter dan 30\nOp plaats 9 staat een getal groter dan 30\nOp plaats 10 staat\
+        \ een getal groter dan 30\nOp plaats 11 staat een getal groter dan 30\nOp\
+        \ plaats 12 staat een getal groter dan 30\nOp plaats 14 staat een getal groter\
+        \ dan 30\nOp plaats 15 staat een getal groter dan 30\nOp plaats 16 staat een\
+        \ getal groter dan 30\nOp plaats 17 staat een getal groter dan 30\nOp plaats\
+        \ 18 staat een getal groter dan 30\nOp plaats 20 staat een getal groter dan\
+        \ 30\nOp plaats 21 staat een getal groter dan 30\nOp plaats 24 staat een getal\
+        \ groter dan 30\nOp plaats 25 staat een getal groter dan 30\nOp plaats 26\
+        \ staat een getal groter dan 30\nOp plaats 27 staat een getal groter dan 30\n\
+        Op plaats 28 staat een getal groter dan 30\nOp plaats 29 staat een getal groter\
+        \ dan 30\nOp plaats 30 staat een getal groter dan 30\n"
+      return: 27
+  - testcases:
+    - expression: groter_dan( [78, 8, 50, 66, 125, 105, 26, 15, 49, 41, 64, 121, 145,
+        101, 48, 126, 74, 63, 108, 22, 39, 102, 35, 109, 20, 10, 37, 11, 134], 85
+        )
+      stdout: "Op plaats 4 staat een getal groter dan 85\nOp plaats 5 staat een getal\
+        \ groter dan 85\nOp plaats 11 staat een getal groter dan 85\nOp plaats 12\
+        \ staat een getal groter dan 85\nOp plaats 13 staat een getal groter dan 85\n\
+        Op plaats 15 staat een getal groter dan 85\nOp plaats 18 staat een getal groter\
+        \ dan 85\nOp plaats 21 staat een getal groter dan 85\nOp plaats 23 staat een\
+        \ getal groter dan 85\nOp plaats 28 staat een getal groter dan 85\n"
+      return: 10
