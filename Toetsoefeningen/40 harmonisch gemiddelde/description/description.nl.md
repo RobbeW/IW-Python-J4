@@ -1,0 +1,16 @@
+Het harmonisch gemiddelde van $$\mathsf{n}$$ getallen $$\mathsf{a}$$, $$\mathsf{b}$$, $$\mathsf{d}$$, enz... wordt als volgt berekend:
+
+$$
+\mathsf{\dfrac{n}{\dfrac{1}{a}+\dfrac{1}{b}+\dfrac{1}{c}+\ldots}}
+$$
+
+## Opgave
+
+Programmeer een functie `harmonisch_gemiddelde(lijst)`, zodat deze gegeven een lijst met getallen het harmonisch gemiddelde uitrekent. Rond dit gemiddelde af op 3 decimalen.
+
+#### Voorbeeld
+
+```
+>>> harmonisch_gemiddelde( [3, 2, 5, 1] )
+1.967
+```
