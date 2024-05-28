@@ -1,4 +1,4 @@
-Mijn noemt een lijst **genormaliseerd** indien de som van alle elementen 1 is. Men kan een lijst vrij gemakkelijk normaliseren, hiervoor deelt men elk element door de som van alle elementen uit de lijst.
+Men noemt een lijst **genormaliseerd** indien de som van alle elementen 1 is. Men kan een lijst vrij gemakkelijk normaliseren, hiervoor deelt men elk element door de som van alle elementen uit de lijst.
 
 ## Opgave
 
