@@ -34,7 +34,7 @@ spec.loader.exec_module(module)
 
 # generate test data
 ntests= 20
-cases = [[3, 2, 5, 1] ]
+cases = [ [3.0, -2.0, 5.0, 1.5] ]
 while len(cases) < ntests:
     n = random.randint(3,100)
     test = []

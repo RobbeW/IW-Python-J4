@@ -1,4 +1,4 @@
-Het harmonisch gemiddelde van $$\mathsf{n}$$ getallen $$\mathsf{a}$$, $$\mathsf{b}$$, $$\mathsf{d}$$, enz... wordt als volgt berekend:
+Het harmonisch gemiddelde van $$\mathsf{n}$$ getallen $$\mathsf{a}$$, $$\mathsf{b}$$, $$\mathsf{c}$$, enz... wordt als volgt berekend:
 
 $$
 \mathsf{\dfrac{n}{\dfrac{1}{a}+\dfrac{1}{b}+\dfrac{1}{c}+\ldots}}
@@ -11,6 +11,6 @@ Programmeer een functie `harmonisch_gemiddelde(lijst)`, zodat deze gegeven een l
 #### Voorbeeld
 
 ```
->>> harmonisch_gemiddelde( [3, 2, 5, 1] )
-1.967
+>>> harmonisch_gemiddelde( [3.0, -2.0, 5.0, 1.5] )
+5.714
 ```
