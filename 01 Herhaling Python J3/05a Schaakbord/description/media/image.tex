@@ -1,0 +1,28 @@
+\documentclass{standalone}
+\usepackage{xskak}
+\usepackage{chessboard}
+\usepackage{xcolor}
+
+
+\usepackage{tikz}
+\begin{document}	
+	\newchessgame
+	\def\mycol{black}
+	
+	\setchessboard{
+		fieldcolor=\mycol,
+		setfontcolors,
+		border = false,
+		linewidth=1pt,
+		padding=0.4pt,
+		color=\mycol,
+		pgfborder,
+		color=blue,
+		linewidth=0.5ex,
+		labelleftformat={\color{\mycol}\arabic{ranklabel}},
+		labelbottomformat={\color{\mycol}\arabic{filelabel}},
+		largeboard,
+		showmover=false,
+		setpieces={Qa1,Qb6}}
+	\chessboard
+\end{document}
