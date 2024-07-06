@@ -1,16 +1,17 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "Oefening - Kleur van een schaakveld"
+      "nl": "Kleur van een schaakveld"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "python"
   ],
   "access": "public",
   "internals": {
