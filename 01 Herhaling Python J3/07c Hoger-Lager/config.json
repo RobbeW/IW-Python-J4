@@ -7,11 +7,12 @@
   },
   "description": {
     "names": {
-      "nl": "Oefening - Hoger-Lager"
+      "nl": "Hoger-Lager"
     }
   },
   "labels": [
-
+    "while",
+    "random"
   ],
   "access": "public",
   "internals": {
