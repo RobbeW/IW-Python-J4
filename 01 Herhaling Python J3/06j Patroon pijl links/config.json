@@ -1,0 +1,23 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "description": {
+    "names": {
+      "nl": "Patroon pijl links"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "python",
+    "for",
+    "ASCII patroon"
+  ],
+  "access": "public",
+  "internals": {
+    "token": "VCMnwdA7Qe2mIV8PSEMsZM6zeX8wx5QN2U42Ed5j5mGVuNfP3zc6g8prYDIb9yzG",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

@@ -1,0 +1,136 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '1'
+      stdout: "X\n"
+  - testcases:
+    - stdin: '2'
+      stdout: " X\nXX\n X\n"
+  - testcases:
+    - stdin: '3'
+      stdout: "  X\n XX\nXXX\n XX\n  X\n"
+  - testcases:
+    - stdin: '4'
+      stdout: "   X\n  XX\n XXX\nXXXX\n XXX\n  XX\n   X\n"
+  - testcases:
+    - stdin: '5'
+      stdout: "    X\n   XX\n  XXX\n XXXX\nXXXXX\n XXXX\n  XXX\n   XX\n    X\n"
+  - testcases:
+    - stdin: '6'
+      stdout: "     X\n    XX\n   XXX\n  XXXX\n XXXXX\nXXXXXX\n XXXXX\n  XXXX\n  \
+        \ XXX\n    XX\n     X\n"
+  - testcases:
+    - stdin: '7'
+      stdout: "      X\n     XX\n    XXX\n   XXXX\n  XXXXX\n XXXXXX\nXXXXXXX\n XXXXXX\n\
+        \  XXXXX\n   XXXX\n    XXX\n     XX\n      X\n"
+  - testcases:
+    - stdin: '8'
+      stdout: "       X\n      XX\n     XXX\n    XXXX\n   XXXXX\n  XXXXXX\n XXXXXXX\n
+        XXXXXXXX\n XXXXXXX\n  XXXXXX\n   XXXXX\n    XXXX\n     XXX\n      XX\n   \
+        \    X\n"
+  - testcases:
+    - stdin: '9'
+      stdout: "        X\n       XX\n      XXX\n     XXXX\n    XXXXX\n   XXXXXX\n\
+        \  XXXXXXX\n XXXXXXXX\nXXXXXXXXX\n XXXXXXXX\n  XXXXXXX\n   XXXXXX\n    XXXXX\n\
+        \     XXXX\n      XXX\n       XX\n        X\n"
+  - testcases:
+    - stdin: '10'
+      stdout: "         X\n        XX\n       XXX\n      XXXX\n     XXXXX\n    XXXXXX\n\
+        \   XXXXXXX\n  XXXXXXXX\n XXXXXXXXX\nXXXXXXXXXX\n XXXXXXXXX\n  XXXXXXXX\n\
+        \   XXXXXXX\n    XXXXXX\n     XXXXX\n      XXXX\n       XXX\n        XX\n\
+        \         X\n"
+  - testcases:
+    - stdin: '11'
+      stdout: "          X\n         XX\n        XXX\n       XXXX\n      XXXXX\n \
+        \    XXXXXX\n    XXXXXXX\n   XXXXXXXX\n  XXXXXXXXX\n XXXXXXXXXX\nXXXXXXXXXXX\n
+        XXXXXXXXXX\n  XXXXXXXXX\n   XXXXXXXX\n    XXXXXXX\n     XXXXXX\n      XXXXX\n\
+        \       XXXX\n        XXX\n         XX\n          X\n"
+  - testcases:
+    - stdin: '12'
+      stdout: "           X\n          XX\n         XXX\n        XXXX\n       XXXXX\n\
+        \      XXXXXX\n     XXXXXXX\n    XXXXXXXX\n   XXXXXXXXX\n  XXXXXXXXXX\n XXXXXXXXXXX\n
+        XXXXXXXXXXXX\n XXXXXXXXXXX\n  XXXXXXXXXX\n   XXXXXXXXX\n    XXXXXXXX\n   \
+        \  XXXXXXX\n      XXXXXX\n       XXXXX\n        XXXX\n         XXX\n     \
+        \     XX\n           X\n"
+  - testcases:
+    - stdin: '13'
+      stdout: "            X\n           XX\n          XXX\n         XXXX\n      \
+        \  XXXXX\n       XXXXXX\n      XXXXXXX\n     XXXXXXXX\n    XXXXXXXXX\n   XXXXXXXXXX\n\
+        \  XXXXXXXXXXX\n XXXXXXXXXXXX\nXXXXXXXXXXXXX\n XXXXXXXXXXXX\n  XXXXXXXXXXX\n\
+        \   XXXXXXXXXX\n    XXXXXXXXX\n     XXXXXXXX\n      XXXXXXX\n       XXXXXX\n\
+        \        XXXXX\n         XXXX\n          XXX\n           XX\n            X\n"
+  - testcases:
+    - stdin: '14'
+      stdout: "             X\n            XX\n           XXX\n          XXXX\n  \
+        \       XXXXX\n        XXXXXX\n       XXXXXXX\n      XXXXXXXX\n     XXXXXXXXX\n\
+        \    XXXXXXXXXX\n   XXXXXXXXXXX\n  XXXXXXXXXXXX\n XXXXXXXXXXXXX\nXXXXXXXXXXXXXX\n
+        XXXXXXXXXXXXX\n  XXXXXXXXXXXX\n   XXXXXXXXXXX\n    XXXXXXXXXX\n     XXXXXXXXX\n\
+        \      XXXXXXXX\n       XXXXXXX\n        XXXXXX\n         XXXXX\n        \
+        \  XXXX\n           XXX\n            XX\n             X\n"
+  - testcases:
+    - stdin: '15'
+      stdout: "              X\n             XX\n            XXX\n           XXXX\n\
+        \          XXXXX\n         XXXXXX\n        XXXXXXX\n       XXXXXXXX\n    \
+        \  XXXXXXXXX\n     XXXXXXXXXX\n    XXXXXXXXXXX\n   XXXXXXXXXXXX\n  XXXXXXXXXXXXX\n
+        XXXXXXXXXXXXXX\nXXXXXXXXXXXXXXX\n XXXXXXXXXXXXXX\n  XXXXXXXXXXXXX\n   XXXXXXXXXXXX\n\
+        \    XXXXXXXXXXX\n     XXXXXXXXXX\n      XXXXXXXXX\n       XXXXXXXX\n    \
+        \    XXXXXXX\n         XXXXXX\n          XXXXX\n           XXXX\n        \
+        \    XXX\n             XX\n              X\n"
+  - testcases:
+    - stdin: '16'
+      stdout: "               X\n              XX\n             XXX\n            XXXX\n\
+        \           XXXXX\n          XXXXXX\n         XXXXXXX\n        XXXXXXXX\n\
+        \       XXXXXXXXX\n      XXXXXXXXXX\n     XXXXXXXXXXX\n    XXXXXXXXXXXX\n\
+        \   XXXXXXXXXXXXX\n  XXXXXXXXXXXXXX\n XXXXXXXXXXXXXXX\nXXXXXXXXXXXXXXXX\n
+        XXXXXXXXXXXXXXX\n  XXXXXXXXXXXXXX\n   XXXXXXXXXXXXX\n    XXXXXXXXXXXX\n  \
+        \   XXXXXXXXXXX\n      XXXXXXXXXX\n       XXXXXXXXX\n        XXXXXXXX\n  \
+        \       XXXXXXX\n          XXXXXX\n           XXXXX\n            XXXX\n  \
+        \           XXX\n              XX\n               X\n"
+  - testcases:
+    - stdin: '17'
+      stdout: "                X\n               XX\n              XXX\n         \
+        \    XXXX\n            XXXXX\n           XXXXXX\n          XXXXXXX\n     \
+        \    XXXXXXXX\n        XXXXXXXXX\n       XXXXXXXXXX\n      XXXXXXXXXXX\n \
+        \    XXXXXXXXXXXX\n    XXXXXXXXXXXXX\n   XXXXXXXXXXXXXX\n  XXXXXXXXXXXXXXX\n
+        XXXXXXXXXXXXXXXX\nXXXXXXXXXXXXXXXXX\n XXXXXXXXXXXXXXXX\n  XXXXXXXXXXXXXXX\n\
+        \   XXXXXXXXXXXXXX\n    XXXXXXXXXXXXX\n     XXXXXXXXXXXX\n      XXXXXXXXXXX\n\
+        \       XXXXXXXXXX\n        XXXXXXXXX\n         XXXXXXXX\n          XXXXXXX\n\
+        \           XXXXXX\n            XXXXX\n             XXXX\n              XXX\n\
+        \               XX\n                X\n"
+  - testcases:
+    - stdin: '18'
+      stdout: "                 X\n                XX\n               XXX\n      \
+        \        XXXX\n             XXXXX\n            XXXXXX\n           XXXXXXX\n\
+        \          XXXXXXXX\n         XXXXXXXXX\n        XXXXXXXXXX\n       XXXXXXXXXXX\n\
+        \      XXXXXXXXXXXX\n     XXXXXXXXXXXXX\n    XXXXXXXXXXXXXX\n   XXXXXXXXXXXXXXX\n\
+        \  XXXXXXXXXXXXXXXX\n XXXXXXXXXXXXXXXXX\nXXXXXXXXXXXXXXXXXX\n XXXXXXXXXXXXXXXXX\n\
+        \  XXXXXXXXXXXXXXXX\n   XXXXXXXXXXXXXXX\n    XXXXXXXXXXXXXX\n     XXXXXXXXXXXXX\n\
+        \      XXXXXXXXXXXX\n       XXXXXXXXXXX\n        XXXXXXXXXX\n         XXXXXXXXX\n\
+        \          XXXXXXXX\n           XXXXXXX\n            XXXXXX\n            \
+        \ XXXXX\n              XXXX\n               XXX\n                XX\n    \
+        \             X\n"
+  - testcases:
+    - stdin: '19'
+      stdout: "                  X\n                 XX\n                XXX\n   \
+        \            XXXX\n              XXXXX\n             XXXXXX\n            XXXXXXX\n\
+        \           XXXXXXXX\n          XXXXXXXXX\n         XXXXXXXXXX\n        XXXXXXXXXXX\n\
+        \       XXXXXXXXXXXX\n      XXXXXXXXXXXXX\n     XXXXXXXXXXXXXX\n    XXXXXXXXXXXXXXX\n\
+        \   XXXXXXXXXXXXXXXX\n  XXXXXXXXXXXXXXXXX\n XXXXXXXXXXXXXXXXXX\nXXXXXXXXXXXXXXXXXXX\n
+        XXXXXXXXXXXXXXXXXX\n  XXXXXXXXXXXXXXXXX\n   XXXXXXXXXXXXXXXX\n    XXXXXXXXXXXXXXX\n\
+        \     XXXXXXXXXXXXXX\n      XXXXXXXXXXXXX\n       XXXXXXXXXXXX\n        XXXXXXXXXXX\n\
+        \         XXXXXXXXXX\n          XXXXXXXXX\n           XXXXXXXX\n         \
+        \   XXXXXXX\n             XXXXXX\n              XXXXX\n               XXXX\n\
+        \                XXX\n                 XX\n                  X\n"
+  - testcases:
+    - stdin: '20'
+      stdout: "                   X\n                  XX\n                 XXX\n\
+        \                XXXX\n               XXXXX\n              XXXXXX\n      \
+        \       XXXXXXX\n            XXXXXXXX\n           XXXXXXXXX\n          XXXXXXXXXX\n\
+        \         XXXXXXXXXXX\n        XXXXXXXXXXXX\n       XXXXXXXXXXXXX\n      XXXXXXXXXXXXXX\n\
+        \     XXXXXXXXXXXXXXX\n    XXXXXXXXXXXXXXXX\n   XXXXXXXXXXXXXXXXX\n  XXXXXXXXXXXXXXXXXX\n
+        XXXXXXXXXXXXXXXXXXX\nXXXXXXXXXXXXXXXXXXXX\n XXXXXXXXXXXXXXXXXXX\n  XXXXXXXXXXXXXXXXXX\n\
+        \   XXXXXXXXXXXXXXXXX\n    XXXXXXXXXXXXXXXX\n     XXXXXXXXXXXXXXX\n      XXXXXXXXXXXXXX\n\
+        \       XXXXXXXXXXXXX\n        XXXXXXXXXXXX\n         XXXXXXXXXXX\n      \
+        \    XXXXXXXXXX\n           XXXXXXXXX\n            XXXXXXXX\n            \
+        \ XXXXXXX\n              XXXXXX\n               XXXXX\n                XXXX\n\
+        \                 XXX\n                  XX\n                   X\n"
