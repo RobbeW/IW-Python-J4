@@ -1,20 +1,23 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "Patroon hol vierkant"
+      "nl": "Patroon driehoek links"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "python",
+    "for",
+    "ASCII patroon"
   ],
   "access": "public",
   "internals": {
-    "token": "tYbBAKUj4NgaxVF2uvAfGWRh9ymMBrMtmIPSkzWV22_bE4nA5NrrF8n_ZYHFu7f4",
+    "token": "CxaPFbcaJXWRQnVE59DtXSRFIUR-4qBVE9p3KrDis_6uymAY-ZsKbXxzs7K-kaQR",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }
