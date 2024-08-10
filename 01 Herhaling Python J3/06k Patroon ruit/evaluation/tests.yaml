@@ -22,7 +22,7 @@
         \  XXXXXXX\n   XXXXX\n    XXX\n     X\n"
   - testcases:
     - stdin: '7'
-      stdout: "      X\n     XXX\n    XXXXX\n   XXXXXXX\n  XXXXXXXXX\n XXXXXXXXXXX\n
+      stdout: "      X\n     XXX\n    XXXXX\n   XXXXXXX\n  XXXXXXXXX\n XXXXXXXXXXX\n\
         XXXXXXXXXXXXX\n XXXXXXXXXXX\n  XXXXXXXXX\n   XXXXXXX\n    XXXXX\n     XXX\n\
         \      X\n"
   - testcases:
@@ -39,7 +39,7 @@
   - testcases:
     - stdin: '10'
       stdout: "         X\n        XXX\n       XXXXX\n      XXXXXXX\n     XXXXXXXXX\n\
-        \    XXXXXXXXXXX\n   XXXXXXXXXXXXX\n  XXXXXXXXXXXXXXX\n XXXXXXXXXXXXXXXXX\n
+        \    XXXXXXXXXXX\n   XXXXXXXXXXXXX\n  XXXXXXXXXXXXXXX\n XXXXXXXXXXXXXXXXX\n\
         XXXXXXXXXXXXXXXXXXX\n XXXXXXXXXXXXXXXXX\n  XXXXXXXXXXXXXXX\n   XXXXXXXXXXXXX\n\
         \    XXXXXXXXXXX\n     XXXXXXXXX\n      XXXXXXX\n       XXXXX\n        XXX\n\
         \         X\n"

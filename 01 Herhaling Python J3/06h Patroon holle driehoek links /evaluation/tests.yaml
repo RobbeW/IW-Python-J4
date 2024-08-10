@@ -50,7 +50,7 @@
   - testcases:
     - stdin: '15'
       stdout: "XXXXXXXXXXXXXXX\nX            X\nX           X\nX          X\nX   \
-        \      X\nX        X\nX       X\nX      X\nX     X\nX    X\nX   X\nX  X\n
+        \      X\nX        X\nX       X\nX      X\nX     X\nX    X\nX   X\nX  X\n\
         X X\nXX\nX\n"
   - testcases:
     - stdin: '16'
@@ -71,7 +71,7 @@
     - stdin: '19'
       stdout: "XXXXXXXXXXXXXXXXXXX\nX                X\nX               X\nX     \
         \         X\nX             X\nX            X\nX           X\nX          X\n\
-        X         X\nX        X\nX       X\nX      X\nX     X\nX    X\nX   X\nX  X\n
+        X         X\nX        X\nX       X\nX      X\nX     X\nX    X\nX   X\nX  X\n\
         X X\nXX\nX\n"
   - testcases:
     - stdin: '20'
