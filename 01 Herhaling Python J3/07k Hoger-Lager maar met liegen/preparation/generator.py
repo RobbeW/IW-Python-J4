@@ -91,7 +91,7 @@ for test in cases:
                 elif gok < getal:
                     outputtxt += "Het getal is hoger dan "+str(gok)+"\n"
                     b = gok
-                gok = (a + b) // 2
+            gok = (a + b) // 2
 
         outputtxt += "Je hebt "+str(getal)+" geraden in " + str(aantal) + " pogingen!\n"
     

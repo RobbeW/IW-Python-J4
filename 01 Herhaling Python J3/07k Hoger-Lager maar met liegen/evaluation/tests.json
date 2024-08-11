@@ -11,17 +11,17 @@
           },
           "testcases": [
             {
-              "description": "Uitvoeren met seed 7247 en gokken 500, 500, 750, 625, 562, 593, 593, 609, 617, 617, 613, 615, 614 leidt tot:",
+              "description": "Uitvoeren met seed 7247 en gokken 500, 500, 750, 625, 562, 593, 591, 608, 616, 616, 612, 614 leidt tot:",
               "input": {
                 "stdin": {
                   "type": "text",
-                  "data": "500\n500\n750\n625\n562\n593\n593\n609\n617\n617\n613\n615\n614\n"
+                  "data": "500\n500\n750\n625\n562\n593\n591\n608\n616\n616\n612\n614\n"
                 }
               },
               "output": {
                 "stdout": {
                   "type": "text",
-                  "data": "Het getal is lager dan 500\nHet getal is hoger dan 500\nHet getal is lager dan 750\nHet getal is lager dan 625\nHet getal is hoger dan 562\nHet getal is lager dan 593\nHet getal is hoger dan 593\nHet getal is hoger dan 609\nHet getal is hoger dan 617\nHet getal is lager dan 617\nHet getal is hoger dan 613\nHet getal is lager dan 615\nJe hebt 614 geraden in 13 pogingen!\n"
+                  "data": "Het getal is lager dan 500\nHet getal is hoger dan 500\nHet getal is lager dan 750\nHet getal is lager dan 625\nHet getal is hoger dan 562\nHet getal is lager dan 593\nHet getal is hoger dan 591\nHet getal is hoger dan 608\nHet getal is hoger dan 616\nHet getal is lager dan 616\nHet getal is hoger dan 612\nJe hebt 614 geraden in 12 pogingen!\n"
                 }
               }
             }
@@ -35,17 +35,17 @@
           },
           "testcases": [
             {
-              "description": "Uitvoeren met seed 8884 en gokken 500, 750, 750, 875, 812, 843, 827, 835, 831, 831, 829, 830 leidt tot:",
+              "description": "Uitvoeren met seed 8884 en gokken 500, 750, 740, 870, 805, 837, 821, 829, 833, 833, 831, 830 leidt tot:",
               "input": {
                 "stdin": {
                   "type": "text",
-                  "data": "500\n750\n750\n875\n812\n843\n827\n835\n831\n831\n829\n830\n"
+                  "data": "500\n750\n740\n870\n805\n837\n821\n829\n833\n833\n831\n830\n"
                 }
               },
               "output": {
                 "stdout": {
                   "type": "text",
-                  "data": "Het getal is hoger dan 500\nHet getal is lager dan 750\nHet getal is hoger dan 750\nHet getal is lager dan 875\nHet getal is hoger dan 812\nHet getal is lager dan 843\nHet getal is hoger dan 827\nHet getal is lager dan 835\nHet getal is hoger dan 831\nHet getal is lager dan 831\nHet getal is hoger dan 829\nJe hebt 830 geraden in 12 pogingen!\n"
+                  "data": "Het getal is hoger dan 500\nHet getal is lager dan 750\nHet getal is hoger dan 740\nHet getal is lager dan 870\nHet getal is hoger dan 805\nHet getal is lager dan 837\nHet getal is hoger dan 821\nHet getal is hoger dan 829\nHet getal is hoger dan 833\nHet getal is lager dan 833\nHet getal is lager dan 831\nJe hebt 830 geraden in 12 pogingen!\n"
                 }
               }
             }
@@ -83,17 +83,17 @@
           },
           "testcases": [
             {
-              "description": "Uitvoeren met seed 6508 en gokken 500, 250, 250, 250, 125, 187, 156, 140, 140, 132, 132, 132, 132, 136, 136, 138, 139 leidt tot:",
+              "description": "Uitvoeren met seed 6508 en gokken 500, 250, 264, 279, 140, 70, 105, 122, 120, 130, 129, 128, 127, 133, 133, 136, 138, 139 leidt tot:",
               "input": {
                 "stdin": {
                   "type": "text",
-                  "data": "500\n250\n250\n250\n125\n187\n156\n140\n140\n132\n132\n132\n132\n136\n136\n138\n139\n"
+                  "data": "500\n250\n264\n279\n140\n70\n105\n122\n120\n130\n129\n128\n127\n133\n133\n136\n138\n139\n"
                 }
               },
               "output": {
                 "stdout": {
                   "type": "text",
-                  "data": "Het getal is lager dan 500\nHet getal is hoger dan 250\nHet getal is hoger dan 250\nHet getal is lager dan 250\nHet getal is hoger dan 125\nHet getal is lager dan 187\nHet getal is lager dan 156\nHet getal is hoger dan 140\nHet getal is lager dan 140\nHet getal is lager dan 132\nHet getal is lager dan 132\nHet getal is lager dan 132\nHet getal is hoger dan 132\nHet getal is lager dan 136\nHet getal is hoger dan 136\nHet getal is hoger dan 138\nJe hebt 139 geraden in 17 pogingen!\n"
+                  "data": "Het getal is lager dan 500\nHet getal is hoger dan 250\nHet getal is hoger dan 264\nHet getal is lager dan 279\nHet getal is lager dan 140\nHet getal is hoger dan 70\nHet getal is hoger dan 105\nHet getal is lager dan 122\nHet getal is hoger dan 120\nHet getal is lager dan 130\nHet getal is lager dan 129\nHet getal is lager dan 128\nHet getal is hoger dan 127\nHet getal is lager dan 133\nHet getal is hoger dan 133\nHet getal is hoger dan 136\nHet getal is hoger dan 138\nJe hebt 139 geraden in 18 pogingen!\n"
                 }
               }
             }
@@ -131,17 +131,17 @@
           },
           "testcases": [
             {
-              "description": "Uitvoeren met seed 7647 en gokken 500, 250, 125, 63, 63, 94, 94, 109, 109, 101, 101, 101, 101, 105, 107 leidt tot:",
+              "description": "Uitvoeren met seed 7647 en gokken 500, 250, 125, 63, 63, 94, 92, 108, 108, 100, 99, 98, 97, 102, 105, 105, 106, 107 leidt tot:",
               "input": {
                 "stdin": {
                   "type": "text",
-                  "data": "500\n250\n125\n63\n63\n94\n94\n109\n109\n101\n101\n101\n101\n105\n107\n"
+                  "data": "500\n250\n125\n63\n63\n94\n92\n108\n108\n100\n99\n98\n97\n102\n105\n105\n106\n107\n"
                 }
               },
               "output": {
                 "stdout": {
                   "type": "text",
-                  "data": "Het getal is lager dan 500\nHet getal is lager dan 250\nHet getal is lager dan 125\nHet getal is lager dan 63\nHet getal is hoger dan 63\nHet getal is lager dan 94\nHet getal is hoger dan 94\nHet getal is hoger dan 109\nHet getal is lager dan 109\nHet getal is lager dan 101\nHet getal is lager dan 101\nHet getal is lager dan 101\nHet getal is hoger dan 101\nHet getal is hoger dan 105\nJe hebt 107 geraden in 15 pogingen!\n"
+                  "data": "Het getal is lager dan 500\nHet getal is lager dan 250\nHet getal is lager dan 125\nHet getal is lager dan 63\nHet getal is hoger dan 63\nHet getal is lager dan 94\nHet getal is hoger dan 92\nHet getal is hoger dan 108\nHet getal is lager dan 108\nHet getal is lager dan 100\nHet getal is lager dan 99\nHet getal is lager dan 98\nHet getal is hoger dan 97\nHet getal is hoger dan 102\nHet getal is lager dan 105\nHet getal is hoger dan 105\nHet getal is hoger dan 106\nJe hebt 107 geraden in 18 pogingen!\n"
                 }
               }
             }
@@ -179,17 +179,17 @@
           },
           "testcases": [
             {
-              "description": "Uitvoeren met seed 8765 en gokken 500, 750, 750, 625, 687, 687, 656, 640, 648, 644, 642 leidt tot:",
+              "description": "Uitvoeren met seed 8765 en gokken 500, 750, 750, 625, 687, 693, 659, 642 leidt tot:",
               "input": {
                 "stdin": {
                   "type": "text",
-                  "data": "500\n750\n750\n625\n687\n687\n656\n640\n648\n644\n642\n"
+                  "data": "500\n750\n750\n625\n687\n693\n659\n642\n"
                 }
               },
               "output": {
                 "stdout": {
                   "type": "text",
-                  "data": "Het getal is hoger dan 500\nHet getal is hoger dan 750\nHet getal is lager dan 750\nHet getal is hoger dan 625\nHet getal is hoger dan 687\nHet getal is lager dan 687\nHet getal is lager dan 656\nHet getal is hoger dan 640\nHet getal is lager dan 648\nHet getal is lager dan 644\nJe hebt 642 geraden in 11 pogingen!\n"
+                  "data": "Het getal is hoger dan 500\nHet getal is hoger dan 750\nHet getal is lager dan 750\nHet getal is hoger dan 625\nHet getal is hoger dan 687\nHet getal is lager dan 693\nHet getal is lager dan 659\nJe hebt 642 geraden in 8 pogingen!\n"
                 }
               }
             }
@@ -251,17 +251,17 @@
           },
           "testcases": [
             {
-              "description": "Uitvoeren met seed 7225 en gokken 500, 750, 625, 687, 687, 718, 718, 702, 702, 694 leidt tot:",
+              "description": "Uitvoeren met seed 7225 en gokken 500, 750, 625, 687, 687, 718, 721, 704, 705, 696, 691, 691, 693, 693, 694 leidt tot:",
               "input": {
                 "stdin": {
                   "type": "text",
-                  "data": "500\n750\n625\n687\n687\n718\n718\n702\n702\n694\n"
+                  "data": "500\n750\n625\n687\n687\n718\n721\n704\n705\n696\n691\n691\n693\n693\n694\n"
                 }
               },
               "output": {
                 "stdout": {
                   "type": "text",
-                  "data": "Het getal is hoger dan 500\nHet getal is lager dan 750\nHet getal is hoger dan 625\nHet getal is lager dan 687\nHet getal is hoger dan 687\nHet getal is hoger dan 718\nHet getal is lager dan 718\nHet getal is hoger dan 702\nHet getal is lager dan 702\nJe hebt 694 geraden in 10 pogingen!\n"
+                  "data": "Het getal is hoger dan 500\nHet getal is lager dan 750\nHet getal is hoger dan 625\nHet getal is lager dan 687\nHet getal is hoger dan 687\nHet getal is hoger dan 718\nHet getal is lager dan 721\nHet getal is hoger dan 704\nHet getal is lager dan 705\nHet getal is lager dan 696\nHet getal is lager dan 691\nHet getal is hoger dan 691\nHet getal is lager dan 693\nHet getal is hoger dan 693\nJe hebt 694 geraden in 15 pogingen!\n"
                 }
               }
             }
@@ -347,17 +347,17 @@
           },
           "testcases": [
             {
-              "description": "Uitvoeren met seed 388 en gokken 500, 750, 875, 812, 812, 843, 827, 819, 823 leidt tot:",
+              "description": "Uitvoeren met seed 388 en gokken 500, 750, 875, 812, 811, 843, 827, 819, 823 leidt tot:",
               "input": {
                 "stdin": {
                   "type": "text",
-                  "data": "500\n750\n875\n812\n812\n843\n827\n819\n823\n"
+                  "data": "500\n750\n875\n812\n811\n843\n827\n819\n823\n"
                 }
               },
               "output": {
                 "stdout": {
                   "type": "text",
-                  "data": "Het getal is hoger dan 500\nHet getal is hoger dan 750\nHet getal is lager dan 875\nHet getal is lager dan 812\nHet getal is hoger dan 812\nHet getal is lager dan 843\nHet getal is lager dan 827\nHet getal is hoger dan 819\nJe hebt 823 geraden in 9 pogingen!\n"
+                  "data": "Het getal is hoger dan 500\nHet getal is hoger dan 750\nHet getal is lager dan 875\nHet getal is lager dan 812\nHet getal is hoger dan 811\nHet getal is lager dan 843\nHet getal is lager dan 827\nHet getal is hoger dan 819\nJe hebt 823 geraden in 9 pogingen!\n"
                 }
               }
             }
@@ -371,17 +371,17 @@
           },
           "testcases": [
             {
-              "description": "Uitvoeren met seed 4446 en gokken 500, 500, 750, 875, 812, 781, 765, 765, 757, 753, 753, 755, 754 leidt tot:",
+              "description": "Uitvoeren met seed 4446 en gokken 500, 500, 750, 875, 812, 781, 765, 766, 758, 754 leidt tot:",
               "input": {
                 "stdin": {
                   "type": "text",
-                  "data": "500\n500\n750\n875\n812\n781\n765\n765\n757\n753\n753\n755\n754\n"
+                  "data": "500\n500\n750\n875\n812\n781\n765\n766\n758\n754\n"
                 }
               },
               "output": {
                 "stdout": {
                   "type": "text",
-                  "data": "Het getal is lager dan 500\nHet getal is hoger dan 500\nHet getal is hoger dan 750\nHet getal is lager dan 875\nHet getal is lager dan 812\nHet getal is lager dan 781\nHet getal is hoger dan 765\nHet getal is lager dan 765\nHet getal is lager dan 757\nHet getal is lager dan 753\nHet getal is hoger dan 753\nHet getal is lager dan 755\nJe hebt 754 geraden in 13 pogingen!\n"
+                  "data": "Het getal is lager dan 500\nHet getal is hoger dan 500\nHet getal is hoger dan 750\nHet getal is lager dan 875\nHet getal is lager dan 812\nHet getal is lager dan 781\nHet getal is hoger dan 765\nHet getal is lager dan 766\nHet getal is lager dan 758\nJe hebt 754 geraden in 10 pogingen!\n"
                 }
               }
             }
@@ -395,17 +395,17 @@
           },
           "testcases": [
             {
-              "description": "Uitvoeren met seed 3027 en gokken 500, 250, 250, 250, 125, 187, 218, 202, 202, 194, 190 leidt tot:",
+              "description": "Uitvoeren met seed 3027 en gokken 500, 250, 258, 266, 133, 199, 166, 182, 181, 190 leidt tot:",
               "input": {
                 "stdin": {
                   "type": "text",
-                  "data": "500\n250\n250\n250\n125\n187\n218\n202\n202\n194\n190\n"
+                  "data": "500\n250\n258\n266\n133\n199\n166\n182\n181\n190\n"
                 }
               },
               "output": {
                 "stdout": {
                   "type": "text",
-                  "data": "Het getal is lager dan 500\nHet getal is hoger dan 250\nHet getal is hoger dan 250\nHet getal is lager dan 250\nHet getal is hoger dan 125\nHet getal is hoger dan 187\nHet getal is lager dan 218\nHet getal is hoger dan 202\nHet getal is lager dan 202\nHet getal is lager dan 194\nJe hebt 190 geraden in 11 pogingen!\n"
+                  "data": "Het getal is lager dan 500\nHet getal is hoger dan 250\nHet getal is hoger dan 258\nHet getal is lager dan 266\nHet getal is hoger dan 133\nHet getal is lager dan 199\nHet getal is hoger dan 166\nHet getal is lager dan 182\nHet getal is hoger dan 181\nJe hebt 190 geraden in 10 pogingen!\n"
                 }
               }
             }
@@ -443,17 +443,17 @@
           },
           "testcases": [
             {
-              "description": "Uitvoeren met seed 2342 en gokken 500, 750, 625, 562, 593, 593, 577, 569, 573, 571, 572 leidt tot:",
+              "description": "Uitvoeren met seed 2342 en gokken 500, 750, 625, 562, 593, 596, 579, 570, 574, 572 leidt tot:",
               "input": {
                 "stdin": {
                   "type": "text",
-                  "data": "500\n750\n625\n562\n593\n593\n577\n569\n573\n571\n572\n"
+                  "data": "500\n750\n625\n562\n593\n596\n579\n570\n574\n572\n"
                 }
               },
               "output": {
                 "stdout": {
                   "type": "text",
-                  "data": "Het getal is hoger dan 500\nHet getal is lager dan 750\nHet getal is lager dan 625\nHet getal is hoger dan 562\nHet getal is hoger dan 593\nHet getal is lager dan 593\nHet getal is lager dan 577\nHet getal is hoger dan 569\nHet getal is lager dan 573\nHet getal is hoger dan 571\nJe hebt 572 geraden in 11 pogingen!\n"
+                  "data": "Het getal is hoger dan 500\nHet getal is lager dan 750\nHet getal is lager dan 625\nHet getal is hoger dan 562\nHet getal is hoger dan 593\nHet getal is lager dan 596\nHet getal is lager dan 579\nHet getal is hoger dan 570\nHet getal is lager dan 574\nJe hebt 572 geraden in 10 pogingen!\n"
                 }
               }
             }
@@ -467,17 +467,17 @@
           },
           "testcases": [
             {
-              "description": "Uitvoeren met seed 5147 en gokken 500, 750, 875, 812, 843, 843, 859, 859, 859, 867, 871, 869, 869, 870 leidt tot:",
+              "description": "Uitvoeren met seed 5147 en gokken 500, 750, 875, 812, 843, 840, 857, 856, 854, 864, 869, 872, 872, 870 leidt tot:",
               "input": {
                 "stdin": {
                   "type": "text",
-                  "data": "500\n750\n875\n812\n843\n843\n859\n859\n859\n867\n871\n869\n869\n870\n"
+                  "data": "500\n750\n875\n812\n843\n840\n857\n856\n854\n864\n869\n872\n872\n870\n"
                 }
               },
               "output": {
                 "stdout": {
                   "type": "text",
-                  "data": "Het getal is hoger dan 500\nHet getal is hoger dan 750\nHet getal is lager dan 875\nHet getal is hoger dan 812\nHet getal is lager dan 843\nHet getal is hoger dan 843\nHet getal is lager dan 859\nHet getal is lager dan 859\nHet getal is hoger dan 859\nHet getal is hoger dan 867\nHet getal is lager dan 871\nHet getal is lager dan 869\nHet getal is hoger dan 869\nJe hebt 870 geraden in 14 pogingen!\n"
+                  "data": "Het getal is hoger dan 500\nHet getal is hoger dan 750\nHet getal is lager dan 875\nHet getal is hoger dan 812\nHet getal is lager dan 843\nHet getal is hoger dan 840\nHet getal is lager dan 857\nHet getal is lager dan 856\nHet getal is hoger dan 854\nHet getal is hoger dan 864\nHet getal is hoger dan 869\nHet getal is hoger dan 872\nHet getal is lager dan 872\nJe hebt 870 geraden in 14 pogingen!\n"
                 }
               }
             }
