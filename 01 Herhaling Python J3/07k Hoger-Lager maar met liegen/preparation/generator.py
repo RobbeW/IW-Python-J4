@@ -69,10 +69,8 @@ for test in cases:
         geraden = False
         a = 1000
         b = 1
-        teller = 0
         gok = (a + b) // 2
-        while not geraden and teller < 100:
-            teller += 1
+        while not geraden:
             inputtxt += str(gok) + "\n"
             gokken.append(gok)
             aantal += 1
