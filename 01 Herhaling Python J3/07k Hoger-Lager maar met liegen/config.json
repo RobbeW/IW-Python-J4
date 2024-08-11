@@ -14,5 +14,9 @@
     "while",
     "random"
   ],
-  "access": "public"
+  "access": "public",
+  "internals": {
+    "token": "vKI2JeEA9nFaSNskT8nkNuPn9kU8bNd6TwreCjDPfjaa4IAyCDM57JXm4FCgcuz_",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
