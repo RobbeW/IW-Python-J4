@@ -26,7 +26,8 @@ cases = [ ]
 
 while len( cases ) < ntests:
     seed = random.randint(1,10000)
-    cases.append( (seed, ) )
+    in_1_keer = random.randint(0,5) == 0
+    cases.append( (seed, in_1_keer) )
     
 # generate unit tests for functions
 exportdata = {"tabs": [] }
@@ -39,6 +40,7 @@ for test in cases:
     exportdata["tabs"][0]["contexts"].append({})
     i += 1    
     seed = test[0]
+    in_1_keer = test[1]
     # generate before expression
     beforecase = {"python": {"data": "import random; random.seed("+str(seed)+")"}}
     exportdata["tabs"][0]["contexts"][i]["before"] = beforecase
@@ -59,7 +61,7 @@ for test in cases:
     getal = random.randint( 1, 1000 )
 
     aantal = 0
-    if random.randint(0,5) == 0:
+    if in_1_keer:
         inputtxt += str(getal)+"\n"
         outputtxt += "Je hebt "+ str(getal) +" meteen geraden!\n"
         gokken.append(getal)
