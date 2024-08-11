@@ -13,15 +13,4 @@ else
 
 Zo kiest de computer een wilekeurig getal van 1 tot en met 4 en enkel als die waarde 1 is worden de liegende acties uitgevoerd. Dit komt neer op een kans van 1 op 4 of 25%.
 
-Slaag je er zelf nog in om het getal te vinden?
-
-#### Voorbeeld
-
-Stel dat het willekeurige getal `614` is, indien de gebruiker achtereenvolgens de getallen `500`, `750`, `600` en `614` ingeeft, dan verschijnt er:
-
-```
-Het getal is hoger dan 500
-Het getal is lager dan 750
-Het getal is hoger dan 600
-Je hebt 614 geraden in 4 pogingen!
-```
+Probeer het zelf uit. Slaag je er zelf nog in om het getal te vinden en de liegende computer te ontmaskeren?
