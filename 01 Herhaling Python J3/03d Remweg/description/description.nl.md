@@ -1,10 +1,10 @@
-De **remweg** is de afstand (in meter) die een voertuig aflegt terwijl er wordt geremd. Deze afstand $$s_{\text{rem}}$$ wordt berekend via de formule:
+De **remweg** is de afstand (in meter) die een voertuig aflegt terwijl er wordt geremd. Deze afstand s<sub>rem</sub> wordt berekend via de formule:
 
 $$
-    s_{\text{rem}} = \dfrac{v^2}{2\cdot a_\text{rem}}
+    \mathsf{s_{\text{rem}} = \dfrac{v^2}{2\cdot a_\text{rem}}}
 $$
 
-Hierbij stelt $$v$$ de **beginsnelheid** in m/s voor en $$a_{\text{rem}}$$ de **remvertraging** in m/s². Bij een droog vlak wegdek en met goede rubberbanden kan de remvertraging 10 m/s² bedragen, is het wegdek glad, dan kan de remvertraging sterk afnemen.
+Hierbij stelt v de **beginsnelheid** in m/s voor en a<sub>rem</sub> de **remvertraging** in m/s². Bij een droog vlak wegdek en met goede rubberbanden kan de remvertraging 10 m/s² bedragen, is het wegdek glad, dan kan de remvertraging sterk afnemen.
 
 ![Homer Simpson gooit alle remmen dicht.](media/simpson.gif "Homer Simpson gooit alle remmen dicht."){:data-caption="Homer Simpson gooit alle remmen dicht." width="400px"}
 

@@ -3,10 +3,10 @@ Een donut is een driedimensionaal lichaam dat in de wiskunde ook wel een <a href
 Van een torus bepaalt men de oppervlakte en het volume via:
 
 $$
-    A = 4 \cdot \pi^2 \cdot r \cdot R \qquad\qquad \text{en}\qquad\qquad V = 2 \cdot \pi^2 \cdot r^2 \cdot R
+    \mathsf{A = 4 \cdot \pi^2 \cdot r \cdot R \qquad\qquad \text{en}\qquad\qquad V = 2 \cdot \pi^2 \cdot r^2 \cdot R}
 $$
 
-waarbij $$r$$ de (kleine) straal van de binnenste cirkel en $$R$$ de (grote) straal van de buitenste cirkel voorstelt.
+waarbij r de (kleine) straal van de binnenste cirkel en R de (grote) straal van de buitenste cirkel voorstelt.
 
 ![Hmm, doughnuts...](media/Homer_doughnut.gif "Hmm, doughnuts..."){:data-caption="Hmm, doughnuts..." width="498px"}
 
@@ -22,4 +22,4 @@ Volume: 1562.276 cm³
 
 {: .callout.callout-info}
 > #### Tips
-> - Gebruik $$\pi$$ uit de module `import math` via `math.pi`.
+> - Gebruik π uit de module `import math` via `math.pi`.

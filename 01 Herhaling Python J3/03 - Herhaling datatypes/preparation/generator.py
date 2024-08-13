@@ -1,24 +1,4 @@
 import os
-import random
-import subprocess
-from typing import Text
-
-# set fixed seed for generating test cases
-random.seed(123456789)
-
-# locate evaldir
-evaldir = os.path.join('..', 'evaluation')
-if not os.path.exists(evaldir):
-    os.makedirs(evaldir)
-
-# locate solutiondir
-solutiondir = os.path.join('..', 'solution')
-if not os.path.exists(solutiondir):
-    os.makedirs(solutiondir)
-
-
-
-import os
 import importlib.util
 import random
 import ruamel.yaml
