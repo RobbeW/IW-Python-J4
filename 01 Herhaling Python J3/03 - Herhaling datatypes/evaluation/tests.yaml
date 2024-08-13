@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "Louise\nVerhoeven\n2114.27\n21"
+      stdout: "Louise Verhoeven van 21 krijgt een jaarloon van € 27485.51\n"
+  - testcases:
+    - stdin: "Hugo\nVermeulen\n3348.75\n22"
+      stdout: "Hugo Vermeulen van 22 krijgt een jaarloon van € 43533.75\n"
+  - testcases:
+    - stdin: "Vince\nDe Smet\n2918.72\n22"
+      stdout: "Vince De Smet van 22 krijgt een jaarloon van € 37943.36\n"
+  - testcases:
+    - stdin: "Donna\nDe Saeger\n2277.16\n25"
+      stdout: "Donna De Saeger van 25 krijgt een jaarloon van € 29603.08\n"
+  - testcases:
+    - stdin: "Liam\nDe Clercq\n2175.73\n26"
+      stdout: "Liam De Clercq van 26 krijgt een jaarloon van € 28284.49\n"
+  - testcases:
+    - stdin: "Milan\nVandevelde\n2485.3\n31"
+      stdout: "Milan Vandevelde van 31 krijgt een jaarloon van € 32308.9\n"
+  - testcases:
+    - stdin: "Lotte\nJacobs\n2876.15\n32"
+      stdout: "Lotte Jacobs van 32 krijgt een jaarloon van € 37389.95\n"
+  - testcases:
+    - stdin: "Finn\nCoppens\n2008.37\n40"
+      stdout: "Finn Coppens van 40 krijgt een jaarloon van € 26108.81\n"
+  - testcases:
+    - stdin: "Emma\nStevens\n2640.8\n41"
+      stdout: "Emma Stevens van 41 krijgt een jaarloon van € 34330.4\n"
+  - testcases:
+    - stdin: "Hugo\nDe Clercq\n3073.36\n41"
+      stdout: "Hugo De Clercq van 41 krijgt een jaarloon van € 39953.68\n"
+  - testcases:
+    - stdin: "Thomas\nMertens\n3450\n42"
+      stdout: "Thomas Mertens van 42 krijgt een jaarloon van € 44850.0\n"
+  - testcases:
+    - stdin: "Arthur\nMaes\n2432.71\n45"
+      stdout: "Arthur Maes van 45 krijgt een jaarloon van € 31625.23\n"
+  - testcases:
+    - stdin: "Léa\nGoossens\n2051.89\n46"
+      stdout: "Léa Goossens van 46 krijgt een jaarloon van € 26674.57\n"
+  - testcases:
+    - stdin: "Finn\nDe Smet\n3116.16\n50"
+      stdout: "Finn De Smet van 50 krijgt een jaarloon van € 40510.08\n"
+  - testcases:
+    - stdin: "Louis\nHendrickx\n2098.08\n51"
+      stdout: "Louis Hendrickx van 51 krijgt een jaarloon van € 27275.04\n"
+  - testcases:
+    - stdin: "Lotte\nVan Acker\n2182.44\n52"
+      stdout: "Lotte Van Acker van 52 krijgt een jaarloon van € 28371.72\n"
+  - testcases:
+    - stdin: "Milan\nGoossens\n2169.55\n52"
+      stdout: "Milan Goossens van 52 krijgt een jaarloon van € 28204.15\n"
+  - testcases:
+    - stdin: "Julius\nCaesar\n4213.14\n56"
+      stdout: "Julius Caesar van 56 krijgt een jaarloon van € 54770.82\n"
+  - testcases:
+    - stdin: "Eva\nDe Smet\n2750.66\n58"
+      stdout: "Eva De Smet van 58 krijgt een jaarloon van € 35758.58\n"
+  - testcases:
+    - stdin: "Nelle\nVanlangendonck\n3020\n64"
+      stdout: "Nelle Vanlangendonck van 64 krijgt een jaarloon van € 39260.0\n"

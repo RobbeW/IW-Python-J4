@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "53.621\n64.88"
+      stdout: "Dit belfort is 36.527 m hoog.\n"
+  - testcases:
+    - stdin: "56.441\n69.188"
+      stdout: "Dit belfort is 40.017 m hoog.\n"
+  - testcases:
+    - stdin: "48.702\n65.086"
+      stdout: "Dit belfort is 43.178 m hoog.\n"
+  - testcases:
+    - stdin: "33.412\n55.797"
+      stdout: "Dit belfort is 44.687 m hoog.\n"
+  - testcases:
+    - stdin: "39.924\n61.354"
+      stdout: "Dit belfort is 46.587 m hoog.\n"
+  - testcases:
+    - stdin: "48.841\n69.627"
+      stdout: "Dit belfort is 49.623 m hoog.\n"
+  - testcases:
+    - stdin: "29.151\n59.104"
+      stdout: "Dit belfort is 51.415 m hoog.\n"
+  - testcases:
+    - stdin: "41.95\n66.509"
+      stdout: "Dit belfort is 51.611 m hoog.\n"
+  - testcases:
+    - stdin: "59.367\n84.293"
+      stdout: "Dit belfort is 59.84 m hoog.\n"
+  - testcases:
+    - stdin: "34.887\n71.872"
+      stdout: "Dit belfort is 62.837 m hoog.\n"
+  - testcases:
+    - stdin: "41.645\n76.963"
+      stdout: "Dit belfort is 64.722 m hoog.\n"
+  - testcases:
+    - stdin: "58.42\n89.004"
+      stdout: "Dit belfort is 67.148 m hoog.\n"
+  - testcases:
+    - stdin: "28.695\n75.779"
+      stdout: "Dit belfort is 70.136 m hoog.\n"
+  - testcases:
+    - stdin: "44.243\n85.467"
+      stdout: "Dit belfort is 73.124 m hoog.\n"
+  - testcases:
+    - stdin: "48.811\n90.448"
+      stdout: "Dit belfort is 76.147 m hoog.\n"
+  - testcases:
+    - stdin: "43.333\n94.24"
+      stdout: "Dit belfort is 83.686 m hoog.\n"
+  - testcases:
+    - stdin: "30.992\n94.24"
+      stdout: "Dit belfort is 88.998 m hoog.\n"
+  - testcases:
+    - stdin: "50.777\n102.908"
+      stdout: "Dit belfort is 89.508 m hoog.\n"
+  - testcases:
+    - stdin: "39.596\n100.255"
+      stdout: "Dit belfort is 92.104 m hoog.\n"
+  - testcases:
+    - stdin: "48.789\n107.437"
+      stdout: "Dit belfort is 95.72 m hoog.\n"
