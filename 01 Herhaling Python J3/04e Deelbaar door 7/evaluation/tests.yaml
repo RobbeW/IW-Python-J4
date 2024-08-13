@@ -1,0 +1,102 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '2653'
+      stdout: "1e stap: Het verschil van 265 en 6 is 259\n2e stap: Het verschil van
+        25 en 18 is 7\n7 is duidelijk deelbaar door 7, dus ook 2653 is deelbaar door
+        7.\n"
+  - testcases:
+    - stdin: '2814'
+      stdout: "1e stap: Het verschil van 281 en 8 is 273\n2e stap: Het verschil van
+        27 en 6 is 21\n21 is duidelijk deelbaar door 7, dus ook 2814 is deelbaar door
+        7.\n"
+  - testcases:
+    - stdin: '2975'
+      stdout: "1e stap: Het verschil van 297 en 10 is 287\n2e stap: Het verschil van
+        28 en 14 is 14\n14 is duidelijk deelbaar door 7, dus ook 2975 is deelbaar
+        door 7.\n"
+  - testcases:
+    - stdin: '3024'
+      stdout: "1e stap: Het verschil van 302 en 8 is 294\n2e stap: Het verschil van
+        29 en 8 is 21\n21 is duidelijk deelbaar door 7, dus ook 3024 is deelbaar door
+        7.\n"
+  - testcases:
+    - stdin: '3738'
+      stdout: "1e stap: Het verschil van 373 en 16 is 357\n2e stap: Het verschil van
+        35 en 14 is 21\n21 is duidelijk deelbaar door 7, dus ook 3738 is deelbaar
+        door 7.\n"
+  - testcases:
+    - stdin: '3906'
+      stdout: "1e stap: Het verschil van 390 en 12 is 378\n2e stap: Het verschil van
+        37 en 16 is 21\n21 is duidelijk deelbaar door 7, dus ook 3906 is deelbaar
+        door 7.\n"
+  - testcases:
+    - stdin: '4501'
+      stdout: "1e stap: Het verschil van 450 en 2 is 448\n2e stap: Het verschil van
+        44 en 16 is 28\n28 is duidelijk deelbaar door 7, dus ook 4501 is deelbaar
+        door 7.\n"
+  - testcases:
+    - stdin: '4711'
+      stdout: "1e stap: Het verschil van 471 en 2 is 469\n2e stap: Het verschil van
+        46 en 18 is 28\n28 is duidelijk deelbaar door 7, dus ook 4711 is deelbaar
+        door 7.\n"
+  - testcases:
+    - stdin: '5747'
+      stdout: "1e stap: Het verschil van 574 en 14 is 560\n2e stap: Het verschil van
+        56 en 0 is 56\n56 is duidelijk deelbaar door 7, dus ook 5747 is deelbaar door
+        7.\n"
+  - testcases:
+    - stdin: '5789'
+      stdout: "1e stap: Het verschil van 578 en 18 is 560\n2e stap: Het verschil van
+        56 en 0 is 56\n56 is duidelijk deelbaar door 7, dus ook 5789 is deelbaar door
+        7.\n"
+  - testcases:
+    - stdin: '6300'
+      stdout: "1e stap: Het verschil van 630 en 0 is 630\n2e stap: Het verschil van
+        63 en 0 is 63\n63 is duidelijk deelbaar door 7, dus ook 6300 is deelbaar door
+        7.\n"
+  - testcases:
+    - stdin: '6321'
+      stdout: "1e stap: Het verschil van 632 en 2 is 630\n2e stap: Het verschil van
+        63 en 0 is 63\n63 is duidelijk deelbaar door 7, dus ook 6321 is deelbaar door
+        7.\n"
+  - testcases:
+    - stdin: '6440'
+      stdout: "1e stap: Het verschil van 644 en 0 is 644\n2e stap: Het verschil van
+        64 en 8 is 56\n56 is duidelijk deelbaar door 7, dus ook 6440 is deelbaar door
+        7.\n"
+  - testcases:
+    - stdin: '6636'
+      stdout: "1e stap: Het verschil van 663 en 12 is 651\n2e stap: Het verschil van
+        65 en 2 is 63\n63 is duidelijk deelbaar door 7, dus ook 6636 is deelbaar door
+        7.\n"
+  - testcases:
+    - stdin: '7259'
+      stdout: "1e stap: Het verschil van 725 en 18 is 707\n2e stap: Het verschil van
+        70 en 14 is 56\n56 is duidelijk deelbaar door 7, dus ook 7259 is deelbaar
+        door 7.\n"
+  - testcases:
+    - stdin: '7336'
+      stdout: "1e stap: Het verschil van 733 en 12 is 721\n2e stap: Het verschil van
+        72 en 2 is 70\n70 is duidelijk deelbaar door 7, dus ook 7336 is deelbaar door
+        7.\n"
+  - testcases:
+    - stdin: '7553'
+      stdout: "1e stap: Het verschil van 755 en 6 is 749\n2e stap: Het verschil van
+        74 en 18 is 56\n56 is duidelijk deelbaar door 7, dus ook 7553 is deelbaar
+        door 7.\n"
+  - testcases:
+    - stdin: '7581'
+      stdout: "1e stap: Het verschil van 758 en 2 is 756\n2e stap: Het verschil van
+        75 en 12 is 63\n63 is duidelijk deelbaar door 7, dus ook 7581 is deelbaar
+        door 7.\n"
+  - testcases:
+    - stdin: '7644'
+      stdout: "1e stap: Het verschil van 764 en 8 is 756\n2e stap: Het verschil van
+        75 en 12 is 63\n63 is duidelijk deelbaar door 7, dus ook 7644 is deelbaar
+        door 7.\n"
+  - testcases:
+    - stdin: '8624'
+      stdout: "1e stap: Het verschil van 862 en 8 is 854\n2e stap: Het verschil van
+        85 en 8 is 77\n77 is duidelijk deelbaar door 7, dus ook 8624 is deelbaar door
+        7.\n"

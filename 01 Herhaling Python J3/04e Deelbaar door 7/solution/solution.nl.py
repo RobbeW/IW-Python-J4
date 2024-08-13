@@ -4,7 +4,7 @@ getal = int( input( 'Geef een getal in: ' ) )
 E = getal % 10
 rest = getal // 10
 verschil = rest - 2 * E
-print()
+
 print("1e stap: Het verschil van", rest, "en", 2*E, "is", verschil)
 
 E = verschil % 10
