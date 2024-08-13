@@ -4,15 +4,15 @@
   "access": "public",
   "description": {
     "names": {
-      "nl": "Herhaling geavanceerde operatoren",
-      "en": "Rehearsal advanced operators"
+      "nl": "Herhaling geavanceerde operatoren"
     }
   },
   "evaluation": {
-    "pythia_judge": "output"
+    "handler": "tested",
+    "test_suite": "tests.yaml"
   },
   "labels": [
-
+    "modulo"
   ],
   "internals": {
     "token": "6w2Drc6gU9_XG2sVXeFsR-CVDqMJr8F4yqNxK5d7W--q5c-PVnpfmzGdRaC_y6QH",

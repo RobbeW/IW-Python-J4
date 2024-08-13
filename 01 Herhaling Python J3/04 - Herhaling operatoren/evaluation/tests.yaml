@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "20\n7"
+      stdout: "De rest bij deling van 20 en 7 is 6\n"
+  - testcases:
+    - stdin: "20\n3"
+      stdout: "De rest bij deling van 20 en 3 is 2\n"
+  - testcases:
+    - stdin: "4\n10"
+      stdout: "De rest bij deling van 4 en 10 is 4\n"
+  - testcases:
+    - stdin: "8\n5"
+      stdout: "De rest bij deling van 8 en 5 is 3\n"
+  - testcases:
+    - stdin: "20\n9"
+      stdout: "De rest bij deling van 20 en 9 is 2\n"
+  - testcases:
+    - stdin: "19\n9"
+      stdout: "De rest bij deling van 19 en 9 is 1\n"
+  - testcases:
+    - stdin: "3\n6"
+      stdout: "De rest bij deling van 3 en 6 is 3\n"
+  - testcases:
+    - stdin: "4\n3"
+      stdout: "De rest bij deling van 4 en 3 is 1\n"
+  - testcases:
+    - stdin: "12\n1"
+      stdout: "De rest bij deling van 12 en 1 is 0\n"
+  - testcases:
+    - stdin: "16\n1"
+      stdout: "De rest bij deling van 16 en 1 is 0\n"
+  - testcases:
+    - stdin: "12\n4"
+      stdout: "De rest bij deling van 12 en 4 is 0\n"
+  - testcases:
+    - stdin: "16\n9"
+      stdout: "De rest bij deling van 16 en 9 is 7\n"
+  - testcases:
+    - stdin: "2\n8"
+      stdout: "De rest bij deling van 2 en 8 is 2\n"
+  - testcases:
+    - stdin: "8\n9"
+      stdout: "De rest bij deling van 8 en 9 is 8\n"
+  - testcases:
+    - stdin: "5\n5"
+      stdout: "De rest bij deling van 5 en 5 is 0\n"
+  - testcases:
+    - stdin: "3\n6"
+      stdout: "De rest bij deling van 3 en 6 is 3\n"
+  - testcases:
+    - stdin: "2\n7"
+      stdout: "De rest bij deling van 2 en 7 is 2\n"
+  - testcases:
+    - stdin: "9\n9"
+      stdout: "De rest bij deling van 9 en 9 is 0\n"
+  - testcases:
+    - stdin: "10\n7"
+      stdout: "De rest bij deling van 10 en 7 is 3\n"
+  - testcases:
+    - stdin: "6\n1"
+      stdout: "De rest bij deling van 6 en 1 is 0\n"

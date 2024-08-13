@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '13'
+      stdout: "Het spiegelbeeld van 13 is 31\n"
+  - testcases:
+    - stdin: '15'
+      stdout: "Het spiegelbeeld van 15 is 51\n"
+  - testcases:
+    - stdin: '19'
+      stdout: "Het spiegelbeeld van 19 is 91\n"
+  - testcases:
+    - stdin: '22'
+      stdout: "Het spiegelbeeld van 22 is 22\n"
+  - testcases:
+    - stdin: '25'
+      stdout: "Het spiegelbeeld van 25 is 52\n"
+  - testcases:
+    - stdin: '29'
+      stdout: "Het spiegelbeeld van 29 is 92\n"
+  - testcases:
+    - stdin: '38'
+      stdout: "Het spiegelbeeld van 38 is 83\n"
+  - testcases:
+    - stdin: '39'
+      stdout: "Het spiegelbeeld van 39 is 93\n"
+  - testcases:
+    - stdin: '42'
+      stdout: "Het spiegelbeeld van 42 is 24\n"
+  - testcases:
+    - stdin: '51'
+      stdout: "Het spiegelbeeld van 51 is 15\n"
+  - testcases:
+    - stdin: '52'
+      stdout: "Het spiegelbeeld van 52 is 25\n"
+  - testcases:
+    - stdin: '54'
+      stdout: "Het spiegelbeeld van 54 is 45\n"
+  - testcases:
+    - stdin: '57'
+      stdout: "Het spiegelbeeld van 57 is 75\n"
+  - testcases:
+    - stdin: '71'
+      stdout: "Het spiegelbeeld van 71 is 17\n"
+  - testcases:
+    - stdin: '73'
+      stdout: "Het spiegelbeeld van 73 is 37\n"
+  - testcases:
+    - stdin: '75'
+      stdout: "Het spiegelbeeld van 75 is 57\n"
+  - testcases:
+    - stdin: '79'
+      stdout: "Het spiegelbeeld van 79 is 97\n"
+  - testcases:
+    - stdin: '85'
+      stdout: "Het spiegelbeeld van 85 is 58\n"
+  - testcases:
+    - stdin: '87'
+      stdout: "Het spiegelbeeld van 87 is 78\n"
+  - testcases:
+    - stdin: '91'
+      stdout: "Het spiegelbeeld van 91 is 19\n"
