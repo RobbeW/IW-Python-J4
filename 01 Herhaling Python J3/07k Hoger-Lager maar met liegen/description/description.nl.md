@@ -1,6 +1,6 @@
 ## Opgave
 
-Neem het vorige programma maar laat de computer af en toe **liegen**! Zorg ervoor dat er telkens 25% kans is dat de computer je de foute richting op stuurt indien je het getal niet geraden hebt. Met andere dat de computer 'hoger' zegt, terwijl het 'lager' zou moeten zijn. Of omgekeerd.
+Neem het vorige programma maar laat de computer af en toe **liegen**! Zorg ervoor dat er telkens 25% kans is dat de computer je de foute richting op stuurt indien je het getal niet geraden hebt. Met andere woorden dat de computer 'hoger' zegt, terwijl het 'lager' zou moeten zijn. Of omgekeerd.
 
 Om die 25% te programmeren maak je gebruik van onderstaand lijntje code:
 
