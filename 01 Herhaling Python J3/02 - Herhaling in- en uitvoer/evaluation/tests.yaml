@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "Ward\n16"
+      stdout: "Ward, het duurt nog ongeveer 30681 dagen tot je 100 jaar bent!\n"
+  - testcases:
+    - stdin: "Lotte\n19"
+      stdout: "Lotte, het duurt nog ongeveer 29585 dagen tot je 100 jaar bent!\n"
+  - testcases:
+    - stdin: "Olivia\n26"
+      stdout: "Olivia, het duurt nog ongeveer 27028 dagen tot je 100 jaar bent!\n"
+  - testcases:
+    - stdin: "Lotte\n35"
+      stdout: "Lotte, het duurt nog ongeveer 23741 dagen tot je 100 jaar bent!\n"
+  - testcases:
+    - stdin: "Elise\n39"
+      stdout: "Elise, het duurt nog ongeveer 22280 dagen tot je 100 jaar bent!\n"
+  - testcases:
+    - stdin: "Milan\n39"
+      stdout: "Milan, het duurt nog ongeveer 22280 dagen tot je 100 jaar bent!\n"
+  - testcases:
+    - stdin: "Eva\n42"
+      stdout: "Eva, het duurt nog ongeveer 21184 dagen tot je 100 jaar bent!\n"
+  - testcases:
+    - stdin: "Lucas\n49"
+      stdout: "Lucas, het duurt nog ongeveer 18628 dagen tot je 100 jaar bent!\n"
+  - testcases:
+    - stdin: "Sam\n51"
+      stdout: "Sam, het duurt nog ongeveer 17897 dagen tot je 100 jaar bent!\n"
+  - testcases:
+    - stdin: "Liam\n54"
+      stdout: "Liam, het duurt nog ongeveer 16802 dagen tot je 100 jaar bent!\n"
+  - testcases:
+    - stdin: "Lucas\n54"
+      stdout: "Lucas, het duurt nog ongeveer 16802 dagen tot je 100 jaar bent!\n"
+  - testcases:
+    - stdin: "Liam\n61"
+      stdout: "Liam, het duurt nog ongeveer 14245 dagen tot je 100 jaar bent!\n"
+  - testcases:
+    - stdin: "Liam\n65"
+      stdout: "Liam, het duurt nog ongeveer 12784 dagen tot je 100 jaar bent!\n"
+  - testcases:
+    - stdin: "Emma\n70"
+      stdout: "Emma, het duurt nog ongeveer 10958 dagen tot je 100 jaar bent!\n"
+  - testcases:
+    - stdin: "Lotte\n72"
+      stdout: "Lotte, het duurt nog ongeveer 10227 dagen tot je 100 jaar bent!\n"
+  - testcases:
+    - stdin: "Camille\n76"
+      stdout: "Camille, het duurt nog ongeveer 8766 dagen tot je 100 jaar bent!\n"
+  - testcases:
+    - stdin: "Elise\n77"
+      stdout: "Elise, het duurt nog ongeveer 8401 dagen tot je 100 jaar bent!\n"
+  - testcases:
+    - stdin: "Jasper\n82"
+      stdout: "Jasper, het duurt nog ongeveer 6574 dagen tot je 100 jaar bent!\n"
+  - testcases:
+    - stdin: "Vince\n82"
+      stdout: "Vince, het duurt nog ongeveer 6574 dagen tot je 100 jaar bent!\n"
+  - testcases:
+    - stdin: "Finn\n84"
+      stdout: "Finn, het duurt nog ongeveer 5844 dagen tot je 100 jaar bent!\n"
