@@ -3,7 +3,7 @@
   "programming_language": "python",
   "description": {
     "names": {
-      "nl": "Patroon driehoek links"
+      "nl": "Patroon driehoek rechts"
     }
   },
   "evaluation": {
@@ -13,7 +13,10 @@
   "labels": [
     "python",
     "for",
-    "ASCII patroon"
+    "ASCII patroon",
+    "Python in de Klas", 
+    "Dieter Vanderfaeillie", 
+    "Robbe Wulgaert"
   ],
   "access": "public",
   "internals": {
