@@ -1,0 +1,204 @@
+\documentclass[dvipsnames,tikz]{standalone}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+\usepackage{ifthen}
+
+\tikzset{main/.style={circle, color=black}}
+
+\def\d{1.5} % sides of the equilateral triangle
+\pgfmathsetmacro\R{\d / sqrt(3)} 
+
+% USE THE FOLLOWING IMAGEMAGICK CMD to convert to animated png
+% magick -density 300 -delay 3 -loop 0 image.pdf -duplicate 1,-2-1 APNG:image.png
+
+\begin{document}
+	\foreach \a in {0,...,15} {
+		\begin{tikzpicture}[scale=0.75, main, line join=bevel]
+			\clip (-1,-0.2) rectangle (6.5,\d+0.2);
+			\pgfmathsetmacro\t{\a * 2} 			% angle in degree
+			\pgfmathsetmacro\T{\t * pi/180} 	% angle in radians
+			
+			
+			\pgfmathsetmacro\x{\d * \T - \R*sin(\T r)}
+			\pgfmathsetmacro\y{\d - \R*cos(\T r)}
+			
+			\begin{scope}[rotate around={-\t:(\x,\y)}]
+				%\draw[gray] (\x,\y) ++ (90:\R) --++(-60:1.5) --++(180:1.5) -- cycle;
+				\fill[LimeGreen] (\x,\y) ++ (90:\R) arc (120:180:1.5) arc (-120:-60:1.5) arc (0:60:1.5);
+			\end{scope}
+			\draw[main] (-1,0) -- (8,0);
+			\draw[main, yshift=\d cm] (-1,0) -- (8,0);
+		\end{tikzpicture}
+	}
+
+	\foreach \a in {1,...,30} {
+		\begin{tikzpicture}[scale=0.75, main, line join=bevel]
+			\clip (-1,-0.2) rectangle (6.5,\d+0.2);
+			\pgfmathsetmacro\t{\a * 2} 			% angle in degree
+			\pgfmathsetmacro\T{30 * pi/180} 	% angle in radians
+			
+			
+			\pgfmathsetmacro\x{\d * \T - \R*sin(\T r)}
+			\pgfmathsetmacro\y{\d - \R*cos(\T r)}
+			\pgfmathsetmacro\xbottom{\x + \R*cos(60)}
+			\pgfmathsetmacro\ybottom{\y - \R*sin(60)}
+			
+			\begin{scope}[rotate around={-\t:(\xbottom,\ybottom)}]
+				\begin{scope}[rotate around={-30:(\x,\y)}]
+					%\draw[gray] (\x,\y) ++ (90:\R) --++(-60:1.5) --++(180:1.5) -- cycle;
+					\fill[LimeGreen] (\x,\y) ++(90:\R) arc (120:180:1.5) arc (-120:-60:1.5) arc (0:60:1.5);
+				\end{scope}
+			\end{scope}
+		
+			%\pgfmathsetmacro\temp{\x+\R*sin(\t)}
+			%\draw (\temp, 1) node {\temp};
+			\draw[main] (-1,0) -- (8,0);
+			\draw[main, yshift=\d cm] (-1,0) -- (8,0);
+		\end{tikzpicture}
+	}
+
+	\foreach \a in {1,...,30} {
+		\begin{tikzpicture}[scale=0.75, main, line join=bevel]
+			\clip (-1,-0.2) rectangle (6.5,\d+0.2);
+			\pgfmathsetmacro\t{\a * 2} 			% angle in degree
+			\pgfmathsetmacro\T{(\t-30) * pi/180} 	% angle in radians
+			\pgfmathsetmacro\p{pi * \d}
+			
+			
+			\pgfmathsetmacro\x{\d * \T - \R*sin(\T r)+ 2*\p/6}
+			\pgfmathsetmacro\y{\d - \R*cos(\T r)}
+			
+			\begin{scope}[rotate around={(30-\t):(\x,\y)}]
+				\fill (\x, \y) circle (1.4pt);
+				\fill[LimeGreen] (\x,\y) ++(90:\R) arc (120:180:1.5) arc (-120:-60:1.5) arc (0:60:1.5);
+			\end{scope}
+			\draw[main] (-1,0) -- (8,0);
+			\draw[main, yshift=\d cm] (-1,0) -- (8,0);
+		\end{tikzpicture}
+	}
+
+	\foreach \a in {1,...,30} {
+		\begin{tikzpicture}[scale=0.75, main, line join=bevel]
+			\clip (-1,-0.2) rectangle (6.5,\d+0.2);
+			\pgfmathsetmacro\t{\a * 2} 			% angle in degree
+			\pgfmathsetmacro\T{30 * pi/180} 	% angle in radians
+			\pgfmathsetmacro\p{pi * \d}
+			
+			
+			\pgfmathsetmacro\x{\d * \T - \R*sin(\T r)+ 2*\p/6}
+			\pgfmathsetmacro\y{\d - \R*cos(\T r)}
+			\pgfmathsetmacro\xbottom{\x + \R*cos(60)}
+			\pgfmathsetmacro\ybottom{\y - \R*sin(60)}
+			
+			\begin{scope}[rotate around={-\t:(\xbottom,\ybottom)}]
+				\begin{scope}[rotate around={-30:(\x,\y)}]
+					%\draw[gray] (\x,\y) ++ (90:\R) --++(-60:1.5) --++(180:1.5) -- cycle;
+					\fill[LimeGreen] (\x,\y) ++(90:\R) arc (120:180:1.5) arc (-120:-60:1.5) arc (0:60:1.5);
+				\end{scope}
+			\end{scope}
+			
+			%\pgfmathsetmacro\temp{\x+\R*sin(\t)}
+			%\draw (\temp, 1) node {\temp};
+			\draw[main] (-1,0) -- (8,0);
+			\draw[main, yshift=\d cm] (-1,0) -- (8,0);
+		\end{tikzpicture}
+	}
+
+	\foreach \a in {1,...,30} {
+		\begin{tikzpicture}[scale=0.75, main, line join=bevel]
+			\clip (-1,-0.2) rectangle (6.5,\d+0.2);
+			\pgfmathsetmacro\t{\a * 2} 			% angle in degree
+			\pgfmathsetmacro\T{(\t-30) * pi/180} 	% angle in radians
+			\pgfmathsetmacro\p{pi * \d}
+			
+			
+			\pgfmathsetmacro\x{\d * \T - \R*sin(\T r)+ 4*\p/6}
+			\pgfmathsetmacro\y{\d - \R*cos(\T r)}
+			
+			\begin{scope}[rotate around={(30-\t):(\x,\y)}]
+				\fill (\x, \y) circle (1.4pt);
+				\fill[LimeGreen] (\x,\y) ++(90:\R) arc (120:180:1.5) arc (-120:-60:1.5) arc (0:60:1.5);
+			\end{scope}
+			\draw[main] (-1,0) -- (8,0);
+			\draw[main, yshift=\d cm] (-1,0) -- (8,0);
+		\end{tikzpicture}
+	}
+
+	\foreach \a in {1,...,30} {
+		\begin{tikzpicture}[scale=0.75, main, line join=bevel]
+			\clip (-1,-0.2) rectangle (6.5,\d+0.2);
+			\pgfmathsetmacro\t{\a * 2} 			% angle in degree
+			\pgfmathsetmacro\T{30 * pi/180} 	% angle in radians
+			\pgfmathsetmacro\p{pi * \d}
+			
+			
+			\pgfmathsetmacro\x{\d * \T - \R*sin(\T r)+ 4*\p/6}
+			\pgfmathsetmacro\y{\d - \R*cos(\T r)}
+			\pgfmathsetmacro\xbottom{\x + \R*cos(60)}
+			\pgfmathsetmacro\ybottom{\y - \R*sin(60)}
+			
+			\begin{scope}[rotate around={-\t:(\xbottom,\ybottom)}]
+				\begin{scope}[rotate around={-30:(\x,\y)}]
+					%\draw[gray] (\x,\y) ++ (90:\R) --++(-60:1.5) --++(180:1.5) -- cycle;
+					\fill[LimeGreen] (\x,\y) ++(90:\R) arc (120:180:1.5) arc (-120:-60:1.5) arc (0:60:1.5);
+				\end{scope}
+			\end{scope}
+			
+			%\pgfmathsetmacro\temp{\x+\R*sin(\t)}
+			%\draw (\temp, 1) node {\temp};
+			\draw[main] (-1,0) -- (8,0);
+			\draw[main, yshift=\d cm] (-1,0) -- (8,0);
+		\end{tikzpicture}
+	}
+
+	\foreach \a in {1,...,30} {
+		\begin{tikzpicture}[scale=0.75, main, line join=bevel]
+			\clip (-1,-0.2) rectangle (6.5,\d+0.2);
+			\pgfmathsetmacro\t{\a * 2} 			% angle in degree
+			\pgfmathsetmacro\T{(\t-30) * pi/180} 	% angle in radians
+			\pgfmathsetmacro\p{pi * \d}
+			
+			
+			\pgfmathsetmacro\x{\d * \T - \R*sin(\T r)+ 6*\p/6}
+			\pgfmathsetmacro\y{\d - \R*cos(\T r)}
+			
+			\begin{scope}[rotate around={(30-\t):(\x,\y)}]
+				\fill (\x, \y) circle (1.4pt);
+				\fill[LimeGreen] (\x,\y) ++(90:\R) arc (120:180:1.5) arc (-120:-60:1.5) arc (0:60:1.5);
+			\end{scope}
+			\draw[main] (-1,0) -- (8,0);
+			\draw[main, yshift=\d cm] (-1,0) -- (8,0);
+		\end{tikzpicture}
+	}
+
+	\foreach \a in {1,...,15} {
+		\begin{tikzpicture}[scale=0.75, main, line join=bevel]
+			\clip (-1,-0.2) rectangle (6.5,\d+0.2);
+			\pgfmathsetmacro\t{\a * 2} 			% angle in degree
+			\pgfmathsetmacro\T{30 * pi/180} 	% angle in radians
+			\pgfmathsetmacro\p{pi * \d}
+			
+			
+			\pgfmathsetmacro\x{\d * \T - \R*sin(\T r)+ 6*\p/6}
+			\pgfmathsetmacro\y{\d - \R*cos(\T r)}
+			\pgfmathsetmacro\xbottom{\x + \R*cos(60)}
+			\pgfmathsetmacro\ybottom{\y - \R*sin(60)}
+			
+			\begin{scope}[rotate around={-\t:(\xbottom,\ybottom)}]
+				\begin{scope}[rotate around={-30:(\x,\y)}]
+					%\draw[gray] (\x,\y) ++ (90:\R) --++(-60:1.5) --++(180:1.5) -- cycle;
+					\fill[LimeGreen] (\x,\y) ++(90:\R) arc (120:180:1.5) arc (-120:-60:1.5) arc (0:60:1.5);
+				\end{scope}
+			\end{scope}
+			
+			%\pgfmathsetmacro\temp{\x+\R*sin(\t)}
+			%\draw (\temp, 1) node {\temp};
+			\draw[main] (-1,0) -- (8,0);
+			\draw[main, yshift=\d cm] (-1,0) -- (8,0);
+		\end{tikzpicture}
+	}
+
+\end{document}

@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '1.12'
+      stdout: "Oppervlakte: 0.114 cm²\n"
+  - testcases:
+    - stdin: '1.211'
+      stdout: "Oppervlakte: 0.133 cm²\n"
+  - testcases:
+    - stdin: '1.695'
+      stdout: "Oppervlakte: 0.26 cm²\n"
+  - testcases:
+    - stdin: '2.341'
+      stdout: "Oppervlakte: 0.496 cm²\n"
+  - testcases:
+    - stdin: '3.025'
+      stdout: "Oppervlakte: 0.829 cm²\n"
+  - testcases:
+    - stdin: '3.059'
+      stdout: "Oppervlakte: 0.848 cm²\n"
+  - testcases:
+    - stdin: '3.273'
+      stdout: "Oppervlakte: 0.97 cm²\n"
+  - testcases:
+    - stdin: '4.018'
+      stdout: "Oppervlakte: 1.462 cm²\n"
+  - testcases:
+    - stdin: '5'
+      stdout: "Oppervlakte: 2.265 cm²\n"
+  - testcases:
+    - stdin: '5.451'
+      stdout: "Oppervlakte: 2.692 cm²\n"
+  - testcases:
+    - stdin: '6.279'
+      stdout: "Oppervlakte: 3.571 cm²\n"
+  - testcases:
+    - stdin: '6.455'
+      stdout: "Oppervlakte: 3.774 cm²\n"
+  - testcases:
+    - stdin: '6.697'
+      stdout: "Oppervlakte: 4.063 cm²\n"
+  - testcases:
+    - stdin: '7.482'
+      stdout: "Oppervlakte: 5.071 cm²\n"
+  - testcases:
+    - stdin: '7.489'
+      stdout: "Oppervlakte: 5.081 cm²\n"
+  - testcases:
+    - stdin: '7.925'
+      stdout: "Oppervlakte: 5.689 cm²\n"
+  - testcases:
+    - stdin: '8.547'
+      stdout: "Oppervlakte: 6.617 cm²\n"
+  - testcases:
+    - stdin: '8.565'
+      stdout: "Oppervlakte: 6.645 cm²\n"
+  - testcases:
+    - stdin: '9.199'
+      stdout: "Oppervlakte: 7.666 cm²\n"
+  - testcases:
+    - stdin: '9.644'
+      stdout: "Oppervlakte: 8.425 cm²\n"
