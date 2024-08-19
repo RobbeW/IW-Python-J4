@@ -4,15 +4,15 @@
   "access": "public",
   "description": {
     "names": {
-      "nl": "Herhaling selectie",
-      "en": "Rehearsal selection"
+      "nl": "Herhaling selectie"
     }
   },
   "evaluation": {
-    "pythia_judge": "output"
+    "handler": "tested",
+    "test_suite": "tests.yaml"
   },
   "labels": [
-
+    "modulo"
   ],
   "internals": {
     "token": "AbnaYnePccmm77IEEU63EUMEpmuFY8IgmtzYErcDgV7vuVWkUkkC8Nr7ezt_A88e",

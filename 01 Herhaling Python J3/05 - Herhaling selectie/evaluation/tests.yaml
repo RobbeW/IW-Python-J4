@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '0.0'
+      stdout: "Toner is volledig leeg.\nJe kan niet meer afdrukken.\n"
+  - testcases:
+    - stdin: '0.02'
+      stdout: "Toner is bijna leeg.\nBestel een nieuwe toner.\n"
+  - testcases:
+    - stdin: '0.05'
+      stdout: "Toner is bijna leeg.\nBestel een nieuwe toner.\n"
+  - testcases:
+    - stdin: '0.08'
+      stdout: "Toner is bijna leeg.\nBestel een nieuwe toner.\n"
+  - testcases:
+    - stdin: '0.1'
+      stdout: "Toner is bijna leeg.\nBestel een nieuwe toner.\n"
+  - testcases:
+    - stdin: '0.15'
+      stdout: "Bestel een nieuwe toner.\n"
+  - testcases:
+    - stdin: '0.22'
+      stdout: "Bestel een nieuwe toner.\n"
+  - testcases:
+    - stdin: '0.23'
+      stdout: "Bestel een nieuwe toner.\n"
+  - testcases:
+    - stdin: '0.25'
+      stdout: "Bestel een nieuwe toner.\n"
+  - testcases:
+    - stdin: '0.34'
+      stdout: ''
+  - testcases:
+    - stdin: '0.45'
+      stdout: ''
+  - testcases:
+    - stdin: '0.49'
+      stdout: ''
+  - testcases:
+    - stdin: '0.59'
+      stdout: ''
+  - testcases:
+    - stdin: '0.61'
+      stdout: ''
+  - testcases:
+    - stdin: '0.63'
+      stdout: ''
+  - testcases:
+    - stdin: '0.72'
+      stdout: ''
+  - testcases:
+    - stdin: '0.77'
+      stdout: ''
+  - testcases:
+    - stdin: '0.84'
+      stdout: ''
+  - testcases:
+    - stdin: '0.91'
+      stdout: ''
+  - testcases:
+    - stdin: '0.96'
+      stdout: ''

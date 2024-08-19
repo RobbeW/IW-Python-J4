@@ -12,12 +12,14 @@ if <voorwaarde>:
 ```python
 if <voorwaarde 1>:
     <acties>
-elif <voorwaarde 2>:
+else:
     <acties>
 ```
 
 ```python
 if <voorwaarde 1>:
+    <acties>
+elif <voorwaarde 2>:
     <acties>
 else:
     <acties>

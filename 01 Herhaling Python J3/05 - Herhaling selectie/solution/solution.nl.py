@@ -1,4 +1,4 @@
-perc = float(input("Geef het percentage als kommagetal in:"))
+perc = float(input("Geef het percentage als kommagetal in: "))
 
 if perc == 0:
     print("Toner is volledig leeg.")
