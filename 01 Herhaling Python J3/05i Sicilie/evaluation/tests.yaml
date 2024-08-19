@@ -1,0 +1,50 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '1'
+      stdout: "Verblijf 1 kost: € 55\nVerblijf 2 kost: € 49.95\nVerblijf 2 is goedkoper.\n"
+  - testcases:
+    - stdin: '2'
+      stdout: "Verblijf 1 kost: € 110\nVerblijf 2 kost: € 99.9\nVerblijf 2 is goedkoper.\n"
+  - testcases:
+    - stdin: '3'
+      stdout: "Verblijf 1 kost: € 148.5\nVerblijf 2 kost: € 149.85\nVerblijf 1 is
+        goedkoper.\n"
+  - testcases:
+    - stdin: '4'
+      stdout: "Verblijf 1 kost: € 176.0\nVerblijf 2 kost: € 149.85\nVerblijf 2 is
+        goedkoper.\n"
+  - testcases:
+    - stdin: '5'
+      stdout: "Verblijf 1 kost: € 165.0\nVerblijf 2 kost: € 199.8\nVerblijf 1 is goedkoper.\n"
+  - testcases:
+    - stdin: '6'
+      stdout: "Verblijf 1 kost: € 198.0\nVerblijf 2 kost: € 199.8\nVerblijf 1 is goedkoper.\n"
+  - testcases:
+    - stdin: '7'
+      stdout: "Verblijf 1 kost: € 231.0\nVerblijf 2 kost: € 249.75\nVerblijf 1 is
+        goedkoper.\n"
+  - testcases:
+    - stdin: '8'
+      stdout: "Verblijf 1 kost: € 264.0\nVerblijf 2 kost: € 299.7\nVerblijf 1 is goedkoper.\n"
+  - testcases:
+    - stdin: '9'
+      stdout: "Verblijf 1 kost: € 297.0\nVerblijf 2 kost: € 349.65\nVerblijf 1 is
+        goedkoper.\n"
+  - testcases:
+    - stdin: '10'
+      stdout: "Verblijf 1 kost: € 330.0\nVerblijf 2 kost: € 399.6\nVerblijf 1 is goedkoper.\n"
+  - testcases:
+    - stdin: '11'
+      stdout: "Verblijf 1 kost: € 363.0\nVerblijf 2 kost: € 449.55\nVerblijf 1 is
+        goedkoper.\n"
+  - testcases:
+    - stdin: '12'
+      stdout: "Verblijf 1 kost: € 396.0\nVerblijf 2 kost: € 499.5\nVerblijf 1 is goedkoper.\n"
+  - testcases:
+    - stdin: '13'
+      stdout: "Verblijf 1 kost: € 429.0\nVerblijf 2 kost: € 549.45\nVerblijf 1 is
+        goedkoper.\n"
+  - testcases:
+    - stdin: '14'
+      stdout: "Verblijf 1 kost: € 462.0\nVerblijf 2 kost: € 599.4\nVerblijf 1 is goedkoper.\n"

@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "016\n1780\n000"
+      stdout: "+++016/1780/00005+++\n"
+  - testcases:
+    - stdin: "140\n7610\n068"
+      stdout: "+++140/7610/06897+++\n"
+  - testcases:
+    - stdin: "737\n1632\n648"
+      stdout: "+++737/1632/64884+++\n"
+  - testcases:
+    - stdin: "603\n3748\n779"
+      stdout: "+++603/3748/77964+++\n"
+  - testcases:
+    - stdin: "258\n9929\n527"
+      stdout: "+++258/9929/52739+++\n"
+  - testcases:
+    - stdin: "600\n8341\n079"
+      stdout: "+++600/8341/07959+++\n"
+  - testcases:
+    - stdin: "783\n5493\n125"
+      stdout: "+++783/5493/12562+++\n"
+  - testcases:
+    - stdin: "152\n5735\n024"
+      stdout: "+++152/5735/02405+++\n"
+  - testcases:
+    - stdin: "978\n8103\n041"
+      stdout: "+++978/8103/04175+++\n"
+  - testcases:
+    - stdin: "787\n6038\n738"
+      stdout: "+++787/6038/73863+++\n"
+  - testcases:
+    - stdin: "882\n3685\n494"
+      stdout: "+++882/3685/49481+++\n"
+  - testcases:
+    - stdin: "554\n0722\n468"
+      stdout: "+++554/0722/46818+++\n"
+  - testcases:
+    - stdin: "226\n8990\n130"
+      stdout: "+++226/8990/13080+++\n"
+  - testcases:
+    - stdin: "261\n1126\n381"
+      stdout: "+++261/1126/38165+++\n"
+  - testcases:
+    - stdin: "037\n7016\n886"
+      stdout: "+++037/7016/88602+++\n"
+  - testcases:
+    - stdin: "281\n9162\n850"
+      stdout: "+++281/9162/85052+++\n"
+  - testcases:
+    - stdin: "648\n5044\n391"
+      stdout: "+++648/5044/39172+++\n"
+  - testcases:
+    - stdin: "189\n0907\n128"
+      stdout: "+++189/0907/12889+++\n"
+  - testcases:
+    - stdin: "249\n3561\n828"
+      stdout: "+++249/3561/82894+++\n"
+  - testcases:
+    - stdin: "553\n6616\n501"
+      stdout: "+++553/6616/50161+++\n"
