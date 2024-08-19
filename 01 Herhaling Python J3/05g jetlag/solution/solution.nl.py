@@ -1,8 +1,8 @@
 # invoer
-u = int( input( 'Geef u in:' ) )
-z = int( input( 'Geef z in:' ) )
-vertrek = int( input( 'Geef vertrek in:' ) )
-aankomst = int( input( 'Geef aankomst in:' ) )
+u = int( input( 'Geef u in: ' ) )
+z = int( input( 'Geef z in: ' ) )
+vertrek = int( input( 'Geef vertrek in: ' ) )
+aankomst = int( input( 'Geef aankomst in: ' ) )
 
 # berekeningen
 v = 4
