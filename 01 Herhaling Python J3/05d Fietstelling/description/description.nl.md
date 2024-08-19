@@ -6,7 +6,7 @@ Men wil het systeem testen, maar de automatische doorgifte van camera naar syste
 
 ## Opgave
 
-Schrijf de code die aan de gebruiker de snelheid in meter per seconde vraagt. Afhankelijk van de invoer verschijnt een andere boodschap.
+Schrijf de code die aan de gebruiker de snelheid **in meter per seconde** vraagt. Afhankelijk van de invoer verschijnt een andere boodschap.
 
 - Is deze snelheid lager dan 25 km/u dan is het wellicht een reguliere fietser;
 - Is de snelheid 50 km/u **of meer** dan rijdt deze persoon te snel en moet eigenlijk een boete volgen;
