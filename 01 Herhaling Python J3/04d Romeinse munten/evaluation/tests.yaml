@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '19658'
+      stdout: "soldinus: 2\nmiliarense: 8\nsiliqua: 1\nnummus: 158\n"
+  - testcases:
+    - stdin: '52541'
+      stdout: "soldinus: 7\nmiliarense: 3\nsiliqua: 1\nnummus: 41\n"
+  - testcases:
+    - stdin: '13307'
+      stdout: "soldinus: 1\nmiliarense: 10\nsiliqua: 0\nnummus: 107\n"
+  - testcases:
+    - stdin: '30235'
+      stdout: "soldinus: 4\nmiliarense: 2\nsiliqua: 0\nnummus: 235\n"
+  - testcases:
+    - stdin: '33351'
+      stdout: "soldinus: 4\nmiliarense: 7\nsiliqua: 1\nnummus: 51\n"
+  - testcases:
+    - stdin: '67792'
+      stdout: "soldinus: 9\nmiliarense: 4\nsiliqua: 1\nnummus: 292\n"
+  - testcases:
+    - stdin: '66981'
+      stdout: "soldinus: 9\nmiliarense: 3\nsiliqua: 1\nnummus: 81\n"
+  - testcases:
+    - stdin: '10367'
+      stdout: "soldinus: 1\nmiliarense: 5\nsiliqua: 0\nnummus: 167\n"
+  - testcases:
+    - stdin: '44198'
+      stdout: "soldinus: 6\nmiliarense: 1\nsiliqua: 1\nnummus: 98\n"
+  - testcases:
+    - stdin: '16315'
+      stdout: "soldinus: 2\nmiliarense: 3\nsiliqua: 0\nnummus: 115\n"
+  - testcases:
+    - stdin: '19783'
+      stdout: "soldinus: 2\nmiliarense: 8\nsiliqua: 1\nnummus: 283\n"
+  - testcases:
+    - stdin: '46130'
+      stdout: "soldinus: 6\nmiliarense: 4\nsiliqua: 1\nnummus: 230\n"
+  - testcases:
+    - stdin: '3327'
+      stdout: "soldinus: 0\nmiliarense: 5\nsiliqua: 1\nnummus: 27\n"
+  - testcases:
+    - stdin: '65076'
+      stdout: "soldinus: 9\nmiliarense: 0\nsiliqua: 0\nnummus: 276\n"
+  - testcases:
+    - stdin: '5579'
+      stdout: "soldinus: 0\nmiliarense: 9\nsiliqua: 0\nnummus: 179\n"
+  - testcases:
+    - stdin: '48555'
+      stdout: "soldinus: 6\nmiliarense: 8\nsiliqua: 1\nnummus: 255\n"
+  - testcases:
+    - stdin: '29736'
+      stdout: "soldinus: 4\nmiliarense: 1\nsiliqua: 1\nnummus: 36\n"
+  - testcases:
+    - stdin: '63530'
+      stdout: "soldinus: 8\nmiliarense: 9\nsiliqua: 1\nnummus: 230\n"
+  - testcases:
+    - stdin: '6030'
+      stdout: "soldinus: 0\nmiliarense: 10\nsiliqua: 0\nnummus: 30\n"
+  - testcases:
+    - stdin: '60187'
+      stdout: "soldinus: 8\nmiliarense: 4\nsiliqua: 0\nnummus: 187\n"
