@@ -1,5 +1,5 @@
 
-![Een digitale klok.](media/michel-andrade.jpg "Foto door Michel Andrade op Unsplash."){:data-caption="Een digitale klok." width="40%"}
+![Een digitale klok.](media/michel-andrade.jpg "Foto door Michel Andrade op Unsplash."){:data-caption="Een digitale klok." width="50%"}
 
 ## Opgave
 Schrijf een programma dat het huidige uur vraagt (vraag eerst de uren, daarna de minuten), en daarna een aantal **extra minuten** die hieraan toevoegd moeten worden. Gebruik de 24 uur notatie.
