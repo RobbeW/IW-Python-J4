@@ -4,7 +4,7 @@ Een **Reuleaux** driehoek, genoemd naar <a href="https://nl.wikipedia.org/wiki/F
 
 ![Een Reuleaux driehoek tussen 2 evenwijdige rechten.](media/image_dark.png "Een Reuleaux driehoek tussen 2 evenwijdige rechten."){:data-caption="Een Reuleaux driehoek tussen 2 evenwijdige rechten." .dark-only width="45%"}
 
-De oppervlakte $$\mathsf{A}$$ van de Reuleaux kan berekend worden aan de hand van de volgende formule waarbij $$z$$ de zijde van de gelijkzijdige driehoek voorstelt.
+De oppervlakte $$\mathsf{A}$$ van de Reuleaux kan berekend worden aan de hand van de volgende formule waarbij $$\mathsf{z}$$ de zijde van de gelijkzijdige driehoek voorstelt.
 
 $$
     \mathsf{A =\left( \dfrac{\pi}{6}-\dfrac{\sqrt{3}}{4} \right)\cdot z^2}
