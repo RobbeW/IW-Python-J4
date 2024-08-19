@@ -1,4 +1,4 @@
-<a href="https://nl.wikipedia.org/wiki/Zappen" target="_blank">Zappen is een manier van televisiekijken waarbij vaak van kanaal wordt gewisseld met als doel iets interessant te vinden. 
+<a href="https://nl.wikipedia.org/wiki/Zappen" target="_blank">Zappen</a> is een manier van televisiekijken waarbij vaak van kanaal wordt gewisseld met als doel iets interessant te vinden. 
 
 ![Garfield, een expert-zapper.](media/garfield.gif "Garfield, een expert-zapper."){:data-caption="Garfield, een expert-zapper." width="220px"}
 
