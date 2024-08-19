@@ -1,0 +1,29 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "paper\npaper"
+      stdout: "onbeslist\n"
+  - testcases:
+    - stdin: "paper\nrock"
+      stdout: "speler 1 wint\n"
+  - testcases:
+    - stdin: "paper\nscissors"
+      stdout: "speler 2 wint\n"
+  - testcases:
+    - stdin: "rock\npaper"
+      stdout: "speler 2 wint\n"
+  - testcases:
+    - stdin: "rock\nrock"
+      stdout: "onbeslist\n"
+  - testcases:
+    - stdin: "rock\nscissors"
+      stdout: "speler 1 wint\n"
+  - testcases:
+    - stdin: "scissors\npaper"
+      stdout: "speler 1 wint\n"
+  - testcases:
+    - stdin: "scissors\nrock"
+      stdout: "speler 2 wint\n"
+  - testcases:
+    - stdin: "scissors\nscissors"
+      stdout: "onbeslist\n"
