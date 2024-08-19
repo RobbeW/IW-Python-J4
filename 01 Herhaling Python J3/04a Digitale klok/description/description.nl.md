@@ -1,16 +1,16 @@
 
-![Een digitale klok.](media/clock.jpg "Foto door Lucas Santos op Unsplash."){:data-caption="Een digitale klok." width="40%"}
+![Een digitale klok.](media/michel-andrade.jpg "Foto door Michel Andrade op Unsplash."){:data-caption="Een digitale klok." width="40%"}
 
 ## Opgave
-Schrijf een programma dat een aantal seconden (sinds middernacht) vraagt en vervolgens het aantal uren, minuten en seconden berekent. De weergave wordt zoals deze op een digitale klok.
+Schrijf een programma dat het huidige uur vraagt (vraag eerst de uren, daarna de minuten), en daarna een aantal **extra minuten** die hieraan toevoegd moeten worden. Gebruik de 24 uur notatie.
 
 #### Voorbeelden
-Een invoer van `3912` seconden leidt tot:
+Als aan `7` uur en `28` minuten, `32` minuten toegevoegd moeten worden, dan verschijnt er:
 ```
-1 : 5 : 12
+8 : 0
 ```
 
-En bij `12579` seconden verschijnt er:
+Als aan `17` uur en `52` minuten, `10` minuten toegevoegd moeten worden, dan verschijnt er:
 ```
-3 : 29 : 39
+18 : 2
 ```

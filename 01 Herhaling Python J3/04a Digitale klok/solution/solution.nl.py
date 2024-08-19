@@ -1,10 +1,11 @@
 # Invoer van een aantal seconden
-sec = int( input( 'Geef het aantal seconden in:' ) )
+uur = int(input("Geef het uur in: "))
+minuten = int(input("Geef de minuten in: "))
+extra = int(input("Geef de extra minuten in: "))
 
 # Berekeningen
-uren = sec // ( 60 * 60 )
-minuten = (sec - uren * 60 * 60) // 60
-seconden = sec % 60
+minuten = minuten + extra
+uur = (uur + minuten // 60) % 24
 
 # Uitvoer
-print(uren,':',minuten,':',seconden)
+print(f"{uur} : {minuten % 60}")

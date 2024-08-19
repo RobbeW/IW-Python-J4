@@ -1,15 +1,17 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "Oefening - Digitale klok"
+      "nl": "Digitale klok"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
+    "sequentie",
     "modulo"
   ],
   "access": "public",
