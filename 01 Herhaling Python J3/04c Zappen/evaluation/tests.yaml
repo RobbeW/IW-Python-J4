@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "15\n21"
+      stdout: "Nieuwe kanaalnummer: 36\n"
+  - testcases:
+    - stdin: "81\n53"
+      stdout: "Nieuwe kanaalnummer: 34\n"
+  - testcases:
+    - stdin: "92\n51"
+      stdout: "Nieuwe kanaalnummer: 43\n"
+  - testcases:
+    - stdin: "81\n301"
+      stdout: "Nieuwe kanaalnummer: 82\n"
+  - testcases:
+    - stdin: "29\n389"
+      stdout: "Nieuwe kanaalnummer: 18\n"
+  - testcases:
+    - stdin: "32\n396"
+      stdout: "Nieuwe kanaalnummer: 28\n"
+  - testcases:
+    - stdin: "77\n263"
+      stdout: "Nieuwe kanaalnummer: 40\n"
+  - testcases:
+    - stdin: "75\n374"
+      stdout: "Nieuwe kanaalnummer: 49\n"
+  - testcases:
+    - stdin: "65\n39"
+      stdout: "Nieuwe kanaalnummer: 4\n"
+  - testcases:
+    - stdin: "97\n171"
+      stdout: "Nieuwe kanaalnummer: 68\n"
+  - testcases:
+    - stdin: "15\n76"
+      stdout: "Nieuwe kanaalnummer: 91\n"
+  - testcases:
+    - stdin: "44\n12"
+      stdout: "Nieuwe kanaalnummer: 56\n"
+  - testcases:
+    - stdin: "63\n20"
+      stdout: "Nieuwe kanaalnummer: 83\n"
+  - testcases:
+    - stdin: "98\n429"
+      stdout: "Nieuwe kanaalnummer: 27\n"
+  - testcases:
+    - stdin: "47\n369"
+      stdout: "Nieuwe kanaalnummer: 16\n"
+  - testcases:
+    - stdin: "28\n247"
+      stdout: "Nieuwe kanaalnummer: 75\n"
+  - testcases:
+    - stdin: "69\n22"
+      stdout: "Nieuwe kanaalnummer: 91\n"
+  - testcases:
+    - stdin: "58\n113"
+      stdout: "Nieuwe kanaalnummer: 71\n"
+  - testcases:
+    - stdin: "70\n65"
+      stdout: "Nieuwe kanaalnummer: 35\n"
+  - testcases:
+    - stdin: "32\n35"
+      stdout: "Nieuwe kanaalnummer: 67\n"
