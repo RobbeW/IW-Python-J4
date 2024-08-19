@@ -1,10 +1,10 @@
-Iedereen die ooit al eens een lange vlucht naar het oosten of het westen heeft gemaakt, kent ongetwijfeld het fenomeen van de jetlag. Overdag voel je je moe en wil je gaan slapen, en 's nachts lig je wakker in bed. Na enkele dagen heb je je bioritme echter volledig aangepast aan de lokale omstandigheden. Om te berekenen hoeveel dagen $$d$$ je nodig hebt om te herstellen van een jetlag, ontwikkelde de Internationale Burgerluchtvaartorganisatie (<a href="https://www.icao.int/Pages/default.aspx" target="_blanc">ICAO</a>) de volgende formule:
+Iedereen die ooit al eens een lange vlucht naar het oosten of het westen heeft gemaakt, kent ongetwijfeld het fenomeen van de jetlag. Overdag voel je je moe en wil je gaan slapen, en 's nachts lig je wakker in bed. Na enkele dagen heb je je bioritme echter volledig aangepast aan de lokale omstandigheden. Om te berekenen hoeveel dagen $$\mathsf{d}$$ je nodig hebt om te herstellen van een jetlag, ontwikkelde de Internationale Burgerluchtvaartorganisatie (<a href="https://www.icao.int/Pages/default.aspx" target="_blanc">ICAO</a>) de volgende formule:
 
-$$d = \frac{\frac{u}{2} + (z-3) + v + a}{10}$$
+$$\mathsf{d = \frac{\frac{u}{2} + (z-3) + v + a}{10}}$$
 
-Hierbij stelt $$u$$ het aantal vlieguren van de reis voor en $$z$$ het aantal tijdszones dat daarbij overbrugd wordt. Het uur van vertrek $$v$$ en aankomt $$a$$ wordt ingecalculeerd op basis van onderstaande tabellen.
+Hierbij stelt $$\mathsf{u}$$ het aantal vlieguren van de reis voor en $$\mathsf{z}$$ het aantal tijdszones dat daarbij overbrugd wordt. Het uur van vertrek $$\mathsf{v}$$ en aankomt $$\mathsf{a}$$ wordt ingecalculeerd op basis van onderstaande tabellen.
 
-| vertrek tussen | $$v$$ | | aankomst tussen | $$a$$ |
+| vertrek tussen | $$\mathsf{v}$$ | | aankomst tussen | $$\mathsf{a}$$ |
 |:--------:|:-----------:|--|:--------:|:-----------:|
 | 8u00 en 12u00 | 0| | 8u00 en 12u00 | 4|
 | 12u00 en 18u00 | 1 | | 12u00 en 18u00 | 2 |
@@ -19,7 +19,7 @@ De grenzen die gebruikt worden om en te bepalen zijn steeds exclusief het beginu
 ![Slaap inhalen op de luchthaven.](media/joyce-romero.jpg "Foto door Joyce Romero op Unsplash."){:data-caption="Slaap inhalen op de luchthaven." width="50%"}
 
 ## Opgave
-Schrijf een programma dat vier natuurlijke getallen **vraagt**, respectievelijk de waarden voor $$u$$, $$z$$, vertrektijd en aankomsttijd.  De vertrek- en aankomsttijden worden afgerond tot het dichtsbijzijnde uur.
+Schrijf een programma dat vier natuurlijke getallen **vraagt**, respectievelijk de waarden voor $$\mathsf{u}$$, $$\mathsf{z}$$, vertrektijd en aankomsttijd.  De vertrek- en aankomsttijden worden afgerond tot het dichtsbijzijnde uur.
 
 Daarna geeft het programma het aantal dagen dat nodig is om te herstellen van de jetlag weer.
 
