@@ -37,7 +37,7 @@ ntests= 20
 cases = [(2,6,5),(1,2,1),(1,3,-4), (4,0,-3),(4,-12,9)]
 while len(cases) < ntests:
     item = tuple(round(random.uniform(-12,12), 1) for _ in range(3))
-    if(item[0] != 0):
+    if(item[0] != 0 and item not in cases):
         cases.append( item )
 
 # generate unit tests for functions

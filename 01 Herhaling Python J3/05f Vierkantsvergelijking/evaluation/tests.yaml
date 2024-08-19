@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "1\n3\n-4"
+      stdout: "Er zijn twee verschillende reële oplossingen, namelijk -4.0 en 1.0\n"
+  - testcases:
+    - stdin: "1\n2\n1"
+      stdout: "Er is exact één reële oplossing, namelijk: -1.0\n"
+  - testcases:
+    - stdin: "2\n6\n5"
+      stdout: "Er zijn geen reële oplossingen.\n"
+  - testcases:
+    - stdin: "4\n0\n-3"
+      stdout: "Er zijn twee verschillende reële oplossingen, namelijk -0.87 en 0.87\n"
+  - testcases:
+    - stdin: "4\n-12\n9"
+      stdout: "Er is exact één reële oplossing, namelijk: 1.5\n"
+  - testcases:
+    - stdin: "5.3\n3.2\n-6.5"
+      stdout: "Er zijn twee verschillende reële oplossingen, namelijk -1.45 en 0.85\n"
+  - testcases:
+    - stdin: "-5.9\n2.5\n2.1"
+      stdout: "Er zijn twee verschillende reële oplossingen, namelijk -0.42 en 0.84\n"
+  - testcases:
+    - stdin: "9.9\n-10.1\n-4.0"
+      stdout: "Er zijn twee verschillende reële oplossingen, namelijk -0.3 en 1.33\n"
+  - testcases:
+    - stdin: "-8.4\n8.2\n-11.4"
+      stdout: "Er zijn geen reële oplossingen.\n"
+  - testcases:
+    - stdin: "11.1\n-0.1\n6.5"
+      stdout: "Er zijn geen reële oplossingen.\n"
+  - testcases:
+    - stdin: "8.1\n5.3\n-6.6"
+      stdout: "Er zijn twee verschillende reële oplossingen, namelijk -1.29 en 0.63\n"
+  - testcases:
+    - stdin: "1.0\n-1.0\n1.2"
+      stdout: "Er zijn geen reële oplossingen.\n"
+  - testcases:
+    - stdin: "-5.9\n-3.1\n-1.7"
+      stdout: "Er zijn geen reële oplossingen.\n"
+  - testcases:
+    - stdin: "-5.4\n7.9\n11.6"
+      stdout: "Er zijn twee verschillende reële oplossingen, namelijk -0.91 en 2.37\n"
+  - testcases:
+    - stdin: "-2.8\n5.2\n-9.0"
+      stdout: "Er zijn geen reële oplossingen.\n"
+  - testcases:
+    - stdin: "-6.8\n1.0\n-0.2"
+      stdout: "Er zijn geen reële oplossingen.\n"
+  - testcases:
+    - stdin: "9.1\n2.0\n6.0"
+      stdout: "Er zijn geen reële oplossingen.\n"
+  - testcases:
+    - stdin: "-3.1\n-6.7\n-9.5"
+      stdout: "Er zijn geen reële oplossingen.\n"
+  - testcases:
+    - stdin: "-8.5\n-2.3\n7.1"
+      stdout: "Er zijn twee verschillende reële oplossingen, namelijk -1.06 en 0.79\n"
+  - testcases:
+    - stdin: "-7.0\n-5.3\n-6.8"
+      stdout: "Er zijn geen reële oplossingen.\n"
