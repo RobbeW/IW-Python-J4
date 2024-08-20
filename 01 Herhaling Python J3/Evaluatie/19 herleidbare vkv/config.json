@@ -12,7 +12,8 @@
   },
   "labels": [
     "evaluatie",
-    "selectie"
+    "selectie",
+    "math"
   ],
   "access": "public",
   "internals": {
