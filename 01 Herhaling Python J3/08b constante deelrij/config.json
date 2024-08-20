@@ -1,21 +1,21 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "access": "public",
   "description": {
     "names": {
-      "nl": "4.7 - Ridders Vallen Aan",
-      "en": "4.7 - Charge of the Knights"
+      "nl": "Constante deelrij"
     }
   },
   "evaluation": {
-    "pythia_judge": "output"
+    "handler": "tested",
+    "test_suite": "tests.yaml"
   },
   "labels": [
-    "python",
-    "VBTL"
+    "while-lus",
+    "voorwaardelijke herhaling",
+    "selectie"
   ],
-  "contact": "Robbe W <robbe.wulgaert@sintlievenscollege.be>",
+  "access": "public",
   "internals": {
     "token": "wdNjwehFHXtq2sWgvQnERqgkQdkzt2bdqBBz65DuY6fVg8E6Bwxc9S9Pgep_M6I3",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
