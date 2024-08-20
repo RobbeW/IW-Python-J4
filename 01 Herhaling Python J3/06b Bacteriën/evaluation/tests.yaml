@@ -1,0 +1,112 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "43\n20"
+      stdout: "Na 20 minuten zijn er 86 bacteriën.\nHet startaantal werd met 2 vermenigvuldigd!\n"
+  - testcases:
+    - stdin: "62\n39"
+      stdout: "Na 20 minuten zijn er 124 bacteriën.\nHet startaantal werd met 2 vermenigvuldigd!\n"
+  - testcases:
+    - stdin: "145\n44"
+      stdout: "Na 20 minuten zijn er 290 bacteriën.\nNa 40 minuten zijn er 580 bacteriën.\n
+        Het startaantal werd met 4 vermenigvuldigd!\n"
+  - testcases:
+    - stdin: "100\n56"
+      stdout: "Na 20 minuten zijn er 200 bacteriën.\nNa 40 minuten zijn er 400 bacteriën.\n
+        Het startaantal werd met 4 vermenigvuldigd!\n"
+  - testcases:
+    - stdin: "47\n87"
+      stdout: "Na 20 minuten zijn er 94 bacteriën.\nNa 40 minuten zijn er 188 bacteriën.\n
+        Na 60 minuten zijn er 376 bacteriën.\nNa 80 minuten zijn er 752 bacteriën.\n
+        Het startaantal werd met 16 vermenigvuldigd!\n"
+  - testcases:
+    - stdin: "73\n89"
+      stdout: "Na 20 minuten zijn er 146 bacteriën.\nNa 40 minuten zijn er 292 bacteriën.\n
+        Na 60 minuten zijn er 584 bacteriën.\nNa 80 minuten zijn er 1168 bacteriën.\n
+        Het startaantal werd met 16 vermenigvuldigd!\n"
+  - testcases:
+    - stdin: "47\n90"
+      stdout: "Na 20 minuten zijn er 94 bacteriën.\nNa 40 minuten zijn er 188 bacteriën.\n
+        Na 60 minuten zijn er 376 bacteriën.\nNa 80 minuten zijn er 752 bacteriën.\n
+        Het startaantal werd met 16 vermenigvuldigd!\n"
+  - testcases:
+    - stdin: "53\n114"
+      stdout: "Na 20 minuten zijn er 106 bacteriën.\nNa 40 minuten zijn er 212 bacteriën.\n
+        Na 60 minuten zijn er 424 bacteriën.\nNa 80 minuten zijn er 848 bacteriën.\n
+        Na 100 minuten zijn er 1696 bacteriën.\nHet startaantal werd met 32 vermenigvuldigd!\n"
+  - testcases:
+    - stdin: "25\n119"
+      stdout: "Na 20 minuten zijn er 50 bacteriën.\nNa 40 minuten zijn er 100 bacteriën.\n
+        Na 60 minuten zijn er 200 bacteriën.\nNa 80 minuten zijn er 400 bacteriën.\n
+        Na 100 minuten zijn er 800 bacteriën.\nHet startaantal werd met 32 vermenigvuldigd!\n"
+  - testcases:
+    - stdin: "32\n120"
+      stdout: "Na 20 minuten zijn er 64 bacteriën.\nNa 40 minuten zijn er 128 bacteriën.\n
+        Na 60 minuten zijn er 256 bacteriën.\nNa 80 minuten zijn er 512 bacteriën.\n
+        Na 100 minuten zijn er 1024 bacteriën.\nNa 120 minuten zijn er 2048 bacteriën.\n
+        Het startaantal werd met 64 vermenigvuldigd!\n"
+  - testcases:
+    - stdin: "93\n122"
+      stdout: "Na 20 minuten zijn er 186 bacteriën.\nNa 40 minuten zijn er 372 bacteriën.\n
+        Na 60 minuten zijn er 744 bacteriën.\nNa 80 minuten zijn er 1488 bacteriën.\n
+        Na 100 minuten zijn er 2976 bacteriën.\nNa 120 minuten zijn er 5952 bacteriën.\n
+        Het startaantal werd met 64 vermenigvuldigd!\n"
+  - testcases:
+    - stdin: "24\n134"
+      stdout: "Na 20 minuten zijn er 48 bacteriën.\nNa 40 minuten zijn er 96 bacteriën.\n
+        Na 60 minuten zijn er 192 bacteriën.\nNa 80 minuten zijn er 384 bacteriën.\n
+        Na 100 minuten zijn er 768 bacteriën.\nNa 120 minuten zijn er 1536 bacteriën.\n
+        Het startaantal werd met 64 vermenigvuldigd!\n"
+  - testcases:
+    - stdin: "26\n142"
+      stdout: "Na 20 minuten zijn er 52 bacteriën.\nNa 40 minuten zijn er 104 bacteriën.\n
+        Na 60 minuten zijn er 208 bacteriën.\nNa 80 minuten zijn er 416 bacteriën.\n
+        Na 100 minuten zijn er 832 bacteriën.\nNa 120 minuten zijn er 1664 bacteriën.\n
+        Na 140 minuten zijn er 3328 bacteriën.\nHet startaantal werd met 128 vermenigvuldigd!\n"
+  - testcases:
+    - stdin: "72\n148"
+      stdout: "Na 20 minuten zijn er 144 bacteriën.\nNa 40 minuten zijn er 288 bacteriën.\n
+        Na 60 minuten zijn er 576 bacteriën.\nNa 80 minuten zijn er 1152 bacteriën.\n
+        Na 100 minuten zijn er 2304 bacteriën.\nNa 120 minuten zijn er 4608 bacteriën.\n
+        Na 140 minuten zijn er 9216 bacteriën.\nHet startaantal werd met 128 vermenigvuldigd!\n"
+  - testcases:
+    - stdin: "21\n151"
+      stdout: "Na 20 minuten zijn er 42 bacteriën.\nNa 40 minuten zijn er 84 bacteriën.\n
+        Na 60 minuten zijn er 168 bacteriën.\nNa 80 minuten zijn er 336 bacteriën.\n
+        Na 100 minuten zijn er 672 bacteriën.\nNa 120 minuten zijn er 1344 bacteriën.\n
+        Na 140 minuten zijn er 2688 bacteriën.\nHet startaantal werd met 128 vermenigvuldigd!\n"
+  - testcases:
+    - stdin: "71\n165"
+      stdout: "Na 20 minuten zijn er 142 bacteriën.\nNa 40 minuten zijn er 284 bacteriën.\n
+        Na 60 minuten zijn er 568 bacteriën.\nNa 80 minuten zijn er 1136 bacteriën.\n
+        Na 100 minuten zijn er 2272 bacteriën.\nNa 120 minuten zijn er 4544 bacteriën.\n
+        Na 140 minuten zijn er 9088 bacteriën.\nNa 160 minuten zijn er 18176 bacteriën.\n
+        Het startaantal werd met 256 vermenigvuldigd!\n"
+  - testcases:
+    - stdin: "85\n168"
+      stdout: "Na 20 minuten zijn er 170 bacteriën.\nNa 40 minuten zijn er 340 bacteriën.\n
+        Na 60 minuten zijn er 680 bacteriën.\nNa 80 minuten zijn er 1360 bacteriën.\n
+        Na 100 minuten zijn er 2720 bacteriën.\nNa 120 minuten zijn er 5440 bacteriën.\n
+        Na 140 minuten zijn er 10880 bacteriën.\nNa 160 minuten zijn er 21760 bacteriën.\n
+        Het startaantal werd met 256 vermenigvuldigd!\n"
+  - testcases:
+    - stdin: "43\n173"
+      stdout: "Na 20 minuten zijn er 86 bacteriën.\nNa 40 minuten zijn er 172 bacteriën.\n
+        Na 60 minuten zijn er 344 bacteriën.\nNa 80 minuten zijn er 688 bacteriën.\n
+        Na 100 minuten zijn er 1376 bacteriën.\nNa 120 minuten zijn er 2752 bacteriën.\n
+        Na 140 minuten zijn er 5504 bacteriën.\nNa 160 minuten zijn er 11008 bacteriën.\n
+        Het startaantal werd met 256 vermenigvuldigd!\n"
+  - testcases:
+    - stdin: "146\n175"
+      stdout: "Na 20 minuten zijn er 292 bacteriën.\nNa 40 minuten zijn er 584 bacteriën.\n
+        Na 60 minuten zijn er 1168 bacteriën.\nNa 80 minuten zijn er 2336 bacteriën.\n
+        Na 100 minuten zijn er 4672 bacteriën.\nNa 120 minuten zijn er 9344 bacteriën.\n
+        Na 140 minuten zijn er 18688 bacteriën.\nNa 160 minuten zijn er 37376 bacteriën.\n
+        Het startaantal werd met 256 vermenigvuldigd!\n"
+  - testcases:
+    - stdin: "40\n187"
+      stdout: "Na 20 minuten zijn er 80 bacteriën.\nNa 40 minuten zijn er 160 bacteriën.\n
+        Na 60 minuten zijn er 320 bacteriën.\nNa 80 minuten zijn er 640 bacteriën.\n
+        Na 100 minuten zijn er 1280 bacteriën.\nNa 120 minuten zijn er 2560 bacteriën.\n
+        Na 140 minuten zijn er 5120 bacteriën.\nNa 160 minuten zijn er 10240 bacteriën.\n
+        Na 180 minuten zijn er 20480 bacteriën.\nHet startaantal werd met 512 vermenigvuldigd!\n"
