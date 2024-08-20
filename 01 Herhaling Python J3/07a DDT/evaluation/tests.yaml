@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '0.0075'
+      stdout: "De grondstaal voldoet al aan de Europese norm.\n"
+  - testcases:
+    - stdin: '0.009'
+      stdout: "De grondstaal voldoet al aan de Europese norm.\n"
+  - testcases:
+    - stdin: '0.01'
+      stdout: "Het duurt nog 15 jaar om een veilige dosering van 0.005 mg/kg te bereiken.\n"
+  - testcases:
+    - stdin: '0.015'
+      stdout: "Het duurt nog 15 jaar om een veilige dosering van 0.0075 mg/kg te bereiken.\n"
+  - testcases:
+    - stdin: '0.019'
+      stdout: "Het duurt nog 15 jaar om een veilige dosering van 0.0095 mg/kg te bereiken.\n"
+  - testcases:
+    - stdin: '0.031'
+      stdout: "Het duurt nog 30 jaar om een veilige dosering van 0.0077 mg/kg te bereiken.\n"
+  - testcases:
+    - stdin: '0.044'
+      stdout: "Het duurt nog 45 jaar om een veilige dosering van 0.0055 mg/kg te bereiken.\n"
+  - testcases:
+    - stdin: '0.045'
+      stdout: "Het duurt nog 45 jaar om een veilige dosering van 0.0056 mg/kg te bereiken.\n"
+  - testcases:
+    - stdin: '0.049'
+      stdout: "Het duurt nog 45 jaar om een veilige dosering van 0.0061 mg/kg te bereiken.\n"
+  - testcases:
+    - stdin: '0.064'
+      stdout: "Het duurt nog 45 jaar om een veilige dosering van 0.008 mg/kg te bereiken.\n"
+  - testcases:
+    - stdin: '0.092'
+      stdout: "Het duurt nog 60 jaar om een veilige dosering van 0.0057 mg/kg te bereiken.\n"
+  - testcases:
+    - stdin: '0.108'
+      stdout: "Het duurt nog 60 jaar om een veilige dosering van 0.0067 mg/kg te bereiken.\n"
+  - testcases:
+    - stdin: '0.111'
+      stdout: "Het duurt nog 60 jaar om een veilige dosering van 0.0069 mg/kg te bereiken.\n"
+  - testcases:
+    - stdin: '0.116'
+      stdout: "Het duurt nog 60 jaar om een veilige dosering van 0.0073 mg/kg te bereiken.\n"
+  - testcases:
+    - stdin: '0.12'
+      stdout: "Het duurt nog 60 jaar om een veilige dosering van 0.0075 mg/kg te bereiken.\n"
+  - testcases:
+    - stdin: '0.131'
+      stdout: "Het duurt nog 60 jaar om een veilige dosering van 0.0082 mg/kg te bereiken.\n"
+  - testcases:
+    - stdin: '0.14'
+      stdout: "Het duurt nog 60 jaar om een veilige dosering van 0.0088 mg/kg te bereiken.\n"
+  - testcases:
+    - stdin: '0.152'
+      stdout: "Het duurt nog 60 jaar om een veilige dosering van 0.0095 mg/kg te bereiken.\n"
+  - testcases:
+    - stdin: '0.164'
+      stdout: "Het duurt nog 75 jaar om een veilige dosering van 0.0051 mg/kg te bereiken.\n"
+  - testcases:
+    - stdin: '0.173'
+      stdout: "Het duurt nog 75 jaar om een veilige dosering van 0.0054 mg/kg te bereiken.\n"

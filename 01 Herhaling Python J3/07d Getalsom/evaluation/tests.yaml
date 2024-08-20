@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '7'
+      stdout: "De getalsom is 7.\n"
+  - testcases:
+    - stdin: '365'
+      stdout: "De getalsom is 14.\n"
+  - testcases:
+    - stdin: '538'
+      stdout: "De getalsom is 16.\n"
+  - testcases:
+    - stdin: '568'
+      stdout: "De getalsom is 19.\n"
+  - testcases:
+    - stdin: '7097'
+      stdout: "De getalsom is 23.\n"
+  - testcases:
+    - stdin: '92972'
+      stdout: "De getalsom is 29.\n"
+  - testcases:
+    - stdin: '123456'
+      stdout: "De getalsom is 21.\n"
+  - testcases:
+    - stdin: '355378'
+      stdout: "De getalsom is 31.\n"
+  - testcases:
+    - stdin: '367954'
+      stdout: "De getalsom is 34.\n"
+  - testcases:
+    - stdin: '1929033'
+      stdout: "De getalsom is 27.\n"
+  - testcases:
+    - stdin: '82551562'
+      stdout: "De getalsom is 34.\n"
+  - testcases:
+    - stdin: '689218234'
+      stdout: "De getalsom is 43.\n"
+  - testcases:
+    - stdin: '917399979'
+      stdout: "De getalsom is 63.\n"
+  - testcases:
+    - stdin: '3186657188'
+      stdout: "De getalsom is 53.\n"
+  - testcases:
+    - stdin: '6617315801'
+      stdout: "De getalsom is 38.\n"
+  - testcases:
+    - stdin: '263735188383'
+      stdout: "De getalsom is 57.\n"
+  - testcases:
+    - stdin: '1715088816052'
+      stdout: "De getalsom is 52.\n"
+  - testcases:
+    - stdin: '9492116569635'
+      stdout: "De getalsom is 66.\n"
+  - testcases:
+    - stdin: '34676691252508'
+      stdout: "De getalsom is 64.\n"
+  - testcases:
+    - stdin: '1532390183213346'
+      stdout: "De getalsom is 54.\n"
