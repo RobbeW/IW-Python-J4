@@ -15,4 +15,3 @@ m_new = ( time % 3600 ) // 60
 
 # Weergave
 print("Het is", u_new, "uur en", m_new, "minuten in de andere tijdzone.")
-

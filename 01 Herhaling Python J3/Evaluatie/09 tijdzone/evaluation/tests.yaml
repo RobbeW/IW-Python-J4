@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "8\n20\n1.5"
+      stdout: "Het is 9 uur en 50 minuten in de andere tijdzone.\n"
+  - testcases:
+    - stdin: "23\n45\n2"
+      stdout: "Het is 1 uur en 45 minuten in de andere tijdzone.\n"
+  - testcases:
+    - stdin: "7\n10\n-1.25"
+      stdout: "Het is 5 uur en 55 minuten in de andere tijdzone.\n"
+  - testcases:
+    - stdin: "23\n5\n3.0"
+      stdout: "Het is 2 uur en 5 minuten in de andere tijdzone.\n"
+  - testcases:
+    - stdin: "10\n5\n3.0"
+      stdout: "Het is 13 uur en 5 minuten in de andere tijdzone.\n"
+  - testcases:
+    - stdin: "15\n0\n-2.75"
+      stdout: "Het is 12 uur en 15 minuten in de andere tijdzone.\n"
+  - testcases:
+    - stdin: "17\n0\n-2.25"
+      stdout: "Het is 14 uur en 45 minuten in de andere tijdzone.\n"
+  - testcases:
+    - stdin: "8\n5\n-1.75"
+      stdout: "Het is 6 uur en 20 minuten in de andere tijdzone.\n"
+  - testcases:
+    - stdin: "8\n40\n-4.25"
+      stdout: "Het is 4 uur en 25 minuten in de andere tijdzone.\n"
+  - testcases:
+    - stdin: "22\n0\n2.25"
+      stdout: "Het is 0 uur en 15 minuten in de andere tijdzone.\n"
+  - testcases:
+    - stdin: "17\n30\n-2.75"
+      stdout: "Het is 14 uur en 45 minuten in de andere tijdzone.\n"
+  - testcases:
+    - stdin: "23\n0\n-5.25"
+      stdout: "Het is 17 uur en 45 minuten in de andere tijdzone.\n"
+  - testcases:
+    - stdin: "4\n5\n-2.75"
+      stdout: "Het is 1 uur en 20 minuten in de andere tijdzone.\n"
+  - testcases:
+    - stdin: "7\n60\n5.5"
+      stdout: "Het is 13 uur en 30 minuten in de andere tijdzone.\n"
+  - testcases:
+    - stdin: "21\n15\n4.25"
+      stdout: "Het is 1 uur en 30 minuten in de andere tijdzone.\n"
+  - testcases:
+    - stdin: "19\n35\n3.75"
+      stdout: "Het is 23 uur en 20 minuten in de andere tijdzone.\n"
+  - testcases:
+    - stdin: "13\n20\n-5.5"
+      stdout: "Het is 7 uur en 50 minuten in de andere tijdzone.\n"
+  - testcases:
+    - stdin: "22\n20\n3.75"
+      stdout: "Het is 2 uur en 5 minuten in de andere tijdzone.\n"
+  - testcases:
+    - stdin: "3\n40\n-1.25"
+      stdout: "Het is 2 uur en 25 minuten in de andere tijdzone.\n"
+  - testcases:
+    - stdin: "20\n35\n3.25"
+      stdout: "Het is 23 uur en 50 minuten in de andere tijdzone.\n"
