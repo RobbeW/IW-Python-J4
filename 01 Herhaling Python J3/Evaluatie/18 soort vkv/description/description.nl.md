@@ -9,12 +9,12 @@ Indien echter $$\mathsf{b}$$ of $$\mathsf{c}$$ nul zijn noemt men dit een **onvo
 Schrijf een programma dat voor een gegeven vierkantsvergelijking **in volgorde** naar de **reële** coefficienten $$\mathsf{a}$$, $$\mathsf{b}$$ en $$\mathsf{c}$$ vraagt en nadien op het scherm weergeeft of deze vierkantsvergelijking al dan niet volledig is.
 
 #### Voorbeelden
-De vierkantsvergelijking $$x^2-4 = 0$$ is onvolledig.
+De vierkantsvergelijking $$\mathsf{x^2-4 = 0}$$ is onvolledig.
 ```
 Deze vkv is onvolledig.
 ```
 
-De vierkantsvergelijking $$x^2+2x+1 = 0$$ is volledig.
+De vierkantsvergelijking $$\mathsf{x^2+2x+1 = 0}$$ is volledig.
 ```
 Deze vkv is volledig.
 ```
