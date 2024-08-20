@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "4\n-12\n9"
+      stdout: "Deze vkv kan meteen naar een kwadraat herleid worden.\n"
+  - testcases:
+    - stdin: "4\n-6\n9"
+      stdout: "Deze vkv kan niet meteen naar een kwadraat herleid worden.\n"
+  - testcases:
+    - stdin: "4\n-12\n-9"
+      stdout: "Deze vkv kan niet meteen naar een kwadraat herleid worden.\n"
+  - testcases:
+    - stdin: "-4\n12\n-9"
+      stdout: "Deze vkv kan meteen naar een kwadraat herleid worden.\n"
+  - testcases:
+    - stdin: "49\n-112\n64"
+      stdout: "Deze vkv kan meteen naar een kwadraat herleid worden.\n"
+  - testcases:
+    - stdin: "-2\n18\n6"
+      stdout: "Deze vkv kan niet meteen naar een kwadraat herleid worden.\n"
+  - testcases:
+    - stdin: "-36\n120\n100"
+      stdout: "Deze vkv kan niet meteen naar een kwadraat herleid worden.\n"
+  - testcases:
+    - stdin: "1\n-6\n5"
+      stdout: "Deze vkv kan niet meteen naar een kwadraat herleid worden.\n"
+  - testcases:
+    - stdin: "-9\n9\n-3"
+      stdout: "Deze vkv kan niet meteen naar een kwadraat herleid worden.\n"
+  - testcases:
+    - stdin: "-36\n96\n-64"
+      stdout: "Deze vkv kan meteen naar een kwadraat herleid worden.\n"
+  - testcases:
+    - stdin: "-9\n7\n-2"
+      stdout: "Deze vkv kan niet meteen naar een kwadraat herleid worden.\n"
+  - testcases:
+    - stdin: "100\n40\n4"
+      stdout: "Deze vkv kan meteen naar een kwadraat herleid worden.\n"
+  - testcases:
+    - stdin: "81\n54\n9"
+      stdout: "Deze vkv kan meteen naar een kwadraat herleid worden.\n"
+  - testcases:
+    - stdin: "49\n70\n25"
+      stdout: "Deze vkv kan meteen naar een kwadraat herleid worden.\n"
+  - testcases:
+    - stdin: "6\n17\n4"
+      stdout: "Deze vkv kan niet meteen naar een kwadraat herleid worden.\n"
+  - testcases:
+    - stdin: "1\n-6\n9"
+      stdout: "Deze vkv kan meteen naar een kwadraat herleid worden.\n"
+  - testcases:
+    - stdin: "-49\n84\n36"
+      stdout: "Deze vkv kan niet meteen naar een kwadraat herleid worden.\n"
+  - testcases:
+    - stdin: "16\n16\n4"
+      stdout: "Deze vkv kan meteen naar een kwadraat herleid worden.\n"
+  - testcases:
+    - stdin: "-8\n5\n-3"
+      stdout: "Deze vkv kan niet meteen naar een kwadraat herleid worden.\n"
+  - testcases:
+    - stdin: "-16\n80\n-100"
+      stdout: "Deze vkv kan meteen naar een kwadraat herleid worden.\n"

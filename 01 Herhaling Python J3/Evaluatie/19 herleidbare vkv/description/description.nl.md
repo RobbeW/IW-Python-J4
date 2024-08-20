@@ -30,12 +30,12 @@ Deze vkv kan meteen naar een kwadraat herleid worden.
 
 Voor vierkantsvergelijking $$\mathsf{ 4x^2 -6x + 9 = 0}$$ verschijnt er:
 ```
-Deze vkv kan niet naar een kwadraat herleid worden.
+Deze vkv kan niet meteen naar een kwadraat herleid worden.
 ```
 
 Voor vierkantsvergelijking $$\mathsf{ 4x^2 +12x - 9 = 0}$$ verschijnt er:
 ```
-Deze vkv kan niet naar een kwadraat herleid worden.
+Deze vkv kan niet meteen naar een kwadraat herleid worden.
 ```
 
 {: .callout.callout-info}

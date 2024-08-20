@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "1600\n8"
+      stdout: "Energieklasse: B\n"
+  - testcases:
+    - stdin: "1800\n5"
+      stdout: "Energieklasse: A\n"
+  - testcases:
+    - stdin: "1100\n12"
+      stdout: "Energieklasse: F\n"
+  - testcases:
+    - stdin: "1280\n8"
+      stdout: "Energieklasse: C\n"
+  - testcases:
+    - stdin: "1360\n16"
+      stdout: "Energieklasse: F\n"
+  - testcases:
+    - stdin: "820\n13"
+      stdout: "Energieklasse: G\n"
+  - testcases:
+    - stdin: "1450\n6"
+      stdout: "Energieklasse: A\n"
+  - testcases:
+    - stdin: "1020\n15"
+      stdout: "Energieklasse: G\n"
+  - testcases:
+    - stdin: "1470\n11"
+      stdout: "Energieklasse: E\n"
+  - testcases:
+    - stdin: "1450\n14"
+      stdout: "Energieklasse: F\n"
+  - testcases:
+    - stdin: "1350\n4"
+      stdout: "Energieklasse: A\n"
+  - testcases:
+    - stdin: "1120\n4"
+      stdout: "Energieklasse: A\n"
+  - testcases:
+    - stdin: "890\n8"
+      stdout: "Energieklasse: E\n"
+  - testcases:
+    - stdin: "730\n10"
+      stdout: "Energieklasse: G\n"
+  - testcases:
+    - stdin: "750\n15"
+      stdout: "Energieklasse: G\n"
+  - testcases:
+    - stdin: "1170\n14"
+      stdout: "Energieklasse: G\n"
+  - testcases:
+    - stdin: "980\n10"
+      stdout: "Energieklasse: F\n"
+  - testcases:
+    - stdin: "1390\n3"
+      stdout: "Energieklasse: A\n"
+  - testcases:
+    - stdin: "1280\n6"
+      stdout: "Energieklasse: A\n"
+  - testcases:
+    - stdin: "1400\n5"
+      stdout: "Energieklasse: A\n"
