@@ -1,12 +1,12 @@
-Het <a href="https://nl.wikipedia.org/wiki/Getal_van_Ohnesorge" target="_blank">getal van Ohnesorge</a> $$\text{Oh}$$ is een getal dat aangeeft of een vloeistof eenvoudig, of juist lastig is om te verstuiven.
+Het <a href="https://nl.wikipedia.org/wiki/Getal_van_Ohnesorge" target="_blank">getal van Ohnesorge</a> $$\mathsf{\text{Oh}}$$ is een getal dat aangeeft of een vloeistof eenvoudig, of juist lastig is om te verstuiven.
 
 Men kan dit getal berekenen via de formule:
 
 $$
-\text{Oh} = \dfrac{\eta}{\sqrt{\rho\cdot d\cdot \sigma}}
+\mathsf{\text{Oh} = \dfrac{\eta}{\sqrt{\rho\cdot d\cdot \sigma}}}
 $$
 
-Waarbij eta $$\eta$$ staat voor de **viscositeit** (stroperigheid) van de vloeistof ( in kg/(m·s) ), rho $$\rho$$ de **massadichtheid** van de vloeistof ( in kg/m³ ), $$d$$ de **diameter** van de vloeistofdruppels ( in m ) en tot slot sigma $$\sigma$$ de **oppervlaktespanning** ( in N/m ).
+Waarbij eta $$\mathsf{\eta}$$ staat voor de **viscositeit** (stroperigheid) van de vloeistof ( in kg/(m·s) ), rho $$\mathsf{\rho}$$ de **massadichtheid** van de vloeistof ( in kg/m³ ), $$\mathsf{d}$$ de **diameter** van de vloeistofdruppels ( in m ) en tot slot sigma $$\mathsf{\sigma}$$ de **oppervlaktespanning** ( in N/m ).
 
 Een *inkjetprinter* kan bijvoorbeeld enkel werken met vloeistoffen waarvan het getal van Ohnsorge tussen 0,1 en 1,0 ligt.
 

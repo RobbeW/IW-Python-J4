@@ -1,0 +1,23 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "printerinkt\n0.015\n920\n50\n0.029"
+      stdout: "Het Ohnsorge getal van kleine druppels printerinkt is 0.411.\n"
+  - testcases:
+    - stdin: "ethanol\n0.012\n790\n40\n0.02255"
+      stdout: "Het Ohnsorge getal van kleine druppels ethanol is 0.45.\n"
+  - testcases:
+    - stdin: "methanol\n0.00545\n791.4\n60\n0.0226"
+      stdout: "Het Ohnsorge getal van kleine druppels methanol is 0.166.\n"
+  - testcases:
+    - stdin: "aceton\n0.00306\n790\n70\n0.0233"
+      stdout: "Het Ohnsorge getal van kleine druppels aceton is 0.085.\n"
+  - testcases:
+    - stdin: "glycerol\n1.412\n1261.3\n40\n0.0634"
+      stdout: "Het Ohnsorge getal van kleine druppels glycerol is 24.966.\n"
+  - testcases:
+    - stdin: "water\n0.001\n999.972\n80\n0.07275"
+      stdout: "Het Ohnsorge getal van kleine druppels water is 0.013.\n"
+  - testcases:
+    - stdin: "kwik\n0.016\n13596\n40\n0.473"
+      stdout: "Het Ohnsorge getal van kleine druppels kwik is 0.032.\n"
