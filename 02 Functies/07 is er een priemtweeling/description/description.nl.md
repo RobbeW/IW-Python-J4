@@ -2,9 +2,9 @@
 
 Men noemt twee getallen <a href="https://nl.wikipedia.org/wiki/Priemtweeling" target="_blank">priemtweelingen</a> indien het beide priemgetallen zijn en ze precies twee van elkaar verwijderd zijn. Zo zijn 3 en 5 bijvoorbeeld priemtweelingen.
 
-Schrijf een functie `priemtweeling( getal )` dat controleert of er voor een gegeven getal een priemtweeling gevonden kan worden. Gebruik hierbij de functie `is_priem()`.
+Schrijf een functie `priemtweeling(getal)` dat controleert of er voor een gegeven getal een priemtweeling gevonden kan worden. Gebruik hierbij de functie `is_priem()`.
 
-Schrijf **uiteindelijk** een programma dat een getal aan de gebruiker vraagt en daar de functie `priemtweeling()` op los laat.
+Schrijf **uiteindelijk** een programma dat een getal aan de gebruiker vraagt en daar de functie `priemtweeling()` op los laat. De functie `priemtweeling()` hoeft niets te returnen en dient enkel een bepaalde zin op het scherm weer te geven.
 
 #### Voorbeelden
 
