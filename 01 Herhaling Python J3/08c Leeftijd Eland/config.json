@@ -1,21 +1,19 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "access": "public",
   "description": {
     "names": {
-      "nl": "4.3 - Rij van Fibonacci",
-      "en": "4.3 - Fibonacci's Row"
+      "nl": "Eland"
     }
   },
   "evaluation": {
-    "pythia_judge": "output"
+    "handler": "tested",
+    "test_suite": "tests.yaml"
   },
   "labels": [
-    "python",
-    "VBTL"
+    "selectie"
   ],
-  "contact": "Robbe W <robbe.wulgaert@sintlievenscollege.be>",
+  "access": "public",
   "internals": {
     "token": "Awa5dP2xtGufZ-IW8vvzeCdfwYmCSrzg5tjBm786s9zB_WDkKSpFqWz8rVmHN3r2",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
