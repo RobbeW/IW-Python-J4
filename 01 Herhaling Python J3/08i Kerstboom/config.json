@@ -1,21 +1,21 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "access": "public",
   "description": {
     "names": {
-      "nl": "3.3 - Vuurbal!",
-      "en": "3.3 - Fireball!"
+      "nl": "Kerstboom"
     }
   },
   "evaluation": {
-    "pythia_judge": "output"
+    "handler": "tested",
+    "test_suite": "tests.yaml"
   },
   "labels": [
-    "python",
-    "VBTL"
+    "ASCII patroon",
+    "Begrensde herhaling",
+    "for-lus"
   ],
-  "contact": "Robbe W <robbe.wulgaert@sintlievenscollege.be>",
+  "access": "public",
   "internals": {
     "token": "QsNn3ucAk4HyKiFgn9i7_KGkUKg98vXn2cz4vP2MKSXpXj2gnw7V-2INMFxrwbSj",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
