@@ -5,7 +5,7 @@ bron = getal
 # Berekening
 i = 1
 som = 0
-while getal // 1 != 0:
+while getal != 0:
     E = getal % 10
     som += i*E
     i+=1

@@ -6,7 +6,9 @@ som_even = 0
 som_oneven = 0
 i = 0
 
-while getal != 0:
+while True:
+    if getal == 0:
+        break
     i += 1
     cijfer = getal % 10
     getal = getal // 10
