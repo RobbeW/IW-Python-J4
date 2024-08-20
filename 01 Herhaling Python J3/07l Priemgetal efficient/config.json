@@ -7,12 +7,9 @@
     }
   },
   "evaluation": {
-    "time_limit": 7,
+    "time_limit": 10,
     "handler": "tested",
-    "test_suite": "tests.yaml",
-    "options": {
-      "mode": "context"
-    } 
+    "test_suite": "tests.yaml"
   },
   "labels": [
     "while-lus",
