@@ -3,20 +3,20 @@
   - testcases:
     - stdin: '0.2658'
       stdout: "Na dag 1 is er 0.4329 ml Ciloxan in het bloed.\nNa dag 2 is er 0.5164
-        ml Ciloxan in het bloed.\nNa dag 3 is er 0.5582 ml Ciloxan in het bloed.\n
+        ml Ciloxan in het bloed.\nNa dag 3 is er 0.5582 ml Ciloxan in het bloed.\n\
         Na dag 4 is er 0.5791 ml Ciloxan in het bloed.\nNa dag 5 is er 0.5896 ml Ciloxan
         in het bloed.\nNa dag 6 is er 0.5948 ml Ciloxan in het bloed.\nNa 6 dagen
         was de concentratie Ciloxan stabiel.\n"
   - testcases:
     - stdin: '0.3'
       stdout: "Na dag 1 is er 0.45 ml Ciloxan in het bloed.\nNa dag 2 is er 0.525
-        ml Ciloxan in het bloed.\nNa dag 3 is er 0.5625 ml Ciloxan in het bloed.\n
+        ml Ciloxan in het bloed.\nNa dag 3 is er 0.5625 ml Ciloxan in het bloed.\n\
         Na dag 4 is er 0.5813 ml Ciloxan in het bloed.\nNa dag 5 is er 0.5906 ml Ciloxan
         in het bloed.\nNa 5 dagen was de concentratie Ciloxan stabiel.\n"
   - testcases:
     - stdin: '0.4161'
       stdout: "Na dag 1 is er 0.5081 ml Ciloxan in het bloed.\nNa dag 2 is er 0.554
-        ml Ciloxan in het bloed.\nNa dag 3 is er 0.577 ml Ciloxan in het bloed.\n
+        ml Ciloxan in het bloed.\nNa dag 3 is er 0.577 ml Ciloxan in het bloed.\n\
         Na dag 4 is er 0.5885 ml Ciloxan in het bloed.\nNa dag 5 is er 0.5943 ml Ciloxan
         in het bloed.\nNa 5 dagen was de concentratie Ciloxan stabiel.\n"
   - testcases:
@@ -30,13 +30,13 @@
   - testcases:
     - stdin: '0.8406'
       stdout: "Na dag 1 is er 0.7203 ml Ciloxan in het bloed.\nNa dag 2 is er 0.6602
-        ml Ciloxan in het bloed.\nNa dag 3 is er 0.6301 ml Ciloxan in het bloed.\n
+        ml Ciloxan in het bloed.\nNa dag 3 is er 0.6301 ml Ciloxan in het bloed.\n\
         Na dag 4 is er 0.615 ml Ciloxan in het bloed.\nNa dag 5 is er 0.6075 ml Ciloxan
         in het bloed.\nNa 5 dagen was de concentratie Ciloxan stabiel.\n"
   - testcases:
     - stdin: '0.9071'
       stdout: "Na dag 1 is er 0.7535 ml Ciloxan in het bloed.\nNa dag 2 is er 0.6768
-        ml Ciloxan in het bloed.\nNa dag 3 is er 0.6384 ml Ciloxan in het bloed.\n
+        ml Ciloxan in het bloed.\nNa dag 3 is er 0.6384 ml Ciloxan in het bloed.\n\
         Na dag 4 is er 0.6192 ml Ciloxan in het bloed.\nNa dag 5 is er 0.6096 ml Ciloxan
         in het bloed.\nNa 5 dagen was de concentratie Ciloxan stabiel.\n"
   - testcases:
@@ -49,14 +49,14 @@
   - testcases:
     - stdin: '1.1388'
       stdout: "Na dag 1 is er 0.8694 ml Ciloxan in het bloed.\nNa dag 2 is er 0.7347
-        ml Ciloxan in het bloed.\nNa dag 3 is er 0.6673 ml Ciloxan in het bloed.\n
+        ml Ciloxan in het bloed.\nNa dag 3 is er 0.6673 ml Ciloxan in het bloed.\n\
         Na dag 4 is er 0.6337 ml Ciloxan in het bloed.\nNa dag 5 is er 0.6168 ml Ciloxan
         in het bloed.\nNa dag 6 is er 0.6084 ml Ciloxan in het bloed.\nNa 6 dagen
         was de concentratie Ciloxan stabiel.\n"
   - testcases:
     - stdin: '1.5849'
       stdout: "Na dag 1 is er 1.0924 ml Ciloxan in het bloed.\nNa dag 2 is er 0.8462
-        ml Ciloxan in het bloed.\nNa dag 3 is er 0.7231 ml Ciloxan in het bloed.\n
+        ml Ciloxan in het bloed.\nNa dag 3 is er 0.7231 ml Ciloxan in het bloed.\n\
         Na dag 4 is er 0.6616 ml Ciloxan in het bloed.\nNa dag 5 is er 0.6308 ml Ciloxan
         in het bloed.\nNa dag 6 is er 0.6154 ml Ciloxan in het bloed.\nNa dag 7 is
         er 0.6077 ml Ciloxan in het bloed.\nNa 7 dagen was de concentratie Ciloxan
@@ -64,7 +64,7 @@
   - testcases:
     - stdin: '1.8423'
       stdout: "Na dag 1 is er 1.2211 ml Ciloxan in het bloed.\nNa dag 2 is er 0.9106
-        ml Ciloxan in het bloed.\nNa dag 3 is er 0.7553 ml Ciloxan in het bloed.\n
+        ml Ciloxan in het bloed.\nNa dag 3 is er 0.7553 ml Ciloxan in het bloed.\n\
         Na dag 4 is er 0.6776 ml Ciloxan in het bloed.\nNa dag 5 is er 0.6388 ml Ciloxan
         in het bloed.\nNa dag 6 is er 0.6194 ml Ciloxan in het bloed.\nNa dag 7 is
         er 0.6097 ml Ciloxan in het bloed.\nNa 7 dagen was de concentratie Ciloxan
@@ -72,7 +72,7 @@
   - testcases:
     - stdin: '1.897'
       stdout: "Na dag 1 is er 1.2485 ml Ciloxan in het bloed.\nNa dag 2 is er 0.9243
-        ml Ciloxan in het bloed.\nNa dag 3 is er 0.7621 ml Ciloxan in het bloed.\n
+        ml Ciloxan in het bloed.\nNa dag 3 is er 0.7621 ml Ciloxan in het bloed.\n\
         Na dag 4 is er 0.6811 ml Ciloxan in het bloed.\nNa dag 5 is er 0.6405 ml Ciloxan
         in het bloed.\nNa dag 6 is er 0.6203 ml Ciloxan in het bloed.\nNa dag 7 is
         er 0.6101 ml Ciloxan in het bloed.\nNa dag 8 is er 0.6051 ml Ciloxan in het
@@ -80,7 +80,7 @@
   - testcases:
     - stdin: '1.9725'
       stdout: "Na dag 1 is er 1.2862 ml Ciloxan in het bloed.\nNa dag 2 is er 0.9431
-        ml Ciloxan in het bloed.\nNa dag 3 is er 0.7716 ml Ciloxan in het bloed.\n
+        ml Ciloxan in het bloed.\nNa dag 3 is er 0.7716 ml Ciloxan in het bloed.\n\
         Na dag 4 is er 0.6858 ml Ciloxan in het bloed.\nNa dag 5 is er 0.6429 ml Ciloxan
         in het bloed.\nNa dag 6 is er 0.6214 ml Ciloxan in het bloed.\nNa dag 7 is
         er 0.6107 ml Ciloxan in het bloed.\nNa dag 8 is er 0.6054 ml Ciloxan in het
@@ -88,7 +88,7 @@
   - testcases:
     - stdin: '2.2167'
       stdout: "Na dag 1 is er 1.4083 ml Ciloxan in het bloed.\nNa dag 2 is er 1.0042
-        ml Ciloxan in het bloed.\nNa dag 3 is er 0.8021 ml Ciloxan in het bloed.\n
+        ml Ciloxan in het bloed.\nNa dag 3 is er 0.8021 ml Ciloxan in het bloed.\n\
         Na dag 4 is er 0.701 ml Ciloxan in het bloed.\nNa dag 5 is er 0.6505 ml Ciloxan
         in het bloed.\nNa dag 6 is er 0.6253 ml Ciloxan in het bloed.\nNa dag 7 is
         er 0.6126 ml Ciloxan in het bloed.\nNa dag 8 is er 0.6063 ml Ciloxan in het
@@ -96,7 +96,7 @@
   - testcases:
     - stdin: '2.2189'
       stdout: "Na dag 1 is er 1.4095 ml Ciloxan in het bloed.\nNa dag 2 is er 1.0047
-        ml Ciloxan in het bloed.\nNa dag 3 is er 0.8024 ml Ciloxan in het bloed.\n
+        ml Ciloxan in het bloed.\nNa dag 3 is er 0.8024 ml Ciloxan in het bloed.\n\
         Na dag 4 is er 0.7012 ml Ciloxan in het bloed.\nNa dag 5 is er 0.6506 ml Ciloxan
         in het bloed.\nNa dag 6 is er 0.6253 ml Ciloxan in het bloed.\nNa dag 7 is
         er 0.6126 ml Ciloxan in het bloed.\nNa dag 8 is er 0.6063 ml Ciloxan in het
@@ -104,7 +104,7 @@
   - testcases:
     - stdin: '2.3544'
       stdout: "Na dag 1 is er 1.4772 ml Ciloxan in het bloed.\nNa dag 2 is er 1.0386
-        ml Ciloxan in het bloed.\nNa dag 3 is er 0.8193 ml Ciloxan in het bloed.\n
+        ml Ciloxan in het bloed.\nNa dag 3 is er 0.8193 ml Ciloxan in het bloed.\n\
         Na dag 4 is er 0.7096 ml Ciloxan in het bloed.\nNa dag 5 is er 0.6548 ml Ciloxan
         in het bloed.\nNa dag 6 is er 0.6274 ml Ciloxan in het bloed.\nNa dag 7 is
         er 0.6137 ml Ciloxan in het bloed.\nNa dag 8 is er 0.6069 ml Ciloxan in het
@@ -112,7 +112,7 @@
   - testcases:
     - stdin: '2.5481'
       stdout: "Na dag 1 is er 1.574 ml Ciloxan in het bloed.\nNa dag 2 is er 1.087
-        ml Ciloxan in het bloed.\nNa dag 3 is er 0.8435 ml Ciloxan in het bloed.\n
+        ml Ciloxan in het bloed.\nNa dag 3 is er 0.8435 ml Ciloxan in het bloed.\n\
         Na dag 4 is er 0.7218 ml Ciloxan in het bloed.\nNa dag 5 is er 0.6609 ml Ciloxan
         in het bloed.\nNa dag 6 is er 0.6304 ml Ciloxan in het bloed.\nNa dag 7 is
         er 0.6152 ml Ciloxan in het bloed.\nNa dag 8 is er 0.6076 ml Ciloxan in het
@@ -120,7 +120,7 @@
   - testcases:
     - stdin: '2.5535'
       stdout: "Na dag 1 is er 1.5768 ml Ciloxan in het bloed.\nNa dag 2 is er 1.0884
-        ml Ciloxan in het bloed.\nNa dag 3 is er 0.8442 ml Ciloxan in het bloed.\n
+        ml Ciloxan in het bloed.\nNa dag 3 is er 0.8442 ml Ciloxan in het bloed.\n\
         Na dag 4 is er 0.7221 ml Ciloxan in het bloed.\nNa dag 5 is er 0.661 ml Ciloxan
         in het bloed.\nNa dag 6 is er 0.6305 ml Ciloxan in het bloed.\nNa dag 7 is
         er 0.6153 ml Ciloxan in het bloed.\nNa dag 8 is er 0.6076 ml Ciloxan in het
@@ -128,7 +128,7 @@
   - testcases:
     - stdin: '2.7509'
       stdout: "Na dag 1 is er 1.6755 ml Ciloxan in het bloed.\nNa dag 2 is er 1.1377
-        ml Ciloxan in het bloed.\nNa dag 3 is er 0.8689 ml Ciloxan in het bloed.\n
+        ml Ciloxan in het bloed.\nNa dag 3 is er 0.8689 ml Ciloxan in het bloed.\n\
         Na dag 4 is er 0.7344 ml Ciloxan in het bloed.\nNa dag 5 is er 0.6672 ml Ciloxan
         in het bloed.\nNa dag 6 is er 0.6336 ml Ciloxan in het bloed.\nNa dag 7 is
         er 0.6168 ml Ciloxan in het bloed.\nNa dag 8 is er 0.6084 ml Ciloxan in het
@@ -136,7 +136,7 @@
   - testcases:
     - stdin: '2.8894'
       stdout: "Na dag 1 is er 1.7447 ml Ciloxan in het bloed.\nNa dag 2 is er 1.1724
-        ml Ciloxan in het bloed.\nNa dag 3 is er 0.8862 ml Ciloxan in het bloed.\n
+        ml Ciloxan in het bloed.\nNa dag 3 is er 0.8862 ml Ciloxan in het bloed.\n\
         Na dag 4 is er 0.7431 ml Ciloxan in het bloed.\nNa dag 5 is er 0.6715 ml Ciloxan
         in het bloed.\nNa dag 6 is er 0.6358 ml Ciloxan in het bloed.\nNa dag 7 is
         er 0.6179 ml Ciloxan in het bloed.\nNa dag 8 is er 0.6089 ml Ciloxan in het
