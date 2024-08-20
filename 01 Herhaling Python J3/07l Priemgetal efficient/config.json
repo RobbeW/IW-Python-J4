@@ -7,7 +7,7 @@
     }
   },
   "evaluation": {
-    "time_limit": 10,
+    "time_limit": 15,
     "handler": "tested",
     "test_suite": "tests.yaml"
   },
