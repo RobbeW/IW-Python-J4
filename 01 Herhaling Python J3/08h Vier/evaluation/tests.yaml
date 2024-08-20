@@ -1,0 +1,92 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "5\n7\n9"
+      stdout: "11\n"
+  - testcases:
+    - stdin: "10\n1\n4"
+      stdout: "7\n"
+  - testcases:
+    - stdin: "1\n4\n10"
+      stdout: "7\n"
+  - testcases:
+    - stdin: "10\n7\n1"
+      stdout: "4\n"
+  - testcases:
+    - stdin: "-100\n100\n0"
+      stdout: "200\n"
+  - testcases:
+    - stdin: "55\n33\n22"
+      stdout: "44\n"
+  - testcases:
+    - stdin: "1\n3\n4"
+      stdout: "2\n"
+  - testcases:
+    - stdin: "8\n5\n6"
+      stdout: "7\n"
+  - testcases:
+    - stdin: "5\n5\n5"
+      stdout: "5\n"
+  - testcases:
+    - stdin: "111\n-75\n18"
+      stdout: "204\n"
+  - testcases:
+    - stdin: "-46\n-62\n-30"
+      stdout: "-14\n"
+  - testcases:
+    - stdin: "192\n-6\n291"
+      stdout: "93\n"
+  - testcases:
+    - stdin: "98\n40\n69"
+      stdout: "127\n"
+  - testcases:
+    - stdin: "9\n14\n24"
+      stdout: "19\n"
+  - testcases:
+    - stdin: "107\n155\n83"
+      stdout: "131\n"
+  - testcases:
+    - stdin: "73\n3\n213"
+      stdout: "143\n"
+  - testcases:
+    - stdin: "199\n151\n55"
+      stdout: "103\n"
+  - testcases:
+    - stdin: "60\n3\n22"
+      stdout: "41\n"
+  - testcases:
+    - stdin: "125\n210\n40"
+      stdout: "295\n"
+  - testcases:
+    - stdin: "-90\n-1\n177"
+      stdout: "88\n"
+  - testcases:
+    - stdin: "-5\n94\n61"
+      stdout: "28\n"
+  - testcases:
+    - stdin: "50\n91\n9"
+      stdout: "132\n"
+  - testcases:
+    - stdin: "32\n-52\n200"
+      stdout: "116\n"
+  - testcases:
+    - stdin: "4\n36\n68"
+      stdout: "100\n"
+  - testcases:
+    - stdin: "166\n108\n79"
+      stdout: "137\n"
+  - testcases:
+    - stdin: "284\n96\n190"
+      stdout: "378\n"
+  - testcases:
+    - stdin: "57\n18\n31"
+      stdout: "44\n"
+  - testcases:
+    - stdin: "-67\n-25\n-53"
+      stdout: "-39\n"
+  - testcases:
+    - stdin: "-37\n135\n221"
+      stdout: "49\n"
+  - testcases:
+    - stdin: "23\n85\n116"
+      stdout: "54\n"
