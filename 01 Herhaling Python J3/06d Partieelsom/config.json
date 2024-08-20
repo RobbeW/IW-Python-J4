@@ -1,16 +1,18 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "Oefening - Partieelsom"
+      "nl": "Partieelsom"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "for-lus",
+    "begrensde herhaling"
   ],
   "access": "public",
   "internals": {

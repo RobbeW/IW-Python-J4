@@ -1,0 +1,59 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '2'
+      stdout: "De som van de eerste 2 termen is 0.75\n"
+  - testcases:
+    - stdin: '3'
+      stdout: "De som van de eerste 3 termen is 0.875\n"
+  - testcases:
+    - stdin: '4'
+      stdout: "De som van de eerste 4 termen is 0.9375\n"
+  - testcases:
+    - stdin: '5'
+      stdout: "De som van de eerste 5 termen is 0.96875\n"
+  - testcases:
+    - stdin: '6'
+      stdout: "De som van de eerste 6 termen is 0.984375\n"
+  - testcases:
+    - stdin: '7'
+      stdout: "De som van de eerste 7 termen is 0.992188\n"
+  - testcases:
+    - stdin: '8'
+      stdout: "De som van de eerste 8 termen is 0.996094\n"
+  - testcases:
+    - stdin: '9'
+      stdout: "De som van de eerste 9 termen is 0.998047\n"
+  - testcases:
+    - stdin: '10'
+      stdout: "De som van de eerste 10 termen is 0.999023\n"
+  - testcases:
+    - stdin: '11'
+      stdout: "De som van de eerste 11 termen is 0.999512\n"
+  - testcases:
+    - stdin: '12'
+      stdout: "De som van de eerste 12 termen is 0.999756\n"
+  - testcases:
+    - stdin: '13'
+      stdout: "De som van de eerste 13 termen is 0.999878\n"
+  - testcases:
+    - stdin: '14'
+      stdout: "De som van de eerste 14 termen is 0.999939\n"
+  - testcases:
+    - stdin: '15'
+      stdout: "De som van de eerste 15 termen is 0.999969\n"
+  - testcases:
+    - stdin: '16'
+      stdout: "De som van de eerste 16 termen is 0.999985\n"
+  - testcases:
+    - stdin: '17'
+      stdout: "De som van de eerste 17 termen is 0.999992\n"
+  - testcases:
+    - stdin: '18'
+      stdout: "De som van de eerste 18 termen is 0.999996\n"
+  - testcases:
+    - stdin: '19'
+      stdout: "De som van de eerste 19 termen is 0.999998\n"
+  - testcases:
+    - stdin: '20'
+      stdout: "De som van de eerste 20 termen is 0.999999\n"

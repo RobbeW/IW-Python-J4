@@ -11,8 +11,8 @@
     "test_suite": "tests.yaml"
   },
   "labels": [
-    "python",
-    "for",
+    "for-lus",
+    "begrensde herhaling",
     "ASCII patroon"
   ],
   "access": "public",

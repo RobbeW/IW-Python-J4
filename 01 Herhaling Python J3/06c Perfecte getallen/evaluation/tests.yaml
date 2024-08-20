@@ -1,0 +1,41 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '6'
+      stdout: "6 is een perfect getal.\n"
+  - testcases:
+    - stdin: '10'
+      stdout: "10 is geen perfect getal.\n"
+  - testcases:
+    - stdin: '25'
+      stdout: "25 is geen perfect getal.\n"
+  - testcases:
+    - stdin: '28'
+      stdout: "28 is een perfect getal.\n"
+  - testcases:
+    - stdin: '315'
+      stdout: "315 is geen perfect getal.\n"
+  - testcases:
+    - stdin: '442'
+      stdout: "442 is geen perfect getal.\n"
+  - testcases:
+    - stdin: '496'
+      stdout: "496 is een perfect getal.\n"
+  - testcases:
+    - stdin: '4998'
+      stdout: "4998 is geen perfect getal.\n"
+  - testcases:
+    - stdin: '7266'
+      stdout: "7266 is geen perfect getal.\n"
+  - testcases:
+    - stdin: '8128'
+      stdout: "8128 is een perfect getal.\n"
+  - testcases:
+    - stdin: '8903'
+      stdout: "8903 is geen perfect getal.\n"
+  - testcases:
+    - stdin: '102452'
+      stdout: "102452 is geen perfect getal.\n"
+  - testcases:
+    - stdin: '33550336'
+      stdout: "33550336 is een perfect getal.\n"

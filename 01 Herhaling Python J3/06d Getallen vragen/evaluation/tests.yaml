@@ -1,0 +1,82 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "0\n-3\n2\n15\n15\n6\n-5\n0\n-3\n10"
+      stdout: "Het grootste getal was: 15\nHet kleinste getal was: -5\nHet gemiddelde
+        van de getallen is: 3.7\n"
+  - testcases:
+    - stdin: "84\n-75\n62\n50\n-42\n94\n-36\n98\n55\n31"
+      stdout: "Het grootste getal was: 98\nHet kleinste getal was: -75\nHet gemiddelde
+        van de getallen is: 32.1\n"
+  - testcases:
+    - stdin: "50\n87\n30\n-81\n95\n-15\n-69\n-62\n-11\n-94"
+      stdout: "Het grootste getal was: 95\nHet kleinste getal was: -94\nHet gemiddelde
+        van de getallen is: -7.0\n"
+  - testcases:
+    - stdin: "26\n-90\n96\n-6\n84\n-43\n23\n38\n-89\n17"
+      stdout: "Het grootste getal was: 96\nHet kleinste getal was: -90\nHet gemiddelde
+        van de getallen is: 5.6\n"
+  - testcases:
+    - stdin: "-44\n40\n-68\n-35\n-83\n-5\n-91\n9\n-30\n43"
+      stdout: "Het grootste getal was: 43\nHet kleinste getal was: -91\nHet gemiddelde
+        van de getallen is: -26.4\n"
+  - testcases:
+    - stdin: "62\n-22\n-3\n-53\n83\n-86\n-68\n-38\n-45\n38"
+      stdout: "Het grootste getal was: 83\nHet kleinste getal was: -86\nHet gemiddelde
+        van de getallen is: -13.2\n"
+  - testcases:
+    - stdin: "3\n25\n-56\n33\n49\n16\n91\n-85\n-5\n55"
+      stdout: "Het grootste getal was: 91\nHet kleinste getal was: -85\nHet gemiddelde
+        van de getallen is: 12.6\n"
+  - testcases:
+    - stdin: "-44\n-63\n-74\n12\n-64\n3\n-40\n80\n-47\n32"
+      stdout: "Het grootste getal was: 80\nHet kleinste getal was: -74\nHet gemiddelde
+        van de getallen is: -20.5\n"
+  - testcases:
+    - stdin: "-29\n68\n-45\n-84\n1\n-42\n59\n18\n76\n-90"
+      stdout: "Het grootste getal was: 76\nHet kleinste getal was: -90\nHet gemiddelde
+        van de getallen is: -6.8\n"
+  - testcases:
+    - stdin: "66\n-20\n62\n3\n4\n-35\n-5\n58\n79\n-33"
+      stdout: "Het grootste getal was: 79\nHet kleinste getal was: -35\nHet gemiddelde
+        van de getallen is: 17.9\n"
+  - testcases:
+    - stdin: "80\n-24\n84\n89\n-49\n-20\n9\n-72\n39\n-17"
+      stdout: "Het grootste getal was: 89\nHet kleinste getal was: -72\nHet gemiddelde
+        van de getallen is: 11.9\n"
+  - testcases:
+    - stdin: "-74\n66\n-52\n65\n23\n99\n80\n89\n-74\n82"
+      stdout: "Het grootste getal was: 99\nHet kleinste getal was: -74\nHet gemiddelde
+        van de getallen is: 30.4\n"
+  - testcases:
+    - stdin: "-10\n-38\n-28\n32\n59\n1\n-85\n-49\n-30\n-43"
+      stdout: "Het grootste getal was: 59\nHet kleinste getal was: -85\nHet gemiddelde
+        van de getallen is: -19.1\n"
+  - testcases:
+    - stdin: "79\n75\n-99\n82\n59\n81\n25\n-15\n86\n96"
+      stdout: "Het grootste getal was: 96\nHet kleinste getal was: -99\nHet gemiddelde
+        van de getallen is: 46.9\n"
+  - testcases:
+    - stdin: "0\n-15\n-59\n24\n-75\n18\n-40\n-64\n-49\n-61"
+      stdout: "Het grootste getal was: 24\nHet kleinste getal was: -75\nHet gemiddelde
+        van de getallen is: -32.1\n"
+  - testcases:
+    - stdin: "-73\n-67\n-61\n15\n83\n-28\n67\n-59\n70\n-37"
+      stdout: "Het grootste getal was: 83\nHet kleinste getal was: -73\nHet gemiddelde
+        van de getallen is: -9.0\n"
+  - testcases:
+    - stdin: "-55\n3\n15\n5\n-39\n23\n22\n15\n8\n-26"
+      stdout: "Het grootste getal was: 23\nHet kleinste getal was: -55\nHet gemiddelde
+        van de getallen is: -2.9\n"
+  - testcases:
+    - stdin: "15\n63\n-26\n67\n-44\n47\n-1\n-52\n91\n-40"
+      stdout: "Het grootste getal was: 91\nHet kleinste getal was: -52\nHet gemiddelde
+        van de getallen is: 12.0\n"
+  - testcases:
+    - stdin: "53\n-32\n57\n33\n13\n-92\n52\n-28\n15\n-21"
+      stdout: "Het grootste getal was: 57\nHet kleinste getal was: -92\nHet gemiddelde
+        van de getallen is: 5.0\n"
+  - testcases:
+    - stdin: "-48\n-65\n-19\n80\n-36\n75\n69\n61\n95\n-43"
+      stdout: "Het grootste getal was: 95\nHet kleinste getal was: -65\nHet gemiddelde
+        van de getallen is: 16.9\n"
