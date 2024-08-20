@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '5808'
+      stdout: "Het CAS-nummer is: 58-08-2\n"
+  - testcases:
+    - stdin: '900307'
+      stdout: "Het CAS-nummer is: 9003-07-0\n"
+  - testcases:
+    - stdin: '5143'
+      stdout: "Het CAS-nummer is: 51-43-4\n"
+  - testcases:
+    - stdin: '15005'
+      stdout: "Het CAS-nummer is: 150-05-0\n"
+  - testcases:
+    - stdin: '32965'
+      stdout: "Het CAS-nummer is: 329-65-7\n"
+  - testcases:
+    - stdin: '773218'
+      stdout: "Het CAS-nummer is: 7732-18-5\n"
+  - testcases:
+    - stdin: '778240'
+      stdout: "Het CAS-nummer is: 7782-40-3\n"
+  - testcases:
+    - stdin: '1854029'
+      stdout: "Het CAS-nummer is: 18540-29-9\n"
+  - testcases:
+    - stdin: '206963632'
+      stdout: "Het CAS-nummer is: 2069636-32-2\n"
+  - testcases:
+    - stdin: '732677768'
+      stdout: "Het CAS-nummer is: 7326777-68-1\n"
+  - testcases:
+    - stdin: '43101'
+      stdout: "Het CAS-nummer is: 431-01-6\n"
+  - testcases:
+    - stdin: '2440109136'
+      stdout: "Het CAS-nummer is: 24401091-36-5\n"
+  - testcases:
+    - stdin: '55880'
+      stdout: "Het CAS-nummer is: 558-80-5\n"
+  - testcases:
+    - stdin: '9103'
+      stdout: "Het CAS-nummer is: 91-03-2\n"
+  - testcases:
+    - stdin: '7038'
+      stdout: "Het CAS-nummer is: 70-38-2\n"
+  - testcases:
+    - stdin: '341556360'
+      stdout: "Het CAS-nummer is: 3415563-60-6\n"
+  - testcases:
+    - stdin: '1739853'
+      stdout: "Het CAS-nummer is: 17398-53-7\n"
+  - testcases:
+    - stdin: '4708094'
+      stdout: "Het CAS-nummer is: 47080-94-4\n"
+  - testcases:
+    - stdin: '27151457'
+      stdout: "Het CAS-nummer is: 271514-57-9\n"
+  - testcases:
+    - stdin: '172122'
+      stdout: "Het CAS-nummer is: 1721-22-8\n"

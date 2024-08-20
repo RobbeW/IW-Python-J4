@@ -1,16 +1,20 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
       "nl": "CAS-nummer"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "evaluatie",
+    "while-lus",
+    "voorwaardelijke herhaling",
+    "modulo"
   ],
   "access": "public",
   "internals": {
