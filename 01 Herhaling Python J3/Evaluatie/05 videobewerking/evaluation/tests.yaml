@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "0\n32\n21\n0\n33\n20"
+      stdout: "Totale tijd: 1 uur, 5 minuten en 41 seconden.\n"
+  - testcases:
+    - stdin: "1\n30\n42\n0\n29\n23"
+      stdout: "Totale tijd: 2 uur, 0 minuten en 5 seconden.\n"
+  - testcases:
+    - stdin: "0\n40\n37\n1\n48\n16"
+      stdout: "Totale tijd: 2 uur, 28 minuten en 53 seconden.\n"
+  - testcases:
+    - stdin: "0\n48\n21\n0\n9\n53"
+      stdout: "Totale tijd: 0 uur, 58 minuten en 14 seconden.\n"
+  - testcases:
+    - stdin: "2\n1\n56\n3\n2\n49"
+      stdout: "Totale tijd: 5 uur, 4 minuten en 45 seconden.\n"
+  - testcases:
+    - stdin: "2\n46\n55\n1\n30\n34"
+      stdout: "Totale tijd: 4 uur, 17 minuten en 29 seconden.\n"
+  - testcases:
+    - stdin: "0\n29\n14\n1\n16\n4"
+      stdout: "Totale tijd: 1 uur, 45 minuten en 18 seconden.\n"
+  - testcases:
+    - stdin: "2\n2\n27\n2\n35\n53"
+      stdout: "Totale tijd: 4 uur, 38 minuten en 20 seconden.\n"
+  - testcases:
+    - stdin: "2\n24\n11\n0\n8\n15"
+      stdout: "Totale tijd: 2 uur, 32 minuten en 26 seconden.\n"
+  - testcases:
+    - stdin: "1\n51\n34\n3\n31\n11"
+      stdout: "Totale tijd: 5 uur, 22 minuten en 45 seconden.\n"
+  - testcases:
+    - stdin: "3\n47\n3\n2\n38\n14"
+      stdout: "Totale tijd: 6 uur, 25 minuten en 17 seconden.\n"
+  - testcases:
+    - stdin: "1\n6\n28\n1\n53\n25"
+      stdout: "Totale tijd: 2 uur, 59 minuten en 53 seconden.\n"
+  - testcases:
+    - stdin: "1\n50\n45\n1\n33\n17"
+      stdout: "Totale tijd: 3 uur, 24 minuten en 2 seconden.\n"
+  - testcases:
+    - stdin: "1\n4\n25\n1\n55\n39"
+      stdout: "Totale tijd: 3 uur, 0 minuten en 4 seconden.\n"
+  - testcases:
+    - stdin: "3\n59\n44\n0\n41\n20"
+      stdout: "Totale tijd: 4 uur, 41 minuten en 4 seconden.\n"
+  - testcases:
+    - stdin: "3\n26\n16\n2\n39\n44"
+      stdout: "Totale tijd: 6 uur, 6 minuten en 0 seconden.\n"
+  - testcases:
+    - stdin: "2\n45\n19\n1\n20\n27"
+      stdout: "Totale tijd: 4 uur, 5 minuten en 46 seconden.\n"
+  - testcases:
+    - stdin: "0\n34\n59\n2\n6\n41"
+      stdout: "Totale tijd: 2 uur, 41 minuten en 40 seconden.\n"
+  - testcases:
+    - stdin: "1\n54\n41\n3\n49\n55"
+      stdout: "Totale tijd: 5 uur, 44 minuten en 36 seconden.\n"
+  - testcases:
+    - stdin: "0\n45\n22\n1\n52\n18"
+      stdout: "Totale tijd: 2 uur, 37 minuten en 40 seconden.\n"

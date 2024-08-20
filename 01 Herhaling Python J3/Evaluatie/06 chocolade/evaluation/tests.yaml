@@ -1,0 +1,82 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '640'
+      stdout: "aantal repen van 600 g: 1\naantal repen van 120 g: 0\naantal repen
+        van 40 g: 1\n"
+  - testcases:
+    - stdin: '680'
+      stdout: "aantal repen van 600 g: 1\naantal repen van 120 g: 0\naantal repen
+        van 40 g: 2\n"
+  - testcases:
+    - stdin: '880'
+      stdout: "aantal repen van 600 g: 1\naantal repen van 120 g: 2\naantal repen
+        van 40 g: 1\n"
+  - testcases:
+    - stdin: '1000'
+      stdout: "aantal repen van 600 g: 1\naantal repen van 120 g: 3\naantal repen
+        van 40 g: 1\n"
+  - testcases:
+    - stdin: '1160'
+      stdout: "aantal repen van 600 g: 1\naantal repen van 120 g: 4\naantal repen
+        van 40 g: 2\n"
+  - testcases:
+    - stdin: '1200'
+      stdout: "aantal repen van 600 g: 2\naantal repen van 120 g: 0\naantal repen
+        van 40 g: 0\n"
+  - testcases:
+    - stdin: '1480'
+      stdout: "aantal repen van 600 g: 2\naantal repen van 120 g: 2\naantal repen
+        van 40 g: 1\n"
+  - testcases:
+    - stdin: '1720'
+      stdout: "aantal repen van 600 g: 2\naantal repen van 120 g: 4\naantal repen
+        van 40 g: 1\n"
+  - testcases:
+    - stdin: '1960'
+      stdout: "aantal repen van 600 g: 3\naantal repen van 120 g: 1\naantal repen
+        van 40 g: 1\n"
+  - testcases:
+    - stdin: '2080'
+      stdout: "aantal repen van 600 g: 3\naantal repen van 120 g: 2\naantal repen
+        van 40 g: 1\n"
+  - testcases:
+    - stdin: '2120'
+      stdout: "aantal repen van 600 g: 3\naantal repen van 120 g: 2\naantal repen
+        van 40 g: 2\n"
+  - testcases:
+    - stdin: '2160'
+      stdout: "aantal repen van 600 g: 3\naantal repen van 120 g: 3\naantal repen
+        van 40 g: 0\n"
+  - testcases:
+    - stdin: '2400'
+      stdout: "aantal repen van 600 g: 4\naantal repen van 120 g: 0\naantal repen
+        van 40 g: 0\n"
+  - testcases:
+    - stdin: '2440'
+      stdout: "aantal repen van 600 g: 4\naantal repen van 120 g: 0\naantal repen
+        van 40 g: 1\n"
+  - testcases:
+    - stdin: '2640'
+      stdout: "aantal repen van 600 g: 4\naantal repen van 120 g: 2\naantal repen
+        van 40 g: 0\n"
+  - testcases:
+    - stdin: '2920'
+      stdout: "aantal repen van 600 g: 4\naantal repen van 120 g: 4\naantal repen
+        van 40 g: 1\n"
+  - testcases:
+    - stdin: '2960'
+      stdout: "aantal repen van 600 g: 4\naantal repen van 120 g: 4\naantal repen
+        van 40 g: 2\n"
+  - testcases:
+    - stdin: '3120'
+      stdout: "aantal repen van 600 g: 5\naantal repen van 120 g: 1\naantal repen
+        van 40 g: 0\n"
+  - testcases:
+    - stdin: '3280'
+      stdout: "aantal repen van 600 g: 5\naantal repen van 120 g: 2\naantal repen
+        van 40 g: 1\n"
+  - testcases:
+    - stdin: '3720'
+      stdout: "aantal repen van 600 g: 6\naantal repen van 120 g: 1\naantal repen
+        van 40 g: 0\n"

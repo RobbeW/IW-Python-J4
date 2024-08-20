@@ -1,13 +1,16 @@
-g1 = int( input( 'Geef het aantal uur in van video 1: '))
-d1 = int( input( 'Geef het aantal minuten in van video 1: '))
-e1 = int( input( 'Geef het aantal seconden in van video 1: '))
+# Aantal eieren vragen
+g1 = int( input( 'Geef het aantal gross in van pak 1 in: '))
+d1 = int( input( 'Geef het aantal dozijn in van pak 1 in: '))
+e1 = int( input( 'Geef het aantal eieren in van pak 1 in: '))
 
-g2 = int( input( 'Geef het aantal uur in van video 2: '))
-d2 = int( input( 'Geef het aantal minuten in van video 2: '))
-e2 = int( input( 'Geef het aantal seconden in van video 2: '))
+g2 = int( input( 'Geef het aantal gross in van pak 2 in: '))
+d2 = int( input( 'Geef het aantal dozijn in van pak 2 in: '))
+e2 = int( input( 'Geef het aantal eieren in van pak 2 in: '))
 
+# Berekening van de nieuwe aantallen
 e = (e1+e2) % 12
 d = (d1 + d2 + (e1+e2)//12)%12
 g = g1+g2 + (d1 + d2 + (e1+e2)//12) // 12
 
+# Weergave
 print('Totale aantal eieren:', g, 'gross,', d, 'dozijn en', e, 'eieren.')
