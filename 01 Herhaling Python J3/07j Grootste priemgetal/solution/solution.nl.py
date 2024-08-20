@@ -6,11 +6,14 @@ i = 1
 is_priem = False
 while not is_priem:
     test = getal - i
-    is_priem = True
-    for j in range(2, test):
-        if test % j == 0:
-            is_priem = False
     
-    i += 1
+    j = 2
+    while j < test and test % j != 0:
+        j += 1
+    
+    if j != test:
+        i += 1
+    else:
+        is_priem = True
 
 print(f"Het grootste priemgetal kleiner dan {getal} is {test}.")

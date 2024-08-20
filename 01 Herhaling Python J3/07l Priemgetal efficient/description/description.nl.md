@@ -26,8 +26,13 @@ Bovenstaande code kan wel **geoptimaliseerd** worden. Als je immers reeds één 
 ## Opgave
 Optimaliseer het programma zodat het na dit vinden van één eerste deler meteen stopt.
 
-#### Voorbeelden
-Voert de gebruiker `142012` dan verschijnt
+#### Voorbeeld
+Voert de gebruiker `182882380` dan verschijnt
 ```
-Het grootste priemgetal kleiner dan 3 is 2.
+182882380 is niet priem.
 ```
+
+{: .callout.callout-warning}
+> #### Opgelet
+>
+> Er werd een tijdslimiet ingesteld voor deze oefening. Het uitvoeren van je code mag maximaal 25s in beslag nemen.

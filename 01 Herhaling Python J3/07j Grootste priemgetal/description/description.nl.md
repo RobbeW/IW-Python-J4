@@ -1,13 +1,7 @@
-Priemgetallen vormen de bouwstenen van de wiskunde, ze worden als volgt gedefinieerd:
-
-{: .callout.callout-danger}
-> #### Definitie
-> Een priemgetal is een **natuurlijk getal** groter dan 1 dat **enkel** deelbaar is door 1 en zichzelf.
-
-In Python kan je relatief gemakkelijk controleren of een getal priem is. Beschouw bijvoorbeeld onderstaande code:
+Priemgetallen vormen de bouwstenen van de wiskunde, onderstaande code controleert (niet super efficiënt) of een getal al dan niet priem is.
 
 ```python
-getal = int( input( "Geef een getal in" ) )
+getal = int(input("Geef een getal in: "))
 is_priem = True
 for i in range(2, getal):
     if getal % i == 0:
@@ -17,7 +11,7 @@ for i in range(2, getal):
 Is de variabele `is_priem` na het uitvoeren van dit stukje code nog steeds `True`, dan werden **geen** *delers* gevonden en kan je besluiten dat het een priemgetal was.
 
 ## Opgave
-Schrijf een programma dat een natuurlijk getal groter dan 2 vraagt en vervolgens het **grootste priemgetal** zoekt dat kleiner is dan het opgegeven natuurlijke getal.
+Schrijf een programma dat een natuurlijk getal groter dan 2 vraagt en vervolgens het **grootste priemgetal** zoekt dat kleiner is dan het opgegeven natuurlijke getal. Je mag ook de efficiëntere werkwijze uit de vorige opdracht gebruiken.
 
 #### Voorbeelden
 Geef de gebruiker `3` in, dan verschijnt er:
