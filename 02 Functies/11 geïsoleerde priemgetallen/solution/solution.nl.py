@@ -9,8 +9,8 @@ def is_priem(getal):
 bovengrens = int( input( "Geef een bovengrens in: " ) )
 
 # priemtweelingen afdrukken
-for i in range(2, bovengrens + 1):
+for i in range(2, bovengrens):
     if i == 2:
         print("2 is een geïsoleerd priemgetal.")
-    elif is_priem(i) and not is_priem(i-2)  and not is_priem(i+2) :
+    elif is_priem(i) and not is_priem(i - 2)  and not is_priem(i + 2) :
         print(i, "is een geïsoleerd priemgetal.")
