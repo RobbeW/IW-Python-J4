@@ -13,7 +13,7 @@ hierbij stelt $$\mathsf{s}$$ de halve omtrek voor.
 ![Een driehoek met zijden a, b en c.](media/image_dark.png "Een driehoek met zijden a, b en c."){:data-caption="Een driehoek met zijden a, b en c." .dark-only width="20%"}
 
 ## Opgave
-Schrijf een functie `oppervlakte( a, b, c )` die de oppervlakte van een willekeurige driehoek berekent met behulp van de formule van Heron. Rond het resultaat af op 2 cijfers na de komma.
+Schrijf een functie `oppervlakte(a, b, c)` die de oppervlakte van een willekeurige driehoek berekent met behulp van de formule van Heron. Rond het resultaat af op 2 cijfers na de komma.
 
 Schrijf eronder een programma dat aan de gebruiker drie getallen **vraagt** en vervolgens de oppervlakte van de driehoek op het scherm **weergeeft**.
 
