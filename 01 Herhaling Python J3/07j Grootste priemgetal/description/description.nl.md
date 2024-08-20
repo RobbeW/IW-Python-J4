@@ -8,13 +8,13 @@ In Python kan je relatief gemakkelijk controleren of een getal priem is. Beschou
 
 ```python
 getal = int( input( "Geef een getal in" ) )
-priem = 1
+priem = True
 for i in range(2, getal):
     if getal % i == 0:
-        priem = 0
+        priem = False
 ```
 
-Is de variabele `priem` na het uitvoeren van dit stukje code nog steeds `1`, dan werden geen *delers* gevonden en kan je besluiten dat het een priemgetal was.
+Is de variabele `priem` na het uitvoeren van dit stukje code nog steeds `True`, dan werden **geen** *delers* gevonden en kan je besluiten dat het een priemgetal was.
 
 ## Opgave
 Schrijf een programma dat een natuurlijk getal groter dan 2 vraagt en vervolgens het **grootste priemgetal** zoekt dat kleiner is dan het opgegeven natuurlijke getal.
