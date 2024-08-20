@@ -1,0 +1,82 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '38'
+      stdout: "De som van de getallen op de oneven rang is: 8\nDe som van de getallen
+        op de even rang is: 3\nDit getal is NIET deelbaar door 11!\n"
+  - testcases:
+    - stdin: '41'
+      stdout: "De som van de getallen op de oneven rang is: 1\nDe som van de getallen
+        op de even rang is: 4\nDit getal is NIET deelbaar door 11!\n"
+  - testcases:
+    - stdin: '137'
+      stdout: "De som van de getallen op de oneven rang is: 8\nDe som van de getallen
+        op de even rang is: 3\nDit getal is NIET deelbaar door 11!\n"
+  - testcases:
+    - stdin: '247'
+      stdout: "De som van de getallen op de oneven rang is: 9\nDe som van de getallen
+        op de even rang is: 4\nDit getal is NIET deelbaar door 11!\n"
+  - testcases:
+    - stdin: '335'
+      stdout: "De som van de getallen op de oneven rang is: 8\nDe som van de getallen
+        op de even rang is: 3\nDit getal is NIET deelbaar door 11!\n"
+  - testcases:
+    - stdin: '879'
+      stdout: "De som van de getallen op de oneven rang is: 17\nDe som van de getallen
+        op de even rang is: 7\nDit getal is NIET deelbaar door 11!\n"
+  - testcases:
+    - stdin: '1968'
+      stdout: "De som van de getallen op de oneven rang is: 17\nDe som van de getallen
+        op de even rang is: 7\nDit getal is NIET deelbaar door 11!\n"
+  - testcases:
+    - stdin: '4758'
+      stdout: "De som van de getallen op de oneven rang is: 15\nDe som van de getallen
+        op de even rang is: 9\nDit getal is NIET deelbaar door 11!\n"
+  - testcases:
+    - stdin: '43494'
+      stdout: "De som van de getallen op de oneven rang is: 12\nDe som van de getallen
+        op de even rang is: 12\nDit getal is deelbaar door 11!\n"
+  - testcases:
+    - stdin: '74213'
+      stdout: "De som van de getallen op de oneven rang is: 12\nDe som van de getallen
+        op de even rang is: 5\nDit getal is NIET deelbaar door 11!\n"
+  - testcases:
+    - stdin: '293842'
+      stdout: "De som van de getallen op de oneven rang is: 19\nDe som van de getallen
+        op de even rang is: 9\nDit getal is NIET deelbaar door 11!\n"
+  - testcases:
+    - stdin: '452529'
+      stdout: "De som van de getallen op de oneven rang is: 19\nDe som van de getallen
+        op de even rang is: 8\nDit getal is deelbaar door 11!\n"
+  - testcases:
+    - stdin: '3485869'
+      stdout: "De som van de getallen op de oneven rang is: 28\nDe som van de getallen
+        op de even rang is: 15\nDit getal is NIET deelbaar door 11!\n"
+  - testcases:
+    - stdin: '9929480'
+      stdout: "De som van de getallen op de oneven rang is: 15\nDe som van de getallen
+        op de even rang is: 26\nDit getal is deelbaar door 11!\n"
+  - testcases:
+    - stdin: '37816108'
+      stdout: "De som van de getallen op de oneven rang is: 17\nDe som van de getallen
+        op de even rang is: 17\nDit getal is deelbaar door 11!\n"
+  - testcases:
+    - stdin: '38503487'
+      stdout: "De som van de getallen op de oneven rang is: 19\nDe som van de getallen
+        op de even rang is: 19\nDit getal is deelbaar door 11!\n"
+  - testcases:
+    - stdin: '85056269'
+      stdout: "De som van de getallen op de oneven rang is: 21\nDe som van de getallen
+        op de even rang is: 20\nDit getal is NIET deelbaar door 11!\n"
+  - testcases:
+    - stdin: '102276141'
+      stdout: "De som van de getallen op de oneven rang is: 12\nDe som van de getallen
+        op de even rang is: 12\nDit getal is deelbaar door 11!\n"
+  - testcases:
+    - stdin: '3826386534'
+      stdout: "De som van de getallen op de oneven rang is: 31\nDe som van de getallen
+        op de even rang is: 17\nDit getal is NIET deelbaar door 11!\n"
+  - testcases:
+    - stdin: '6501059752'
+      stdout: "De som van de getallen op de oneven rang is: 20\nDe som van de getallen
+        op de even rang is: 20\nDit getal is deelbaar door 11!\n"
