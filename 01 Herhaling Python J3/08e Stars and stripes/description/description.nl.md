@@ -5,22 +5,22 @@ De <a href="https://nl.wikipedia.org/wiki/Vlag_van_de_Verenigde_Staten" target="
 Het huidige patroon van deze sterren is als volgt, vijf rijen met telkens 6 sterren en ertussen vier rijen met telkens 5 sterren, samen 50 sterren.
 
 ```
-* * * * * *
- * * * * *
-* * * * * *
- * * * * *
-* * * * * *
- * * * * *
-* * * * * *
- * * * * *
-* * * * * *
+1:  * * * * * *
+A:   * * * * *
+2:  * * * * * *
+B:   * * * * *
+3:  * * * * * *
+C:   * * * * *
+4:  * * * * * *
+D:   * * * * *
+5:  * * * * * *
 ```
 
 Dit patroon noemt men ook wel het **6 ; 5 patroon**. De eerste rij bevat immers 6 sterren, de volgende rij bevat er 5.
 
-Stel dat <a href="https://nl.wikipedia.org/wiki/Puerto_Rico" target="_blank">Puerto</a> lid wordt van de Verenigde Staten van Amerika, hoe kan men deze vlag dan aanpassen? Een mogelijk patroon wordt dan een **9 ; 8 patroon**. Dit betekent dat er dan drie rijen van 9 sterren zijn en drie rijen van 8 sterren, er telkens tussen.
+Stel dat <a href="https://nl.wikipedia.org/wiki/Puerto_Rico" target="_blank">Puerto Rico</a> lid wordt van de Verenigde Staten van Amerika, hoe kan men deze vlag dan aanpassen zodat het aantal sterren 51 is? Een mogelijkheid is dan het **9 ; 8 patroon**. Dit betekent dat er dan drie rijen van 9 sterren zijn en drie rijen van 8 sterren, telkens afwisselend.
 
-Indien een staat de Verenigde Staten van Amerika zou verlaten dan zou men een **7 ; 7 patroon** kunnen gebruiken.
+Indien een staat de Verenigde Staten van Amerika zou verlaten resteren 49 sterren en zou men een **7 ; 7 patroon** kunnen gebruiken.
 
 
 We noemen een vlag visueel geslaagd indien deze voldoet aan de volgende criteria:
@@ -54,7 +54,7 @@ Bij invoer `50` verschijnt:
 25 ; 25
 ```
 
-Bij invoer `50` verschijnt:
+Bij invoer `51` verschijnt:
 ```
 2 ; 1
 3 ; 3
