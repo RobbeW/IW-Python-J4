@@ -2,140 +2,140 @@
   contexts:
   - testcases:
     - stdin: "1000\n15\n230"
-      stdout: "Er zijn eerst 1000 bomen in het bos.\nna 10 jaar zijn er 1431 bomen.\n
+      stdout: "Er zijn eerst 1000 bomen in het bos.\nna 10 jaar zijn er 1431 bomen.\n\
         na 20 jaar zijn er 1515 bomen.\nna 30 jaar zijn er 1532 bomen.\nna 40 jaar
         zijn er 1534 bomen.\nna 50 jaar zijn er 1534 bomen.\nna 60 jaar zijn er 1534
         bomen.\nna 70 jaar zijn er 1534 bomen.\nna 80 jaar zijn er 1534 bomen.\nna
         90 jaar zijn er 1534 bomen.\nna 100 jaar zijn er 1534 bomen.\n"
   - testcases:
     - stdin: "1000\n10\n80"
-      stdout: "Er zijn eerst 1000 bomen in het bos.\nna 10 jaar zijn er 873 bomen.\n
+      stdout: "Er zijn eerst 1000 bomen in het bos.\nna 10 jaar zijn er 873 bomen.\n\
         na 20 jaar zijn er 828 bomen.\nna 30 jaar zijn er 813 bomen.\nna 40 jaar zijn
-        er 809 bomen.\nna 50 jaar zijn er 809 bomen.\nna 60 jaar zijn er 809 bomen.\n
+        er 809 bomen.\nna 50 jaar zijn er 809 bomen.\nna 60 jaar zijn er 809 bomen.\n\
         na 70 jaar zijn er 809 bomen.\nna 80 jaar zijn er 809 bomen.\nna 90 jaar zijn
         er 809 bomen.\nna 100 jaar zijn er 809 bomen.\n"
   - testcases:
     - stdin: "1000\n10\n120"
-      stdout: "Er zijn eerst 1000 bomen in het bos.\nna 10 jaar zijn er 1133 bomen.\n
+      stdout: "Er zijn eerst 1000 bomen in het bos.\nna 10 jaar zijn er 1133 bomen.\n\
         na 20 jaar zijn er 1179 bomen.\nna 30 jaar zijn er 1195 bomen.\nna 40 jaar
         zijn er 1200 bomen.\nna 50 jaar zijn er 1200 bomen.\nna 60 jaar zijn er 1200
         bomen.\nna 70 jaar zijn er 1200 bomen.\nna 80 jaar zijn er 1200 bomen.\nna
         90 jaar zijn er 1200 bomen.\nna 100 jaar zijn er 1200 bomen.\n"
   - testcases:
     - stdin: "1000\n10\n60"
-      stdout: "Er zijn eerst 1000 bomen in het bos.\nna 10 jaar zijn er 742 bomen.\n
+      stdout: "Er zijn eerst 1000 bomen in het bos.\nna 10 jaar zijn er 742 bomen.\n\
         na 20 jaar zijn er 653 bomen.\nna 30 jaar zijn er 621 bomen.\nna 40 jaar zijn
-        er 610 bomen.\nna 50 jaar zijn er 609 bomen.\nna 60 jaar zijn er 609 bomen.\n
+        er 610 bomen.\nna 50 jaar zijn er 609 bomen.\nna 60 jaar zijn er 609 bomen.\n\
         na 70 jaar zijn er 609 bomen.\nna 80 jaar zijn er 609 bomen.\nna 90 jaar zijn
         er 609 bomen.\nna 100 jaar zijn er 609 bomen.\n"
   - testcases:
     - stdin: "1000\n5\n120"
-      stdout: "Er zijn eerst 1000 bomen in het bos.\nna 10 jaar zijn er 1565 bomen.\n
+      stdout: "Er zijn eerst 1000 bomen in het bos.\nna 10 jaar zijn er 1565 bomen.\n\
         na 20 jaar zijn er 1904 bomen.\nna 30 jaar zijn er 2109 bomen.\nna 40 jaar
         zijn er 2229 bomen.\nna 50 jaar zijn er 2302 bomen.\nna 60 jaar zijn er 2345
         bomen.\nna 70 jaar zijn er 2370 bomen.\nna 80 jaar zijn er 2385 bomen.\nna
         90 jaar zijn er 2395 bomen.\nna 100 jaar zijn er 2400 bomen.\n"
   - testcases:
     - stdin: "2000\n5\n120"
-      stdout: "Er zijn eerst 2000 bomen in het bos.\nna 10 jaar zijn er 2165 bomen.\n
+      stdout: "Er zijn eerst 2000 bomen in het bos.\nna 10 jaar zijn er 2165 bomen.\n\
         na 20 jaar zijn er 2263 bomen.\nna 30 jaar zijn er 2322 bomen.\nna 40 jaar
         zijn er 2357 bomen.\nna 50 jaar zijn er 2378 bomen.\nna 60 jaar zijn er 2389
         bomen.\nna 70 jaar zijn er 2399 bomen.\nna 80 jaar zijn er 2400 bomen.\nna
         90 jaar zijn er 2400 bomen.\nna 100 jaar zijn er 2400 bomen.\n"
   - testcases:
     - stdin: "2000\n10\n240"
-      stdout: "Er zijn eerst 2000 bomen in het bos.\nna 10 jaar zijn er 2263 bomen.\n
+      stdout: "Er zijn eerst 2000 bomen in het bos.\nna 10 jaar zijn er 2263 bomen.\n\
         na 20 jaar zijn er 2355 bomen.\nna 30 jaar zijn er 2387 bomen.\nna 40 jaar
         zijn er 2399 bomen.\nna 50 jaar zijn er 2400 bomen.\nna 60 jaar zijn er 2400
         bomen.\nna 70 jaar zijn er 2400 bomen.\nna 80 jaar zijn er 2400 bomen.\nna
         90 jaar zijn er 2400 bomen.\nna 100 jaar zijn er 2400 bomen.\n"
   - testcases:
     - stdin: "2000\n10\n50"
-      stdout: "Er zijn eerst 2000 bomen in het bos.\nna 10 jaar zijn er 1026 bomen.\n
+      stdout: "Er zijn eerst 2000 bomen in het bos.\nna 10 jaar zijn er 1026 bomen.\n\
         na 20 jaar zijn er 687 bomen.\nna 30 jaar zijn er 568 bomen.\nna 40 jaar zijn
-        er 527 bomen.\nna 50 jaar zijn er 513 bomen.\nna 60 jaar zijn er 509 bomen.\n
+        er 527 bomen.\nna 50 jaar zijn er 513 bomen.\nna 60 jaar zijn er 509 bomen.\n\
         na 70 jaar zijn er 509 bomen.\nna 80 jaar zijn er 509 bomen.\nna 90 jaar zijn
         er 509 bomen.\nna 100 jaar zijn er 509 bomen.\n"
   - testcases:
     - stdin: "2000\n10\n220"
-      stdout: "Er zijn eerst 2000 bomen in het bos.\nna 10 jaar zijn er 2133 bomen.\n
+      stdout: "Er zijn eerst 2000 bomen in het bos.\nna 10 jaar zijn er 2133 bomen.\n\
         na 20 jaar zijn er 2179 bomen.\nna 30 jaar zijn er 2195 bomen.\nna 40 jaar
         zijn er 2200 bomen.\nna 50 jaar zijn er 2200 bomen.\nna 60 jaar zijn er 2200
         bomen.\nna 70 jaar zijn er 2200 bomen.\nna 80 jaar zijn er 2200 bomen.\nna
         90 jaar zijn er 2200 bomen.\nna 100 jaar zijn er 2200 bomen.\n"
   - testcases:
     - stdin: "2000\n15\n170"
-      stdout: "Er zijn eerst 2000 bomen in het bos.\nna 10 jaar zijn er 1307 bomen.\n
+      stdout: "Er zijn eerst 2000 bomen in het bos.\nna 10 jaar zijn er 1307 bomen.\n\
         na 20 jaar zijn er 1170 bomen.\nna 30 jaar zijn er 1143 bomen.\nna 40 jaar
         zijn er 1139 bomen.\nna 50 jaar zijn er 1139 bomen.\nna 60 jaar zijn er 1139
         bomen.\nna 70 jaar zijn er 1139 bomen.\nna 80 jaar zijn er 1139 bomen.\nna
         90 jaar zijn er 1139 bomen.\nna 100 jaar zijn er 1139 bomen.\n"
   - testcases:
     - stdin: "2000\n5\n190"
-      stdout: "Er zijn eerst 2000 bomen in het bos.\nna 10 jaar zijn er 2726 bomen.\n
+      stdout: "Er zijn eerst 2000 bomen in het bos.\nna 10 jaar zijn er 2726 bomen.\n\
         na 20 jaar zijn er 3160 bomen.\nna 30 jaar zijn er 3420 bomen.\nna 40 jaar
         zijn er 3577 bomen.\nna 50 jaar zijn er 3670 bomen.\nna 60 jaar zijn er 3726
         bomen.\nna 70 jaar zijn er 3760 bomen.\nna 80 jaar zijn er 3780 bomen.\nna
         90 jaar zijn er 3790 bomen.\nna 100 jaar zijn er 3800 bomen.\n"
   - testcases:
     - stdin: "2000\n10\n120"
-      stdout: "Er zijn eerst 2000 bomen in het bos.\nna 10 jaar zijn er 1482 bomen.\n
+      stdout: "Er zijn eerst 2000 bomen in het bos.\nna 10 jaar zijn er 1482 bomen.\n\
         na 20 jaar zijn er 1302 bomen.\nna 30 jaar zijn er 1238 bomen.\nna 40 jaar
         zijn er 1217 bomen.\nna 50 jaar zijn er 1209 bomen.\nna 60 jaar zijn er 1209
         bomen.\nna 70 jaar zijn er 1209 bomen.\nna 80 jaar zijn er 1209 bomen.\nna
         90 jaar zijn er 1209 bomen.\nna 100 jaar zijn er 1209 bomen.\n"
   - testcases:
     - stdin: "3000\n10\n100"
-      stdout: "Er zijn eerst 3000 bomen in het bos.\nna 10 jaar zijn er 1700 bomen.\n
+      stdout: "Er zijn eerst 3000 bomen in het bos.\nna 10 jaar zijn er 1700 bomen.\n\
         na 20 jaar zijn er 1246 bomen.\nna 30 jaar zijn er 1089 bomen.\nna 40 jaar
         zijn er 1034 bomen.\nna 50 jaar zijn er 1015 bomen.\nna 60 jaar zijn er 1009
         bomen.\nna 70 jaar zijn er 1009 bomen.\nna 80 jaar zijn er 1009 bomen.\nna
         90 jaar zijn er 1009 bomen.\nna 100 jaar zijn er 1009 bomen.\n"
   - testcases:
     - stdin: "3000\n15\n120"
-      stdout: "Er zijn eerst 3000 bomen in het bos.\nna 10 jaar zijn er 1236 bomen.\n
+      stdout: "Er zijn eerst 3000 bomen in het bos.\nna 10 jaar zijn er 1236 bomen.\n\
         na 20 jaar zijn er 888 bomen.\nna 30 jaar zijn er 819 bomen.\nna 40 jaar zijn
-        er 806 bomen.\nna 50 jaar zijn er 806 bomen.\nna 60 jaar zijn er 806 bomen.\n
+        er 806 bomen.\nna 50 jaar zijn er 806 bomen.\nna 60 jaar zijn er 806 bomen.\n\
         na 70 jaar zijn er 806 bomen.\nna 80 jaar zijn er 806 bomen.\nna 90 jaar zijn
         er 806 bomen.\nna 100 jaar zijn er 806 bomen.\n"
   - testcases:
     - stdin: "4000\n5\n160"
-      stdout: "Er zijn eerst 4000 bomen in het bos.\nna 10 jaar zijn er 3681 bomen.\n
+      stdout: "Er zijn eerst 4000 bomen in het bos.\nna 10 jaar zijn er 3681 bomen.\n\
         na 20 jaar zijn er 3492 bomen.\nna 30 jaar zijn er 3379 bomen.\nna 40 jaar
         zijn er 3311 bomen.\nna 50 jaar zijn er 3270 bomen.\nna 60 jaar zijn er 3246
         bomen.\nna 70 jaar zijn er 3232 bomen.\nna 80 jaar zijn er 3222 bomen.\nna
         90 jaar zijn er 3219 bomen.\nna 100 jaar zijn er 3219 bomen.\n"
   - testcases:
     - stdin: "4000\n10\n220"
-      stdout: "Er zijn eerst 4000 bomen in het bos.\nna 10 jaar zijn er 2830 bomen.\n
+      stdout: "Er zijn eerst 4000 bomen in het bos.\nna 10 jaar zijn er 2830 bomen.\n\
         na 20 jaar zijn er 2422 bomen.\nna 30 jaar zijn er 2281 bomen.\nna 40 jaar
         zijn er 2231 bomen.\nna 50 jaar zijn er 2214 bomen.\nna 60 jaar zijn er 2209
         bomen.\nna 70 jaar zijn er 2209 bomen.\nna 80 jaar zijn er 2209 bomen.\nna
         90 jaar zijn er 2209 bomen.\nna 100 jaar zijn er 2209 bomen.\n"
   - testcases:
     - stdin: "4000\n5\n210"
-      stdout: "Er zijn eerst 4000 bomen in het bos.\nna 10 jaar zijn er 4084 bomen.\n
+      stdout: "Er zijn eerst 4000 bomen in het bos.\nna 10 jaar zijn er 4084 bomen.\n\
         na 20 jaar zijn er 4134 bomen.\nna 30 jaar zijn er 4164 bomen.\nna 40 jaar
         zijn er 4182 bomen.\nna 50 jaar zijn er 4192 bomen.\nna 60 jaar zijn er 4200
         bomen.\nna 70 jaar zijn er 4200 bomen.\nna 80 jaar zijn er 4200 bomen.\nna
         90 jaar zijn er 4200 bomen.\nna 100 jaar zijn er 4200 bomen.\n"
   - testcases:
     - stdin: "5000\n15\n210"
-      stdout: "Er zijn eerst 5000 bomen in het bos.\nna 10 jaar zijn er 2111 bomen.\n
+      stdout: "Er zijn eerst 5000 bomen in het bos.\nna 10 jaar zijn er 2111 bomen.\n\
         na 20 jaar zijn er 1543 bomen.\nna 30 jaar zijn er 1430 bomen.\nna 40 jaar
         zijn er 1409 bomen.\nna 50 jaar zijn er 1406 bomen.\nna 60 jaar zijn er 1406
         bomen.\nna 70 jaar zijn er 1406 bomen.\nna 80 jaar zijn er 1406 bomen.\nna
         90 jaar zijn er 1406 bomen.\nna 100 jaar zijn er 1406 bomen.\n"
   - testcases:
     - stdin: "5000\n5\n130"
-      stdout: "Er zijn eerst 5000 bomen in het bos.\nna 10 jaar zijn er 4042 bomen.\n
+      stdout: "Er zijn eerst 5000 bomen in het bos.\nna 10 jaar zijn er 4042 bomen.\n\
         na 20 jaar zijn er 3467 bomen.\nna 30 jaar zijn er 3123 bomen.\nna 40 jaar
         zijn er 2917 bomen.\nna 50 jaar zijn er 2793 bomen.\nna 60 jaar zijn er 2720
         bomen.\nna 70 jaar zijn er 2676 bomen.\nna 80 jaar zijn er 2650 bomen.\nna
         90 jaar zijn er 2634 bomen.\nna 100 jaar zijn er 2624 bomen.\n"
   - testcases:
     - stdin: "5000\n10\n60"
-      stdout: "Er zijn eerst 5000 bomen in het bos.\nna 10 jaar zijn er 2137 bomen.\n
+      stdout: "Er zijn eerst 5000 bomen in het bos.\nna 10 jaar zijn er 2137 bomen.\n\
         na 20 jaar zijn er 1140 bomen.\nna 30 jaar zijn er 791 bomen.\nna 40 jaar
         zijn er 669 bomen.\nna 50 jaar zijn er 627 bomen.\nna 60 jaar zijn er 613
         bomen.\nna 70 jaar zijn er 609 bomen.\nna 80 jaar zijn er 609 bomen.\nna 90
