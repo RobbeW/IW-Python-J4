@@ -5,7 +5,7 @@ getal = int( input( "Geef een getal in: " ) )
 i = 2
 while i < getal and getal % i != 0:
     i += 1
-print()
+
 # Weergave
 if i == getal:
     print(getal, "is priem.")
