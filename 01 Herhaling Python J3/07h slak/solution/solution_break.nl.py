@@ -4,11 +4,12 @@ dag = 0
 hoogte = 0
 
 # Lus
-while hoogte + 20 < d:
+while True:
     dag += 1
     hoogte += 20
+    if hoogte >= d:
+        break
     hoogte *= 5/6
-dag += 1
 
 # Eindweergave
 if dag == 1:

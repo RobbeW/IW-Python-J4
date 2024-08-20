@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '13'
+      stdout: "Het duurt één dag om uit een put met diepte 13 cm te klimmen.\n"
+  - testcases:
+    - stdin: '15'
+      stdout: "Het duurt één dag om uit een put met diepte 15 cm te klimmen.\n"
+  - testcases:
+    - stdin: '19'
+      stdout: "Het duurt één dag om uit een put met diepte 19 cm te klimmen.\n"
+  - testcases:
+    - stdin: '22'
+      stdout: "Het duurt 2 dagen om uit een put met diepte 22 cm te klimmen.\n"
+  - testcases:
+    - stdin: '25'
+      stdout: "Het duurt 2 dagen om uit een put met diepte 25 cm te klimmen.\n"
+  - testcases:
+    - stdin: '29'
+      stdout: "Het duurt 2 dagen om uit een put met diepte 29 cm te klimmen.\n"
+  - testcases:
+    - stdin: '38'
+      stdout: "Het duurt 3 dagen om uit een put met diepte 38 cm te klimmen.\n"
+  - testcases:
+    - stdin: '39'
+      stdout: "Het duurt 3 dagen om uit een put met diepte 39 cm te klimmen.\n"
+  - testcases:
+    - stdin: '42'
+      stdout: "Het duurt 3 dagen om uit een put met diepte 42 cm te klimmen.\n"
+  - testcases:
+    - stdin: '50'
+      stdout: "Het duurt 3 dagen om uit een put met diepte 50 cm te klimmen.\n"
+  - testcases:
+    - stdin: '52'
+      stdout: "Het duurt 4 dagen om uit een put met diepte 52 cm te klimmen.\n"
+  - testcases:
+    - stdin: '54'
+      stdout: "Het duurt 4 dagen om uit een put met diepte 54 cm te klimmen.\n"
+  - testcases:
+    - stdin: '57'
+      stdout: "Het duurt 4 dagen om uit een put met diepte 57 cm te klimmen.\n"
+  - testcases:
+    - stdin: '71'
+      stdout: "Het duurt 5 dagen om uit een put met diepte 71 cm te klimmen.\n"
+  - testcases:
+    - stdin: '73'
+      stdout: "Het duurt 6 dagen om uit een put met diepte 73 cm te klimmen.\n"
+  - testcases:
+    - stdin: '75'
+      stdout: "Het duurt 6 dagen om uit een put met diepte 75 cm te klimmen.\n"
+  - testcases:
+    - stdin: '79'
+      stdout: "Het duurt 6 dagen om uit een put met diepte 79 cm te klimmen.\n"
+  - testcases:
+    - stdin: '85'
+      stdout: "Het duurt 7 dagen om uit een put met diepte 85 cm te klimmen.\n"
+  - testcases:
+    - stdin: '87'
+      stdout: "Het duurt 8 dagen om uit een put met diepte 87 cm te klimmen.\n"
+  - testcases:
+    - stdin: '91'
+      stdout: "Het duurt 8 dagen om uit een put met diepte 91 cm te klimmen.\n"

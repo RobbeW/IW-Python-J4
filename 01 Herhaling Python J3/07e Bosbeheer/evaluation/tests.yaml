@@ -1,0 +1,548 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "200\n5\n15"
+      stdout: "Er zijn eerst 200 bomen in het bos.\nna 1 jaar zijn er 205 bomen.\n\
+        na 2 jaar zijn er 210 bomen.\nna 3 jaar zijn er 215 bomen.\nna 4 jaar zijn
+        er 220 bomen.\nna 5 jaar zijn er 224 bomen.\nna 6 jaar zijn er 228 bomen.\n\
+        na 7 jaar zijn er 232 bomen.\nna 8 jaar zijn er 236 bomen.\nna 9 jaar zijn
+        er 240 bomen.\nna 10 jaar zijn er 243 bomen.\nna 11 jaar zijn er 246 bomen.\n\
+        na 12 jaar zijn er 249 bomen.\nna 13 jaar zijn er 252 bomen.\nna 14 jaar zijn
+        er 255 bomen.\nna 15 jaar zijn er 258 bomen.\nna 16 jaar zijn er 261 bomen.\n\
+        na 17 jaar zijn er 263 bomen.\nna 18 jaar zijn er 265 bomen.\nna 19 jaar zijn
+        er 267 bomen.\nna 20 jaar zijn er 269 bomen.\nna 21 jaar zijn er 271 bomen.\n\
+        na 22 jaar zijn er 273 bomen.\nna 23 jaar zijn er 275 bomen.\nna 24 jaar zijn
+        er 277 bomen.\nna 25 jaar zijn er 279 bomen.\nna 26 jaar zijn er 281 bomen.\n\
+        na 27 jaar zijn er 282 bomen.\nna 28 jaar zijn er 283 bomen.\nna 29 jaar zijn
+        er 284 bomen.\nna 30 jaar zijn er 285 bomen.\nna 31 jaar zijn er 286 bomen.\n\
+        na 32 jaar zijn er 287 bomen.\nna 33 jaar zijn er 288 bomen.\nna 34 jaar zijn
+        er 289 bomen.\nna 35 jaar zijn er 290 bomen.\nna 36 jaar zijn er 291 bomen.\n\
+        na 37 jaar zijn er 292 bomen.\nna 38 jaar zijn er 293 bomen.\nna 39 jaar zijn
+        er 294 bomen.\nna 40 jaar zijn er 295 bomen.\nna 41 jaar zijn er 296 bomen.\n\
+        na 42 jaar zijn er 297 bomen.\nna 43 jaar zijn er 298 bomen.\nna 44 jaar zijn
+        er 299 bomen.\nna 45 jaar zijn er 300 bomen.\nna 46 jaar zijn er 300 bomen.\n\
+        Er zullen uiteindelijk 300 bomen in het bos zijn.\n"
+  - testcases:
+    - stdin: "1000\n15\n230"
+      stdout: "Er zijn eerst 1000 bomen in het bos.\nna 1 jaar zijn er 1080 bomen.\n\
+        na 2 jaar zijn er 1148 bomen.\nna 3 jaar zijn er 1206 bomen.\nna 4 jaar zijn
+        er 1256 bomen.\nna 5 jaar zijn er 1298 bomen.\nna 6 jaar zijn er 1334 bomen.\n\
+        na 7 jaar zijn er 1364 bomen.\nna 8 jaar zijn er 1390 bomen.\nna 9 jaar zijn
+        er 1412 bomen.\nna 10 jaar zijn er 1431 bomen.\nna 11 jaar zijn er 1447 bomen.\n\
+        na 12 jaar zijn er 1460 bomen.\nna 13 jaar zijn er 1471 bomen.\nna 14 jaar
+        zijn er 1481 bomen.\nna 15 jaar zijn er 1489 bomen.\nna 16 jaar zijn er 1496
+        bomen.\nna 17 jaar zijn er 1502 bomen.\nna 18 jaar zijn er 1507 bomen.\nna
+        19 jaar zijn er 1511 bomen.\nna 20 jaar zijn er 1515 bomen.\nna 21 jaar zijn
+        er 1518 bomen.\nna 22 jaar zijn er 1521 bomen.\nna 23 jaar zijn er 1523 bomen.\n\
+        na 24 jaar zijn er 1525 bomen.\nna 25 jaar zijn er 1527 bomen.\nna 26 jaar
+        zijn er 1528 bomen.\nna 27 jaar zijn er 1529 bomen.\nna 28 jaar zijn er 1530
+        bomen.\nna 29 jaar zijn er 1531 bomen.\nna 30 jaar zijn er 1532 bomen.\nna
+        31 jaar zijn er 1533 bomen.\nna 32 jaar zijn er 1534 bomen.\nna 33 jaar zijn
+        er 1534 bomen.\nEr zullen uiteindelijk 1534 bomen in het bos zijn.\n"
+  - testcases:
+    - stdin: "1000\n10\n80"
+      stdout: "Er zijn eerst 1000 bomen in het bos.\nna 1 jaar zijn er 980 bomen.\n\
+        na 2 jaar zijn er 962 bomen.\nna 3 jaar zijn er 946 bomen.\nna 4 jaar zijn
+        er 932 bomen.\nna 5 jaar zijn er 919 bomen.\nna 6 jaar zijn er 908 bomen.\n\
+        na 7 jaar zijn er 898 bomen.\nna 8 jaar zijn er 889 bomen.\nna 9 jaar zijn
+        er 881 bomen.\nna 10 jaar zijn er 873 bomen.\nna 11 jaar zijn er 866 bomen.\n\
+        na 12 jaar zijn er 860 bomen.\nna 13 jaar zijn er 854 bomen.\nna 14 jaar zijn
+        er 849 bomen.\nna 15 jaar zijn er 845 bomen.\nna 16 jaar zijn er 841 bomen.\n\
+        na 17 jaar zijn er 837 bomen.\nna 18 jaar zijn er 834 bomen.\nna 19 jaar zijn
+        er 831 bomen.\nna 20 jaar zijn er 828 bomen.\nna 21 jaar zijn er 826 bomen.\n\
+        na 22 jaar zijn er 824 bomen.\nna 23 jaar zijn er 822 bomen.\nna 24 jaar zijn
+        er 820 bomen.\nna 25 jaar zijn er 818 bomen.\nna 26 jaar zijn er 817 bomen.\n\
+        na 27 jaar zijn er 816 bomen.\nna 28 jaar zijn er 815 bomen.\nna 29 jaar zijn
+        er 814 bomen.\nna 30 jaar zijn er 813 bomen.\nna 31 jaar zijn er 812 bomen.\n\
+        na 32 jaar zijn er 811 bomen.\nna 33 jaar zijn er 810 bomen.\nna 34 jaar zijn
+        er 809 bomen.\nna 35 jaar zijn er 809 bomen.\nEr zullen uiteindelijk 809 bomen
+        in het bos zijn.\n"
+  - testcases:
+    - stdin: "1000\n10\n120"
+      stdout: "Er zijn eerst 1000 bomen in het bos.\nna 1 jaar zijn er 1020 bomen.\n\
+        na 2 jaar zijn er 1038 bomen.\nna 3 jaar zijn er 1055 bomen.\nna 4 jaar zijn
+        er 1070 bomen.\nna 5 jaar zijn er 1083 bomen.\nna 6 jaar zijn er 1095 bomen.\n\
+        na 7 jaar zijn er 1106 bomen.\nna 8 jaar zijn er 1116 bomen.\nna 9 jaar zijn
+        er 1125 bomen.\nna 10 jaar zijn er 1133 bomen.\nna 11 jaar zijn er 1140 bomen.\n\
+        na 12 jaar zijn er 1146 bomen.\nna 13 jaar zijn er 1152 bomen.\nna 14 jaar
+        zijn er 1157 bomen.\nna 15 jaar zijn er 1162 bomen.\nna 16 jaar zijn er 1166
+        bomen.\nna 17 jaar zijn er 1170 bomen.\nna 18 jaar zijn er 1173 bomen.\nna
+        19 jaar zijn er 1176 bomen.\nna 20 jaar zijn er 1179 bomen.\nna 21 jaar zijn
+        er 1182 bomen.\nna 22 jaar zijn er 1184 bomen.\nna 23 jaar zijn er 1186 bomen.\n\
+        na 24 jaar zijn er 1188 bomen.\nna 25 jaar zijn er 1190 bomen.\nna 26 jaar
+        zijn er 1191 bomen.\nna 27 jaar zijn er 1192 bomen.\nna 28 jaar zijn er 1193
+        bomen.\nna 29 jaar zijn er 1194 bomen.\nna 30 jaar zijn er 1195 bomen.\nna
+        31 jaar zijn er 1196 bomen.\nna 32 jaar zijn er 1197 bomen.\nna 33 jaar zijn
+        er 1198 bomen.\nna 34 jaar zijn er 1199 bomen.\nna 35 jaar zijn er 1200 bomen.\n\
+        na 36 jaar zijn er 1200 bomen.\nEr zullen uiteindelijk 1200 bomen in het bos
+        zijn.\n"
+  - testcases:
+    - stdin: "1000\n10\n60"
+      stdout: "Er zijn eerst 1000 bomen in het bos.\nna 1 jaar zijn er 960 bomen.\n\
+        na 2 jaar zijn er 924 bomen.\nna 3 jaar zijn er 892 bomen.\nna 4 jaar zijn
+        er 863 bomen.\nna 5 jaar zijn er 837 bomen.\nna 6 jaar zijn er 814 bomen.\n\
+        na 7 jaar zijn er 793 bomen.\nna 8 jaar zijn er 774 bomen.\nna 9 jaar zijn
+        er 757 bomen.\nna 10 jaar zijn er 742 bomen.\nna 11 jaar zijn er 728 bomen.\n\
+        na 12 jaar zijn er 716 bomen.\nna 13 jaar zijn er 705 bomen.\nna 14 jaar zijn
+        er 695 bomen.\nna 15 jaar zijn er 686 bomen.\nna 16 jaar zijn er 678 bomen.\n\
+        na 17 jaar zijn er 671 bomen.\nna 18 jaar zijn er 664 bomen.\nna 19 jaar zijn
+        er 658 bomen.\nna 20 jaar zijn er 653 bomen.\nna 21 jaar zijn er 648 bomen.\n\
+        na 22 jaar zijn er 644 bomen.\nna 23 jaar zijn er 640 bomen.\nna 24 jaar zijn
+        er 636 bomen.\nna 25 jaar zijn er 633 bomen.\nna 26 jaar zijn er 630 bomen.\n\
+        na 27 jaar zijn er 627 bomen.\nna 28 jaar zijn er 625 bomen.\nna 29 jaar zijn
+        er 623 bomen.\nna 30 jaar zijn er 621 bomen.\nna 31 jaar zijn er 619 bomen.\n\
+        na 32 jaar zijn er 618 bomen.\nna 33 jaar zijn er 617 bomen.\nna 34 jaar zijn
+        er 616 bomen.\nna 35 jaar zijn er 615 bomen.\nna 36 jaar zijn er 614 bomen.\n\
+        na 37 jaar zijn er 613 bomen.\nna 38 jaar zijn er 612 bomen.\nna 39 jaar zijn
+        er 611 bomen.\nna 40 jaar zijn er 610 bomen.\nna 41 jaar zijn er 609 bomen.\n\
+        na 42 jaar zijn er 609 bomen.\nEr zullen uiteindelijk 609 bomen in het bos
+        zijn.\n"
+  - testcases:
+    - stdin: "1000\n5\n120"
+      stdout: "Er zijn eerst 1000 bomen in het bos.\nna 1 jaar zijn er 1070 bomen.\n\
+        na 2 jaar zijn er 1137 bomen.\nna 3 jaar zijn er 1201 bomen.\nna 4 jaar zijn
+        er 1261 bomen.\nna 5 jaar zijn er 1318 bomen.\nna 6 jaar zijn er 1373 bomen.\n\
+        na 7 jaar zijn er 1425 bomen.\nna 8 jaar zijn er 1474 bomen.\nna 9 jaar zijn
+        er 1521 bomen.\nna 10 jaar zijn er 1565 bomen.\nna 11 jaar zijn er 1607 bomen.\n\
+        na 12 jaar zijn er 1647 bomen.\nna 13 jaar zijn er 1685 bomen.\nna 14 jaar
+        zijn er 1721 bomen.\nna 15 jaar zijn er 1755 bomen.\nna 16 jaar zijn er 1788
+        bomen.\nna 17 jaar zijn er 1819 bomen.\nna 18 jaar zijn er 1849 bomen.\nna
+        19 jaar zijn er 1877 bomen.\nna 20 jaar zijn er 1904 bomen.\nna 21 jaar zijn
+        er 1929 bomen.\nna 22 jaar zijn er 1953 bomen.\nna 23 jaar zijn er 1976 bomen.\n\
+        na 24 jaar zijn er 1998 bomen.\nna 25 jaar zijn er 2019 bomen.\nna 26 jaar
+        zijn er 2039 bomen.\nna 27 jaar zijn er 2058 bomen.\nna 28 jaar zijn er 2076
+        bomen.\nna 29 jaar zijn er 2093 bomen.\nna 30 jaar zijn er 2109 bomen.\nna
+        31 jaar zijn er 2124 bomen.\nna 32 jaar zijn er 2138 bomen.\nna 33 jaar zijn
+        er 2152 bomen.\nna 34 jaar zijn er 2165 bomen.\nna 35 jaar zijn er 2177 bomen.\n\
+        na 36 jaar zijn er 2189 bomen.\nna 37 jaar zijn er 2200 bomen.\nna 38 jaar
+        zijn er 2210 bomen.\nna 39 jaar zijn er 2220 bomen.\nna 40 jaar zijn er 2229
+        bomen.\nna 41 jaar zijn er 2238 bomen.\nna 42 jaar zijn er 2247 bomen.\nna
+        43 jaar zijn er 2255 bomen.\nna 44 jaar zijn er 2263 bomen.\nna 45 jaar zijn
+        er 2270 bomen.\nna 46 jaar zijn er 2277 bomen.\nna 47 jaar zijn er 2284 bomen.\n\
+        na 48 jaar zijn er 2290 bomen.\nna 49 jaar zijn er 2296 bomen.\nna 50 jaar
+        zijn er 2302 bomen.\nna 51 jaar zijn er 2307 bomen.\nna 52 jaar zijn er 2312
+        bomen.\nna 53 jaar zijn er 2317 bomen.\nna 54 jaar zijn er 2322 bomen.\nna
+        55 jaar zijn er 2326 bomen.\nna 56 jaar zijn er 2330 bomen.\nna 57 jaar zijn
+        er 2334 bomen.\nna 58 jaar zijn er 2338 bomen.\nna 59 jaar zijn er 2342 bomen.\n\
+        na 60 jaar zijn er 2345 bomen.\nna 61 jaar zijn er 2348 bomen.\nna 62 jaar
+        zijn er 2351 bomen.\nna 63 jaar zijn er 2354 bomen.\nna 64 jaar zijn er 2357
+        bomen.\nna 65 jaar zijn er 2360 bomen.\nna 66 jaar zijn er 2362 bomen.\nna
+        67 jaar zijn er 2364 bomen.\nna 68 jaar zijn er 2366 bomen.\nna 69 jaar zijn
+        er 2368 bomen.\nna 70 jaar zijn er 2370 bomen.\nna 71 jaar zijn er 2372 bomen.\n\
+        na 72 jaar zijn er 2374 bomen.\nna 73 jaar zijn er 2376 bomen.\nna 74 jaar
+        zijn er 2378 bomen.\nna 75 jaar zijn er 2380 bomen.\nna 76 jaar zijn er 2381
+        bomen.\nna 77 jaar zijn er 2382 bomen.\nna 78 jaar zijn er 2383 bomen.\nna
+        79 jaar zijn er 2384 bomen.\nna 80 jaar zijn er 2385 bomen.\nna 81 jaar zijn
+        er 2386 bomen.\nna 82 jaar zijn er 2387 bomen.\nna 83 jaar zijn er 2388 bomen.\n\
+        na 84 jaar zijn er 2389 bomen.\nna 85 jaar zijn er 2390 bomen.\nna 86 jaar
+        zijn er 2391 bomen.\nna 87 jaar zijn er 2392 bomen.\nna 88 jaar zijn er 2393
+        bomen.\nna 89 jaar zijn er 2394 bomen.\nna 90 jaar zijn er 2395 bomen.\nna
+        91 jaar zijn er 2396 bomen.\nna 92 jaar zijn er 2397 bomen.\nna 93 jaar zijn
+        er 2398 bomen.\nna 94 jaar zijn er 2399 bomen.\nna 95 jaar zijn er 2400 bomen.\n\
+        na 96 jaar zijn er 2400 bomen.\nEr zullen uiteindelijk 2400 bomen in het bos
+        zijn.\n"
+  - testcases:
+    - stdin: "2000\n5\n120"
+      stdout: "Er zijn eerst 2000 bomen in het bos.\nna 1 jaar zijn er 2020 bomen.\n\
+        na 2 jaar zijn er 2039 bomen.\nna 3 jaar zijn er 2058 bomen.\nna 4 jaar zijn
+        er 2076 bomen.\nna 5 jaar zijn er 2093 bomen.\nna 6 jaar zijn er 2109 bomen.\n\
+        na 7 jaar zijn er 2124 bomen.\nna 8 jaar zijn er 2138 bomen.\nna 9 jaar zijn
+        er 2152 bomen.\nna 10 jaar zijn er 2165 bomen.\nna 11 jaar zijn er 2177 bomen.\n\
+        na 12 jaar zijn er 2189 bomen.\nna 13 jaar zijn er 2200 bomen.\nna 14 jaar
+        zijn er 2210 bomen.\nna 15 jaar zijn er 2220 bomen.\nna 16 jaar zijn er 2229
+        bomen.\nna 17 jaar zijn er 2238 bomen.\nna 18 jaar zijn er 2247 bomen.\nna
+        19 jaar zijn er 2255 bomen.\nna 20 jaar zijn er 2263 bomen.\nna 21 jaar zijn
+        er 2270 bomen.\nna 22 jaar zijn er 2277 bomen.\nna 23 jaar zijn er 2284 bomen.\n\
+        na 24 jaar zijn er 2290 bomen.\nna 25 jaar zijn er 2296 bomen.\nna 26 jaar
+        zijn er 2302 bomen.\nna 27 jaar zijn er 2307 bomen.\nna 28 jaar zijn er 2312
+        bomen.\nna 29 jaar zijn er 2317 bomen.\nna 30 jaar zijn er 2322 bomen.\nna
+        31 jaar zijn er 2326 bomen.\nna 32 jaar zijn er 2330 bomen.\nna 33 jaar zijn
+        er 2334 bomen.\nna 34 jaar zijn er 2338 bomen.\nna 35 jaar zijn er 2342 bomen.\n\
+        na 36 jaar zijn er 2345 bomen.\nna 37 jaar zijn er 2348 bomen.\nna 38 jaar
+        zijn er 2351 bomen.\nna 39 jaar zijn er 2354 bomen.\nna 40 jaar zijn er 2357
+        bomen.\nna 41 jaar zijn er 2360 bomen.\nna 42 jaar zijn er 2362 bomen.\nna
+        43 jaar zijn er 2364 bomen.\nna 44 jaar zijn er 2366 bomen.\nna 45 jaar zijn
+        er 2368 bomen.\nna 46 jaar zijn er 2370 bomen.\nna 47 jaar zijn er 2372 bomen.\n\
+        na 48 jaar zijn er 2374 bomen.\nna 49 jaar zijn er 2376 bomen.\nna 50 jaar
+        zijn er 2378 bomen.\nna 51 jaar zijn er 2380 bomen.\nna 52 jaar zijn er 2381
+        bomen.\nna 53 jaar zijn er 2382 bomen.\nna 54 jaar zijn er 2383 bomen.\nna
+        55 jaar zijn er 2384 bomen.\nna 56 jaar zijn er 2385 bomen.\nna 57 jaar zijn
+        er 2386 bomen.\nna 58 jaar zijn er 2387 bomen.\nna 59 jaar zijn er 2388 bomen.\n\
+        na 60 jaar zijn er 2389 bomen.\nna 61 jaar zijn er 2390 bomen.\nna 62 jaar
+        zijn er 2391 bomen.\nna 63 jaar zijn er 2392 bomen.\nna 64 jaar zijn er 2393
+        bomen.\nna 65 jaar zijn er 2394 bomen.\nna 66 jaar zijn er 2395 bomen.\nna
+        67 jaar zijn er 2396 bomen.\nna 68 jaar zijn er 2397 bomen.\nna 69 jaar zijn
+        er 2398 bomen.\nna 70 jaar zijn er 2399 bomen.\nna 71 jaar zijn er 2400 bomen.\n\
+        na 72 jaar zijn er 2400 bomen.\nEr zullen uiteindelijk 2400 bomen in het bos
+        zijn.\n"
+  - testcases:
+    - stdin: "2000\n10\n240"
+      stdout: "Er zijn eerst 2000 bomen in het bos.\nna 1 jaar zijn er 2040 bomen.\n\
+        na 2 jaar zijn er 2076 bomen.\nna 3 jaar zijn er 2109 bomen.\nna 4 jaar zijn
+        er 2139 bomen.\nna 5 jaar zijn er 2166 bomen.\nna 6 jaar zijn er 2190 bomen.\n\
+        na 7 jaar zijn er 2211 bomen.\nna 8 jaar zijn er 2230 bomen.\nna 9 jaar zijn
+        er 2247 bomen.\nna 10 jaar zijn er 2263 bomen.\nna 11 jaar zijn er 2277 bomen.\n\
+        na 12 jaar zijn er 2290 bomen.\nna 13 jaar zijn er 2301 bomen.\nna 14 jaar
+        zijn er 2311 bomen.\nna 15 jaar zijn er 2320 bomen.\nna 16 jaar zijn er 2328
+        bomen.\nna 17 jaar zijn er 2336 bomen.\nna 18 jaar zijn er 2343 bomen.\nna
+        19 jaar zijn er 2349 bomen.\nna 20 jaar zijn er 2355 bomen.\nna 21 jaar zijn
+        er 2360 bomen.\nna 22 jaar zijn er 2364 bomen.\nna 23 jaar zijn er 2368 bomen.\n\
+        na 24 jaar zijn er 2372 bomen.\nna 25 jaar zijn er 2375 bomen.\nna 26 jaar
+        zijn er 2378 bomen.\nna 27 jaar zijn er 2381 bomen.\nna 28 jaar zijn er 2383
+        bomen.\nna 29 jaar zijn er 2385 bomen.\nna 30 jaar zijn er 2387 bomen.\nna
+        31 jaar zijn er 2389 bomen.\nna 32 jaar zijn er 2391 bomen.\nna 33 jaar zijn
+        er 2392 bomen.\nna 34 jaar zijn er 2393 bomen.\nna 35 jaar zijn er 2394 bomen.\n\
+        na 36 jaar zijn er 2395 bomen.\nna 37 jaar zijn er 2396 bomen.\nna 38 jaar
+        zijn er 2397 bomen.\nna 39 jaar zijn er 2398 bomen.\nna 40 jaar zijn er 2399
+        bomen.\nna 41 jaar zijn er 2400 bomen.\nna 42 jaar zijn er 2400 bomen.\nEr
+        zullen uiteindelijk 2400 bomen in het bos zijn.\n"
+  - testcases:
+    - stdin: "2000\n10\n50"
+      stdout: "Er zijn eerst 2000 bomen in het bos.\nna 1 jaar zijn er 1850 bomen.\n\
+        na 2 jaar zijn er 1715 bomen.\nna 3 jaar zijn er 1594 bomen.\nna 4 jaar zijn
+        er 1485 bomen.\nna 5 jaar zijn er 1387 bomen.\nna 6 jaar zijn er 1299 bomen.\n\
+        na 7 jaar zijn er 1220 bomen.\nna 8 jaar zijn er 1148 bomen.\nna 9 jaar zijn
+        er 1084 bomen.\nna 10 jaar zijn er 1026 bomen.\nna 11 jaar zijn er 974 bomen.\n\
+        na 12 jaar zijn er 927 bomen.\nna 13 jaar zijn er 885 bomen.\nna 14 jaar zijn
+        er 847 bomen.\nna 15 jaar zijn er 813 bomen.\nna 16 jaar zijn er 782 bomen.\n\
+        na 17 jaar zijn er 754 bomen.\nna 18 jaar zijn er 729 bomen.\nna 19 jaar zijn
+        er 707 bomen.\nna 20 jaar zijn er 687 bomen.\nna 21 jaar zijn er 669 bomen.\n\
+        na 22 jaar zijn er 653 bomen.\nna 23 jaar zijn er 638 bomen.\nna 24 jaar zijn
+        er 625 bomen.\nna 25 jaar zijn er 613 bomen.\nna 26 jaar zijn er 602 bomen.\n\
+        na 27 jaar zijn er 592 bomen.\nna 28 jaar zijn er 583 bomen.\nna 29 jaar zijn
+        er 575 bomen.\nna 30 jaar zijn er 568 bomen.\nna 31 jaar zijn er 562 bomen.\n\
+        na 32 jaar zijn er 556 bomen.\nna 33 jaar zijn er 551 bomen.\nna 34 jaar zijn
+        er 546 bomen.\nna 35 jaar zijn er 542 bomen.\nna 36 jaar zijn er 538 bomen.\n\
+        na 37 jaar zijn er 535 bomen.\nna 38 jaar zijn er 532 bomen.\nna 39 jaar zijn
+        er 529 bomen.\nna 40 jaar zijn er 527 bomen.\nna 41 jaar zijn er 525 bomen.\n\
+        na 42 jaar zijn er 523 bomen.\nna 43 jaar zijn er 521 bomen.\nna 44 jaar zijn
+        er 519 bomen.\nna 45 jaar zijn er 518 bomen.\nna 46 jaar zijn er 517 bomen.\n\
+        na 47 jaar zijn er 516 bomen.\nna 48 jaar zijn er 515 bomen.\nna 49 jaar zijn
+        er 514 bomen.\nna 50 jaar zijn er 513 bomen.\nna 51 jaar zijn er 512 bomen.\n\
+        na 52 jaar zijn er 511 bomen.\nna 53 jaar zijn er 510 bomen.\nna 54 jaar zijn
+        er 509 bomen.\nna 55 jaar zijn er 509 bomen.\nEr zullen uiteindelijk 509 bomen
+        in het bos zijn.\n"
+  - testcases:
+    - stdin: "2000\n10\n220"
+      stdout: "Er zijn eerst 2000 bomen in het bos.\nna 1 jaar zijn er 2020 bomen.\n\
+        na 2 jaar zijn er 2038 bomen.\nna 3 jaar zijn er 2055 bomen.\nna 4 jaar zijn
+        er 2070 bomen.\nna 5 jaar zijn er 2083 bomen.\nna 6 jaar zijn er 2095 bomen.\n\
+        na 7 jaar zijn er 2106 bomen.\nna 8 jaar zijn er 2116 bomen.\nna 9 jaar zijn
+        er 2125 bomen.\nna 10 jaar zijn er 2133 bomen.\nna 11 jaar zijn er 2140 bomen.\n\
+        na 12 jaar zijn er 2146 bomen.\nna 13 jaar zijn er 2152 bomen.\nna 14 jaar
+        zijn er 2157 bomen.\nna 15 jaar zijn er 2162 bomen.\nna 16 jaar zijn er 2166
+        bomen.\nna 17 jaar zijn er 2170 bomen.\nna 18 jaar zijn er 2173 bomen.\nna
+        19 jaar zijn er 2176 bomen.\nna 20 jaar zijn er 2179 bomen.\nna 21 jaar zijn
+        er 2182 bomen.\nna 22 jaar zijn er 2184 bomen.\nna 23 jaar zijn er 2186 bomen.\n\
+        na 24 jaar zijn er 2188 bomen.\nna 25 jaar zijn er 2190 bomen.\nna 26 jaar
+        zijn er 2191 bomen.\nna 27 jaar zijn er 2192 bomen.\nna 28 jaar zijn er 2193
+        bomen.\nna 29 jaar zijn er 2194 bomen.\nna 30 jaar zijn er 2195 bomen.\nna
+        31 jaar zijn er 2196 bomen.\nna 32 jaar zijn er 2197 bomen.\nna 33 jaar zijn
+        er 2198 bomen.\nna 34 jaar zijn er 2199 bomen.\nna 35 jaar zijn er 2200 bomen.\n\
+        na 36 jaar zijn er 2200 bomen.\nEr zullen uiteindelijk 2200 bomen in het bos
+        zijn.\n"
+  - testcases:
+    - stdin: "2000\n15\n170"
+      stdout: "Er zijn eerst 2000 bomen in het bos.\nna 1 jaar zijn er 1870 bomen.\n\
+        na 2 jaar zijn er 1760 bomen.\nna 3 jaar zijn er 1666 bomen.\nna 4 jaar zijn
+        er 1587 bomen.\nna 5 jaar zijn er 1519 bomen.\nna 6 jaar zijn er 1462 bomen.\n\
+        na 7 jaar zijn er 1413 bomen.\nna 8 jaar zijn er 1372 bomen.\nna 9 jaar zijn
+        er 1337 bomen.\nna 10 jaar zijn er 1307 bomen.\nna 11 jaar zijn er 1281 bomen.\n\
+        na 12 jaar zijn er 1259 bomen.\nna 13 jaar zijn er 1241 bomen.\nna 14 jaar
+        zijn er 1225 bomen.\nna 15 jaar zijn er 1212 bomen.\nna 16 jaar zijn er 1201
+        bomen.\nna 17 jaar zijn er 1191 bomen.\nna 18 jaar zijn er 1183 bomen.\nna
+        19 jaar zijn er 1176 bomen.\nna 20 jaar zijn er 1170 bomen.\nna 21 jaar zijn
+        er 1165 bomen.\nna 22 jaar zijn er 1161 bomen.\nna 23 jaar zijn er 1157 bomen.\n\
+        na 24 jaar zijn er 1154 bomen.\nna 25 jaar zijn er 1151 bomen.\nna 26 jaar
+        zijn er 1149 bomen.\nna 27 jaar zijn er 1147 bomen.\nna 28 jaar zijn er 1145
+        bomen.\nna 29 jaar zijn er 1144 bomen.\nna 30 jaar zijn er 1143 bomen.\nna
+        31 jaar zijn er 1142 bomen.\nna 32 jaar zijn er 1141 bomen.\nna 33 jaar zijn
+        er 1140 bomen.\nna 34 jaar zijn er 1139 bomen.\nna 35 jaar zijn er 1139 bomen.\n\
+        Er zullen uiteindelijk 1139 bomen in het bos zijn.\n"
+  - testcases:
+    - stdin: "2000\n5\n190"
+      stdout: "Er zijn eerst 2000 bomen in het bos.\nna 1 jaar zijn er 2090 bomen.\n\
+        na 2 jaar zijn er 2176 bomen.\nna 3 jaar zijn er 2258 bomen.\nna 4 jaar zijn
+        er 2336 bomen.\nna 5 jaar zijn er 2410 bomen.\nna 6 jaar zijn er 2480 bomen.\n\
+        na 7 jaar zijn er 2546 bomen.\nna 8 jaar zijn er 2609 bomen.\nna 9 jaar zijn
+        er 2669 bomen.\nna 10 jaar zijn er 2726 bomen.\nna 11 jaar zijn er 2780 bomen.\n\
+        na 12 jaar zijn er 2831 bomen.\nna 13 jaar zijn er 2880 bomen.\nna 14 jaar
+        zijn er 2926 bomen.\nna 15 jaar zijn er 2970 bomen.\nna 16 jaar zijn er 3012
+        bomen.\nna 17 jaar zijn er 3052 bomen.\nna 18 jaar zijn er 3090 bomen.\nna
+        19 jaar zijn er 3126 bomen.\nna 20 jaar zijn er 3160 bomen.\nna 21 jaar zijn
+        er 3192 bomen.\nna 22 jaar zijn er 3223 bomen.\nna 23 jaar zijn er 3252 bomen.\n\
+        na 24 jaar zijn er 3280 bomen.\nna 25 jaar zijn er 3306 bomen.\nna 26 jaar
+        zijn er 3331 bomen.\nna 27 jaar zijn er 3355 bomen.\nna 28 jaar zijn er 3378
+        bomen.\nna 29 jaar zijn er 3400 bomen.\nna 30 jaar zijn er 3420 bomen.\nna
+        31 jaar zijn er 3439 bomen.\nna 32 jaar zijn er 3458 bomen.\nna 33 jaar zijn
+        er 3476 bomen.\nna 34 jaar zijn er 3493 bomen.\nna 35 jaar zijn er 3509 bomen.\n\
+        na 36 jaar zijn er 3524 bomen.\nna 37 jaar zijn er 3538 bomen.\nna 38 jaar
+        zijn er 3552 bomen.\nna 39 jaar zijn er 3565 bomen.\nna 40 jaar zijn er 3577
+        bomen.\nna 41 jaar zijn er 3589 bomen.\nna 42 jaar zijn er 3600 bomen.\nna
+        43 jaar zijn er 3610 bomen.\nna 44 jaar zijn er 3620 bomen.\nna 45 jaar zijn
+        er 3629 bomen.\nna 46 jaar zijn er 3638 bomen.\nna 47 jaar zijn er 3647 bomen.\n\
+        na 48 jaar zijn er 3655 bomen.\nna 49 jaar zijn er 3663 bomen.\nna 50 jaar
+        zijn er 3670 bomen.\nna 51 jaar zijn er 3677 bomen.\nna 52 jaar zijn er 3684
+        bomen.\nna 53 jaar zijn er 3690 bomen.\nna 54 jaar zijn er 3696 bomen.\nna
+        55 jaar zijn er 3702 bomen.\nna 56 jaar zijn er 3707 bomen.\nna 57 jaar zijn
+        er 3712 bomen.\nna 58 jaar zijn er 3717 bomen.\nna 59 jaar zijn er 3722 bomen.\n\
+        na 60 jaar zijn er 3726 bomen.\nna 61 jaar zijn er 3730 bomen.\nna 62 jaar
+        zijn er 3734 bomen.\nna 63 jaar zijn er 3738 bomen.\nna 64 jaar zijn er 3742
+        bomen.\nna 65 jaar zijn er 3745 bomen.\nna 66 jaar zijn er 3748 bomen.\nna
+        67 jaar zijn er 3751 bomen.\nna 68 jaar zijn er 3754 bomen.\nna 69 jaar zijn
+        er 3757 bomen.\nna 70 jaar zijn er 3760 bomen.\nna 71 jaar zijn er 3762 bomen.\n\
+        na 72 jaar zijn er 3764 bomen.\nna 73 jaar zijn er 3766 bomen.\nna 74 jaar
+        zijn er 3768 bomen.\nna 75 jaar zijn er 3770 bomen.\nna 76 jaar zijn er 3772
+        bomen.\nna 77 jaar zijn er 3774 bomen.\nna 78 jaar zijn er 3776 bomen.\nna
+        79 jaar zijn er 3778 bomen.\nna 80 jaar zijn er 3780 bomen.\nna 81 jaar zijn
+        er 3781 bomen.\nna 82 jaar zijn er 3782 bomen.\nna 83 jaar zijn er 3783 bomen.\n\
+        na 84 jaar zijn er 3784 bomen.\nna 85 jaar zijn er 3785 bomen.\nna 86 jaar
+        zijn er 3786 bomen.\nna 87 jaar zijn er 3787 bomen.\nna 88 jaar zijn er 3788
+        bomen.\nna 89 jaar zijn er 3789 bomen.\nna 90 jaar zijn er 3790 bomen.\nna
+        91 jaar zijn er 3791 bomen.\nna 92 jaar zijn er 3792 bomen.\nna 93 jaar zijn
+        er 3793 bomen.\nna 94 jaar zijn er 3794 bomen.\nna 95 jaar zijn er 3795 bomen.\n\
+        na 96 jaar zijn er 3796 bomen.\nna 97 jaar zijn er 3797 bomen.\nna 98 jaar
+        zijn er 3798 bomen.\nna 99 jaar zijn er 3799 bomen.\nna 100 jaar zijn er 3800
+        bomen.\nna 101 jaar zijn er 3800 bomen.\nEr zullen uiteindelijk 3800 bomen
+        in het bos zijn.\n"
+  - testcases:
+    - stdin: "3000\n10\n100"
+      stdout: "Er zijn eerst 3000 bomen in het bos.\nna 1 jaar zijn er 2800 bomen.\n\
+        na 2 jaar zijn er 2620 bomen.\nna 3 jaar zijn er 2458 bomen.\nna 4 jaar zijn
+        er 2313 bomen.\nna 5 jaar zijn er 2182 bomen.\nna 6 jaar zijn er 2064 bomen.\n\
+        na 7 jaar zijn er 1958 bomen.\nna 8 jaar zijn er 1863 bomen.\nna 9 jaar zijn
+        er 1777 bomen.\nna 10 jaar zijn er 1700 bomen.\nna 11 jaar zijn er 1630 bomen.\n\
+        na 12 jaar zijn er 1567 bomen.\nna 13 jaar zijn er 1511 bomen.\nna 14 jaar
+        zijn er 1460 bomen.\nna 15 jaar zijn er 1414 bomen.\nna 16 jaar zijn er 1373
+        bomen.\nna 17 jaar zijn er 1336 bomen.\nna 18 jaar zijn er 1303 bomen.\nna
+        19 jaar zijn er 1273 bomen.\nna 20 jaar zijn er 1246 bomen.\nna 21 jaar zijn
+        er 1222 bomen.\nna 22 jaar zijn er 1200 bomen.\nna 23 jaar zijn er 1180 bomen.\n\
+        na 24 jaar zijn er 1162 bomen.\nna 25 jaar zijn er 1146 bomen.\nna 26 jaar
+        zijn er 1132 bomen.\nna 27 jaar zijn er 1119 bomen.\nna 28 jaar zijn er 1108
+        bomen.\nna 29 jaar zijn er 1098 bomen.\nna 30 jaar zijn er 1089 bomen.\nna
+        31 jaar zijn er 1081 bomen.\nna 32 jaar zijn er 1073 bomen.\nna 33 jaar zijn
+        er 1066 bomen.\nna 34 jaar zijn er 1060 bomen.\nna 35 jaar zijn er 1054 bomen.\n\
+        na 36 jaar zijn er 1049 bomen.\nna 37 jaar zijn er 1045 bomen.\nna 38 jaar
+        zijn er 1041 bomen.\nna 39 jaar zijn er 1037 bomen.\nna 40 jaar zijn er 1034
+        bomen.\nna 41 jaar zijn er 1031 bomen.\nna 42 jaar zijn er 1028 bomen.\nna
+        43 jaar zijn er 1026 bomen.\nna 44 jaar zijn er 1024 bomen.\nna 45 jaar zijn
+        er 1022 bomen.\nna 46 jaar zijn er 1020 bomen.\nna 47 jaar zijn er 1018 bomen.\n\
+        na 48 jaar zijn er 1017 bomen.\nna 49 jaar zijn er 1016 bomen.\nna 50 jaar
+        zijn er 1015 bomen.\nna 51 jaar zijn er 1014 bomen.\nna 52 jaar zijn er 1013
+        bomen.\nna 53 jaar zijn er 1012 bomen.\nna 54 jaar zijn er 1011 bomen.\nna
+        55 jaar zijn er 1010 bomen.\nna 56 jaar zijn er 1009 bomen.\nna 57 jaar zijn
+        er 1009 bomen.\nEr zullen uiteindelijk 1009 bomen in het bos zijn.\n"
+  - testcases:
+    - stdin: "3000\n15\n120"
+      stdout: "Er zijn eerst 3000 bomen in het bos.\nna 1 jaar zijn er 2670 bomen.\n\
+        na 2 jaar zijn er 2390 bomen.\nna 3 jaar zijn er 2152 bomen.\nna 4 jaar zijn
+        er 1950 bomen.\nna 5 jaar zijn er 1778 bomen.\nna 6 jaar zijn er 1632 bomen.\n\
+        na 7 jaar zijn er 1508 bomen.\nna 8 jaar zijn er 1402 bomen.\nna 9 jaar zijn
+        er 1312 bomen.\nna 10 jaar zijn er 1236 bomen.\nna 11 jaar zijn er 1171 bomen.\n\
+        na 12 jaar zijn er 1116 bomen.\nna 13 jaar zijn er 1069 bomen.\nna 14 jaar
+        zijn er 1029 bomen.\nna 15 jaar zijn er 995 bomen.\nna 16 jaar zijn er 966
+        bomen.\nna 17 jaar zijn er 942 bomen.\nna 18 jaar zijn er 921 bomen.\nna 19
+        jaar zijn er 903 bomen.\nna 20 jaar zijn er 888 bomen.\nna 21 jaar zijn er
+        875 bomen.\nna 22 jaar zijn er 864 bomen.\nna 23 jaar zijn er 855 bomen.\n\
+        na 24 jaar zijn er 847 bomen.\nna 25 jaar zijn er 840 bomen.\nna 26 jaar zijn
+        er 834 bomen.\nna 27 jaar zijn er 829 bomen.\nna 28 jaar zijn er 825 bomen.\n\
+        na 29 jaar zijn er 822 bomen.\nna 30 jaar zijn er 819 bomen.\nna 31 jaar zijn
+        er 817 bomen.\nna 32 jaar zijn er 815 bomen.\nna 33 jaar zijn er 813 bomen.\n\
+        na 34 jaar zijn er 812 bomen.\nna 35 jaar zijn er 811 bomen.\nna 36 jaar zijn
+        er 810 bomen.\nna 37 jaar zijn er 809 bomen.\nna 38 jaar zijn er 808 bomen.\n\
+        na 39 jaar zijn er 807 bomen.\nna 40 jaar zijn er 806 bomen.\nna 41 jaar zijn
+        er 806 bomen.\nEr zullen uiteindelijk 806 bomen in het bos zijn.\n"
+  - testcases:
+    - stdin: "4000\n5\n160"
+      stdout: "Er zijn eerst 4000 bomen in het bos.\nna 1 jaar zijn er 3960 bomen.\n\
+        na 2 jaar zijn er 3922 bomen.\nna 3 jaar zijn er 3886 bomen.\nna 4 jaar zijn
+        er 3852 bomen.\nna 5 jaar zijn er 3820 bomen.\nna 6 jaar zijn er 3789 bomen.\n\
+        na 7 jaar zijn er 3760 bomen.\nna 8 jaar zijn er 3732 bomen.\nna 9 jaar zijn
+        er 3706 bomen.\nna 10 jaar zijn er 3681 bomen.\nna 11 jaar zijn er 3657 bomen.\n\
+        na 12 jaar zijn er 3635 bomen.\nna 13 jaar zijn er 3614 bomen.\nna 14 jaar
+        zijn er 3594 bomen.\nna 15 jaar zijn er 3575 bomen.\nna 16 jaar zijn er 3557
+        bomen.\nna 17 jaar zijn er 3540 bomen.\nna 18 jaar zijn er 3523 bomen.\nna
+        19 jaar zijn er 3507 bomen.\nna 20 jaar zijn er 3492 bomen.\nna 21 jaar zijn
+        er 3478 bomen.\nna 22 jaar zijn er 3465 bomen.\nna 23 jaar zijn er 3452 bomen.\n\
+        na 24 jaar zijn er 3440 bomen.\nna 25 jaar zijn er 3428 bomen.\nna 26 jaar
+        zijn er 3417 bomen.\nna 27 jaar zijn er 3407 bomen.\nna 28 jaar zijn er 3397
+        bomen.\nna 29 jaar zijn er 3388 bomen.\nna 30 jaar zijn er 3379 bomen.\nna
+        31 jaar zijn er 3371 bomen.\nna 32 jaar zijn er 3363 bomen.\nna 33 jaar zijn
+        er 3355 bomen.\nna 34 jaar zijn er 3348 bomen.\nna 35 jaar zijn er 3341 bomen.\n\
+        na 36 jaar zijn er 3334 bomen.\nna 37 jaar zijn er 3328 bomen.\nna 38 jaar
+        zijn er 3322 bomen.\nna 39 jaar zijn er 3316 bomen.\nna 40 jaar zijn er 3311
+        bomen.\nna 41 jaar zijn er 3306 bomen.\nna 42 jaar zijn er 3301 bomen.\nna
+        43 jaar zijn er 3296 bomen.\nna 44 jaar zijn er 3292 bomen.\nna 45 jaar zijn
+        er 3288 bomen.\nna 46 jaar zijn er 3284 bomen.\nna 47 jaar zijn er 3280 bomen.\n\
+        na 48 jaar zijn er 3276 bomen.\nna 49 jaar zijn er 3273 bomen.\nna 50 jaar
+        zijn er 3270 bomen.\nna 51 jaar zijn er 3267 bomen.\nna 52 jaar zijn er 3264
+        bomen.\nna 53 jaar zijn er 3261 bomen.\nna 54 jaar zijn er 3258 bomen.\nna
+        55 jaar zijn er 3256 bomen.\nna 56 jaar zijn er 3254 bomen.\nna 57 jaar zijn
+        er 3252 bomen.\nna 58 jaar zijn er 3250 bomen.\nna 59 jaar zijn er 3248 bomen.\n\
+        na 60 jaar zijn er 3246 bomen.\nna 61 jaar zijn er 3244 bomen.\nna 62 jaar
+        zijn er 3242 bomen.\nna 63 jaar zijn er 3240 bomen.\nna 64 jaar zijn er 3238
+        bomen.\nna 65 jaar zijn er 3237 bomen.\nna 66 jaar zijn er 3236 bomen.\nna
+        67 jaar zijn er 3235 bomen.\nna 68 jaar zijn er 3234 bomen.\nna 69 jaar zijn
+        er 3233 bomen.\nna 70 jaar zijn er 3232 bomen.\nna 71 jaar zijn er 3231 bomen.\n\
+        na 72 jaar zijn er 3230 bomen.\nna 73 jaar zijn er 3229 bomen.\nna 74 jaar
+        zijn er 3228 bomen.\nna 75 jaar zijn er 3227 bomen.\nna 76 jaar zijn er 3226
+        bomen.\nna 77 jaar zijn er 3225 bomen.\nna 78 jaar zijn er 3224 bomen.\nna
+        79 jaar zijn er 3223 bomen.\nna 80 jaar zijn er 3222 bomen.\nna 81 jaar zijn
+        er 3221 bomen.\nna 82 jaar zijn er 3220 bomen.\nna 83 jaar zijn er 3219 bomen.\n\
+        na 84 jaar zijn er 3219 bomen.\nEr zullen uiteindelijk 3219 bomen in het bos
+        zijn.\n"
+  - testcases:
+    - stdin: "4000\n10\n220"
+      stdout: "Er zijn eerst 4000 bomen in het bos.\nna 1 jaar zijn er 3820 bomen.\n\
+        na 2 jaar zijn er 3658 bomen.\nna 3 jaar zijn er 3513 bomen.\nna 4 jaar zijn
+        er 3382 bomen.\nna 5 jaar zijn er 3264 bomen.\nna 6 jaar zijn er 3158 bomen.\n\
+        na 7 jaar zijn er 3063 bomen.\nna 8 jaar zijn er 2977 bomen.\nna 9 jaar zijn
+        er 2900 bomen.\nna 10 jaar zijn er 2830 bomen.\nna 11 jaar zijn er 2767 bomen.\n\
+        na 12 jaar zijn er 2711 bomen.\nna 13 jaar zijn er 2660 bomen.\nna 14 jaar
+        zijn er 2614 bomen.\nna 15 jaar zijn er 2573 bomen.\nna 16 jaar zijn er 2536
+        bomen.\nna 17 jaar zijn er 2503 bomen.\nna 18 jaar zijn er 2473 bomen.\nna
+        19 jaar zijn er 2446 bomen.\nna 20 jaar zijn er 2422 bomen.\nna 21 jaar zijn
+        er 2400 bomen.\nna 22 jaar zijn er 2380 bomen.\nna 23 jaar zijn er 2362 bomen.\n\
+        na 24 jaar zijn er 2346 bomen.\nna 25 jaar zijn er 2332 bomen.\nna 26 jaar
+        zijn er 2319 bomen.\nna 27 jaar zijn er 2308 bomen.\nna 28 jaar zijn er 2298
+        bomen.\nna 29 jaar zijn er 2289 bomen.\nna 30 jaar zijn er 2281 bomen.\nna
+        31 jaar zijn er 2273 bomen.\nna 32 jaar zijn er 2266 bomen.\nna 33 jaar zijn
+        er 2260 bomen.\nna 34 jaar zijn er 2254 bomen.\nna 35 jaar zijn er 2249 bomen.\n\
+        na 36 jaar zijn er 2245 bomen.\nna 37 jaar zijn er 2241 bomen.\nna 38 jaar
+        zijn er 2237 bomen.\nna 39 jaar zijn er 2234 bomen.\nna 40 jaar zijn er 2231
+        bomen.\nna 41 jaar zijn er 2228 bomen.\nna 42 jaar zijn er 2226 bomen.\nna
+        43 jaar zijn er 2224 bomen.\nna 44 jaar zijn er 2222 bomen.\nna 45 jaar zijn
+        er 2220 bomen.\nna 46 jaar zijn er 2218 bomen.\nna 47 jaar zijn er 2217 bomen.\n\
+        na 48 jaar zijn er 2216 bomen.\nna 49 jaar zijn er 2215 bomen.\nna 50 jaar
+        zijn er 2214 bomen.\nna 51 jaar zijn er 2213 bomen.\nna 52 jaar zijn er 2212
+        bomen.\nna 53 jaar zijn er 2211 bomen.\nna 54 jaar zijn er 2210 bomen.\nna
+        55 jaar zijn er 2209 bomen.\nna 56 jaar zijn er 2209 bomen.\nEr zullen uiteindelijk
+        2209 bomen in het bos zijn.\n"
+  - testcases:
+    - stdin: "4000\n5\n210"
+      stdout: "Er zijn eerst 4000 bomen in het bos.\nna 1 jaar zijn er 4010 bomen.\n\
+        na 2 jaar zijn er 4020 bomen.\nna 3 jaar zijn er 4029 bomen.\nna 4 jaar zijn
+        er 4038 bomen.\nna 5 jaar zijn er 4047 bomen.\nna 6 jaar zijn er 4055 bomen.\n\
+        na 7 jaar zijn er 4063 bomen.\nna 8 jaar zijn er 4070 bomen.\nna 9 jaar zijn
+        er 4077 bomen.\nna 10 jaar zijn er 4084 bomen.\nna 11 jaar zijn er 4090 bomen.\n\
+        na 12 jaar zijn er 4096 bomen.\nna 13 jaar zijn er 4102 bomen.\nna 14 jaar
+        zijn er 4107 bomen.\nna 15 jaar zijn er 4112 bomen.\nna 16 jaar zijn er 4117
+        bomen.\nna 17 jaar zijn er 4122 bomen.\nna 18 jaar zijn er 4126 bomen.\nna
+        19 jaar zijn er 4130 bomen.\nna 20 jaar zijn er 4134 bomen.\nna 21 jaar zijn
+        er 4138 bomen.\nna 22 jaar zijn er 4142 bomen.\nna 23 jaar zijn er 4145 bomen.\n\
+        na 24 jaar zijn er 4148 bomen.\nna 25 jaar zijn er 4151 bomen.\nna 26 jaar
+        zijn er 4154 bomen.\nna 27 jaar zijn er 4157 bomen.\nna 28 jaar zijn er 4160
+        bomen.\nna 29 jaar zijn er 4162 bomen.\nna 30 jaar zijn er 4164 bomen.\nna
+        31 jaar zijn er 4166 bomen.\nna 32 jaar zijn er 4168 bomen.\nna 33 jaar zijn
+        er 4170 bomen.\nna 34 jaar zijn er 4172 bomen.\nna 35 jaar zijn er 4174 bomen.\n\
+        na 36 jaar zijn er 4176 bomen.\nna 37 jaar zijn er 4178 bomen.\nna 38 jaar
+        zijn er 4180 bomen.\nna 39 jaar zijn er 4181 bomen.\nna 40 jaar zijn er 4182
+        bomen.\nna 41 jaar zijn er 4183 bomen.\nna 42 jaar zijn er 4184 bomen.\nna
+        43 jaar zijn er 4185 bomen.\nna 44 jaar zijn er 4186 bomen.\nna 45 jaar zijn
+        er 4187 bomen.\nna 46 jaar zijn er 4188 bomen.\nna 47 jaar zijn er 4189 bomen.\n\
+        na 48 jaar zijn er 4190 bomen.\nna 49 jaar zijn er 4191 bomen.\nna 50 jaar
+        zijn er 4192 bomen.\nna 51 jaar zijn er 4193 bomen.\nna 52 jaar zijn er 4194
+        bomen.\nna 53 jaar zijn er 4195 bomen.\nna 54 jaar zijn er 4196 bomen.\nna
+        55 jaar zijn er 4197 bomen.\nna 56 jaar zijn er 4198 bomen.\nna 57 jaar zijn
+        er 4199 bomen.\nna 58 jaar zijn er 4200 bomen.\nna 59 jaar zijn er 4200 bomen.\n\
+        Er zullen uiteindelijk 4200 bomen in het bos zijn.\n"
+  - testcases:
+    - stdin: "5000\n15\n210"
+      stdout: "Er zijn eerst 5000 bomen in het bos.\nna 1 jaar zijn er 4460 bomen.\n\
+        na 2 jaar zijn er 4001 bomen.\nna 3 jaar zijn er 3611 bomen.\nna 4 jaar zijn
+        er 3280 bomen.\nna 5 jaar zijn er 2998 bomen.\nna 6 jaar zijn er 2759 bomen.\n\
+        na 7 jaar zijn er 2556 bomen.\nna 8 jaar zijn er 2383 bomen.\nna 9 jaar zijn
+        er 2236 bomen.\nna 10 jaar zijn er 2111 bomen.\nna 11 jaar zijn er 2005 bomen.\n\
+        na 12 jaar zijn er 1915 bomen.\nna 13 jaar zijn er 1838 bomen.\nna 14 jaar
+        zijn er 1773 bomen.\nna 15 jaar zijn er 1718 bomen.\nna 16 jaar zijn er 1671
+        bomen.\nna 17 jaar zijn er 1631 bomen.\nna 18 jaar zijn er 1597 bomen.\nna
+        19 jaar zijn er 1568 bomen.\nna 20 jaar zijn er 1543 bomen.\nna 21 jaar zijn
+        er 1522 bomen.\nna 22 jaar zijn er 1504 bomen.\nna 23 jaar zijn er 1489 bomen.\n\
+        na 24 jaar zijn er 1476 bomen.\nna 25 jaar zijn er 1465 bomen.\nna 26 jaar
+        zijn er 1456 bomen.\nna 27 jaar zijn er 1448 bomen.\nna 28 jaar zijn er 1441
+        bomen.\nna 29 jaar zijn er 1435 bomen.\nna 30 jaar zijn er 1430 bomen.\nna
+        31 jaar zijn er 1426 bomen.\nna 32 jaar zijn er 1423 bomen.\nna 33 jaar zijn
+        er 1420 bomen.\nna 34 jaar zijn er 1417 bomen.\nna 35 jaar zijn er 1415 bomen.\n\
+        na 36 jaar zijn er 1413 bomen.\nna 37 jaar zijn er 1412 bomen.\nna 38 jaar
+        zijn er 1411 bomen.\nna 39 jaar zijn er 1410 bomen.\nna 40 jaar zijn er 1409
+        bomen.\nna 41 jaar zijn er 1408 bomen.\nna 42 jaar zijn er 1407 bomen.\nna
+        43 jaar zijn er 1406 bomen.\nna 44 jaar zijn er 1406 bomen.\nEr zullen uiteindelijk
+        1406 bomen in het bos zijn.\n"
+  - testcases:
+    - stdin: "5000\n5\n130"
+      stdout: "Er zijn eerst 5000 bomen in het bos.\nna 1 jaar zijn er 4880 bomen.\n\
+        na 2 jaar zijn er 4766 bomen.\nna 3 jaar zijn er 4658 bomen.\nna 4 jaar zijn
+        er 4556 bomen.\nna 5 jaar zijn er 4459 bomen.\nna 6 jaar zijn er 4367 bomen.\n\
+        na 7 jaar zijn er 4279 bomen.\nna 8 jaar zijn er 4196 bomen.\nna 9 jaar zijn
+        er 4117 bomen.\nna 10 jaar zijn er 4042 bomen.\nna 11 jaar zijn er 3970 bomen.\n\
+        na 12 jaar zijn er 3902 bomen.\nna 13 jaar zijn er 3837 bomen.\nna 14 jaar
+        zijn er 3776 bomen.\nna 15 jaar zijn er 3718 bomen.\nna 16 jaar zijn er 3663
+        bomen.\nna 17 jaar zijn er 3610 bomen.\nna 18 jaar zijn er 3560 bomen.\nna
+        19 jaar zijn er 3512 bomen.\nna 20 jaar zijn er 3467 bomen.\nna 21 jaar zijn
+        er 3424 bomen.\nna 22 jaar zijn er 3383 bomen.\nna 23 jaar zijn er 3344 bomen.\n\
+        na 24 jaar zijn er 3307 bomen.\nna 25 jaar zijn er 3272 bomen.\nna 26 jaar
+        zijn er 3239 bomen.\nna 27 jaar zijn er 3208 bomen.\nna 28 jaar zijn er 3178
+        bomen.\nna 29 jaar zijn er 3150 bomen.\nna 30 jaar zijn er 3123 bomen.\nna
+        31 jaar zijn er 3097 bomen.\nna 32 jaar zijn er 3073 bomen.\nna 33 jaar zijn
+        er 3050 bomen.\nna 34 jaar zijn er 3028 bomen.\nna 35 jaar zijn er 3007 bomen.\n\
+        na 36 jaar zijn er 2987 bomen.\nna 37 jaar zijn er 2968 bomen.\nna 38 jaar
+        zijn er 2950 bomen.\nna 39 jaar zijn er 2933 bomen.\nna 40 jaar zijn er 2917
+        bomen.\nna 41 jaar zijn er 2902 bomen.\nna 42 jaar zijn er 2887 bomen.\nna
+        43 jaar zijn er 2873 bomen.\nna 44 jaar zijn er 2860 bomen.\nna 45 jaar zijn
+        er 2847 bomen.\nna 46 jaar zijn er 2835 bomen.\nna 47 jaar zijn er 2824 bomen.\n\
+        na 48 jaar zijn er 2813 bomen.\nna 49 jaar zijn er 2803 bomen.\nna 50 jaar
+        zijn er 2793 bomen.\nna 51 jaar zijn er 2784 bomen.\nna 52 jaar zijn er 2775
+        bomen.\nna 53 jaar zijn er 2767 bomen.\nna 54 jaar zijn er 2759 bomen.\nna
+        55 jaar zijn er 2752 bomen.\nna 56 jaar zijn er 2745 bomen.\nna 57 jaar zijn
+        er 2738 bomen.\nna 58 jaar zijn er 2732 bomen.\nna 59 jaar zijn er 2726 bomen.\n\
+        na 60 jaar zijn er 2720 bomen.\nna 61 jaar zijn er 2714 bomen.\nna 62 jaar
+        zijn er 2709 bomen.\nna 63 jaar zijn er 2704 bomen.\nna 64 jaar zijn er 2699
+        bomen.\nna 65 jaar zijn er 2695 bomen.\nna 66 jaar zijn er 2691 bomen.\nna
+        67 jaar zijn er 2687 bomen.\nna 68 jaar zijn er 2683 bomen.\nna 69 jaar zijn
+        er 2679 bomen.\nna 70 jaar zijn er 2676 bomen.\nna 71 jaar zijn er 2673 bomen.\n\
+        na 72 jaar zijn er 2670 bomen.\nna 73 jaar zijn er 2667 bomen.\nna 74 jaar
+        zijn er 2664 bomen.\nna 75 jaar zijn er 2661 bomen.\nna 76 jaar zijn er 2658
+        bomen.\nna 77 jaar zijn er 2656 bomen.\nna 78 jaar zijn er 2654 bomen.\nna
+        79 jaar zijn er 2652 bomen.\nna 80 jaar zijn er 2650 bomen.\nna 81 jaar zijn
+        er 2648 bomen.\nna 82 jaar zijn er 2646 bomen.\nna 83 jaar zijn er 2644 bomen.\n\
+        na 84 jaar zijn er 2642 bomen.\nna 85 jaar zijn er 2640 bomen.\nna 86 jaar
+        zijn er 2638 bomen.\nna 87 jaar zijn er 2637 bomen.\nna 88 jaar zijn er 2636
+        bomen.\nna 89 jaar zijn er 2635 bomen.\nna 90 jaar zijn er 2634 bomen.\nna
+        91 jaar zijn er 2633 bomen.\nna 92 jaar zijn er 2632 bomen.\nna 93 jaar zijn
+        er 2631 bomen.\nna 94 jaar zijn er 2630 bomen.\nna 95 jaar zijn er 2629 bomen.\n\
+        na 96 jaar zijn er 2628 bomen.\nna 97 jaar zijn er 2627 bomen.\nna 98 jaar
+        zijn er 2626 bomen.\nna 99 jaar zijn er 2625 bomen.\nna 100 jaar zijn er 2624
+        bomen.\nna 101 jaar zijn er 2623 bomen.\nna 102 jaar zijn er 2622 bomen.\n\
+        na 103 jaar zijn er 2621 bomen.\nna 104 jaar zijn er 2620 bomen.\nna 105 jaar
+        zijn er 2619 bomen.\nna 106 jaar zijn er 2619 bomen.\nEr zullen uiteindelijk
+        2619 bomen in het bos zijn.\n"
+  - testcases:
+    - stdin: "5000\n10\n60"
+      stdout: "Er zijn eerst 5000 bomen in het bos.\nna 1 jaar zijn er 4560 bomen.\n\
+        na 2 jaar zijn er 4164 bomen.\nna 3 jaar zijn er 3808 bomen.\nna 4 jaar zijn
+        er 3488 bomen.\nna 5 jaar zijn er 3200 bomen.\nna 6 jaar zijn er 2940 bomen.\n\
+        na 7 jaar zijn er 2706 bomen.\nna 8 jaar zijn er 2496 bomen.\nna 9 jaar zijn
+        er 2307 bomen.\nna 10 jaar zijn er 2137 bomen.\nna 11 jaar zijn er 1984 bomen.\n\
+        na 12 jaar zijn er 1846 bomen.\nna 13 jaar zijn er 1722 bomen.\nna 14 jaar
+        zijn er 1610 bomen.\nna 15 jaar zijn er 1509 bomen.\nna 16 jaar zijn er 1419
+        bomen.\nna 17 jaar zijn er 1338 bomen.\nna 18 jaar zijn er 1265 bomen.\nna
+        19 jaar zijn er 1199 bomen.\nna 20 jaar zijn er 1140 bomen.\nna 21 jaar zijn
+        er 1086 bomen.\nna 22 jaar zijn er 1038 bomen.\nna 23 jaar zijn er 995 bomen.\n\
+        na 24 jaar zijn er 956 bomen.\nna 25 jaar zijn er 921 bomen.\nna 26 jaar zijn
+        er 889 bomen.\nna 27 jaar zijn er 861 bomen.\nna 28 jaar zijn er 835 bomen.\n\
+        na 29 jaar zijn er 812 bomen.\nna 30 jaar zijn er 791 bomen.\nna 31 jaar zijn
+        er 772 bomen.\nna 32 jaar zijn er 755 bomen.\nna 33 jaar zijn er 740 bomen.\n\
+        na 34 jaar zijn er 726 bomen.\nna 35 jaar zijn er 714 bomen.\nna 36 jaar zijn
+        er 703 bomen.\nna 37 jaar zijn er 693 bomen.\nna 38 jaar zijn er 684 bomen.\n\
+        na 39 jaar zijn er 676 bomen.\nna 40 jaar zijn er 669 bomen.\nna 41 jaar zijn
+        er 663 bomen.\nna 42 jaar zijn er 657 bomen.\nna 43 jaar zijn er 652 bomen.\n\
+        na 44 jaar zijn er 647 bomen.\nna 45 jaar zijn er 643 bomen.\nna 46 jaar zijn
+        er 639 bomen.\nna 47 jaar zijn er 636 bomen.\nna 48 jaar zijn er 633 bomen.\n\
+        na 49 jaar zijn er 630 bomen.\nna 50 jaar zijn er 627 bomen.\nna 51 jaar zijn
+        er 625 bomen.\nna 52 jaar zijn er 623 bomen.\nna 53 jaar zijn er 621 bomen.\n\
+        na 54 jaar zijn er 619 bomen.\nna 55 jaar zijn er 618 bomen.\nna 56 jaar zijn
+        er 617 bomen.\nna 57 jaar zijn er 616 bomen.\nna 58 jaar zijn er 615 bomen.\n\
+        na 59 jaar zijn er 614 bomen.\nna 60 jaar zijn er 613 bomen.\nna 61 jaar zijn
+        er 612 bomen.\nna 62 jaar zijn er 611 bomen.\nna 63 jaar zijn er 610 bomen.\n\
+        na 64 jaar zijn er 609 bomen.\nna 65 jaar zijn er 609 bomen.\nEr zullen uiteindelijk
+        609 bomen in het bos zijn.\n"
