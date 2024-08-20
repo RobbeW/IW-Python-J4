@@ -7,56 +7,86 @@
     - stdin: '365'
       stdout: "De getalsom is 14.\n"
   - testcases:
-    - stdin: '538'
-      stdout: "De getalsom is 16.\n"
-  - testcases:
-    - stdin: '568'
-      stdout: "De getalsom is 19.\n"
-  - testcases:
-    - stdin: '7097'
-      stdout: "De getalsom is 23.\n"
-  - testcases:
-    - stdin: '92972'
-      stdout: "De getalsom is 29.\n"
+    - stdin: '8016'
+      stdout: "De getalsom is 15.\n"
   - testcases:
     - stdin: '123456'
       stdout: "De getalsom is 21.\n"
   - testcases:
-    - stdin: '355378'
-      stdout: "De getalsom is 31.\n"
+    - stdin: '513800'
+      stdout: "De getalsom is 17.\n"
   - testcases:
-    - stdin: '367954'
-      stdout: "De getalsom is 34.\n"
+    - stdin: '69143572'
+      stdout: "De getalsom is 37.\n"
   - testcases:
-    - stdin: '1929033'
-      stdout: "De getalsom is 27.\n"
+    - stdin: '260020346'
+      stdout: "De getalsom is 23.\n"
   - testcases:
-    - stdin: '82551562'
-      stdout: "De getalsom is 34.\n"
+    - stdin: '65099698997'
+      stdout: "De getalsom is 77.\n"
   - testcases:
-    - stdin: '689218234'
-      stdout: "De getalsom is 43.\n"
+    - stdin: '6617236818203943'
+      stdout: "De getalsom is 69.\n"
   - testcases:
-    - stdin: '917399979'
-      stdout: "De getalsom is 63.\n"
+    - stdin: '84653284183184786'
+      stdout: "De getalsom is 86.\n"
   - testcases:
-    - stdin: '3186657188'
-      stdout: "De getalsom is 53.\n"
+    - stdin: '814475903017277450'
+      stdout: "De getalsom is 74.\n"
   - testcases:
-    - stdin: '6617315801'
-      stdout: "De getalsom is 38.\n"
+    - stdin: '2985320610740780134'
+      stdout: "De getalsom is 70.\n"
   - testcases:
-    - stdin: '263735188383'
-      stdout: "De getalsom is 57.\n"
+    - stdin: '3062721248155461127'
+      stdout: "De getalsom is 67.\n"
   - testcases:
-    - stdin: '1715088816052'
-      stdout: "De getalsom is 52.\n"
+    - stdin: '8662145994026946985'
+      stdout: "De getalsom is 103.\n"
   - testcases:
-    - stdin: '9492116569635'
-      stdout: "De getalsom is 66.\n"
+    - stdin: '4862825332341891348262'
+      stdout: "De getalsom is 94.\n"
   - testcases:
-    - stdin: '34676691252508'
-      stdout: "De getalsom is 64.\n"
+    - stdin: '149151249774808925959502'
+      stdout: "De getalsom is 116.\n"
   - testcases:
-    - stdin: '1532390183213346'
-      stdout: "De getalsom is 54.\n"
+    - stdin: '2433002523921461569971314'
+      stdout: "De getalsom is 92.\n"
+  - testcases:
+    - stdin: '7579180255487952507817858311855'
+      stdout: "De getalsom is 156.\n"
+  - testcases:
+    - stdin: '45847359262619914862229855855449'
+      stdout: "De getalsom is 167.\n"
+  - testcases:
+    - stdin: '531349149298285479327600022350877'
+      stdout: "De getalsom is 145.\n"
+  - testcases:
+    - stdin: '43566917194991784962170396180004048'
+      stdout: "De getalsom is 161.\n"
+  - testcases:
+    - stdin: '4957748186195323257504087323524381731'
+      stdout: "De getalsom is 162.\n"
+  - testcases:
+    - stdin: '182603215368997366053063831897792698960196'
+      stdout: "De getalsom is 210.\n"
+  - testcases:
+    - stdin: '9099453852999543611817352621839463814430709802'
+      stdout: "De getalsom is 215.\n"
+  - testcases:
+    - stdin: '9233637969792814417589768145960755715984074983'
+      stdout: "De getalsom is 250.\n"
+  - testcases:
+    - stdin: '590043745683032527344844658551281787723843194517'
+      stdout: "De getalsom is 217.\n"
+  - testcases:
+    - stdin: '957207433707574587565362494181687655088469235085'
+      stdout: "De getalsom is 239.\n"
+  - testcases:
+    - stdin: '5121904704610051334821319208685910712043061276296'
+      stdout: "De getalsom is 175.\n"
+  - testcases:
+    - stdin: '9497780266282454817833894628727526856460266661308'
+      stdout: "De getalsom is 246.\n"
+  - testcases:
+    - stdin: '437404411065731602213358114033066462174622109243644'
+      stdout: "De getalsom is 171.\n"

@@ -33,10 +33,10 @@ module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 
 # generate test data
-ntests = 20
+ntests = 30
 cases = [(365,), (123456,), (7,)]
 while len(cases) < ntests:
-    n = random.randint(1,16) #aantal cijfers
+    n = random.randint(1,50) #aantal cijfers
     case = (random.randint(10**n, 10**(n+1)-1), )
     if case not in cases:
         cases.append(case)
