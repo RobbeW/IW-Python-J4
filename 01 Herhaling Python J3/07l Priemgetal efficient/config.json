@@ -11,8 +11,7 @@
     "handler": "tested",
     "test_suite": "tests.yaml",
     "options": {
-      "mode": "batch",
-      "allow_fallback": true
+      "mode": "context"
     } 
   },
   "labels": [
