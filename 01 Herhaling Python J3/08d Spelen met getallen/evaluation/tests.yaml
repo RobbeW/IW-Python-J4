@@ -1,0 +1,92 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "1\n2\n3"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "2\n24\n12"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "5\n3\n1"
+      stdout: "Onmogelijk\n"
+  - testcases:
+    - stdin: "12\n24\n2"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "1633\n9654\n15764982"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "4138\n9930\n9610"
+      stdout: "Onmogelijk\n"
+  - testcases:
+    - stdin: "8342\n1265\n5494"
+      stdout: "Onmogelijk\n"
+  - testcases:
+    - stdin: "2009\n2442\n5736"
+      stdout: "Onmogelijk\n"
+  - testcases:
+    - stdin: "385\n8104\n8489"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "3686\n3686\n1"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "8676\n723\n12"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "723\n8676\n12"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "4187\n1127\n3060"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "605\n7017\n4503"
+      stdout: "Onmogelijk\n"
+  - testcases:
+    - stdin: "5045\n5045\n1"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "3029\n908\n2750332"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "3991\n3562\n8857"
+      stdout: "Onmogelijk\n"
+  - testcases:
+    - stdin: "6617\n8027\n53114659"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "8576\n8576\n1"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "969\n6102\n3646"
+      stdout: "Onmogelijk\n"
+  - testcases:
+    - stdin: "1712\n1712\n1"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "2368\n6605\n15640640"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "3396\n8488\n5092"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "3255\n1085\n3"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "3765\n7592\n671"
+      stdout: "Onmogelijk\n"
+  - testcases:
+    - stdin: "5131\n5131\n1"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "4172\n6139\n4340"
+      stdout: "Onmogelijk\n"
+  - testcases:
+    - stdin: "4924\n3279\n1645"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "7035\n1818\n5322"
+      stdout: "Onmogelijk\n"
+  - testcases:
+    - stdin: "1674\n3079\n7914"
+      stdout: "Onmogelijk\n"

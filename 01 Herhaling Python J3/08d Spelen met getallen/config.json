@@ -1,0 +1,21 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "description": {
+    "names": {
+      "nl": "Getallen in de lagere school"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "selectie"
+  ],
+  "access": "public",
+  "internals": {
+    "token": "MySB6_gINxdxHRr_t9M2y_sdiJT2ZZBMrzNpMs-PCxMNuajKVadQBfb2XK3et9h5",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
