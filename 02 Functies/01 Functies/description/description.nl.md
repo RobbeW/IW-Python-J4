@@ -46,7 +46,7 @@ vermenigvuldig( 2, 3 )
 
 Parameters worden gebruikt om informatie van buiten de functie naar de functie toe te communiceren. Vaak wil je ook informatie vanuit de functie naar het programma buiten de functie toe communiceren. Daartoe dient het commando `return`.
 
-Uit de wetten van Newton volgt de volgende formule voor de valafstand $$\mathsf{d}$$ van een object gedurende een tijd $$\mathsf{t}$$. Op aarde is de zwaarteveldsterkte $$\mathsf{g = 9.81 \frac{\text{m}}{\text{s}^2}}$$
+Uit de wetten van Newton volgt de volgende formule voor de valafstand d van een object gedurende een tijd t. Op aarde is de zwaarteveldsterkte g = 9,81 m/s².
 
 $$
 \mathsf{d = \dfrac{1}{2}\cdot g \cdot t^2}
@@ -60,9 +60,9 @@ def valafstand( t, g = 9.81 ):
 
 print( "Als een object 3 seconden valt, dan legt het", valafstand( 3 ), "m af.")
 ```
-Je merkt dat alle complexiteit in de functie bevat zit en de `print`-opdracht zeer natuurlijk leest.
+Je merkt dat alle complexiteit in de functie bevat zit en de `print`-functie zeer natuurlijk leest.
 
-De toevoeging van `g = 9.81` bij de parameters zorgde ervoor dat $$\mathsf{g}$$ **standaard** de waarde $$\mathsf{9.81}$$ krijgt. Op de maan is dit slechts $$\mathsf{1,625 \frac{\text{m}}{\text{s}^2}}$$, zodat we de vorige zin bijvoorbeeld eenvoudig kunnen aanpassen. $$\mathsf{g}$$ was bij deze functie dus een *optionele* parameter.
+De toevoeging van `g = 9.81` bij de parameters zorgde ervoor dat g **standaard** de waarde 9.81 krijgt. Op de maan is dit slechts 1,625 m/s², zodat we de vorige zin bijvoorbeeld eenvoudig kunnen aanpassen. g was bij deze functie dus een *optionele* parameter.
 ```python
 print( "Als een object 3 seconden valt op de maan, dan legt het", valafstand( 3, 1.625 ), "m af.")
 ```
