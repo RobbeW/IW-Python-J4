@@ -1,0 +1,146 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "40\n30\n5"
+      stdout: "Na 3 minuten bevat de wachtrij 46 personen\nNa 6 minuten bevat de wachtrij
+        47 personen\nDe wachtrij was het langst na 6 minuten.\n"
+  - testcases:
+    - stdin: "60\n50\n3"
+      stdout: "Na 3 minuten bevat de wachtrij 86 personen\nNa 6 minuten bevat de wachtrij
+        109 personen\nNa 9 minuten bevat de wachtrij 129 personen\nNa 12 minuten bevat
+        de wachtrij 146 personen\nNa 15 minuten bevat de wachtrij 160 personen\nNa
+        18 minuten bevat de wachtrij 171 personen\nNa 21 minuten bevat de wachtrij
+        179 personen\nNa 24 minuten bevat de wachtrij 184 personen\nNa 27 minuten
+        bevat de wachtrij 186 personen\nDe wachtrij was het langst na 27 minuten.\n"
+  - testcases:
+    - stdin: "80\n80\n5"
+      stdout: "Na 3 minuten bevat de wachtrij 136 personen\nNa 6 minuten bevat de
+        wachtrij 187 personen\nNa 9 minuten bevat de wachtrij 233 personen\nNa 12
+        minuten bevat de wachtrij 274 personen\nNa 15 minuten bevat de wachtrij 310
+        personen\nNa 18 minuten bevat de wachtrij 341 personen\nNa 21 minuten bevat
+        de wachtrij 367 personen\nNa 24 minuten bevat de wachtrij 388 personen\nNa
+        27 minuten bevat de wachtrij 404 personen\nNa 30 minuten bevat de wachtrij
+        415 personen\nNa 33 minuten bevat de wachtrij 421 personen\nNa 36 minuten
+        bevat de wachtrij 422 personen\nDe wachtrij was het langst na 36 minuten.\n"
+  - testcases:
+    - stdin: "70\n50\n3"
+      stdout: "Na 3 minuten bevat de wachtrij 96 personen\nNa 6 minuten bevat de wachtrij
+        119 personen\nNa 9 minuten bevat de wachtrij 139 personen\nNa 12 minuten bevat
+        de wachtrij 156 personen\nNa 15 minuten bevat de wachtrij 170 personen\nNa
+        18 minuten bevat de wachtrij 181 personen\nNa 21 minuten bevat de wachtrij
+        189 personen\nNa 24 minuten bevat de wachtrij 194 personen\nNa 27 minuten
+        bevat de wachtrij 196 personen\nDe wachtrij was het langst na 27 minuten.\n"
+  - testcases:
+    - stdin: "50\n60\n6"
+      stdout: "Na 3 minuten bevat de wachtrij 86 personen\nNa 6 minuten bevat de wachtrij
+        116 personen\nNa 9 minuten bevat de wachtrij 140 personen\nNa 12 minuten bevat
+        de wachtrij 158 personen\nNa 15 minuten bevat de wachtrij 170 personen\nNa
+        18 minuten bevat de wachtrij 176 personen\nDe wachtrij was het langst na 18
+        minuten.\n"
+  - testcases:
+    - stdin: "80\n60\n8"
+      stdout: "Na 3 minuten bevat de wachtrij 116 personen\nNa 6 minuten bevat de
+        wachtrij 144 personen\nNa 9 minuten bevat de wachtrij 164 personen\nNa 12
+        minuten bevat de wachtrij 176 personen\nNa 15 minuten bevat de wachtrij 180
+        personen\nDe wachtrij was het langst na 15 minuten.\n"
+  - testcases:
+    - stdin: "40\n50\n6"
+      stdout: "Na 3 minuten bevat de wachtrij 66 personen\nNa 6 minuten bevat de wachtrij
+        86 personen\nNa 9 minuten bevat de wachtrij 100 personen\nNa 12 minuten bevat
+        de wachtrij 108 personen\nNa 15 minuten bevat de wachtrij 110 personen\nDe
+        wachtrij was het langst na 15 minuten.\n"
+  - testcases:
+    - stdin: "35\n55\n7"
+      stdout: "Na 3 minuten bevat de wachtrij 66 personen\nNa 6 minuten bevat de wachtrij
+        90 personen\nNa 9 minuten bevat de wachtrij 107 personen\nNa 12 minuten bevat
+        de wachtrij 117 personen\nNa 15 minuten bevat de wachtrij 120 personen\nDe
+        wachtrij was het langst na 15 minuten.\n"
+  - testcases:
+    - stdin: "40\n40\n4"
+      stdout: "Na 3 minuten bevat de wachtrij 56 personen\nNa 6 minuten bevat de wachtrij
+        68 personen\nNa 9 minuten bevat de wachtrij 76 personen\nNa 12 minuten bevat
+        de wachtrij 80 personen\nDe wachtrij was het langst na 12 minuten.\n"
+  - testcases:
+    - stdin: "75\n60\n9"
+      stdout: "Na 3 minuten bevat de wachtrij 111 personen\nNa 6 minuten bevat de
+        wachtrij 138 personen\nNa 9 minuten bevat de wachtrij 156 personen\nNa 12
+        minuten bevat de wachtrij 165 personen\nDe wachtrij was het langst na 12 minuten.\n"
+  - testcases:
+    - stdin: "75\n80\n6"
+      stdout: "Na 3 minuten bevat de wachtrij 131 personen\nNa 6 minuten bevat de
+        wachtrij 181 personen\nNa 9 minuten bevat de wachtrij 225 personen\nNa 12
+        minuten bevat de wachtrij 263 personen\nNa 15 minuten bevat de wachtrij 295
+        personen\nNa 18 minuten bevat de wachtrij 321 personen\nNa 21 minuten bevat
+        de wachtrij 341 personen\nNa 24 minuten bevat de wachtrij 355 personen\nNa
+        27 minuten bevat de wachtrij 363 personen\nNa 30 minuten bevat de wachtrij
+        365 personen\nDe wachtrij was het langst na 30 minuten.\n"
+  - testcases:
+    - stdin: "70\n40\n8"
+      stdout: "Na 3 minuten bevat de wachtrij 86 personen\nNa 6 minuten bevat de wachtrij
+        94 personen\nDe wachtrij was het langst na 6 minuten.\n"
+  - testcases:
+    - stdin: "45\n40\n9"
+      stdout: "Na 3 minuten bevat de wachtrij 61 personen\nNa 6 minuten bevat de wachtrij
+        68 personen\nDe wachtrij was het langst na 6 minuten.\n"
+  - testcases:
+    - stdin: "50\n35\n4"
+      stdout: "Na 3 minuten bevat de wachtrij 61 personen\nNa 6 minuten bevat de wachtrij
+        68 personen\nNa 9 minuten bevat de wachtrij 71 personen\nDe wachtrij was het
+        langst na 9 minuten.\n"
+  - testcases:
+    - stdin: "85\n65\n6"
+      stdout: "Na 3 minuten bevat de wachtrij 126 personen\nNa 6 minuten bevat de
+        wachtrij 161 personen\nNa 9 minuten bevat de wachtrij 190 personen\nNa 12
+        minuten bevat de wachtrij 213 personen\nNa 15 minuten bevat de wachtrij 230
+        personen\nNa 18 minuten bevat de wachtrij 241 personen\nNa 21 minuten bevat
+        de wachtrij 246 personen\nDe wachtrij was het langst na 21 minuten.\n"
+  - testcases:
+    - stdin: "75\n85\n4"
+      stdout: "Na 3 minuten bevat de wachtrij 136 personen\nNa 6 minuten bevat de
+        wachtrij 193 personen\nNa 9 minuten bevat de wachtrij 246 personen\nNa 12
+        minuten bevat de wachtrij 295 personen\nNa 15 minuten bevat de wachtrij 340
+        personen\nNa 18 minuten bevat de wachtrij 381 personen\nNa 21 minuten bevat
+        de wachtrij 418 personen\nNa 24 minuten bevat de wachtrij 451 personen\nNa
+        27 minuten bevat de wachtrij 480 personen\nNa 30 minuten bevat de wachtrij
+        505 personen\nNa 33 minuten bevat de wachtrij 526 personen\nNa 36 minuten
+        bevat de wachtrij 543 personen\nNa 39 minuten bevat de wachtrij 556 personen\n\
+        Na 42 minuten bevat de wachtrij 565 personen\nNa 45 minuten bevat de wachtrij
+        570 personen\nNa 48 minuten bevat de wachtrij 571 personen\nDe wachtrij was
+        het langst na 48 minuten.\n"
+  - testcases:
+    - stdin: "55\n35\n2"
+      stdout: "Na 3 minuten bevat de wachtrij 66 personen\nNa 6 minuten bevat de wachtrij
+        75 personen\nNa 9 minuten bevat de wachtrij 82 personen\nNa 12 minuten bevat
+        de wachtrij 87 personen\nNa 15 minuten bevat de wachtrij 90 personen\nNa 18
+        minuten bevat de wachtrij 91 personen\nDe wachtrij was het langst na 18 minuten.\n"
+  - testcases:
+    - stdin: "80\n85\n2"
+      stdout: "Na 3 minuten bevat de wachtrij 141 personen\nNa 6 minuten bevat de
+        wachtrij 200 personen\nNa 9 minuten bevat de wachtrij 257 personen\nNa 12
+        minuten bevat de wachtrij 312 personen\nNa 15 minuten bevat de wachtrij 365
+        personen\nNa 18 minuten bevat de wachtrij 416 personen\nNa 21 minuten bevat
+        de wachtrij 465 personen\nNa 24 minuten bevat de wachtrij 512 personen\nNa
+        27 minuten bevat de wachtrij 557 personen\nNa 30 minuten bevat de wachtrij
+        600 personen\nNa 33 minuten bevat de wachtrij 641 personen\nNa 36 minuten
+        bevat de wachtrij 680 personen\nNa 39 minuten bevat de wachtrij 717 personen\n\
+        Na 42 minuten bevat de wachtrij 752 personen\nNa 45 minuten bevat de wachtrij
+        785 personen\nNa 48 minuten bevat de wachtrij 816 personen\nNa 51 minuten
+        bevat de wachtrij 845 personen\nNa 54 minuten bevat de wachtrij 872 personen\n\
+        Na 57 minuten bevat de wachtrij 897 personen\nNa 60 minuten bevat de wachtrij
+        920 personen\nNa 63 minuten bevat de wachtrij 941 personen\nNa 66 minuten
+        bevat de wachtrij 960 personen\nNa 69 minuten bevat de wachtrij 977 personen\n\
+        Na 72 minuten bevat de wachtrij 992 personen\nNa 75 minuten bevat de wachtrij
+        1005 personen\nNa 78 minuten bevat de wachtrij 1016 personen\nNa 81 minuten
+        bevat de wachtrij 1025 personen\nNa 84 minuten bevat de wachtrij 1032 personen\n\
+        Na 87 minuten bevat de wachtrij 1037 personen\nNa 90 minuten bevat de wachtrij
+        1040 personen\nNa 93 minuten bevat de wachtrij 1041 personen\nDe wachtrij
+        was het langst na 93 minuten.\n"
+  - testcases:
+    - stdin: "85\n45\n9"
+      stdout: "Na 3 minuten bevat de wachtrij 106 personen\nNa 6 minuten bevat de
+        wachtrij 118 personen\nNa 9 minuten bevat de wachtrij 121 personen\nDe wachtrij
+        was het langst na 9 minuten.\n"
+  - testcases:
+    - stdin: "75\n30\n5"
+      stdout: "Na 3 minuten bevat de wachtrij 81 personen\nNa 6 minuten bevat de wachtrij
+        82 personen\nDe wachtrij was het langst na 6 minuten.\n"

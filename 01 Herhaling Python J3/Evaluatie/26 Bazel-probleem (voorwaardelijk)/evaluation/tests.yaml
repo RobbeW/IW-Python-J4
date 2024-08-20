@@ -1,0 +1,41 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '2'
+      stdout: "De Bazel-benadering van pi met 2 termen is 2.738613\n"
+  - testcases:
+    - stdin: '4'
+      stdout: "De Bazel-benadering van pi met 4 termen is 2.922613\n"
+  - testcases:
+    - stdin: '10'
+      stdout: "De Bazel-benadering van pi met 10 termen is 3.049362\n"
+  - testcases:
+    - stdin: '15'
+      stdout: "De Bazel-benadering van pi met 15 termen is 3.07939\n"
+  - testcases:
+    - stdin: '20'
+      stdout: "De Bazel-benadering van pi met 20 termen is 3.09467\n"
+  - testcases:
+    - stdin: '50'
+      stdout: "De Bazel-benadering van pi met 50 termen is 3.122627\n"
+  - testcases:
+    - stdin: '100'
+      stdout: "De Bazel-benadering van pi met 100 termen is 3.132077\n"
+  - testcases:
+    - stdin: '500'
+      stdout: "De Bazel-benadering van pi met 500 termen is 3.139684\n"
+  - testcases:
+    - stdin: '1000'
+      stdout: "De Bazel-benadering van pi met 1000 termen is 3.140638\n"
+  - testcases:
+    - stdin: '2000'
+      stdout: "De Bazel-benadering van pi met 2000 termen is 3.141115\n"
+  - testcases:
+    - stdin: '5000'
+      stdout: "De Bazel-benadering van pi met 5000 termen is 3.141402\n"
+  - testcases:
+    - stdin: '10000'
+      stdout: "De Bazel-benadering van pi met 10000 termen is 3.141497\n"
+  - testcases:
+    - stdin: '50000'
+      stdout: "De Bazel-benadering van pi met 50000 termen is 3.141574\n"

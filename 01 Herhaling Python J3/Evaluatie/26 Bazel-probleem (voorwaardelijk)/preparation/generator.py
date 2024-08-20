@@ -31,18 +31,8 @@ spec = importlib.util.spec_from_file_location(module_name, file_path)
 module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 
-
 # generate test data
-ncases = 20
-cases = [(40,30,5),(60,50,3)]
-
-while len(cases) < ncases:
-    n = random.randint(3,8)*10 + random.randint(0,1)*5
-    toename = random.randint(3,8)*10 + random.randint(0,1)*5
-    afname = random.randint(1,10)
-    case = (n, toename, afname)
-    if case not in cases:
-        cases.append(case)
+cases = [(2,), (4,), (10,), (15,),(20,),(50,),(100,),(500,),(1000,),(2000,),(5000,), (10000,), (50000,)]
 
 # generate unit tests for functions
 yamldata = []
