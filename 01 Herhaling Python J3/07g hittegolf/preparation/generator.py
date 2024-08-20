@@ -1,10 +1,13 @@
 import os
+import importlib.util
 import random
+import ruamel.yaml
 import subprocess
-from typing import Text
+
+yaml = ruamel.yaml.YAML()
 
 # set fixed seed for generating test cases
-random.seed(123456789)
+random.seed(12345678)
 
 # locate evaldir
 evaldir = os.path.join('..', 'evaluation')
@@ -16,39 +19,48 @@ solutiondir = os.path.join('..', 'solution')
 if not os.path.exists(solutiondir):
     os.makedirs(solutiondir)
 
-# configuration settings
-tab_name = 'Feedback'
-settings = f'''
-tab name: {tab_name}
-python input without prompt: true
-block count: multi
-input block size: ends with
-output block size: ends with
-comparison: exact match
-'''
+def write_yaml( data:list ):
+    """ A function to write YAML file"""
+    with open(os.path.join('..', 'evaluation', 'tests.yaml'), 'w', encoding='utf-8') as f:
+        yaml.dump(data, f)
+
+
+module_name = 'solution'
+file_path = os.path.join(solutiondir, 'solution.nl.py')
+spec = importlib.util.spec_from_file_location(module_name, file_path)
+module = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(module)
 
 # generate test data
 ntests = 20
 cases = [(27.6,29.1,31.1,28.0,30.0,25.1,30.5)]
 while len(cases) < ntests:
-    n = random.randint(4,15)
-    temps = [round(random.uniform(25,29.9), 1) for _ in range(n)]
+    n = random.randint(4,150)
+    temps = [round(random.uniform(22,29.9), 1) for _ in range(n)]
     temps[n-1] = round(random.uniform(30,35), 1)
     i, j = random.sample(range(0, n-2), 2)
     temps[i] = round(random.uniform(30,35), 1)
     temps[j] = round(random.uniform(30,35), 1)
-    cases.append( temps )
+    if temps not in cases:
+        cases.append( temps )
 
-# configure test files
-infile = open(os.path.join(evaldir, '0.in'), 'w')
-outfile = open(os.path.join(evaldir, '0.out'), 'w')
+# generate unit tests for functions
+yamldata = []
 
-# generate unit tests
-for stdin in cases:
+# input, expression, statement or stdin?
+input = 'stdin'
+# output, stdout or return?
+output = 'stdout'
+tabtitle = "Feedback"
+
+yamldata.append( {'tab': tabtitle, 'contexts': []})
+
+for i in range(len(cases)):
+    test = cases[i]
+    yamldata[0]['contexts'].append( {'testcases' : []})
+    # generate test expression
     # add input to input file
-    stdin = '\n'.join(f'{line}' for line in stdin)
-    stdin += '\n'
-    print(stdin, file=infile)
+    stdin = '\n'.join(f'{line}' for line in test)
 
     # generate output to output file
     script = os.path.join(solutiondir, 'solution.nl.py')
@@ -60,13 +72,15 @@ for stdin in cases:
     )
     
     result_lines = process.stdout.split("\n")
+    result_lines = [x for x in result_lines[:-1]] ## drop last element
+    
+    outputtxt = ""
     for line in result_lines:
-        if not(line.startswith( 'Geef' )):
+        if not(line.startswith( 'Geef' ) or line.startswith( 'Voer' )):
             print(line)
-            print(line, file=outfile, end='\n')
+            outputtxt += line + "\n"
+            
+    testcase = { input: stdin, output: outputtxt }            
+    yamldata[0]['contexts'][i]["testcases"].append( testcase)
 
-    # add stdout to output file
-    # print(stdout, file=outfile, end='')
-
-# add settings to output file
-print('-' * 41 + settings, file=outfile, end='')
+write_yaml(yamldata)

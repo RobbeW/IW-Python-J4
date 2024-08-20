@@ -1,16 +1,18 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "Oefening - Hittegolf"
+      "nl": "Hittegolf"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "while-lus",
+    "voorwaardelijke herhaling"
   ],
   "access": "public",
   "internals": {
