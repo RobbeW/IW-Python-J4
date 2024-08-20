@@ -1,0 +1,44 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '2'
+      stdout: "Bij 2 termen benadert men de Archimedes reeks als 0.3125\n"
+  - testcases:
+    - stdin: '3'
+      stdout: "Bij 3 termen benadert men de Archimedes reeks als 0.328125\n"
+  - testcases:
+    - stdin: '4'
+      stdout: "Bij 4 termen benadert men de Archimedes reeks als 0.33203125\n"
+  - testcases:
+    - stdin: '5'
+      stdout: "Bij 5 termen benadert men de Archimedes reeks als 0.333007812\n"
+  - testcases:
+    - stdin: '6'
+      stdout: "Bij 6 termen benadert men de Archimedes reeks als 0.333251953\n"
+  - testcases:
+    - stdin: '7'
+      stdout: "Bij 7 termen benadert men de Archimedes reeks als 0.333312988\n"
+  - testcases:
+    - stdin: '8'
+      stdout: "Bij 8 termen benadert men de Archimedes reeks als 0.333328247\n"
+  - testcases:
+    - stdin: '9'
+      stdout: "Bij 9 termen benadert men de Archimedes reeks als 0.333332062\n"
+  - testcases:
+    - stdin: '10'
+      stdout: "Bij 10 termen benadert men de Archimedes reeks als 0.333333015\n"
+  - testcases:
+    - stdin: '11'
+      stdout: "Bij 11 termen benadert men de Archimedes reeks als 0.333333254\n"
+  - testcases:
+    - stdin: '12'
+      stdout: "Bij 12 termen benadert men de Archimedes reeks als 0.333333313\n"
+  - testcases:
+    - stdin: '13'
+      stdout: "Bij 13 termen benadert men de Archimedes reeks als 0.333333328\n"
+  - testcases:
+    - stdin: '14'
+      stdout: "Bij 14 termen benadert men de Archimedes reeks als 0.333333332\n"
+  - testcases:
+    - stdin: '15'
+      stdout: "Bij 15 termen benadert men de Archimedes reeks als 0.333333333\n"
