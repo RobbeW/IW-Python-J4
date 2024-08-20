@@ -1,0 +1,272 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "315\n45"
+      stdout: "90\n"
+  - testcases:
+    - stdin: "45\n270"
+      stdout: "-135\n"
+  - testcases:
+    - stdin: "180\n270"
+      stdout: "90\n"
+  - testcases:
+    - stdin: "90\n270"
+      stdout: "180\n"
+  - testcases:
+    - stdin: "23\n23"
+      stdout: "0\n"
+  - testcases:
+    - stdin: "51\n324"
+      stdout: "-87\n"
+  - testcases:
+    - stdin: "301\n117"
+      stdout: "176\n"
+  - testcases:
+    - stdin: "129\n310"
+      stdout: "-179\n"
+  - testcases:
+    - stdin: "263\n300"
+      stdout: "37\n"
+  - testcases:
+    - stdin: "260\n39"
+      stdout: "139\n"
+  - testcases:
+    - stdin: "171\n62"
+      stdout: "-109\n"
+  - testcases:
+    - stdin: "76\n179"
+      stdout: "103\n"
+  - testcases:
+    - stdin: "12\n253"
+      stdout: "-119\n"
+  - testcases:
+    - stdin: "20\n188"
+      stdout: "168\n"
+  - testcases:
+    - stdin: "115\n247"
+      stdout: "132\n"
+  - testcases:
+    - stdin: "277\n22"
+      stdout: "105\n"
+  - testcases:
+    - stdin: "234\n113"
+      stdout: "-121\n"
+  - testcases:
+    - stdin: "280\n65"
+      stdout: "145\n"
+  - testcases:
+    - stdin: "130\n35"
+      stdout: "-95\n"
+  - testcases:
+    - stdin: "190\n18"
+      stdout: "-172\n"
+  - testcases:
+    - stdin: "219\n140"
+      stdout: "-79\n"
+  - testcases:
+    - stdin: "286\n324"
+      stdout: "38\n"
+  - testcases:
+    - stdin: "157\n195"
+      stdout: "38\n"
+  - testcases:
+    - stdin: "94\n28"
+      stdout: "-66\n"
+  - testcases:
+    - stdin: "64\n124"
+      stdout: "60\n"
+  - testcases:
+    - stdin: "111\n276"
+      stdout: "165\n"
+  - testcases:
+    - stdin: "206\n250"
+      stdout: "44\n"
+  - testcases:
+    - stdin: "89\n267"
+      stdout: "178\n"
+  - testcases:
+    - stdin: "298\n233"
+      stdout: "-65\n"
+  - testcases:
+    - stdin: "30\n190"
+      stdout: "160\n"
+  - testcases:
+    - stdin: "310\n113"
+      stdout: "163\n"
+  - testcases:
+    - stdin: "75\n53"
+      stdout: "-22\n"
+  - testcases:
+    - stdin: "225\n73"
+      stdout: "-152\n"
+  - testcases:
+    - stdin: "206\n121"
+      stdout: "-85\n"
+  - testcases:
+    - stdin: "106\n265"
+      stdout: "159\n"
+  - testcases:
+    - stdin: "143\n336"
+      stdout: "-167\n"
+  - testcases:
+    - stdin: "110\n33"
+      stdout: "-77\n"
+  - testcases:
+    - stdin: "202\n117"
+      stdout: "-85\n"
+  - testcases:
+    - stdin: "319\n237"
+      stdout: "-82\n"
+  - testcases:
+    - stdin: "352\n20"
+      stdout: "28\n"
+  - testcases:
+    - stdin: "332\n160"
+      stdout: "-172\n"
+  - testcases:
+    - stdin: "325\n206"
+      stdout: "-119\n"
+  - testcases:
+    - stdin: "209\n130"
+      stdout: "-79\n"
+  - testcases:
+    - stdin: "191\n317"
+      stdout: "126\n"
+  - testcases:
+    - stdin: "359\n135"
+      stdout: "136\n"
+  - testcases:
+    - stdin: "153\n102"
+      stdout: "-51\n"
+  - testcases:
+    - stdin: "160\n219"
+      stdout: "59\n"
+  - testcases:
+    - stdin: "56\n278"
+      stdout: "-138\n"
+  - testcases:
+    - stdin: "166\n52"
+      stdout: "-114\n"
+  - testcases:
+    - stdin: "333\n96"
+      stdout: "123\n"
+  - testcases:
+    - stdin: "330\n247"
+      stdout: "-83\n"
+  - testcases:
+    - stdin: "53\n180"
+      stdout: "127\n"
+  - testcases:
+    - stdin: "124\n145"
+      stdout: "21\n"
+  - testcases:
+    - stdin: "264\n318"
+      stdout: "54\n"
+  - testcases:
+    - stdin: "202\n30"
+      stdout: "-172\n"
+  - testcases:
+    - stdin: "103\n141"
+      stdout: "38\n"
+  - testcases:
+    - stdin: "114\n359"
+      stdout: "-115\n"
+  - testcases:
+    - stdin: "351\n3"
+      stdout: "12\n"
+  - testcases:
+    - stdin: "318\n251"
+      stdout: "-67\n"
+  - testcases:
+    - stdin: "171\n200"
+      stdout: "29\n"
+  - testcases:
+    - stdin: "170\n83"
+      stdout: "-87\n"
+  - testcases:
+    - stdin: "249\n50"
+      stdout: "161\n"
+  - testcases:
+    - stdin: "237\n120"
+      stdout: "-117\n"
+  - testcases:
+    - stdin: "73\n102"
+      stdout: "29\n"
+  - testcases:
+    - stdin: "79\n54"
+      stdout: "-25\n"
+  - testcases:
+    - stdin: "66\n78"
+      stdout: "12\n"
+  - testcases:
+    - stdin: "231\n144"
+      stdout: "-87\n"
+  - testcases:
+    - stdin: "335\n83"
+      stdout: "108\n"
+  - testcases:
+    - stdin: "340\n127"
+      stdout: "147\n"
+  - testcases:
+    - stdin: "90\n207"
+      stdout: "117\n"
+  - testcases:
+    - stdin: "231\n211"
+      stdout: "-20\n"
+  - testcases:
+    - stdin: "122\n247"
+      stdout: "125\n"
+  - testcases:
+    - stdin: "244\n230"
+      stdout: "-14\n"
+  - testcases:
+    - stdin: "216\n148"
+      stdout: "-68\n"
+  - testcases:
+    - stdin: "230\n326"
+      stdout: "96\n"
+  - testcases:
+    - stdin: "149\n335"
+      stdout: "-174\n"
+  - testcases:
+    - stdin: "112\n295"
+      stdout: "-177\n"
+  - testcases:
+    - stdin: "198\n97"
+      stdout: "-101\n"
+  - testcases:
+    - stdin: "121\n306"
+      stdout: "-175\n"
+  - testcases:
+    - stdin: "137\n314"
+      stdout: "177\n"
+  - testcases:
+    - stdin: "267\n226"
+      stdout: "-41\n"
+  - testcases:
+    - stdin: "16\n304"
+      stdout: "-72\n"
+  - testcases:
+    - stdin: "144\n231"
+      stdout: "87\n"
+  - testcases:
+    - stdin: "158\n104"
+      stdout: "-54\n"
+  - testcases:
+    - stdin: "71\n162"
+      stdout: "91\n"
+  - testcases:
+    - stdin: "129\n351"
+      stdout: "-138\n"
+  - testcases:
+    - stdin: "338\n323"
+      stdout: "-15\n"
+  - testcases:
+    - stdin: "115\n73"
+      stdout: "-42\n"
+  - testcases:
+    - stdin: "340\n198"
+      stdout: "-142\n"
+  - testcases:
+    - stdin: "34\n107"
+      stdout: "73\n"
