@@ -11,7 +11,8 @@
     }
   },
   "labels": [
-    "while",
+    "while-lus",
+    "voorwaardelijke herhaling",
     "random"
   ],
   "access": "public",
