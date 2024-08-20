@@ -11,7 +11,8 @@
     "test_suite": "tests.yaml"
   },
   "labels": [
-    "selectie"
+    "modulo",
+    "begrensde herhaling"
   ],
   "access": "public",
   "internals": {
