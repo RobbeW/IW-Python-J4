@@ -1,14 +1,34 @@
 - tab: Feedback
   contexts:
   - testcases:
+    - stdin: '5'
+      stdout: 5 is een palindroomgetal.
+    - expression: is_palindroom( 5 )
+      return: true
+  - testcases:
+    - stdin: '44'
+      stdout: 44 is een palindroomgetal.
+    - expression: is_palindroom( 44 )
+      return: true
+  - testcases:
+    - stdin: '66'
+      stdout: 66 is een palindroomgetal.
+    - expression: is_palindroom( 66 )
+      return: true
+  - testcases:
+    - stdin: '99'
+      stdout: 99 is een palindroomgetal.
+    - expression: is_palindroom( 99 )
+      return: true
+  - testcases:
+    - stdin: '606'
+      stdout: 606 is een palindroomgetal.
+    - expression: is_palindroom( 606 )
+      return: true
+  - testcases:
     - stdin: '1221'
       stdout: 1221 is een palindroomgetal.
     - expression: is_palindroom( 1221 )
-      return: true
-  - testcases:
-    - stdin: '14541'
-      stdout: 14541 is een palindroomgetal.
-    - expression: is_palindroom( 14541 )
       return: true
   - testcases:
     - stdin: '13321'
@@ -16,15 +36,40 @@
     - expression: is_palindroom( 13321 )
       return: false
   - testcases:
-    - stdin: '99'
-      stdout: 99 is een palindroomgetal.
-    - expression: is_palindroom( 99 )
+    - stdin: '14541'
+      stdout: 14541 is een palindroomgetal.
+    - expression: is_palindroom( 14541 )
       return: true
   - testcases:
-    - stdin: '5'
-      stdout: 5 is een palindroomgetal.
-    - expression: is_palindroom( 5 )
+    - stdin: '36063'
+      stdout: 36063 is een palindroomgetal.
+    - expression: is_palindroom( 36063 )
       return: true
+  - testcases:
+    - stdin: '46064'
+      stdout: 46064 is een palindroomgetal.
+    - expression: is_palindroom( 46064 )
+      return: true
+  - testcases:
+    - stdin: '483384'
+      stdout: 483384 is een palindroomgetal.
+    - expression: is_palindroom( 483384 )
+      return: true
+  - testcases:
+    - stdin: '40288204'
+      stdout: 40288204 is een palindroomgetal.
+    - expression: is_palindroom( 40288204 )
+      return: true
+  - testcases:
+    - stdin: '540349950'
+      stdout: 540349950 is geen palindroomgetal.
+    - expression: is_palindroom( 540349950 )
+      return: false
+  - testcases:
+    - stdin: '955547095'
+      stdout: 955547095 is geen palindroomgetal.
+    - expression: is_palindroom( 955547095 )
+      return: false
   - testcases:
     - stdin: '1440109146'
       stdout: 1440109146 is geen palindroomgetal.
@@ -36,14 +81,14 @@
     - expression: is_palindroom( 1503425743 )
       return: false
   - testcases:
-    - stdin: '66'
-      stdout: 66 is een palindroomgetal.
-    - expression: is_palindroom( 66 )
-      return: true
+    - stdin: '1694928553'
+      stdout: 1694928553 is geen palindroomgetal.
+    - expression: is_palindroom( 1694928553 )
+      return: false
   - testcases:
-    - stdin: '4484369682'
-      stdout: 4484369682 is geen palindroomgetal.
-    - expression: is_palindroom( 4484369682 )
+    - stdin: '1892594344'
+      stdout: 1892594344 is geen palindroomgetal.
+    - expression: is_palindroom( 1892594344 )
       return: false
   - testcases:
     - stdin: '2356872948'
@@ -51,24 +96,19 @@
     - expression: is_palindroom( 2356872948 )
       return: false
   - testcases:
-    - stdin: '606'
-      stdout: 606 is een palindroomgetal.
-    - expression: is_palindroom( 606 )
-      return: true
-  - testcases:
-    - stdin: '9770217308'
-      stdout: 9770217308 is geen palindroomgetal.
-    - expression: is_palindroom( 9770217308 )
+    - stdin: '3180382826'
+      stdout: 3180382826 is geen palindroomgetal.
+    - expression: is_palindroom( 3180382826 )
       return: false
   - testcases:
-    - stdin: '40288204'
-      stdout: 40288204 is een palindroomgetal.
-    - expression: is_palindroom( 40288204 )
-      return: true
+    - stdin: '4484369682'
+      stdout: 4484369682 is geen palindroomgetal.
+    - expression: is_palindroom( 4484369682 )
+      return: false
   - testcases:
-    - stdin: '540349950'
-      stdout: 540349950 is geen palindroomgetal.
-    - expression: is_palindroom( 540349950 )
+    - stdin: '5642517013'
+      stdout: 5642517013 is geen palindroomgetal.
+    - expression: is_palindroom( 5642517013 )
       return: false
   - testcases:
     - stdin: '6029372840'
@@ -81,34 +121,19 @@
     - expression: is_palindroom( 6800321947 )
       return: false
   - testcases:
-    - stdin: '955547095'
-      stdout: 955547095 is geen palindroomgetal.
-    - expression: is_palindroom( 955547095 )
+    - stdin: '9028583028'
+      stdout: 9028583028 is geen palindroomgetal.
+    - expression: is_palindroom( 9028583028 )
       return: false
   - testcases:
-    - stdin: '1892594344'
-      stdout: 1892594344 is geen palindroomgetal.
-    - expression: is_palindroom( 1892594344 )
+    - stdin: '9770217308'
+      stdout: 9770217308 is geen palindroomgetal.
+    - expression: is_palindroom( 9770217308 )
       return: false
-  - testcases:
-    - stdin: '36063'
-      stdout: 36063 is een palindroomgetal.
-    - expression: is_palindroom( 36063 )
-      return: true
   - testcases:
     - stdin: '325704407523'
       stdout: 325704407523 is een palindroomgetal.
     - expression: is_palindroom( 325704407523 )
-      return: true
-  - testcases:
-    - stdin: '1694928553'
-      stdout: 1694928553 is geen palindroomgetal.
-    - expression: is_palindroom( 1694928553 )
-      return: false
-  - testcases:
-    - stdin: '1429170719241'
-      stdout: 1429170719241 is een palindroomgetal.
-    - expression: is_palindroom( 1429170719241 )
       return: true
   - testcases:
     - stdin: '523814418325'
@@ -116,37 +141,12 @@
     - expression: is_palindroom( 523814418325 )
       return: true
   - testcases:
-    - stdin: '483384'
-      stdout: 483384 is een palindroomgetal.
-    - expression: is_palindroom( 483384 )
+    - stdin: '1429170719241'
+      stdout: 1429170719241 is een palindroomgetal.
+    - expression: is_palindroom( 1429170719241 )
       return: true
   - testcases:
     - stdin: '4151160611514'
       stdout: 4151160611514 is een palindroomgetal.
     - expression: is_palindroom( 4151160611514 )
-      return: true
-  - testcases:
-    - stdin: '5642517013'
-      stdout: 5642517013 is geen palindroomgetal.
-    - expression: is_palindroom( 5642517013 )
-      return: false
-  - testcases:
-    - stdin: '9028583028'
-      stdout: 9028583028 is geen palindroomgetal.
-    - expression: is_palindroom( 9028583028 )
-      return: false
-  - testcases:
-    - stdin: '3180382826'
-      stdout: 3180382826 is geen palindroomgetal.
-    - expression: is_palindroom( 3180382826 )
-      return: false
-  - testcases:
-    - stdin: '46064'
-      stdout: 46064 is een palindroomgetal.
-    - expression: is_palindroom( 46064 )
-      return: true
-  - testcases:
-    - stdin: '44'
-      stdout: 44 is een palindroomgetal.
-    - expression: is_palindroom( 44 )
       return: true

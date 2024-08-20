@@ -16,7 +16,7 @@ b = int( input( "Geef een bovengrens in: " ) )
 
 # Bepalen van de palindroomgetallen
 aantal = 0
-for getal in range(a+1, b):
+for getal in range(a + 1, b):
     if is_palindroom(getal):
         print(getal, "is een palindroomgetal.")
         aantal += 1
