@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '3.1'
+      stdout: "1 Beaufort\n"
+  - testcases:
+    - stdin: '4.3'
+      stdout: "1 Beaufort\n"
+  - testcases:
+    - stdin: '10.0'
+      stdout: "2 Beaufort\n"
+  - testcases:
+    - stdin: '19.4'
+      stdout: "3 Beaufort\n"
+  - testcases:
+    - stdin: '29.2'
+      stdout: "5 Beaufort\n"
+  - testcases:
+    - stdin: '29.7'
+      stdout: "5 Beaufort\n"
+  - testcases:
+    - stdin: '32.8'
+      stdout: "5 Beaufort\n"
+  - testcases:
+    - stdin: '43.6'
+      stdout: "6 Beaufort\n"
+  - testcases:
+    - stdin: '64.3'
+      stdout: "8 Beaufort\n"
+  - testcases:
+    - stdin: '76.2'
+      stdout: "9 Beaufort\n"
+  - testcases:
+    - stdin: '78.8'
+      stdout: "9 Beaufort\n"
+  - testcases:
+    - stdin: '82.3'
+      stdout: "9 Beaufort\n"
+  - testcases:
+    - stdin: '93.6'
+      stdout: "10 Beaufort\n"
+  - testcases:
+    - stdin: '93.7'
+      stdout: "10 Beaufort\n"
+  - testcases:
+    - stdin: '100.0'
+      stdout: "10 Beaufort\n"
+  - testcases:
+    - stdin: '108'
+      stdout: "11 Beaufort\n"
+  - testcases:
+    - stdin: '109.0'
+      stdout: "11 Beaufort\n"
+  - testcases:
+    - stdin: '109.3'
+      stdout: "11 Beaufort\n"
+  - testcases:
+    - stdin: '118.4'
+      stdout: "12 Beaufort\n"
+  - testcases:
+    - stdin: '124.9'
+      stdout: "12 Beaufort\n"
