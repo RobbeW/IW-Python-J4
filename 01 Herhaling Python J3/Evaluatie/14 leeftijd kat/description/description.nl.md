@@ -1,4 +1,4 @@
-![Een lol-cat.](media/lol-cat.gif "Een lol-cat."){:data-caption="Een lol-cat." width="200px"}
+![Een lol-cat.](media/lol-cat.gif "Een lol-cat."){:data-caption="Een lol-cat." width="250px"}
 
 De meeste mensen geloven dat één levensjaar van een kat overeenkomt met zeven mensenjaren. Maar in realiteit is een kat van één jaar veel meer matuur dan een kind van zeven. Er lijkt voldoende consensus te zijn om dit op een andere manier te berekenen.
 

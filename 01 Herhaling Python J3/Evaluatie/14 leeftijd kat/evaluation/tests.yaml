@@ -1,0 +1,47 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '1'
+      stdout: "Een kat van 1 jaar is 15 jaar in mensenjaren!\n"
+  - testcases:
+    - stdin: '2'
+      stdout: "Een kat van 2 jaar is 24 jaar in mensenjaren!\n"
+  - testcases:
+    - stdin: '3'
+      stdout: "Een kat van 3 jaar is 28 jaar in mensenjaren!\n"
+  - testcases:
+    - stdin: '4'
+      stdout: "Een kat van 4 jaar is 32 jaar in mensenjaren!\n"
+  - testcases:
+    - stdin: '5'
+      stdout: "Een kat van 5 jaar is 36 jaar in mensenjaren!\n"
+  - testcases:
+    - stdin: '6'
+      stdout: "Een kat van 6 jaar is 40 jaar in mensenjaren!\n"
+  - testcases:
+    - stdin: '7'
+      stdout: "Een kat van 7 jaar is 44 jaar in mensenjaren!\n"
+  - testcases:
+    - stdin: '10'
+      stdout: "Een kat van 10 jaar is 56 jaar in mensenjaren!\n"
+  - testcases:
+    - stdin: '11'
+      stdout: "Een kat van 11 jaar is 60 jaar in mensenjaren!\n"
+  - testcases:
+    - stdin: '13'
+      stdout: "Een kat van 13 jaar is 68 jaar in mensenjaren!\n"
+  - testcases:
+    - stdin: '14'
+      stdout: "Een kat van 14 jaar is 72 jaar in mensenjaren!\n"
+  - testcases:
+    - stdin: '16'
+      stdout: "Een kat van 16 jaar is 80 jaar in mensenjaren!\n"
+  - testcases:
+    - stdin: '17'
+      stdout: "Een kat van 17 jaar is 84 jaar in mensenjaren!\n"
+  - testcases:
+    - stdin: '18'
+      stdout: "Een kat van 18 jaar is 88 jaar in mensenjaren!\n"
+  - testcases:
+    - stdin: '19'
+      stdout: "Een kat van 19 jaar is 92 jaar in mensenjaren!\n"
