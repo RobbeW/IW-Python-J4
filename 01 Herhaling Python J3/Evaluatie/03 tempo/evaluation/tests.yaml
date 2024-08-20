@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '9.289'
+      stdout: "6.46 min/km\n"
+  - testcases:
+    - stdin: '9.951'
+      stdout: "6.03 min/km\n"
+  - testcases:
+    - stdin: '10.0'
+      stdout: "6.0 min/km\n"
+  - testcases:
+    - stdin: '10.836'
+      stdout: "5.54 min/km\n"
+  - testcases:
+    - stdin: '11.819'
+      stdout: "5.08 min/km\n"
+  - testcases:
+    - stdin: '12.0'
+      stdout: "5.0 min/km\n"
+  - testcases:
+    - stdin: '12.112'
+      stdout: "4.95 min/km\n"
+  - testcases:
+    - stdin: '13.132'
+      stdout: "4.57 min/km\n"
+  - testcases:
+    - stdin: '15.0'
+      stdout: "4.0 min/km\n"
+  - testcases:
+    - stdin: '15.094'
+      stdout: "3.98 min/km\n"
+  - testcases:
+    - stdin: '16.227'
+      stdout: "3.7 min/km\n"
+  - testcases:
+    - stdin: '16.468'
+      stdout: "3.64 min/km\n"
+  - testcases:
+    - stdin: '16.8'
+      stdout: "3.57 min/km\n"
+  - testcases:
+    - stdin: '17.315'
+      stdout: "3.47 min/km\n"
+  - testcases:
+    - stdin: '17.875'
+      stdout: "3.36 min/km\n"
+  - testcases:
+    - stdin: '18.481'
+      stdout: "3.25 min/km\n"
+  - testcases:
+    - stdin: '19.357'
+      stdout: "3.1 min/km\n"
+  - testcases:
+    - stdin: '20.226'
+      stdout: "2.97 min/km\n"
+  - testcases:
+    - stdin: '20.835'
+      stdout: "2.88 min/km\n"
+  - testcases:
+    - stdin: '21.322'
+      stdout: "2.81 min/km\n"

@@ -8,12 +8,14 @@ Je kan dit vrij gemakkelijk uitrekenen door het aantal seconden te tellen tussen
 Schrijf een programma dat het **aantal seconden** tussen bliksemflits en gedonder vraagt en vervolgens de afstand van jezelf tot de blikseminslag berekent. Deze afstand wordt in km op het scherm afgedrukt en afgerond op 3 cijfers na de komma.
 
 #### Voorbeelden
-Bij 4 seconden verschijnt er:
+
+Bij `2` seconden verschijnt er:
+```
+De blikseminslag was 0.686 km van je verwijderd.
+```
+
+Bij `4` seconden verschijnt er:
 ```
 De blikseminslag was 1.372 km van je verwijderd.
 ```
 
-Bij 2 seconden:
-```
-De blikseminslag was 0.686 km van je verwijderd.
-```

@@ -11,15 +11,15 @@ Schrijf een programma dat een snelheid vraagt (in km/u) en het corresponderende 
 #### Voorbeelden
 De invoer `12.000` leidt tot uitvoer:
 ```
-5.00
+5.00 min/km
 ```
 
 De invoer `21.322` leidt tot uitvoer:
 ```
-2.81
+2.81 min/km
 ```
 
 En bij invoer `17.315` verschijnt er:
 ```
-3.47
+3.47 min/km
 ```

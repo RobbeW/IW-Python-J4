@@ -8,5 +8,4 @@ v_fixed = v / 3.6
 B = round( pow( v_fixed / 0.8360, 2/3 ), 0 )
 
 # Weergave
-print()
 print(int(B), 'Beaufort')
