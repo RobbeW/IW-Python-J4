@@ -1,6 +1,4 @@
 {
-  "visibility": "private",
-  "programming_language": "python",
-  "author": "Robbe Wulgaert <robbe.wulgaert@sintlievenscollege.be>",
-  "contact": "robbe.wulgaert@sintlievenscollege.be"
+  "labels": [
+  ]
 }
