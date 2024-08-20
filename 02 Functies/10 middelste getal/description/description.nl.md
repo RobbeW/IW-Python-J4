@@ -1,6 +1,8 @@
 ## Opgave
 
-Schrijf een functie `midden( a, b, c )` dat gegeven drie getallen het tweede grootste getal bepaalt. Vraag **vervolgens** drie getallen en gebruik deze functie om het tweede grootste getal te bepalen.
+Schrijf een functie `midden(a, b, c)` dat gegeven drie getallen het tweede grootste getal bepaalt. 
+
+Vraag **vervolgens** drie getallen en gebruik deze functie om het tweede grootste getal te bepalen.
 
 #### Voorbeelden
 
