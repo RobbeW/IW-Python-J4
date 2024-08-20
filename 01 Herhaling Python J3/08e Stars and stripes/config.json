@@ -1,0 +1,21 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "description": {
+    "names": {
+      "nl": "Stars and Stripes"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "selectie"
+  ],
+  "access": "public",
+  "internals": {
+    "token": "AUNP4Jc4k4ieha7m3wMp2iWX8QKz6XXFbd7wrw-vhH3inQvV2ExdKgnSucYxxfAR",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
