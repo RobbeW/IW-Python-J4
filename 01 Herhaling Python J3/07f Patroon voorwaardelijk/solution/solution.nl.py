@@ -1,10 +1,8 @@
 # Gegevens vragen
 n = int( input( 'Geef het getal in: ' ) )
 
-# Berekening
-flag = True
+# ASCII figuur maken
 i = 0
-while flag:
-    print("*" * n)
-    i +=1
-    flag = i < n
+while i < n:
+    print("X" * n)
+    i += 1

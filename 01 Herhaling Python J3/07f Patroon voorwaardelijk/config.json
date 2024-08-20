@@ -1,16 +1,19 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "Oefening - Patroon (voorwaardelijk)"
+      "nl": "Patroon (voorwaardelijk)"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "while-lus",
+    "voorwaardelijke herhaling",
+    "ASCII patroon"
   ],
   "access": "public",
   "internals": {
