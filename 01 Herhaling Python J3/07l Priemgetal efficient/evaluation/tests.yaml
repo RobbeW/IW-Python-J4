@@ -1,0 +1,92 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '3'
+      stdout: "3 is priem.\n"
+  - testcases:
+    - stdin: '11'
+      stdout: "11 is priem.\n"
+  - testcases:
+    - stdin: '29'
+      stdout: "29 is priem.\n"
+  - testcases:
+    - stdin: '50'
+      stdout: "50 is niet priem.\n"
+  - testcases:
+    - stdin: '61'
+      stdout: "61 is priem.\n"
+  - testcases:
+    - stdin: '91'
+      stdout: "91 is niet priem.\n"
+  - testcases:
+    - stdin: '367'
+      stdout: "367 is priem.\n"
+  - testcases:
+    - stdin: '3433'
+      stdout: "3433 is priem.\n"
+  - testcases:
+    - stdin: '4395'
+      stdout: "4395 is niet priem.\n"
+  - testcases:
+    - stdin: '5137'
+      stdout: "5137 is niet priem.\n"
+  - testcases:
+    - stdin: '9856'
+      stdout: "9856 is niet priem.\n"
+  - testcases:
+    - stdin: '36230'
+      stdout: "36230 is niet priem.\n"
+  - testcases:
+    - stdin: '60089'
+      stdout: "60089 is priem.\n"
+  - testcases:
+    - stdin: '83297'
+      stdout: "83297 is niet priem.\n"
+  - testcases:
+    - stdin: '96259'
+      stdout: "96259 is priem.\n"
+  - testcases:
+    - stdin: '138698'
+      stdout: "138698 is niet priem.\n"
+  - testcases:
+    - stdin: '207091'
+      stdout: "207091 is niet priem.\n"
+  - testcases:
+    - stdin: '766291'
+      stdout: "766291 is niet priem.\n"
+  - testcases:
+    - stdin: '856057'
+      stdout: "856057 is priem.\n"
+  - testcases:
+    - stdin: '2860627'
+      stdout: "2860627 is niet priem.\n"
+  - testcases:
+    - stdin: '5271562'
+      stdout: "5271562 is niet priem.\n"
+  - testcases:
+    - stdin: '29394942'
+      stdout: "29394942 is niet priem.\n"
+  - testcases:
+    - stdin: '33534087'
+      stdout: "33534087 is niet priem.\n"
+  - testcases:
+    - stdin: '39664755'
+      stdout: "39664755 is niet priem.\n"
+  - testcases:
+    - stdin: '82628003'
+      stdout: "82628003 is priem.\n"
+  - testcases:
+    - stdin: '182882380'
+      stdout: "182882380 is niet priem.\n"
+  - testcases:
+    - stdin: '729776559'
+      stdout: "729776559 is niet priem.\n"
+  - testcases:
+    - stdin: '3957990143'
+      stdout: "3957990143 is niet priem.\n"
+  - testcases:
+    - stdin: '5548830793'
+      stdout: "5548830793 is niet priem.\n"
+  - testcases:
+    - stdin: '8311840783'
+      stdout: "8311840783 is niet priem.\n"

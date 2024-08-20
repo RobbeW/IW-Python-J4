@@ -1,16 +1,19 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "Patroon Z"
+      "nl": "Efficiënt bepalen van een priemgetal"
     }
   },
+  "evaluation": {
+    "time_limit": 2,
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "while-lus",
+    "voorwaardelijke herhaling"
   ],
   "access": "public",
   "internals": {
