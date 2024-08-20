@@ -28,7 +28,7 @@ Voor de begrotingsopmaak en de staatsschuld wil men berekenen hoeveel Belgen er 
 Schrijf een programma dat:
 - Het eindjaar vraagt (bvb 2070);
 - per jaar berekent hoeveel inwoners België volgens de verwachtingen zal tellen (op 1 januari van dat jaar);
-- **indien** het jaartal deelbaar is door tien, het jaartal en het aantal inwoners weergeeft op het scherm;
+- **als** het jaartal deelbaar is door tien, het jaartal en het aantal inwoners weergeeft op het scherm;
 
 Gebruik de voorgedefinieerde variabelen `inwoners` en `toename`.
 

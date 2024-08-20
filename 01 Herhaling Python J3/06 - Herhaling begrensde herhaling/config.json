@@ -8,10 +8,12 @@
     }
   },
   "evaluation": {
-    "pythia_judge": "output"
+    "handler": "tested",
+    "test_suite": "tests.yaml"
   },
   "labels": [
-
+    "for-lus",
+    "begrensde herhaling"
   ],
   "internals": {
     "token": "QJNuXpqnN9fhnPp7VF93drjMu6yenmfgwxAiTW9Hvm_IXciYJxWy2n3zbyji7ezx",
