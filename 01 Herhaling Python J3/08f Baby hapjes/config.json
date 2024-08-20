@@ -1,0 +1,23 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "description": {
+    "names": {
+      "nl": "Baby gemompel"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "for-lus",
+    "begrensde herhaling",
+    "selectie"
+  ],
+  "access": "public",
+  "internals": {
+    "token": "s6A-SMD4J4xyYfNKjJfF5gdp7YpXVqs3znswCQ7ctt38k-ihJVSaGId6tZmyDffP",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
