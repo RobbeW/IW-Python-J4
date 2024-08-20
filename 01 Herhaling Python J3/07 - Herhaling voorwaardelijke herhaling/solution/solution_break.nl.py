@@ -2,8 +2,11 @@
 aantal = 0
 som = 0
 
-# Walrusoperator maakt dit superkort
-while (getal := int(input("Geef een getal in: "))) != -1:
+# While True statement met een break
+while True:
+    getal = int(input("Geef een getal in: "))
+    if getal == -1:
+        break
     som += getal
     aantal += 1
 

@@ -8,10 +8,12 @@
     }
   },
   "evaluation": {
-    "pythia_judge": "output"
+    "handler": "tested",
+    "test_suite": "tests.yaml"
   },
   "labels": [
-
+    "while-lus",
+    "voorwaardelijke herhaling"
   ],
   "internals": {
     "token": "TQMbeEeR3DpnhDrHDpWbPsNMz3s-aCRMtcDTugmed8ja3zxhMM5wS9dJIG_D8EfU",
