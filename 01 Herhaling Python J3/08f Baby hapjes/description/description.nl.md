@@ -2,11 +2,11 @@ Baby Jutta wordt één jaar en leert net hoe ze kan tellen. Haar favoriete bezig
 
 ![Foto door Christopher Luther op Unsplash.](media/christopher-luther.jpg "Foto door Christopher Luther op Unsplash."){:data-caption="Foto door Christopher Luther op Unsplash." width="45%"}
 
-Maar tellen met een volle mond lukt natuurlijk niet altijd, soms mompelt ze maar wat. Soms vermoed je dat ze de tel verliest.
+Maar tellen met een volle mond lukt natuurlijk niet altijd, soms mompelt ze maar wat. Je vermoedt dat ze de tel vaak verliest.
 
 ## Opgave
 
-Maak een programma dat controleert of Jutta al dan niet de tel heeft verloren. Als eerste vraagt je programma naar het aantal happen dat Jutta nam. Vervolgens geef je evenveel keer een getal of de tekst "gemompel" in. Nadien verschijnt er: `"Dit lijkt te kloppen."` of `"Hier klopt iets niet..."`
+Maak een programma dat controleert of Jutta al dan niet de tel heeft verloren. Als eerste vraagt je programma naar het aantal happen dat Jutta nam. Vervolgens geef je evenveel keer een getal of de tekst `"gemompel"` in. Nadien verschijnt er: `"Dit lijkt te kloppen."` of `"Hier klopt iets niet..."`
 
 #### Voorbeeld
 
