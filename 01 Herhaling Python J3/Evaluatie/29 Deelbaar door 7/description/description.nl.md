@@ -4,6 +4,8 @@ Er bestaat een methode om manueel te controleren of een getal deelbaar is door 7
 - Bereken het verschil van het getal zonder het cijfer van de eenheden en het vorig getal;
 - Is dit verschil duidelijk deelbaar door 7, dan ben je klaar. Zo niet, herhaal.
 
+![Foto door Jo Coenen - Studio Dries 2.6 op Unsplash.](media/jo-coenen.jpg "Foto door Jo Coenen - Studio Dries 2.6 op Unsplash."){:data-caption="Foto door Jo Coenen - Studio Dries 2.6 op Unsplash." width="45%"}
+
 ## Opgave
 
 Schrijf een programma dat een natuurlijk getal aan de gebruiker vraagt. Vervolgens voer je het bovenstaande algoritme uit, tot je een getal van 2 cijfers hebt. Je programma geeft elke stap van dit algoritme weer.

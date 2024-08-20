@@ -7,6 +7,8 @@ De som van de getallen op de <span style="color:#FF8E27">even rang</span> is 2 +
 
 Het verschil van deze getallen is 11, en dat is natuurlijk deelbaar door 11.
 
+![Foto door Joshua Hoehne op Unsplash.](media/joshua-hoehne.jpg "Foto door Joshua Hoehne op Unsplash."){:data-caption="Foto door Joshua Hoehne op Unsplash." width="45%"}
+
 ## Opgave
 
 Schrijf een programma dat een natuurlijk getal aan de gebruiker vraagt. Vervolgens bepaal je de som van de getallen op de <span style="color:#086FBD">oneven</span> en <span style="color:#FF8E27">even</span> rang. Neem vervolgens het verschil van de grootste en kleinste som, indien dit verschil deelbaar is door 11, dan wordt er afgedrukt dat dit getal deelbaar is door 11. De som van de getallen op oneven en even rang wordt ook altijd afgedrukt.
