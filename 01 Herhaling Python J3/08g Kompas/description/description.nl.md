@@ -1,7 +1,7 @@
-Jonas krijgt de taak een kompas-app te ontwikkelen voor een smartphone. Zijn specifieke taak ligt in het animeren van de bewegende kompasnaald. 
+Jonas krijgt de taak een kompas-app te ontwikkelen. Zijn specifieke taak ligt in het animeren van de bewegende kompasnaald. 
 De animatie is vrij eenvoudig, de naald bevindt zich in een bepaalde richting (tussen 00 en 359° met 0° voor het noorden en 90° voor het oosten). Daarna draait deze volgens een aantal graden. Staat de naald bijvoorbeeld op 0° en draait deze 90°, dan zal deze zich van het noorden naar het oosten richten. Een draaiing van -45° zou de naald naar het noordwesten laten richten.
 
-![Een naald in beweging op een kompas.](media/compass.gif "Een naald in beweging op een kompas."){:data-caption="Een naald in beweging op een kompas." width="250px"}
+![Een naald in beweging op een kompas.](media/compass.gif "Een naald in beweging op een kompas."){:data-caption="Een naald in beweging op een kompas." width="40%"}
 
 ## Opgave
 
