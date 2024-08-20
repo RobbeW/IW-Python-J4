@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "15.3\n5.1"
+      stdout: "De oppervlakte van de epicycloïde is: 1634.256 cm².\n"
+  - testcases:
+    - stdin: "4.6\n27.6"
+      stdout: "De oppervlakte van de epicycloïde is: 6049.325 cm².\n"
+  - testcases:
+    - stdin: "2.1\n8.4"
+      stdout: "De oppervlakte van de epicycloïde is: 623.449 cm².\n"
+  - testcases:
+    - stdin: "4.9\n29.4"
+      stdout: "De oppervlakte van de epicycloïde is: 6864.097 cm².\n"
+  - testcases:
+    - stdin: "3.9\n23.4"
+      stdout: "De oppervlakte van de epicycloïde is: 4348.31 cm².\n"
+  - testcases:
+    - stdin: "1.4\n5.6"
+      stdout: "De oppervlakte van de epicycloïde is: 277.088 cm².\n"
+  - testcases:
+    - stdin: "1.6\n6.4"
+      stdout: "De oppervlakte van de epicycloïde is: 361.911 cm².\n"
+  - testcases:
+    - stdin: "1.1\n5.5"
+      stdout: "De oppervlakte van de epicycloïde is: 250.888 cm².\n"
+  - testcases:
+    - stdin: "1.2\n4.8"
+      stdout: "De oppervlakte van de epicycloïde is: 203.575 cm².\n"
+  - testcases:
+    - stdin: "4.6\n13.8"
+      stdout: "De oppervlakte van de epicycloïde is: 1861.331 cm².\n"
+  - testcases:
+    - stdin: "3.4\n6.8"
+      stdout: "De oppervlakte van de epicycloïde is: 544.752 cm².\n"
+  - testcases:
+    - stdin: "3.3\n19.8"
+      stdout: "De oppervlakte van de epicycloïde is: 3113.287 cm².\n"
+  - testcases:
+    - stdin: "1.6\n3.2"
+      stdout: "De oppervlakte van de epicycloïde is: 120.637 cm².\n"
+  - testcases:
+    - stdin: "2.9\n14.5"
+      stdout: "De oppervlakte van de epicycloïde is: 1743.772 cm².\n"
+  - testcases:
+    - stdin: "5.3\n31.8"
+      stdout: "De oppervlakte van de epicycloïde is: 8030.508 cm².\n"
+  - testcases:
+    - stdin: "5.2\n20.8"
+      stdout: "De oppervlakte van de epicycloïde is: 3822.69 cm².\n"
+  - testcases:
+    - stdin: "2.9\n5.8"
+      stdout: "De oppervlakte van de epicycloïde is: 396.312 cm².\n"
+  - testcases:
+    - stdin: "1.6\n4.8"
+      stdout: "De oppervlakte van de epicycloïde is: 225.189 cm².\n"
+  - testcases:
+    - stdin: "5.0\n25.0"
+      stdout: "De oppervlakte van de epicycloïde is: 5183.628 cm².\n"
+  - testcases:
+    - stdin: "3.4\n20.4"
+      stdout: "De oppervlakte van de epicycloïde is: 3304.83 cm².\n"

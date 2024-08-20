@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "14\n25\n2\n20\n30"
+      stdout: "Je trein komt aan om 17.15 u.\n"
+  - testcases:
+    - stdin: "23\n30\n0\n25\n10"
+      stdout: "Je trein komt aan om 0.5 u.\n"
+  - testcases:
+    - stdin: "9\n40\n1\n48\n32"
+      stdout: "Je trein komt aan om 12.0 u.\n"
+  - testcases:
+    - stdin: "22\n37\n0\n48\n42"
+      stdout: "Je trein komt aan om 0.7 u.\n"
+  - testcases:
+    - stdin: "9\n9\n2\n1\n112"
+      stdout: "Je trein komt aan om 13.2 u.\n"
+  - testcases:
+    - stdin: "21\n2\n2\n46\n110"
+      stdout: "Je trein komt aan om 1.38 u.\n"
+  - testcases:
+    - stdin: "13\n30\n0\n29\n28"
+      stdout: "Je trein komt aan om 14.27 u.\n"
+  - testcases:
+    - stdin: "23\n8\n2\n4\n47"
+      stdout: "Je trein komt aan om 1.59 u.\n"
+  - testcases:
+    - stdin: "7\n27\n2\n35\n106"
+      stdout: "Je trein komt aan om 11.48 u.\n"
+  - testcases:
+    - stdin: "15\n24\n1\n45\n7"
+      stdout: "Je trein komt aan om 17.16 u.\n"
+  - testcases:
+    - stdin: "10\n15\n1\n51\n69"
+      stdout: "Je trein komt aan om 13.15 u.\n"
+  - testcases:
+    - stdin: "18\n31\n1\n56\n66"
+      stdout: "Je trein komt aan om 21.33 u.\n"
+  - testcases:
+    - stdin: "20\n47\n0\n23\n77"
+      stdout: "Je trein komt aan om 22.27 u.\n"
+  - testcases:
+    - stdin: "13\n9\n0\n28\n18"
+      stdout: "Je trein komt aan om 13.55 u.\n"
+  - testcases:
+    - stdin: "18\n15\n1\n33\n35"
+      stdout: "Je trein komt aan om 20.23 u.\n"
+  - testcases:
+    - stdin: "12\n4\n3\n14\n110"
+      stdout: "Je trein komt aan om 17.8 u.\n"
+  - testcases:
+    - stdin: "20\n59\n0\n41\n40"
+      stdout: "Je trein komt aan om 22.20 u.\n"
+  - testcases:
+    - stdin: "18\n26\n2\n23\n79"
+      stdout: "Je trein komt aan om 22.8 u.\n"
+  - testcases:
+    - stdin: "14\n45\n2\n46\n94"
+      stdout: "Je trein komt aan om 19.5 u.\n"
+  - testcases:
+    - stdin: "12\n20\n3\n7\n69"
+      stdout: "Je trein komt aan om 16.36 u.\n"

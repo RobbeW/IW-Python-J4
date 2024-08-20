@@ -4,13 +4,13 @@ In de meetkunde is een **epicycloïde** een vlakke kromme die ontstaat door een 
 
 ![Een epicycloïde.](media/image_dark.png "Een epicycloïde."){:data-caption="Een epicycloïde." .dark-only width="30%"}
 
-De oppervlakte $$A$$ van zo'n epicycloïde (de oranje figuur) valt eenvoudig te berekenen via de formule:
+De oppervlakte $$\mathsf{A}$$ van zo'n epicycloïde (de oranje figuur) valt eenvoudig te berekenen via de formule:
 
 $$
-    A = (k+1)\cdot (k+2)\cdot \pi r^2
+    \mathsf{A = (k+1)\cdot (k+2)\cdot \pi r^2}
 $$
 
-waarbij $$r$$ de straal van de kleine cirkel is en $$kr$$ de straal van de grote cirkel. 
+waarbij $$\mathsf{r}$$ de straal van de kleine cirkel is en $$\mathsf{kr}$$ de straal van de grote cirkel. 
 
 ## Opgave
 Schrijf een programma dat **eerst** de straal van de *grote cirkel* en vervolgens de straal van de *kleine cirkel* vraagt. Daarna berekent het programma de oppervlakte van de epicycloïde en **rondt** het deze oppervlakte **af** op 3 cijfers na de komma.

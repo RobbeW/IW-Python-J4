@@ -1,15 +1,17 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
       "nl": "Treinvertraging"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
+    "evaluatie",
     "modulo"
   ],
   "access": "public",
