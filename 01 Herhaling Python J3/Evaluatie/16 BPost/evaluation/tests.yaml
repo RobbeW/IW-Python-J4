@@ -1,0 +1,92 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "25.6\n3"
+      stdout: "U dient EUR 11.34 te betalen.\n"
+  - testcases:
+    - stdin: "514.6\n12"
+      stdout: "U dient EUR 111.6 te betalen.\n"
+  - testcases:
+    - stdin: "350.0\n3"
+      stdout: "U dient EUR 28.35 te betalen.\n"
+  - testcases:
+    - stdin: "349.9\n7"
+      stdout: "U dient EUR 39.69 te betalen.\n"
+  - testcases:
+    - stdin: "349.0\n2"
+      stdout: "U dient EUR 11.34 te betalen.\n"
+  - testcases:
+    - stdin: "100.0\n13"
+      stdout: "U dient EUR 72.54 te betalen.\n"
+  - testcases:
+    - stdin: "99.7\n16"
+      stdout: "U dient EUR 59.52 te betalen.\n"
+  - testcases:
+    - stdin: "719.8\n19"
+      stdout: "U dient EUR 176.7 te betalen.\n"
+  - testcases:
+    - stdin: "229.3\n9"
+      stdout: "U dient EUR 51.03 te betalen.\n"
+  - testcases:
+    - stdin: "773.7\n17"
+      stdout: "U dient EUR 158.1 te betalen.\n"
+  - testcases:
+    - stdin: "586.4\n17"
+      stdout: "U dient EUR 158.1 te betalen.\n"
+  - testcases:
+    - stdin: "78.0\n11"
+      stdout: "U dient EUR 40.92 te betalen.\n"
+  - testcases:
+    - stdin: "123.3\n12"
+      stdout: "U dient EUR 66.96 te betalen.\n"
+  - testcases:
+    - stdin: "24.4\n16"
+      stdout: "U dient EUR 59.52 te betalen.\n"
+  - testcases:
+    - stdin: "41.6\n12"
+      stdout: "U dient EUR 44.64 te betalen.\n"
+  - testcases:
+    - stdin: "720.6\n8"
+      stdout: "U dient EUR 75.6 te betalen.\n"
+  - testcases:
+    - stdin: "482.8\n2"
+      stdout: "U dient EUR 18.9 te betalen.\n"
+  - testcases:
+    - stdin: "457.4\n18"
+      stdout: "U dient EUR 167.4 te betalen.\n"
+  - testcases:
+    - stdin: "128.5\n3"
+      stdout: "U dient EUR 17.01 te betalen.\n"
+  - testcases:
+    - stdin: "372.4\n14"
+      stdout: "U dient EUR 130.2 te betalen.\n"
+  - testcases:
+    - stdin: "865.1\n18"
+      stdout: "U dient EUR 167.4 te betalen.\n"
+  - testcases:
+    - stdin: "830.1\n10"
+      stdout: "U dient EUR 93.0 te betalen.\n"
+  - testcases:
+    - stdin: "382.4\n2"
+      stdout: "U dient EUR 18.9 te betalen.\n"
+  - testcases:
+    - stdin: "126.6\n7"
+      stdout: "U dient EUR 39.69 te betalen.\n"
+  - testcases:
+    - stdin: "808.9\n13"
+      stdout: "U dient EUR 120.9 te betalen.\n"
+  - testcases:
+    - stdin: "489.9\n17"
+      stdout: "U dient EUR 158.1 te betalen.\n"
+  - testcases:
+    - stdin: "583.2\n2"
+      stdout: "U dient EUR 18.9 te betalen.\n"
+  - testcases:
+    - stdin: "372.7\n8"
+      stdout: "U dient EUR 75.6 te betalen.\n"
+  - testcases:
+    - stdin: "148.9\n15"
+      stdout: "U dient EUR 83.7 te betalen.\n"
+  - testcases:
+    - stdin: "145.2\n13"
+      stdout: "U dient EUR 72.54 te betalen.\n"

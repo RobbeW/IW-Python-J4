@@ -11,4 +11,3 @@ else:
         print( 'Deze vkv is onvolledig.' )
     else:
         print( 'Deze vkv is volledig.' )
-    

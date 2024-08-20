@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "1990\n2\n1\n997"
+      stdout: "Het rijksregisternummer is 90.02.01-997-04.\n"
+  - testcases:
+    - stdin: "2003\n1\n25\n224"
+      stdout: "Het rijksregisternummer is 03.01.25-224-95.\n"
+  - testcases:
+    - stdin: "1986\n11\n19\n234"
+      stdout: "Het rijksregisternummer is 86.11.19-234-12.\n"
+  - testcases:
+    - stdin: "1996\n10\n17\n600"
+      stdout: "Het rijksregisternummer is 96.10.17-600-06.\n"
+  - testcases:
+    - stdin: "2012\n2\n25\n343"
+      stdout: "Het rijksregisternummer is 12.02.25-343-75.\n"
+  - testcases:
+    - stdin: "1987\n3\n31\n860"
+      stdout: "Het rijksregisternummer is 87.03.31-860-58.\n"
+  - testcases:
+    - stdin: "2002\n1\n31\n983"
+      stdout: "Het rijksregisternummer is 02.01.31-983-08.\n"
+  - testcases:
+    - stdin: "2011\n1\n25\n858"
+      stdout: "Het rijksregisternummer is 11.01.25-858-17.\n"
+  - testcases:
+    - stdin: "2003\n12\n28\n230"
+      stdout: "Het rijksregisternummer is 03.12.28-230-76.\n"
+  - testcases:
+    - stdin: "2010\n9\n2\n468"
+      stdout: "Het rijksregisternummer is 10.09.02-468-65.\n"
+  - testcases:
+    - stdin: "1994\n9\n5\n261"
+      stdout: "Het rijksregisternummer is 94.09.05-261-74.\n"
+  - testcases:
+    - stdin: "1984\n6\n2\n438"
+      stdout: "Het rijksregisternummer is 84.06.02-438-47.\n"
+  - testcases:
+    - stdin: "1997\n9\n27\n648"
+      stdout: "Het rijksregisternummer is 97.09.27-648-60.\n"
+  - testcases:
+    - stdin: "1999\n7\n6\n734"
+      stdout: "Het rijksregisternummer is 99.07.06-734-50.\n"
+  - testcases:
+    - stdin: "1983\n3\n8\n222"
+      stdout: "Het rijksregisternummer is 83.03.08-222-41.\n"
+  - testcases:
+    - stdin: "2014\n7\n16\n179"
+      stdout: "Het rijksregisternummer is 14.07.16-179-04.\n"
+  - testcases:
+    - stdin: "2013\n10\n15\n767"
+      stdout: "Het rijksregisternummer is 13.10.15-767-28.\n"
+  - testcases:
+    - stdin: "1983\n6\n20\n227"
+      stdout: "Het rijksregisternummer is 83.06.20-227-85.\n"
+  - testcases:
+    - stdin: "1989\n2\n15\n147"
+      stdout: "Het rijksregisternummer is 89.02.15-147-25.\n"
+  - testcases:
+    - stdin: "2005\n4\n26\n722"
+      stdout: "Het rijksregisternummer is 05.04.26-722-18.\n"

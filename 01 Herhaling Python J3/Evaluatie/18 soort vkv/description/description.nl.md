@@ -6,7 +6,7 @@ Indien echter $$\mathsf{b}$$ of $$\mathsf{c}$$ nul zijn noemt men dit een **onvo
 
 ## Opgave
 
-Schrijf een programma dat voor een gegeven vierkantsvergelijking **in volgorde** naar de coefficienten $$\mathsf{a}$$, $$\mathsf{b}$$ en $$\mathsf{c}$$ vraagt en nadien op het scherm weergeeft of deze vierkantsvergelijking al dan niet volledig is.
+Schrijf een programma dat voor een gegeven vierkantsvergelijking **in volgorde** naar de **reële** coefficienten $$\mathsf{a}$$, $$\mathsf{b}$$ en $$\mathsf{c}$$ vraagt en nadien op het scherm weergeeft of deze vierkantsvergelijking al dan niet volledig is.
 
 #### Voorbeelden
 De vierkantsvergelijking $$x^2-4 = 0$$ is onvolledig.

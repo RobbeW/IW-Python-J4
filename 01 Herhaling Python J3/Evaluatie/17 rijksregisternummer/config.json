@@ -1,16 +1,19 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
       "nl": "Rijksregisternummer"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "evaluatie",
+    "selectie",
+    "modulo"
   ],
   "access": "public",
   "internals": {
