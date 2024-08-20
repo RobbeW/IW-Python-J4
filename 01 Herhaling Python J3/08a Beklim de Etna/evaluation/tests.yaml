@@ -1,0 +1,127 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '10.6'
+      stdout: "Het is voor Laura te koud te beginnen met de klim.\n"
+  - testcases:
+    - stdin: '11.9'
+      stdout: "Het is voor Laura te koud te beginnen met de klim.\n"
+  - testcases:
+    - stdin: '13.7'
+      stdout: "Het is voor Laura te koud te beginnen met de klim.\n"
+  - testcases:
+    - stdin: '15.6'
+      stdout: "Het is voor Laura te koud te beginnen met de klim.\n"
+  - testcases:
+    - stdin: '15.7'
+      stdout: "Het is voor Laura te koud te beginnen met de klim.\n"
+  - testcases:
+    - stdin: '16.3'
+      stdout: "Het is voor Laura te koud te beginnen met de klim.\n"
+  - testcases:
+    - stdin: '18.3'
+      stdout: "Het is voor Laura te koud te beginnen met de klim.\n"
+  - testcases:
+    - stdin: '18.4'
+      stdout: "Het is voor Laura te koud te beginnen met de klim.\n"
+  - testcases:
+    - stdin: '20.0'
+      stdout: "Het is voor Laura te koud te beginnen met de klim.\n"
+  - testcases:
+    - stdin: '21.4'
+      stdout: "Op een hoogte van 1900 m meet de temperatuur 21.4 °C.\nOp een hoogte
+        van 2000 m meet de temperatuur 20.8 °C.\nOp een hoogte van 2100 m meet de
+        temperatuur 20.1 °C.\nLaura, stop met klimmen op 2200 m.\n"
+  - testcases:
+    - stdin: '22.4'
+      stdout: "Op een hoogte van 1900 m meet de temperatuur 22.4 °C.\nOp een hoogte
+        van 2000 m meet de temperatuur 21.8 °C.\nOp een hoogte van 2100 m meet de
+        temperatuur 21.1 °C.\nOp een hoogte van 2200 m meet de temperatuur 20.5 °C.\n\
+        Laura, stop met klimmen op 2300 m.\n"
+  - testcases:
+    - stdin: '24.7'
+      stdout: "Op een hoogte van 1900 m meet de temperatuur 24.7 °C.\nOp een hoogte
+        van 2000 m meet de temperatuur 24.1 °C.\nOp een hoogte van 2100 m meet de
+        temperatuur 23.4 °C.\nOp een hoogte van 2200 m meet de temperatuur 22.8 °C.\n\
+        Op een hoogte van 2300 m meet de temperatuur 22.1 °C.\nOp een hoogte van 2400
+        m meet de temperatuur 21.5 °C.\nOp een hoogte van 2500 m meet de temperatuur
+        20.8 °C.\nOp een hoogte van 2600 m meet de temperatuur 20.2 °C.\nLaura, stop
+        met klimmen op 2700 m.\n"
+  - testcases:
+    - stdin: '25.2'
+      stdout: "Op een hoogte van 1900 m meet de temperatuur 25.2 °C.\nOp een hoogte
+        van 2000 m meet de temperatuur 24.6 °C.\nOp een hoogte van 2100 m meet de
+        temperatuur 23.9 °C.\nOp een hoogte van 2200 m meet de temperatuur 23.3 °C.\n\
+        Op een hoogte van 2300 m meet de temperatuur 22.6 °C.\nOp een hoogte van 2400
+        m meet de temperatuur 22.0 °C.\nOp een hoogte van 2500 m meet de temperatuur
+        21.3 °C.\nOp een hoogte van 2600 m meet de temperatuur 20.7 °C.\nOp een hoogte
+        van 2700 m meet de temperatuur 20.0 °C.\nLaura, stop met klimmen op 2800 m.\n"
+  - testcases:
+    - stdin: '25.8'
+      stdout: "Op een hoogte van 1900 m meet de temperatuur 25.8 °C.\nOp een hoogte
+        van 2000 m meet de temperatuur 25.2 °C.\nOp een hoogte van 2100 m meet de
+        temperatuur 24.5 °C.\nOp een hoogte van 2200 m meet de temperatuur 23.9 °C.\n\
+        Op een hoogte van 2300 m meet de temperatuur 23.2 °C.\nOp een hoogte van 2400
+        m meet de temperatuur 22.6 °C.\nOp een hoogte van 2500 m meet de temperatuur
+        21.9 °C.\nOp een hoogte van 2600 m meet de temperatuur 21.3 °C.\nOp een hoogte
+        van 2700 m meet de temperatuur 20.6 °C.\nLaura, stop met klimmen op 2800 m.\n"
+  - testcases:
+    - stdin: '27.6'
+      stdout: "Op een hoogte van 1900 m meet de temperatuur 27.6 °C.\nOp een hoogte
+        van 2000 m meet de temperatuur 27.0 °C.\nOp een hoogte van 2100 m meet de
+        temperatuur 26.3 °C.\nOp een hoogte van 2200 m meet de temperatuur 25.7 °C.\n\
+        Op een hoogte van 2300 m meet de temperatuur 25.0 °C.\nOp een hoogte van 2400
+        m meet de temperatuur 24.4 °C.\nOp een hoogte van 2500 m meet de temperatuur
+        23.7 °C.\nOp een hoogte van 2600 m meet de temperatuur 23.1 °C.\nOp een hoogte
+        van 2700 m meet de temperatuur 22.4 °C.\nOp een hoogte van 2800 m meet de
+        temperatuur 21.8 °C.\nOp een hoogte van 2900 m meet de temperatuur 21.1 °C.\n"
+  - testcases:
+    - stdin: '28.0'
+      stdout: "Op een hoogte van 1900 m meet de temperatuur 28.0 °C.\nOp een hoogte
+        van 2000 m meet de temperatuur 27.4 °C.\nOp een hoogte van 2100 m meet de
+        temperatuur 26.7 °C.\nOp een hoogte van 2200 m meet de temperatuur 26.1 °C.\n\
+        Op een hoogte van 2300 m meet de temperatuur 25.4 °C.\nOp een hoogte van 2400
+        m meet de temperatuur 24.8 °C.\nOp een hoogte van 2500 m meet de temperatuur
+        24.1 °C.\nOp een hoogte van 2600 m meet de temperatuur 23.5 °C.\nOp een hoogte
+        van 2700 m meet de temperatuur 22.8 °C.\nOp een hoogte van 2800 m meet de
+        temperatuur 22.2 °C.\nOp een hoogte van 2900 m meet de temperatuur 21.5 °C.\n"
+  - testcases:
+    - stdin: '29.2'
+      stdout: "Op een hoogte van 1900 m meet de temperatuur 29.2 °C.\nOp een hoogte
+        van 2000 m meet de temperatuur 28.6 °C.\nOp een hoogte van 2100 m meet de
+        temperatuur 27.9 °C.\nOp een hoogte van 2200 m meet de temperatuur 27.3 °C.\n\
+        Op een hoogte van 2300 m meet de temperatuur 26.6 °C.\nOp een hoogte van 2400
+        m meet de temperatuur 26.0 °C.\nOp een hoogte van 2500 m meet de temperatuur
+        25.3 °C.\nOp een hoogte van 2600 m meet de temperatuur 24.7 °C.\nOp een hoogte
+        van 2700 m meet de temperatuur 24.0 °C.\nOp een hoogte van 2800 m meet de
+        temperatuur 23.4 °C.\nOp een hoogte van 2900 m meet de temperatuur 22.7 °C.\n"
+  - testcases:
+    - stdin: '31.0'
+      stdout: "Op een hoogte van 1900 m meet de temperatuur 31.0 °C.\nOp een hoogte
+        van 2000 m meet de temperatuur 30.4 °C.\nOp een hoogte van 2100 m meet de
+        temperatuur 29.7 °C.\nOp een hoogte van 2200 m meet de temperatuur 29.1 °C.\n\
+        Op een hoogte van 2300 m meet de temperatuur 28.4 °C.\nOp een hoogte van 2400
+        m meet de temperatuur 27.8 °C.\nOp een hoogte van 2500 m meet de temperatuur
+        27.1 °C.\nOp een hoogte van 2600 m meet de temperatuur 26.5 °C.\nOp een hoogte
+        van 2700 m meet de temperatuur 25.8 °C.\nOp een hoogte van 2800 m meet de
+        temperatuur 25.2 °C.\nOp een hoogte van 2900 m meet de temperatuur 24.5 °C.\n"
+  - testcases:
+    - stdin: '32.8'
+      stdout: "Op een hoogte van 1900 m meet de temperatuur 32.8 °C.\nOp een hoogte
+        van 2000 m meet de temperatuur 32.1 °C.\nOp een hoogte van 2100 m meet de
+        temperatuur 31.5 °C.\nOp een hoogte van 2200 m meet de temperatuur 30.9 °C.\n\
+        Op een hoogte van 2300 m meet de temperatuur 30.2 °C.\nOp een hoogte van 2400
+        m meet de temperatuur 29.6 °C.\nOp een hoogte van 2500 m meet de temperatuur
+        28.9 °C.\nOp een hoogte van 2600 m meet de temperatuur 28.3 °C.\nOp een hoogte
+        van 2700 m meet de temperatuur 27.6 °C.\nOp een hoogte van 2800 m meet de
+        temperatuur 27.0 °C.\nOp een hoogte van 2900 m meet de temperatuur 26.3 °C.\n"
+  - testcases:
+    - stdin: '34.0'
+      stdout: "Op een hoogte van 1900 m meet de temperatuur 34.0 °C.\nOp een hoogte
+        van 2000 m meet de temperatuur 33.4 °C.\nOp een hoogte van 2100 m meet de
+        temperatuur 32.7 °C.\nOp een hoogte van 2200 m meet de temperatuur 32.1 °C.\n\
+        Op een hoogte van 2300 m meet de temperatuur 31.4 °C.\nOp een hoogte van 2400
+        m meet de temperatuur 30.8 °C.\nOp een hoogte van 2500 m meet de temperatuur
+        30.1 °C.\nOp een hoogte van 2600 m meet de temperatuur 29.5 °C.\nOp een hoogte
+        van 2700 m meet de temperatuur 28.8 °C.\nOp een hoogte van 2800 m meet de
+        temperatuur 28.2 °C.\nOp een hoogte van 2900 m meet de temperatuur 27.5 °C.\n"

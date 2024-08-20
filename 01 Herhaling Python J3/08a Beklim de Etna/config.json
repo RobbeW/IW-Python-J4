@@ -1,16 +1,19 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "description": {
     "names": {
-      "nl": "Oefening - Beklim de Etna"
+      "nl": "Beklim de Etna"
     }
   },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "labels": [
-
+    "while-lus",
+    "voorwaardelijke herhaling",
+    "selectie"
   ],
   "access": "public",
   "internals": {
