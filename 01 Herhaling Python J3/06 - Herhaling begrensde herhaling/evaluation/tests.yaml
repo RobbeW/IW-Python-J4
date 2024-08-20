@@ -2,32 +2,36 @@
   contexts:
   - testcases:
     - stdin: '2030'
-      stdout: "\n"
+      stdout: "In 2030 verwacht men 12136947 inwoners in België.\n"
   - testcases:
     - stdin: '2040'
-      stdout: "\nIn 2040 verwacht men 12764647 inwoners in België.\n"
+      stdout: "In 2030 verwacht men 12136947 inwoners in België.\nIn 2040 verwacht
+        men 12764647 inwoners in België.\n"
   - testcases:
     - stdin: '2050'
-      stdout: "\nIn 2040 verwacht men 12764647 inwoners in België.\nIn 2050 verwacht
-        men 13392347 inwoners in België.\n"
+      stdout: "In 2030 verwacht men 12136947 inwoners in België.\nIn 2040 verwacht
+        men 12764647 inwoners in België.\nIn 2050 verwacht men 13392347 inwoners in
+        België.\n"
   - testcases:
     - stdin: '2060'
-      stdout: "\nIn 2040 verwacht men 12764647 inwoners in België.\nIn 2050 verwacht
-        men 13392347 inwoners in België.\nIn 2060 verwacht men 14020047 inwoners in
-        België.\n"
+      stdout: "In 2030 verwacht men 12136947 inwoners in België.\nIn 2040 verwacht
+        men 12764647 inwoners in België.\nIn 2050 verwacht men 13392347 inwoners in
+        België.\nIn 2060 verwacht men 14020047 inwoners in België.\n"
   - testcases:
     - stdin: '2065'
-      stdout: "\nIn 2040 verwacht men 12764647 inwoners in België.\nIn 2050 verwacht
-        men 13392347 inwoners in België.\nIn 2060 verwacht men 14020047 inwoners in
-        België.\n"
+      stdout: "In 2030 verwacht men 12136947 inwoners in België.\nIn 2040 verwacht
+        men 12764647 inwoners in België.\nIn 2050 verwacht men 13392347 inwoners in
+        België.\nIn 2060 verwacht men 14020047 inwoners in België.\n"
   - testcases:
     - stdin: '2070'
-      stdout: "\nIn 2040 verwacht men 12764647 inwoners in België.\nIn 2050 verwacht
-        men 13392347 inwoners in België.\nIn 2060 verwacht men 14020047 inwoners in
-        België.\nIn 2070 verwacht men 14647747 inwoners in België.\n"
+      stdout: "In 2030 verwacht men 12136947 inwoners in België.\nIn 2040 verwacht
+        men 12764647 inwoners in België.\nIn 2050 verwacht men 13392347 inwoners in
+        België.\nIn 2060 verwacht men 14020047 inwoners in België.\nIn 2070 verwacht
+        men 14647747 inwoners in België.\n"
   - testcases:
     - stdin: '2080'
-      stdout: "\nIn 2040 verwacht men 12764647 inwoners in België.\nIn 2050 verwacht
-        men 13392347 inwoners in België.\nIn 2060 verwacht men 14020047 inwoners in
-        België.\nIn 2070 verwacht men 14647747 inwoners in België.\nIn 2080 verwacht
-        men 15275447 inwoners in België.\n"
+      stdout: "In 2030 verwacht men 12136947 inwoners in België.\nIn 2040 verwacht
+        men 12764647 inwoners in België.\nIn 2050 verwacht men 13392347 inwoners in
+        België.\nIn 2060 verwacht men 14020047 inwoners in België.\nIn 2070 verwacht
+        men 14647747 inwoners in België.\nIn 2080 verwacht men 15275447 inwoners in
+        België.\n"
