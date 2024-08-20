@@ -1,8 +1,8 @@
-Om de leeftijd van een mannelijke eland te bepalen kan het aantal hoorns van het gewei gebruiken. Een oudere eland heeft meer hoorns dan een jonger exemplaar. Gewoon het aantal hoorns tellen kan echter misleidend zijn, soms kunnen ze immers afbreken door gevechten met andere elanden bijvoorbeeld.
+Om de leeftijd van een mannelijke eland te bepalen kan het aantal hoorns van het gewei gebruiken. Een oudere eland heeft meer hoorns dan een jonger exemplaar. Gewoon het aantal hoorns tellen kan echter misleidend zijn, soms kunnen ze immers afbreken zoals door gevechten met andere elanden.
 
 ![Foto door Pixabay op Pexels.](media/pixabay.jpg "Foto door Pixabay op Pexels."){:data-caption="Foto door Pixabay op Pexels." width="45%"}
 
-Dat is de reden waarom een puntensysteem wordt gebruikt bij het omschrijven van het gewei van een eland. Dit systeem werkt als volgt:
+Dat is de reden waarom een **puntensysteem** wordt gebruikt bij het omschrijven van het gewei van een eland. Dit systeem werkt als volgt:
 
 - Als het aantal hoorns op het linker- en rechtergedeelte overeenkomen, dan geeft men de eland een **even** som aantal punten. Bijvoorbeeld: een *even 6-punt eland* geeft 3 hoorns op elke kant.
 - Als het aantal hoorns verschillend is dan geeft men de eland het dubbele van het hoogste aantal, maar benoemt men deze als **oneven**. Bijvoorbeeld: een *oneven 10-punt eland* heeft 5 hoorns aan één kant en 4 of minder aan de andere kant.
