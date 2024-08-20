@@ -1,0 +1,116 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '1002'
+      stdout: "1e stap: Het verschil van 100 en 4 is 96\n"
+  - testcases:
+    - stdin: '3024'
+      stdout: "1e stap: Het verschil van 302 en 8 is 294\n2e stap: Het verschil van
+        29 en 8 is 21\n"
+  - testcases:
+    - stdin: '4711'
+      stdout: "1e stap: Het verschil van 471 en 2 is 469\n2e stap: Het verschil van
+        46 en 18 is 28\n"
+  - testcases:
+    - stdin: '5675'
+      stdout: "1e stap: Het verschil van 567 en 10 is 557\n2e stap: Het verschil van
+        55 en 14 is 41\n"
+  - testcases:
+    - stdin: '18977'
+      stdout: "1e stap: Het verschil van 1897 en 14 is 1883\n2e stap: Het verschil
+        van 188 en 6 is 182\n3e stap: Het verschil van 18 en 4 is 14\n"
+  - testcases:
+    - stdin: '36302'
+      stdout: "1e stap: Het verschil van 3630 en 4 is 3626\n2e stap: Het verschil
+        van 362 en 12 is 350\n3e stap: Het verschil van 35 en 0 is 35\n"
+  - testcases:
+    - stdin: '68992'
+      stdout: "1e stap: Het verschil van 6899 en 4 is 6895\n2e stap: Het verschil
+        van 689 en 10 is 679\n3e stap: Het verschil van 67 en 18 is 49\n"
+  - testcases:
+    - stdin: '206731'
+      stdout: "1e stap: Het verschil van 20673 en 2 is 20671\n2e stap: Het verschil
+        van 2067 en 2 is 2065\n3e stap: Het verschil van 206 en 10 is 196\n4e stap:
+        Het verschil van 19 en 12 is 7\n"
+  - testcases:
+    - stdin: '2170880'
+      stdout: "1e stap: Het verschil van 217088 en 0 is 217088\n2e stap: Het verschil
+        van 21708 en 16 is 21692\n3e stap: Het verschil van 2169 en 4 is 2165\n4e
+        stap: Het verschil van 216 en 10 is 206\n5e stap: Het verschil van 20 en 12
+        is 8\n"
+  - testcases:
+    - stdin: '5391016'
+      stdout: "1e stap: Het verschil van 539101 en 12 is 539089\n2e stap: Het verschil
+        van 53908 en 18 is 53890\n3e stap: Het verschil van 5389 en 0 is 5389\n4e
+        stap: Het verschil van 538 en 18 is 520\n5e stap: Het verschil van 52 en 0
+        is 52\n"
+  - testcases:
+    - stdin: '6347579'
+      stdout: "1e stap: Het verschil van 634757 en 18 is 634739\n2e stap: Het verschil
+        van 63473 en 18 is 63455\n3e stap: Het verschil van 6345 en 10 is 6335\n4e
+        stap: Het verschil van 633 en 10 is 623\n5e stap: Het verschil van 62 en 6
+        is 56\n"
+  - testcases:
+    - stdin: '36659091'
+      stdout: "1e stap: Het verschil van 3665909 en 2 is 3665907\n2e stap: Het verschil
+        van 366590 en 14 is 366576\n3e stap: Het verschil van 36657 en 12 is 36645\n\
+        4e stap: Het verschil van 3664 en 10 is 3654\n5e stap: Het verschil van 365
+        en 8 is 357\n6e stap: Het verschil van 35 en 14 is 21\n"
+  - testcases:
+    - stdin: '57266724'
+      stdout: "1e stap: Het verschil van 5726672 en 8 is 5726664\n2e stap: Het verschil
+        van 572666 en 8 is 572658\n3e stap: Het verschil van 57265 en 16 is 57249\n\
+        4e stap: Het verschil van 5724 en 18 is 5706\n5e stap: Het verschil van 570
+        en 12 is 558\n6e stap: Het verschil van 55 en 16 is 39\n"
+  - testcases:
+    - stdin: '60703713'
+      stdout: "1e stap: Het verschil van 6070371 en 6 is 6070365\n2e stap: Het verschil
+        van 607036 en 10 is 607026\n3e stap: Het verschil van 60702 en 12 is 60690\n\
+        4e stap: Het verschil van 6069 en 0 is 6069\n5e stap: Het verschil van 606
+        en 18 is 588\n6e stap: Het verschil van 58 en 16 is 42\n"
+  - testcases:
+    - stdin: '188201545'
+      stdout: "1e stap: Het verschil van 18820154 en 10 is 18820144\n2e stap: Het
+        verschil van 1882014 en 8 is 1882006\n3e stap: Het verschil van 188200 en
+        12 is 188188\n4e stap: Het verschil van 18818 en 16 is 18802\n5e stap: Het
+        verschil van 1880 en 4 is 1876\n6e stap: Het verschil van 187 en 12 is 175\n\
+        7e stap: Het verschil van 17 en 10 is 7\n"
+  - testcases:
+    - stdin: '664747874'
+      stdout: "1e stap: Het verschil van 66474787 en 8 is 66474779\n2e stap: Het verschil
+        van 6647477 en 18 is 6647459\n3e stap: Het verschil van 664745 en 18 is 664727\n\
+        4e stap: Het verschil van 66472 en 14 is 66458\n5e stap: Het verschil van
+        6645 en 16 is 6629\n6e stap: Het verschil van 662 en 18 is 644\n7e stap: Het
+        verschil van 64 en 8 is 56\n"
+  - testcases:
+    - stdin: '1666225443'
+      stdout: "1e stap: Het verschil van 166622544 en 6 is 166622538\n2e stap: Het
+        verschil van 16662253 en 16 is 16662237\n3e stap: Het verschil van 1666223
+        en 14 is 1666209\n4e stap: Het verschil van 166620 en 18 is 166602\n5e stap:
+        Het verschil van 16660 en 4 is 16656\n6e stap: Het verschil van 1665 en 12
+        is 1653\n7e stap: Het verschil van 165 en 6 is 159\n8e stap: Het verschil
+        van 15 en 18 is -3\n"
+  - testcases:
+    - stdin: '2341321789'
+      stdout: "1e stap: Het verschil van 234132178 en 18 is 234132160\n2e stap: Het
+        verschil van 23413216 en 0 is 23413216\n3e stap: Het verschil van 2341321
+        en 12 is 2341309\n4e stap: Het verschil van 234130 en 18 is 234112\n5e stap:
+        Het verschil van 23411 en 4 is 23407\n6e stap: Het verschil van 2340 en 14
+        is 2326\n7e stap: Het verschil van 232 en 12 is 220\n8e stap: Het verschil
+        van 22 en 0 is 22\n"
+  - testcases:
+    - stdin: '5095825796'
+      stdout: "1e stap: Het verschil van 509582579 en 12 is 509582567\n2e stap: Het
+        verschil van 50958256 en 14 is 50958242\n3e stap: Het verschil van 5095824
+        en 4 is 5095820\n4e stap: Het verschil van 509582 en 0 is 509582\n5e stap:
+        Het verschil van 50958 en 4 is 50954\n6e stap: Het verschil van 5095 en 8
+        is 5087\n7e stap: Het verschil van 508 en 14 is 494\n8e stap: Het verschil
+        van 49 en 8 is 41\n"
+  - testcases:
+    - stdin: '6453616946'
+      stdout: "1e stap: Het verschil van 645361694 en 12 is 645361682\n2e stap: Het
+        verschil van 64536168 en 4 is 64536164\n3e stap: Het verschil van 6453616
+        en 8 is 6453608\n4e stap: Het verschil van 645360 en 16 is 645344\n5e stap:
+        Het verschil van 64534 en 8 is 64526\n6e stap: Het verschil van 6452 en 12
+        is 6440\n7e stap: Het verschil van 644 en 0 is 644\n8e stap: Het verschil
+        van 64 en 8 is 56\n"
