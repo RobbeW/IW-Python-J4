@@ -3,6 +3,7 @@
 \usepackage{arevmath}
 \usepackage{xcolor}
 \usepackage{tikz}
+\usepackage{cmbright}      % sansfont
 \usetikzlibrary{calc}
 \usetikzlibrary{decorations.pathreplacing,calligraphy,3d}
 
@@ -25,7 +26,7 @@
 	
 	\draw[very thick, BurntOrange] (-1,-2) -- (4,0) -- (-0.5,3) -- cycle;
 	\fill[BurntOrange] (-1,-2) circle (1.4pt) node [below] {$A(-1,-2)$};
-	\fill[BurntOrange] (4,0) circle (1.4pt) node [above] {$B(4,0)$};
-	\fill[BurntOrange] (-0.5,3) circle (1.4pt) node [left] {$C(-0.5,3)$};
+	\fill[BurntOrange] (4,0) circle (1.4pt) node [above, yshift=2pt] {$B(4,0)$};
+	\fill[BurntOrange] (-0.5,3) circle (1.4pt) node [left, yshift=4pt] {$C(-0.5,3)$};
 \end{tikzpicture}
 \end{document}

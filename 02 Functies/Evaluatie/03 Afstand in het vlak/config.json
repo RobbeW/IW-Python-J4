@@ -11,7 +11,9 @@
     }
   },
   "labels": [
-
+    "evaluatie",
+    "functies",
+    "math"
   ],
   "access": "public",
   "internals": {
