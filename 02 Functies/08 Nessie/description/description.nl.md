@@ -1,4 +1,4 @@
-Het <a href="https://nl.wikipedia.org/wiki/Monster_van_Loch_Ness" target="_blank">Monster van Loch Ness</a> (bijgenaamd Nessie) is een mythisch dier uit de Schotse folklore dat volgens de sage zou leven in het meer <a href="https://nl.wikipedia.org/wiki/Loch_Ness_(meer)" target="_blank">Loch Ness</a>
+Het <a href="https://nl.wikipedia.org/wiki/Monster_van_Loch_Ness" target="_blank">Monster van Loch Ness</a> (bijgenaamd Nessie) is een mythisch dier uit de Schotse folklore dat volgens de sage zou leven in het meer <a href="https://nl.wikipedia.org/wiki/Loch_Ness_(meer)" target="_blank">Loch Ness</a>.
 
 ![Een moderne reconstructie van de beroemde foto uit 1934 door Max2611/Getty Images.](media/nessy.png "Een moderne reconstructie van de beroemde foto uit 1934 door Max2611/Getty Images."){:data-caption="Een moderne reconstructie van de beroemde foto uit 1934 door Max2611/Getty Images."  width="45%"}
 
