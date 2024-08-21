@@ -1,9 +1,9 @@
-def RGBtoCMYK( code ):
+def rgb_to_cmyk(code):
     
 
 
 
 
 
-def CMYKtoRGB( code ):
+def cmyk_to_rgb(code):
     
