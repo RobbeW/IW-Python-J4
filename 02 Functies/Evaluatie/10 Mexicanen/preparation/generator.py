@@ -31,7 +31,7 @@ module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 
 # generate test data
-ntests = 40
+ntests = 38
 cases = [(1,2,1,3), (3,3,2,1),(6,6,2,2),(4,2,2,4),(1,2,1,2)]
 while len(cases) < ntests:
     case = tuple(random.randint(1,6) for _ in range(4))

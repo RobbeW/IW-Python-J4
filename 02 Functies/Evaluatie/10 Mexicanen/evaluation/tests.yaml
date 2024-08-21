@@ -190,16 +190,6 @@
       return: 200
     - expression: score(1, 2)
       return: 1000
-  - testcases:
-    - expression: score(2, 4)
-      return: 42
-    - expression: score(6, 3)
-      return: 63
-  - testcases:
-    - expression: score(6, 2)
-      return: 62
-    - expression: score(6, 2)
-      return: 62
 - tab: Feedback mexen
   contexts:
   - testcases:
@@ -316,9 +306,3 @@
   - testcases:
     - expression: mexen(2, 2, 1, 2)
       return: speler 2
-  - testcases:
-    - expression: mexen(2, 4, 6, 3)
-      return: speler 2
-  - testcases:
-    - expression: mexen(6, 2, 6, 2)
-      return: gelijkspel

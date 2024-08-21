@@ -1,16 +1,20 @@
-<a href="https://nl.wikipedia.org/wiki/Mexicanen_(dobbelspel)" target="_blank">Mexicanen</a> of **Mexen** is een dobbelspel dat door twee personen gespeeld kan worden. Elke worp bestaat uit twee dobbelstenen. Het dobbelspel gaat vooral over bluffen over wat je gegooid hebt, maar hier focussen we ons enkel op de scoringsregels. In tegenstelling tot veel andere dobbelspellen is de score van een worp niet zomaar de som van de dobbelstenen.
+<a href="https://nl.wikipedia.org/wiki/Mexicanen_(dobbelspel)" target="_blank">Mexicanen</a> of **Mexen** is een dobbelspel dat door twee personen gespeeld kan worden. Elke worp bestaat uit twee dobbelstenen. In het spel wordt voornamelijk gebluft over de worpen, maar hier focussen we ons enkel op de scoringsregels. In tegenstelling tot veel andere dobbelspellen is de score van een worp niet zomaar de som van de dobbelstenen.
 
-![Afbeelding door Edge2Edge Media op Unsplash.](media/edge2edge-media.jpg "Afbeelding door Edge2Edge Media op Unsplash."){:data-caption="Afbeelding door Edge2Edge Media op Unsplash." width="40%"}
+![Afbeelding door Edge2Edge Media op Unsplash.](media/edge2edge-media.jpg "Afbeelding door Edge2Edge Media op Unsplash."){:data-caption="Afbeelding door Edge2Edge Media op Unsplash." width="35%"}
 
 In plaats daarvan is de puntentelling voor een worp als volgt:
 - Een *Mex* is altijd de hoogste score, namelijk 1000;
+
   <span class="mdi mdi-36px mdi-dice-1-outline"></span> <span class="mdi mdi-36px mdi-dice-2-outline"></span> of <span class="mdi mdi-36px mdi-dice-2-outline"></span> <span class="mdi mdi-36px mdi-dice-1-outline"></span>
+
 - Daarna komen de dubbele worpen, bijvoorbeeld
+
   <span class="mdi mdi-36px mdi-dice-4-outline"></span> <span class="mdi mdi-36px mdi-dice-4-outline"></span>, ...
+
   Indien beide spelers een dubbele worp hebben, dan wint diegene met het hoogste aantal ogen, vermenigvuldig hiervoor aantal ogen met 100.
-- De andere worpen worden gerangschikt zodat grootste aantal ogen eerst komt te staan, bijvoorbeeld:
+- De andere worpen worden gerangschikt zodat grootste aantal ogen eerst komt te staan. Onderstaande worp krijgt bijvoorbeeld 43 als score.
+
   <span class="mdi mdi-36px mdi-dice-4-outline"></span>  <span class="mdi mdi-36px mdi-dice-3-outline"></span>
-  krijgt als score 43.
 
 ## Opgave
 
