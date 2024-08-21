@@ -34,8 +34,8 @@ spec.loader.exec_module(module)
 ntests= 20
 cases = [[1, 5, 7, -2], [1, 5, 6, -2, 0, 5, 9]]
 while len(cases) < ntests:
-    e = random.randint(0,4)
-    n = random.randint(10**e,10**(e+1))
+    e = random.randint(0, 3)
+    n = random.randint(10**e, 10**(e+1))
     lijst = list( random.randint(-30,30) for _ in range(n) )
     if lijst not in cases:
         cases.append( lijst )
@@ -59,8 +59,8 @@ for i in range(len(cases)):
         
     # generate test expression
     #
-    expression_name = f"somlijst( {test} )"
-    result = module.somlijst( test )
+    expression_name = f"somlijst({test})"
+    result = module.somlijst(test)
 
     print(result)
     # setup for return expressions
