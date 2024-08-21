@@ -1,7 +1,6 @@
 import os
-import math
 import sys
-import importlib
+import importlib.util
 import random
 import ruamel.yaml
 import subprocess
@@ -49,7 +48,9 @@ ntests = 20
 cases = [(2,),(3,),(1,)]
 while len(cases) < ntests:
     n = random.randint(4,30)
-    cases.append((n,))
+    if (n,) not in cases:
+        cases.append((n,))
+cases.sort()
 
 def is_priem( getal ):
     priem = True
@@ -125,16 +126,16 @@ for i in range(len(cases)):
     # generate test expression
     last_prime = search_equi_prime(test[0])
     
-    expression_name = 'is_priem( {} )'.format( last_prime )
-    result = module.is_priem( last_prime )
+    expression_name = f"is_priem({last_prime})"
+    result = module.is_priem(last_prime)
 
     print(result)
     # setup for return expressions
     testcase = { "expression": expression_name, "return": result }
     yamldata[0]['contexts'][i]["testcases"].append( testcase)
    
-    expression_name = 'vorige_priem( {} )'.format( last_prime )
-    result = module.vorige_priem( last_prime )
+    expression_name = f"vorige_priem({last_prime})"
+    result = module.vorige_priem(last_prime)
 
     print(result)
     # setup for return expressions
@@ -142,8 +143,8 @@ for i in range(len(cases)):
     yamldata[0]['contexts'][i]["testcases"].append( testcase)
 
    
-    expression_name = 'volgende_priem( {} )'.format( last_prime )
-    result = module.volgende_priem( last_prime )
+    expression_name = f"volgende_priem({last_prime})"
+    result = module.volgende_priem(last_prime)
 
     print(result)
     # setup for return expressions

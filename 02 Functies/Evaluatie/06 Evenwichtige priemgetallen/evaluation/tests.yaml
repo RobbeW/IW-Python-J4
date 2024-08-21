@@ -1,182 +1,182 @@
 - tab: Feedback
   contexts:
   - testcases:
+    - stdin: '1'
+      stdout: 5 is het 1 e evenwichtige priemgetal.
+    - expression: is_priem(5)
+      return: true
+    - expression: vorige_priem(5)
+      return: 3
+    - expression: volgende_priem(5)
+      return: 7
+  - testcases:
     - stdin: '2'
       stdout: 53 is het 2 e evenwichtige priemgetal.
-    - expression: is_priem( 53 )
+    - expression: is_priem(53)
       return: true
-    - expression: vorige_priem( 53 )
+    - expression: vorige_priem(53)
       return: 47
-    - expression: volgende_priem( 53 )
+    - expression: volgende_priem(53)
       return: 59
   - testcases:
     - stdin: '3'
       stdout: 157 is het 3 e evenwichtige priemgetal.
-    - expression: is_priem( 157 )
+    - expression: is_priem(157)
       return: true
-    - expression: vorige_priem( 157 )
+    - expression: vorige_priem(157)
       return: 151
-    - expression: volgende_priem( 157 )
+    - expression: volgende_priem(157)
       return: 163
   - testcases:
-    - stdin: '1'
-      stdout: 5 is het 1 e evenwichtige priemgetal.
-    - expression: is_priem( 5 )
+    - stdin: '4'
+      stdout: 173 is het 4 e evenwichtige priemgetal.
+    - expression: is_priem(173)
       return: true
-    - expression: vorige_priem( 5 )
-      return: 3
-    - expression: volgende_priem( 5 )
-      return: 7
+    - expression: vorige_priem(173)
+      return: 167
+    - expression: volgende_priem(173)
+      return: 179
   - testcases:
-    - stdin: '27'
-      stdout: 2677 is het 27 e evenwichtige priemgetal.
-    - expression: is_priem( 2677 )
+    - stdin: '5'
+      stdout: 211 is het 5 e evenwichtige priemgetal.
+    - expression: is_priem(211)
       return: true
-    - expression: vorige_priem( 2677 )
-      return: 2671
-    - expression: volgende_priem( 2677 )
-      return: 2683
-  - testcases:
-    - stdin: '7'
-      stdout: 263 is het 7 e evenwichtige priemgetal.
-    - expression: is_priem( 263 )
-      return: true
-    - expression: vorige_priem( 263 )
-      return: 257
-    - expression: volgende_priem( 263 )
-      return: 269
-  - testcases:
-    - stdin: '24'
-      stdout: 1907 is het 24 e evenwichtige priemgetal.
-    - expression: is_priem( 1907 )
-      return: true
-    - expression: vorige_priem( 1907 )
-      return: 1901
-    - expression: volgende_priem( 1907 )
-      return: 1913
-  - testcases:
-    - stdin: '22'
-      stdout: 1747 is het 22 e evenwichtige priemgetal.
-    - expression: is_priem( 1747 )
-      return: true
-    - expression: vorige_priem( 1747 )
-      return: 1741
-    - expression: volgende_priem( 1747 )
-      return: 1753
-  - testcases:
-    - stdin: '11'
-      stdout: 607 is het 11 e evenwichtige priemgetal.
-    - expression: is_priem( 607 )
-      return: true
-    - expression: vorige_priem( 607 )
-      return: 601
-    - expression: volgende_priem( 607 )
-      return: 613
-  - testcases:
-    - stdin: '28'
-      stdout: 2903 is het 28 e evenwichtige priemgetal.
-    - expression: is_priem( 2903 )
-      return: true
-    - expression: vorige_priem( 2903 )
-      return: 2897
-    - expression: volgende_priem( 2903 )
-      return: 2909
-  - testcases:
-    - stdin: '12'
-      stdout: 653 is het 12 e evenwichtige priemgetal.
-    - expression: is_priem( 653 )
-      return: true
-    - expression: vorige_priem( 653 )
-      return: 647
-    - expression: volgende_priem( 653 )
-      return: 659
-  - testcases:
-    - stdin: '28'
-      stdout: 2903 is het 28 e evenwichtige priemgetal.
-    - expression: is_priem( 2903 )
-      return: true
-    - expression: vorige_priem( 2903 )
-      return: 2897
-    - expression: volgende_priem( 2903 )
-      return: 2909
-  - testcases:
-    - stdin: '23'
-      stdout: 1753 is het 23 e evenwichtige priemgetal.
-    - expression: is_priem( 1753 )
-      return: true
-    - expression: vorige_priem( 1753 )
-      return: 1747
-    - expression: volgende_priem( 1753 )
-      return: 1759
-  - testcases:
-    - stdin: '20'
-      stdout: 1367 is het 20 e evenwichtige priemgetal.
-    - expression: is_priem( 1367 )
-      return: true
-    - expression: vorige_priem( 1367 )
-      return: 1361
-    - expression: volgende_priem( 1367 )
-      return: 1373
-  - testcases:
-    - stdin: '22'
-      stdout: 1747 is het 22 e evenwichtige priemgetal.
-    - expression: is_priem( 1747 )
-      return: true
-    - expression: vorige_priem( 1747 )
-      return: 1741
-    - expression: volgende_priem( 1747 )
-      return: 1753
-  - testcases:
-    - stdin: '27'
-      stdout: 2677 is het 27 e evenwichtige priemgetal.
-    - expression: is_priem( 2677 )
-      return: true
-    - expression: vorige_priem( 2677 )
-      return: 2671
-    - expression: volgende_priem( 2677 )
-      return: 2683
-  - testcases:
-    - stdin: '20'
-      stdout: 1367 is het 20 e evenwichtige priemgetal.
-    - expression: is_priem( 1367 )
-      return: true
-    - expression: vorige_priem( 1367 )
-      return: 1361
-    - expression: volgende_priem( 1367 )
-      return: 1373
+    - expression: vorige_priem(211)
+      return: 199
+    - expression: volgende_priem(211)
+      return: 223
   - testcases:
     - stdin: '6'
       stdout: 257 is het 6 e evenwichtige priemgetal.
-    - expression: is_priem( 257 )
+    - expression: is_priem(257)
       return: true
-    - expression: vorige_priem( 257 )
+    - expression: vorige_priem(257)
       return: 251
-    - expression: volgende_priem( 257 )
+    - expression: volgende_priem(257)
       return: 263
-  - testcases:
-    - stdin: '28'
-      stdout: 2903 is het 28 e evenwichtige priemgetal.
-    - expression: is_priem( 2903 )
-      return: true
-    - expression: vorige_priem( 2903 )
-      return: 2897
-    - expression: volgende_priem( 2903 )
-      return: 2909
-  - testcases:
-    - stdin: '14'
-      stdout: 947 is het 14 e evenwichtige priemgetal.
-    - expression: is_priem( 947 )
-      return: true
-    - expression: vorige_priem( 947 )
-      return: 941
-    - expression: volgende_priem( 947 )
-      return: 953
   - testcases:
     - stdin: '7'
       stdout: 263 is het 7 e evenwichtige priemgetal.
-    - expression: is_priem( 263 )
+    - expression: is_priem(263)
       return: true
-    - expression: vorige_priem( 263 )
+    - expression: vorige_priem(263)
       return: 257
-    - expression: volgende_priem( 263 )
+    - expression: volgende_priem(263)
       return: 269
+  - testcases:
+    - stdin: '8'
+      stdout: 373 is het 8 e evenwichtige priemgetal.
+    - expression: is_priem(373)
+      return: true
+    - expression: vorige_priem(373)
+      return: 367
+    - expression: volgende_priem(373)
+      return: 379
+  - testcases:
+    - stdin: '11'
+      stdout: 607 is het 11 e evenwichtige priemgetal.
+    - expression: is_priem(607)
+      return: true
+    - expression: vorige_priem(607)
+      return: 601
+    - expression: volgende_priem(607)
+      return: 613
+  - testcases:
+    - stdin: '12'
+      stdout: 653 is het 12 e evenwichtige priemgetal.
+    - expression: is_priem(653)
+      return: true
+    - expression: vorige_priem(653)
+      return: 647
+    - expression: volgende_priem(653)
+      return: 659
+  - testcases:
+    - stdin: '14'
+      stdout: 947 is het 14 e evenwichtige priemgetal.
+    - expression: is_priem(947)
+      return: true
+    - expression: vorige_priem(947)
+      return: 941
+    - expression: volgende_priem(947)
+      return: 953
+  - testcases:
+    - stdin: '15'
+      stdout: 977 is het 15 e evenwichtige priemgetal.
+    - expression: is_priem(977)
+      return: true
+    - expression: vorige_priem(977)
+      return: 971
+    - expression: volgende_priem(977)
+      return: 983
+  - testcases:
+    - stdin: '19'
+      stdout: 1223 is het 19 e evenwichtige priemgetal.
+    - expression: is_priem(1223)
+      return: true
+    - expression: vorige_priem(1223)
+      return: 1217
+    - expression: volgende_priem(1223)
+      return: 1229
+  - testcases:
+    - stdin: '20'
+      stdout: 1367 is het 20 e evenwichtige priemgetal.
+    - expression: is_priem(1367)
+      return: true
+    - expression: vorige_priem(1367)
+      return: 1361
+    - expression: volgende_priem(1367)
+      return: 1373
+  - testcases:
+    - stdin: '22'
+      stdout: 1747 is het 22 e evenwichtige priemgetal.
+    - expression: is_priem(1747)
+      return: true
+    - expression: vorige_priem(1747)
+      return: 1741
+    - expression: volgende_priem(1747)
+      return: 1753
+  - testcases:
+    - stdin: '23'
+      stdout: 1753 is het 23 e evenwichtige priemgetal.
+    - expression: is_priem(1753)
+      return: true
+    - expression: vorige_priem(1753)
+      return: 1747
+    - expression: volgende_priem(1753)
+      return: 1759
+  - testcases:
+    - stdin: '24'
+      stdout: 1907 is het 24 e evenwichtige priemgetal.
+    - expression: is_priem(1907)
+      return: true
+    - expression: vorige_priem(1907)
+      return: 1901
+    - expression: volgende_priem(1907)
+      return: 1913
+  - testcases:
+    - stdin: '27'
+      stdout: 2677 is het 27 e evenwichtige priemgetal.
+    - expression: is_priem(2677)
+      return: true
+    - expression: vorige_priem(2677)
+      return: 2671
+    - expression: volgende_priem(2677)
+      return: 2683
+  - testcases:
+    - stdin: '28'
+      stdout: 2903 is het 28 e evenwichtige priemgetal.
+    - expression: is_priem(2903)
+      return: true
+    - expression: vorige_priem(2903)
+      return: 2897
+    - expression: volgende_priem(2903)
+      return: 2909
+  - testcases:
+    - stdin: '30'
+      stdout: 3307 is het 30 e evenwichtige priemgetal.
+    - expression: is_priem(3307)
+      return: true
+    - expression: vorige_priem(3307)
+      return: 3301
+    - expression: volgende_priem(3307)
+      return: 3313
