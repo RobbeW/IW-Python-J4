@@ -10,8 +10,8 @@ Programmeer een functie `olympisch_gemiddelde(lijst)`, zodat deze gegeven een li
 
 #### Voorbeeld
 
-```
->>> olympisch_gemiddelde( [9.03, 9.30, 9.35, 9.45, 9.50] )
+```python
+>>> olympisch_gemiddelde([9.03, 9.30, 9.35, 9.45, 9.50])
 9.37
 ```
 

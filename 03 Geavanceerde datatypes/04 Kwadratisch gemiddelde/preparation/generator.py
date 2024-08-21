@@ -1,9 +1,7 @@
 import os
-import sys
-import importlib
+import importlib.util
 import random
 import ruamel.yaml
-import subprocess
 
 yaml = ruamel.yaml.YAML()
 
@@ -38,7 +36,10 @@ cases = [[15], [-10,10] ]
 while len(cases) < ntests:
     n = random.randint(3,50)
     test = list( round(random.uniform(-30,30), 1) for _ in range(n) )
-    cases.append(test)
+    if test not in cases:
+        cases.append(test)
+
+cases = sorted(cases, key = lambda x: len(x))
     
 # generate unit tests for functions
 yamldata = []
@@ -57,8 +58,8 @@ for i in range(len(cases)):
         
     # generate test expression
     #
-    expression_name = f"kwadratisch_gemiddelde( {test} )"
-    result = module.kwadratisch_gemiddelde( test )
+    expression_name = f"kwadratisch_gemiddelde({test})"
+    result = module.kwadratisch_gemiddelde(test)
 
     print(result)
     # setup for return expressions

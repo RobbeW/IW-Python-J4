@@ -12,8 +12,8 @@ Programmeer een functie `kwadratisch_gemiddelde(lijst)`, zodat deze gegeven een 
 
 #### Voorbeeld
 
-```
->>> kwadratisch_gemiddelde( [-17.7, -23.5, -28.2, -22.5, -17.1] )
+```python
+>>> kwadratisch_gemiddelde([-17.7, -23.5, -28.2, -22.5, -17.1])
 9.919
 ```
 
