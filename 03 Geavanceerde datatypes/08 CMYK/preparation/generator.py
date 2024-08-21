@@ -1,9 +1,7 @@
 import os
-import sys
-import importlib
+import importlib.util
 import random
 import ruamel.yaml
-import subprocess
 
 yaml = ruamel.yaml.YAML()
 
@@ -37,7 +35,8 @@ ntests= 20
 cases = [ (48, 213, 200), (0,255,255), (255,0,255),(255,255,0),(0,0,0)]
 while len(cases) < ntests:
     rgb = tuple( random.randint(0,255) for _ in range(3))
-    cases.append(rgb)
+    if rgb not in cases:
+        cases.append(rgb)
     
 # generate unit tests for functions
 yamldata = []
@@ -56,16 +55,16 @@ for i in range(len(cases)):
         
     # generate test expression
     #
-    expression_name = f"RGBtoCMYK( {test} )"
-    result = module.RGBtoCMYK( test )
+    expression_name = f"RGBtoCMYK({test})"
+    result = module.RGBtoCMYK(test)
 
     print(result)
     # setup for return expressions
     testcase = { "expression": expression_name, "return": result }
     yamldata[0]['contexts'][i]["testcases"].append( testcase)
     
-    expression_name = f"CMYKtoRGB( {result} )"
-    result = module.CMYKtoRGB( result )
+    expression_name = f"CMYKtoRGB({result})"
+    result = module.CMYKtoRGB(result)
 
     print(result)
     # setup for return expressions

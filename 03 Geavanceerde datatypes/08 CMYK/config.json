@@ -11,7 +11,9 @@
     }
   },
   "labels": [
-
+    "tuples",
+    "functies",
+    "math"
   ],
   "access": "public",
   "internals": {
