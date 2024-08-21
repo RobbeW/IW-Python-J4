@@ -14,7 +14,8 @@
     "evaluatie",
     "functies",
     "voorwaardelijke herhaling",
-    "while-lus"
+    "while-lus",
+    "selectie"
   ],
   "access": "public",
   "internals": {

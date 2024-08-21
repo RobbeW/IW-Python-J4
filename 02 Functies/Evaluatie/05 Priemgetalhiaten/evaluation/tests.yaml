@@ -1,142 +1,142 @@
 - tab: Feedback
   contexts:
   - testcases:
+    - stdin: '1'
+      stdout: Het 1 e priemgetalhiaat is 1
+    - expression: is_priem(2)
+      return: true
+    - expression: is_priem(3)
+      return: true
+  - testcases:
     - stdin: '3'
       stdout: Het 3 e priemgetalhiaat is 2
-    - expression: is_priem( 5 )
+    - expression: is_priem(5)
       return: true
-    - expression: is_priem( 7 )
+    - expression: is_priem(7)
       return: true
   - testcases:
     - stdin: '6'
       stdout: Het 6 e priemgetalhiaat is 4
-    - expression: is_priem( 13 )
+    - expression: is_priem(13)
       return: true
-    - expression: is_priem( 17 )
-      return: true
-  - testcases:
-    - stdin: '1'
-      stdout: Het 1 e priemgetalhiaat is 1
-    - expression: is_priem( 2 )
-      return: true
-    - expression: is_priem( 3 )
+    - expression: is_priem(17)
       return: true
   - testcases:
     - stdin: '29'
       stdout: Het 29 e priemgetalhiaat is 4
-    - expression: is_priem( 109 )
+    - expression: is_priem(109)
       return: true
-    - expression: is_priem( 113 )
+    - expression: is_priem(113)
       return: true
   - testcases:
     - stdin: '30'
       stdout: Het 30 e priemgetalhiaat is 14
-    - expression: is_priem( 113 )
+    - expression: is_priem(113)
       return: true
-    - expression: is_priem( 127 )
-      return: true
-  - testcases:
-    - stdin: '55'
-      stdout: Het 55 e priemgetalhiaat is 6
-    - expression: is_priem( 257 )
-      return: true
-    - expression: is_priem( 263 )
-      return: true
-  - testcases:
-    - stdin: '192'
-      stdout: Het 192 e priemgetalhiaat is 8
-    - expression: is_priem( 1163 )
-      return: true
-    - expression: is_priem( 1171 )
-      return: true
-  - testcases:
-    - stdin: '180'
-      stdout: Het 180 e priemgetalhiaat is 18
-    - expression: is_priem( 1069 )
-      return: true
-    - expression: is_priem( 1087 )
-      return: true
-  - testcases:
-    - stdin: '88'
-      stdout: Het 88 e priemgetalhiaat is 4
-    - expression: is_priem( 457 )
-      return: true
-    - expression: is_priem( 461 )
-      return: true
-  - testcases:
-    - stdin: '94'
-      stdout: Het 94 e priemgetalhiaat is 8
-    - expression: is_priem( 491 )
-      return: true
-    - expression: is_priem( 499 )
-      return: true
-  - testcases:
-    - stdin: '185'
-      stdout: Het 185 e priemgetalhiaat is 6
-    - expression: is_priem( 1103 )
-      return: true
-    - expression: is_priem( 1109 )
-      return: true
-  - testcases:
-    - stdin: '161'
-      stdout: Het 161 e priemgetalhiaat is 6
-    - expression: is_priem( 947 )
-      return: true
-    - expression: is_priem( 953 )
-      return: true
-  - testcases:
-    - stdin: '180'
-      stdout: Het 180 e priemgetalhiaat is 18
-    - expression: is_priem( 1069 )
-      return: true
-    - expression: is_priem( 1087 )
-      return: true
-  - testcases:
-    - stdin: '160'
-      stdout: Het 160 e priemgetalhiaat is 6
-    - expression: is_priem( 941 )
-      return: true
-    - expression: is_priem( 947 )
-      return: true
-  - testcases:
-    - stdin: '49'
-      stdout: Het 49 e priemgetalhiaat is 2
-    - expression: is_priem( 227 )
-      return: true
-    - expression: is_priem( 229 )
-      return: true
-  - testcases:
-    - stdin: '115'
-      stdout: Het 115 e priemgetalhiaat is 10
-    - expression: is_priem( 631 )
-      return: true
-    - expression: is_priem( 641 )
-      return: true
-  - testcases:
-    - stdin: '61'
-      stdout: Het 61 e priemgetalhiaat is 10
-    - expression: is_priem( 283 )
-      return: true
-    - expression: is_priem( 293 )
-      return: true
-  - testcases:
-    - stdin: '68'
-      stdout: Het 68 e priemgetalhiaat is 10
-    - expression: is_priem( 337 )
-      return: true
-    - expression: is_priem( 347 )
-      return: true
-  - testcases:
-    - stdin: '119'
-      stdout: Het 119 e priemgetalhiaat is 6
-    - expression: is_priem( 653 )
-      return: true
-    - expression: is_priem( 659 )
+    - expression: is_priem(127)
       return: true
   - testcases:
     - stdin: '36'
       stdout: Het 36 e priemgetalhiaat is 6
-    - expression: is_priem( 151 )
+    - expression: is_priem(151)
       return: true
-    - expression: is_priem( 157 )
+    - expression: is_priem(157)
+      return: true
+  - testcases:
+    - stdin: '49'
+      stdout: Het 49 e priemgetalhiaat is 2
+    - expression: is_priem(227)
+      return: true
+    - expression: is_priem(229)
+      return: true
+  - testcases:
+    - stdin: '55'
+      stdout: Het 55 e priemgetalhiaat is 6
+    - expression: is_priem(257)
+      return: true
+    - expression: is_priem(263)
+      return: true
+  - testcases:
+    - stdin: '61'
+      stdout: Het 61 e priemgetalhiaat is 10
+    - expression: is_priem(283)
+      return: true
+    - expression: is_priem(293)
+      return: true
+  - testcases:
+    - stdin: '68'
+      stdout: Het 68 e priemgetalhiaat is 10
+    - expression: is_priem(337)
+      return: true
+    - expression: is_priem(347)
+      return: true
+  - testcases:
+    - stdin: '88'
+      stdout: Het 88 e priemgetalhiaat is 4
+    - expression: is_priem(457)
+      return: true
+    - expression: is_priem(461)
+      return: true
+  - testcases:
+    - stdin: '94'
+      stdout: Het 94 e priemgetalhiaat is 8
+    - expression: is_priem(491)
+      return: true
+    - expression: is_priem(499)
+      return: true
+  - testcases:
+    - stdin: '115'
+      stdout: Het 115 e priemgetalhiaat is 10
+    - expression: is_priem(631)
+      return: true
+    - expression: is_priem(641)
+      return: true
+  - testcases:
+    - stdin: '119'
+      stdout: Het 119 e priemgetalhiaat is 6
+    - expression: is_priem(653)
+      return: true
+    - expression: is_priem(659)
+      return: true
+  - testcases:
+    - stdin: '156'
+      stdout: Het 156 e priemgetalhiaat is 8
+    - expression: is_priem(911)
+      return: true
+    - expression: is_priem(919)
+      return: true
+  - testcases:
+    - stdin: '160'
+      stdout: Het 160 e priemgetalhiaat is 6
+    - expression: is_priem(941)
+      return: true
+    - expression: is_priem(947)
+      return: true
+  - testcases:
+    - stdin: '161'
+      stdout: Het 161 e priemgetalhiaat is 6
+    - expression: is_priem(947)
+      return: true
+    - expression: is_priem(953)
+      return: true
+  - testcases:
+    - stdin: '180'
+      stdout: Het 180 e priemgetalhiaat is 18
+    - expression: is_priem(1069)
+      return: true
+    - expression: is_priem(1087)
+      return: true
+  - testcases:
+    - stdin: '185'
+      stdout: Het 185 e priemgetalhiaat is 6
+    - expression: is_priem(1103)
+      return: true
+    - expression: is_priem(1109)
+      return: true
+  - testcases:
+    - stdin: '192'
+      stdout: Het 192 e priemgetalhiaat is 8
+    - expression: is_priem(1163)
+      return: true
+    - expression: is_priem(1171)
       return: true

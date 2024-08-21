@@ -1,7 +1,6 @@
 import os
-import math
 import sys
-import importlib
+import importlib.util
 import random
 import ruamel.yaml
 import subprocess
@@ -28,6 +27,12 @@ def write_yaml( data:list ):
         yaml.dump(data, f)
 
 
+module_name = 'solution'
+file_path = os.path.join(solutiondir, 'solution.nl.py')
+spec = importlib.util.spec_from_file_location(module_name, file_path)
+module = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(module)
+
 class Capturing(list):
     def __enter__(self):
         self._stdout = sys.stdout
@@ -39,8 +44,23 @@ class Capturing(list):
         sys.stdout = self._stdout
 
 # generate test data
-cases = [(5,),(10,),(11,),(29,),(30,),(47,), (53,),(60,),(100,),(151,),(200,),(500,),(1000,)]
+def is_priem( getal ):
+    priem = True
+    for i in range(2, getal):
+        if getal % i == 0:
+            priem = False
+    
+    return priem
 
+def prev_sexy_priem(getal):
+    getal -= 1
+    while (not is_priem(getal) or not is_priem(getal - 6)) and getal > 2:
+        getal -= 1
+    return getal
+    
+
+# generate test data
+cases = [(5,),(10,),(11,),(29,),(30,),(47,), (53,),(60,),(100,),(151,),(200,),(500,),(1000,), (1500,)]
 
 # generate unit tests for functions
 yamldata = []
@@ -49,10 +69,13 @@ yamldata = []
 input = 'stdin'
 # output, stdout or return?
 output = 'stdout'
+tabtitle = "Feedback"
 
-yamldata.append( {'tab': 'Feedback', 'testcases': []})
+yamldata.append( {'tab': tabtitle, 'contexts': []})
 
-for test in cases:
+for i in range(len(cases)):
+    test = cases[i]
+    yamldata[0]['contexts'].append( {'testcases' : []})
     # generate test expression
     # add input to input file
     stdin = '\n'.join(f'{line}' for line in test)
@@ -66,16 +89,36 @@ for test in cases:
         capture_output=True
     )
     
+    result_lines = process.stdout.split("\n")
+    result_lines = [x for x in result_lines[:-1]] ## drop last element
+    
     outputtxt = ""
-    result_lines = process.stdout.split("\n")    
     for line in result_lines:
         if not(line.startswith( 'Geef' )):
-            #print()
-            outputtxt += line+"\n"
             print(line)
+            outputtxt += f"{line}\n"
+            
+    testcase = { input: stdin, output: outputtxt }            
+    yamldata[0]['contexts'][i]["testcases"].append( testcase)
     
-    # setup for return expressions
-    testcase = { input: stdin, output: outputtxt[:-2] }
-    yamldata[0]['testcases'].append( testcase)
+    # generate test expression
+    p = prev_sexy_priem(test[0])
+    
+    if p - 6 >= 1:
+        expression_name = f"is_priem({p - 6})"
+        result = module.is_priem(p - 6)
 
+        print(result)
+        # setup for return expressions
+        testcase = { "expression": expression_name, "return": result }
+        yamldata[0]['contexts'][i]["testcases"].append( testcase)
+   
+    expression_name = f"is_priem({p})"
+    result = module.is_priem(p)
+
+    print(result)
+    # setup for return expressions
+    testcase = { "expression": expression_name, "return": result }
+    yamldata[0]['contexts'][i]["testcases"].append( testcase)
+   
 write_yaml(yamldata)

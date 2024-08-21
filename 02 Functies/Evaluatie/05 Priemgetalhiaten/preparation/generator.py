@@ -1,7 +1,6 @@
 import os
-import math
 import sys
-import importlib
+import importlib.util
 import random
 import ruamel.yaml
 import subprocess
@@ -45,12 +44,6 @@ class Capturing(list):
         sys.stdout = self._stdout
 
 # generate test data
-ntests = 20
-cases = [(3,),(6,),(1,),(29,), (30,)]
-while len(cases) < ntests:
-    n = random.randint(30,200)
-    cases.append((n,))
-
 def is_priem( getal ):
     priem = True
     for i in range(2, getal):
@@ -71,6 +64,16 @@ def last_and_prev_prime(n):
             laatste_priem = i
             aantal += 1
     return (voorlaatste_priem, laatste_priem)
+
+ntests = 20
+cases = [(3,),(6,),(1,),(29,), (30,)]
+while len(cases) < ntests:
+    n = random.randint(30,200)
+    if (n,) not in cases:
+        cases.append((n,))
+
+cases.sort()
+
 
 # generate unit tests for functions
 yamldata = []
@@ -112,18 +115,18 @@ for i in range(len(cases)):
     yamldata[0]['contexts'][i]["testcases"].append( testcase)
     
     # generate test expression
-    (prev_prime, last_prime) = last_and_prev_prime(test[0])
+    prev_prime, last_prime = last_and_prev_prime(test[0])
     
-    expression_name = 'is_priem( {} )'.format( prev_prime )
-    result = module.is_priem( prev_prime )
+    expression_name = f"is_priem({prev_prime})"
+    result = module.is_priem(prev_prime)
 
     print(result)
     # setup for return expressions
     testcase = { "expression": expression_name, "return": result }
     yamldata[0]['contexts'][i]["testcases"].append( testcase)
    
-    expression_name = 'is_priem( {} )'.format( last_prime )
-    result = module.is_priem( last_prime )
+    expression_name = f"is_priem({last_prime})"
+    result = module.is_priem(last_prime)
 
     print(result)
     # setup for return expressions

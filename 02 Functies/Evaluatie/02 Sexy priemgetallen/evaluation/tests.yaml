@@ -1,128 +1,249 @@
 - tab: Feedback
-  testcases:
-  - stdin: '5'
-    stdout: Er werden geen sexy priemgetallen kleiner dan 5 gevonden.
-  - stdin: '10'
-    stdout: Er werden geen sexy priemgetallen kleiner dan 10 gevonden.
-  - stdin: '11'
-    stdout: Er werden geen sexy priemgetallen kleiner dan 11 gevonden.
-  - stdin: '29'
-    stdout: "5 en 11 zijn sexy priemgetallen.\n7 en 13 zijn sexy priemgetallen.\n\
-      11 en 17 zijn sexy priemgetallen.\n13 en 19 zijn sexy priemgetallen.\n17 en\
-      \ 23 zijn sexy priemgetallen."
-  - stdin: '30'
-    stdout: "5 en 11 zijn sexy priemgetallen.\n7 en 13 zijn sexy priemgetallen.\n\
-      11 en 17 zijn sexy priemgetallen.\n13 en 19 zijn sexy priemgetallen.\n17 en\
-      \ 23 zijn sexy priemgetallen.\n23 en 29 zijn sexy priemgetallen."
-  - stdin: '47'
-    stdout: "5 en 11 zijn sexy priemgetallen.\n7 en 13 zijn sexy priemgetallen.\n\
-      11 en 17 zijn sexy priemgetallen.\n13 en 19 zijn sexy priemgetallen.\n17 en\
-      \ 23 zijn sexy priemgetallen.\n23 en 29 zijn sexy priemgetallen.\n31 en 37 zijn\
-      \ sexy priemgetallen.\n37 en 43 zijn sexy priemgetallen."
-  - stdin: '53'
-    stdout: "5 en 11 zijn sexy priemgetallen.\n7 en 13 zijn sexy priemgetallen.\n\
-      11 en 17 zijn sexy priemgetallen.\n13 en 19 zijn sexy priemgetallen.\n17 en\
-      \ 23 zijn sexy priemgetallen.\n23 en 29 zijn sexy priemgetallen.\n31 en 37 zijn\
-      \ sexy priemgetallen.\n37 en 43 zijn sexy priemgetallen.\n41 en 47 zijn sexy\
-      \ priemgetallen."
-  - stdin: '60'
-    stdout: "5 en 11 zijn sexy priemgetallen.\n7 en 13 zijn sexy priemgetallen.\n\
-      11 en 17 zijn sexy priemgetallen.\n13 en 19 zijn sexy priemgetallen.\n17 en\
-      \ 23 zijn sexy priemgetallen.\n23 en 29 zijn sexy priemgetallen.\n31 en 37 zijn\
-      \ sexy priemgetallen.\n37 en 43 zijn sexy priemgetallen.\n41 en 47 zijn sexy\
-      \ priemgetallen.\n47 en 53 zijn sexy priemgetallen.\n53 en 59 zijn sexy priemgetallen."
-  - stdin: '100'
-    stdout: "5 en 11 zijn sexy priemgetallen.\n7 en 13 zijn sexy priemgetallen.\n\
-      11 en 17 zijn sexy priemgetallen.\n13 en 19 zijn sexy priemgetallen.\n17 en\
-      \ 23 zijn sexy priemgetallen.\n23 en 29 zijn sexy priemgetallen.\n31 en 37 zijn\
-      \ sexy priemgetallen.\n37 en 43 zijn sexy priemgetallen.\n41 en 47 zijn sexy\
-      \ priemgetallen.\n47 en 53 zijn sexy priemgetallen.\n53 en 59 zijn sexy priemgetallen.\n\
-      61 en 67 zijn sexy priemgetallen.\n67 en 73 zijn sexy priemgetallen.\n73 en\
-      \ 79 zijn sexy priemgetallen.\n83 en 89 zijn sexy priemgetallen."
-  - stdin: '151'
-    stdout: "5 en 11 zijn sexy priemgetallen.\n7 en 13 zijn sexy priemgetallen.\n\
-      11 en 17 zijn sexy priemgetallen.\n13 en 19 zijn sexy priemgetallen.\n17 en\
-      \ 23 zijn sexy priemgetallen.\n23 en 29 zijn sexy priemgetallen.\n31 en 37 zijn\
-      \ sexy priemgetallen.\n37 en 43 zijn sexy priemgetallen.\n41 en 47 zijn sexy\
-      \ priemgetallen.\n47 en 53 zijn sexy priemgetallen.\n53 en 59 zijn sexy priemgetallen.\n\
-      61 en 67 zijn sexy priemgetallen.\n67 en 73 zijn sexy priemgetallen.\n73 en\
-      \ 79 zijn sexy priemgetallen.\n83 en 89 zijn sexy priemgetallen.\n97 en 103\
-      \ zijn sexy priemgetallen.\n101 en 107 zijn sexy priemgetallen.\n103 en 109\
-      \ zijn sexy priemgetallen.\n107 en 113 zijn sexy priemgetallen.\n131 en 137\
-      \ zijn sexy priemgetallen."
-  - stdin: '200'
-    stdout: "5 en 11 zijn sexy priemgetallen.\n7 en 13 zijn sexy priemgetallen.\n\
-      11 en 17 zijn sexy priemgetallen.\n13 en 19 zijn sexy priemgetallen.\n17 en\
-      \ 23 zijn sexy priemgetallen.\n23 en 29 zijn sexy priemgetallen.\n31 en 37 zijn\
-      \ sexy priemgetallen.\n37 en 43 zijn sexy priemgetallen.\n41 en 47 zijn sexy\
-      \ priemgetallen.\n47 en 53 zijn sexy priemgetallen.\n53 en 59 zijn sexy priemgetallen.\n\
-      61 en 67 zijn sexy priemgetallen.\n67 en 73 zijn sexy priemgetallen.\n73 en\
-      \ 79 zijn sexy priemgetallen.\n83 en 89 zijn sexy priemgetallen.\n97 en 103\
-      \ zijn sexy priemgetallen.\n101 en 107 zijn sexy priemgetallen.\n103 en 109\
-      \ zijn sexy priemgetallen.\n107 en 113 zijn sexy priemgetallen.\n131 en 137\
-      \ zijn sexy priemgetallen.\n151 en 157 zijn sexy priemgetallen.\n157 en 163\
-      \ zijn sexy priemgetallen.\n167 en 173 zijn sexy priemgetallen.\n173 en 179\
-      \ zijn sexy priemgetallen.\n191 en 197 zijn sexy priemgetallen.\n193 en 199\
-      \ zijn sexy priemgetallen."
-  - stdin: '500'
-    stdout: "5 en 11 zijn sexy priemgetallen.\n7 en 13 zijn sexy priemgetallen.\n\
-      11 en 17 zijn sexy priemgetallen.\n13 en 19 zijn sexy priemgetallen.\n17 en\
-      \ 23 zijn sexy priemgetallen.\n23 en 29 zijn sexy priemgetallen.\n31 en 37 zijn\
-      \ sexy priemgetallen.\n37 en 43 zijn sexy priemgetallen.\n41 en 47 zijn sexy\
-      \ priemgetallen.\n47 en 53 zijn sexy priemgetallen.\n53 en 59 zijn sexy priemgetallen.\n\
-      61 en 67 zijn sexy priemgetallen.\n67 en 73 zijn sexy priemgetallen.\n73 en\
-      \ 79 zijn sexy priemgetallen.\n83 en 89 zijn sexy priemgetallen.\n97 en 103\
-      \ zijn sexy priemgetallen.\n101 en 107 zijn sexy priemgetallen.\n103 en 109\
-      \ zijn sexy priemgetallen.\n107 en 113 zijn sexy priemgetallen.\n131 en 137\
-      \ zijn sexy priemgetallen.\n151 en 157 zijn sexy priemgetallen.\n157 en 163\
-      \ zijn sexy priemgetallen.\n167 en 173 zijn sexy priemgetallen.\n173 en 179\
-      \ zijn sexy priemgetallen.\n191 en 197 zijn sexy priemgetallen.\n193 en 199\
-      \ zijn sexy priemgetallen.\n223 en 229 zijn sexy priemgetallen.\n227 en 233\
-      \ zijn sexy priemgetallen.\n233 en 239 zijn sexy priemgetallen.\n251 en 257\
-      \ zijn sexy priemgetallen.\n257 en 263 zijn sexy priemgetallen.\n263 en 269\
-      \ zijn sexy priemgetallen.\n271 en 277 zijn sexy priemgetallen.\n277 en 283\
-      \ zijn sexy priemgetallen.\n307 en 313 zijn sexy priemgetallen.\n311 en 317\
-      \ zijn sexy priemgetallen.\n331 en 337 zijn sexy priemgetallen.\n347 en 353\
-      \ zijn sexy priemgetallen.\n353 en 359 zijn sexy priemgetallen.\n367 en 373\
-      \ zijn sexy priemgetallen.\n373 en 379 zijn sexy priemgetallen.\n383 en 389\
-      \ zijn sexy priemgetallen.\n433 en 439 zijn sexy priemgetallen.\n443 en 449\
-      \ zijn sexy priemgetallen.\n457 en 463 zijn sexy priemgetallen.\n461 en 467\
-      \ zijn sexy priemgetallen."
-  - stdin: '1000'
-    stdout: "5 en 11 zijn sexy priemgetallen.\n7 en 13 zijn sexy priemgetallen.\n\
-      11 en 17 zijn sexy priemgetallen.\n13 en 19 zijn sexy priemgetallen.\n17 en\
-      \ 23 zijn sexy priemgetallen.\n23 en 29 zijn sexy priemgetallen.\n31 en 37 zijn\
-      \ sexy priemgetallen.\n37 en 43 zijn sexy priemgetallen.\n41 en 47 zijn sexy\
-      \ priemgetallen.\n47 en 53 zijn sexy priemgetallen.\n53 en 59 zijn sexy priemgetallen.\n\
-      61 en 67 zijn sexy priemgetallen.\n67 en 73 zijn sexy priemgetallen.\n73 en\
-      \ 79 zijn sexy priemgetallen.\n83 en 89 zijn sexy priemgetallen.\n97 en 103\
-      \ zijn sexy priemgetallen.\n101 en 107 zijn sexy priemgetallen.\n103 en 109\
-      \ zijn sexy priemgetallen.\n107 en 113 zijn sexy priemgetallen.\n131 en 137\
-      \ zijn sexy priemgetallen.\n151 en 157 zijn sexy priemgetallen.\n157 en 163\
-      \ zijn sexy priemgetallen.\n167 en 173 zijn sexy priemgetallen.\n173 en 179\
-      \ zijn sexy priemgetallen.\n191 en 197 zijn sexy priemgetallen.\n193 en 199\
-      \ zijn sexy priemgetallen.\n223 en 229 zijn sexy priemgetallen.\n227 en 233\
-      \ zijn sexy priemgetallen.\n233 en 239 zijn sexy priemgetallen.\n251 en 257\
-      \ zijn sexy priemgetallen.\n257 en 263 zijn sexy priemgetallen.\n263 en 269\
-      \ zijn sexy priemgetallen.\n271 en 277 zijn sexy priemgetallen.\n277 en 283\
-      \ zijn sexy priemgetallen.\n307 en 313 zijn sexy priemgetallen.\n311 en 317\
-      \ zijn sexy priemgetallen.\n331 en 337 zijn sexy priemgetallen.\n347 en 353\
-      \ zijn sexy priemgetallen.\n353 en 359 zijn sexy priemgetallen.\n367 en 373\
-      \ zijn sexy priemgetallen.\n373 en 379 zijn sexy priemgetallen.\n383 en 389\
-      \ zijn sexy priemgetallen.\n433 en 439 zijn sexy priemgetallen.\n443 en 449\
-      \ zijn sexy priemgetallen.\n457 en 463 zijn sexy priemgetallen.\n461 en 467\
-      \ zijn sexy priemgetallen.\n503 en 509 zijn sexy priemgetallen.\n541 en 547\
-      \ zijn sexy priemgetallen.\n557 en 563 zijn sexy priemgetallen.\n563 en 569\
-      \ zijn sexy priemgetallen.\n571 en 577 zijn sexy priemgetallen.\n587 en 593\
-      \ zijn sexy priemgetallen.\n593 en 599 zijn sexy priemgetallen.\n601 en 607\
-      \ zijn sexy priemgetallen.\n607 en 613 zijn sexy priemgetallen.\n613 en 619\
-      \ zijn sexy priemgetallen.\n641 en 647 zijn sexy priemgetallen.\n647 en 653\
-      \ zijn sexy priemgetallen.\n653 en 659 zijn sexy priemgetallen.\n677 en 683\
-      \ zijn sexy priemgetallen.\n727 en 733 zijn sexy priemgetallen.\n733 en 739\
-      \ zijn sexy priemgetallen.\n751 en 757 zijn sexy priemgetallen.\n821 en 827\
-      \ zijn sexy priemgetallen.\n823 en 829 zijn sexy priemgetallen.\n853 en 859\
-      \ zijn sexy priemgetallen.\n857 en 863 zijn sexy priemgetallen.\n877 en 883\
-      \ zijn sexy priemgetallen.\n881 en 887 zijn sexy priemgetallen.\n941 en 947\
-      \ zijn sexy priemgetallen.\n947 en 953 zijn sexy priemgetallen.\n971 en 977\
-      \ zijn sexy priemgetallen.\n977 en 983 zijn sexy priemgetallen.\n991 en 997\
-      \ zijn sexy priemgetallen."
+  contexts:
+  - testcases:
+    - stdin: '5'
+      stdout: "Er werden geen sexy priemgetallen kleiner dan 5 gevonden.\n"
+    - expression: is_priem(3)
+      return: true
+  - testcases:
+    - stdin: '10'
+      stdout: "Er werden geen sexy priemgetallen kleiner dan 10 gevonden.\n"
+    - expression: is_priem(1)
+      return: false
+    - expression: is_priem(7)
+      return: true
+  - testcases:
+    - stdin: '11'
+      stdout: "Er werden geen sexy priemgetallen kleiner dan 11 gevonden.\n"
+    - expression: is_priem(1)
+      return: false
+    - expression: is_priem(7)
+      return: true
+  - testcases:
+    - stdin: '29'
+      stdout: "5 en 11 zijn sexy priemgetallen.\n7 en 13 zijn sexy priemgetallen.\n\
+        11 en 17 zijn sexy priemgetallen.\n13 en 19 zijn sexy priemgetallen.\n17 en
+        23 zijn sexy priemgetallen.\n"
+    - expression: is_priem(17)
+      return: true
+    - expression: is_priem(23)
+      return: true
+  - testcases:
+    - stdin: '30'
+      stdout: "5 en 11 zijn sexy priemgetallen.\n7 en 13 zijn sexy priemgetallen.\n\
+        11 en 17 zijn sexy priemgetallen.\n13 en 19 zijn sexy priemgetallen.\n17 en
+        23 zijn sexy priemgetallen.\n23 en 29 zijn sexy priemgetallen.\n"
+    - expression: is_priem(23)
+      return: true
+    - expression: is_priem(29)
+      return: true
+  - testcases:
+    - stdin: '47'
+      stdout: "5 en 11 zijn sexy priemgetallen.\n7 en 13 zijn sexy priemgetallen.\n\
+        11 en 17 zijn sexy priemgetallen.\n13 en 19 zijn sexy priemgetallen.\n17 en
+        23 zijn sexy priemgetallen.\n23 en 29 zijn sexy priemgetallen.\n31 en 37 zijn
+        sexy priemgetallen.\n37 en 43 zijn sexy priemgetallen.\n"
+    - expression: is_priem(37)
+      return: true
+    - expression: is_priem(43)
+      return: true
+  - testcases:
+    - stdin: '53'
+      stdout: "5 en 11 zijn sexy priemgetallen.\n7 en 13 zijn sexy priemgetallen.\n\
+        11 en 17 zijn sexy priemgetallen.\n13 en 19 zijn sexy priemgetallen.\n17 en
+        23 zijn sexy priemgetallen.\n23 en 29 zijn sexy priemgetallen.\n31 en 37 zijn
+        sexy priemgetallen.\n37 en 43 zijn sexy priemgetallen.\n41 en 47 zijn sexy
+        priemgetallen.\n"
+    - expression: is_priem(41)
+      return: true
+    - expression: is_priem(47)
+      return: true
+  - testcases:
+    - stdin: '60'
+      stdout: "5 en 11 zijn sexy priemgetallen.\n7 en 13 zijn sexy priemgetallen.\n\
+        11 en 17 zijn sexy priemgetallen.\n13 en 19 zijn sexy priemgetallen.\n17 en
+        23 zijn sexy priemgetallen.\n23 en 29 zijn sexy priemgetallen.\n31 en 37 zijn
+        sexy priemgetallen.\n37 en 43 zijn sexy priemgetallen.\n41 en 47 zijn sexy
+        priemgetallen.\n47 en 53 zijn sexy priemgetallen.\n53 en 59 zijn sexy priemgetallen.\n"
+    - expression: is_priem(53)
+      return: true
+    - expression: is_priem(59)
+      return: true
+  - testcases:
+    - stdin: '100'
+      stdout: "5 en 11 zijn sexy priemgetallen.\n7 en 13 zijn sexy priemgetallen.\n\
+        11 en 17 zijn sexy priemgetallen.\n13 en 19 zijn sexy priemgetallen.\n17 en
+        23 zijn sexy priemgetallen.\n23 en 29 zijn sexy priemgetallen.\n31 en 37 zijn
+        sexy priemgetallen.\n37 en 43 zijn sexy priemgetallen.\n41 en 47 zijn sexy
+        priemgetallen.\n47 en 53 zijn sexy priemgetallen.\n53 en 59 zijn sexy priemgetallen.\n\
+        61 en 67 zijn sexy priemgetallen.\n67 en 73 zijn sexy priemgetallen.\n73 en
+        79 zijn sexy priemgetallen.\n83 en 89 zijn sexy priemgetallen.\n"
+    - expression: is_priem(83)
+      return: true
+    - expression: is_priem(89)
+      return: true
+  - testcases:
+    - stdin: '151'
+      stdout: "5 en 11 zijn sexy priemgetallen.\n7 en 13 zijn sexy priemgetallen.\n\
+        11 en 17 zijn sexy priemgetallen.\n13 en 19 zijn sexy priemgetallen.\n17 en
+        23 zijn sexy priemgetallen.\n23 en 29 zijn sexy priemgetallen.\n31 en 37 zijn
+        sexy priemgetallen.\n37 en 43 zijn sexy priemgetallen.\n41 en 47 zijn sexy
+        priemgetallen.\n47 en 53 zijn sexy priemgetallen.\n53 en 59 zijn sexy priemgetallen.\n\
+        61 en 67 zijn sexy priemgetallen.\n67 en 73 zijn sexy priemgetallen.\n73 en
+        79 zijn sexy priemgetallen.\n83 en 89 zijn sexy priemgetallen.\n97 en 103
+        zijn sexy priemgetallen.\n101 en 107 zijn sexy priemgetallen.\n103 en 109
+        zijn sexy priemgetallen.\n107 en 113 zijn sexy priemgetallen.\n131 en 137
+        zijn sexy priemgetallen.\n"
+    - expression: is_priem(131)
+      return: true
+    - expression: is_priem(137)
+      return: true
+  - testcases:
+    - stdin: '200'
+      stdout: "5 en 11 zijn sexy priemgetallen.\n7 en 13 zijn sexy priemgetallen.\n\
+        11 en 17 zijn sexy priemgetallen.\n13 en 19 zijn sexy priemgetallen.\n17 en
+        23 zijn sexy priemgetallen.\n23 en 29 zijn sexy priemgetallen.\n31 en 37 zijn
+        sexy priemgetallen.\n37 en 43 zijn sexy priemgetallen.\n41 en 47 zijn sexy
+        priemgetallen.\n47 en 53 zijn sexy priemgetallen.\n53 en 59 zijn sexy priemgetallen.\n\
+        61 en 67 zijn sexy priemgetallen.\n67 en 73 zijn sexy priemgetallen.\n73 en
+        79 zijn sexy priemgetallen.\n83 en 89 zijn sexy priemgetallen.\n97 en 103
+        zijn sexy priemgetallen.\n101 en 107 zijn sexy priemgetallen.\n103 en 109
+        zijn sexy priemgetallen.\n107 en 113 zijn sexy priemgetallen.\n131 en 137
+        zijn sexy priemgetallen.\n151 en 157 zijn sexy priemgetallen.\n157 en 163
+        zijn sexy priemgetallen.\n167 en 173 zijn sexy priemgetallen.\n173 en 179
+        zijn sexy priemgetallen.\n191 en 197 zijn sexy priemgetallen.\n193 en 199
+        zijn sexy priemgetallen.\n"
+    - expression: is_priem(193)
+      return: true
+    - expression: is_priem(199)
+      return: true
+  - testcases:
+    - stdin: '500'
+      stdout: "5 en 11 zijn sexy priemgetallen.\n7 en 13 zijn sexy priemgetallen.\n\
+        11 en 17 zijn sexy priemgetallen.\n13 en 19 zijn sexy priemgetallen.\n17 en
+        23 zijn sexy priemgetallen.\n23 en 29 zijn sexy priemgetallen.\n31 en 37 zijn
+        sexy priemgetallen.\n37 en 43 zijn sexy priemgetallen.\n41 en 47 zijn sexy
+        priemgetallen.\n47 en 53 zijn sexy priemgetallen.\n53 en 59 zijn sexy priemgetallen.\n\
+        61 en 67 zijn sexy priemgetallen.\n67 en 73 zijn sexy priemgetallen.\n73 en
+        79 zijn sexy priemgetallen.\n83 en 89 zijn sexy priemgetallen.\n97 en 103
+        zijn sexy priemgetallen.\n101 en 107 zijn sexy priemgetallen.\n103 en 109
+        zijn sexy priemgetallen.\n107 en 113 zijn sexy priemgetallen.\n131 en 137
+        zijn sexy priemgetallen.\n151 en 157 zijn sexy priemgetallen.\n157 en 163
+        zijn sexy priemgetallen.\n167 en 173 zijn sexy priemgetallen.\n173 en 179
+        zijn sexy priemgetallen.\n191 en 197 zijn sexy priemgetallen.\n193 en 199
+        zijn sexy priemgetallen.\n223 en 229 zijn sexy priemgetallen.\n227 en 233
+        zijn sexy priemgetallen.\n233 en 239 zijn sexy priemgetallen.\n251 en 257
+        zijn sexy priemgetallen.\n257 en 263 zijn sexy priemgetallen.\n263 en 269
+        zijn sexy priemgetallen.\n271 en 277 zijn sexy priemgetallen.\n277 en 283
+        zijn sexy priemgetallen.\n307 en 313 zijn sexy priemgetallen.\n311 en 317
+        zijn sexy priemgetallen.\n331 en 337 zijn sexy priemgetallen.\n347 en 353
+        zijn sexy priemgetallen.\n353 en 359 zijn sexy priemgetallen.\n367 en 373
+        zijn sexy priemgetallen.\n373 en 379 zijn sexy priemgetallen.\n383 en 389
+        zijn sexy priemgetallen.\n433 en 439 zijn sexy priemgetallen.\n443 en 449
+        zijn sexy priemgetallen.\n457 en 463 zijn sexy priemgetallen.\n461 en 467
+        zijn sexy priemgetallen.\n"
+    - expression: is_priem(461)
+      return: true
+    - expression: is_priem(467)
+      return: true
+  - testcases:
+    - stdin: '1000'
+      stdout: "5 en 11 zijn sexy priemgetallen.\n7 en 13 zijn sexy priemgetallen.\n\
+        11 en 17 zijn sexy priemgetallen.\n13 en 19 zijn sexy priemgetallen.\n17 en
+        23 zijn sexy priemgetallen.\n23 en 29 zijn sexy priemgetallen.\n31 en 37 zijn
+        sexy priemgetallen.\n37 en 43 zijn sexy priemgetallen.\n41 en 47 zijn sexy
+        priemgetallen.\n47 en 53 zijn sexy priemgetallen.\n53 en 59 zijn sexy priemgetallen.\n\
+        61 en 67 zijn sexy priemgetallen.\n67 en 73 zijn sexy priemgetallen.\n73 en
+        79 zijn sexy priemgetallen.\n83 en 89 zijn sexy priemgetallen.\n97 en 103
+        zijn sexy priemgetallen.\n101 en 107 zijn sexy priemgetallen.\n103 en 109
+        zijn sexy priemgetallen.\n107 en 113 zijn sexy priemgetallen.\n131 en 137
+        zijn sexy priemgetallen.\n151 en 157 zijn sexy priemgetallen.\n157 en 163
+        zijn sexy priemgetallen.\n167 en 173 zijn sexy priemgetallen.\n173 en 179
+        zijn sexy priemgetallen.\n191 en 197 zijn sexy priemgetallen.\n193 en 199
+        zijn sexy priemgetallen.\n223 en 229 zijn sexy priemgetallen.\n227 en 233
+        zijn sexy priemgetallen.\n233 en 239 zijn sexy priemgetallen.\n251 en 257
+        zijn sexy priemgetallen.\n257 en 263 zijn sexy priemgetallen.\n263 en 269
+        zijn sexy priemgetallen.\n271 en 277 zijn sexy priemgetallen.\n277 en 283
+        zijn sexy priemgetallen.\n307 en 313 zijn sexy priemgetallen.\n311 en 317
+        zijn sexy priemgetallen.\n331 en 337 zijn sexy priemgetallen.\n347 en 353
+        zijn sexy priemgetallen.\n353 en 359 zijn sexy priemgetallen.\n367 en 373
+        zijn sexy priemgetallen.\n373 en 379 zijn sexy priemgetallen.\n383 en 389
+        zijn sexy priemgetallen.\n433 en 439 zijn sexy priemgetallen.\n443 en 449
+        zijn sexy priemgetallen.\n457 en 463 zijn sexy priemgetallen.\n461 en 467
+        zijn sexy priemgetallen.\n503 en 509 zijn sexy priemgetallen.\n541 en 547
+        zijn sexy priemgetallen.\n557 en 563 zijn sexy priemgetallen.\n563 en 569
+        zijn sexy priemgetallen.\n571 en 577 zijn sexy priemgetallen.\n587 en 593
+        zijn sexy priemgetallen.\n593 en 599 zijn sexy priemgetallen.\n601 en 607
+        zijn sexy priemgetallen.\n607 en 613 zijn sexy priemgetallen.\n613 en 619
+        zijn sexy priemgetallen.\n641 en 647 zijn sexy priemgetallen.\n647 en 653
+        zijn sexy priemgetallen.\n653 en 659 zijn sexy priemgetallen.\n677 en 683
+        zijn sexy priemgetallen.\n727 en 733 zijn sexy priemgetallen.\n733 en 739
+        zijn sexy priemgetallen.\n751 en 757 zijn sexy priemgetallen.\n821 en 827
+        zijn sexy priemgetallen.\n823 en 829 zijn sexy priemgetallen.\n853 en 859
+        zijn sexy priemgetallen.\n857 en 863 zijn sexy priemgetallen.\n877 en 883
+        zijn sexy priemgetallen.\n881 en 887 zijn sexy priemgetallen.\n941 en 947
+        zijn sexy priemgetallen.\n947 en 953 zijn sexy priemgetallen.\n971 en 977
+        zijn sexy priemgetallen.\n977 en 983 zijn sexy priemgetallen.\n991 en 997
+        zijn sexy priemgetallen.\n"
+    - expression: is_priem(991)
+      return: true
+    - expression: is_priem(997)
+      return: true
+  - testcases:
+    - stdin: '1500'
+      stdout: "5 en 11 zijn sexy priemgetallen.\n7 en 13 zijn sexy priemgetallen.\n\
+        11 en 17 zijn sexy priemgetallen.\n13 en 19 zijn sexy priemgetallen.\n17 en
+        23 zijn sexy priemgetallen.\n23 en 29 zijn sexy priemgetallen.\n31 en 37 zijn
+        sexy priemgetallen.\n37 en 43 zijn sexy priemgetallen.\n41 en 47 zijn sexy
+        priemgetallen.\n47 en 53 zijn sexy priemgetallen.\n53 en 59 zijn sexy priemgetallen.\n\
+        61 en 67 zijn sexy priemgetallen.\n67 en 73 zijn sexy priemgetallen.\n73 en
+        79 zijn sexy priemgetallen.\n83 en 89 zijn sexy priemgetallen.\n97 en 103
+        zijn sexy priemgetallen.\n101 en 107 zijn sexy priemgetallen.\n103 en 109
+        zijn sexy priemgetallen.\n107 en 113 zijn sexy priemgetallen.\n131 en 137
+        zijn sexy priemgetallen.\n151 en 157 zijn sexy priemgetallen.\n157 en 163
+        zijn sexy priemgetallen.\n167 en 173 zijn sexy priemgetallen.\n173 en 179
+        zijn sexy priemgetallen.\n191 en 197 zijn sexy priemgetallen.\n193 en 199
+        zijn sexy priemgetallen.\n223 en 229 zijn sexy priemgetallen.\n227 en 233
+        zijn sexy priemgetallen.\n233 en 239 zijn sexy priemgetallen.\n251 en 257
+        zijn sexy priemgetallen.\n257 en 263 zijn sexy priemgetallen.\n263 en 269
+        zijn sexy priemgetallen.\n271 en 277 zijn sexy priemgetallen.\n277 en 283
+        zijn sexy priemgetallen.\n307 en 313 zijn sexy priemgetallen.\n311 en 317
+        zijn sexy priemgetallen.\n331 en 337 zijn sexy priemgetallen.\n347 en 353
+        zijn sexy priemgetallen.\n353 en 359 zijn sexy priemgetallen.\n367 en 373
+        zijn sexy priemgetallen.\n373 en 379 zijn sexy priemgetallen.\n383 en 389
+        zijn sexy priemgetallen.\n433 en 439 zijn sexy priemgetallen.\n443 en 449
+        zijn sexy priemgetallen.\n457 en 463 zijn sexy priemgetallen.\n461 en 467
+        zijn sexy priemgetallen.\n503 en 509 zijn sexy priemgetallen.\n541 en 547
+        zijn sexy priemgetallen.\n557 en 563 zijn sexy priemgetallen.\n563 en 569
+        zijn sexy priemgetallen.\n571 en 577 zijn sexy priemgetallen.\n587 en 593
+        zijn sexy priemgetallen.\n593 en 599 zijn sexy priemgetallen.\n601 en 607
+        zijn sexy priemgetallen.\n607 en 613 zijn sexy priemgetallen.\n613 en 619
+        zijn sexy priemgetallen.\n641 en 647 zijn sexy priemgetallen.\n647 en 653
+        zijn sexy priemgetallen.\n653 en 659 zijn sexy priemgetallen.\n677 en 683
+        zijn sexy priemgetallen.\n727 en 733 zijn sexy priemgetallen.\n733 en 739
+        zijn sexy priemgetallen.\n751 en 757 zijn sexy priemgetallen.\n821 en 827
+        zijn sexy priemgetallen.\n823 en 829 zijn sexy priemgetallen.\n853 en 859
+        zijn sexy priemgetallen.\n857 en 863 zijn sexy priemgetallen.\n877 en 883
+        zijn sexy priemgetallen.\n881 en 887 zijn sexy priemgetallen.\n941 en 947
+        zijn sexy priemgetallen.\n947 en 953 zijn sexy priemgetallen.\n971 en 977
+        zijn sexy priemgetallen.\n977 en 983 zijn sexy priemgetallen.\n991 en 997
+        zijn sexy priemgetallen.\n1013 en 1019 zijn sexy priemgetallen.\n1033 en 1039
+        zijn sexy priemgetallen.\n1063 en 1069 zijn sexy priemgetallen.\n1087 en 1093
+        zijn sexy priemgetallen.\n1091 en 1097 zijn sexy priemgetallen.\n1097 en 1103
+        zijn sexy priemgetallen.\n1103 en 1109 zijn sexy priemgetallen.\n1117 en 1123
+        zijn sexy priemgetallen.\n1123 en 1129 zijn sexy priemgetallen.\n1181 en 1187
+        zijn sexy priemgetallen.\n1187 en 1193 zijn sexy priemgetallen.\n1217 en 1223
+        zijn sexy priemgetallen.\n1223 en 1229 zijn sexy priemgetallen.\n1231 en 1237
+        zijn sexy priemgetallen.\n1277 en 1283 zijn sexy priemgetallen.\n1283 en 1289
+        zijn sexy priemgetallen.\n1291 en 1297 zijn sexy priemgetallen.\n1297 en 1303
+        zijn sexy priemgetallen.\n1301 en 1307 zijn sexy priemgetallen.\n1321 en 1327
+        zijn sexy priemgetallen.\n1361 en 1367 zijn sexy priemgetallen.\n1367 en 1373
+        zijn sexy priemgetallen.\n1423 en 1429 zijn sexy priemgetallen.\n1427 en 1433
+        zijn sexy priemgetallen.\n1433 en 1439 zijn sexy priemgetallen.\n1447 en 1453
+        zijn sexy priemgetallen.\n1453 en 1459 zijn sexy priemgetallen.\n1481 en 1487
+        zijn sexy priemgetallen.\n1483 en 1489 zijn sexy priemgetallen.\n1487 en 1493
+        zijn sexy priemgetallen.\n1493 en 1499 zijn sexy priemgetallen.\n"
+    - expression: is_priem(1493)
+      return: true
+    - expression: is_priem(1499)
+      return: true
