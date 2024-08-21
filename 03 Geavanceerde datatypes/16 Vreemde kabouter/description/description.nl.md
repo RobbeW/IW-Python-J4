@@ -9,7 +9,7 @@ Hoe kan mevr. Wemel de koning uit een groep kabouters vinden? Ze weet dat de kab
 - Er is exact één koning in elke groep;
 - Behalve de koning, reizen de kabouters in strikt stijgende volgorde volgens hun nummer;
 - De koning is altijd de enige kabouter die niet op nummer loopt;
-- De koning is nooit de eerst of de laatste in de groep, omdat hij zich graag verstopt.
+- De koning is nooit de eerste of de laatste in de groep, omdat hij zich graag verstopt.
 
 Help mevr. Wemel om de koning te vinden!
 
