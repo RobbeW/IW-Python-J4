@@ -1,6 +1,6 @@
 <a href="https://nl.wikipedia.org/wiki/Sophie_Germain" target="_blank">Sophie Germain</a> was een Franse wiskundige die belangrijke bijdragen heeft geleverd aan de getaltheorie.
 
-![Sophie Germain, Franse wiskundige.](media/sophie-germain.png "Sophie Germain, Franse wiskundige."){:data-caption="Sophie Germain, Franse wiskundige." .dark-only width="35%"}
+![Sophie Germain, Franse wiskundige.](media/sophie-germain.png "Sophie Germain, Franse wiskundige."){:data-caption="Sophie Germain, Franse wiskundige." width="35%"}
 
 Naar haar genoemd zijn de Sophie Germainpriemgetallen, die gebruikt worden in de cryptografie. Men noemt een priemgetal p een Sophie Germainpriemgetal indien 2 · p + 1 ook priem is. Zo is 11 een voorbeeld van een Sophie Germainpriemgetal, want 2 · 11 + 1 = 23 is ook priem, men noemt 23 in dit geval een **veilig** priemgetal.
 
