@@ -1,6 +1,6 @@
 De oppervlakte van een figuur bepalen is al altijd één van de belangrijkste wiskundige problemen geweest. Denk maar aan belastingen waarbij men per oppervlakte dient te betalen.
 
-Verassend genoeg kan je de oppervlakte van een veelhoek met gekende punten eigenlijk vrij eenvoudig berekenen. Beschouw bijvoorbeeld onderstaande vijfhoek.
+Verassend genoeg kan je de oppervlakte van een veelhoek met gekende hoekpunten eigenlijk vrij eenvoudig berekenen. Beschouw bijvoorbeeld onderstaande vijfhoek.
 
 ![Oppervlakte van een vijfhoek bepalen.](media/image.png "Oppervlakte van een vijfhoek bepalen."){:data-caption="Oppervlakte van een vijfhoek bepalen." .light-only width="30%"}
 
@@ -16,11 +16,13 @@ $$
 Schrijf een functie `oppervlakte_veelhoek(x, y)` waarbij `x` en `y` twee lijsten zijn met eenzelfde lengte die steeds de corresponderende x- en y-coördinaten bevatten.
 
 #### Voorbeelden
+Voor een driehoek met hoekpunten (0,0), (3,0) en (0,2) bekomt men:
 ```python
 >>> oppervlakte_veelhoek([0, 3, 0], [0, 0, 2])
 3.0
 ```
 
+Voor een vierhoek met hoekpunten (0,0), (2,0), (2,2) en (0,2) bekomt men:
 ```python
 >>> oppervlakte_veelhoek([0, 2, 2, 0], [0, 0, 2, 2])
 4.0
