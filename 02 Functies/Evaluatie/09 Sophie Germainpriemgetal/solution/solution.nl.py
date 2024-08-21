@@ -15,4 +15,4 @@ getal = int(input( "Geef een getal in: " ) )
 if is_germainpriem(getal):
     print(f"Dit is een Sophie Germainpriemgetal, het veilige priemgetal is {2 * getal + 1}")
 else:
-    print(f"Dit is geen Sophie Germainpriemgetal")
+    print("Dit is geen Sophie Germainpriemgetal")
