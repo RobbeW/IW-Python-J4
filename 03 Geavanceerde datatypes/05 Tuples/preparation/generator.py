@@ -1,9 +1,7 @@
 import os
-import sys
-import importlib
+import importlib.util
 import random
 import ruamel.yaml
-import subprocess
 
 yaml = ruamel.yaml.YAML()
 
@@ -33,12 +31,19 @@ module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 
 # generate test data
+def afstand(P):
+    result = (P[0]**2+ P[1]**2)**0.5
+    return round(result, 2)
+
 ntests= 20
-cases = [ (3.0,4.0), (4.0,3.0),(0.0,0.0)]
+cases = [ (3.0,4.0), (4.0,3.0), (0.0, 0.0)]
 while len(cases) < ntests:
     point = tuple( round(random.uniform(-10,10),1) for _ in range(2))
-    cases.append(point)
-    
+    if point not in cases:
+        cases.append(point)
+
+cases = sorted(cases, key = lambda x : afstand(x))
+
 # generate unit tests for functions
 yamldata = []
 
@@ -56,8 +61,8 @@ for i in range(len(cases)):
         
     # generate test expression
     #
-    expression_name = f"afstand( {test} )"
-    result = module.afstand( test )
+    expression_name = f"afstand({test})"
+    result = module.afstand(test)
 
     print(result)
     # setup for return expressions

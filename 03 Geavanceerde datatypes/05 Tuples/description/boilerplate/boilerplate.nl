@@ -1,4 +1,4 @@
 import 
 
-def afstand( coordinaat ):
+def afstand(coordinaat):
     
