@@ -3,7 +3,7 @@ def is_palindroom( getal ):
     nieuw = getal % 10
     getal //= 10
     
-    while getal // 1 != 0:
+    while getal != 0:
         eenheden = getal % 10
         getal //= 10
         nieuw = nieuw * 10 + eenheden

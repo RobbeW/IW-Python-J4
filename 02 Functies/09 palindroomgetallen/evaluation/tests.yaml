@@ -1,549 +1,698 @@
 - tab: Feedback
-  testcases:
-  - stdin: "50\n120"
-    stdout: "55 is een palindroomgetal.\n66 is een palindroomgetal.\n77 is een palindroomgetal.\n\
-      88 is een palindroomgetal.\n99 is een palindroomgetal.\n101 is een palindroomgetal.\n\
-      111 is een palindroomgetal.\nEr waren 7 palindroomgetallen."
-  - stdin: "14541\n17511"
-    stdout: "14641 is een palindroomgetal.\n14741 is een palindroomgetal.\n14841 is\
-      \ een palindroomgetal.\n14941 is een palindroomgetal.\n15051 is een palindroomgetal.\n\
-      15151 is een palindroomgetal.\n15251 is een palindroomgetal.\n15351 is een palindroomgetal.\n\
-      15451 is een palindroomgetal.\n15551 is een palindroomgetal.\n15651 is een palindroomgetal.\n\
-      15751 is een palindroomgetal.\n15851 is een palindroomgetal.\n15951 is een palindroomgetal.\n\
-      16061 is een palindroomgetal.\n16161 is een palindroomgetal.\n16261 is een palindroomgetal.\n\
-      16361 is een palindroomgetal.\n16461 is een palindroomgetal.\n16561 is een palindroomgetal.\n\
-      16661 is een palindroomgetal.\n16761 is een palindroomgetal.\n16861 is een palindroomgetal.\n\
-      16961 is een palindroomgetal.\n17071 is een palindroomgetal.\n17171 is een palindroomgetal.\n\
-      17271 is een palindroomgetal.\n17371 is een palindroomgetal.\n17471 is een palindroomgetal.\n\
-      Er waren 29 palindroomgetallen."
-  - stdin: "0\n10"
-    stdout: "1 is een palindroomgetal.\n2 is een palindroomgetal.\n3 is een palindroomgetal.\n\
-      4 is een palindroomgetal.\n5 is een palindroomgetal.\n6 is een palindroomgetal.\n\
-      7 is een palindroomgetal.\n8 is een palindroomgetal.\n9 is een palindroomgetal.\n\
-      Er waren 9 palindroomgetallen."
-  - stdin: "120\n122"
-    stdout: "121 is een palindroomgetal.\nEr was slechts één palindroomgetal."
-  - stdin: "88\n99"
-    stdout: Er werden geen palindroomgetallen gevonden.
-  - stdin: "204456\n205335"
-    stdout: Er werden geen palindroomgetallen gevonden.
-  - stdin: "892\n944"
-    stdout: "898 is een palindroomgetal.\n909 is een palindroomgetal.\n919 is een\
-      \ palindroomgetal.\n929 is een palindroomgetal.\n939 is een palindroomgetal.\n\
-      Er waren 5 palindroomgetallen."
-  - stdin: "3\n1387"
-    stdout: "4 is een palindroomgetal.\n5 is een palindroomgetal.\n6 is een palindroomgetal.\n\
-      7 is een palindroomgetal.\n8 is een palindroomgetal.\n9 is een palindroomgetal.\n\
-      11 is een palindroomgetal.\n22 is een palindroomgetal.\n33 is een palindroomgetal.\n\
-      44 is een palindroomgetal.\n55 is een palindroomgetal.\n66 is een palindroomgetal.\n\
-      77 is een palindroomgetal.\n88 is een palindroomgetal.\n99 is een palindroomgetal.\n\
-      101 is een palindroomgetal.\n111 is een palindroomgetal.\n121 is een palindroomgetal.\n\
-      131 is een palindroomgetal.\n141 is een palindroomgetal.\n151 is een palindroomgetal.\n\
-      161 is een palindroomgetal.\n171 is een palindroomgetal.\n181 is een palindroomgetal.\n\
-      191 is een palindroomgetal.\n202 is een palindroomgetal.\n212 is een palindroomgetal.\n\
-      222 is een palindroomgetal.\n232 is een palindroomgetal.\n242 is een palindroomgetal.\n\
-      252 is een palindroomgetal.\n262 is een palindroomgetal.\n272 is een palindroomgetal.\n\
-      282 is een palindroomgetal.\n292 is een palindroomgetal.\n303 is een palindroomgetal.\n\
-      313 is een palindroomgetal.\n323 is een palindroomgetal.\n333 is een palindroomgetal.\n\
-      343 is een palindroomgetal.\n353 is een palindroomgetal.\n363 is een palindroomgetal.\n\
-      373 is een palindroomgetal.\n383 is een palindroomgetal.\n393 is een palindroomgetal.\n\
-      404 is een palindroomgetal.\n414 is een palindroomgetal.\n424 is een palindroomgetal.\n\
-      434 is een palindroomgetal.\n444 is een palindroomgetal.\n454 is een palindroomgetal.\n\
-      464 is een palindroomgetal.\n474 is een palindroomgetal.\n484 is een palindroomgetal.\n\
-      494 is een palindroomgetal.\n505 is een palindroomgetal.\n515 is een palindroomgetal.\n\
-      525 is een palindroomgetal.\n535 is een palindroomgetal.\n545 is een palindroomgetal.\n\
-      555 is een palindroomgetal.\n565 is een palindroomgetal.\n575 is een palindroomgetal.\n\
-      585 is een palindroomgetal.\n595 is een palindroomgetal.\n606 is een palindroomgetal.\n\
-      616 is een palindroomgetal.\n626 is een palindroomgetal.\n636 is een palindroomgetal.\n\
-      646 is een palindroomgetal.\n656 is een palindroomgetal.\n666 is een palindroomgetal.\n\
-      676 is een palindroomgetal.\n686 is een palindroomgetal.\n696 is een palindroomgetal.\n\
-      707 is een palindroomgetal.\n717 is een palindroomgetal.\n727 is een palindroomgetal.\n\
-      737 is een palindroomgetal.\n747 is een palindroomgetal.\n757 is een palindroomgetal.\n\
-      767 is een palindroomgetal.\n777 is een palindroomgetal.\n787 is een palindroomgetal.\n\
-      797 is een palindroomgetal.\n808 is een palindroomgetal.\n818 is een palindroomgetal.\n\
-      828 is een palindroomgetal.\n838 is een palindroomgetal.\n848 is een palindroomgetal.\n\
-      858 is een palindroomgetal.\n868 is een palindroomgetal.\n878 is een palindroomgetal.\n\
-      888 is een palindroomgetal.\n898 is een palindroomgetal.\n909 is een palindroomgetal.\n\
-      919 is een palindroomgetal.\n929 is een palindroomgetal.\n939 is een palindroomgetal.\n\
-      949 is een palindroomgetal.\n959 is een palindroomgetal.\n969 is een palindroomgetal.\n\
-      979 is een palindroomgetal.\n989 is een palindroomgetal.\n999 is een palindroomgetal.\n\
-      1001 is een palindroomgetal.\n1111 is een palindroomgetal.\n1221 is een palindroomgetal.\n\
-      1331 is een palindroomgetal.\nEr waren 109 palindroomgetallen."
-  - stdin: "1666\n6351"
-    stdout: "1771 is een palindroomgetal.\n1881 is een palindroomgetal.\n1991 is een\
-      \ palindroomgetal.\n2002 is een palindroomgetal.\n2112 is een palindroomgetal.\n\
-      2222 is een palindroomgetal.\n2332 is een palindroomgetal.\n2442 is een palindroomgetal.\n\
-      2552 is een palindroomgetal.\n2662 is een palindroomgetal.\n2772 is een palindroomgetal.\n\
-      2882 is een palindroomgetal.\n2992 is een palindroomgetal.\n3003 is een palindroomgetal.\n\
-      3113 is een palindroomgetal.\n3223 is een palindroomgetal.\n3333 is een palindroomgetal.\n\
-      3443 is een palindroomgetal.\n3553 is een palindroomgetal.\n3663 is een palindroomgetal.\n\
-      3773 is een palindroomgetal.\n3883 is een palindroomgetal.\n3993 is een palindroomgetal.\n\
-      4004 is een palindroomgetal.\n4114 is een palindroomgetal.\n4224 is een palindroomgetal.\n\
-      4334 is een palindroomgetal.\n4444 is een palindroomgetal.\n4554 is een palindroomgetal.\n\
-      4664 is een palindroomgetal.\n4774 is een palindroomgetal.\n4884 is een palindroomgetal.\n\
-      4994 is een palindroomgetal.\n5005 is een palindroomgetal.\n5115 is een palindroomgetal.\n\
-      5225 is een palindroomgetal.\n5335 is een palindroomgetal.\n5445 is een palindroomgetal.\n\
-      5555 is een palindroomgetal.\n5665 is een palindroomgetal.\n5775 is een palindroomgetal.\n\
-      5885 is een palindroomgetal.\n5995 is een palindroomgetal.\n6006 is een palindroomgetal.\n\
-      6116 is een palindroomgetal.\n6226 is een palindroomgetal.\n6336 is een palindroomgetal.\n\
-      Er waren 47 palindroomgetallen."
-  - stdin: "9865\n9933"
-    stdout: "9889 is een palindroomgetal.\nEr was slechts één palindroomgetal."
-  - stdin: "80\n441"
-    stdout: "88 is een palindroomgetal.\n99 is een palindroomgetal.\n101 is een palindroomgetal.\n\
-      111 is een palindroomgetal.\n121 is een palindroomgetal.\n131 is een palindroomgetal.\n\
-      141 is een palindroomgetal.\n151 is een palindroomgetal.\n161 is een palindroomgetal.\n\
-      171 is een palindroomgetal.\n181 is een palindroomgetal.\n191 is een palindroomgetal.\n\
-      202 is een palindroomgetal.\n212 is een palindroomgetal.\n222 is een palindroomgetal.\n\
-      232 is een palindroomgetal.\n242 is een palindroomgetal.\n252 is een palindroomgetal.\n\
-      262 is een palindroomgetal.\n272 is een palindroomgetal.\n282 is een palindroomgetal.\n\
-      292 is een palindroomgetal.\n303 is een palindroomgetal.\n313 is een palindroomgetal.\n\
-      323 is een palindroomgetal.\n333 is een palindroomgetal.\n343 is een palindroomgetal.\n\
-      353 is een palindroomgetal.\n363 is een palindroomgetal.\n373 is een palindroomgetal.\n\
-      383 is een palindroomgetal.\n393 is een palindroomgetal.\n404 is een palindroomgetal.\n\
-      414 is een palindroomgetal.\n424 is een palindroomgetal.\n434 is een palindroomgetal.\n\
-      Er waren 36 palindroomgetallen."
-  - stdin: "6\n70"
-    stdout: "7 is een palindroomgetal.\n8 is een palindroomgetal.\n9 is een palindroomgetal.\n\
-      11 is een palindroomgetal.\n22 is een palindroomgetal.\n33 is een palindroomgetal.\n\
-      44 is een palindroomgetal.\n55 is een palindroomgetal.\n66 is een palindroomgetal.\n\
-      Er waren 9 palindroomgetallen."
-  - stdin: "5610479\n5617740"
-    stdout: "5611165 is een palindroomgetal.\n5612165 is een palindroomgetal.\n5613165\
-      \ is een palindroomgetal.\n5614165 is een palindroomgetal.\n5615165 is een palindroomgetal.\n\
-      5616165 is een palindroomgetal.\n5617165 is een palindroomgetal.\nEr waren 7\
-      \ palindroomgetallen."
-  - stdin: "17\n366"
-    stdout: "22 is een palindroomgetal.\n33 is een palindroomgetal.\n44 is een palindroomgetal.\n\
-      55 is een palindroomgetal.\n66 is een palindroomgetal.\n77 is een palindroomgetal.\n\
-      88 is een palindroomgetal.\n99 is een palindroomgetal.\n101 is een palindroomgetal.\n\
-      111 is een palindroomgetal.\n121 is een palindroomgetal.\n131 is een palindroomgetal.\n\
-      141 is een palindroomgetal.\n151 is een palindroomgetal.\n161 is een palindroomgetal.\n\
-      171 is een palindroomgetal.\n181 is een palindroomgetal.\n191 is een palindroomgetal.\n\
-      202 is een palindroomgetal.\n212 is een palindroomgetal.\n222 is een palindroomgetal.\n\
-      232 is een palindroomgetal.\n242 is een palindroomgetal.\n252 is een palindroomgetal.\n\
-      262 is een palindroomgetal.\n272 is een palindroomgetal.\n282 is een palindroomgetal.\n\
-      292 is een palindroomgetal.\n303 is een palindroomgetal.\n313 is een palindroomgetal.\n\
-      323 is een palindroomgetal.\n333 is een palindroomgetal.\n343 is een palindroomgetal.\n\
-      353 is een palindroomgetal.\n363 is een palindroomgetal.\nEr waren 35 palindroomgetallen."
-  - stdin: "79\n74292"
-    stdout: "88 is een palindroomgetal.\n99 is een palindroomgetal.\n101 is een palindroomgetal.\n\
-      111 is een palindroomgetal.\n121 is een palindroomgetal.\n131 is een palindroomgetal.\n\
-      141 is een palindroomgetal.\n151 is een palindroomgetal.\n161 is een palindroomgetal.\n\
-      171 is een palindroomgetal.\n181 is een palindroomgetal.\n191 is een palindroomgetal.\n\
-      202 is een palindroomgetal.\n212 is een palindroomgetal.\n222 is een palindroomgetal.\n\
-      232 is een palindroomgetal.\n242 is een palindroomgetal.\n252 is een palindroomgetal.\n\
-      262 is een palindroomgetal.\n272 is een palindroomgetal.\n282 is een palindroomgetal.\n\
-      292 is een palindroomgetal.\n303 is een palindroomgetal.\n313 is een palindroomgetal.\n\
-      323 is een palindroomgetal.\n333 is een palindroomgetal.\n343 is een palindroomgetal.\n\
-      353 is een palindroomgetal.\n363 is een palindroomgetal.\n373 is een palindroomgetal.\n\
-      383 is een palindroomgetal.\n393 is een palindroomgetal.\n404 is een palindroomgetal.\n\
-      414 is een palindroomgetal.\n424 is een palindroomgetal.\n434 is een palindroomgetal.\n\
-      444 is een palindroomgetal.\n454 is een palindroomgetal.\n464 is een palindroomgetal.\n\
-      474 is een palindroomgetal.\n484 is een palindroomgetal.\n494 is een palindroomgetal.\n\
-      505 is een palindroomgetal.\n515 is een palindroomgetal.\n525 is een palindroomgetal.\n\
-      535 is een palindroomgetal.\n545 is een palindroomgetal.\n555 is een palindroomgetal.\n\
-      565 is een palindroomgetal.\n575 is een palindroomgetal.\n585 is een palindroomgetal.\n\
-      595 is een palindroomgetal.\n606 is een palindroomgetal.\n616 is een palindroomgetal.\n\
-      626 is een palindroomgetal.\n636 is een palindroomgetal.\n646 is een palindroomgetal.\n\
-      656 is een palindroomgetal.\n666 is een palindroomgetal.\n676 is een palindroomgetal.\n\
-      686 is een palindroomgetal.\n696 is een palindroomgetal.\n707 is een palindroomgetal.\n\
-      717 is een palindroomgetal.\n727 is een palindroomgetal.\n737 is een palindroomgetal.\n\
-      747 is een palindroomgetal.\n757 is een palindroomgetal.\n767 is een palindroomgetal.\n\
-      777 is een palindroomgetal.\n787 is een palindroomgetal.\n797 is een palindroomgetal.\n\
-      808 is een palindroomgetal.\n818 is een palindroomgetal.\n828 is een palindroomgetal.\n\
-      838 is een palindroomgetal.\n848 is een palindroomgetal.\n858 is een palindroomgetal.\n\
-      868 is een palindroomgetal.\n878 is een palindroomgetal.\n888 is een palindroomgetal.\n\
-      898 is een palindroomgetal.\n909 is een palindroomgetal.\n919 is een palindroomgetal.\n\
-      929 is een palindroomgetal.\n939 is een palindroomgetal.\n949 is een palindroomgetal.\n\
-      959 is een palindroomgetal.\n969 is een palindroomgetal.\n979 is een palindroomgetal.\n\
-      989 is een palindroomgetal.\n999 is een palindroomgetal.\n1001 is een palindroomgetal.\n\
-      1111 is een palindroomgetal.\n1221 is een palindroomgetal.\n1331 is een palindroomgetal.\n\
-      1441 is een palindroomgetal.\n1551 is een palindroomgetal.\n1661 is een palindroomgetal.\n\
-      1771 is een palindroomgetal.\n1881 is een palindroomgetal.\n1991 is een palindroomgetal.\n\
-      2002 is een palindroomgetal.\n2112 is een palindroomgetal.\n2222 is een palindroomgetal.\n\
-      2332 is een palindroomgetal.\n2442 is een palindroomgetal.\n2552 is een palindroomgetal.\n\
-      2662 is een palindroomgetal.\n2772 is een palindroomgetal.\n2882 is een palindroomgetal.\n\
-      2992 is een palindroomgetal.\n3003 is een palindroomgetal.\n3113 is een palindroomgetal.\n\
-      3223 is een palindroomgetal.\n3333 is een palindroomgetal.\n3443 is een palindroomgetal.\n\
-      3553 is een palindroomgetal.\n3663 is een palindroomgetal.\n3773 is een palindroomgetal.\n\
-      3883 is een palindroomgetal.\n3993 is een palindroomgetal.\n4004 is een palindroomgetal.\n\
-      4114 is een palindroomgetal.\n4224 is een palindroomgetal.\n4334 is een palindroomgetal.\n\
-      4444 is een palindroomgetal.\n4554 is een palindroomgetal.\n4664 is een palindroomgetal.\n\
-      4774 is een palindroomgetal.\n4884 is een palindroomgetal.\n4994 is een palindroomgetal.\n\
-      5005 is een palindroomgetal.\n5115 is een palindroomgetal.\n5225 is een palindroomgetal.\n\
-      5335 is een palindroomgetal.\n5445 is een palindroomgetal.\n5555 is een palindroomgetal.\n\
-      5665 is een palindroomgetal.\n5775 is een palindroomgetal.\n5885 is een palindroomgetal.\n\
-      5995 is een palindroomgetal.\n6006 is een palindroomgetal.\n6116 is een palindroomgetal.\n\
-      6226 is een palindroomgetal.\n6336 is een palindroomgetal.\n6446 is een palindroomgetal.\n\
-      6556 is een palindroomgetal.\n6666 is een palindroomgetal.\n6776 is een palindroomgetal.\n\
-      6886 is een palindroomgetal.\n6996 is een palindroomgetal.\n7007 is een palindroomgetal.\n\
-      7117 is een palindroomgetal.\n7227 is een palindroomgetal.\n7337 is een palindroomgetal.\n\
-      7447 is een palindroomgetal.\n7557 is een palindroomgetal.\n7667 is een palindroomgetal.\n\
-      7777 is een palindroomgetal.\n7887 is een palindroomgetal.\n7997 is een palindroomgetal.\n\
-      8008 is een palindroomgetal.\n8118 is een palindroomgetal.\n8228 is een palindroomgetal.\n\
-      8338 is een palindroomgetal.\n8448 is een palindroomgetal.\n8558 is een palindroomgetal.\n\
-      8668 is een palindroomgetal.\n8778 is een palindroomgetal.\n8888 is een palindroomgetal.\n\
-      8998 is een palindroomgetal.\n9009 is een palindroomgetal.\n9119 is een palindroomgetal.\n\
-      9229 is een palindroomgetal.\n9339 is een palindroomgetal.\n9449 is een palindroomgetal.\n\
-      9559 is een palindroomgetal.\n9669 is een palindroomgetal.\n9779 is een palindroomgetal.\n\
-      9889 is een palindroomgetal.\n9999 is een palindroomgetal.\n10001 is een palindroomgetal.\n\
-      10101 is een palindroomgetal.\n10201 is een palindroomgetal.\n10301 is een palindroomgetal.\n\
-      10401 is een palindroomgetal.\n10501 is een palindroomgetal.\n10601 is een palindroomgetal.\n\
-      10701 is een palindroomgetal.\n10801 is een palindroomgetal.\n10901 is een palindroomgetal.\n\
-      11011 is een palindroomgetal.\n11111 is een palindroomgetal.\n11211 is een palindroomgetal.\n\
-      11311 is een palindroomgetal.\n11411 is een palindroomgetal.\n11511 is een palindroomgetal.\n\
-      11611 is een palindroomgetal.\n11711 is een palindroomgetal.\n11811 is een palindroomgetal.\n\
-      11911 is een palindroomgetal.\n12021 is een palindroomgetal.\n12121 is een palindroomgetal.\n\
-      12221 is een palindroomgetal.\n12321 is een palindroomgetal.\n12421 is een palindroomgetal.\n\
-      12521 is een palindroomgetal.\n12621 is een palindroomgetal.\n12721 is een palindroomgetal.\n\
-      12821 is een palindroomgetal.\n12921 is een palindroomgetal.\n13031 is een palindroomgetal.\n\
-      13131 is een palindroomgetal.\n13231 is een palindroomgetal.\n13331 is een palindroomgetal.\n\
-      13431 is een palindroomgetal.\n13531 is een palindroomgetal.\n13631 is een palindroomgetal.\n\
-      13731 is een palindroomgetal.\n13831 is een palindroomgetal.\n13931 is een palindroomgetal.\n\
-      14041 is een palindroomgetal.\n14141 is een palindroomgetal.\n14241 is een palindroomgetal.\n\
-      14341 is een palindroomgetal.\n14441 is een palindroomgetal.\n14541 is een palindroomgetal.\n\
-      14641 is een palindroomgetal.\n14741 is een palindroomgetal.\n14841 is een palindroomgetal.\n\
-      14941 is een palindroomgetal.\n15051 is een palindroomgetal.\n15151 is een palindroomgetal.\n\
-      15251 is een palindroomgetal.\n15351 is een palindroomgetal.\n15451 is een palindroomgetal.\n\
-      15551 is een palindroomgetal.\n15651 is een palindroomgetal.\n15751 is een palindroomgetal.\n\
-      15851 is een palindroomgetal.\n15951 is een palindroomgetal.\n16061 is een palindroomgetal.\n\
-      16161 is een palindroomgetal.\n16261 is een palindroomgetal.\n16361 is een palindroomgetal.\n\
-      16461 is een palindroomgetal.\n16561 is een palindroomgetal.\n16661 is een palindroomgetal.\n\
-      16761 is een palindroomgetal.\n16861 is een palindroomgetal.\n16961 is een palindroomgetal.\n\
-      17071 is een palindroomgetal.\n17171 is een palindroomgetal.\n17271 is een palindroomgetal.\n\
-      17371 is een palindroomgetal.\n17471 is een palindroomgetal.\n17571 is een palindroomgetal.\n\
-      17671 is een palindroomgetal.\n17771 is een palindroomgetal.\n17871 is een palindroomgetal.\n\
-      17971 is een palindroomgetal.\n18081 is een palindroomgetal.\n18181 is een palindroomgetal.\n\
-      18281 is een palindroomgetal.\n18381 is een palindroomgetal.\n18481 is een palindroomgetal.\n\
-      18581 is een palindroomgetal.\n18681 is een palindroomgetal.\n18781 is een palindroomgetal.\n\
-      18881 is een palindroomgetal.\n18981 is een palindroomgetal.\n19091 is een palindroomgetal.\n\
-      19191 is een palindroomgetal.\n19291 is een palindroomgetal.\n19391 is een palindroomgetal.\n\
-      19491 is een palindroomgetal.\n19591 is een palindroomgetal.\n19691 is een palindroomgetal.\n\
-      19791 is een palindroomgetal.\n19891 is een palindroomgetal.\n19991 is een palindroomgetal.\n\
-      20002 is een palindroomgetal.\n20102 is een palindroomgetal.\n20202 is een palindroomgetal.\n\
-      20302 is een palindroomgetal.\n20402 is een palindroomgetal.\n20502 is een palindroomgetal.\n\
-      20602 is een palindroomgetal.\n20702 is een palindroomgetal.\n20802 is een palindroomgetal.\n\
-      20902 is een palindroomgetal.\n21012 is een palindroomgetal.\n21112 is een palindroomgetal.\n\
-      21212 is een palindroomgetal.\n21312 is een palindroomgetal.\n21412 is een palindroomgetal.\n\
-      21512 is een palindroomgetal.\n21612 is een palindroomgetal.\n21712 is een palindroomgetal.\n\
-      21812 is een palindroomgetal.\n21912 is een palindroomgetal.\n22022 is een palindroomgetal.\n\
-      22122 is een palindroomgetal.\n22222 is een palindroomgetal.\n22322 is een palindroomgetal.\n\
-      22422 is een palindroomgetal.\n22522 is een palindroomgetal.\n22622 is een palindroomgetal.\n\
-      22722 is een palindroomgetal.\n22822 is een palindroomgetal.\n22922 is een palindroomgetal.\n\
-      23032 is een palindroomgetal.\n23132 is een palindroomgetal.\n23232 is een palindroomgetal.\n\
-      23332 is een palindroomgetal.\n23432 is een palindroomgetal.\n23532 is een palindroomgetal.\n\
-      23632 is een palindroomgetal.\n23732 is een palindroomgetal.\n23832 is een palindroomgetal.\n\
-      23932 is een palindroomgetal.\n24042 is een palindroomgetal.\n24142 is een palindroomgetal.\n\
-      24242 is een palindroomgetal.\n24342 is een palindroomgetal.\n24442 is een palindroomgetal.\n\
-      24542 is een palindroomgetal.\n24642 is een palindroomgetal.\n24742 is een palindroomgetal.\n\
-      24842 is een palindroomgetal.\n24942 is een palindroomgetal.\n25052 is een palindroomgetal.\n\
-      25152 is een palindroomgetal.\n25252 is een palindroomgetal.\n25352 is een palindroomgetal.\n\
-      25452 is een palindroomgetal.\n25552 is een palindroomgetal.\n25652 is een palindroomgetal.\n\
-      25752 is een palindroomgetal.\n25852 is een palindroomgetal.\n25952 is een palindroomgetal.\n\
-      26062 is een palindroomgetal.\n26162 is een palindroomgetal.\n26262 is een palindroomgetal.\n\
-      26362 is een palindroomgetal.\n26462 is een palindroomgetal.\n26562 is een palindroomgetal.\n\
-      26662 is een palindroomgetal.\n26762 is een palindroomgetal.\n26862 is een palindroomgetal.\n\
-      26962 is een palindroomgetal.\n27072 is een palindroomgetal.\n27172 is een palindroomgetal.\n\
-      27272 is een palindroomgetal.\n27372 is een palindroomgetal.\n27472 is een palindroomgetal.\n\
-      27572 is een palindroomgetal.\n27672 is een palindroomgetal.\n27772 is een palindroomgetal.\n\
-      27872 is een palindroomgetal.\n27972 is een palindroomgetal.\n28082 is een palindroomgetal.\n\
-      28182 is een palindroomgetal.\n28282 is een palindroomgetal.\n28382 is een palindroomgetal.\n\
-      28482 is een palindroomgetal.\n28582 is een palindroomgetal.\n28682 is een palindroomgetal.\n\
-      28782 is een palindroomgetal.\n28882 is een palindroomgetal.\n28982 is een palindroomgetal.\n\
-      29092 is een palindroomgetal.\n29192 is een palindroomgetal.\n29292 is een palindroomgetal.\n\
-      29392 is een palindroomgetal.\n29492 is een palindroomgetal.\n29592 is een palindroomgetal.\n\
-      29692 is een palindroomgetal.\n29792 is een palindroomgetal.\n29892 is een palindroomgetal.\n\
-      29992 is een palindroomgetal.\n30003 is een palindroomgetal.\n30103 is een palindroomgetal.\n\
-      30203 is een palindroomgetal.\n30303 is een palindroomgetal.\n30403 is een palindroomgetal.\n\
-      30503 is een palindroomgetal.\n30603 is een palindroomgetal.\n30703 is een palindroomgetal.\n\
-      30803 is een palindroomgetal.\n30903 is een palindroomgetal.\n31013 is een palindroomgetal.\n\
-      31113 is een palindroomgetal.\n31213 is een palindroomgetal.\n31313 is een palindroomgetal.\n\
-      31413 is een palindroomgetal.\n31513 is een palindroomgetal.\n31613 is een palindroomgetal.\n\
-      31713 is een palindroomgetal.\n31813 is een palindroomgetal.\n31913 is een palindroomgetal.\n\
-      32023 is een palindroomgetal.\n32123 is een palindroomgetal.\n32223 is een palindroomgetal.\n\
-      32323 is een palindroomgetal.\n32423 is een palindroomgetal.\n32523 is een palindroomgetal.\n\
-      32623 is een palindroomgetal.\n32723 is een palindroomgetal.\n32823 is een palindroomgetal.\n\
-      32923 is een palindroomgetal.\n33033 is een palindroomgetal.\n33133 is een palindroomgetal.\n\
-      33233 is een palindroomgetal.\n33333 is een palindroomgetal.\n33433 is een palindroomgetal.\n\
-      33533 is een palindroomgetal.\n33633 is een palindroomgetal.\n33733 is een palindroomgetal.\n\
-      33833 is een palindroomgetal.\n33933 is een palindroomgetal.\n34043 is een palindroomgetal.\n\
-      34143 is een palindroomgetal.\n34243 is een palindroomgetal.\n34343 is een palindroomgetal.\n\
-      34443 is een palindroomgetal.\n34543 is een palindroomgetal.\n34643 is een palindroomgetal.\n\
-      34743 is een palindroomgetal.\n34843 is een palindroomgetal.\n34943 is een palindroomgetal.\n\
-      35053 is een palindroomgetal.\n35153 is een palindroomgetal.\n35253 is een palindroomgetal.\n\
-      35353 is een palindroomgetal.\n35453 is een palindroomgetal.\n35553 is een palindroomgetal.\n\
-      35653 is een palindroomgetal.\n35753 is een palindroomgetal.\n35853 is een palindroomgetal.\n\
-      35953 is een palindroomgetal.\n36063 is een palindroomgetal.\n36163 is een palindroomgetal.\n\
-      36263 is een palindroomgetal.\n36363 is een palindroomgetal.\n36463 is een palindroomgetal.\n\
-      36563 is een palindroomgetal.\n36663 is een palindroomgetal.\n36763 is een palindroomgetal.\n\
-      36863 is een palindroomgetal.\n36963 is een palindroomgetal.\n37073 is een palindroomgetal.\n\
-      37173 is een palindroomgetal.\n37273 is een palindroomgetal.\n37373 is een palindroomgetal.\n\
-      37473 is een palindroomgetal.\n37573 is een palindroomgetal.\n37673 is een palindroomgetal.\n\
-      37773 is een palindroomgetal.\n37873 is een palindroomgetal.\n37973 is een palindroomgetal.\n\
-      38083 is een palindroomgetal.\n38183 is een palindroomgetal.\n38283 is een palindroomgetal.\n\
-      38383 is een palindroomgetal.\n38483 is een palindroomgetal.\n38583 is een palindroomgetal.\n\
-      38683 is een palindroomgetal.\n38783 is een palindroomgetal.\n38883 is een palindroomgetal.\n\
-      38983 is een palindroomgetal.\n39093 is een palindroomgetal.\n39193 is een palindroomgetal.\n\
-      39293 is een palindroomgetal.\n39393 is een palindroomgetal.\n39493 is een palindroomgetal.\n\
-      39593 is een palindroomgetal.\n39693 is een palindroomgetal.\n39793 is een palindroomgetal.\n\
-      39893 is een palindroomgetal.\n39993 is een palindroomgetal.\n40004 is een palindroomgetal.\n\
-      40104 is een palindroomgetal.\n40204 is een palindroomgetal.\n40304 is een palindroomgetal.\n\
-      40404 is een palindroomgetal.\n40504 is een palindroomgetal.\n40604 is een palindroomgetal.\n\
-      40704 is een palindroomgetal.\n40804 is een palindroomgetal.\n40904 is een palindroomgetal.\n\
-      41014 is een palindroomgetal.\n41114 is een palindroomgetal.\n41214 is een palindroomgetal.\n\
-      41314 is een palindroomgetal.\n41414 is een palindroomgetal.\n41514 is een palindroomgetal.\n\
-      41614 is een palindroomgetal.\n41714 is een palindroomgetal.\n41814 is een palindroomgetal.\n\
-      41914 is een palindroomgetal.\n42024 is een palindroomgetal.\n42124 is een palindroomgetal.\n\
-      42224 is een palindroomgetal.\n42324 is een palindroomgetal.\n42424 is een palindroomgetal.\n\
-      42524 is een palindroomgetal.\n42624 is een palindroomgetal.\n42724 is een palindroomgetal.\n\
-      42824 is een palindroomgetal.\n42924 is een palindroomgetal.\n43034 is een palindroomgetal.\n\
-      43134 is een palindroomgetal.\n43234 is een palindroomgetal.\n43334 is een palindroomgetal.\n\
-      43434 is een palindroomgetal.\n43534 is een palindroomgetal.\n43634 is een palindroomgetal.\n\
-      43734 is een palindroomgetal.\n43834 is een palindroomgetal.\n43934 is een palindroomgetal.\n\
-      44044 is een palindroomgetal.\n44144 is een palindroomgetal.\n44244 is een palindroomgetal.\n\
-      44344 is een palindroomgetal.\n44444 is een palindroomgetal.\n44544 is een palindroomgetal.\n\
-      44644 is een palindroomgetal.\n44744 is een palindroomgetal.\n44844 is een palindroomgetal.\n\
-      44944 is een palindroomgetal.\n45054 is een palindroomgetal.\n45154 is een palindroomgetal.\n\
-      45254 is een palindroomgetal.\n45354 is een palindroomgetal.\n45454 is een palindroomgetal.\n\
-      45554 is een palindroomgetal.\n45654 is een palindroomgetal.\n45754 is een palindroomgetal.\n\
-      45854 is een palindroomgetal.\n45954 is een palindroomgetal.\n46064 is een palindroomgetal.\n\
-      46164 is een palindroomgetal.\n46264 is een palindroomgetal.\n46364 is een palindroomgetal.\n\
-      46464 is een palindroomgetal.\n46564 is een palindroomgetal.\n46664 is een palindroomgetal.\n\
-      46764 is een palindroomgetal.\n46864 is een palindroomgetal.\n46964 is een palindroomgetal.\n\
-      47074 is een palindroomgetal.\n47174 is een palindroomgetal.\n47274 is een palindroomgetal.\n\
-      47374 is een palindroomgetal.\n47474 is een palindroomgetal.\n47574 is een palindroomgetal.\n\
-      47674 is een palindroomgetal.\n47774 is een palindroomgetal.\n47874 is een palindroomgetal.\n\
-      47974 is een palindroomgetal.\n48084 is een palindroomgetal.\n48184 is een palindroomgetal.\n\
-      48284 is een palindroomgetal.\n48384 is een palindroomgetal.\n48484 is een palindroomgetal.\n\
-      48584 is een palindroomgetal.\n48684 is een palindroomgetal.\n48784 is een palindroomgetal.\n\
-      48884 is een palindroomgetal.\n48984 is een palindroomgetal.\n49094 is een palindroomgetal.\n\
-      49194 is een palindroomgetal.\n49294 is een palindroomgetal.\n49394 is een palindroomgetal.\n\
-      49494 is een palindroomgetal.\n49594 is een palindroomgetal.\n49694 is een palindroomgetal.\n\
-      49794 is een palindroomgetal.\n49894 is een palindroomgetal.\n49994 is een palindroomgetal.\n\
-      50005 is een palindroomgetal.\n50105 is een palindroomgetal.\n50205 is een palindroomgetal.\n\
-      50305 is een palindroomgetal.\n50405 is een palindroomgetal.\n50505 is een palindroomgetal.\n\
-      50605 is een palindroomgetal.\n50705 is een palindroomgetal.\n50805 is een palindroomgetal.\n\
-      50905 is een palindroomgetal.\n51015 is een palindroomgetal.\n51115 is een palindroomgetal.\n\
-      51215 is een palindroomgetal.\n51315 is een palindroomgetal.\n51415 is een palindroomgetal.\n\
-      51515 is een palindroomgetal.\n51615 is een palindroomgetal.\n51715 is een palindroomgetal.\n\
-      51815 is een palindroomgetal.\n51915 is een palindroomgetal.\n52025 is een palindroomgetal.\n\
-      52125 is een palindroomgetal.\n52225 is een palindroomgetal.\n52325 is een palindroomgetal.\n\
-      52425 is een palindroomgetal.\n52525 is een palindroomgetal.\n52625 is een palindroomgetal.\n\
-      52725 is een palindroomgetal.\n52825 is een palindroomgetal.\n52925 is een palindroomgetal.\n\
-      53035 is een palindroomgetal.\n53135 is een palindroomgetal.\n53235 is een palindroomgetal.\n\
-      53335 is een palindroomgetal.\n53435 is een palindroomgetal.\n53535 is een palindroomgetal.\n\
-      53635 is een palindroomgetal.\n53735 is een palindroomgetal.\n53835 is een palindroomgetal.\n\
-      53935 is een palindroomgetal.\n54045 is een palindroomgetal.\n54145 is een palindroomgetal.\n\
-      54245 is een palindroomgetal.\n54345 is een palindroomgetal.\n54445 is een palindroomgetal.\n\
-      54545 is een palindroomgetal.\n54645 is een palindroomgetal.\n54745 is een palindroomgetal.\n\
-      54845 is een palindroomgetal.\n54945 is een palindroomgetal.\n55055 is een palindroomgetal.\n\
-      55155 is een palindroomgetal.\n55255 is een palindroomgetal.\n55355 is een palindroomgetal.\n\
-      55455 is een palindroomgetal.\n55555 is een palindroomgetal.\n55655 is een palindroomgetal.\n\
-      55755 is een palindroomgetal.\n55855 is een palindroomgetal.\n55955 is een palindroomgetal.\n\
-      56065 is een palindroomgetal.\n56165 is een palindroomgetal.\n56265 is een palindroomgetal.\n\
-      56365 is een palindroomgetal.\n56465 is een palindroomgetal.\n56565 is een palindroomgetal.\n\
-      56665 is een palindroomgetal.\n56765 is een palindroomgetal.\n56865 is een palindroomgetal.\n\
-      56965 is een palindroomgetal.\n57075 is een palindroomgetal.\n57175 is een palindroomgetal.\n\
-      57275 is een palindroomgetal.\n57375 is een palindroomgetal.\n57475 is een palindroomgetal.\n\
-      57575 is een palindroomgetal.\n57675 is een palindroomgetal.\n57775 is een palindroomgetal.\n\
-      57875 is een palindroomgetal.\n57975 is een palindroomgetal.\n58085 is een palindroomgetal.\n\
-      58185 is een palindroomgetal.\n58285 is een palindroomgetal.\n58385 is een palindroomgetal.\n\
-      58485 is een palindroomgetal.\n58585 is een palindroomgetal.\n58685 is een palindroomgetal.\n\
-      58785 is een palindroomgetal.\n58885 is een palindroomgetal.\n58985 is een palindroomgetal.\n\
-      59095 is een palindroomgetal.\n59195 is een palindroomgetal.\n59295 is een palindroomgetal.\n\
-      59395 is een palindroomgetal.\n59495 is een palindroomgetal.\n59595 is een palindroomgetal.\n\
-      59695 is een palindroomgetal.\n59795 is een palindroomgetal.\n59895 is een palindroomgetal.\n\
-      59995 is een palindroomgetal.\n60006 is een palindroomgetal.\n60106 is een palindroomgetal.\n\
-      60206 is een palindroomgetal.\n60306 is een palindroomgetal.\n60406 is een palindroomgetal.\n\
-      60506 is een palindroomgetal.\n60606 is een palindroomgetal.\n60706 is een palindroomgetal.\n\
-      60806 is een palindroomgetal.\n60906 is een palindroomgetal.\n61016 is een palindroomgetal.\n\
-      61116 is een palindroomgetal.\n61216 is een palindroomgetal.\n61316 is een palindroomgetal.\n\
-      61416 is een palindroomgetal.\n61516 is een palindroomgetal.\n61616 is een palindroomgetal.\n\
-      61716 is een palindroomgetal.\n61816 is een palindroomgetal.\n61916 is een palindroomgetal.\n\
-      62026 is een palindroomgetal.\n62126 is een palindroomgetal.\n62226 is een palindroomgetal.\n\
-      62326 is een palindroomgetal.\n62426 is een palindroomgetal.\n62526 is een palindroomgetal.\n\
-      62626 is een palindroomgetal.\n62726 is een palindroomgetal.\n62826 is een palindroomgetal.\n\
-      62926 is een palindroomgetal.\n63036 is een palindroomgetal.\n63136 is een palindroomgetal.\n\
-      63236 is een palindroomgetal.\n63336 is een palindroomgetal.\n63436 is een palindroomgetal.\n\
-      63536 is een palindroomgetal.\n63636 is een palindroomgetal.\n63736 is een palindroomgetal.\n\
-      63836 is een palindroomgetal.\n63936 is een palindroomgetal.\n64046 is een palindroomgetal.\n\
-      64146 is een palindroomgetal.\n64246 is een palindroomgetal.\n64346 is een palindroomgetal.\n\
-      64446 is een palindroomgetal.\n64546 is een palindroomgetal.\n64646 is een palindroomgetal.\n\
-      64746 is een palindroomgetal.\n64846 is een palindroomgetal.\n64946 is een palindroomgetal.\n\
-      65056 is een palindroomgetal.\n65156 is een palindroomgetal.\n65256 is een palindroomgetal.\n\
-      65356 is een palindroomgetal.\n65456 is een palindroomgetal.\n65556 is een palindroomgetal.\n\
-      65656 is een palindroomgetal.\n65756 is een palindroomgetal.\n65856 is een palindroomgetal.\n\
-      65956 is een palindroomgetal.\n66066 is een palindroomgetal.\n66166 is een palindroomgetal.\n\
-      66266 is een palindroomgetal.\n66366 is een palindroomgetal.\n66466 is een palindroomgetal.\n\
-      66566 is een palindroomgetal.\n66666 is een palindroomgetal.\n66766 is een palindroomgetal.\n\
-      66866 is een palindroomgetal.\n66966 is een palindroomgetal.\n67076 is een palindroomgetal.\n\
-      67176 is een palindroomgetal.\n67276 is een palindroomgetal.\n67376 is een palindroomgetal.\n\
-      67476 is een palindroomgetal.\n67576 is een palindroomgetal.\n67676 is een palindroomgetal.\n\
-      67776 is een palindroomgetal.\n67876 is een palindroomgetal.\n67976 is een palindroomgetal.\n\
-      68086 is een palindroomgetal.\n68186 is een palindroomgetal.\n68286 is een palindroomgetal.\n\
-      68386 is een palindroomgetal.\n68486 is een palindroomgetal.\n68586 is een palindroomgetal.\n\
-      68686 is een palindroomgetal.\n68786 is een palindroomgetal.\n68886 is een palindroomgetal.\n\
-      68986 is een palindroomgetal.\n69096 is een palindroomgetal.\n69196 is een palindroomgetal.\n\
-      69296 is een palindroomgetal.\n69396 is een palindroomgetal.\n69496 is een palindroomgetal.\n\
-      69596 is een palindroomgetal.\n69696 is een palindroomgetal.\n69796 is een palindroomgetal.\n\
-      69896 is een palindroomgetal.\n69996 is een palindroomgetal.\n70007 is een palindroomgetal.\n\
-      70107 is een palindroomgetal.\n70207 is een palindroomgetal.\n70307 is een palindroomgetal.\n\
-      70407 is een palindroomgetal.\n70507 is een palindroomgetal.\n70607 is een palindroomgetal.\n\
-      70707 is een palindroomgetal.\n70807 is een palindroomgetal.\n70907 is een palindroomgetal.\n\
-      71017 is een palindroomgetal.\n71117 is een palindroomgetal.\n71217 is een palindroomgetal.\n\
-      71317 is een palindroomgetal.\n71417 is een palindroomgetal.\n71517 is een palindroomgetal.\n\
-      71617 is een palindroomgetal.\n71717 is een palindroomgetal.\n71817 is een palindroomgetal.\n\
-      71917 is een palindroomgetal.\n72027 is een palindroomgetal.\n72127 is een palindroomgetal.\n\
-      72227 is een palindroomgetal.\n72327 is een palindroomgetal.\n72427 is een palindroomgetal.\n\
-      72527 is een palindroomgetal.\n72627 is een palindroomgetal.\n72727 is een palindroomgetal.\n\
-      72827 is een palindroomgetal.\n72927 is een palindroomgetal.\n73037 is een palindroomgetal.\n\
-      73137 is een palindroomgetal.\n73237 is een palindroomgetal.\n73337 is een palindroomgetal.\n\
-      73437 is een palindroomgetal.\n73537 is een palindroomgetal.\n73637 is een palindroomgetal.\n\
-      73737 is een palindroomgetal.\n73837 is een palindroomgetal.\n73937 is een palindroomgetal.\n\
-      74047 is een palindroomgetal.\n74147 is een palindroomgetal.\n74247 is een palindroomgetal.\n\
-      Er waren 825 palindroomgetallen."
-  - stdin: "76\n17823"
-    stdout: "77 is een palindroomgetal.\n88 is een palindroomgetal.\n99 is een palindroomgetal.\n\
-      101 is een palindroomgetal.\n111 is een palindroomgetal.\n121 is een palindroomgetal.\n\
-      131 is een palindroomgetal.\n141 is een palindroomgetal.\n151 is een palindroomgetal.\n\
-      161 is een palindroomgetal.\n171 is een palindroomgetal.\n181 is een palindroomgetal.\n\
-      191 is een palindroomgetal.\n202 is een palindroomgetal.\n212 is een palindroomgetal.\n\
-      222 is een palindroomgetal.\n232 is een palindroomgetal.\n242 is een palindroomgetal.\n\
-      252 is een palindroomgetal.\n262 is een palindroomgetal.\n272 is een palindroomgetal.\n\
-      282 is een palindroomgetal.\n292 is een palindroomgetal.\n303 is een palindroomgetal.\n\
-      313 is een palindroomgetal.\n323 is een palindroomgetal.\n333 is een palindroomgetal.\n\
-      343 is een palindroomgetal.\n353 is een palindroomgetal.\n363 is een palindroomgetal.\n\
-      373 is een palindroomgetal.\n383 is een palindroomgetal.\n393 is een palindroomgetal.\n\
-      404 is een palindroomgetal.\n414 is een palindroomgetal.\n424 is een palindroomgetal.\n\
-      434 is een palindroomgetal.\n444 is een palindroomgetal.\n454 is een palindroomgetal.\n\
-      464 is een palindroomgetal.\n474 is een palindroomgetal.\n484 is een palindroomgetal.\n\
-      494 is een palindroomgetal.\n505 is een palindroomgetal.\n515 is een palindroomgetal.\n\
-      525 is een palindroomgetal.\n535 is een palindroomgetal.\n545 is een palindroomgetal.\n\
-      555 is een palindroomgetal.\n565 is een palindroomgetal.\n575 is een palindroomgetal.\n\
-      585 is een palindroomgetal.\n595 is een palindroomgetal.\n606 is een palindroomgetal.\n\
-      616 is een palindroomgetal.\n626 is een palindroomgetal.\n636 is een palindroomgetal.\n\
-      646 is een palindroomgetal.\n656 is een palindroomgetal.\n666 is een palindroomgetal.\n\
-      676 is een palindroomgetal.\n686 is een palindroomgetal.\n696 is een palindroomgetal.\n\
-      707 is een palindroomgetal.\n717 is een palindroomgetal.\n727 is een palindroomgetal.\n\
-      737 is een palindroomgetal.\n747 is een palindroomgetal.\n757 is een palindroomgetal.\n\
-      767 is een palindroomgetal.\n777 is een palindroomgetal.\n787 is een palindroomgetal.\n\
-      797 is een palindroomgetal.\n808 is een palindroomgetal.\n818 is een palindroomgetal.\n\
-      828 is een palindroomgetal.\n838 is een palindroomgetal.\n848 is een palindroomgetal.\n\
-      858 is een palindroomgetal.\n868 is een palindroomgetal.\n878 is een palindroomgetal.\n\
-      888 is een palindroomgetal.\n898 is een palindroomgetal.\n909 is een palindroomgetal.\n\
-      919 is een palindroomgetal.\n929 is een palindroomgetal.\n939 is een palindroomgetal.\n\
-      949 is een palindroomgetal.\n959 is een palindroomgetal.\n969 is een palindroomgetal.\n\
-      979 is een palindroomgetal.\n989 is een palindroomgetal.\n999 is een palindroomgetal.\n\
-      1001 is een palindroomgetal.\n1111 is een palindroomgetal.\n1221 is een palindroomgetal.\n\
-      1331 is een palindroomgetal.\n1441 is een palindroomgetal.\n1551 is een palindroomgetal.\n\
-      1661 is een palindroomgetal.\n1771 is een palindroomgetal.\n1881 is een palindroomgetal.\n\
-      1991 is een palindroomgetal.\n2002 is een palindroomgetal.\n2112 is een palindroomgetal.\n\
-      2222 is een palindroomgetal.\n2332 is een palindroomgetal.\n2442 is een palindroomgetal.\n\
-      2552 is een palindroomgetal.\n2662 is een palindroomgetal.\n2772 is een palindroomgetal.\n\
-      2882 is een palindroomgetal.\n2992 is een palindroomgetal.\n3003 is een palindroomgetal.\n\
-      3113 is een palindroomgetal.\n3223 is een palindroomgetal.\n3333 is een palindroomgetal.\n\
-      3443 is een palindroomgetal.\n3553 is een palindroomgetal.\n3663 is een palindroomgetal.\n\
-      3773 is een palindroomgetal.\n3883 is een palindroomgetal.\n3993 is een palindroomgetal.\n\
-      4004 is een palindroomgetal.\n4114 is een palindroomgetal.\n4224 is een palindroomgetal.\n\
-      4334 is een palindroomgetal.\n4444 is een palindroomgetal.\n4554 is een palindroomgetal.\n\
-      4664 is een palindroomgetal.\n4774 is een palindroomgetal.\n4884 is een palindroomgetal.\n\
-      4994 is een palindroomgetal.\n5005 is een palindroomgetal.\n5115 is een palindroomgetal.\n\
-      5225 is een palindroomgetal.\n5335 is een palindroomgetal.\n5445 is een palindroomgetal.\n\
-      5555 is een palindroomgetal.\n5665 is een palindroomgetal.\n5775 is een palindroomgetal.\n\
-      5885 is een palindroomgetal.\n5995 is een palindroomgetal.\n6006 is een palindroomgetal.\n\
-      6116 is een palindroomgetal.\n6226 is een palindroomgetal.\n6336 is een palindroomgetal.\n\
-      6446 is een palindroomgetal.\n6556 is een palindroomgetal.\n6666 is een palindroomgetal.\n\
-      6776 is een palindroomgetal.\n6886 is een palindroomgetal.\n6996 is een palindroomgetal.\n\
-      7007 is een palindroomgetal.\n7117 is een palindroomgetal.\n7227 is een palindroomgetal.\n\
-      7337 is een palindroomgetal.\n7447 is een palindroomgetal.\n7557 is een palindroomgetal.\n\
-      7667 is een palindroomgetal.\n7777 is een palindroomgetal.\n7887 is een palindroomgetal.\n\
-      7997 is een palindroomgetal.\n8008 is een palindroomgetal.\n8118 is een palindroomgetal.\n\
-      8228 is een palindroomgetal.\n8338 is een palindroomgetal.\n8448 is een palindroomgetal.\n\
-      8558 is een palindroomgetal.\n8668 is een palindroomgetal.\n8778 is een palindroomgetal.\n\
-      8888 is een palindroomgetal.\n8998 is een palindroomgetal.\n9009 is een palindroomgetal.\n\
-      9119 is een palindroomgetal.\n9229 is een palindroomgetal.\n9339 is een palindroomgetal.\n\
-      9449 is een palindroomgetal.\n9559 is een palindroomgetal.\n9669 is een palindroomgetal.\n\
-      9779 is een palindroomgetal.\n9889 is een palindroomgetal.\n9999 is een palindroomgetal.\n\
-      10001 is een palindroomgetal.\n10101 is een palindroomgetal.\n10201 is een palindroomgetal.\n\
-      10301 is een palindroomgetal.\n10401 is een palindroomgetal.\n10501 is een palindroomgetal.\n\
-      10601 is een palindroomgetal.\n10701 is een palindroomgetal.\n10801 is een palindroomgetal.\n\
-      10901 is een palindroomgetal.\n11011 is een palindroomgetal.\n11111 is een palindroomgetal.\n\
-      11211 is een palindroomgetal.\n11311 is een palindroomgetal.\n11411 is een palindroomgetal.\n\
-      11511 is een palindroomgetal.\n11611 is een palindroomgetal.\n11711 is een palindroomgetal.\n\
-      11811 is een palindroomgetal.\n11911 is een palindroomgetal.\n12021 is een palindroomgetal.\n\
-      12121 is een palindroomgetal.\n12221 is een palindroomgetal.\n12321 is een palindroomgetal.\n\
-      12421 is een palindroomgetal.\n12521 is een palindroomgetal.\n12621 is een palindroomgetal.\n\
-      12721 is een palindroomgetal.\n12821 is een palindroomgetal.\n12921 is een palindroomgetal.\n\
-      13031 is een palindroomgetal.\n13131 is een palindroomgetal.\n13231 is een palindroomgetal.\n\
-      13331 is een palindroomgetal.\n13431 is een palindroomgetal.\n13531 is een palindroomgetal.\n\
-      13631 is een palindroomgetal.\n13731 is een palindroomgetal.\n13831 is een palindroomgetal.\n\
-      13931 is een palindroomgetal.\n14041 is een palindroomgetal.\n14141 is een palindroomgetal.\n\
-      14241 is een palindroomgetal.\n14341 is een palindroomgetal.\n14441 is een palindroomgetal.\n\
-      14541 is een palindroomgetal.\n14641 is een palindroomgetal.\n14741 is een palindroomgetal.\n\
-      14841 is een palindroomgetal.\n14941 is een palindroomgetal.\n15051 is een palindroomgetal.\n\
-      15151 is een palindroomgetal.\n15251 is een palindroomgetal.\n15351 is een palindroomgetal.\n\
-      15451 is een palindroomgetal.\n15551 is een palindroomgetal.\n15651 is een palindroomgetal.\n\
-      15751 is een palindroomgetal.\n15851 is een palindroomgetal.\n15951 is een palindroomgetal.\n\
-      16061 is een palindroomgetal.\n16161 is een palindroomgetal.\n16261 is een palindroomgetal.\n\
-      16361 is een palindroomgetal.\n16461 is een palindroomgetal.\n16561 is een palindroomgetal.\n\
-      16661 is een palindroomgetal.\n16761 is een palindroomgetal.\n16861 is een palindroomgetal.\n\
-      16961 is een palindroomgetal.\n17071 is een palindroomgetal.\n17171 is een palindroomgetal.\n\
-      17271 is een palindroomgetal.\n17371 is een palindroomgetal.\n17471 is een palindroomgetal.\n\
-      17571 is een palindroomgetal.\n17671 is een palindroomgetal.\n17771 is een palindroomgetal.\n\
-      Er waren 261 palindroomgetallen."
-  - stdin: "721\n972"
-    stdout: "727 is een palindroomgetal.\n737 is een palindroomgetal.\n747 is een\
-      \ palindroomgetal.\n757 is een palindroomgetal.\n767 is een palindroomgetal.\n\
-      777 is een palindroomgetal.\n787 is een palindroomgetal.\n797 is een palindroomgetal.\n\
-      808 is een palindroomgetal.\n818 is een palindroomgetal.\n828 is een palindroomgetal.\n\
-      838 is een palindroomgetal.\n848 is een palindroomgetal.\n858 is een palindroomgetal.\n\
-      868 is een palindroomgetal.\n878 is een palindroomgetal.\n888 is een palindroomgetal.\n\
-      898 is een palindroomgetal.\n909 is een palindroomgetal.\n919 is een palindroomgetal.\n\
-      929 is een palindroomgetal.\n939 is een palindroomgetal.\n949 is een palindroomgetal.\n\
-      959 is een palindroomgetal.\n969 is een palindroomgetal.\nEr waren 25 palindroomgetallen."
-  - stdin: "8\n956"
-    stdout: "9 is een palindroomgetal.\n11 is een palindroomgetal.\n22 is een palindroomgetal.\n\
-      33 is een palindroomgetal.\n44 is een palindroomgetal.\n55 is een palindroomgetal.\n\
-      66 is een palindroomgetal.\n77 is een palindroomgetal.\n88 is een palindroomgetal.\n\
-      99 is een palindroomgetal.\n101 is een palindroomgetal.\n111 is een palindroomgetal.\n\
-      121 is een palindroomgetal.\n131 is een palindroomgetal.\n141 is een palindroomgetal.\n\
-      151 is een palindroomgetal.\n161 is een palindroomgetal.\n171 is een palindroomgetal.\n\
-      181 is een palindroomgetal.\n191 is een palindroomgetal.\n202 is een palindroomgetal.\n\
-      212 is een palindroomgetal.\n222 is een palindroomgetal.\n232 is een palindroomgetal.\n\
-      242 is een palindroomgetal.\n252 is een palindroomgetal.\n262 is een palindroomgetal.\n\
-      272 is een palindroomgetal.\n282 is een palindroomgetal.\n292 is een palindroomgetal.\n\
-      303 is een palindroomgetal.\n313 is een palindroomgetal.\n323 is een palindroomgetal.\n\
-      333 is een palindroomgetal.\n343 is een palindroomgetal.\n353 is een palindroomgetal.\n\
-      363 is een palindroomgetal.\n373 is een palindroomgetal.\n383 is een palindroomgetal.\n\
-      393 is een palindroomgetal.\n404 is een palindroomgetal.\n414 is een palindroomgetal.\n\
-      424 is een palindroomgetal.\n434 is een palindroomgetal.\n444 is een palindroomgetal.\n\
-      454 is een palindroomgetal.\n464 is een palindroomgetal.\n474 is een palindroomgetal.\n\
-      484 is een palindroomgetal.\n494 is een palindroomgetal.\n505 is een palindroomgetal.\n\
-      515 is een palindroomgetal.\n525 is een palindroomgetal.\n535 is een palindroomgetal.\n\
-      545 is een palindroomgetal.\n555 is een palindroomgetal.\n565 is een palindroomgetal.\n\
-      575 is een palindroomgetal.\n585 is een palindroomgetal.\n595 is een palindroomgetal.\n\
-      606 is een palindroomgetal.\n616 is een palindroomgetal.\n626 is een palindroomgetal.\n\
-      636 is een palindroomgetal.\n646 is een palindroomgetal.\n656 is een palindroomgetal.\n\
-      666 is een palindroomgetal.\n676 is een palindroomgetal.\n686 is een palindroomgetal.\n\
-      696 is een palindroomgetal.\n707 is een palindroomgetal.\n717 is een palindroomgetal.\n\
-      727 is een palindroomgetal.\n737 is een palindroomgetal.\n747 is een palindroomgetal.\n\
-      757 is een palindroomgetal.\n767 is een palindroomgetal.\n777 is een palindroomgetal.\n\
-      787 is een palindroomgetal.\n797 is een palindroomgetal.\n808 is een palindroomgetal.\n\
-      818 is een palindroomgetal.\n828 is een palindroomgetal.\n838 is een palindroomgetal.\n\
-      848 is een palindroomgetal.\n858 is een palindroomgetal.\n868 is een palindroomgetal.\n\
-      878 is een palindroomgetal.\n888 is een palindroomgetal.\n898 is een palindroomgetal.\n\
-      909 is een palindroomgetal.\n919 is een palindroomgetal.\n929 is een palindroomgetal.\n\
-      939 is een palindroomgetal.\n949 is een palindroomgetal.\nEr waren 95 palindroomgetallen."
-  - stdin: "4875\n5505"
-    stdout: "4884 is een palindroomgetal.\n4994 is een palindroomgetal.\n5005 is een\
-      \ palindroomgetal.\n5115 is een palindroomgetal.\n5225 is een palindroomgetal.\n\
-      5335 is een palindroomgetal.\n5445 is een palindroomgetal.\nEr waren 7 palindroomgetallen."
-  - stdin: "773\n940"
-    stdout: "777 is een palindroomgetal.\n787 is een palindroomgetal.\n797 is een\
-      \ palindroomgetal.\n808 is een palindroomgetal.\n818 is een palindroomgetal.\n\
-      828 is een palindroomgetal.\n838 is een palindroomgetal.\n848 is een palindroomgetal.\n\
-      858 is een palindroomgetal.\n868 is een palindroomgetal.\n878 is een palindroomgetal.\n\
-      888 is een palindroomgetal.\n898 is een palindroomgetal.\n909 is een palindroomgetal.\n\
-      919 is een palindroomgetal.\n929 is een palindroomgetal.\n939 is een palindroomgetal.\n\
-      Er waren 17 palindroomgetallen."
+  contexts:
+  - testcases:
+    - stdin: "120\n122"
+      stdout: "121 is een palindroomgetal.\nEr was slechts één palindroomgetal.\n"
+    - expression: is_palindroom(121)
+      return: true
+    - expression: is_palindroom(122)
+      return: false
+  - testcases:
+    - stdin: "0\n10"
+      stdout: "1 is een palindroomgetal.\n2 is een palindroomgetal.\n3 is een palindroomgetal.\n\
+        4 is een palindroomgetal.\n5 is een palindroomgetal.\n6 is een palindroomgetal.\n\
+        7 is een palindroomgetal.\n8 is een palindroomgetal.\n9 is een palindroomgetal.\n\
+        Er waren 9 palindroomgetallen.\n"
+    - expression: is_palindroom(9)
+      return: true
+    - expression: is_palindroom(10)
+      return: false
+  - testcases:
+    - stdin: "88\n99"
+      stdout: "Er werden geen palindroomgetallen gevonden.\n"
+    - expression: is_palindroom(88)
+      return: true
+    - expression: is_palindroom(99)
+      return: true
+  - testcases:
+    - stdin: "892\n944"
+      stdout: "898 is een palindroomgetal.\n909 is een palindroomgetal.\n919 is een
+        palindroomgetal.\n929 is een palindroomgetal.\n939 is een palindroomgetal.\n\
+        Er waren 5 palindroomgetallen.\n"
+    - expression: is_palindroom(939)
+      return: true
+    - expression: is_palindroom(944)
+      return: false
+  - testcases:
+    - stdin: "6\n70"
+      stdout: "7 is een palindroomgetal.\n8 is een palindroomgetal.\n9 is een palindroomgetal.\n\
+        11 is een palindroomgetal.\n22 is een palindroomgetal.\n33 is een palindroomgetal.\n\
+        44 is een palindroomgetal.\n55 is een palindroomgetal.\n66 is een palindroomgetal.\n\
+        Er waren 9 palindroomgetallen.\n"
+    - expression: is_palindroom(66)
+      return: true
+    - expression: is_palindroom(70)
+      return: false
+  - testcases:
+    - stdin: "9865\n9933"
+      stdout: "9889 is een palindroomgetal.\nEr was slechts één palindroomgetal.\n"
+    - expression: is_palindroom(9889)
+      return: true
+    - expression: is_palindroom(9933)
+      return: false
+  - testcases:
+    - stdin: "50\n120"
+      stdout: "55 is een palindroomgetal.\n66 is een palindroomgetal.\n77 is een palindroomgetal.\n\
+        88 is een palindroomgetal.\n99 is een palindroomgetal.\n101 is een palindroomgetal.\n\
+        111 is een palindroomgetal.\nEr waren 7 palindroomgetallen.\n"
+    - expression: is_palindroom(111)
+      return: true
+    - expression: is_palindroom(120)
+      return: false
+  - testcases:
+    - stdin: "773\n940"
+      stdout: "777 is een palindroomgetal.\n787 is een palindroomgetal.\n797 is een
+        palindroomgetal.\n808 is een palindroomgetal.\n818 is een palindroomgetal.\n\
+        828 is een palindroomgetal.\n838 is een palindroomgetal.\n848 is een palindroomgetal.\n\
+        858 is een palindroomgetal.\n868 is een palindroomgetal.\n878 is een palindroomgetal.\n\
+        888 is een palindroomgetal.\n898 is een palindroomgetal.\n909 is een palindroomgetal.\n\
+        919 is een palindroomgetal.\n929 is een palindroomgetal.\n939 is een palindroomgetal.\n\
+        Er waren 17 palindroomgetallen.\n"
+    - expression: is_palindroom(939)
+      return: true
+    - expression: is_palindroom(940)
+      return: false
+  - testcases:
+    - stdin: "721\n972"
+      stdout: "727 is een palindroomgetal.\n737 is een palindroomgetal.\n747 is een
+        palindroomgetal.\n757 is een palindroomgetal.\n767 is een palindroomgetal.\n\
+        777 is een palindroomgetal.\n787 is een palindroomgetal.\n797 is een palindroomgetal.\n\
+        808 is een palindroomgetal.\n818 is een palindroomgetal.\n828 is een palindroomgetal.\n\
+        838 is een palindroomgetal.\n848 is een palindroomgetal.\n858 is een palindroomgetal.\n\
+        868 is een palindroomgetal.\n878 is een palindroomgetal.\n888 is een palindroomgetal.\n\
+        898 is een palindroomgetal.\n909 is een palindroomgetal.\n919 is een palindroomgetal.\n\
+        929 is een palindroomgetal.\n939 is een palindroomgetal.\n949 is een palindroomgetal.\n\
+        959 is een palindroomgetal.\n969 is een palindroomgetal.\nEr waren 25 palindroomgetallen.\n"
+    - expression: is_palindroom(969)
+      return: true
+    - expression: is_palindroom(972)
+      return: false
+  - testcases:
+    - stdin: "17\n366"
+      stdout: "22 is een palindroomgetal.\n33 is een palindroomgetal.\n44 is een palindroomgetal.\n\
+        55 is een palindroomgetal.\n66 is een palindroomgetal.\n77 is een palindroomgetal.\n\
+        88 is een palindroomgetal.\n99 is een palindroomgetal.\n101 is een palindroomgetal.\n\
+        111 is een palindroomgetal.\n121 is een palindroomgetal.\n131 is een palindroomgetal.\n\
+        141 is een palindroomgetal.\n151 is een palindroomgetal.\n161 is een palindroomgetal.\n\
+        171 is een palindroomgetal.\n181 is een palindroomgetal.\n191 is een palindroomgetal.\n\
+        202 is een palindroomgetal.\n212 is een palindroomgetal.\n222 is een palindroomgetal.\n\
+        232 is een palindroomgetal.\n242 is een palindroomgetal.\n252 is een palindroomgetal.\n\
+        262 is een palindroomgetal.\n272 is een palindroomgetal.\n282 is een palindroomgetal.\n\
+        292 is een palindroomgetal.\n303 is een palindroomgetal.\n313 is een palindroomgetal.\n\
+        323 is een palindroomgetal.\n333 is een palindroomgetal.\n343 is een palindroomgetal.\n\
+        353 is een palindroomgetal.\n363 is een palindroomgetal.\nEr waren 35 palindroomgetallen.\n"
+    - expression: is_palindroom(363)
+      return: true
+    - expression: is_palindroom(366)
+      return: false
+  - testcases:
+    - stdin: "80\n441"
+      stdout: "88 is een palindroomgetal.\n99 is een palindroomgetal.\n101 is een
+        palindroomgetal.\n111 is een palindroomgetal.\n121 is een palindroomgetal.\n\
+        131 is een palindroomgetal.\n141 is een palindroomgetal.\n151 is een palindroomgetal.\n\
+        161 is een palindroomgetal.\n171 is een palindroomgetal.\n181 is een palindroomgetal.\n\
+        191 is een palindroomgetal.\n202 is een palindroomgetal.\n212 is een palindroomgetal.\n\
+        222 is een palindroomgetal.\n232 is een palindroomgetal.\n242 is een palindroomgetal.\n\
+        252 is een palindroomgetal.\n262 is een palindroomgetal.\n272 is een palindroomgetal.\n\
+        282 is een palindroomgetal.\n292 is een palindroomgetal.\n303 is een palindroomgetal.\n\
+        313 is een palindroomgetal.\n323 is een palindroomgetal.\n333 is een palindroomgetal.\n\
+        343 is een palindroomgetal.\n353 is een palindroomgetal.\n363 is een palindroomgetal.\n\
+        373 is een palindroomgetal.\n383 is een palindroomgetal.\n393 is een palindroomgetal.\n\
+        404 is een palindroomgetal.\n414 is een palindroomgetal.\n424 is een palindroomgetal.\n\
+        434 is een palindroomgetal.\nEr waren 36 palindroomgetallen.\n"
+    - expression: is_palindroom(434)
+      return: true
+    - expression: is_palindroom(441)
+      return: false
+  - testcases:
+    - stdin: "4875\n5505"
+      stdout: "4884 is een palindroomgetal.\n4994 is een palindroomgetal.\n5005 is
+        een palindroomgetal.\n5115 is een palindroomgetal.\n5225 is een palindroomgetal.\n\
+        5335 is een palindroomgetal.\n5445 is een palindroomgetal.\nEr waren 7 palindroomgetallen.\n"
+    - expression: is_palindroom(5445)
+      return: true
+    - expression: is_palindroom(5505)
+      return: false
+  - testcases:
+    - stdin: "204456\n205335"
+      stdout: "Er werden geen palindroomgetallen gevonden.\n"
+    - expression: is_palindroom(204402)
+      return: true
+    - expression: is_palindroom(205335)
+      return: false
+  - testcases:
+    - stdin: "8\n956"
+      stdout: "9 is een palindroomgetal.\n11 is een palindroomgetal.\n22 is een palindroomgetal.\n\
+        33 is een palindroomgetal.\n44 is een palindroomgetal.\n55 is een palindroomgetal.\n\
+        66 is een palindroomgetal.\n77 is een palindroomgetal.\n88 is een palindroomgetal.\n\
+        99 is een palindroomgetal.\n101 is een palindroomgetal.\n111 is een palindroomgetal.\n\
+        121 is een palindroomgetal.\n131 is een palindroomgetal.\n141 is een palindroomgetal.\n\
+        151 is een palindroomgetal.\n161 is een palindroomgetal.\n171 is een palindroomgetal.\n\
+        181 is een palindroomgetal.\n191 is een palindroomgetal.\n202 is een palindroomgetal.\n\
+        212 is een palindroomgetal.\n222 is een palindroomgetal.\n232 is een palindroomgetal.\n\
+        242 is een palindroomgetal.\n252 is een palindroomgetal.\n262 is een palindroomgetal.\n\
+        272 is een palindroomgetal.\n282 is een palindroomgetal.\n292 is een palindroomgetal.\n\
+        303 is een palindroomgetal.\n313 is een palindroomgetal.\n323 is een palindroomgetal.\n\
+        333 is een palindroomgetal.\n343 is een palindroomgetal.\n353 is een palindroomgetal.\n\
+        363 is een palindroomgetal.\n373 is een palindroomgetal.\n383 is een palindroomgetal.\n\
+        393 is een palindroomgetal.\n404 is een palindroomgetal.\n414 is een palindroomgetal.\n\
+        424 is een palindroomgetal.\n434 is een palindroomgetal.\n444 is een palindroomgetal.\n\
+        454 is een palindroomgetal.\n464 is een palindroomgetal.\n474 is een palindroomgetal.\n\
+        484 is een palindroomgetal.\n494 is een palindroomgetal.\n505 is een palindroomgetal.\n\
+        515 is een palindroomgetal.\n525 is een palindroomgetal.\n535 is een palindroomgetal.\n\
+        545 is een palindroomgetal.\n555 is een palindroomgetal.\n565 is een palindroomgetal.\n\
+        575 is een palindroomgetal.\n585 is een palindroomgetal.\n595 is een palindroomgetal.\n\
+        606 is een palindroomgetal.\n616 is een palindroomgetal.\n626 is een palindroomgetal.\n\
+        636 is een palindroomgetal.\n646 is een palindroomgetal.\n656 is een palindroomgetal.\n\
+        666 is een palindroomgetal.\n676 is een palindroomgetal.\n686 is een palindroomgetal.\n\
+        696 is een palindroomgetal.\n707 is een palindroomgetal.\n717 is een palindroomgetal.\n\
+        727 is een palindroomgetal.\n737 is een palindroomgetal.\n747 is een palindroomgetal.\n\
+        757 is een palindroomgetal.\n767 is een palindroomgetal.\n777 is een palindroomgetal.\n\
+        787 is een palindroomgetal.\n797 is een palindroomgetal.\n808 is een palindroomgetal.\n\
+        818 is een palindroomgetal.\n828 is een palindroomgetal.\n838 is een palindroomgetal.\n\
+        848 is een palindroomgetal.\n858 is een palindroomgetal.\n868 is een palindroomgetal.\n\
+        878 is een palindroomgetal.\n888 is een palindroomgetal.\n898 is een palindroomgetal.\n\
+        909 is een palindroomgetal.\n919 is een palindroomgetal.\n929 is een palindroomgetal.\n\
+        939 is een palindroomgetal.\n949 is een palindroomgetal.\nEr waren 95 palindroomgetallen.\n"
+    - expression: is_palindroom(949)
+      return: true
+    - expression: is_palindroom(956)
+      return: false
+  - testcases:
+    - stdin: "3\n1387"
+      stdout: "4 is een palindroomgetal.\n5 is een palindroomgetal.\n6 is een palindroomgetal.\n\
+        7 is een palindroomgetal.\n8 is een palindroomgetal.\n9 is een palindroomgetal.\n\
+        11 is een palindroomgetal.\n22 is een palindroomgetal.\n33 is een palindroomgetal.\n\
+        44 is een palindroomgetal.\n55 is een palindroomgetal.\n66 is een palindroomgetal.\n\
+        77 is een palindroomgetal.\n88 is een palindroomgetal.\n99 is een palindroomgetal.\n\
+        101 is een palindroomgetal.\n111 is een palindroomgetal.\n121 is een palindroomgetal.\n\
+        131 is een palindroomgetal.\n141 is een palindroomgetal.\n151 is een palindroomgetal.\n\
+        161 is een palindroomgetal.\n171 is een palindroomgetal.\n181 is een palindroomgetal.\n\
+        191 is een palindroomgetal.\n202 is een palindroomgetal.\n212 is een palindroomgetal.\n\
+        222 is een palindroomgetal.\n232 is een palindroomgetal.\n242 is een palindroomgetal.\n\
+        252 is een palindroomgetal.\n262 is een palindroomgetal.\n272 is een palindroomgetal.\n\
+        282 is een palindroomgetal.\n292 is een palindroomgetal.\n303 is een palindroomgetal.\n\
+        313 is een palindroomgetal.\n323 is een palindroomgetal.\n333 is een palindroomgetal.\n\
+        343 is een palindroomgetal.\n353 is een palindroomgetal.\n363 is een palindroomgetal.\n\
+        373 is een palindroomgetal.\n383 is een palindroomgetal.\n393 is een palindroomgetal.\n\
+        404 is een palindroomgetal.\n414 is een palindroomgetal.\n424 is een palindroomgetal.\n\
+        434 is een palindroomgetal.\n444 is een palindroomgetal.\n454 is een palindroomgetal.\n\
+        464 is een palindroomgetal.\n474 is een palindroomgetal.\n484 is een palindroomgetal.\n\
+        494 is een palindroomgetal.\n505 is een palindroomgetal.\n515 is een palindroomgetal.\n\
+        525 is een palindroomgetal.\n535 is een palindroomgetal.\n545 is een palindroomgetal.\n\
+        555 is een palindroomgetal.\n565 is een palindroomgetal.\n575 is een palindroomgetal.\n\
+        585 is een palindroomgetal.\n595 is een palindroomgetal.\n606 is een palindroomgetal.\n\
+        616 is een palindroomgetal.\n626 is een palindroomgetal.\n636 is een palindroomgetal.\n\
+        646 is een palindroomgetal.\n656 is een palindroomgetal.\n666 is een palindroomgetal.\n\
+        676 is een palindroomgetal.\n686 is een palindroomgetal.\n696 is een palindroomgetal.\n\
+        707 is een palindroomgetal.\n717 is een palindroomgetal.\n727 is een palindroomgetal.\n\
+        737 is een palindroomgetal.\n747 is een palindroomgetal.\n757 is een palindroomgetal.\n\
+        767 is een palindroomgetal.\n777 is een palindroomgetal.\n787 is een palindroomgetal.\n\
+        797 is een palindroomgetal.\n808 is een palindroomgetal.\n818 is een palindroomgetal.\n\
+        828 is een palindroomgetal.\n838 is een palindroomgetal.\n848 is een palindroomgetal.\n\
+        858 is een palindroomgetal.\n868 is een palindroomgetal.\n878 is een palindroomgetal.\n\
+        888 is een palindroomgetal.\n898 is een palindroomgetal.\n909 is een palindroomgetal.\n\
+        919 is een palindroomgetal.\n929 is een palindroomgetal.\n939 is een palindroomgetal.\n\
+        949 is een palindroomgetal.\n959 is een palindroomgetal.\n969 is een palindroomgetal.\n\
+        979 is een palindroomgetal.\n989 is een palindroomgetal.\n999 is een palindroomgetal.\n\
+        1001 is een palindroomgetal.\n1111 is een palindroomgetal.\n1221 is een palindroomgetal.\n\
+        1331 is een palindroomgetal.\nEr waren 109 palindroomgetallen.\n"
+    - expression: is_palindroom(1331)
+      return: true
+    - expression: is_palindroom(1387)
+      return: false
+  - testcases:
+    - stdin: "14541\n17511"
+      stdout: "14641 is een palindroomgetal.\n14741 is een palindroomgetal.\n14841
+        is een palindroomgetal.\n14941 is een palindroomgetal.\n15051 is een palindroomgetal.\n\
+        15151 is een palindroomgetal.\n15251 is een palindroomgetal.\n15351 is een
+        palindroomgetal.\n15451 is een palindroomgetal.\n15551 is een palindroomgetal.\n\
+        15651 is een palindroomgetal.\n15751 is een palindroomgetal.\n15851 is een
+        palindroomgetal.\n15951 is een palindroomgetal.\n16061 is een palindroomgetal.\n\
+        16161 is een palindroomgetal.\n16261 is een palindroomgetal.\n16361 is een
+        palindroomgetal.\n16461 is een palindroomgetal.\n16561 is een palindroomgetal.\n\
+        16661 is een palindroomgetal.\n16761 is een palindroomgetal.\n16861 is een
+        palindroomgetal.\n16961 is een palindroomgetal.\n17071 is een palindroomgetal.\n\
+        17171 is een palindroomgetal.\n17271 is een palindroomgetal.\n17371 is een
+        palindroomgetal.\n17471 is een palindroomgetal.\nEr waren 29 palindroomgetallen.\n"
+    - expression: is_palindroom(17471)
+      return: true
+    - expression: is_palindroom(17511)
+      return: false
+  - testcases:
+    - stdin: "1666\n6351"
+      stdout: "1771 is een palindroomgetal.\n1881 is een palindroomgetal.\n1991 is
+        een palindroomgetal.\n2002 is een palindroomgetal.\n2112 is een palindroomgetal.\n\
+        2222 is een palindroomgetal.\n2332 is een palindroomgetal.\n2442 is een palindroomgetal.\n\
+        2552 is een palindroomgetal.\n2662 is een palindroomgetal.\n2772 is een palindroomgetal.\n\
+        2882 is een palindroomgetal.\n2992 is een palindroomgetal.\n3003 is een palindroomgetal.\n\
+        3113 is een palindroomgetal.\n3223 is een palindroomgetal.\n3333 is een palindroomgetal.\n\
+        3443 is een palindroomgetal.\n3553 is een palindroomgetal.\n3663 is een palindroomgetal.\n\
+        3773 is een palindroomgetal.\n3883 is een palindroomgetal.\n3993 is een palindroomgetal.\n\
+        4004 is een palindroomgetal.\n4114 is een palindroomgetal.\n4224 is een palindroomgetal.\n\
+        4334 is een palindroomgetal.\n4444 is een palindroomgetal.\n4554 is een palindroomgetal.\n\
+        4664 is een palindroomgetal.\n4774 is een palindroomgetal.\n4884 is een palindroomgetal.\n\
+        4994 is een palindroomgetal.\n5005 is een palindroomgetal.\n5115 is een palindroomgetal.\n\
+        5225 is een palindroomgetal.\n5335 is een palindroomgetal.\n5445 is een palindroomgetal.\n\
+        5555 is een palindroomgetal.\n5665 is een palindroomgetal.\n5775 is een palindroomgetal.\n\
+        5885 is een palindroomgetal.\n5995 is een palindroomgetal.\n6006 is een palindroomgetal.\n\
+        6116 is een palindroomgetal.\n6226 is een palindroomgetal.\n6336 is een palindroomgetal.\n\
+        Er waren 47 palindroomgetallen.\n"
+    - expression: is_palindroom(6336)
+      return: true
+    - expression: is_palindroom(6351)
+      return: false
+  - testcases:
+    - stdin: "5610479\n5617740"
+      stdout: "5611165 is een palindroomgetal.\n5612165 is een palindroomgetal.\n\
+        5613165 is een palindroomgetal.\n5614165 is een palindroomgetal.\n5615165
+        is een palindroomgetal.\n5616165 is een palindroomgetal.\n5617165 is een palindroomgetal.\n\
+        Er waren 7 palindroomgetallen.\n"
+    - expression: is_palindroom(5617165)
+      return: true
+    - expression: is_palindroom(5617740)
+      return: false
+  - testcases:
+    - stdin: "76\n17823"
+      stdout: "77 is een palindroomgetal.\n88 is een palindroomgetal.\n99 is een palindroomgetal.\n\
+        101 is een palindroomgetal.\n111 is een palindroomgetal.\n121 is een palindroomgetal.\n\
+        131 is een palindroomgetal.\n141 is een palindroomgetal.\n151 is een palindroomgetal.\n\
+        161 is een palindroomgetal.\n171 is een palindroomgetal.\n181 is een palindroomgetal.\n\
+        191 is een palindroomgetal.\n202 is een palindroomgetal.\n212 is een palindroomgetal.\n\
+        222 is een palindroomgetal.\n232 is een palindroomgetal.\n242 is een palindroomgetal.\n\
+        252 is een palindroomgetal.\n262 is een palindroomgetal.\n272 is een palindroomgetal.\n\
+        282 is een palindroomgetal.\n292 is een palindroomgetal.\n303 is een palindroomgetal.\n\
+        313 is een palindroomgetal.\n323 is een palindroomgetal.\n333 is een palindroomgetal.\n\
+        343 is een palindroomgetal.\n353 is een palindroomgetal.\n363 is een palindroomgetal.\n\
+        373 is een palindroomgetal.\n383 is een palindroomgetal.\n393 is een palindroomgetal.\n\
+        404 is een palindroomgetal.\n414 is een palindroomgetal.\n424 is een palindroomgetal.\n\
+        434 is een palindroomgetal.\n444 is een palindroomgetal.\n454 is een palindroomgetal.\n\
+        464 is een palindroomgetal.\n474 is een palindroomgetal.\n484 is een palindroomgetal.\n\
+        494 is een palindroomgetal.\n505 is een palindroomgetal.\n515 is een palindroomgetal.\n\
+        525 is een palindroomgetal.\n535 is een palindroomgetal.\n545 is een palindroomgetal.\n\
+        555 is een palindroomgetal.\n565 is een palindroomgetal.\n575 is een palindroomgetal.\n\
+        585 is een palindroomgetal.\n595 is een palindroomgetal.\n606 is een palindroomgetal.\n\
+        616 is een palindroomgetal.\n626 is een palindroomgetal.\n636 is een palindroomgetal.\n\
+        646 is een palindroomgetal.\n656 is een palindroomgetal.\n666 is een palindroomgetal.\n\
+        676 is een palindroomgetal.\n686 is een palindroomgetal.\n696 is een palindroomgetal.\n\
+        707 is een palindroomgetal.\n717 is een palindroomgetal.\n727 is een palindroomgetal.\n\
+        737 is een palindroomgetal.\n747 is een palindroomgetal.\n757 is een palindroomgetal.\n\
+        767 is een palindroomgetal.\n777 is een palindroomgetal.\n787 is een palindroomgetal.\n\
+        797 is een palindroomgetal.\n808 is een palindroomgetal.\n818 is een palindroomgetal.\n\
+        828 is een palindroomgetal.\n838 is een palindroomgetal.\n848 is een palindroomgetal.\n\
+        858 is een palindroomgetal.\n868 is een palindroomgetal.\n878 is een palindroomgetal.\n\
+        888 is een palindroomgetal.\n898 is een palindroomgetal.\n909 is een palindroomgetal.\n\
+        919 is een palindroomgetal.\n929 is een palindroomgetal.\n939 is een palindroomgetal.\n\
+        949 is een palindroomgetal.\n959 is een palindroomgetal.\n969 is een palindroomgetal.\n\
+        979 is een palindroomgetal.\n989 is een palindroomgetal.\n999 is een palindroomgetal.\n\
+        1001 is een palindroomgetal.\n1111 is een palindroomgetal.\n1221 is een palindroomgetal.\n\
+        1331 is een palindroomgetal.\n1441 is een palindroomgetal.\n1551 is een palindroomgetal.\n\
+        1661 is een palindroomgetal.\n1771 is een palindroomgetal.\n1881 is een palindroomgetal.\n\
+        1991 is een palindroomgetal.\n2002 is een palindroomgetal.\n2112 is een palindroomgetal.\n\
+        2222 is een palindroomgetal.\n2332 is een palindroomgetal.\n2442 is een palindroomgetal.\n\
+        2552 is een palindroomgetal.\n2662 is een palindroomgetal.\n2772 is een palindroomgetal.\n\
+        2882 is een palindroomgetal.\n2992 is een palindroomgetal.\n3003 is een palindroomgetal.\n\
+        3113 is een palindroomgetal.\n3223 is een palindroomgetal.\n3333 is een palindroomgetal.\n\
+        3443 is een palindroomgetal.\n3553 is een palindroomgetal.\n3663 is een palindroomgetal.\n\
+        3773 is een palindroomgetal.\n3883 is een palindroomgetal.\n3993 is een palindroomgetal.\n\
+        4004 is een palindroomgetal.\n4114 is een palindroomgetal.\n4224 is een palindroomgetal.\n\
+        4334 is een palindroomgetal.\n4444 is een palindroomgetal.\n4554 is een palindroomgetal.\n\
+        4664 is een palindroomgetal.\n4774 is een palindroomgetal.\n4884 is een palindroomgetal.\n\
+        4994 is een palindroomgetal.\n5005 is een palindroomgetal.\n5115 is een palindroomgetal.\n\
+        5225 is een palindroomgetal.\n5335 is een palindroomgetal.\n5445 is een palindroomgetal.\n\
+        5555 is een palindroomgetal.\n5665 is een palindroomgetal.\n5775 is een palindroomgetal.\n\
+        5885 is een palindroomgetal.\n5995 is een palindroomgetal.\n6006 is een palindroomgetal.\n\
+        6116 is een palindroomgetal.\n6226 is een palindroomgetal.\n6336 is een palindroomgetal.\n\
+        6446 is een palindroomgetal.\n6556 is een palindroomgetal.\n6666 is een palindroomgetal.\n\
+        6776 is een palindroomgetal.\n6886 is een palindroomgetal.\n6996 is een palindroomgetal.\n\
+        7007 is een palindroomgetal.\n7117 is een palindroomgetal.\n7227 is een palindroomgetal.\n\
+        7337 is een palindroomgetal.\n7447 is een palindroomgetal.\n7557 is een palindroomgetal.\n\
+        7667 is een palindroomgetal.\n7777 is een palindroomgetal.\n7887 is een palindroomgetal.\n\
+        7997 is een palindroomgetal.\n8008 is een palindroomgetal.\n8118 is een palindroomgetal.\n\
+        8228 is een palindroomgetal.\n8338 is een palindroomgetal.\n8448 is een palindroomgetal.\n\
+        8558 is een palindroomgetal.\n8668 is een palindroomgetal.\n8778 is een palindroomgetal.\n\
+        8888 is een palindroomgetal.\n8998 is een palindroomgetal.\n9009 is een palindroomgetal.\n\
+        9119 is een palindroomgetal.\n9229 is een palindroomgetal.\n9339 is een palindroomgetal.\n\
+        9449 is een palindroomgetal.\n9559 is een palindroomgetal.\n9669 is een palindroomgetal.\n\
+        9779 is een palindroomgetal.\n9889 is een palindroomgetal.\n9999 is een palindroomgetal.\n\
+        10001 is een palindroomgetal.\n10101 is een palindroomgetal.\n10201 is een
+        palindroomgetal.\n10301 is een palindroomgetal.\n10401 is een palindroomgetal.\n\
+        10501 is een palindroomgetal.\n10601 is een palindroomgetal.\n10701 is een
+        palindroomgetal.\n10801 is een palindroomgetal.\n10901 is een palindroomgetal.\n\
+        11011 is een palindroomgetal.\n11111 is een palindroomgetal.\n11211 is een
+        palindroomgetal.\n11311 is een palindroomgetal.\n11411 is een palindroomgetal.\n\
+        11511 is een palindroomgetal.\n11611 is een palindroomgetal.\n11711 is een
+        palindroomgetal.\n11811 is een palindroomgetal.\n11911 is een palindroomgetal.\n\
+        12021 is een palindroomgetal.\n12121 is een palindroomgetal.\n12221 is een
+        palindroomgetal.\n12321 is een palindroomgetal.\n12421 is een palindroomgetal.\n\
+        12521 is een palindroomgetal.\n12621 is een palindroomgetal.\n12721 is een
+        palindroomgetal.\n12821 is een palindroomgetal.\n12921 is een palindroomgetal.\n\
+        13031 is een palindroomgetal.\n13131 is een palindroomgetal.\n13231 is een
+        palindroomgetal.\n13331 is een palindroomgetal.\n13431 is een palindroomgetal.\n\
+        13531 is een palindroomgetal.\n13631 is een palindroomgetal.\n13731 is een
+        palindroomgetal.\n13831 is een palindroomgetal.\n13931 is een palindroomgetal.\n\
+        14041 is een palindroomgetal.\n14141 is een palindroomgetal.\n14241 is een
+        palindroomgetal.\n14341 is een palindroomgetal.\n14441 is een palindroomgetal.\n\
+        14541 is een palindroomgetal.\n14641 is een palindroomgetal.\n14741 is een
+        palindroomgetal.\n14841 is een palindroomgetal.\n14941 is een palindroomgetal.\n\
+        15051 is een palindroomgetal.\n15151 is een palindroomgetal.\n15251 is een
+        palindroomgetal.\n15351 is een palindroomgetal.\n15451 is een palindroomgetal.\n\
+        15551 is een palindroomgetal.\n15651 is een palindroomgetal.\n15751 is een
+        palindroomgetal.\n15851 is een palindroomgetal.\n15951 is een palindroomgetal.\n\
+        16061 is een palindroomgetal.\n16161 is een palindroomgetal.\n16261 is een
+        palindroomgetal.\n16361 is een palindroomgetal.\n16461 is een palindroomgetal.\n\
+        16561 is een palindroomgetal.\n16661 is een palindroomgetal.\n16761 is een
+        palindroomgetal.\n16861 is een palindroomgetal.\n16961 is een palindroomgetal.\n\
+        17071 is een palindroomgetal.\n17171 is een palindroomgetal.\n17271 is een
+        palindroomgetal.\n17371 is een palindroomgetal.\n17471 is een palindroomgetal.\n\
+        17571 is een palindroomgetal.\n17671 is een palindroomgetal.\n17771 is een
+        palindroomgetal.\nEr waren 261 palindroomgetallen.\n"
+    - expression: is_palindroom(17771)
+      return: true
+    - expression: is_palindroom(17823)
+      return: false
+  - testcases:
+    - stdin: "79\n74292"
+      stdout: "88 is een palindroomgetal.\n99 is een palindroomgetal.\n101 is een
+        palindroomgetal.\n111 is een palindroomgetal.\n121 is een palindroomgetal.\n\
+        131 is een palindroomgetal.\n141 is een palindroomgetal.\n151 is een palindroomgetal.\n\
+        161 is een palindroomgetal.\n171 is een palindroomgetal.\n181 is een palindroomgetal.\n\
+        191 is een palindroomgetal.\n202 is een palindroomgetal.\n212 is een palindroomgetal.\n\
+        222 is een palindroomgetal.\n232 is een palindroomgetal.\n242 is een palindroomgetal.\n\
+        252 is een palindroomgetal.\n262 is een palindroomgetal.\n272 is een palindroomgetal.\n\
+        282 is een palindroomgetal.\n292 is een palindroomgetal.\n303 is een palindroomgetal.\n\
+        313 is een palindroomgetal.\n323 is een palindroomgetal.\n333 is een palindroomgetal.\n\
+        343 is een palindroomgetal.\n353 is een palindroomgetal.\n363 is een palindroomgetal.\n\
+        373 is een palindroomgetal.\n383 is een palindroomgetal.\n393 is een palindroomgetal.\n\
+        404 is een palindroomgetal.\n414 is een palindroomgetal.\n424 is een palindroomgetal.\n\
+        434 is een palindroomgetal.\n444 is een palindroomgetal.\n454 is een palindroomgetal.\n\
+        464 is een palindroomgetal.\n474 is een palindroomgetal.\n484 is een palindroomgetal.\n\
+        494 is een palindroomgetal.\n505 is een palindroomgetal.\n515 is een palindroomgetal.\n\
+        525 is een palindroomgetal.\n535 is een palindroomgetal.\n545 is een palindroomgetal.\n\
+        555 is een palindroomgetal.\n565 is een palindroomgetal.\n575 is een palindroomgetal.\n\
+        585 is een palindroomgetal.\n595 is een palindroomgetal.\n606 is een palindroomgetal.\n\
+        616 is een palindroomgetal.\n626 is een palindroomgetal.\n636 is een palindroomgetal.\n\
+        646 is een palindroomgetal.\n656 is een palindroomgetal.\n666 is een palindroomgetal.\n\
+        676 is een palindroomgetal.\n686 is een palindroomgetal.\n696 is een palindroomgetal.\n\
+        707 is een palindroomgetal.\n717 is een palindroomgetal.\n727 is een palindroomgetal.\n\
+        737 is een palindroomgetal.\n747 is een palindroomgetal.\n757 is een palindroomgetal.\n\
+        767 is een palindroomgetal.\n777 is een palindroomgetal.\n787 is een palindroomgetal.\n\
+        797 is een palindroomgetal.\n808 is een palindroomgetal.\n818 is een palindroomgetal.\n\
+        828 is een palindroomgetal.\n838 is een palindroomgetal.\n848 is een palindroomgetal.\n\
+        858 is een palindroomgetal.\n868 is een palindroomgetal.\n878 is een palindroomgetal.\n\
+        888 is een palindroomgetal.\n898 is een palindroomgetal.\n909 is een palindroomgetal.\n\
+        919 is een palindroomgetal.\n929 is een palindroomgetal.\n939 is een palindroomgetal.\n\
+        949 is een palindroomgetal.\n959 is een palindroomgetal.\n969 is een palindroomgetal.\n\
+        979 is een palindroomgetal.\n989 is een palindroomgetal.\n999 is een palindroomgetal.\n\
+        1001 is een palindroomgetal.\n1111 is een palindroomgetal.\n1221 is een palindroomgetal.\n\
+        1331 is een palindroomgetal.\n1441 is een palindroomgetal.\n1551 is een palindroomgetal.\n\
+        1661 is een palindroomgetal.\n1771 is een palindroomgetal.\n1881 is een palindroomgetal.\n\
+        1991 is een palindroomgetal.\n2002 is een palindroomgetal.\n2112 is een palindroomgetal.\n\
+        2222 is een palindroomgetal.\n2332 is een palindroomgetal.\n2442 is een palindroomgetal.\n\
+        2552 is een palindroomgetal.\n2662 is een palindroomgetal.\n2772 is een palindroomgetal.\n\
+        2882 is een palindroomgetal.\n2992 is een palindroomgetal.\n3003 is een palindroomgetal.\n\
+        3113 is een palindroomgetal.\n3223 is een palindroomgetal.\n3333 is een palindroomgetal.\n\
+        3443 is een palindroomgetal.\n3553 is een palindroomgetal.\n3663 is een palindroomgetal.\n\
+        3773 is een palindroomgetal.\n3883 is een palindroomgetal.\n3993 is een palindroomgetal.\n\
+        4004 is een palindroomgetal.\n4114 is een palindroomgetal.\n4224 is een palindroomgetal.\n\
+        4334 is een palindroomgetal.\n4444 is een palindroomgetal.\n4554 is een palindroomgetal.\n\
+        4664 is een palindroomgetal.\n4774 is een palindroomgetal.\n4884 is een palindroomgetal.\n\
+        4994 is een palindroomgetal.\n5005 is een palindroomgetal.\n5115 is een palindroomgetal.\n\
+        5225 is een palindroomgetal.\n5335 is een palindroomgetal.\n5445 is een palindroomgetal.\n\
+        5555 is een palindroomgetal.\n5665 is een palindroomgetal.\n5775 is een palindroomgetal.\n\
+        5885 is een palindroomgetal.\n5995 is een palindroomgetal.\n6006 is een palindroomgetal.\n\
+        6116 is een palindroomgetal.\n6226 is een palindroomgetal.\n6336 is een palindroomgetal.\n\
+        6446 is een palindroomgetal.\n6556 is een palindroomgetal.\n6666 is een palindroomgetal.\n\
+        6776 is een palindroomgetal.\n6886 is een palindroomgetal.\n6996 is een palindroomgetal.\n\
+        7007 is een palindroomgetal.\n7117 is een palindroomgetal.\n7227 is een palindroomgetal.\n\
+        7337 is een palindroomgetal.\n7447 is een palindroomgetal.\n7557 is een palindroomgetal.\n\
+        7667 is een palindroomgetal.\n7777 is een palindroomgetal.\n7887 is een palindroomgetal.\n\
+        7997 is een palindroomgetal.\n8008 is een palindroomgetal.\n8118 is een palindroomgetal.\n\
+        8228 is een palindroomgetal.\n8338 is een palindroomgetal.\n8448 is een palindroomgetal.\n\
+        8558 is een palindroomgetal.\n8668 is een palindroomgetal.\n8778 is een palindroomgetal.\n\
+        8888 is een palindroomgetal.\n8998 is een palindroomgetal.\n9009 is een palindroomgetal.\n\
+        9119 is een palindroomgetal.\n9229 is een palindroomgetal.\n9339 is een palindroomgetal.\n\
+        9449 is een palindroomgetal.\n9559 is een palindroomgetal.\n9669 is een palindroomgetal.\n\
+        9779 is een palindroomgetal.\n9889 is een palindroomgetal.\n9999 is een palindroomgetal.\n\
+        10001 is een palindroomgetal.\n10101 is een palindroomgetal.\n10201 is een
+        palindroomgetal.\n10301 is een palindroomgetal.\n10401 is een palindroomgetal.\n\
+        10501 is een palindroomgetal.\n10601 is een palindroomgetal.\n10701 is een
+        palindroomgetal.\n10801 is een palindroomgetal.\n10901 is een palindroomgetal.\n\
+        11011 is een palindroomgetal.\n11111 is een palindroomgetal.\n11211 is een
+        palindroomgetal.\n11311 is een palindroomgetal.\n11411 is een palindroomgetal.\n\
+        11511 is een palindroomgetal.\n11611 is een palindroomgetal.\n11711 is een
+        palindroomgetal.\n11811 is een palindroomgetal.\n11911 is een palindroomgetal.\n\
+        12021 is een palindroomgetal.\n12121 is een palindroomgetal.\n12221 is een
+        palindroomgetal.\n12321 is een palindroomgetal.\n12421 is een palindroomgetal.\n\
+        12521 is een palindroomgetal.\n12621 is een palindroomgetal.\n12721 is een
+        palindroomgetal.\n12821 is een palindroomgetal.\n12921 is een palindroomgetal.\n\
+        13031 is een palindroomgetal.\n13131 is een palindroomgetal.\n13231 is een
+        palindroomgetal.\n13331 is een palindroomgetal.\n13431 is een palindroomgetal.\n\
+        13531 is een palindroomgetal.\n13631 is een palindroomgetal.\n13731 is een
+        palindroomgetal.\n13831 is een palindroomgetal.\n13931 is een palindroomgetal.\n\
+        14041 is een palindroomgetal.\n14141 is een palindroomgetal.\n14241 is een
+        palindroomgetal.\n14341 is een palindroomgetal.\n14441 is een palindroomgetal.\n\
+        14541 is een palindroomgetal.\n14641 is een palindroomgetal.\n14741 is een
+        palindroomgetal.\n14841 is een palindroomgetal.\n14941 is een palindroomgetal.\n\
+        15051 is een palindroomgetal.\n15151 is een palindroomgetal.\n15251 is een
+        palindroomgetal.\n15351 is een palindroomgetal.\n15451 is een palindroomgetal.\n\
+        15551 is een palindroomgetal.\n15651 is een palindroomgetal.\n15751 is een
+        palindroomgetal.\n15851 is een palindroomgetal.\n15951 is een palindroomgetal.\n\
+        16061 is een palindroomgetal.\n16161 is een palindroomgetal.\n16261 is een
+        palindroomgetal.\n16361 is een palindroomgetal.\n16461 is een palindroomgetal.\n\
+        16561 is een palindroomgetal.\n16661 is een palindroomgetal.\n16761 is een
+        palindroomgetal.\n16861 is een palindroomgetal.\n16961 is een palindroomgetal.\n\
+        17071 is een palindroomgetal.\n17171 is een palindroomgetal.\n17271 is een
+        palindroomgetal.\n17371 is een palindroomgetal.\n17471 is een palindroomgetal.\n\
+        17571 is een palindroomgetal.\n17671 is een palindroomgetal.\n17771 is een
+        palindroomgetal.\n17871 is een palindroomgetal.\n17971 is een palindroomgetal.\n\
+        18081 is een palindroomgetal.\n18181 is een palindroomgetal.\n18281 is een
+        palindroomgetal.\n18381 is een palindroomgetal.\n18481 is een palindroomgetal.\n\
+        18581 is een palindroomgetal.\n18681 is een palindroomgetal.\n18781 is een
+        palindroomgetal.\n18881 is een palindroomgetal.\n18981 is een palindroomgetal.\n\
+        19091 is een palindroomgetal.\n19191 is een palindroomgetal.\n19291 is een
+        palindroomgetal.\n19391 is een palindroomgetal.\n19491 is een palindroomgetal.\n\
+        19591 is een palindroomgetal.\n19691 is een palindroomgetal.\n19791 is een
+        palindroomgetal.\n19891 is een palindroomgetal.\n19991 is een palindroomgetal.\n\
+        20002 is een palindroomgetal.\n20102 is een palindroomgetal.\n20202 is een
+        palindroomgetal.\n20302 is een palindroomgetal.\n20402 is een palindroomgetal.\n\
+        20502 is een palindroomgetal.\n20602 is een palindroomgetal.\n20702 is een
+        palindroomgetal.\n20802 is een palindroomgetal.\n20902 is een palindroomgetal.\n\
+        21012 is een palindroomgetal.\n21112 is een palindroomgetal.\n21212 is een
+        palindroomgetal.\n21312 is een palindroomgetal.\n21412 is een palindroomgetal.\n\
+        21512 is een palindroomgetal.\n21612 is een palindroomgetal.\n21712 is een
+        palindroomgetal.\n21812 is een palindroomgetal.\n21912 is een palindroomgetal.\n\
+        22022 is een palindroomgetal.\n22122 is een palindroomgetal.\n22222 is een
+        palindroomgetal.\n22322 is een palindroomgetal.\n22422 is een palindroomgetal.\n\
+        22522 is een palindroomgetal.\n22622 is een palindroomgetal.\n22722 is een
+        palindroomgetal.\n22822 is een palindroomgetal.\n22922 is een palindroomgetal.\n\
+        23032 is een palindroomgetal.\n23132 is een palindroomgetal.\n23232 is een
+        palindroomgetal.\n23332 is een palindroomgetal.\n23432 is een palindroomgetal.\n\
+        23532 is een palindroomgetal.\n23632 is een palindroomgetal.\n23732 is een
+        palindroomgetal.\n23832 is een palindroomgetal.\n23932 is een palindroomgetal.\n\
+        24042 is een palindroomgetal.\n24142 is een palindroomgetal.\n24242 is een
+        palindroomgetal.\n24342 is een palindroomgetal.\n24442 is een palindroomgetal.\n\
+        24542 is een palindroomgetal.\n24642 is een palindroomgetal.\n24742 is een
+        palindroomgetal.\n24842 is een palindroomgetal.\n24942 is een palindroomgetal.\n\
+        25052 is een palindroomgetal.\n25152 is een palindroomgetal.\n25252 is een
+        palindroomgetal.\n25352 is een palindroomgetal.\n25452 is een palindroomgetal.\n\
+        25552 is een palindroomgetal.\n25652 is een palindroomgetal.\n25752 is een
+        palindroomgetal.\n25852 is een palindroomgetal.\n25952 is een palindroomgetal.\n\
+        26062 is een palindroomgetal.\n26162 is een palindroomgetal.\n26262 is een
+        palindroomgetal.\n26362 is een palindroomgetal.\n26462 is een palindroomgetal.\n\
+        26562 is een palindroomgetal.\n26662 is een palindroomgetal.\n26762 is een
+        palindroomgetal.\n26862 is een palindroomgetal.\n26962 is een palindroomgetal.\n\
+        27072 is een palindroomgetal.\n27172 is een palindroomgetal.\n27272 is een
+        palindroomgetal.\n27372 is een palindroomgetal.\n27472 is een palindroomgetal.\n\
+        27572 is een palindroomgetal.\n27672 is een palindroomgetal.\n27772 is een
+        palindroomgetal.\n27872 is een palindroomgetal.\n27972 is een palindroomgetal.\n\
+        28082 is een palindroomgetal.\n28182 is een palindroomgetal.\n28282 is een
+        palindroomgetal.\n28382 is een palindroomgetal.\n28482 is een palindroomgetal.\n\
+        28582 is een palindroomgetal.\n28682 is een palindroomgetal.\n28782 is een
+        palindroomgetal.\n28882 is een palindroomgetal.\n28982 is een palindroomgetal.\n\
+        29092 is een palindroomgetal.\n29192 is een palindroomgetal.\n29292 is een
+        palindroomgetal.\n29392 is een palindroomgetal.\n29492 is een palindroomgetal.\n\
+        29592 is een palindroomgetal.\n29692 is een palindroomgetal.\n29792 is een
+        palindroomgetal.\n29892 is een palindroomgetal.\n29992 is een palindroomgetal.\n\
+        30003 is een palindroomgetal.\n30103 is een palindroomgetal.\n30203 is een
+        palindroomgetal.\n30303 is een palindroomgetal.\n30403 is een palindroomgetal.\n\
+        30503 is een palindroomgetal.\n30603 is een palindroomgetal.\n30703 is een
+        palindroomgetal.\n30803 is een palindroomgetal.\n30903 is een palindroomgetal.\n\
+        31013 is een palindroomgetal.\n31113 is een palindroomgetal.\n31213 is een
+        palindroomgetal.\n31313 is een palindroomgetal.\n31413 is een palindroomgetal.\n\
+        31513 is een palindroomgetal.\n31613 is een palindroomgetal.\n31713 is een
+        palindroomgetal.\n31813 is een palindroomgetal.\n31913 is een palindroomgetal.\n\
+        32023 is een palindroomgetal.\n32123 is een palindroomgetal.\n32223 is een
+        palindroomgetal.\n32323 is een palindroomgetal.\n32423 is een palindroomgetal.\n\
+        32523 is een palindroomgetal.\n32623 is een palindroomgetal.\n32723 is een
+        palindroomgetal.\n32823 is een palindroomgetal.\n32923 is een palindroomgetal.\n\
+        33033 is een palindroomgetal.\n33133 is een palindroomgetal.\n33233 is een
+        palindroomgetal.\n33333 is een palindroomgetal.\n33433 is een palindroomgetal.\n\
+        33533 is een palindroomgetal.\n33633 is een palindroomgetal.\n33733 is een
+        palindroomgetal.\n33833 is een palindroomgetal.\n33933 is een palindroomgetal.\n\
+        34043 is een palindroomgetal.\n34143 is een palindroomgetal.\n34243 is een
+        palindroomgetal.\n34343 is een palindroomgetal.\n34443 is een palindroomgetal.\n\
+        34543 is een palindroomgetal.\n34643 is een palindroomgetal.\n34743 is een
+        palindroomgetal.\n34843 is een palindroomgetal.\n34943 is een palindroomgetal.\n\
+        35053 is een palindroomgetal.\n35153 is een palindroomgetal.\n35253 is een
+        palindroomgetal.\n35353 is een palindroomgetal.\n35453 is een palindroomgetal.\n\
+        35553 is een palindroomgetal.\n35653 is een palindroomgetal.\n35753 is een
+        palindroomgetal.\n35853 is een palindroomgetal.\n35953 is een palindroomgetal.\n\
+        36063 is een palindroomgetal.\n36163 is een palindroomgetal.\n36263 is een
+        palindroomgetal.\n36363 is een palindroomgetal.\n36463 is een palindroomgetal.\n\
+        36563 is een palindroomgetal.\n36663 is een palindroomgetal.\n36763 is een
+        palindroomgetal.\n36863 is een palindroomgetal.\n36963 is een palindroomgetal.\n\
+        37073 is een palindroomgetal.\n37173 is een palindroomgetal.\n37273 is een
+        palindroomgetal.\n37373 is een palindroomgetal.\n37473 is een palindroomgetal.\n\
+        37573 is een palindroomgetal.\n37673 is een palindroomgetal.\n37773 is een
+        palindroomgetal.\n37873 is een palindroomgetal.\n37973 is een palindroomgetal.\n\
+        38083 is een palindroomgetal.\n38183 is een palindroomgetal.\n38283 is een
+        palindroomgetal.\n38383 is een palindroomgetal.\n38483 is een palindroomgetal.\n\
+        38583 is een palindroomgetal.\n38683 is een palindroomgetal.\n38783 is een
+        palindroomgetal.\n38883 is een palindroomgetal.\n38983 is een palindroomgetal.\n\
+        39093 is een palindroomgetal.\n39193 is een palindroomgetal.\n39293 is een
+        palindroomgetal.\n39393 is een palindroomgetal.\n39493 is een palindroomgetal.\n\
+        39593 is een palindroomgetal.\n39693 is een palindroomgetal.\n39793 is een
+        palindroomgetal.\n39893 is een palindroomgetal.\n39993 is een palindroomgetal.\n\
+        40004 is een palindroomgetal.\n40104 is een palindroomgetal.\n40204 is een
+        palindroomgetal.\n40304 is een palindroomgetal.\n40404 is een palindroomgetal.\n\
+        40504 is een palindroomgetal.\n40604 is een palindroomgetal.\n40704 is een
+        palindroomgetal.\n40804 is een palindroomgetal.\n40904 is een palindroomgetal.\n\
+        41014 is een palindroomgetal.\n41114 is een palindroomgetal.\n41214 is een
+        palindroomgetal.\n41314 is een palindroomgetal.\n41414 is een palindroomgetal.\n\
+        41514 is een palindroomgetal.\n41614 is een palindroomgetal.\n41714 is een
+        palindroomgetal.\n41814 is een palindroomgetal.\n41914 is een palindroomgetal.\n\
+        42024 is een palindroomgetal.\n42124 is een palindroomgetal.\n42224 is een
+        palindroomgetal.\n42324 is een palindroomgetal.\n42424 is een palindroomgetal.\n\
+        42524 is een palindroomgetal.\n42624 is een palindroomgetal.\n42724 is een
+        palindroomgetal.\n42824 is een palindroomgetal.\n42924 is een palindroomgetal.\n\
+        43034 is een palindroomgetal.\n43134 is een palindroomgetal.\n43234 is een
+        palindroomgetal.\n43334 is een palindroomgetal.\n43434 is een palindroomgetal.\n\
+        43534 is een palindroomgetal.\n43634 is een palindroomgetal.\n43734 is een
+        palindroomgetal.\n43834 is een palindroomgetal.\n43934 is een palindroomgetal.\n\
+        44044 is een palindroomgetal.\n44144 is een palindroomgetal.\n44244 is een
+        palindroomgetal.\n44344 is een palindroomgetal.\n44444 is een palindroomgetal.\n\
+        44544 is een palindroomgetal.\n44644 is een palindroomgetal.\n44744 is een
+        palindroomgetal.\n44844 is een palindroomgetal.\n44944 is een palindroomgetal.\n\
+        45054 is een palindroomgetal.\n45154 is een palindroomgetal.\n45254 is een
+        palindroomgetal.\n45354 is een palindroomgetal.\n45454 is een palindroomgetal.\n\
+        45554 is een palindroomgetal.\n45654 is een palindroomgetal.\n45754 is een
+        palindroomgetal.\n45854 is een palindroomgetal.\n45954 is een palindroomgetal.\n\
+        46064 is een palindroomgetal.\n46164 is een palindroomgetal.\n46264 is een
+        palindroomgetal.\n46364 is een palindroomgetal.\n46464 is een palindroomgetal.\n\
+        46564 is een palindroomgetal.\n46664 is een palindroomgetal.\n46764 is een
+        palindroomgetal.\n46864 is een palindroomgetal.\n46964 is een palindroomgetal.\n\
+        47074 is een palindroomgetal.\n47174 is een palindroomgetal.\n47274 is een
+        palindroomgetal.\n47374 is een palindroomgetal.\n47474 is een palindroomgetal.\n\
+        47574 is een palindroomgetal.\n47674 is een palindroomgetal.\n47774 is een
+        palindroomgetal.\n47874 is een palindroomgetal.\n47974 is een palindroomgetal.\n\
+        48084 is een palindroomgetal.\n48184 is een palindroomgetal.\n48284 is een
+        palindroomgetal.\n48384 is een palindroomgetal.\n48484 is een palindroomgetal.\n\
+        48584 is een palindroomgetal.\n48684 is een palindroomgetal.\n48784 is een
+        palindroomgetal.\n48884 is een palindroomgetal.\n48984 is een palindroomgetal.\n\
+        49094 is een palindroomgetal.\n49194 is een palindroomgetal.\n49294 is een
+        palindroomgetal.\n49394 is een palindroomgetal.\n49494 is een palindroomgetal.\n\
+        49594 is een palindroomgetal.\n49694 is een palindroomgetal.\n49794 is een
+        palindroomgetal.\n49894 is een palindroomgetal.\n49994 is een palindroomgetal.\n\
+        50005 is een palindroomgetal.\n50105 is een palindroomgetal.\n50205 is een
+        palindroomgetal.\n50305 is een palindroomgetal.\n50405 is een palindroomgetal.\n\
+        50505 is een palindroomgetal.\n50605 is een palindroomgetal.\n50705 is een
+        palindroomgetal.\n50805 is een palindroomgetal.\n50905 is een palindroomgetal.\n\
+        51015 is een palindroomgetal.\n51115 is een palindroomgetal.\n51215 is een
+        palindroomgetal.\n51315 is een palindroomgetal.\n51415 is een palindroomgetal.\n\
+        51515 is een palindroomgetal.\n51615 is een palindroomgetal.\n51715 is een
+        palindroomgetal.\n51815 is een palindroomgetal.\n51915 is een palindroomgetal.\n\
+        52025 is een palindroomgetal.\n52125 is een palindroomgetal.\n52225 is een
+        palindroomgetal.\n52325 is een palindroomgetal.\n52425 is een palindroomgetal.\n\
+        52525 is een palindroomgetal.\n52625 is een palindroomgetal.\n52725 is een
+        palindroomgetal.\n52825 is een palindroomgetal.\n52925 is een palindroomgetal.\n\
+        53035 is een palindroomgetal.\n53135 is een palindroomgetal.\n53235 is een
+        palindroomgetal.\n53335 is een palindroomgetal.\n53435 is een palindroomgetal.\n\
+        53535 is een palindroomgetal.\n53635 is een palindroomgetal.\n53735 is een
+        palindroomgetal.\n53835 is een palindroomgetal.\n53935 is een palindroomgetal.\n\
+        54045 is een palindroomgetal.\n54145 is een palindroomgetal.\n54245 is een
+        palindroomgetal.\n54345 is een palindroomgetal.\n54445 is een palindroomgetal.\n\
+        54545 is een palindroomgetal.\n54645 is een palindroomgetal.\n54745 is een
+        palindroomgetal.\n54845 is een palindroomgetal.\n54945 is een palindroomgetal.\n\
+        55055 is een palindroomgetal.\n55155 is een palindroomgetal.\n55255 is een
+        palindroomgetal.\n55355 is een palindroomgetal.\n55455 is een palindroomgetal.\n\
+        55555 is een palindroomgetal.\n55655 is een palindroomgetal.\n55755 is een
+        palindroomgetal.\n55855 is een palindroomgetal.\n55955 is een palindroomgetal.\n\
+        56065 is een palindroomgetal.\n56165 is een palindroomgetal.\n56265 is een
+        palindroomgetal.\n56365 is een palindroomgetal.\n56465 is een palindroomgetal.\n\
+        56565 is een palindroomgetal.\n56665 is een palindroomgetal.\n56765 is een
+        palindroomgetal.\n56865 is een palindroomgetal.\n56965 is een palindroomgetal.\n\
+        57075 is een palindroomgetal.\n57175 is een palindroomgetal.\n57275 is een
+        palindroomgetal.\n57375 is een palindroomgetal.\n57475 is een palindroomgetal.\n\
+        57575 is een palindroomgetal.\n57675 is een palindroomgetal.\n57775 is een
+        palindroomgetal.\n57875 is een palindroomgetal.\n57975 is een palindroomgetal.\n\
+        58085 is een palindroomgetal.\n58185 is een palindroomgetal.\n58285 is een
+        palindroomgetal.\n58385 is een palindroomgetal.\n58485 is een palindroomgetal.\n\
+        58585 is een palindroomgetal.\n58685 is een palindroomgetal.\n58785 is een
+        palindroomgetal.\n58885 is een palindroomgetal.\n58985 is een palindroomgetal.\n\
+        59095 is een palindroomgetal.\n59195 is een palindroomgetal.\n59295 is een
+        palindroomgetal.\n59395 is een palindroomgetal.\n59495 is een palindroomgetal.\n\
+        59595 is een palindroomgetal.\n59695 is een palindroomgetal.\n59795 is een
+        palindroomgetal.\n59895 is een palindroomgetal.\n59995 is een palindroomgetal.\n\
+        60006 is een palindroomgetal.\n60106 is een palindroomgetal.\n60206 is een
+        palindroomgetal.\n60306 is een palindroomgetal.\n60406 is een palindroomgetal.\n\
+        60506 is een palindroomgetal.\n60606 is een palindroomgetal.\n60706 is een
+        palindroomgetal.\n60806 is een palindroomgetal.\n60906 is een palindroomgetal.\n\
+        61016 is een palindroomgetal.\n61116 is een palindroomgetal.\n61216 is een
+        palindroomgetal.\n61316 is een palindroomgetal.\n61416 is een palindroomgetal.\n\
+        61516 is een palindroomgetal.\n61616 is een palindroomgetal.\n61716 is een
+        palindroomgetal.\n61816 is een palindroomgetal.\n61916 is een palindroomgetal.\n\
+        62026 is een palindroomgetal.\n62126 is een palindroomgetal.\n62226 is een
+        palindroomgetal.\n62326 is een palindroomgetal.\n62426 is een palindroomgetal.\n\
+        62526 is een palindroomgetal.\n62626 is een palindroomgetal.\n62726 is een
+        palindroomgetal.\n62826 is een palindroomgetal.\n62926 is een palindroomgetal.\n\
+        63036 is een palindroomgetal.\n63136 is een palindroomgetal.\n63236 is een
+        palindroomgetal.\n63336 is een palindroomgetal.\n63436 is een palindroomgetal.\n\
+        63536 is een palindroomgetal.\n63636 is een palindroomgetal.\n63736 is een
+        palindroomgetal.\n63836 is een palindroomgetal.\n63936 is een palindroomgetal.\n\
+        64046 is een palindroomgetal.\n64146 is een palindroomgetal.\n64246 is een
+        palindroomgetal.\n64346 is een palindroomgetal.\n64446 is een palindroomgetal.\n\
+        64546 is een palindroomgetal.\n64646 is een palindroomgetal.\n64746 is een
+        palindroomgetal.\n64846 is een palindroomgetal.\n64946 is een palindroomgetal.\n\
+        65056 is een palindroomgetal.\n65156 is een palindroomgetal.\n65256 is een
+        palindroomgetal.\n65356 is een palindroomgetal.\n65456 is een palindroomgetal.\n\
+        65556 is een palindroomgetal.\n65656 is een palindroomgetal.\n65756 is een
+        palindroomgetal.\n65856 is een palindroomgetal.\n65956 is een palindroomgetal.\n\
+        66066 is een palindroomgetal.\n66166 is een palindroomgetal.\n66266 is een
+        palindroomgetal.\n66366 is een palindroomgetal.\n66466 is een palindroomgetal.\n\
+        66566 is een palindroomgetal.\n66666 is een palindroomgetal.\n66766 is een
+        palindroomgetal.\n66866 is een palindroomgetal.\n66966 is een palindroomgetal.\n\
+        67076 is een palindroomgetal.\n67176 is een palindroomgetal.\n67276 is een
+        palindroomgetal.\n67376 is een palindroomgetal.\n67476 is een palindroomgetal.\n\
+        67576 is een palindroomgetal.\n67676 is een palindroomgetal.\n67776 is een
+        palindroomgetal.\n67876 is een palindroomgetal.\n67976 is een palindroomgetal.\n\
+        68086 is een palindroomgetal.\n68186 is een palindroomgetal.\n68286 is een
+        palindroomgetal.\n68386 is een palindroomgetal.\n68486 is een palindroomgetal.\n\
+        68586 is een palindroomgetal.\n68686 is een palindroomgetal.\n68786 is een
+        palindroomgetal.\n68886 is een palindroomgetal.\n68986 is een palindroomgetal.\n\
+        69096 is een palindroomgetal.\n69196 is een palindroomgetal.\n69296 is een
+        palindroomgetal.\n69396 is een palindroomgetal.\n69496 is een palindroomgetal.\n\
+        69596 is een palindroomgetal.\n69696 is een palindroomgetal.\n69796 is een
+        palindroomgetal.\n69896 is een palindroomgetal.\n69996 is een palindroomgetal.\n\
+        70007 is een palindroomgetal.\n70107 is een palindroomgetal.\n70207 is een
+        palindroomgetal.\n70307 is een palindroomgetal.\n70407 is een palindroomgetal.\n\
+        70507 is een palindroomgetal.\n70607 is een palindroomgetal.\n70707 is een
+        palindroomgetal.\n70807 is een palindroomgetal.\n70907 is een palindroomgetal.\n\
+        71017 is een palindroomgetal.\n71117 is een palindroomgetal.\n71217 is een
+        palindroomgetal.\n71317 is een palindroomgetal.\n71417 is een palindroomgetal.\n\
+        71517 is een palindroomgetal.\n71617 is een palindroomgetal.\n71717 is een
+        palindroomgetal.\n71817 is een palindroomgetal.\n71917 is een palindroomgetal.\n\
+        72027 is een palindroomgetal.\n72127 is een palindroomgetal.\n72227 is een
+        palindroomgetal.\n72327 is een palindroomgetal.\n72427 is een palindroomgetal.\n\
+        72527 is een palindroomgetal.\n72627 is een palindroomgetal.\n72727 is een
+        palindroomgetal.\n72827 is een palindroomgetal.\n72927 is een palindroomgetal.\n\
+        73037 is een palindroomgetal.\n73137 is een palindroomgetal.\n73237 is een
+        palindroomgetal.\n73337 is een palindroomgetal.\n73437 is een palindroomgetal.\n\
+        73537 is een palindroomgetal.\n73637 is een palindroomgetal.\n73737 is een
+        palindroomgetal.\n73837 is een palindroomgetal.\n73937 is een palindroomgetal.\n\
+        74047 is een palindroomgetal.\n74147 is een palindroomgetal.\n74247 is een
+        palindroomgetal.\nEr waren 825 palindroomgetallen.\n"
+    - expression: is_palindroom(74247)
+      return: true
+    - expression: is_palindroom(74292)
+      return: false

@@ -11,7 +11,10 @@
     }
   },
   "labels": [
-    "functies"
+    "functies",
+    "voorwaardelijke herhaling",
+    "while-lus",
+    "modulo"
   ],
   "access": "public",
   "internals": {
