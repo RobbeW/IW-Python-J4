@@ -1,21 +1,20 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "access": "public",
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "description": {
     "names": {
-      "nl": "2.3 - Speciale Karakters (meervoud)",
-      "en": "2.3 - Special Characters (plural)"
+      "nl": "Monster van Loch Ness"
     }
   },
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "labels": [
-    "python",
-    "VBTL"
+    "functies",
+    "math"
   ],
-  "contact": "Robbe W <robbe.wulgaert@sintlievenscollege.be>",
+  "access": "public",
   "internals": {
     "token": "tehxGutF_d2UZt6psU3Pw2_KAN5VzECK24bU5pjeXY_jxHvT5Qugwp3e-AyxP-DM",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
