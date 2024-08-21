@@ -15,7 +15,7 @@ Help mevr. Wemel om de koning te vinden!
 
 ## Opgave
 
-Schrijf een functie `koning([nummers])` die gegeven een  lijst `nummers` op zoek gaat naar het **volgnummer** van de kabouter koning. Er zijn geen dubbele nummers terug te vinden en met uitzondering van de koning is elk nummer percies één meer dan het voorgaande nummer. Bestudeerd grondig onderstaande voorbeelden.
+Schrijf een functie `koning([nummers])` die gegeven een  lijst `nummers` op zoek gaat naar het **volgnummer** van de kabouter koning. Er zijn geen dubbele nummers terug te vinden en met uitzondering van de koning is elk nummer percies één meer dan het voorgaande nummer. Bestudeer grondig onderstaande voorbeelden.
 
 #### Voorbeelden
 
