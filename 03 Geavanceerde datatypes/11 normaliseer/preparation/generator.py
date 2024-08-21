@@ -1,10 +1,8 @@
 import os
-import sys
-import importlib
+import importlib.util
 import math
 import random
 import ruamel.yaml
-import subprocess
 
 yaml = ruamel.yaml.YAML()
 
@@ -42,7 +40,10 @@ while len(cases) < ntests:
     r = [ round(random.random(), 2) for _ in range(n)]
     s = sum(r)
     lijst = [ math.floor(i / s * n * multi) for i in r ]
-    cases.append( lijst )
+    if lijst not in cases:
+        cases.append( lijst )
+
+cases = sorted(cases, key = lambda x: len(x))
     
 
 # generate unit tests for functions
@@ -62,8 +63,8 @@ for i in range(len(cases)):
         
     # generate test expression
     #
-    expression_name = f"normaliseer( {test} )"
-    result = module.normaliseer( test )
+    expression_name = f"normaliseer({test})"
+    result = module.normaliseer(test)
 
     print(result)
     # setup for return expressions
