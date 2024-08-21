@@ -31,6 +31,11 @@ De eerste 4 uren leverden de zonnepanelen immers 1 + 2 + 3 + 4 = 10 wattuur, de 
 [1, 2, 3, 4, 5]
 ```
 
+{: .callout.callout-warning}
+> #### Opgelet
+>
+> Er werd een tijdslimiet ingesteld voor deze oefening. Het uitvoeren van je code mag maximaal 5s in beslag nemen.
+
 {: .callout.callout-secondary}
 >#### Bron
 > Dit is een oefening uit de Vlaamse programmeerwedstrijd 2024 - categorie 1.
