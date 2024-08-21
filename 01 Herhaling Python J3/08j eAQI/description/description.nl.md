@@ -7,7 +7,7 @@ Op basis van de metingen voor <a href="https://nl.wikipedia.org/wiki/Ozon_(stof)
 Indien men bijvoorbeeld 123 µg/m³ ozon en 65 µg/m³ stikstofdioxide meet, dan zijn de corresponderende cijfers 3 ("Medium") en 2 ("Good"). De Europese AQI waarde is dan 3 ("Medium").
 
 ## Opgave
-Programmeer een functie `eAQI(ozon, stikstofdioxide)` die op basis van de twee metingen de Europese AQI bepaalt. Test de functie daarna uit door aan de gebruiker de twee waarden (in volgorde) te vragen en de Europese AQI waarde op het scherm weer te geven.
+Maak een programma dat aan de gebruiker naar de ozon en stikstofdioxide metingen vraagt. Daarna wordt de Europese AQI waarde op het scherm weergegeven.
 
 Gebruik steeds open bovengrenzen. Met andere woorden, bij ozon waarden **kleiner dan 50** is de bijbehorende index 1.
 
@@ -16,8 +16,4 @@ Gebruik steeds open bovengrenzen. Met andere woorden, bij ozon waarden **kleiner
 Bij achtereenvolgende invoer van `123` en `65` verschijnt:
 ```
 Europese AQI: 3
-```
-```python
->>> eAQI(123, 65)
-3
 ```
