@@ -1,6 +1,6 @@
 ## Opgave
 
-Schrijf een functie `is_palindroom( getal )` dat gegeven een natuurlijk getal controleert of dit een palindroomgetal is.
+Schrijf een functie `is_palindroom(getal)` dat gegeven een natuurlijk getal controleert of dit een palindroomgetal is.
 
 Test deze functie uit door een getal te vragen en vervolgens weer te geven of het al dan niet een palindroomgetal is.
 
@@ -10,15 +10,27 @@ Bij invoer `1221` verschijnt er:
 ```
 Dit is een palindroomgetal.
 ```
+```python
+>>> is_palindroom(1221)
+True
+```
 
 Bij invoer `14541` verschijnt er:
 ```
 Dit is een palindroomgetal.
 ```
+```python
+>>> is_palindroom(14541)
+True
+```
 
 Bij invoer `13321` verschijnt er:
 ```
 Dit is geen palindroomgetal.
+```
+```python
+>>> is_palindroom(13321)
+False
 ```
 
 {: .callout.callout-info}

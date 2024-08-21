@@ -99,8 +99,8 @@ for i in range(len(cases)):
     
     # generate test expression
     #
-    expression_name = f"is_palindroom( {test[0]} )"
-    result = module.is_palindroom( test[0] )
+    expression_name = f"is_palindroom({test[0]})"
+    result = module.is_palindroom(test[0])
 
     print(result)
     # setup for return expressions

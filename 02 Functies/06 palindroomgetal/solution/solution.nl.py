@@ -11,7 +11,7 @@ def is_palindroom( getal ):
     return nieuw == oorspronkelijke
 
 # Invoer vragen
-a = int(input())
+a = int(input("Geef een getal in: "))
 
 # Uitvoer
 if is_palindroom(a):
