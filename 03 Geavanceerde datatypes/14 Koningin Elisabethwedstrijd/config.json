@@ -1,0 +1,25 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "description": {
+    "names": {
+      "nl": "Koningin Elisabethwedstrijd"
+    }
+  },
+  "labels": [
+    "lijsten",
+    "functies",
+    "begrensde herhaling",
+    "for-lus",
+    "selectie"
+  ],
+  "access": "public",
+  "internals": {
+    "token": "NifunYFXmfgJzN7mnT97YB3gKgXmAnfRAkc9AKBvIXtBsbiwAutVjG9AEHEIHCj5",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
