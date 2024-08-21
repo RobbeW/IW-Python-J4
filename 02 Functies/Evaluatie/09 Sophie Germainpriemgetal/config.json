@@ -2,15 +2,19 @@
   "type": "exercise",
   "programming_language": "python",
   "evaluation": {
-    "pythia_judge": "output"
+    "handler": "tested",
+    "test_suite": "tests.yaml"
   },
   "description": {
     "names": {
-      "nl": "Patroon V"
+      "nl": "Sophie Germainpriemgetal"
     }
   },
   "labels": [
-
+    "evaluatie",
+    "functies",
+    "begrensde herhaling",
+    "for-lus"
   ],
   "access": "public",
   "internals": {

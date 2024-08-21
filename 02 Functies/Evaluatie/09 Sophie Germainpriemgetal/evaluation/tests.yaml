@@ -1,0 +1,212 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '4'
+      stdout: "Dit is geen Sophie Germainpriemgetal\n"
+    - expression: is_priem(4)
+      return: false
+    - expression: is_germainpriem(4)
+      return: false
+  - testcases:
+    - stdin: '5'
+      stdout: "Dit is een Sophie Germainpriemgetal, het veilige priemgetal is 11\n"
+    - expression: is_priem(5)
+      return: true
+    - expression: is_germainpriem(5)
+      return: true
+  - testcases:
+    - stdin: '6'
+      stdout: "Dit is geen Sophie Germainpriemgetal\n"
+    - expression: is_priem(6)
+      return: false
+    - expression: is_germainpriem(6)
+      return: false
+  - testcases:
+    - stdin: '7'
+      stdout: "Dit is geen Sophie Germainpriemgetal\n"
+    - expression: is_priem(7)
+      return: true
+    - expression: is_germainpriem(7)
+      return: false
+  - testcases:
+    - stdin: '11'
+      stdout: "Dit is een Sophie Germainpriemgetal, het veilige priemgetal is 23\n"
+    - expression: is_priem(11)
+      return: true
+    - expression: is_germainpriem(11)
+      return: true
+  - testcases:
+    - stdin: '37'
+      stdout: "Dit is geen Sophie Germainpriemgetal\n"
+    - expression: is_priem(37)
+      return: true
+    - expression: is_germainpriem(37)
+      return: false
+  - testcases:
+    - stdin: '47'
+      stdout: "Dit is geen Sophie Germainpriemgetal\n"
+    - expression: is_priem(47)
+      return: true
+    - expression: is_germainpriem(47)
+      return: false
+  - testcases:
+    - stdin: '71'
+      stdout: "Dit is geen Sophie Germainpriemgetal\n"
+    - expression: is_priem(71)
+      return: true
+    - expression: is_germainpriem(71)
+      return: false
+  - testcases:
+    - stdin: '73'
+      stdout: "Dit is geen Sophie Germainpriemgetal\n"
+    - expression: is_priem(73)
+      return: true
+    - expression: is_germainpriem(73)
+      return: false
+  - testcases:
+    - stdin: '113'
+      stdout: "Dit is een Sophie Germainpriemgetal, het veilige priemgetal is 227\n"
+    - expression: is_priem(113)
+      return: true
+    - expression: is_germainpriem(113)
+      return: true
+  - testcases:
+    - stdin: '191'
+      stdout: "Dit is een Sophie Germainpriemgetal, het veilige priemgetal is 383\n"
+    - expression: is_priem(191)
+      return: true
+    - expression: is_germainpriem(191)
+      return: true
+  - testcases:
+    - stdin: '743'
+      stdout: "Dit is een Sophie Germainpriemgetal, het veilige priemgetal is 1487\n"
+    - expression: is_priem(743)
+      return: true
+    - expression: is_germainpriem(743)
+      return: true
+  - testcases:
+    - stdin: '838'
+      stdout: "Dit is geen Sophie Germainpriemgetal\n"
+    - expression: is_priem(838)
+      return: false
+    - expression: is_germainpriem(838)
+      return: false
+  - testcases:
+    - stdin: '1670'
+      stdout: "Dit is geen Sophie Germainpriemgetal\n"
+    - expression: is_priem(1670)
+      return: false
+    - expression: is_germainpriem(1670)
+      return: false
+  - testcases:
+    - stdin: '4764'
+      stdout: "Dit is geen Sophie Germainpriemgetal\n"
+    - expression: is_priem(4764)
+      return: false
+    - expression: is_germainpriem(4764)
+      return: false
+  - testcases:
+    - stdin: '4875'
+      stdout: "Dit is geen Sophie Germainpriemgetal\n"
+    - expression: is_priem(4875)
+      return: false
+    - expression: is_germainpriem(4875)
+      return: false
+  - testcases:
+    - stdin: '5167'
+      stdout: "Dit is geen Sophie Germainpriemgetal\n"
+    - expression: is_priem(5167)
+      return: true
+    - expression: is_germainpriem(5167)
+      return: false
+  - testcases:
+    - stdin: '5502'
+      stdout: "Dit is geen Sophie Germainpriemgetal\n"
+    - expression: is_priem(5502)
+      return: false
+    - expression: is_germainpriem(5502)
+      return: false
+  - testcases:
+    - stdin: '8969'
+      stdout: "Dit is een Sophie Germainpriemgetal, het veilige priemgetal is 17939\n"
+    - expression: is_priem(8969)
+      return: true
+    - expression: is_germainpriem(8969)
+      return: true
+  - testcases:
+    - stdin: '26737'
+      stdout: "Dit is geen Sophie Germainpriemgetal\n"
+    - expression: is_priem(26737)
+      return: true
+    - expression: is_germainpriem(26737)
+      return: false
+  - testcases:
+    - stdin: '39089'
+      stdout: "Dit is een Sophie Germainpriemgetal, het veilige priemgetal is 78179\n"
+    - expression: is_priem(39089)
+      return: true
+    - expression: is_germainpriem(39089)
+      return: true
+  - testcases:
+    - stdin: '39983'
+      stdout: "Dit is een Sophie Germainpriemgetal, het veilige priemgetal is 79967\n"
+    - expression: is_priem(39983)
+      return: true
+    - expression: is_germainpriem(39983)
+      return: true
+  - testcases:
+    - stdin: '44712'
+      stdout: "Dit is geen Sophie Germainpriemgetal\n"
+    - expression: is_priem(44712)
+      return: false
+    - expression: is_germainpriem(44712)
+      return: false
+  - testcases:
+    - stdin: '77542'
+      stdout: "Dit is geen Sophie Germainpriemgetal\n"
+    - expression: is_priem(77542)
+      return: false
+    - expression: is_germainpriem(77542)
+      return: false
+  - testcases:
+    - stdin: '86453'
+      stdout: "Dit is geen Sophie Germainpriemgetal\n"
+    - expression: is_priem(86453)
+      return: true
+    - expression: is_germainpriem(86453)
+      return: false
+  - testcases:
+    - stdin: '161977'
+      stdout: "Dit is geen Sophie Germainpriemgetal\n"
+    - expression: is_priem(161977)
+      return: true
+    - expression: is_germainpriem(161977)
+      return: false
+  - testcases:
+    - stdin: '204456'
+      stdout: "Dit is geen Sophie Germainpriemgetal\n"
+    - expression: is_priem(204456)
+      return: false
+    - expression: is_germainpriem(204456)
+      return: false
+  - testcases:
+    - stdin: '325673'
+      stdout: "Dit is een Sophie Germainpriemgetal, het veilige priemgetal is 651347\n"
+    - expression: is_priem(325673)
+      return: true
+    - expression: is_germainpriem(325673)
+      return: true
+  - testcases:
+    - stdin: '422827'
+      stdout: "Dit is geen Sophie Germainpriemgetal\n"
+    - expression: is_priem(422827)
+      return: true
+    - expression: is_germainpriem(422827)
+      return: false
+  - testcases:
+    - stdin: '633653'
+      stdout: "Dit is een Sophie Germainpriemgetal, het veilige priemgetal is 1267307\n"
+    - expression: is_priem(633653)
+      return: true
+    - expression: is_germainpriem(633653)
+      return: true
