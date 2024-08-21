@@ -1,9 +1,7 @@
 import os
-import sys
-import importlib
+import importlib.util
 import random
 import ruamel.yaml
-import subprocess
 
 yaml = ruamel.yaml.YAML()
 
@@ -34,16 +32,16 @@ spec.loader.exec_module(module)
 
 # generate test data
 ntests= 20
-cases = [([1,3], [2,-5])]
+cases = [([1,3], [2,-5]), ([-2, 0, 5], [-2, 9, 3])]
 while len(cases) < ntests:
-    n = random.randint(3,50)
-    lijst1 = list( random.randint(-30,30) for _ in range(n) )
-    lijst2 = list( random.randint(-30,30) for _ in range(n) )
-    cases.append( (lijst1, lijst2))
+    e = random.randint(0,2)
+    n = random.randint(10**e,10**(e+1))
+    lijst1 = list( random.randint(-100,100) for _ in range(n) )
+    lijst2 = list( random.randint(-100,100) for _ in range(n) )
+    if (lijst1, lijst2) not in cases:
+        cases.append( (lijst1, lijst2))
 
-lijst1 = list( random.randint(-100,100) for _ in range(5000) )
-lijst2 = list( random.randint(-100,100) for _ in range(5000) )
-cases.append( (lijst1, lijst2))
+cases = sorted(cases, key = lambda x: len(x[0]))
     
 # generate unit tests for functions
 yamldata = []
@@ -62,8 +60,8 @@ for i in range(len(cases)):
         
     # generate test expression
     #
-    expression_name = f"lijstproduct( {test[0]}, {test[1]} )"
-    result = module.lijstproduct( test[0], test[1] )
+    expression_name = f"lijstproduct({test[0]}, {test[1]})"
+    result = module.lijstproduct(test[0], test[1])
 
     print(result)
     # setup for return expressions
