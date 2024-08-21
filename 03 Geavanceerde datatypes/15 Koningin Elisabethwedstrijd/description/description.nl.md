@@ -21,7 +21,7 @@ Programmeer een functie `elisabeth_wedstrijd(punten)` dat gegeven een lijst met 
 
 ```python
 >>> elisabeth_wedstrijd([40, 30])
-34
+34.0
 ```
 
 
