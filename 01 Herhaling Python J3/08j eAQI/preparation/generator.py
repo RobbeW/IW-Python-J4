@@ -79,14 +79,5 @@ for i in range(len(cases)):
     testcase = { input: stdin, output: outputtxt }            
     yamldata[0]['contexts'][i]["testcases"].append( testcase)
     
-    # generate test expression
-    #
-    expression_name = f"eAQI({test[0]}, {test[1]})"
-    result = module.eAQI(test[0], test[1])
-
-    print(result)
-    # setup for return expressions
-    testcase = { "expression": expression_name, "return": result }
-    yamldata[0]['contexts'][i]["testcases"].append( testcase)
 
 write_yaml(yamldata)
