@@ -13,12 +13,12 @@ def is_priem(getal):
 
 Deze functie controleert of een getal al dan niet priem is. Er geldt:
 
-```
+```python
 >>> is_priem(11)
 True
 ```
 
-```
+```python
 >>> is_priem(12)
 False
 ```

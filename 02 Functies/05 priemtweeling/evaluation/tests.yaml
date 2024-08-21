@@ -1,47 +1,88 @@
 - tab: Feedback
-  testcases:
-  - stdin: '20'
-    stdout: "3 en 5 zijn priemtweelingen.\n5 en 7 zijn priemtweelingen.\n11 en 13\
-      \ zijn priemtweelingen.\n17 en 19 zijn priemtweelingen."
-  - stdin: '60'
-    stdout: "3 en 5 zijn priemtweelingen.\n5 en 7 zijn priemtweelingen.\n11 en 13\
-      \ zijn priemtweelingen.\n17 en 19 zijn priemtweelingen.\n29 en 31 zijn priemtweelingen.\n\
-      41 en 43 zijn priemtweelingen."
-  - stdin: '100'
-    stdout: "3 en 5 zijn priemtweelingen.\n5 en 7 zijn priemtweelingen.\n11 en 13\
-      \ zijn priemtweelingen.\n17 en 19 zijn priemtweelingen.\n29 en 31 zijn priemtweelingen.\n\
-      41 en 43 zijn priemtweelingen.\n59 en 61 zijn priemtweelingen.\n71 en 73 zijn\
-      \ priemtweelingen."
-  - stdin: '200'
-    stdout: "3 en 5 zijn priemtweelingen.\n5 en 7 zijn priemtweelingen.\n11 en 13\
-      \ zijn priemtweelingen.\n17 en 19 zijn priemtweelingen.\n29 en 31 zijn priemtweelingen.\n\
-      41 en 43 zijn priemtweelingen.\n59 en 61 zijn priemtweelingen.\n71 en 73 zijn\
-      \ priemtweelingen.\n101 en 103 zijn priemtweelingen.\n107 en 109 zijn priemtweelingen.\n\
-      137 en 139 zijn priemtweelingen.\n149 en 151 zijn priemtweelingen.\n179 en 181\
-      \ zijn priemtweelingen.\n191 en 193 zijn priemtweelingen.\n197 en 199 zijn priemtweelingen."
-  - stdin: '500'
-    stdout: "3 en 5 zijn priemtweelingen.\n5 en 7 zijn priemtweelingen.\n11 en 13\
-      \ zijn priemtweelingen.\n17 en 19 zijn priemtweelingen.\n29 en 31 zijn priemtweelingen.\n\
-      41 en 43 zijn priemtweelingen.\n59 en 61 zijn priemtweelingen.\n71 en 73 zijn\
-      \ priemtweelingen.\n101 en 103 zijn priemtweelingen.\n107 en 109 zijn priemtweelingen.\n\
-      137 en 139 zijn priemtweelingen.\n149 en 151 zijn priemtweelingen.\n179 en 181\
-      \ zijn priemtweelingen.\n191 en 193 zijn priemtweelingen.\n197 en 199 zijn priemtweelingen.\n\
-      227 en 229 zijn priemtweelingen.\n239 en 241 zijn priemtweelingen.\n269 en 271\
-      \ zijn priemtweelingen.\n281 en 283 zijn priemtweelingen.\n311 en 313 zijn priemtweelingen.\n\
-      347 en 349 zijn priemtweelingen.\n419 en 421 zijn priemtweelingen.\n431 en 433\
-      \ zijn priemtweelingen.\n461 en 463 zijn priemtweelingen."
-  - stdin: '1000'
-    stdout: "3 en 5 zijn priemtweelingen.\n5 en 7 zijn priemtweelingen.\n11 en 13\
-      \ zijn priemtweelingen.\n17 en 19 zijn priemtweelingen.\n29 en 31 zijn priemtweelingen.\n\
-      41 en 43 zijn priemtweelingen.\n59 en 61 zijn priemtweelingen.\n71 en 73 zijn\
-      \ priemtweelingen.\n101 en 103 zijn priemtweelingen.\n107 en 109 zijn priemtweelingen.\n\
-      137 en 139 zijn priemtweelingen.\n149 en 151 zijn priemtweelingen.\n179 en 181\
-      \ zijn priemtweelingen.\n191 en 193 zijn priemtweelingen.\n197 en 199 zijn priemtweelingen.\n\
-      227 en 229 zijn priemtweelingen.\n239 en 241 zijn priemtweelingen.\n269 en 271\
-      \ zijn priemtweelingen.\n281 en 283 zijn priemtweelingen.\n311 en 313 zijn priemtweelingen.\n\
-      347 en 349 zijn priemtweelingen.\n419 en 421 zijn priemtweelingen.\n431 en 433\
-      \ zijn priemtweelingen.\n461 en 463 zijn priemtweelingen.\n521 en 523 zijn priemtweelingen.\n\
-      569 en 571 zijn priemtweelingen.\n599 en 601 zijn priemtweelingen.\n617 en 619\
-      \ zijn priemtweelingen.\n641 en 643 zijn priemtweelingen.\n659 en 661 zijn priemtweelingen.\n\
-      809 en 811 zijn priemtweelingen.\n821 en 823 zijn priemtweelingen.\n827 en 829\
-      \ zijn priemtweelingen.\n857 en 859 zijn priemtweelingen.\n881 en 883 zijn priemtweelingen."
+  contexts:
+  - testcases:
+    - stdin: '20'
+      stdout: 3 en 5 zijn priemtweelingen.5 en 7 zijn priemtweelingen.11 en 13 zijn
+        priemtweelingen.17 en 19 zijn priemtweelingen.
+    - expression: is_priem(19)
+      return: true
+    - expression: is_priem(18)
+      return: false
+    - expression: is_priem(17)
+      return: true
+  - testcases:
+    - stdin: '60'
+      stdout: 3 en 5 zijn priemtweelingen.5 en 7 zijn priemtweelingen.11 en 13 zijn
+        priemtweelingen.17 en 19 zijn priemtweelingen.29 en 31 zijn priemtweelingen.41
+        en 43 zijn priemtweelingen.
+    - expression: is_priem(43)
+      return: true
+    - expression: is_priem(42)
+      return: false
+    - expression: is_priem(41)
+      return: true
+  - testcases:
+    - stdin: '100'
+      stdout: 3 en 5 zijn priemtweelingen.5 en 7 zijn priemtweelingen.11 en 13 zijn
+        priemtweelingen.17 en 19 zijn priemtweelingen.29 en 31 zijn priemtweelingen.41
+        en 43 zijn priemtweelingen.59 en 61 zijn priemtweelingen.71 en 73 zijn priemtweelingen.
+    - expression: is_priem(73)
+      return: true
+    - expression: is_priem(72)
+      return: false
+    - expression: is_priem(71)
+      return: true
+  - testcases:
+    - stdin: '200'
+      stdout: 3 en 5 zijn priemtweelingen.5 en 7 zijn priemtweelingen.11 en 13 zijn
+        priemtweelingen.17 en 19 zijn priemtweelingen.29 en 31 zijn priemtweelingen.41
+        en 43 zijn priemtweelingen.59 en 61 zijn priemtweelingen.71 en 73 zijn priemtweelingen.101
+        en 103 zijn priemtweelingen.107 en 109 zijn priemtweelingen.137 en 139 zijn
+        priemtweelingen.149 en 151 zijn priemtweelingen.179 en 181 zijn priemtweelingen.191
+        en 193 zijn priemtweelingen.197 en 199 zijn priemtweelingen.
+    - expression: is_priem(199)
+      return: true
+    - expression: is_priem(198)
+      return: false
+    - expression: is_priem(197)
+      return: true
+  - testcases:
+    - stdin: '500'
+      stdout: 3 en 5 zijn priemtweelingen.5 en 7 zijn priemtweelingen.11 en 13 zijn
+        priemtweelingen.17 en 19 zijn priemtweelingen.29 en 31 zijn priemtweelingen.41
+        en 43 zijn priemtweelingen.59 en 61 zijn priemtweelingen.71 en 73 zijn priemtweelingen.101
+        en 103 zijn priemtweelingen.107 en 109 zijn priemtweelingen.137 en 139 zijn
+        priemtweelingen.149 en 151 zijn priemtweelingen.179 en 181 zijn priemtweelingen.191
+        en 193 zijn priemtweelingen.197 en 199 zijn priemtweelingen.227 en 229 zijn
+        priemtweelingen.239 en 241 zijn priemtweelingen.269 en 271 zijn priemtweelingen.281
+        en 283 zijn priemtweelingen.311 en 313 zijn priemtweelingen.347 en 349 zijn
+        priemtweelingen.419 en 421 zijn priemtweelingen.431 en 433 zijn priemtweelingen.461
+        en 463 zijn priemtweelingen.
+    - expression: is_priem(463)
+      return: true
+    - expression: is_priem(462)
+      return: false
+    - expression: is_priem(461)
+      return: true
+  - testcases:
+    - stdin: '1000'
+      stdout: 3 en 5 zijn priemtweelingen.5 en 7 zijn priemtweelingen.11 en 13 zijn
+        priemtweelingen.17 en 19 zijn priemtweelingen.29 en 31 zijn priemtweelingen.41
+        en 43 zijn priemtweelingen.59 en 61 zijn priemtweelingen.71 en 73 zijn priemtweelingen.101
+        en 103 zijn priemtweelingen.107 en 109 zijn priemtweelingen.137 en 139 zijn
+        priemtweelingen.149 en 151 zijn priemtweelingen.179 en 181 zijn priemtweelingen.191
+        en 193 zijn priemtweelingen.197 en 199 zijn priemtweelingen.227 en 229 zijn
+        priemtweelingen.239 en 241 zijn priemtweelingen.269 en 271 zijn priemtweelingen.281
+        en 283 zijn priemtweelingen.311 en 313 zijn priemtweelingen.347 en 349 zijn
+        priemtweelingen.419 en 421 zijn priemtweelingen.431 en 433 zijn priemtweelingen.461
+        en 463 zijn priemtweelingen.521 en 523 zijn priemtweelingen.569 en 571 zijn
+        priemtweelingen.599 en 601 zijn priemtweelingen.617 en 619 zijn priemtweelingen.641
+        en 643 zijn priemtweelingen.659 en 661 zijn priemtweelingen.809 en 811 zijn
+        priemtweelingen.821 en 823 zijn priemtweelingen.827 en 829 zijn priemtweelingen.857
+        en 859 zijn priemtweelingen.881 en 883 zijn priemtweelingen.
+    - expression: is_priem(883)
+      return: true
+    - expression: is_priem(882)
+      return: false
+    - expression: is_priem(881)
+      return: true

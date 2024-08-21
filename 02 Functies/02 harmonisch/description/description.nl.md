@@ -8,7 +8,7 @@ $$
 
 Schrijf een functie `harmonisch_gemiddelde(a, b)` die het harmonisch gemiddelde berekent, rond hierbij af op 2 cijfers.
 
-Vraag aan de gebruiker **vervolgens** twee getallen `a` en `b` en laat de functie `harmonisch_gemiddelde` het harmonisch gemiddelde ervan berekenen. Druk dit harmonisch gemiddelde vervolgens af op het scherm.
+Vraag aan de gebruiker **vervolgens** twee getallen `a` en `b` en laat de functie `harmonisch_gemiddelde()` het harmonisch gemiddelde ervan berekenen. Druk dit harmonisch gemiddelde vervolgens af op het scherm.
 
 #### Voorbeelden
 Indien de gebruiker `100` en `120` intikt, dan verschijnt er:
