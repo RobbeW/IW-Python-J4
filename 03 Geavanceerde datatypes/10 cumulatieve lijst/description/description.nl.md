@@ -16,3 +16,8 @@ Want er geldt *bijvoorbeeld* dat 13 = 1 + 5 + 7.
 >>> somlijst([1, 5, 6, -2, 0, 5, 9])
 [1, 6, 12, 10, 10, 15, 24]
 ```
+
+{: .callout.callout-warning}
+> #### Opgelet
+>
+> Er werd een tijdslimiet ingesteld voor deze oefening. Het uitvoeren van je code mag maximaal 5s in beslag nemen.
