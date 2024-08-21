@@ -36,153 +36,187 @@
   - testcases:
     - expression: drieklank((0, 0, 1))
       return:
-      - - 1
+      - !tuple
+        - 1
         - 0
         - 0
-      - - 0
+      - !tuple
+        - 0
         - 1
         - 0
   - testcases:
     - expression: drieklank((51, 117, 129))
       return:
-      - - 129
+      - !tuple
+        - 129
         - 51
         - 117
-      - - 117
+      - !tuple
+        - 117
         - 129
         - 51
   - testcases:
     - expression: drieklank((39, 171, 62))
       return:
-      - - 62
+      - !tuple
+        - 62
         - 39
         - 171
-      - - 171
+      - !tuple
+        - 171
         - 62
         - 39
   - testcases:
     - expression: drieklank((76, 179, 12))
       return:
-      - - 12
+      - !tuple
+        - 12
         - 76
         - 179
-      - - 179
+      - !tuple
+        - 179
         - 12
         - 76
   - testcases:
     - expression: drieklank((253, 20, 188))
       return:
-      - - 188
+      - !tuple
+        - 188
         - 253
         - 20
-      - - 20
+      - !tuple
+        - 20
         - 188
         - 253
   - testcases:
     - expression: drieklank((115, 247, 22))
       return:
-      - - 22
+      - !tuple
+        - 22
         - 115
         - 247
-      - - 247
+      - !tuple
+        - 247
         - 22
         - 115
   - testcases:
     - expression: drieklank((234, 113, 65))
       return:
-      - - 65
+      - !tuple
+        - 65
         - 234
         - 113
-      - - 113
+      - !tuple
+        - 113
         - 65
         - 234
   - testcases:
     - expression: drieklank((130, 35, 190))
       return:
-      - - 190
+      - !tuple
+        - 190
         - 130
         - 35
-      - - 35
+      - !tuple
+        - 35
         - 190
         - 130
   - testcases:
     - expression: drieklank((18, 219, 140))
       return:
-      - - 140
+      - !tuple
+        - 140
         - 18
         - 219
-      - - 219
+      - !tuple
+        - 219
         - 140
         - 18
   - testcases:
     - expression: drieklank((157, 195, 94))
       return:
-      - - 94
+      - !tuple
+        - 94
         - 157
         - 195
-      - - 195
+      - !tuple
+        - 195
         - 94
         - 157
   - testcases:
     - expression: drieklank((28, 64, 124))
       return:
-      - - 124
+      - !tuple
+        - 124
         - 28
         - 64
-      - - 64
+      - !tuple
+        - 64
         - 124
         - 28
   - testcases:
     - expression: drieklank((111, 206, 250))
       return:
-      - - 250
+      - !tuple
+        - 250
         - 111
         - 206
-      - - 206
+      - !tuple
+        - 206
         - 250
         - 111
   - testcases:
     - expression: drieklank((89, 233, 30))
       return:
-      - - 30
+      - !tuple
+        - 30
         - 89
         - 233
-      - - 233
+      - !tuple
+        - 233
         - 30
         - 89
   - testcases:
     - expression: drieklank((190, 113, 75))
       return:
-      - - 75
+      - !tuple
+        - 75
         - 190
         - 113
-      - - 113
+      - !tuple
+        - 113
         - 75
         - 190
   - testcases:
     - expression: drieklank((53, 225, 73))
       return:
-      - - 73
+      - !tuple
+        - 73
         - 53
         - 225
-      - - 225
+      - !tuple
+        - 225
         - 73
         - 53
   - testcases:
     - expression: drieklank((206, 121, 106))
       return:
-      - - 106
+      - !tuple
+        - 106
         - 206
         - 121
-      - - 121
+      - !tuple
+        - 121
         - 106
         - 206
   - testcases:
     - expression: drieklank((143, 110, 33))
       return:
-      - - 33
+      - !tuple
+        - 33
         - 143
         - 110
-      - - 110
+      - !tuple
+        - 110
         - 33
         - 143
