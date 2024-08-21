@@ -1,7 +1,27 @@
 - tab: Feedback
   contexts:
   - testcases:
-    - expression: verwissel( ['Cédric', 'Luiz', 'Ward', 'Briek', 'Miel'] )
+    - expression: verwissel(['Daan'])
+      return:
+      - Daan
+  - testcases:
+    - expression: verwissel(['Bolder'])
+      return:
+      - Bolder
+  - testcases:
+    - expression: verwissel(['Babette', 'Nikolay'])
+      return:
+      - Nikolay
+      - Babette
+  - testcases:
+    - expression: verwissel(['Lisa', 'Mano', 'Miel', 'Marcel'])
+      return:
+      - Marcel
+      - Mano
+      - Miel
+      - Lisa
+  - testcases:
+    - expression: verwissel(['Cédric', 'Luiz', 'Ward', 'Briek', 'Miel'])
       return:
       - Miel
       - Luiz
@@ -9,634 +29,656 @@
       - Briek
       - Cédric
   - testcases:
-    - expression: verwissel( ['Babette', 'Nikolay'] )
+    - expression: verwissel(['Lous', 'Menno', 'Kristina', 'Ishita', 'Tiemen', 'Cédric',
+        'Marthe', 'Bastiaan', 'Jonas', 'Lisa'])
       return:
-      - Nikolay
-      - Babette
-  - testcases:
-    - expression: verwissel( ['Daan'] )
-      return:
-      - Daan
-  - testcases:
-    - expression: verwissel( ['Anna', 'Cristina', 'Lisa', 'Alice', 'Hasse', 'Marthe',
-        'Menno', 'Arnaud', 'Eben', 'Agon', 'Luiz', 'Jules', 'Alexander'] )
-      return:
-      - Alexander
-      - Cristina
       - Lisa
-      - Alice
-      - Hasse
-      - Marthe
       - Menno
-      - Arnaud
-      - Eben
-      - Agon
-      - Luiz
-      - Jules
-      - Anna
-  - testcases:
-    - expression: verwissel( ['Ides', 'Cristina', 'Simon', 'Ruben', 'Simon', 'Daan',
-        'Lasse', 'Tiemen', 'Ana', 'Mano', 'Sieben', 'Marcel', 'Ides', 'Ishita', 'Kristina',
-        'Simon', 'Bolder', 'Arne', 'Hasse', 'Camu', 'Lasse', 'Kristina', 'Alice',
-        'Eben', 'Xander', 'Jelena', 'Lieze', 'Ana', 'Kristina', 'Calin', 'Arthur',
-        'Manu', 'Babette', 'Mien', 'Anna', 'Xander', 'Marcel', 'Bastiaan', 'Bastiaan',
-        'Maarte', 'Sieben', 'Lieze', 'Tiemen', 'Simon', 'Hanne', 'Alice', 'Veronika',
-        'Mien'] )
-      return:
-      - Mien
-      - Cristina
-      - Simon
-      - Ruben
-      - Simon
-      - Daan
-      - Lasse
-      - Tiemen
-      - Ana
-      - Mano
-      - Sieben
-      - Marcel
-      - Ides
+      - Kristina
       - Ishita
-      - Kristina
-      - Simon
-      - Bolder
-      - Arne
-      - Hasse
-      - Camu
-      - Lasse
-      - Kristina
-      - Alice
-      - Eben
-      - Xander
-      - Jelena
-      - Lieze
-      - Ana
-      - Kristina
-      - Calin
-      - Arthur
-      - Manu
-      - Babette
-      - Mien
-      - Anna
-      - Xander
-      - Marcel
-      - Bastiaan
-      - Bastiaan
-      - Maarte
-      - Sieben
-      - Lieze
       - Tiemen
-      - Simon
-      - Hanne
-      - Alice
-      - Veronika
-      - Ides
-  - testcases:
-    - expression: verwissel( ['Bastiaan', 'Lisa', 'Lous', 'Melanie', 'Briek', 'Julien',
-        'Julien', 'Bastiaan', 'Cédric', 'Melanie', 'Bolder', 'Jules', 'Ides', 'Michiel']
-        )
-      return:
-      - Michiel
-      - Lisa
-      - Lous
-      - Melanie
-      - Briek
-      - Julien
-      - Julien
-      - Bastiaan
       - Cédric
-      - Melanie
-      - Bolder
-      - Jules
-      - Ides
-      - Bastiaan
-  - testcases:
-    - expression: verwissel( ['Arend', 'Alice', 'Cristina', 'Lieze', 'Arend', 'Marthe',
-        'Nikolay', 'Arend', 'Julien', 'Ana', 'Arend', 'Lisa', 'Agon', 'Ruben', 'Lisa',
-        'Manu', 'Tiemen', 'Ruben', 'Lous', 'Kristina', 'Calin', 'Camu', 'Alice', 'Melanie',
-        'Faris', 'Ward', 'Hasse', 'Ruben', 'Lieze', 'Arne', 'Hanne', 'Bastiaan', 'Jary
-        Sirin', 'Anna', 'Michiel', 'Eben', 'Jitske', 'Miel', 'Arne', 'Arne', 'Agon',
-        'Arthur', 'Ides'] )
-      return:
-      - Ides
-      - Alice
-      - Cristina
-      - Lieze
-      - Arend
       - Marthe
-      - Nikolay
-      - Arend
-      - Julien
-      - Ana
-      - Arend
-      - Lisa
-      - Agon
-      - Ruben
-      - Lisa
-      - Manu
-      - Tiemen
-      - Ruben
+      - Bastiaan
+      - Jonas
       - Lous
-      - Kristina
-      - Calin
-      - Camu
-      - Alice
-      - Melanie
+  - testcases:
+    - expression: verwissel(['Ana', 'Bolder', 'Manu', 'Jonas', 'Lous', 'Daan', 'Ward',
+        'Briek', 'Simon', 'Veronika', 'Rosie Lou', 'Anna'])
+      return:
+      - Anna
+      - Bolder
+      - Manu
+      - Jonas
+      - Lous
+      - Daan
+      - Ward
+      - Briek
+      - Simon
+      - Veronika
+      - Rosie Lou
+      - Ana
+  - testcases:
+    - expression: verwissel(['Faris', 'Bolder', 'Eben', 'Anna', 'Andreas', 'Jules',
+        'Sunny', 'Jelena', 'Arnaud', 'Luiz', 'Agon', 'Manu', 'Ward'])
+      return:
+      - Ward
+      - Bolder
+      - Eben
+      - Anna
+      - Andreas
+      - Jules
+      - Sunny
+      - Jelena
+      - Arnaud
+      - Luiz
+      - Agon
+      - Manu
       - Faris
-      - Ward
-      - Hasse
-      - Ruben
-      - Lieze
-      - Arne
+  - testcases:
+    - expression: verwissel(['Zahidullah', 'Hanne', 'Daan', 'Simon', 'Camu', 'Alexander',
+        'Calin', 'Faris', 'Cédric', 'Helena', 'Ferit', 'Rosie Lou', 'Ro', 'Victor',
+        'Ruben', 'Jary Sirin', 'Michiel', 'Sieben', 'Jules', 'Cristina', 'Marthe',
+        'Andreas'])
+      return:
+      - Andreas
       - Hanne
-      - Bastiaan
-      - Jary Sirin
-      - Anna
-      - Michiel
-      - Eben
-      - Jitske
-      - Miel
-      - Arne
-      - Arne
-      - Agon
-      - Arthur
-      - Arend
-  - testcases:
-    - expression: verwissel( ['Rosie Lou', 'Bastiaan', 'Arthur', 'Luiz', 'Ishita',
-        'Arthur', 'Ward', 'Jonas', 'Ferit', 'Ferit', 'Ferit', 'Ferit', 'Ides', 'Rosie
-        Lou', 'Tiemen', 'Kristina', 'Manu', 'Julien', 'Julien', 'Lieze', 'Arnaud',
-        'Arend', 'Maarte', 'Victor', 'Lieze', 'Andreas', 'Ward', 'Ishita', 'Kristina',
-        'Rosie Lou', 'Menno', 'Zahidullah'] )
-      return:
-      - Zahidullah
-      - Bastiaan
-      - Arthur
-      - Luiz
-      - Ishita
-      - Arthur
-      - Ward
-      - Jonas
-      - Ferit
-      - Ferit
-      - Ferit
-      - Ferit
-      - Ides
-      - Rosie Lou
-      - Tiemen
-      - Kristina
-      - Manu
-      - Julien
-      - Julien
-      - Lieze
-      - Arnaud
-      - Arend
-      - Maarte
-      - Victor
-      - Lieze
-      - Andreas
-      - Ward
-      - Ishita
-      - Kristina
-      - Rosie Lou
-      - Menno
-      - Rosie Lou
-  - testcases:
-    - expression: verwissel( ['Marthe', 'Michiel', 'Helena', 'Babette', 'Ward', 'Julien',
-        'Alice', 'Ides', 'Julien', 'Jules', 'Michiel', 'Ward', 'Ides', 'Ruben', 'Babette',
-        'Cristina', 'Maarte', 'Andreas', 'Jonas', 'Arend', 'Marcel', 'Jules', 'Agon',
-        'Sunny', 'Camu', 'Ferit', 'Cédric', 'Maarte', 'Julien', 'Helena', 'Victor',
-        'Cédric', 'Jonas', 'Ferit', 'Hasse', 'Alexander', 'Miel', 'Miel', 'Lieze',
-        'Julien'] )
-      return:
-      - Julien
-      - Michiel
-      - Helena
-      - Babette
-      - Ward
-      - Julien
-      - Alice
-      - Ides
-      - Julien
-      - Jules
-      - Michiel
-      - Ward
-      - Ides
-      - Ruben
-      - Babette
-      - Cristina
-      - Maarte
-      - Andreas
-      - Jonas
-      - Arend
-      - Marcel
-      - Jules
-      - Agon
-      - Sunny
-      - Camu
-      - Ferit
-      - Cédric
-      - Maarte
-      - Julien
-      - Helena
-      - Victor
-      - Cédric
-      - Jonas
-      - Ferit
-      - Hasse
-      - Alexander
-      - Miel
-      - Miel
-      - Lieze
-      - Marthe
-  - testcases:
-    - expression: verwissel( ['Jitske', 'Alice', 'Anna', 'Sunny'] )
-      return:
-      - Sunny
-      - Alice
-      - Anna
-      - Jitske
-  - testcases:
-    - expression: verwissel( ['Zahidullah', 'Jitske', 'Joppe', 'Cristina', 'Marthe',
-        'Arend', 'Arend', 'Zahidullah', 'Briek', 'Jelena'] )
-      return:
-      - Jelena
-      - Jitske
-      - Joppe
-      - Cristina
-      - Marthe
-      - Arend
-      - Arend
-      - Zahidullah
-      - Briek
-      - Zahidullah
-  - testcases:
-    - expression: verwissel( ['Alice', 'Alice', 'Manu', 'Bastiaan', 'Lasse', 'Cédric',
-        'Andreas', 'Julien', 'Menno', 'Veronika', 'Jonas', 'Mano', 'Marthe', 'Ishita',
-        'Lous', 'Anna', 'Jonas', 'Maarte', 'Jonas', 'Hasse', 'Ishita', 'Camu', 'Jelena',
-        'Lous', 'Julien', 'Lisa', 'Victor', 'Jelena', 'Daan', 'Melanie', 'Briek',
-        'Miel', 'Joppe', 'Camu', 'Joppe', 'Arend', 'Melanie', 'Andreas', 'Victor',
-        'Manu', 'Sunny', 'Xander', 'Veronika'] )
-      return:
-      - Veronika
-      - Alice
-      - Manu
-      - Bastiaan
-      - Lasse
-      - Cédric
-      - Andreas
-      - Julien
-      - Menno
-      - Veronika
-      - Jonas
-      - Mano
-      - Marthe
-      - Ishita
-      - Lous
-      - Anna
-      - Jonas
-      - Maarte
-      - Jonas
-      - Hasse
-      - Ishita
-      - Camu
-      - Jelena
-      - Lous
-      - Julien
-      - Lisa
-      - Victor
-      - Jelena
       - Daan
-      - Melanie
-      - Briek
-      - Miel
-      - Joppe
-      - Camu
-      - Joppe
-      - Arend
-      - Melanie
-      - Andreas
-      - Victor
-      - Manu
-      - Sunny
-      - Xander
-      - Alice
-  - testcases:
-    - expression: verwissel( ['Ruben', 'Anna', 'Mano', 'Bastiaan', 'Arne', 'Simon',
-        'Briek', 'Eben', 'Ana', 'Bolder', 'Lisa', 'Hanne', 'Jelena', 'Ro', 'Manu',
-        'Lous', 'Calin', 'Menno', 'Cristina', 'Joppe', 'Arne', 'Luiz', 'Lieze', 'Nikolay',
-        'Arne', 'Lasse', 'Thomas', 'Briek', 'Babette', 'Lieze', 'Menno', 'Babette',
-        'Michiel', 'Zahidullah', 'Ana', 'Ana', 'Briek', 'Nikolay', 'Lieze', 'Marthe',
-        'Kristina', 'Jonas'] )
-      return:
-      - Jonas
-      - Anna
-      - Mano
-      - Bastiaan
-      - Arne
       - Simon
-      - Briek
-      - Eben
-      - Ana
-      - Bolder
-      - Lisa
-      - Hanne
-      - Jelena
-      - Ro
-      - Manu
-      - Lous
+      - Camu
+      - Alexander
       - Calin
-      - Menno
-      - Cristina
-      - Joppe
-      - Arne
-      - Luiz
-      - Lieze
-      - Nikolay
-      - Arne
-      - Lasse
-      - Thomas
-      - Briek
-      - Babette
-      - Lieze
-      - Menno
-      - Babette
-      - Michiel
-      - Zahidullah
-      - Ana
-      - Ana
-      - Briek
-      - Nikolay
-      - Lieze
-      - Marthe
-      - Kristina
-      - Ruben
-  - testcases:
-    - expression: verwissel( ['Mano', 'Cristina', 'Nikolay', 'Hasse', 'Marthe', 'Ro',
-        'Mien', 'Luiz', 'Nikolay', 'Luiz', 'Ferit', 'Alice', 'Arne', 'Sunny', 'Luiz',
-        'Alexander', 'Alexander', 'Jonas', 'Lisa', 'Marthe'] )
-      return:
-      - Marthe
-      - Cristina
-      - Nikolay
-      - Hasse
-      - Marthe
-      - Ro
-      - Mien
-      - Luiz
-      - Nikolay
-      - Luiz
-      - Ferit
-      - Alice
-      - Arne
-      - Sunny
-      - Luiz
-      - Alexander
-      - Alexander
-      - Jonas
-      - Lisa
-      - Mano
-  - testcases:
-    - expression: verwissel( ['Lisa'] )
-      return:
-      - Lisa
-  - testcases:
-    - expression: verwissel( ['Agon', 'Daan', 'Bastiaan', 'Hasse', 'Tiemen', 'Arnaud',
-        'Julien', 'Rosie Lou', 'Ferit', 'Thomas', 'Sunny', 'Jules', 'Maarte', 'Ward',
-        'Agon', 'Lasse', 'Victor', 'Ward', 'Jules', 'Cristina', 'Anna', 'Helena',
-        'Jitske', 'Victor', 'Michiel', 'Zahidullah', 'Luiz', 'Marcel', 'Ro', 'Veronika',
-        'Bastiaan', 'Jary Sirin', 'Ana', 'Jary Sirin', 'Arne', 'Ruben', 'Mien', 'Arend',
-        'Briek', 'Marthe', 'Babette', 'Victor', 'Ishita', 'Mano', 'Andreas', 'Daan',
-        'Arne', 'Marcel', 'Jules', 'Ferit', 'Anna', 'Andreas', 'Faris', 'Cédric',
-        'Jonas', 'Nikolay', 'Rosie Lou', 'Briek'] )
-      return:
-      - Briek
-      - Daan
-      - Bastiaan
-      - Hasse
-      - Tiemen
-      - Arnaud
-      - Julien
-      - Rosie Lou
-      - Ferit
-      - Thomas
-      - Sunny
-      - Jules
-      - Maarte
-      - Ward
-      - Agon
-      - Lasse
-      - Victor
-      - Ward
-      - Jules
-      - Cristina
-      - Anna
-      - Helena
-      - Jitske
-      - Victor
-      - Michiel
-      - Zahidullah
-      - Luiz
-      - Marcel
-      - Ro
-      - Veronika
-      - Bastiaan
-      - Jary Sirin
-      - Ana
-      - Jary Sirin
-      - Arne
-      - Ruben
-      - Mien
-      - Arend
-      - Briek
-      - Marthe
-      - Babette
-      - Victor
-      - Ishita
-      - Mano
-      - Andreas
-      - Daan
-      - Arne
-      - Marcel
-      - Jules
-      - Ferit
-      - Anna
-      - Andreas
       - Faris
       - Cédric
-      - Jonas
-      - Nikolay
-      - Rosie Lou
-      - Agon
-  - testcases:
-    - expression: verwissel( ['Agon', 'Ruben', 'Alice', 'Marthe', 'Ishita', 'Lieze',
-        'Menno', 'Helena', 'Kristina', 'Xander', 'Julien', 'Marthe', 'Ro', 'Maarte',
-        'Julien', 'Agon', 'Calin', 'Arthur', 'Bolder', 'Mien', 'Hasse', 'Marcel',
-        'Lisa', 'Marthe', 'Jonas', 'Zahidullah', 'Arne', 'Arne', 'Daan', 'Agon', 'Arthur',
-        'Maarte', 'Eben', 'Nikolay', 'Agon', 'Eben', 'Ro', 'Xander', 'Cédric', 'Michiel',
-        'Arne', 'Helena', 'Manu', 'Bastiaan'] )
-      return:
-      - Bastiaan
-      - Ruben
-      - Alice
-      - Marthe
-      - Ishita
-      - Lieze
-      - Menno
       - Helena
-      - Kristina
-      - Xander
-      - Julien
-      - Marthe
+      - Ferit
+      - Rosie Lou
       - Ro
-      - Maarte
-      - Julien
-      - Agon
-      - Calin
-      - Arthur
-      - Bolder
-      - Mien
-      - Hasse
-      - Marcel
-      - Lisa
+      - Victor
+      - Ruben
+      - Jary Sirin
+      - Michiel
+      - Sieben
+      - Jules
+      - Cristina
       - Marthe
-      - Jonas
       - Zahidullah
-      - Arne
+  - testcases:
+    - expression: verwissel(['Hasse', 'Camu', 'Marthe', 'Lisa', 'Lieze', 'Ides', 'Tiemen',
+        'Sieben', 'Ana', 'Arne', 'Daan', 'Faris', 'Cristina', 'Rosie Lou', 'Jonas',
+        'Julien', 'Ferit', 'Jitske', 'Jary Sirin', 'Nikolay', 'Joppe', 'Briek', 'Miel'])
+      return:
+      - Miel
+      - Camu
+      - Marthe
+      - Lisa
+      - Lieze
+      - Ides
+      - Tiemen
+      - Sieben
+      - Ana
       - Arne
       - Daan
-      - Agon
-      - Arthur
-      - Maarte
-      - Eben
-      - Nikolay
-      - Agon
-      - Eben
-      - Ro
-      - Xander
-      - Cédric
-      - Michiel
-      - Arne
-      - Helena
-      - Manu
-      - Agon
-  - testcases:
-    - expression: verwissel( ['Ana', 'Jonas', 'Agon', 'Kristina', 'Veronika', 'Lisa',
-        'Anna', 'Veronika', 'Helena', 'Sunny', 'Mien', 'Tiemen', 'Cristina', 'Briek',
-        'Helena', 'Luiz', 'Julien', 'Alice', 'Camu', 'Alice', 'Maarte', 'Bastiaan',
-        'Agon', 'Veronika', 'Alexander', 'Sunny', 'Marthe', 'Alice', 'Arthur', 'Tiemen',
-        'Lasse', 'Marthe', 'Melanie', 'Joppe', 'Lisa', 'Michiel', 'Xander', 'Arne',
-        'Rosie Lou', 'Jitske', 'Bolder', 'Thomas', 'Ruben', 'Ruben'] )
-      return:
-      - Ruben
-      - Jonas
-      - Agon
-      - Kristina
-      - Veronika
-      - Lisa
-      - Anna
-      - Veronika
-      - Helena
-      - Sunny
-      - Mien
-      - Tiemen
+      - Faris
       - Cristina
-      - Briek
-      - Helena
-      - Luiz
-      - Julien
-      - Alice
-      - Camu
-      - Alice
-      - Maarte
-      - Bastiaan
-      - Agon
-      - Veronika
-      - Alexander
-      - Sunny
-      - Marthe
-      - Alice
-      - Arthur
-      - Tiemen
-      - Lasse
-      - Marthe
-      - Melanie
-      - Joppe
-      - Lisa
-      - Michiel
-      - Xander
-      - Arne
       - Rosie Lou
+      - Jonas
+      - Julien
+      - Ferit
       - Jitske
+      - Jary Sirin
+      - Nikolay
+      - Joppe
+      - Briek
+      - Hasse
+  - testcases:
+    - expression: verwissel(['Lous', 'Faris', 'Andreas', 'Mien', 'Anna', 'Ward', 'Camu',
+        'Thomas', 'Melanie', 'Alice', 'Luiz', 'Maarte', 'Veronika', 'Agon', 'Ro',
+        'Bastiaan', 'Kristina', 'Helena', 'Miel', 'Jitske', 'Jelena', 'Bolder', 'Manu',
+        'Lieze', 'Alexander', 'Jules', 'Cristina', 'Sieben', 'Simon'])
+      return:
+      - Simon
+      - Faris
+      - Andreas
+      - Mien
+      - Anna
+      - Ward
+      - Camu
+      - Thomas
+      - Melanie
+      - Alice
+      - Luiz
+      - Maarte
+      - Veronika
+      - Agon
+      - Ro
+      - Bastiaan
+      - Kristina
+      - Helena
+      - Miel
+      - Jitske
+      - Jelena
+      - Bolder
+      - Manu
+      - Lieze
+      - Alexander
+      - Jules
+      - Cristina
+      - Sieben
+      - Lous
+  - testcases:
+    - expression: verwissel(['Veronika', 'Ides', 'Eben', 'Arnaud', 'Tiemen', 'Kristina',
+        'Arthur', 'Arne', 'Bastiaan', 'Arend', 'Sunny', 'Andreas', 'Briek', 'Hasse',
+        'Michiel', 'Agon', 'Hanne', 'Jelena', 'Alice', 'Manu', 'Faris', 'Bolder',
+        'Thomas', 'Jitske', 'Cédric', 'Marthe', 'Sieben', 'Alice', 'Miel', 'Helena',
+        'Joppe', 'Jonas', 'Ferit', 'Mano', 'Maarte', 'Ana', 'Zahidullah', 'Jary Sirin'])
+      return:
+      - Jary Sirin
+      - Ides
+      - Eben
+      - Arnaud
+      - Tiemen
+      - Kristina
+      - Arthur
+      - Arne
+      - Bastiaan
+      - Arend
+      - Sunny
+      - Andreas
+      - Briek
+      - Hasse
+      - Michiel
+      - Agon
+      - Hanne
+      - Jelena
+      - Alice
+      - Manu
+      - Faris
       - Bolder
       - Thomas
-      - Ruben
-      - Ana
-  - testcases:
-    - expression: verwissel( ['Nikolay', 'Jonas', 'Ro', 'Xander', 'Briek', 'Menno',
-        'Luiz', 'Faris', 'Julien', 'Ruben', 'Lisa', 'Calin', 'Jitske', 'Lieze', 'Anna',
-        'Lasse', 'Joppe', 'Hanne', 'Eben', 'Andreas', 'Julien', 'Victor', 'Eben',
-        'Simon', 'Alice', 'Camu', 'Alice', 'Jules'] )
-      return:
-      - Jules
+      - Jitske
+      - Cédric
+      - Marthe
+      - Sieben
+      - Alice
+      - Miel
+      - Helena
+      - Joppe
       - Jonas
-      - Ro
-      - Xander
-      - Briek
-      - Menno
-      - Luiz
+      - Ferit
+      - Mano
+      - Maarte
+      - Ana
+      - Zahidullah
+      - Veronika
+  - testcases:
+    - expression: verwissel(['Cristina', 'Julien', 'Marthe', 'Xander', 'Jitske', 'Melanie',
+        'Kristina', 'Alice', 'Ruben', 'Manu', 'Jonas', 'Anna', 'Lieze', 'Helena',
+        'Hanne', 'Menno', 'Eben', 'Lous', 'Agon', 'Ward', 'Thomas', 'Arnaud', 'Alice',
+        'Luiz', 'Andreas', 'Arne', 'Babette', 'Victor', 'Jary Sirin', 'Lisa', 'Michiel',
+        'Marthe', 'Ferit', 'Ro', 'Bastiaan', 'Jules', 'Mien', 'Rosie Lou', 'Daan',
+        'Faris'])
+      return:
       - Faris
       - Julien
-      - Ruben
-      - Lisa
-      - Calin
+      - Marthe
+      - Xander
       - Jitske
-      - Lieze
+      - Melanie
+      - Kristina
+      - Alice
+      - Ruben
+      - Manu
+      - Jonas
       - Anna
-      - Lasse
-      - Joppe
+      - Lieze
+      - Helena
       - Hanne
+      - Menno
       - Eben
+      - Lous
+      - Agon
+      - Ward
+      - Thomas
+      - Arnaud
+      - Alice
+      - Luiz
       - Andreas
-      - Julien
+      - Arne
+      - Babette
       - Victor
-      - Eben
-      - Simon
+      - Jary Sirin
+      - Lisa
+      - Michiel
+      - Marthe
+      - Ferit
+      - Ro
+      - Bastiaan
+      - Jules
+      - Mien
+      - Rosie Lou
+      - Daan
+      - Cristina
+  - testcases:
+    - expression: verwissel(['Menno', 'Julien', 'Mano', 'Arne', 'Thomas', 'Mien',
+        'Kristina', 'Sunny', 'Lous', 'Melanie', 'Alice', 'Manu', 'Alexander', 'Ward',
+        'Arend', 'Lasse', 'Cédric', 'Cristina', 'Ides', 'Bastiaan', 'Arthur', 'Camu',
+        'Jules', 'Jitske', 'Jonas', 'Simon', 'Arnaud', 'Jonas', 'Jary Sirin', 'Briek',
+        'Zahidullah', 'Michiel', 'Bolder', 'Marcel', 'Miel', 'Daan', 'Jelena', 'Ruben',
+        'Agon', 'Babette', 'Helena'])
+      return:
+      - Helena
+      - Julien
+      - Mano
+      - Arne
+      - Thomas
+      - Mien
+      - Kristina
+      - Sunny
+      - Lous
+      - Melanie
       - Alice
+      - Manu
+      - Alexander
+      - Ward
+      - Arend
+      - Lasse
+      - Cédric
+      - Cristina
+      - Ides
+      - Bastiaan
+      - Arthur
       - Camu
+      - Jules
+      - Jitske
+      - Jonas
+      - Simon
+      - Arnaud
+      - Jonas
+      - Jary Sirin
+      - Briek
+      - Zahidullah
+      - Michiel
+      - Bolder
+      - Marcel
+      - Miel
+      - Daan
+      - Jelena
+      - Ruben
+      - Agon
+      - Babette
+      - Menno
+  - testcases:
+    - expression: verwissel(['Nikolay', 'Menno', 'Mien', 'Arend', 'Faris', 'Joppe',
+        'Helena', 'Cristina', 'Arne', 'Luiz', 'Ishita', 'Xander', 'Veronika', 'Thomas',
+        'Sieben', 'Marthe', 'Simon', 'Jary Sirin', 'Lieze', 'Hanne', 'Marcel', 'Jonas',
+        'Ruben', 'Mano', 'Ward', 'Lous', 'Ana', 'Calin', 'Babette', 'Hasse', 'Manu',
+        'Kristina', 'Rosie Lou', 'Julien', 'Daan', 'Bastiaan', 'Jules', 'Camu', 'Michiel',
+        'Ferit', 'Agon', 'Alice', 'Melanie', 'Cédric', 'Eben', 'Miel'])
+      return:
+      - Miel
+      - Menno
+      - Mien
+      - Arend
+      - Faris
+      - Joppe
+      - Helena
+      - Cristina
+      - Arne
+      - Luiz
+      - Ishita
+      - Xander
+      - Veronika
+      - Thomas
+      - Sieben
+      - Marthe
+      - Simon
+      - Jary Sirin
+      - Lieze
+      - Hanne
+      - Marcel
+      - Jonas
+      - Ruben
+      - Mano
+      - Ward
+      - Lous
+      - Ana
+      - Calin
+      - Babette
+      - Hasse
+      - Manu
+      - Kristina
+      - Rosie Lou
+      - Julien
+      - Daan
+      - Bastiaan
+      - Jules
+      - Camu
+      - Michiel
+      - Ferit
+      - Agon
       - Alice
+      - Melanie
+      - Cédric
+      - Eben
       - Nikolay
   - testcases:
-    - expression: verwissel( ['Arnaud', 'Victor', 'Marcel', 'Ishita', 'Tiemen', 'Sieben',
-        'Julien', 'Ward', 'Bastiaan', 'Ides', 'Bolder', 'Camu', 'Marthe', 'Alice',
-        'Lieze', 'Arend', 'Manu', 'Agon', 'Calin', 'Veronika', 'Alexander', 'Lisa',
-        'Menno', 'Calin', 'Zahidullah', 'Alice', 'Tiemen', 'Sieben', 'Menno'] )
+    - expression: verwissel(['Tiemen', 'Marthe', 'Menno', 'Arne', 'Kristina', 'Jonas',
+        'Ishita', 'Lisa', 'Miel', 'Rosie Lou', 'Ward', 'Xander', 'Daan', 'Sieben',
+        'Alice', 'Lous', 'Lasse', 'Joppe', 'Jary Sirin', 'Briek', 'Sunny', 'Cristina',
+        'Lieze', 'Jonas', 'Marcel', 'Manu', 'Ferit', 'Alexander', 'Victor', 'Faris',
+        'Bastiaan', 'Arthur', 'Zahidullah', 'Eben', 'Alice', 'Nikolay', 'Jitske',
+        'Calin', 'Veronika', 'Andreas', 'Anna', 'Arnaud', 'Bolder', 'Julien', 'Babette',
+        'Hanne', 'Camu', 'Agon'])
       return:
-      - Menno
-      - Victor
-      - Marcel
-      - Ishita
-      - Tiemen
-      - Sieben
-      - Julien
-      - Ward
-      - Bastiaan
-      - Ides
-      - Bolder
-      - Camu
-      - Marthe
-      - Alice
-      - Lieze
-      - Arend
-      - Manu
       - Agon
+      - Marthe
+      - Menno
+      - Arne
+      - Kristina
+      - Jonas
+      - Ishita
+      - Lisa
+      - Miel
+      - Rosie Lou
+      - Ward
+      - Xander
+      - Daan
+      - Sieben
+      - Alice
+      - Lous
+      - Lasse
+      - Joppe
+      - Jary Sirin
+      - Briek
+      - Sunny
+      - Cristina
+      - Lieze
+      - Jonas
+      - Marcel
+      - Manu
+      - Ferit
+      - Alexander
+      - Victor
+      - Faris
+      - Bastiaan
+      - Arthur
+      - Zahidullah
+      - Eben
+      - Alice
+      - Nikolay
+      - Jitske
       - Calin
       - Veronika
-      - Alexander
-      - Lisa
-      - Menno
-      - Calin
-      - Zahidullah
-      - Alice
-      - Tiemen
-      - Sieben
+      - Andreas
+      - Anna
       - Arnaud
+      - Bolder
+      - Julien
+      - Babette
+      - Hanne
+      - Camu
+      - Tiemen
+  - testcases:
+    - expression: verwissel(['Faris', 'Julien', 'Menno', 'Alice', 'Jitske', 'Marcel',
+        'Calin', 'Lisa', 'Rosie Lou', 'Hasse', 'Marthe', 'Sieben', 'Jary Sirin', 'Lous',
+        'Babette', 'Bastiaan', 'Veronika', 'Maarte', 'Xander', 'Andreas', 'Jonas',
+        'Ferit', 'Alice', 'Melanie', 'Camu', 'Mien', 'Ruben', 'Agon', 'Arnaud', 'Cristina',
+        'Ana', 'Alexander', 'Marthe', 'Briek', 'Anna', 'Daan', 'Tiemen', 'Michiel',
+        'Helena', 'Hanne', 'Cédric', 'Zahidullah', 'Jelena', 'Ro', 'Victor', 'Arend',
+        'Bolder', 'Ides', 'Jules', 'Arne', 'Jonas'])
+      return:
+      - Jonas
+      - Julien
+      - Menno
+      - Alice
+      - Jitske
+      - Marcel
+      - Calin
+      - Lisa
+      - Rosie Lou
+      - Hasse
+      - Marthe
+      - Sieben
+      - Jary Sirin
+      - Lous
+      - Babette
+      - Bastiaan
+      - Veronika
+      - Maarte
+      - Xander
+      - Andreas
+      - Jonas
+      - Ferit
+      - Alice
+      - Melanie
+      - Camu
+      - Mien
+      - Ruben
+      - Agon
+      - Arnaud
+      - Cristina
+      - Ana
+      - Alexander
+      - Marthe
+      - Briek
+      - Anna
+      - Daan
+      - Tiemen
+      - Michiel
+      - Helena
+      - Hanne
+      - Cédric
+      - Zahidullah
+      - Jelena
+      - Ro
+      - Victor
+      - Arend
+      - Bolder
+      - Ides
+      - Jules
+      - Arne
+      - Faris
+  - testcases:
+    - expression: verwissel(['Arnaud', 'Hanne', 'Sieben', 'Jary Sirin', 'Arend', 'Eben',
+        'Hasse', 'Agon', 'Alice', 'Calin', 'Jonas', 'Lasse', 'Ruben', 'Xander', 'Helena',
+        'Arthur', 'Marthe', 'Joppe', 'Maarte', 'Faris', 'Ferit', 'Alice', 'Ides',
+        'Arne', 'Julien', 'Briek', 'Camu', 'Daan', 'Manu', 'Ro', 'Michiel', 'Cristina',
+        'Marthe', 'Bastiaan', 'Lous', 'Mano', 'Lieze', 'Ward', 'Cédric', 'Andreas',
+        'Thomas', 'Menno', 'Tiemen', 'Mien', 'Rosie Lou', 'Miel', 'Ana', 'Babette',
+        'Simon', 'Sunny', 'Luiz', 'Jules', 'Bolder', 'Nikolay', 'Melanie', 'Zahidullah'])
+      return:
+      - Zahidullah
+      - Hanne
+      - Sieben
+      - Jary Sirin
+      - Arend
+      - Eben
+      - Hasse
+      - Agon
+      - Alice
+      - Calin
+      - Jonas
+      - Lasse
+      - Ruben
+      - Xander
+      - Helena
+      - Arthur
+      - Marthe
+      - Joppe
+      - Maarte
+      - Faris
+      - Ferit
+      - Alice
+      - Ides
+      - Arne
+      - Julien
+      - Briek
+      - Camu
+      - Daan
+      - Manu
+      - Ro
+      - Michiel
+      - Cristina
+      - Marthe
+      - Bastiaan
+      - Lous
+      - Mano
+      - Lieze
+      - Ward
+      - Cédric
+      - Andreas
+      - Thomas
+      - Menno
+      - Tiemen
+      - Mien
+      - Rosie Lou
+      - Miel
+      - Ana
+      - Babette
+      - Simon
+      - Sunny
+      - Luiz
+      - Jules
+      - Bolder
+      - Nikolay
+      - Melanie
+      - Arnaud
+  - testcases:
+    - expression: verwissel(['Jonas', 'Hasse', 'Thomas', 'Jules', 'Sunny', 'Hanne',
+        'Nikolay', 'Arthur', 'Jelena', 'Arnaud', 'Marthe', 'Babette', 'Lieze', 'Ro',
+        'Joppe', 'Agon', 'Lous', 'Arne', 'Ward', 'Miel', 'Zahidullah', 'Rosie Lou',
+        'Cristina', 'Jonas', 'Tiemen', 'Ides', 'Alice', 'Kristina', 'Sieben', 'Simon',
+        'Arend', 'Mien', 'Luiz', 'Lasse', 'Veronika', 'Calin', 'Julien', 'Ana', 'Michiel',
+        'Marcel', 'Ishita', 'Anna', 'Lisa', 'Helena', 'Daan', 'Maarte', 'Menno', 'Faris',
+        'Mano', 'Victor', 'Bolder', 'Ruben', 'Melanie', 'Alice', 'Camu', 'Eben', 'Bastiaan',
+        'Jitske'])
+      return:
+      - Jitske
+      - Hasse
+      - Thomas
+      - Jules
+      - Sunny
+      - Hanne
+      - Nikolay
+      - Arthur
+      - Jelena
+      - Arnaud
+      - Marthe
+      - Babette
+      - Lieze
+      - Ro
+      - Joppe
+      - Agon
+      - Lous
+      - Arne
+      - Ward
+      - Miel
+      - Zahidullah
+      - Rosie Lou
+      - Cristina
+      - Jonas
+      - Tiemen
+      - Ides
+      - Alice
+      - Kristina
+      - Sieben
+      - Simon
+      - Arend
+      - Mien
+      - Luiz
+      - Lasse
+      - Veronika
+      - Calin
+      - Julien
+      - Ana
+      - Michiel
+      - Marcel
+      - Ishita
+      - Anna
+      - Lisa
+      - Helena
+      - Daan
+      - Maarte
+      - Menno
+      - Faris
+      - Mano
+      - Victor
+      - Bolder
+      - Ruben
+      - Melanie
+      - Alice
+      - Camu
+      - Eben
+      - Bastiaan
+      - Jonas
+  - testcases:
+    - expression: verwissel(['Ruben', 'Ana', 'Marcel', 'Lous', 'Alice', 'Arne', 'Ishita',
+        'Eben', 'Tiemen', 'Agon', 'Jary Sirin', 'Sieben', 'Melanie', 'Arend', 'Anna',
+        'Cristina', 'Joppe', 'Jules', 'Marthe', 'Calin', 'Michiel', 'Nikolay', 'Arthur',
+        'Ides', 'Xander', 'Mano', 'Mien', 'Thomas', 'Kristina', 'Simon', 'Lasse',
+        'Veronika', 'Babette', 'Daan', 'Alice', 'Ward', 'Ro', 'Jitske', 'Julien',
+        'Helena', 'Bolder', 'Zahidullah', 'Miel', 'Jelena', 'Arnaud', 'Sunny', 'Maarte',
+        'Andreas', 'Victor', 'Jonas', 'Manu', 'Ferit', 'Lieze', 'Jonas', 'Briek',
+        'Alexander', 'Hanne', 'Camu', 'Menno', 'Lisa'])
+      return:
+      - Lisa
+      - Ana
+      - Marcel
+      - Lous
+      - Alice
+      - Arne
+      - Ishita
+      - Eben
+      - Tiemen
+      - Agon
+      - Jary Sirin
+      - Sieben
+      - Melanie
+      - Arend
+      - Anna
+      - Cristina
+      - Joppe
+      - Jules
+      - Marthe
+      - Calin
+      - Michiel
+      - Nikolay
+      - Arthur
+      - Ides
+      - Xander
+      - Mano
+      - Mien
+      - Thomas
+      - Kristina
+      - Simon
+      - Lasse
+      - Veronika
+      - Babette
+      - Daan
+      - Alice
+      - Ward
+      - Ro
+      - Jitske
+      - Julien
+      - Helena
+      - Bolder
+      - Zahidullah
+      - Miel
+      - Jelena
+      - Arnaud
+      - Sunny
+      - Maarte
+      - Andreas
+      - Victor
+      - Jonas
+      - Manu
+      - Ferit
+      - Lieze
+      - Jonas
+      - Briek
+      - Alexander
+      - Hanne
+      - Camu
+      - Menno
+      - Ruben

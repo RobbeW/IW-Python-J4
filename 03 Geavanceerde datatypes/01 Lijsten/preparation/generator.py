@@ -1,9 +1,7 @@
 import os
-import sys
-import importlib
+import importlib.util
 import random
 import ruamel.yaml
-import subprocess
 
 yaml = ruamel.yaml.YAML()
 
@@ -45,9 +43,11 @@ ntests= 20
 cases = [["Cédric", "Luiz", "Ward", "Briek", "Miel"], ["Babette","Nikolay"], ["Daan"]]
 while len(cases) < ntests:
     n = random.randint(1,len(names))
-    test = list(random.choices(names, k = n))
+    test = random.sample(names, k = n)
     cases.append(test)
-    
+
+cases = sorted(cases, key = lambda x : len(x))
+
 # generate unit tests for functions
 yamldata = []
 
@@ -65,8 +65,8 @@ for i in range(len(cases)):
         
     # generate test expression
     #
-    expression_name = f"verwissel( {test} )"
-    result = module.verwissel( test )
+    expression_name = f"verwissel({test})"
+    result = module.verwissel(test)
 
     print(result)
     # setup for return expressions
