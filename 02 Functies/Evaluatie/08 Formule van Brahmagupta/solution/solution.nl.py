@@ -6,10 +6,10 @@ def oppervlakte( a, b, c, d ):
     return round( A, 2 )
 
 # invoer
-a = int(input())
-b = int(input())
-c = int(input())
-d = int(input())
+a = int(input("Geef de lengte van zijde a in: "))
+b = int(input("Geef de lengte van zijde b in: "))
+c = int(input("Geef de lengte van zijde c in: "))
+d = int(input("Geef de lengte van zijde d in: "))
 
 # verwerking
 A = oppervlakte(a, b, c, d)

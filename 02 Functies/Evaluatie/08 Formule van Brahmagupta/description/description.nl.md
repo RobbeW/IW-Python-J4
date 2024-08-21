@@ -23,3 +23,7 @@ Geeft de gebruiker `5`, `4`, `2` en `3` in, dan verschijnt er:
 ```
 De oppervlakte bedraagt 10.95 cm².
 ```
+```python
+>>> oppervlakte(5, 4, 2, 3)
+10.95
+```

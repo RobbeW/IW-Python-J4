@@ -1,7 +1,7 @@
 import os
 import math
 import sys
-import importlib
+import importlib.util
 import random
 import ruamel.yaml
 import subprocess
@@ -110,8 +110,8 @@ for i in range(len(cases)):
     yamldata[0]['contexts'][i]["testcases"].append( testcase)
     
     # generate test expression
-    expression_name = 'oppervlakte( {} , {}, {}, {} )'.format( a, b, c, d )
-    result = module.oppervlakte( a, b, c, d )
+    expression_name = f"oppervlakte({a}, {b}, {c}, {d})"
+    result = module.oppervlakte(a, b, c, d)
 
     print(result)
     # setup for return expressions
