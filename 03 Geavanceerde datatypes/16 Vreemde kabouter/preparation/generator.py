@@ -34,7 +34,7 @@ spec.loader.exec_module(module)
 ntests= 30
 cases = [[1, 2, 3, 4, 8, 5, 6], [3, 4, 5, 2, 6], [10, 20, 11, 12]]
 while len(cases) < ntests:
-    e = random.randint(0, 3)
+    e = random.randint(0, 4)
     n = random.randint(10**e, 10**(e + 1))
     n = max(n, 3)
     start = random.randint(0, 100)
