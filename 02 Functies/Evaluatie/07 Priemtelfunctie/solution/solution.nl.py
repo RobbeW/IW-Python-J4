@@ -15,8 +15,13 @@ def telpriem(x):
             aantal += 1
     return aantal
 
+# Invoer vragen
 x = float( input( "Geef een strikt positief getal in: " ) )
-aantal = telpriem( x )
+
+# Tel het aantal priemgetallen kleiner
+aantal = telpriem(x)
+
+# Weergave
 if aantal == 1:
     print(f"Er is {aantal} priemgetal kleiner dan of gelijk aan {x}")
 else:

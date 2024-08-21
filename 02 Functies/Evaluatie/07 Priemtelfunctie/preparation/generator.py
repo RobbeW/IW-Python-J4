@@ -1,7 +1,7 @@
 import os
 import math
 import sys
-import importlib
+import importlib.util
 import random
 import ruamel.yaml
 import subprocess
@@ -53,7 +53,10 @@ while len(cases) < ntests:
         getal = round(random.uniform(2,10), 1)
     else:
         getal = round(random.uniform(10**(exp-1),10**exp), 1)
-    cases.append((getal,))
+    if (getal,) not in cases:
+        cases.append((getal,))
+
+cases.sort()
 
 def is_priem( getal ):
     priem = True
@@ -113,8 +116,8 @@ for i in range(len(cases)):
     testcase = { input: stdin, output: outputtxt }            
     yamldata[0]['contexts'][i]["testcases"].append( testcase)
     
-    expression_name = 'telpriem( {} )'.format( test[0] )
-    result = module.telpriem( test[0] )
+    expression_name = f"telpriem({test[0]})"
+    result = module.telpriem(test[0])
 
     print(result)
     # setup for return expressions
@@ -127,7 +130,7 @@ for i in range(len(cases)):
     for j in range(count):
         getal = find_prev_prime(getal)
         
-        expression_name = 'is_priem( {} )'.format( getal )
+        expression_name = f"is_priem({getal})"
         result = module.is_priem( getal )
 
         print(result)
