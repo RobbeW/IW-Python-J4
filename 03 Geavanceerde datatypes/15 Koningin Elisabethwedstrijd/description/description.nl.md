@@ -13,7 +13,13 @@ Programmeer een functie `elisabeth_wedstrijd(punten)` dat gegeven een lijst met 
 
 #### Voorbeeld
 
+```python
+>>> elisabeth_wedstrijd([40, 30])
+34
 ```
+
+
+```python
 >>> elisabeth_wedstrijd([63, 90, 55, 67, 59, 56])
 62.0
 ```
