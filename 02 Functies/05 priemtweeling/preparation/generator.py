@@ -82,7 +82,7 @@ for i in range(len(cases)):
     for line in result_lines:
         if not(line.startswith( 'Geef' ) or line.startswith('Voer')):
             print(line)
-            outputtxt += line
+            outputtxt += line+"\n"
             
     testcase = { input: stdin, output: outputtxt }            
     yamldata[0]['contexts'][i]["testcases"].append( testcase)
