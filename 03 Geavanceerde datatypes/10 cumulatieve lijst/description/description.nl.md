@@ -5,14 +5,14 @@ Programmeer een functie `somlijst(lijst)` dat voor een gegeven lijst de cumulati
 #### Voorbeelden
 Bestudeer onderstaande voorbeelden grondig.
 
-```
+```python
 >>> somlijst([1, 5, 7, -2])
 [1, 6, 13, 11]
 ```
 
 Want er geldt *bijvoorbeeld* dat 13 = 1 + 5 + 7.
 
-```
+```python
 >>> somlijst([1, 5, 6, -2, 0, 5, 9])
 [1, 6, 12, 10, 10, 15, 24]
 ```
