@@ -15,8 +15,19 @@ Indien de gebruiker `100` en `120` intikt, dan verschijnt er:
 ```
 Het harmonisch gemiddelde van 100 en 120 is 109.09
 ```
+want er geldt:
+```python
+>>> harmonisch_gemiddelde(100, 200)
+109.09
+```
 
 Indien de gebruiker `128` en `26` intikt, dan verschijnt er:
 ```
 Het harmonisch gemiddelde van 128 en 26 is 43.22
+```
+want er geldt:
+
+```python
+>>> harmonisch_gemiddelde(100, 200)
+43.22
 ```
