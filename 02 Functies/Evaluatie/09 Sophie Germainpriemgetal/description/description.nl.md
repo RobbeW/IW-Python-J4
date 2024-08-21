@@ -1,4 +1,4 @@
-<a href="https://nl.wikipedia.org/wiki/Sophie_Germain" target="_blank">Sophie Germain</a> was een belangrijke Franse wiskundige die belangrijke bijdragen heeft geleverd aan de getaltheorie.
+<a href="https://nl.wikipedia.org/wiki/Sophie_Germain" target="_blank">Sophie Germain</a> was een Franse wiskundige die belangrijke bijdragen heeft geleverd aan de getaltheorie.
 
 ![Sophie Germain, Franse wiskundige.](media/sophie-germain.png "Sophie Germain, Franse wiskundige."){:data-caption="Sophie Germain, Franse wiskundige." .dark-only width="35%"}
 
