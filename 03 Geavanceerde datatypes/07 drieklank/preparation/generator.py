@@ -1,10 +1,7 @@
 import os
-import sys
-import importlib
+import importlib.util
 import random
 import ruamel.yaml
-import subprocess
-from io import StringIO 
 
 yaml = ruamel.yaml.YAML()
 
@@ -33,23 +30,13 @@ spec = importlib.util.spec_from_file_location(module_name, file_path)
 module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 
-class Capturing(list):
-    def __enter__(self):
-        self._stdout = sys.stdout
-        sys.stdout = self._stringio = StringIO()
-        return self
-    def __exit__(self, *args):
-        self.extend(self._stringio.getvalue().splitlines())
-        del self._stringio    # free up some memory
-        sys.stdout = self._stdout
-
-
 # generate test data
 ntests= 20
 cases = [ (224, 40, 205), (205,224,40),(40,205,224),(0,0,1)]
 while len(cases) < ntests:
     rgb = tuple( random.randint(0,255) for _ in range(3))
-    cases.append(rgb)
+    if rgb not in cases:
+        cases.append(rgb)
     
 # generate unit tests for functions
 yamldata = []
@@ -68,17 +55,12 @@ for i in range(len(cases)):
         
     # generate test expression
     #
-    expression_name = f"drieklank( {test} )"
-    with Capturing() as output:
-        module.drieklank( test )
+    expression_name = f"drieklank({test})"
+    result = module.drieklank(test)
 
-    outputtxt = ""
-    for txt in output:
-        outputtxt += txt+ "\n"
-    
-    print(outputtxt)
+    print(result)
     # setup for return expressions
-    testcase = { "expression": expression_name, "stdout": outputtxt }
+    testcase = { "expression": expression_name, "return": result }
     yamldata[0]['contexts'][i]["testcases"].append( testcase)
 
 write_yaml(yamldata)

@@ -10,7 +10,7 @@ Schrijf een functie `complementair(kleurcode)` die gegeven een **RGB**-kleurcode
 </div>
 
 #### Voorbeeld
-```
+```python
 >>> complementair((0, 128, 128))
 (255, 127, 127)
 ```

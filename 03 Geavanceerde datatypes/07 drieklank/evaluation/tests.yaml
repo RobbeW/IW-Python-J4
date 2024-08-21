@@ -1,62 +1,188 @@
 - tab: Feedback
   contexts:
   - testcases:
-    - expression: drieklank( (224, 40, 205) )
-      stdout: "(205, 224, 40)\n(40, 205, 224)\n"
+    - expression: drieklank((224, 40, 205))
+      return:
+      - !tuple
+        - 205
+        - 224
+        - 40
+      - !tuple
+        - 40
+        - 205
+        - 224
   - testcases:
-    - expression: drieklank( (205, 224, 40) )
-      stdout: "(40, 205, 224)\n(224, 40, 205)\n"
+    - expression: drieklank((205, 224, 40))
+      return:
+      - !tuple
+        - 40
+        - 205
+        - 224
+      - !tuple
+        - 224
+        - 40
+        - 205
   - testcases:
-    - expression: drieklank( (40, 205, 224) )
-      stdout: "(224, 40, 205)\n(205, 224, 40)\n"
+    - expression: drieklank((40, 205, 224))
+      return:
+      - !tuple
+        - 224
+        - 40
+        - 205
+      - !tuple
+        - 205
+        - 224
+        - 40
   - testcases:
-    - expression: drieklank( (0, 0, 1) )
-      stdout: "(1, 0, 0)\n(0, 1, 0)\n"
+    - expression: drieklank((0, 0, 1))
+      return:
+      - - 1
+        - 0
+        - 0
+      - - 0
+        - 1
+        - 0
   - testcases:
-    - expression: drieklank( (51, 117, 129) )
-      stdout: "(129, 51, 117)\n(117, 129, 51)\n"
+    - expression: drieklank((51, 117, 129))
+      return:
+      - - 129
+        - 51
+        - 117
+      - - 117
+        - 129
+        - 51
   - testcases:
-    - expression: drieklank( (39, 171, 62) )
-      stdout: "(62, 39, 171)\n(171, 62, 39)\n"
+    - expression: drieklank((39, 171, 62))
+      return:
+      - - 62
+        - 39
+        - 171
+      - - 171
+        - 62
+        - 39
   - testcases:
-    - expression: drieklank( (76, 179, 12) )
-      stdout: "(12, 76, 179)\n(179, 12, 76)\n"
+    - expression: drieklank((76, 179, 12))
+      return:
+      - - 12
+        - 76
+        - 179
+      - - 179
+        - 12
+        - 76
   - testcases:
-    - expression: drieklank( (253, 20, 188) )
-      stdout: "(188, 253, 20)\n(20, 188, 253)\n"
+    - expression: drieklank((253, 20, 188))
+      return:
+      - - 188
+        - 253
+        - 20
+      - - 20
+        - 188
+        - 253
   - testcases:
-    - expression: drieklank( (115, 247, 22) )
-      stdout: "(22, 115, 247)\n(247, 22, 115)\n"
+    - expression: drieklank((115, 247, 22))
+      return:
+      - - 22
+        - 115
+        - 247
+      - - 247
+        - 22
+        - 115
   - testcases:
-    - expression: drieklank( (234, 113, 65) )
-      stdout: "(65, 234, 113)\n(113, 65, 234)\n"
+    - expression: drieklank((234, 113, 65))
+      return:
+      - - 65
+        - 234
+        - 113
+      - - 113
+        - 65
+        - 234
   - testcases:
-    - expression: drieklank( (130, 35, 190) )
-      stdout: "(190, 130, 35)\n(35, 190, 130)\n"
+    - expression: drieklank((130, 35, 190))
+      return:
+      - - 190
+        - 130
+        - 35
+      - - 35
+        - 190
+        - 130
   - testcases:
-    - expression: drieklank( (18, 219, 140) )
-      stdout: "(140, 18, 219)\n(219, 140, 18)\n"
+    - expression: drieklank((18, 219, 140))
+      return:
+      - - 140
+        - 18
+        - 219
+      - - 219
+        - 140
+        - 18
   - testcases:
-    - expression: drieklank( (157, 195, 94) )
-      stdout: "(94, 157, 195)\n(195, 94, 157)\n"
+    - expression: drieklank((157, 195, 94))
+      return:
+      - - 94
+        - 157
+        - 195
+      - - 195
+        - 94
+        - 157
   - testcases:
-    - expression: drieklank( (28, 64, 124) )
-      stdout: "(124, 28, 64)\n(64, 124, 28)\n"
+    - expression: drieklank((28, 64, 124))
+      return:
+      - - 124
+        - 28
+        - 64
+      - - 64
+        - 124
+        - 28
   - testcases:
-    - expression: drieklank( (111, 206, 250) )
-      stdout: "(250, 111, 206)\n(206, 250, 111)\n"
+    - expression: drieklank((111, 206, 250))
+      return:
+      - - 250
+        - 111
+        - 206
+      - - 206
+        - 250
+        - 111
   - testcases:
-    - expression: drieklank( (89, 233, 30) )
-      stdout: "(30, 89, 233)\n(233, 30, 89)\n"
+    - expression: drieklank((89, 233, 30))
+      return:
+      - - 30
+        - 89
+        - 233
+      - - 233
+        - 30
+        - 89
   - testcases:
-    - expression: drieklank( (190, 113, 75) )
-      stdout: "(75, 190, 113)\n(113, 75, 190)\n"
+    - expression: drieklank((190, 113, 75))
+      return:
+      - - 75
+        - 190
+        - 113
+      - - 113
+        - 75
+        - 190
   - testcases:
-    - expression: drieklank( (53, 225, 73) )
-      stdout: "(73, 53, 225)\n(225, 73, 53)\n"
+    - expression: drieklank((53, 225, 73))
+      return:
+      - - 73
+        - 53
+        - 225
+      - - 225
+        - 73
+        - 53
   - testcases:
-    - expression: drieklank( (206, 121, 106) )
-      stdout: "(106, 206, 121)\n(121, 106, 206)\n"
+    - expression: drieklank((206, 121, 106))
+      return:
+      - - 106
+        - 206
+        - 121
+      - - 121
+        - 106
+        - 206
   - testcases:
-    - expression: drieklank( (143, 110, 33) )
-      stdout: "(33, 143, 110)\n(110, 33, 143)\n"
+    - expression: drieklank((143, 110, 33))
+      return:
+      - - 33
+        - 143
+        - 110
+      - - 110
+        - 33
+        - 143

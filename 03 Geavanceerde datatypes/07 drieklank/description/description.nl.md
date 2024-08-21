@@ -5,19 +5,14 @@ In onderstaande afbeelding zie je dat de kleuren <span style="color:#FF2EE9">**m
 ![Drieklank van kleuren.](media/triadic.png "Afbeelding door Weegaweek op Wikipedia."){:data-caption="Drieklank van kleuren." width="300px"}
 
 ## Opgave
-schrijf een functie `drieklank(kleurcode)` die gegeven een **RGB**-kleurcode als **tupel** de twee andere kleuren **afdrukt** zodat een drieklank onstaat. De drieklank vind je terug door de kleurcodes cyclisch te roteren.
+schrijf een functie `drieklank(kleurcode)` die gegeven een **RGB**-kleurcode als **tupel** de twee andere kleuren in een lijst retourneert zodat een drieklank onstaat. De drieklank vind je terug door de kleurcodes cyclisch te roteren.
 
 <div class="dodona-centered-group">
 (<span style="color:#FF0000">rood</span>, <span style="color:#00FF00">groen</span>, <span style="color:#0000FF">blauw</span>), (<span style="color:#0000FF">blauw</span>, <span style="color:#FF0000">rood</span>, <span style="color:#00FF00">groen</span>), (<span style="color:#00FF00">groen</span>, <span style="color:#0000FF">blauw</span>, <span style="color:#FF0000">rood</span>)
 </div>
 
 #### Voorbeeld
+```python
+>>> drieklank((224, 40, 205))
+[(205, 224, 40), (40, 205, 224)]
 ```
->>> drieklank( (224, 40, 205) )
-(205, 224, 40)
-(40, 205, 224)
-```
-
-{: .callout.callout-info}
-> #### Tip
-> Bij deze functie hoef je (vrij uitzonderlijk) niets te `return`-en. Je dient enkel de twee andere kleuren af te drukken.
