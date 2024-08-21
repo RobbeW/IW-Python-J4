@@ -1,21 +1,23 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "access": "public",
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "description": {
     "names": {
-      "nl": "3.2 - Overval door Bandieten",
-      "en": "3.2 - Bandit Raid"
+      "nl": "Oppervlakte veelhoek"
     }
   },
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "labels": [
-    "python",
-    "VBTL"
+    "lijsten",
+    "functies",
+    "begrensde herhaling",
+    "for-lus",
+    "modulo"
   ],
-  "contact": "Robbe W <robbe.wulgaert@sintlievenscollege.be>",
+  "access": "public",
   "internals": {
     "token": "AqM6skAvWKEKfu3KAhbfdeziBhmJMzPi5_QQ7vZg2IB4aAMeiW48ni7nuk89eyZm",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."

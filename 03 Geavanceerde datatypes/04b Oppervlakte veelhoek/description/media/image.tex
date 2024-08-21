@@ -1,0 +1,43 @@
+\documentclass[dvipsnames,tikz]{standalone}
+\usepackage{amsmath}
+\usepackage{arevmath}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{decorations.pathreplacing,calligraphy,3d}
+
+\usepackage{pgfplots}
+\pgfplotsset{compat = newest}
+\usepackage{cmbright}      % sansfont
+
+\tikzset{main/.style={draw=black, color=black}}
+
+
+\begin{document}
+	\def\xscale{1}
+	\def\yscale{1}
+	\begin{tikzpicture}[font=\small, tl/.style = {black, inner sep=1pt, font=\scriptsize}, xscale=\xscale, yscale=\yscale]
+		% grid
+		\draw[main, very thin, xstep=1, ystep=1, nearly transparent] (0,0) grid (5,6);
+		
+		% y tick label
+		\foreach \y in {1, ..., 6}{\node[tl,left=1mm] at (0,\y) {$\y$};}
+		% x tick label
+		\foreach \x in {1, ..., 5}{
+			\node[tl,below=1mm] at (\x, 0) {$\x$};
+		}
+		\draw[tl] (0, 0) node [below left=1mm] {$0$};
+		
+		% axes
+		\draw[main, ->,thick] (0,0) -- (5,0) node[right] {$x$};
+		\draw[main, ->,thick] (0,0) -- (0, 6) node[above] {$y$};
+		
+		\draw[main, thick] (1,0.9) -- (3,1.1) -- (4,2.5) -- (3.5,5) -- (2,4) -- cycle;
+		\fill[BurntOrange] (1,0.9) circle (1.4pt) node [below] {$(x_1,y_1)$};
+		\fill[BurntOrange] (3,1.1) circle (1.4pt) node [below] {$(x_2,y_2)$};
+		\fill[BurntOrange] (4,2.5) circle (1.4pt) node [below right] {$(x_3,y_3)$};
+		\fill[BurntOrange] (3.5,5) circle (1.4pt) node [above] {$(x_4,y_4)$};
+		\fill[BurntOrange] (2,4) circle (1.4pt) node [above left] {$(x_5,y_5)$};
+		
+	\end{tikzpicture}
+\end{document}
