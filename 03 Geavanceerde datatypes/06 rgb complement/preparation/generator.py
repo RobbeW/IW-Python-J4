@@ -1,9 +1,7 @@
 import os
-import sys
-import importlib
+import importlib.util
 import random
 import ruamel.yaml
-import subprocess
 
 yaml = ruamel.yaml.YAML()
 
@@ -56,7 +54,7 @@ for i in range(len(cases)):
         
     # generate test expression
     #
-    expression_name = f"complementair( {test} )"
+    expression_name = f"complementair({test})"
     result = module.complementair( test )
 
     print(result)
