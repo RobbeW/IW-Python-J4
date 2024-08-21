@@ -11,7 +11,8 @@
     }
   },
   "labels": [
-
+    "evaluatie",
+    "functies"
   ],
   "access": "public",
   "internals": {
