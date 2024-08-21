@@ -1,95 +1,222 @@
 - tab: Feedback
-  testcases:
-  - stdin: '5'
-    stdout: 2 is een geïsoleerd priemgetal.
-  - stdin: '20'
-    stdout: 2 is een geïsoleerd priemgetal.
-  - stdin: '30'
-    stdout: "2 is een geïsoleerd priemgetal.\n23 is een geïsoleerd priemgetal."
-  - stdin: '60'
-    stdout: "2 is een geïsoleerd priemgetal.\n23 is een geïsoleerd priemgetal.\n37\
-      \ is een geïsoleerd priemgetal.\n47 is een geïsoleerd priemgetal.\n53 is een\
-      \ geïsoleerd priemgetal."
-  - stdin: '100'
-    stdout: "2 is een geïsoleerd priemgetal.\n23 is een geïsoleerd priemgetal.\n37\
-      \ is een geïsoleerd priemgetal.\n47 is een geïsoleerd priemgetal.\n53 is een\
-      \ geïsoleerd priemgetal.\n67 is een geïsoleerd priemgetal.\n79 is een geïsoleerd\
-      \ priemgetal.\n83 is een geïsoleerd priemgetal.\n89 is een geïsoleerd priemgetal.\n\
-      97 is een geïsoleerd priemgetal."
-  - stdin: '200'
-    stdout: "2 is een geïsoleerd priemgetal.\n23 is een geïsoleerd priemgetal.\n37\
-      \ is een geïsoleerd priemgetal.\n47 is een geïsoleerd priemgetal.\n53 is een\
-      \ geïsoleerd priemgetal.\n67 is een geïsoleerd priemgetal.\n79 is een geïsoleerd\
-      \ priemgetal.\n83 is een geïsoleerd priemgetal.\n89 is een geïsoleerd priemgetal.\n\
-      97 is een geïsoleerd priemgetal.\n113 is een geïsoleerd priemgetal.\n127 is\
-      \ een geïsoleerd priemgetal.\n131 is een geïsoleerd priemgetal.\n157 is een\
-      \ geïsoleerd priemgetal.\n163 is een geïsoleerd priemgetal.\n167 is een geïsoleerd\
-      \ priemgetal.\n173 is een geïsoleerd priemgetal."
-  - stdin: '500'
-    stdout: "2 is een geïsoleerd priemgetal.\n23 is een geïsoleerd priemgetal.\n37\
-      \ is een geïsoleerd priemgetal.\n47 is een geïsoleerd priemgetal.\n53 is een\
-      \ geïsoleerd priemgetal.\n67 is een geïsoleerd priemgetal.\n79 is een geïsoleerd\
-      \ priemgetal.\n83 is een geïsoleerd priemgetal.\n89 is een geïsoleerd priemgetal.\n\
-      97 is een geïsoleerd priemgetal.\n113 is een geïsoleerd priemgetal.\n127 is\
-      \ een geïsoleerd priemgetal.\n131 is een geïsoleerd priemgetal.\n157 is een\
-      \ geïsoleerd priemgetal.\n163 is een geïsoleerd priemgetal.\n167 is een geïsoleerd\
-      \ priemgetal.\n173 is een geïsoleerd priemgetal.\n211 is een geïsoleerd priemgetal.\n\
-      223 is een geïsoleerd priemgetal.\n233 is een geïsoleerd priemgetal.\n251 is\
-      \ een geïsoleerd priemgetal.\n257 is een geïsoleerd priemgetal.\n263 is een\
-      \ geïsoleerd priemgetal.\n277 is een geïsoleerd priemgetal.\n293 is een geïsoleerd\
-      \ priemgetal.\n307 is een geïsoleerd priemgetal.\n317 is een geïsoleerd priemgetal.\n\
-      331 is een geïsoleerd priemgetal.\n337 is een geïsoleerd priemgetal.\n353 is\
-      \ een geïsoleerd priemgetal.\n359 is een geïsoleerd priemgetal.\n367 is een\
-      \ geïsoleerd priemgetal.\n373 is een geïsoleerd priemgetal.\n379 is een geïsoleerd\
-      \ priemgetal.\n383 is een geïsoleerd priemgetal.\n389 is een geïsoleerd priemgetal.\n\
-      397 is een geïsoleerd priemgetal.\n401 is een geïsoleerd priemgetal.\n409 is\
-      \ een geïsoleerd priemgetal.\n439 is een geïsoleerd priemgetal.\n443 is een\
-      \ geïsoleerd priemgetal.\n449 is een geïsoleerd priemgetal.\n457 is een geïsoleerd\
-      \ priemgetal.\n467 is een geïsoleerd priemgetal.\n479 is een geïsoleerd priemgetal.\n\
-      487 is een geïsoleerd priemgetal.\n491 is een geïsoleerd priemgetal.\n499 is\
-      \ een geïsoleerd priemgetal."
-  - stdin: '1000'
-    stdout: "2 is een geïsoleerd priemgetal.\n23 is een geïsoleerd priemgetal.\n37\
-      \ is een geïsoleerd priemgetal.\n47 is een geïsoleerd priemgetal.\n53 is een\
-      \ geïsoleerd priemgetal.\n67 is een geïsoleerd priemgetal.\n79 is een geïsoleerd\
-      \ priemgetal.\n83 is een geïsoleerd priemgetal.\n89 is een geïsoleerd priemgetal.\n\
-      97 is een geïsoleerd priemgetal.\n113 is een geïsoleerd priemgetal.\n127 is\
-      \ een geïsoleerd priemgetal.\n131 is een geïsoleerd priemgetal.\n157 is een\
-      \ geïsoleerd priemgetal.\n163 is een geïsoleerd priemgetal.\n167 is een geïsoleerd\
-      \ priemgetal.\n173 is een geïsoleerd priemgetal.\n211 is een geïsoleerd priemgetal.\n\
-      223 is een geïsoleerd priemgetal.\n233 is een geïsoleerd priemgetal.\n251 is\
-      \ een geïsoleerd priemgetal.\n257 is een geïsoleerd priemgetal.\n263 is een\
-      \ geïsoleerd priemgetal.\n277 is een geïsoleerd priemgetal.\n293 is een geïsoleerd\
-      \ priemgetal.\n307 is een geïsoleerd priemgetal.\n317 is een geïsoleerd priemgetal.\n\
-      331 is een geïsoleerd priemgetal.\n337 is een geïsoleerd priemgetal.\n353 is\
-      \ een geïsoleerd priemgetal.\n359 is een geïsoleerd priemgetal.\n367 is een\
-      \ geïsoleerd priemgetal.\n373 is een geïsoleerd priemgetal.\n379 is een geïsoleerd\
-      \ priemgetal.\n383 is een geïsoleerd priemgetal.\n389 is een geïsoleerd priemgetal.\n\
-      397 is een geïsoleerd priemgetal.\n401 is een geïsoleerd priemgetal.\n409 is\
-      \ een geïsoleerd priemgetal.\n439 is een geïsoleerd priemgetal.\n443 is een\
-      \ geïsoleerd priemgetal.\n449 is een geïsoleerd priemgetal.\n457 is een geïsoleerd\
-      \ priemgetal.\n467 is een geïsoleerd priemgetal.\n479 is een geïsoleerd priemgetal.\n\
-      487 is een geïsoleerd priemgetal.\n491 is een geïsoleerd priemgetal.\n499 is\
-      \ een geïsoleerd priemgetal.\n503 is een geïsoleerd priemgetal.\n509 is een\
-      \ geïsoleerd priemgetal.\n541 is een geïsoleerd priemgetal.\n547 is een geïsoleerd\
-      \ priemgetal.\n557 is een geïsoleerd priemgetal.\n563 is een geïsoleerd priemgetal.\n\
-      577 is een geïsoleerd priemgetal.\n587 is een geïsoleerd priemgetal.\n593 is\
-      \ een geïsoleerd priemgetal.\n607 is een geïsoleerd priemgetal.\n613 is een\
-      \ geïsoleerd priemgetal.\n631 is een geïsoleerd priemgetal.\n647 is een geïsoleerd\
-      \ priemgetal.\n653 is een geïsoleerd priemgetal.\n673 is een geïsoleerd priemgetal.\n\
-      677 is een geïsoleerd priemgetal.\n683 is een geïsoleerd priemgetal.\n691 is\
-      \ een geïsoleerd priemgetal.\n701 is een geïsoleerd priemgetal.\n709 is een\
-      \ geïsoleerd priemgetal.\n719 is een geïsoleerd priemgetal.\n727 is een geïsoleerd\
-      \ priemgetal.\n733 is een geïsoleerd priemgetal.\n739 is een geïsoleerd priemgetal.\n\
-      743 is een geïsoleerd priemgetal.\n751 is een geïsoleerd priemgetal.\n757 is\
-      \ een geïsoleerd priemgetal.\n761 is een geïsoleerd priemgetal.\n769 is een\
-      \ geïsoleerd priemgetal.\n773 is een geïsoleerd priemgetal.\n787 is een geïsoleerd\
-      \ priemgetal.\n797 is een geïsoleerd priemgetal.\n839 is een geïsoleerd priemgetal.\n\
-      853 is een geïsoleerd priemgetal.\n863 is een geïsoleerd priemgetal.\n877 is\
-      \ een geïsoleerd priemgetal.\n887 is een geïsoleerd priemgetal.\n907 is een\
-      \ geïsoleerd priemgetal.\n911 is een geïsoleerd priemgetal.\n919 is een geïsoleerd\
-      \ priemgetal.\n929 is een geïsoleerd priemgetal.\n937 is een geïsoleerd priemgetal.\n\
-      941 is een geïsoleerd priemgetal.\n947 is een geïsoleerd priemgetal.\n953 is\
-      \ een geïsoleerd priemgetal.\n967 is een geïsoleerd priemgetal.\n971 is een\
-      \ geïsoleerd priemgetal.\n977 is een geïsoleerd priemgetal.\n983 is een geïsoleerd\
-      \ priemgetal.\n991 is een geïsoleerd priemgetal.\n997 is een geïsoleerd priemgetal."
+  contexts:
+  - testcases:
+    - stdin: '5'
+      stdout: "2 is een geïsoleerd priemgetal.\n"
+    - expression: is_priem(0)
+      return: false
+    - expression: is_priem(2)
+      return: true
+    - expression: is_priem(4)
+      return: false
+  - testcases:
+    - stdin: '20'
+      stdout: "2 is een geïsoleerd priemgetal.\n"
+    - expression: is_priem(0)
+      return: false
+    - expression: is_priem(2)
+      return: true
+    - expression: is_priem(4)
+      return: false
+  - testcases:
+    - stdin: '30'
+      stdout: "2 is een geïsoleerd priemgetal.\n23 is een geïsoleerd priemgetal.\n"
+    - expression: is_priem(21)
+      return: false
+    - expression: is_priem(23)
+      return: true
+    - expression: is_priem(25)
+      return: false
+  - testcases:
+    - stdin: '60'
+      stdout: "2 is een geïsoleerd priemgetal.\n23 is een geïsoleerd priemgetal.\n
+        37 is een geïsoleerd priemgetal.\n47 is een geïsoleerd priemgetal.\n53 is
+        een geïsoleerd priemgetal.\n"
+    - expression: is_priem(51)
+      return: false
+    - expression: is_priem(53)
+      return: true
+    - expression: is_priem(55)
+      return: false
+  - testcases:
+    - stdin: '100'
+      stdout: "2 is een geïsoleerd priemgetal.\n23 is een geïsoleerd priemgetal.\n
+        37 is een geïsoleerd priemgetal.\n47 is een geïsoleerd priemgetal.\n53 is
+        een geïsoleerd priemgetal.\n67 is een geïsoleerd priemgetal.\n79 is een geïsoleerd
+        priemgetal.\n83 is een geïsoleerd priemgetal.\n89 is een geïsoleerd priemgetal.\n
+        97 is een geïsoleerd priemgetal.\n"
+    - expression: is_priem(95)
+      return: false
+    - expression: is_priem(97)
+      return: true
+    - expression: is_priem(99)
+      return: false
+  - testcases:
+    - stdin: '200'
+      stdout: "2 is een geïsoleerd priemgetal.\n23 is een geïsoleerd priemgetal.\n
+        37 is een geïsoleerd priemgetal.\n47 is een geïsoleerd priemgetal.\n53 is
+        een geïsoleerd priemgetal.\n67 is een geïsoleerd priemgetal.\n79 is een geïsoleerd
+        priemgetal.\n83 is een geïsoleerd priemgetal.\n89 is een geïsoleerd priemgetal.\n
+        97 is een geïsoleerd priemgetal.\n113 is een geïsoleerd priemgetal.\n127 is
+        een geïsoleerd priemgetal.\n131 is een geïsoleerd priemgetal.\n157 is een
+        geïsoleerd priemgetal.\n163 is een geïsoleerd priemgetal.\n167 is een geïsoleerd
+        priemgetal.\n173 is een geïsoleerd priemgetal.\n"
+    - expression: is_priem(171)
+      return: false
+    - expression: is_priem(173)
+      return: true
+    - expression: is_priem(175)
+      return: false
+  - testcases:
+    - stdin: '500'
+      stdout: "2 is een geïsoleerd priemgetal.\n23 is een geïsoleerd priemgetal.\n
+        37 is een geïsoleerd priemgetal.\n47 is een geïsoleerd priemgetal.\n53 is
+        een geïsoleerd priemgetal.\n67 is een geïsoleerd priemgetal.\n79 is een geïsoleerd
+        priemgetal.\n83 is een geïsoleerd priemgetal.\n89 is een geïsoleerd priemgetal.\n
+        97 is een geïsoleerd priemgetal.\n113 is een geïsoleerd priemgetal.\n127 is
+        een geïsoleerd priemgetal.\n131 is een geïsoleerd priemgetal.\n157 is een
+        geïsoleerd priemgetal.\n163 is een geïsoleerd priemgetal.\n167 is een geïsoleerd
+        priemgetal.\n173 is een geïsoleerd priemgetal.\n211 is een geïsoleerd priemgetal.\n
+        223 is een geïsoleerd priemgetal.\n233 is een geïsoleerd priemgetal.\n251
+        is een geïsoleerd priemgetal.\n257 is een geïsoleerd priemgetal.\n263 is een
+        geïsoleerd priemgetal.\n277 is een geïsoleerd priemgetal.\n293 is een geïsoleerd
+        priemgetal.\n307 is een geïsoleerd priemgetal.\n317 is een geïsoleerd priemgetal.\n
+        331 is een geïsoleerd priemgetal.\n337 is een geïsoleerd priemgetal.\n353
+        is een geïsoleerd priemgetal.\n359 is een geïsoleerd priemgetal.\n367 is een
+        geïsoleerd priemgetal.\n373 is een geïsoleerd priemgetal.\n379 is een geïsoleerd
+        priemgetal.\n383 is een geïsoleerd priemgetal.\n389 is een geïsoleerd priemgetal.\n
+        397 is een geïsoleerd priemgetal.\n401 is een geïsoleerd priemgetal.\n409
+        is een geïsoleerd priemgetal.\n439 is een geïsoleerd priemgetal.\n443 is een
+        geïsoleerd priemgetal.\n449 is een geïsoleerd priemgetal.\n457 is een geïsoleerd
+        priemgetal.\n467 is een geïsoleerd priemgetal.\n479 is een geïsoleerd priemgetal.\n
+        487 is een geïsoleerd priemgetal.\n491 is een geïsoleerd priemgetal.\n499
+        is een geïsoleerd priemgetal.\n"
+    - expression: is_priem(497)
+      return: false
+    - expression: is_priem(499)
+      return: true
+    - expression: is_priem(501)
+      return: false
+  - testcases:
+    - stdin: '1000'
+      stdout: "2 is een geïsoleerd priemgetal.\n23 is een geïsoleerd priemgetal.\n
+        37 is een geïsoleerd priemgetal.\n47 is een geïsoleerd priemgetal.\n53 is
+        een geïsoleerd priemgetal.\n67 is een geïsoleerd priemgetal.\n79 is een geïsoleerd
+        priemgetal.\n83 is een geïsoleerd priemgetal.\n89 is een geïsoleerd priemgetal.\n
+        97 is een geïsoleerd priemgetal.\n113 is een geïsoleerd priemgetal.\n127 is
+        een geïsoleerd priemgetal.\n131 is een geïsoleerd priemgetal.\n157 is een
+        geïsoleerd priemgetal.\n163 is een geïsoleerd priemgetal.\n167 is een geïsoleerd
+        priemgetal.\n173 is een geïsoleerd priemgetal.\n211 is een geïsoleerd priemgetal.\n
+        223 is een geïsoleerd priemgetal.\n233 is een geïsoleerd priemgetal.\n251
+        is een geïsoleerd priemgetal.\n257 is een geïsoleerd priemgetal.\n263 is een
+        geïsoleerd priemgetal.\n277 is een geïsoleerd priemgetal.\n293 is een geïsoleerd
+        priemgetal.\n307 is een geïsoleerd priemgetal.\n317 is een geïsoleerd priemgetal.\n
+        331 is een geïsoleerd priemgetal.\n337 is een geïsoleerd priemgetal.\n353
+        is een geïsoleerd priemgetal.\n359 is een geïsoleerd priemgetal.\n367 is een
+        geïsoleerd priemgetal.\n373 is een geïsoleerd priemgetal.\n379 is een geïsoleerd
+        priemgetal.\n383 is een geïsoleerd priemgetal.\n389 is een geïsoleerd priemgetal.\n
+        397 is een geïsoleerd priemgetal.\n401 is een geïsoleerd priemgetal.\n409
+        is een geïsoleerd priemgetal.\n439 is een geïsoleerd priemgetal.\n443 is een
+        geïsoleerd priemgetal.\n449 is een geïsoleerd priemgetal.\n457 is een geïsoleerd
+        priemgetal.\n467 is een geïsoleerd priemgetal.\n479 is een geïsoleerd priemgetal.\n
+        487 is een geïsoleerd priemgetal.\n491 is een geïsoleerd priemgetal.\n499
+        is een geïsoleerd priemgetal.\n503 is een geïsoleerd priemgetal.\n509 is een
+        geïsoleerd priemgetal.\n541 is een geïsoleerd priemgetal.\n547 is een geïsoleerd
+        priemgetal.\n557 is een geïsoleerd priemgetal.\n563 is een geïsoleerd priemgetal.\n
+        577 is een geïsoleerd priemgetal.\n587 is een geïsoleerd priemgetal.\n593
+        is een geïsoleerd priemgetal.\n607 is een geïsoleerd priemgetal.\n613 is een
+        geïsoleerd priemgetal.\n631 is een geïsoleerd priemgetal.\n647 is een geïsoleerd
+        priemgetal.\n653 is een geïsoleerd priemgetal.\n673 is een geïsoleerd priemgetal.\n
+        677 is een geïsoleerd priemgetal.\n683 is een geïsoleerd priemgetal.\n691
+        is een geïsoleerd priemgetal.\n701 is een geïsoleerd priemgetal.\n709 is een
+        geïsoleerd priemgetal.\n719 is een geïsoleerd priemgetal.\n727 is een geïsoleerd
+        priemgetal.\n733 is een geïsoleerd priemgetal.\n739 is een geïsoleerd priemgetal.\n
+        743 is een geïsoleerd priemgetal.\n751 is een geïsoleerd priemgetal.\n757
+        is een geïsoleerd priemgetal.\n761 is een geïsoleerd priemgetal.\n769 is een
+        geïsoleerd priemgetal.\n773 is een geïsoleerd priemgetal.\n787 is een geïsoleerd
+        priemgetal.\n797 is een geïsoleerd priemgetal.\n839 is een geïsoleerd priemgetal.\n
+        853 is een geïsoleerd priemgetal.\n863 is een geïsoleerd priemgetal.\n877
+        is een geïsoleerd priemgetal.\n887 is een geïsoleerd priemgetal.\n907 is een
+        geïsoleerd priemgetal.\n911 is een geïsoleerd priemgetal.\n919 is een geïsoleerd
+        priemgetal.\n929 is een geïsoleerd priemgetal.\n937 is een geïsoleerd priemgetal.\n
+        941 is een geïsoleerd priemgetal.\n947 is een geïsoleerd priemgetal.\n953
+        is een geïsoleerd priemgetal.\n967 is een geïsoleerd priemgetal.\n971 is een
+        geïsoleerd priemgetal.\n977 is een geïsoleerd priemgetal.\n983 is een geïsoleerd
+        priemgetal.\n991 is een geïsoleerd priemgetal.\n997 is een geïsoleerd priemgetal.\n"
+    - expression: is_priem(995)
+      return: false
+    - expression: is_priem(997)
+      return: true
+    - expression: is_priem(999)
+      return: false
+  - testcases:
+    - stdin: '1500'
+      stdout: "2 is een geïsoleerd priemgetal.\n23 is een geïsoleerd priemgetal.\n
+        37 is een geïsoleerd priemgetal.\n47 is een geïsoleerd priemgetal.\n53 is
+        een geïsoleerd priemgetal.\n67 is een geïsoleerd priemgetal.\n79 is een geïsoleerd
+        priemgetal.\n83 is een geïsoleerd priemgetal.\n89 is een geïsoleerd priemgetal.\n
+        97 is een geïsoleerd priemgetal.\n113 is een geïsoleerd priemgetal.\n127 is
+        een geïsoleerd priemgetal.\n131 is een geïsoleerd priemgetal.\n157 is een
+        geïsoleerd priemgetal.\n163 is een geïsoleerd priemgetal.\n167 is een geïsoleerd
+        priemgetal.\n173 is een geïsoleerd priemgetal.\n211 is een geïsoleerd priemgetal.\n
+        223 is een geïsoleerd priemgetal.\n233 is een geïsoleerd priemgetal.\n251
+        is een geïsoleerd priemgetal.\n257 is een geïsoleerd priemgetal.\n263 is een
+        geïsoleerd priemgetal.\n277 is een geïsoleerd priemgetal.\n293 is een geïsoleerd
+        priemgetal.\n307 is een geïsoleerd priemgetal.\n317 is een geïsoleerd priemgetal.\n
+        331 is een geïsoleerd priemgetal.\n337 is een geïsoleerd priemgetal.\n353
+        is een geïsoleerd priemgetal.\n359 is een geïsoleerd priemgetal.\n367 is een
+        geïsoleerd priemgetal.\n373 is een geïsoleerd priemgetal.\n379 is een geïsoleerd
+        priemgetal.\n383 is een geïsoleerd priemgetal.\n389 is een geïsoleerd priemgetal.\n
+        397 is een geïsoleerd priemgetal.\n401 is een geïsoleerd priemgetal.\n409
+        is een geïsoleerd priemgetal.\n439 is een geïsoleerd priemgetal.\n443 is een
+        geïsoleerd priemgetal.\n449 is een geïsoleerd priemgetal.\n457 is een geïsoleerd
+        priemgetal.\n467 is een geïsoleerd priemgetal.\n479 is een geïsoleerd priemgetal.\n
+        487 is een geïsoleerd priemgetal.\n491 is een geïsoleerd priemgetal.\n499
+        is een geïsoleerd priemgetal.\n503 is een geïsoleerd priemgetal.\n509 is een
+        geïsoleerd priemgetal.\n541 is een geïsoleerd priemgetal.\n547 is een geïsoleerd
+        priemgetal.\n557 is een geïsoleerd priemgetal.\n563 is een geïsoleerd priemgetal.\n
+        577 is een geïsoleerd priemgetal.\n587 is een geïsoleerd priemgetal.\n593
+        is een geïsoleerd priemgetal.\n607 is een geïsoleerd priemgetal.\n613 is een
+        geïsoleerd priemgetal.\n631 is een geïsoleerd priemgetal.\n647 is een geïsoleerd
+        priemgetal.\n653 is een geïsoleerd priemgetal.\n673 is een geïsoleerd priemgetal.\n
+        677 is een geïsoleerd priemgetal.\n683 is een geïsoleerd priemgetal.\n691
+        is een geïsoleerd priemgetal.\n701 is een geïsoleerd priemgetal.\n709 is een
+        geïsoleerd priemgetal.\n719 is een geïsoleerd priemgetal.\n727 is een geïsoleerd
+        priemgetal.\n733 is een geïsoleerd priemgetal.\n739 is een geïsoleerd priemgetal.\n
+        743 is een geïsoleerd priemgetal.\n751 is een geïsoleerd priemgetal.\n757
+        is een geïsoleerd priemgetal.\n761 is een geïsoleerd priemgetal.\n769 is een
+        geïsoleerd priemgetal.\n773 is een geïsoleerd priemgetal.\n787 is een geïsoleerd
+        priemgetal.\n797 is een geïsoleerd priemgetal.\n839 is een geïsoleerd priemgetal.\n
+        853 is een geïsoleerd priemgetal.\n863 is een geïsoleerd priemgetal.\n877
+        is een geïsoleerd priemgetal.\n887 is een geïsoleerd priemgetal.\n907 is een
+        geïsoleerd priemgetal.\n911 is een geïsoleerd priemgetal.\n919 is een geïsoleerd
+        priemgetal.\n929 is een geïsoleerd priemgetal.\n937 is een geïsoleerd priemgetal.\n
+        941 is een geïsoleerd priemgetal.\n947 is een geïsoleerd priemgetal.\n953
+        is een geïsoleerd priemgetal.\n967 is een geïsoleerd priemgetal.\n971 is een
+        geïsoleerd priemgetal.\n977 is een geïsoleerd priemgetal.\n983 is een geïsoleerd
+        priemgetal.\n991 is een geïsoleerd priemgetal.\n997 is een geïsoleerd priemgetal.\n
+        1009 is een geïsoleerd priemgetal.\n1013 is een geïsoleerd priemgetal.\n1039
+        is een geïsoleerd priemgetal.\n1069 is een geïsoleerd priemgetal.\n1087 is
+        een geïsoleerd priemgetal.\n1097 is een geïsoleerd priemgetal.\n1103 is een
+        geïsoleerd priemgetal.\n1109 is een geïsoleerd priemgetal.\n1117 is een geïsoleerd
+        priemgetal.\n1123 is een geïsoleerd priemgetal.\n1129 is een geïsoleerd priemgetal.\n
+        1163 is een geïsoleerd priemgetal.\n1171 is een geïsoleerd priemgetal.\n1181
+        is een geïsoleerd priemgetal.\n1187 is een geïsoleerd priemgetal.\n1193 is
+        een geïsoleerd priemgetal.\n1201 is een geïsoleerd priemgetal.\n1213 is een
+        geïsoleerd priemgetal.\n1217 is een geïsoleerd priemgetal.\n1223 is een geïsoleerd
+        priemgetal.\n1237 is een geïsoleerd priemgetal.\n1249 is een geïsoleerd priemgetal.\n
+        1259 is een geïsoleerd priemgetal.\n1283 is een geïsoleerd priemgetal.\n1297
+        is een geïsoleerd priemgetal.\n1307 is een geïsoleerd priemgetal.\n1327 is
+        een geïsoleerd priemgetal.\n1361 is een geïsoleerd priemgetal.\n1367 is een
+        geïsoleerd priemgetal.\n1373 is een geïsoleerd priemgetal.\n1381 is een geïsoleerd
+        priemgetal.\n1399 is een geïsoleerd priemgetal.\n1409 is een geïsoleerd priemgetal.\n
+        1423 is een geïsoleerd priemgetal.\n1433 is een geïsoleerd priemgetal.\n1439
+        is een geïsoleerd priemgetal.\n1447 is een geïsoleerd priemgetal.\n1459 is
+        een geïsoleerd priemgetal.\n1471 is een geïsoleerd priemgetal.\n1493 is een
+        geïsoleerd priemgetal.\n1499 is een geïsoleerd priemgetal.\n"
+    - expression: is_priem(1497)
+      return: false
+    - expression: is_priem(1499)
+      return: true
+    - expression: is_priem(1501)
+      return: false

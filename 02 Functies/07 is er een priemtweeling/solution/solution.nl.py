@@ -20,5 +20,6 @@ def priemtweeling( getal ):
 
 # Invoer vragen
 getal = int(input( "Geef een getal in: " ) )
+
 # Uitvoer
 priemtweeling(getal)

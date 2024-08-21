@@ -6,7 +6,7 @@ def is_priem(getal):
     return i == getal
 
 # invoer vragen
-bovengrens = int( input( "Geef een bovengrens in: " ) )
+bovengrens = int(input("Geef een bovengrens in: " ))
 
 # priemtweelingen afdrukken
 for i in range(2, bovengrens):

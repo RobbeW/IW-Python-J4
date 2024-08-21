@@ -1,6 +1,5 @@
 import os
-import sys
-import importlib
+import importlib.util
 import random
 import ruamel.yaml
 import subprocess
@@ -33,12 +32,36 @@ module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 
 # generate test data
+def is_priem(getal):
+    i = 2
+    while i < getal and getal % i != 0:
+        i = i + 1
+    # Indien geen delers werden gevonden is i == getal
+    return i == getal
+
+def prev_priem(getal):
+    getal -= 1
+    if not is_priem(getal):
+        getal -= 1
+    return getal
+
 ntests = 30
-cases = [ (5,) ,(11,),(20,),(53,), (599,),(521,), (523,), (605,),(827,), (881,),(883,)]
+cases = [ (5,) ,(11,),(20,),(53,), (599,),(521,), (523,), (605,),(827,), (881,),(883,), (823,), (281,), (1873,)]
 
 while len( cases ) < ntests:
-    a = random.randint(2, 1000)
-    cases.append( (a, ) )
+    a = random.randint(2, 2000)
+    if random.randint(0,3) != 0:
+        if is_priem(a) and (a,) not in cases:
+            cases.append( (a, ) )
+        else:
+            a = prev_priem(a)
+            if (a,) not in cases:
+                cases.append( (a,))
+    else:
+        if (a,) not in cases:
+            cases.append( (a, ) )
+
+cases.sort()
     
 # generate unit tests for functions
 yamldata = []
@@ -81,10 +104,16 @@ for i in range(len(cases)):
     
     # generate test expression
     
-    expression_name = 'priemtweeling( {} )'.format( test[0] )
-    result = module.priemtweeling( test[0] )
+    expression_name = f"is_priem({test[0]})"
+    result = module.is_priem(test[0])
 
-    print(result)
+    # setup for return expressions
+    testcase = { "expression": expression_name, "return": result }
+    yamldata[0]['contexts'][i]["testcases"].append( testcase)
+    
+    expression_name = f"priemtweeling({test[0]})"
+    result = module.priemtweeling(test[0])
+
     # setup for return expressions
     testcase = { "expression": expression_name, "stdout": outputtxt }
     yamldata[0]['contexts'][i]["testcases"].append( testcase)
