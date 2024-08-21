@@ -2,16 +2,16 @@ Het <a href="https://nl.wikipedia.org/wiki/Monster_van_Loch_Ness" target="_blank
 
 ![Een moderne reconstructie van de beroemde foto uit 1934 door Max2611/Getty Images.](media/nessy.png "Een moderne reconstructie van de beroemde foto uit 1934 door Max2611/Getty Images."){:data-caption="Een moderne reconstructie van de beroemde foto uit 1934 door Max2611/Getty Images."  width="45%"}
 
-In juli 2003 maakte de zender BBC een programma <a href="http://news.bbc.co.uk/2/hi/science/nature/3096839.stm" target="_blank">Searching for the Loch Ness Monster</a> waarbij met behulp van sonarstralen het monster gezocht werd. Ze konden echter geen spoor terugvinden.
+In juli 2003 maakte de zender BBC het programma "<a href="http://news.bbc.co.uk/2/hi/science/nature/3096839.stm" target="_blank">Searching for the Loch Ness Monster</a>" waarbij met behulp van sonarstralen het monster gezocht werd. Er werd echter geen spoor van Nessie gevonden.
 
 ## Opgave
 
-Stel dat je het onderzoek wil overdoen. Gegeven een rooster van n rijen en m kolommen die het meer voorstellen, bepaal dan het **minimale** aantal sonarzenders dat je nodig hebt om elke positie te observeren. Hou hierbij rekening met de volgende voorwaarden:
+Stel dat je het onderzoek wil overdoen op een rooster van n rijen en m kolommen die het meer voorstellen. Zoek nu het **minimale** aantal sonarzenders dat je nodig hebt om elke positie te observeren. Hou hierbij rekening met de volgende voorwaarden:
 
 - elke sonar neemt één positie in het rooster in; de sonar controleert de eigen positie en de omliggende posities.
 - de rand hoeft niet gecontroleerd te worden gezien Nessie zich daar niet kan verbergen.
 
-Links zie je een voorbeeld van een sonar, en de velden die door de sonar gecontroleerd worden. Rechts zie je een oplossing op een rooster met 9 rijen en 13 kolommen.
+Links zie je een voorbeeld van een sonar, en de velden die door de sonar gecontroleerd worden. Rechts zie je een mogelijke oplossing op een rooster met 9 rijen en 13 kolommen.
 
 ![Een voorbeeld van een sonar en een oplossing op een 9 x 13 rooster.](media/image.png "Een voorbeeld van een sonar en een oplossing op een 9 x 13 rooster."){:data-caption="Een voorbeeld van een sonar en een oplossing op een 9 x 13 rooster." .light-only width="70%"}
 
