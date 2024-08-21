@@ -12,7 +12,8 @@
   },
   "labels": [
     "evaluatie",
-    "functies"
+    "functies",
+    "selectie"
   ],
   "access": "public",
   "internals": {

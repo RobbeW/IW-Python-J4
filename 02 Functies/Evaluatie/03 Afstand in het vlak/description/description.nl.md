@@ -16,10 +16,28 @@ Bij de punten A(0,0), B(4, 0) en C(2,5) verschijnt er:
 ```
 Driehoek ABC is gelijkbenig.
 ```
+want
+```python
+>>> afstand(0, 0, 4, 0)
+4.0
+>>> afstand(0, 0, 2, 5)
+5.4
+>>> afstand(4, 0, 2, 5)
+5.4
+```
 
 Bij de punten A(0,0), B(4, 0) en C(2,3.46) verschijnt er:
 ```
 Driehoek ABC is gelijkzijdig.
+```
+want
+```python
+>>> afstand(0, 0, 4, 0)
+4.0
+>>> afstand(0, 0, 2, 3.46)
+4.0
+>>> afstand(4, 0, 2, 3.46)
+4.0
 ```
 
 {: .callout.callout-info}

@@ -12,9 +12,17 @@ Indien men als eerste getal `150.0` ingeeft en als tweede `150.1` met een tolera
 ```
 150.0 en 150.1 zijn bijna aan elkaar gelijk.
 ```
+```python
+>>> bijnagelijk(150.0, 150.1, 0.5)
+True
+```
 
 Indien men als eerste getal `150.0` ingeeft en als tweede `150.1` met een tolerantie van `0.01`, dan liggen deze getallen **niet** dicht genoeg in elkaars buurt en verschijnt er:
 
 ```
 150.0 en 150.1 verschillen teveel.
+```
+```python
+>>> bijnagelijk(150.0, 150.1, 0.01)
+False
 ```

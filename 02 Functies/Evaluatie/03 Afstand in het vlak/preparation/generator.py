@@ -1,7 +1,7 @@
 import os
 import math
 import sys
-import importlib
+import importlib.util
 import random
 import ruamel.yaml
 import subprocess
@@ -133,23 +133,25 @@ for i in range(len(cases)):
     yamldata[0]['contexts'][i]["testcases"].append( testcase)
     
     # generate test expression
-    expression_name = 'afstand( {} , {}, {}, {} )'.format( x1 , y1, x2, y2 )
-    result = module.afstand( x1 , y1, x2, y2 )
+    expression_name = f"afstand({x1}, {y1}, {x2}, {y2})"
+    result = module.afstand(x1 , y1, x2, y2)
 
     print(result)
     # setup for return expressions
     testcase = { "expression": expression_name, "return": result }
     yamldata[0]['contexts'][i]["testcases"].append( testcase)
+    
     # generate test expression
-    expression_name = 'afstand( {} , {}, {}, {} )'.format( x1 , y1, x3, y3 )
+    expression_name = f"afstand({x1}, {y1}, {x3}, {y3})"
     result = module.afstand( x1 , y1, x3, y3 )
 
     print(result)
     # setup for return expressions
     testcase = { "expression": expression_name, "return": result }
     yamldata[0]['contexts'][i]["testcases"].append( testcase)
+    
     # generate test expression
-    expression_name = 'afstand( {} , {}, {}, {} )'.format( x2 , y2, x3, y3 )
+    expression_name = f"afstand({x2}, {y2}, {x3}, {y3})"
     result = module.afstand( x2 , y2, x3, y3 )
 
     print(result)

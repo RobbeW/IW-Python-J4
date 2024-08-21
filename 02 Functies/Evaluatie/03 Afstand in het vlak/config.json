@@ -13,7 +13,8 @@
   "labels": [
     "evaluatie",
     "functies",
-    "math"
+    "math",
+    "selectie"
   ],
   "access": "public",
   "internals": {

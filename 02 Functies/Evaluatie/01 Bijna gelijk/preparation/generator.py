@@ -1,6 +1,5 @@
 import os
-import sys
-import importlib
+import importlib.util
 import random
 import ruamel.yaml
 import subprocess
@@ -90,8 +89,8 @@ for i in range(len(cases)):
     
     # generate test expression
     #
-    expression_name = 'bijnagelijk( {} , {}, {} )'.format( test[0] , test[1], test[2]  )
-    result = module.bijnagelijk( test[0], test[1], test[2] )
+    expression_name = f"bijnagelijk({test[0]}, {test[1]}, {test[2]})"
+    result = module.bijnagelijk(test[0], test[1], test[2])
 
     print(result)
     # setup for return expressions
