@@ -55,16 +55,16 @@ for i in range(len(cases)):
         
     # generate test expression
     #
-    expression_name = f"RGBtoCMYK({test})"
-    result = module.RGBtoCMYK(test)
+    expression_name = f"rgb_to_cmyk({test})"
+    result = module.rgb_to_cmyk(test)
 
     print(result)
     # setup for return expressions
     testcase = { "expression": expression_name, "return": result }
     yamldata[0]['contexts'][i]["testcases"].append( testcase)
     
-    expression_name = f"CMYKtoRGB({result})"
-    result = module.CMYKtoRGB(result)
+    expression_name = f"cmyk_to_rgb({result})"
+    result = module.cmyk_to_rgb(result)
 
     print(result)
     # setup for return expressions

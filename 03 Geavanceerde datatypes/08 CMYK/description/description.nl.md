@@ -5,7 +5,7 @@ Bij kwalitatieve kleurendruk wordt meestal geen RGB kleurensysteem gebruikt, maa
 Een CMYK kleurcode bestaat uit **vier percentages** of **kommagetallen**, die telkens aangeven hoeveel procent van de specifieke kleur gedrukt moet worden. Key staat voor de hoeveelheid zwart, zo staat de CMYK kleurcode (0%, 0%, 0%, 100%) voor een zwarte kleur.
 
 ## Opgave
-Schrijf een functie `RGBtoCMYK(kleurcode)` die gegeven een **RGB**-kleurcode als **tupel** de vier CMYK-waarden (als tupel) bepaalt. Rond af op 2 decimalen. Gebruik hiervoor de volgende formules:
+Schrijf een functie `rgb_to_cmyk(kleurcode)` die gegeven een **RGB**-kleurcode als **tupel** de vier CMYK-waarden (als tupel) bepaalt. Rond af op 2 decimalen. Gebruik hiervoor de volgende formules:
 
 <div class="dodona-centered-group">
     K = 1- maximum(<span style="color:#FF0000">R</span>, <span style="color:#00FF00">G</span>, <span style="color:#0000FF">B</span>) / 255<br/>
@@ -16,7 +16,7 @@ Schrijf een functie `RGBtoCMYK(kleurcode)` die gegeven een **RGB**-kleurcode als
 
 Indien K gelijk is aan 1, dan zijn alle waarden <span style="color:#00C5C0">C</span>, <span style="color:#FD01FD">M</span>, <span style="color:#F1EB01">Y</span> allen gelijk aan 0.
 
-Schrijf daarna een tweede functie `CMYKtoRGB(kleurcode)` die gegeven een **CMYK**-kleurcode als **tupel** de drie RGB-waarden (als tupel) bepaalt. Vorm dit om naar gehele getallen door **naar boven af te ronden**. Gebruik hierbij de volgende formules
+Schrijf daarna een tweede functie `cmyk_to_rgb(kleurcode)` die gegeven een **CMYK**-kleurcode als **tupel** de drie RGB-waarden (als tupel) bepaalt. Vorm dit om naar gehele getallen door **naar boven af te ronden**. Gebruik hierbij de volgende formules
 
 <div class="dodona-centered-group">
     <span style="color:#FF0000">R</span> = 255 · (1 - <span style="color:#00C5C0">C</span>) · (1 - K) <br/>
@@ -27,14 +27,14 @@ Schrijf daarna een tweede functie `CMYKtoRGB(kleurcode)` die gegeven een **CMYK*
 #### Voorbeeld
 
 ```python
->>> RGBtoCMYK((48, 213, 200))
+>>> rgb_to_cmyk((48, 213, 200))
 (0.78, 0.01, 0.07, 0.16)
 ```
 
 en 
 
 ```python
->>> CMYKtoRGB((0.78, 0.01, 0.07, 0.16))
+>>> cmyk_to_rgb((0.78, 0.01, 0.07, 0.16))
 (48, 213, 200)
 ```
 
