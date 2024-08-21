@@ -1,0 +1,324 @@
+- tab: Feedback score
+  contexts:
+  - testcases:
+    - expression: score(1, 2)
+      return: 1000
+    - expression: score(1, 3)
+      return: 31
+  - testcases:
+    - expression: score(3, 3)
+      return: 300
+    - expression: score(2, 1)
+      return: 1000
+  - testcases:
+    - expression: score(6, 6)
+      return: 600
+    - expression: score(2, 2)
+      return: 200
+  - testcases:
+    - expression: score(4, 2)
+      return: 42
+    - expression: score(2, 4)
+      return: 42
+  - testcases:
+    - expression: score(1, 2)
+      return: 1000
+    - expression: score(1, 2)
+      return: 1000
+  - testcases:
+    - expression: score(6, 1)
+      return: 61
+    - expression: score(6, 5)
+      return: 65
+  - testcases:
+    - expression: score(2, 3)
+      return: 32
+    - expression: score(5, 5)
+      return: 500
+  - testcases:
+    - expression: score(5, 6)
+      return: 65
+    - expression: score(5, 1)
+      return: 51
+  - testcases:
+    - expression: score(3, 1)
+      return: 31
+    - expression: score(2, 3)
+      return: 32
+  - testcases:
+    - expression: score(1, 4)
+      return: 41
+    - expression: score(1, 3)
+      return: 31
+  - testcases:
+    - expression: score(6, 2)
+      return: 62
+    - expression: score(4, 5)
+      return: 54
+  - testcases:
+    - expression: score(1, 4)
+      return: 41
+    - expression: score(2, 5)
+      return: 52
+  - testcases:
+    - expression: score(2, 3)
+      return: 32
+    - expression: score(1, 3)
+      return: 31
+  - testcases:
+    - expression: score(1, 4)
+      return: 41
+    - expression: score(3, 5)
+      return: 53
+  - testcases:
+    - expression: score(6, 3)
+      return: 63
+    - expression: score(4, 2)
+      return: 42
+  - testcases:
+    - expression: score(6, 1)
+      return: 61
+    - expression: score(2, 2)
+      return: 200
+  - testcases:
+    - expression: score(2, 5)
+      return: 52
+    - expression: score(4, 4)
+      return: 400
+  - testcases:
+    - expression: score(2, 5)
+      return: 52
+    - expression: score(5, 4)
+      return: 54
+  - testcases:
+    - expression: score(6, 1)
+      return: 61
+    - expression: score(3, 5)
+      return: 53
+  - testcases:
+    - expression: score(2, 2)
+      return: 200
+    - expression: score(1, 4)
+      return: 41
+  - testcases:
+    - expression: score(2, 4)
+      return: 42
+    - expression: score(2, 6)
+      return: 62
+  - testcases:
+    - expression: score(2, 5)
+      return: 52
+    - expression: score(3, 6)
+      return: 63
+  - testcases:
+    - expression: score(2, 1)
+      return: 1000
+    - expression: score(4, 2)
+      return: 42
+  - testcases:
+    - expression: score(5, 4)
+      return: 54
+    - expression: score(6, 1)
+      return: 61
+  - testcases:
+    - expression: score(6, 3)
+      return: 63
+    - expression: score(6, 4)
+      return: 64
+  - testcases:
+    - expression: score(4, 3)
+      return: 43
+    - expression: score(3, 5)
+      return: 53
+  - testcases:
+    - expression: score(6, 3)
+      return: 63
+    - expression: score(6, 3)
+      return: 63
+  - testcases:
+    - expression: score(6, 6)
+      return: 600
+    - expression: score(2, 3)
+      return: 32
+  - testcases:
+    - expression: score(4, 1)
+      return: 41
+    - expression: score(5, 3)
+      return: 53
+  - testcases:
+    - expression: score(1, 6)
+      return: 61
+    - expression: score(2, 6)
+      return: 62
+  - testcases:
+    - expression: score(4, 6)
+      return: 64
+    - expression: score(6, 1)
+      return: 61
+  - testcases:
+    - expression: score(6, 3)
+      return: 63
+    - expression: score(2, 3)
+      return: 32
+  - testcases:
+    - expression: score(5, 5)
+      return: 500
+    - expression: score(4, 1)
+      return: 41
+  - testcases:
+    - expression: score(2, 3)
+      return: 32
+    - expression: score(2, 6)
+      return: 62
+  - testcases:
+    - expression: score(6, 4)
+      return: 64
+    - expression: score(3, 6)
+      return: 63
+  - testcases:
+    - expression: score(4, 3)
+      return: 43
+    - expression: score(2, 4)
+      return: 42
+  - testcases:
+    - expression: score(1, 4)
+      return: 41
+    - expression: score(2, 2)
+      return: 200
+  - testcases:
+    - expression: score(2, 2)
+      return: 200
+    - expression: score(1, 2)
+      return: 1000
+  - testcases:
+    - expression: score(2, 4)
+      return: 42
+    - expression: score(6, 3)
+      return: 63
+  - testcases:
+    - expression: score(6, 2)
+      return: 62
+    - expression: score(6, 2)
+      return: 62
+- tab: Feedback mexen
+  contexts:
+  - testcases:
+    - expression: mexen(1, 2, 1, 3)
+      return: speler 1
+  - testcases:
+    - expression: mexen(3, 3, 2, 1)
+      return: speler 2
+  - testcases:
+    - expression: mexen(6, 6, 2, 2)
+      return: speler 1
+  - testcases:
+    - expression: mexen(4, 2, 2, 4)
+      return: gelijkspel
+  - testcases:
+    - expression: mexen(1, 2, 1, 2)
+      return: gelijkspel
+  - testcases:
+    - expression: mexen(6, 1, 6, 5)
+      return: speler 2
+  - testcases:
+    - expression: mexen(2, 3, 5, 5)
+      return: speler 2
+  - testcases:
+    - expression: mexen(5, 6, 5, 1)
+      return: speler 1
+  - testcases:
+    - expression: mexen(3, 1, 2, 3)
+      return: speler 2
+  - testcases:
+    - expression: mexen(1, 4, 1, 3)
+      return: speler 1
+  - testcases:
+    - expression: mexen(6, 2, 4, 5)
+      return: speler 1
+  - testcases:
+    - expression: mexen(1, 4, 2, 5)
+      return: speler 2
+  - testcases:
+    - expression: mexen(2, 3, 1, 3)
+      return: speler 1
+  - testcases:
+    - expression: mexen(1, 4, 3, 5)
+      return: speler 2
+  - testcases:
+    - expression: mexen(6, 3, 4, 2)
+      return: speler 1
+  - testcases:
+    - expression: mexen(6, 1, 2, 2)
+      return: speler 2
+  - testcases:
+    - expression: mexen(2, 5, 4, 4)
+      return: speler 2
+  - testcases:
+    - expression: mexen(2, 5, 5, 4)
+      return: speler 2
+  - testcases:
+    - expression: mexen(6, 1, 3, 5)
+      return: speler 1
+  - testcases:
+    - expression: mexen(2, 2, 1, 4)
+      return: speler 1
+  - testcases:
+    - expression: mexen(2, 4, 2, 6)
+      return: speler 2
+  - testcases:
+    - expression: mexen(2, 5, 3, 6)
+      return: speler 2
+  - testcases:
+    - expression: mexen(2, 1, 4, 2)
+      return: speler 1
+  - testcases:
+    - expression: mexen(5, 4, 6, 1)
+      return: speler 2
+  - testcases:
+    - expression: mexen(6, 3, 6, 4)
+      return: speler 2
+  - testcases:
+    - expression: mexen(4, 3, 3, 5)
+      return: speler 2
+  - testcases:
+    - expression: mexen(6, 3, 6, 3)
+      return: gelijkspel
+  - testcases:
+    - expression: mexen(6, 6, 2, 3)
+      return: speler 1
+  - testcases:
+    - expression: mexen(4, 1, 5, 3)
+      return: speler 2
+  - testcases:
+    - expression: mexen(1, 6, 2, 6)
+      return: speler 2
+  - testcases:
+    - expression: mexen(4, 6, 6, 1)
+      return: speler 1
+  - testcases:
+    - expression: mexen(6, 3, 2, 3)
+      return: speler 1
+  - testcases:
+    - expression: mexen(5, 5, 4, 1)
+      return: speler 1
+  - testcases:
+    - expression: mexen(2, 3, 2, 6)
+      return: speler 2
+  - testcases:
+    - expression: mexen(6, 4, 3, 6)
+      return: speler 1
+  - testcases:
+    - expression: mexen(4, 3, 2, 4)
+      return: speler 1
+  - testcases:
+    - expression: mexen(1, 4, 2, 2)
+      return: speler 2
+  - testcases:
+    - expression: mexen(2, 2, 1, 2)
+      return: speler 2
+  - testcases:
+    - expression: mexen(2, 4, 6, 3)
+      return: speler 2
+  - testcases:
+    - expression: mexen(6, 2, 6, 2)
+      return: gelijkspel

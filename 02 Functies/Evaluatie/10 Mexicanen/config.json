@@ -1,21 +1,21 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "access": "public",
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "description": {
     "names": {
-      "nl": "2.2 - Speciaal Karakter",
-      "en": "2.2 - Special Character"
+      "nl": "Mexen"
     }
   },
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "labels": [
-    "python",
-    "VBTL"
+    "evaluatie",
+    "functies",
+    "selectie"
   ],
-  "contact": "Robbe W <robbe.wulgaert@sintlievenscollege.be>",
+  "access": "public",
   "internals": {
     "token": "udjE_yMfE_TjWY4yEK2Kw4EdwFkj8CfY2-_VRDzisYwcBYYN9i6HNMMqN8rVeyAy",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
