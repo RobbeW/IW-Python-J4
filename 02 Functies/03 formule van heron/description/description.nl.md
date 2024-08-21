@@ -23,8 +23,19 @@ Geeft de gebruiker `4`, `13` en `15` in, dan verschijnt er:
 ```
 De oppervlakte bedraagt 24.0 cm².
 ```
+de functie werkt hier immers als volgt:
+```
+>>> oppervlakte(4, 13, 15)
+24.0
+```
+
 
 Geeft de gebruiker `15`, `18` en `20` in, dan verschijnt er:
 ```
 De oppervlakte bedraagt 129.76 cm².
+```
+de functie werkt hier immers als volgt:
+```
+>>> oppervlakte(15, 8, 20)
+129.76
 ```
