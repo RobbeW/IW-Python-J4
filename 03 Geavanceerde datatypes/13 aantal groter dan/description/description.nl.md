@@ -5,8 +5,8 @@ Programmeer een functie `groter_dan(lijst, getal)` dat gegeven een lijst het aan
 #### Voorbeeld
 
 De `return` waarde van de volgende functie is dit:
-```
->>> groter_dan( [1, 2, 3, 4, 1, 6], 3 )
+```python
+>>> groter_dan([1, 2, 3, 4, 1, 6], 3)
 2
 ```
 

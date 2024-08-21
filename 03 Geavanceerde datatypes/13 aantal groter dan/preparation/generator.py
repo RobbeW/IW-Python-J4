@@ -1,9 +1,8 @@
 import os
 import sys
-import importlib
+import importlib.util
 import random
 import ruamel.yaml
-import subprocess
 from io import StringIO 
 
 
@@ -52,7 +51,10 @@ while len(cases) < ntests:
     n = random.randint(3,50)
     lijst = list( random.randint(0,150) for _ in range(n) )
     getal = random.randint(0,150)
-    cases.append( (lijst, getal))
+    if (lijst, getal) not in cases:
+        cases.append( (lijst, getal))
+
+cases = sorted(cases, key = lambda x: len(x[0]))
 
     
 # generate unit tests for functions
@@ -72,10 +74,10 @@ for i in range(len(cases)):
         
     # generate test expression
     #
-    expression_name = f"groter_dan( {test[0]}, {test[1]} )"
+    expression_name = f"groter_dan({test[0]}, {test[1]})"
     
     with Capturing() as output:
-        result = module.groter_dan( test[0], test[1] )
+        result = module.groter_dan(test[0], test[1])
 
     outputtxt = ""
     for txt in output:
