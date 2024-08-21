@@ -1,6 +1,5 @@
 import os
-import sys
-import importlib
+import importlib.util
 import random
 import ruamel.yaml
 import subprocess
@@ -37,7 +36,7 @@ ntests= 20
 cases = [(-3,2),(1,2),(-4,0),(-27,54),(0,0)]
 while len(cases) < ntests:
     item = tuple(random.randint(-10,10) for _ in range(2))
-    if item[0] != 0 and item[1] != 0:
+    if item[0] != 0 and item[1] != 0 and item not in cases:
         cases.append( item )
     
 # generate unit tests for functions
@@ -81,12 +80,12 @@ for i in range(len(cases)):
     
     # generate test expression
     #
-    expression_name = f"discriminant( {test[0]}, {test[1]} )"
+    expression_name = f"discriminant({test[0]}, {test[1]})"
     result = module.discriminant( test[0], test[1] )
 
     print(result)
     # setup for return expressions
-    testcase = { "expression": expression_name, "stdout": outputtxt, "return": result }
+    testcase = { "expression": expression_name, "return": result }
     yamldata[0]['contexts'][i]["testcases"].append( testcase)
 
 write_yaml(yamldata)

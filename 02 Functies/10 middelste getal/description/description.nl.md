@@ -10,13 +10,25 @@ Bij invoer `2`, `3` en `4` verschijnt er:
 ```
 Het middelste getal was: 3
 ```
+```python
+>>> midden(2, 3, 4)
+3
+```
 
 Bij invoer `5`, `2` en `3` verschijnt er:
 ```
 Het middelste getal was: 3
 ```
+```python
+>>> midden(5, 2, 3)
+3
+```
 
 Bij invoer `8`, `9` en `8` verschijnt er:
 ```
 Het middelste getal was: 8
+```
+```python
+>>> midden(8, 9, 8)
+8
 ```

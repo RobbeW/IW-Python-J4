@@ -11,7 +11,8 @@
     }
   },
   "labels": [
-    "functies"
+    "functies",
+    "selectie"
   ],
   "access": "public",
   "internals": {
