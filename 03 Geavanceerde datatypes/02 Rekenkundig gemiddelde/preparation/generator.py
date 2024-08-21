@@ -1,9 +1,7 @@
 import os
-import sys
-import importlib
+import importlib.util
 import random
 import ruamel.yaml
-import subprocess
 
 yaml = ruamel.yaml.YAML()
 
@@ -38,8 +36,10 @@ cases = [[3.0, 2.0, 5.0, 4.0], [5.145] ]
 while len(cases) < ntests:
     n = random.randint(1,50)
     test = list( round(random.uniform(-50,50), 1) for _ in range(n) )
-    cases.append(test)
-    
+    if test not in cases:
+        cases.append(test)
+cases = sorted(cases, key = lambda x: len(x))
+
 # generate unit tests for functions
 yamldata = []
 
@@ -57,8 +57,8 @@ for i in range(len(cases)):
         
     # generate test expression
     #
-    expression_name = f"gemiddelde( {test} )"
-    result = module.gemiddelde( test )
+    expression_name = f"gemiddelde({test})"
+    result = module.gemiddelde(test)
 
     print(result)
     # setup for return expressions
