@@ -11,7 +11,10 @@
     }
   },
   "labels": [
-
+    "evaluatie",
+    "functies",
+    "begrensde herhaling",
+    "for-lus"
   ],
   "access": "public",
   "internals": {

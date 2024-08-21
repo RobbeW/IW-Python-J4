@@ -5,7 +5,7 @@
 Er geldt bijvoorbeeld dat 6 een rechthoekig getal is, want 6 is het product van 2 en 3. Ook 30 is een rechthoekig getal, want je kan het schrijven als een product van 5 en 6.
 
 ## Gevraagd
-Schrijf een functie `is_rechthoekig( getal )`dat gegeven een natuurlijk getal groter dan 1 controleert of dit getal rechthoekig is.
+Schrijf een functie `is_rechthoekig(getal)`dat gegeven een natuurlijk getal groter dan 1 controleert of dit getal rechthoekig is.
 
 Vraag vervolgens een bovengrens aan de gebruiker en druk alle rechthoekige getallen **kleiner** dan deze bovengrens af.
 

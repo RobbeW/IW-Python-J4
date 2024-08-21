@@ -11,7 +11,10 @@
     }
   },
   "labels": [
-
+    "evaluatie",
+    "functies",
+    "voorwaardelijke herhaling",
+    "while-lus"
   ],
   "access": "public",
   "internals": {

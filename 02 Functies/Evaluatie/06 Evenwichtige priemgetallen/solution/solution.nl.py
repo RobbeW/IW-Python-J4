@@ -1,29 +1,26 @@
-def is_priem( getal ):
-    priem = True
-    for i in range(2, getal):
-        if getal % i == 0:
-            priem = False
-    
-    return priem
+def is_priem(getal):
+    i = 2
+    while i < getal and getal % i != 0:
+        i = i + 1
+    # Indien geen delers werden gevonden is i == getal
+    return i == getal
 
 def vorige_priem(getal):
-    flag = True
-    while flag:
+    getal -= 1
+    while not is_priem(getal):
         getal -= 1
-        flag = not is_priem(getal)
     return getal
 
 def volgende_priem(getal):
-    flag = True
-    while flag:
+    getal += 1
+    while not is_priem(getal):
         getal += 1
-        flag = not is_priem(getal)
     return getal
 
 # invoer vragen
 n = int( input( "Geef een volgnummer in: " ) )
 
-# priemtweelingen afdrukken
+# evenwichtige priemgetallen afdrukken
 i = 2
 aantal = 0
 while aantal != n:
