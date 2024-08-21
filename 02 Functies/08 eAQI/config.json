@@ -1,21 +1,20 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "access": "public",
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
   "description": {
     "names": {
-      "nl": "2.5 - Karakter Vervangen",
-      "en": "2.5 - Replacing a Character"
+      "nl": "eAQI"
     }
   },
-  "evaluation": {
-    "pythia_judge": "output"
-  },
   "labels": [
-    "python",
-    "VBTL"
+    "functies",
+    "selectie"
   ],
-  "contact": "Robbe W <robbe.wulgaert@sintlievenscollege.be>",
+  "access": "public",
   "internals": {
     "token": "8JFQvbPJZeT6g-aCdjq5fZKDUWUC9tMyfWgYNKKnesQMWDDTz9JRb7QW4NzT3QSW",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
