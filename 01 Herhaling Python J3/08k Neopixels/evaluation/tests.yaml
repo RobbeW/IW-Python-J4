@@ -1,0 +1,20 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '1'
+      stdout: "x\nx\nx\nx\nx\nx\nx\nDarkgreen\n"
+  - testcases:
+    - stdin: '2'
+      stdout: "x\nx\nx\nx\nx\nx\nLawngreen\nLawngreen\n"
+  - testcases:
+    - stdin: '3'
+      stdout: "x\nx\nx\nx\nx\nYellow\nYellow\nYellow\n"
+  - testcases:
+    - stdin: '4'
+      stdout: "x\nx\nx\nx\nOrange\nOrange\nOrange\nOrange\n"
+  - testcases:
+    - stdin: '5'
+      stdout: "x\nx\nx\nOrangered\nOrangered\nOrangered\nOrangered\nOrangered\n"
+  - testcases:
+    - stdin: '6'
+      stdout: "Red\nRed\nRed\nRed\nRed\nRed\nRed\nRed\n"
