@@ -14,12 +14,24 @@ Voor invoer `12` verschijnt er:
 ```
 6 is een rechthoekig getal.
 ```
+```python
+>>> is_rechthoekig(6)
+True
+```
 
 Voor invoer `30` verschijnt er:
 ```
 6 is een rechthoekig getal.
 12 is een rechthoekig getal.
 20 is een rechthoekig getal.
+```
+```python
+>>> is_rechthoekig(6)
+True
+>>> is_rechthoekig(12)
+True
+>>> is_rechthoekig(20)
+True
 ```
 
 {: .callout.callout-info}

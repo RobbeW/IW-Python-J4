@@ -1,7 +1,6 @@
 import os
-import math
 import sys
-import importlib
+import importlib.util
 import random
 import ruamel.yaml
 import subprocess
@@ -45,6 +44,18 @@ class Capturing(list):
 
 
 # generate test data
+def is_rechthoekig(getal):
+    i = 1
+    while i * (i + 1) != getal and i < getal:
+        i += 1
+    return i != getal
+
+def prev_rechthoekig(getal):
+    getal -= 1
+    while not is_rechthoekig(getal):
+        getal -= 1
+    return getal
+
 cases = [(12,),(20,), (30,),(47,), (53,),(60,),(100,),(151,),(200,),(210,),(462,),(500,),(1000,)]
 
 # generate unit tests for functions
@@ -87,11 +98,19 @@ for i in range(len(cases)):
     testcase = { input: stdin, output: outputtxt }            
     yamldata[0]['contexts'][i]["testcases"].append( testcase)
     
+    getal = prev_rechthoekig(test[0])
     # generate test expression
-    expression_name = 'is_rechthoekig( {} )'.format( test[0] )
-    result = module.is_rechthoekig( test[0] )
+    expression_name = f"is_rechthoekig({getal})"
+    result = module.is_rechthoekig(getal)
 
-    print(result)
+    # setup for return expressions
+    testcase = { "expression": expression_name, "return": result }
+    yamldata[0]['contexts'][i]["testcases"].append( testcase)
+    
+    # generate test expression
+    expression_name = f"is_rechthoekig({test[0]})"
+    result = module.is_rechthoekig(test[0])
+
     # setup for return expressions
     testcase = { "expression": expression_name, "return": result }
     yamldata[0]['contexts'][i]["testcases"].append( testcase)

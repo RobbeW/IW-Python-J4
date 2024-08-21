@@ -1,0 +1,137 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '12'
+      stdout: "6 is een rechthoekig getal.\n"
+    - expression: is_rechthoekig(6)
+      return: true
+    - expression: is_rechthoekig(12)
+      return: true
+  - testcases:
+    - stdin: '20'
+      stdout: "6 is een rechthoekig getal.\n12 is een rechthoekig getal.\n"
+    - expression: is_rechthoekig(12)
+      return: true
+    - expression: is_rechthoekig(20)
+      return: true
+  - testcases:
+    - stdin: '30'
+      stdout: "6 is een rechthoekig getal.\n12 is een rechthoekig getal.\n20 is een
+        rechthoekig getal.\n"
+    - expression: is_rechthoekig(20)
+      return: true
+    - expression: is_rechthoekig(30)
+      return: true
+  - testcases:
+    - stdin: '47'
+      stdout: "6 is een rechthoekig getal.\n12 is een rechthoekig getal.\n20 is een
+        rechthoekig getal.\n30 is een rechthoekig getal.\n42 is een rechthoekig getal.\n"
+    - expression: is_rechthoekig(42)
+      return: true
+    - expression: is_rechthoekig(47)
+      return: false
+  - testcases:
+    - stdin: '53'
+      stdout: "6 is een rechthoekig getal.\n12 is een rechthoekig getal.\n20 is een
+        rechthoekig getal.\n30 is een rechthoekig getal.\n42 is een rechthoekig getal.\n"
+    - expression: is_rechthoekig(42)
+      return: true
+    - expression: is_rechthoekig(53)
+      return: false
+  - testcases:
+    - stdin: '60'
+      stdout: "6 is een rechthoekig getal.\n12 is een rechthoekig getal.\n20 is een
+        rechthoekig getal.\n30 is een rechthoekig getal.\n42 is een rechthoekig getal.\n\
+        56 is een rechthoekig getal.\n"
+    - expression: is_rechthoekig(56)
+      return: true
+    - expression: is_rechthoekig(60)
+      return: false
+  - testcases:
+    - stdin: '100'
+      stdout: "6 is een rechthoekig getal.\n12 is een rechthoekig getal.\n20 is een
+        rechthoekig getal.\n30 is een rechthoekig getal.\n42 is een rechthoekig getal.\n\
+        56 is een rechthoekig getal.\n72 is een rechthoekig getal.\n90 is een rechthoekig
+        getal.\n"
+    - expression: is_rechthoekig(90)
+      return: true
+    - expression: is_rechthoekig(100)
+      return: false
+  - testcases:
+    - stdin: '151'
+      stdout: "6 is een rechthoekig getal.\n12 is een rechthoekig getal.\n20 is een
+        rechthoekig getal.\n30 is een rechthoekig getal.\n42 is een rechthoekig getal.\n\
+        56 is een rechthoekig getal.\n72 is een rechthoekig getal.\n90 is een rechthoekig
+        getal.\n110 is een rechthoekig getal.\n132 is een rechthoekig getal.\n"
+    - expression: is_rechthoekig(132)
+      return: true
+    - expression: is_rechthoekig(151)
+      return: false
+  - testcases:
+    - stdin: '200'
+      stdout: "6 is een rechthoekig getal.\n12 is een rechthoekig getal.\n20 is een
+        rechthoekig getal.\n30 is een rechthoekig getal.\n42 is een rechthoekig getal.\n\
+        56 is een rechthoekig getal.\n72 is een rechthoekig getal.\n90 is een rechthoekig
+        getal.\n110 is een rechthoekig getal.\n132 is een rechthoekig getal.\n156
+        is een rechthoekig getal.\n182 is een rechthoekig getal.\n"
+    - expression: is_rechthoekig(182)
+      return: true
+    - expression: is_rechthoekig(200)
+      return: false
+  - testcases:
+    - stdin: '210'
+      stdout: "6 is een rechthoekig getal.\n12 is een rechthoekig getal.\n20 is een
+        rechthoekig getal.\n30 is een rechthoekig getal.\n42 is een rechthoekig getal.\n\
+        56 is een rechthoekig getal.\n72 is een rechthoekig getal.\n90 is een rechthoekig
+        getal.\n110 is een rechthoekig getal.\n132 is een rechthoekig getal.\n156
+        is een rechthoekig getal.\n182 is een rechthoekig getal.\n"
+    - expression: is_rechthoekig(182)
+      return: true
+    - expression: is_rechthoekig(210)
+      return: true
+  - testcases:
+    - stdin: '462'
+      stdout: "6 is een rechthoekig getal.\n12 is een rechthoekig getal.\n20 is een
+        rechthoekig getal.\n30 is een rechthoekig getal.\n42 is een rechthoekig getal.\n\
+        56 is een rechthoekig getal.\n72 is een rechthoekig getal.\n90 is een rechthoekig
+        getal.\n110 is een rechthoekig getal.\n132 is een rechthoekig getal.\n156
+        is een rechthoekig getal.\n182 is een rechthoekig getal.\n210 is een rechthoekig
+        getal.\n240 is een rechthoekig getal.\n272 is een rechthoekig getal.\n306
+        is een rechthoekig getal.\n342 is een rechthoekig getal.\n380 is een rechthoekig
+        getal.\n420 is een rechthoekig getal.\n"
+    - expression: is_rechthoekig(420)
+      return: true
+    - expression: is_rechthoekig(462)
+      return: true
+  - testcases:
+    - stdin: '500'
+      stdout: "6 is een rechthoekig getal.\n12 is een rechthoekig getal.\n20 is een
+        rechthoekig getal.\n30 is een rechthoekig getal.\n42 is een rechthoekig getal.\n\
+        56 is een rechthoekig getal.\n72 is een rechthoekig getal.\n90 is een rechthoekig
+        getal.\n110 is een rechthoekig getal.\n132 is een rechthoekig getal.\n156
+        is een rechthoekig getal.\n182 is een rechthoekig getal.\n210 is een rechthoekig
+        getal.\n240 is een rechthoekig getal.\n272 is een rechthoekig getal.\n306
+        is een rechthoekig getal.\n342 is een rechthoekig getal.\n380 is een rechthoekig
+        getal.\n420 is een rechthoekig getal.\n462 is een rechthoekig getal.\n"
+    - expression: is_rechthoekig(462)
+      return: true
+    - expression: is_rechthoekig(500)
+      return: false
+  - testcases:
+    - stdin: '1000'
+      stdout: "6 is een rechthoekig getal.\n12 is een rechthoekig getal.\n20 is een
+        rechthoekig getal.\n30 is een rechthoekig getal.\n42 is een rechthoekig getal.\n\
+        56 is een rechthoekig getal.\n72 is een rechthoekig getal.\n90 is een rechthoekig
+        getal.\n110 is een rechthoekig getal.\n132 is een rechthoekig getal.\n156
+        is een rechthoekig getal.\n182 is een rechthoekig getal.\n210 is een rechthoekig
+        getal.\n240 is een rechthoekig getal.\n272 is een rechthoekig getal.\n306
+        is een rechthoekig getal.\n342 is een rechthoekig getal.\n380 is een rechthoekig
+        getal.\n420 is een rechthoekig getal.\n462 is een rechthoekig getal.\n506
+        is een rechthoekig getal.\n552 is een rechthoekig getal.\n600 is een rechthoekig
+        getal.\n650 is een rechthoekig getal.\n702 is een rechthoekig getal.\n756
+        is een rechthoekig getal.\n812 is een rechthoekig getal.\n870 is een rechthoekig
+        getal.\n930 is een rechthoekig getal.\n992 is een rechthoekig getal.\n"
+    - expression: is_rechthoekig(992)
+      return: true
+    - expression: is_rechthoekig(1000)
+      return: false
