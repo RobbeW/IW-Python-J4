@@ -1,18 +1,18 @@
 ## Opgave
 
-Programmeer een functie `somlijst( lijst )` dat voor een gegeven lijst de cumulatieve lijst samenstelt. Dit is een lijst met de som van alle waarden kleiner of gelijk aan bepaalde index.
+Programmeer een functie `somlijst(lijst)` dat voor een gegeven lijst de cumulatieve lijst samenstelt. Dit is een lijst met de som van alle waarden kleiner of gelijk aan bepaalde index.
 
 #### Voorbeelden
 Bestudeer onderstaande voorbeelden grondig.
 
 ```
->>> somlijst( [1, 5, 6, -2] )
-[1, 6, 12, 10]
+>>> somlijst([1, 5, 7, -2])
+[1, 6, 13, 11]
 ```
 
-Want er geldt *bijvoorbeeld* dat 12 = 1 + 5 + 6.
+Want er geldt *bijvoorbeeld* dat 13 = 1 + 5 + 7.
 
 ```
->>> somlijst( [1, 5, 6, -2, 0, 5, 9] )
+>>> somlijst([1, 5, 6, -2, 0, 5, 9])
 [1, 6, 12, 10, 10, 15, 24]
 ```

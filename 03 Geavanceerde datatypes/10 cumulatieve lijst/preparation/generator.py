@@ -1,9 +1,7 @@
 import os
-import sys
-import importlib
+import importlib.util
 import random
 import ruamel.yaml
-import subprocess
 
 yaml = ruamel.yaml.YAML()
 
@@ -34,18 +32,15 @@ spec.loader.exec_module(module)
 
 # generate test data
 ntests= 20
-cases = [[1, 5, 6, -2], [1, 5, 6, -2, 0, 5, 9]]
+cases = [[1, 5, 7, -2], [1, 5, 6, -2, 0, 5, 9]]
 while len(cases) < ntests:
-    n = random.randint(3,50)
+    e = random.randint(0,4)
+    n = random.randint(10**e,10**(e+1))
     lijst = list( random.randint(-30,30) for _ in range(n) )
-    cases.append( lijst )
-    
-
-# some huge tests
-for _ in range(4):
-    lijst = list( random.randint(-100,100) for _ in range(10000) )
-    cases.append( lijst )
-
+    if lijst not in cases:
+        cases.append( lijst )
+        
+cases = sorted(cases, key = lambda x: len(x))
 
 # generate unit tests for functions
 yamldata = []
