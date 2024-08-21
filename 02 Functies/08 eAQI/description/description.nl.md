@@ -1,6 +1,6 @@
 Ongetwijfeld heb je al over het begrip **luchtkwaliteit** (AQI - Air Quality Index) gehoord. In Europa gebruikt men onder andere onderstaand kader om een cijfer op de luchtkwaliteit te plakken.
 
-![Europese AQI op basis van twee parameters.](media/eaqi.png "Europese AQI op basis van twee parameters."){:data-caption="Europese AQI op basis van twee parameters." width="50%"}
+![Europese AQI op basis van twee parameters.](media/eaqi.png "Europese AQI op basis van twee parameters."){:data-caption="Europese AQI op basis van twee parameters." width="90%"}
 
 Op basis van de metingen voor <a href="https://nl.wikipedia.org/wiki/Ozon_(stof)" target="_blank">ozon</a> en <a href="https://nl.wikipedia.org/wiki/Stikstofdioxide" target="_blank">stikstofdioxide</a> bepaalt men telkens het corresponderende AQI cijfer. Nadien neemt men het **slechtste** cijfer om de luchtkwaliteit te beoordelen.
 
