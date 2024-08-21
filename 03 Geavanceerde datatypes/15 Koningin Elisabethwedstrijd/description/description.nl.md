@@ -2,6 +2,8 @@ De <a href="https://nl.wikipedia.org/wiki/Koningin_Elisabethwedstrijd" target="_
 
 Het volledige quoteringssysteem is vrij ingewikkeld, zoals beschreven in <a href="https://www.vrt.be/vrtnws/nl/2024/05/14/koningin-elisabethwedstrijd-hoe-beslist-de-jury/" target="_blank">dit artikel</a> van 16 mei 2024 door VRT NWS.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/X_4_Tf0aEZM?si=J7lMgrZvh2AUhMH9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Er zit een regel in het quoteringssysteem ingebakken dat verhindert dat één jurylid een kandidaat ophemelt of in de grond boort. Indien een jurylid namelijk **meer dan 20% afwijkt** van het gemiddelde van de andere juryleden, dan wordt de score aangepast tot het verschil hoogstens 20% bedraagt.
 Op het einde neemt men het gemiddelde van alle (mogelijks aangepaste) scores.
 
