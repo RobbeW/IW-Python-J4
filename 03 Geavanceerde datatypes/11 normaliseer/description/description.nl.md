@@ -7,6 +7,6 @@ Programmeer een functie `normaliseer(lijst)` dat gegeven een lijst de genormalis
 #### Voorbeeld
 
 ```python
->>> normaliseer( [2, 4, 6, 4, 2, 2] )
+>>> normaliseer([2, 4, 6, 4, 2, 2])
 [0.1, 0.2, 0.3, 0.2, 0.1, 0.1]
 ```
