@@ -6,9 +6,9 @@ def oppervlakte( a, b, c ):
     return round( A, 2 )
 
 # invoer
-a = int(input())
-b = int(input())
-c = int(input())
+a = int(input("Geef de eerste zijde in: "))
+b = int(input("Geef de tweede zijde in: "))
+c = int(input("Geef de derde zijde in: "))
 
 # verwerking
 A = oppervlakte(a, b, c)

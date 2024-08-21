@@ -3,100 +3,100 @@
   - testcases:
     - stdin: "4\n13\n15"
       stdout: De oppervlakte bedraagt 24.0 cm².
-    - expression: oppervlakte( 4, 13, 15 )
+    - expression: oppervlakte(4, 13, 15)
       return: 24.0
   - testcases:
     - stdin: "15\n18\n20"
       stdout: De oppervlakte bedraagt 129.76 cm².
-    - expression: oppervlakte( 15, 18, 20 )
+    - expression: oppervlakte(15, 18, 20)
       return: 129.76
   - testcases:
     - stdin: "9\n20\n17"
       stdout: De oppervlakte bedraagt 76.13 cm².
-    - expression: oppervlakte( 9, 20, 17 )
+    - expression: oppervlakte(9, 20, 17)
       return: 76.13
   - testcases:
     - stdin: "19\n17\n3"
       stdout: De oppervlakte bedraagt 20.05 cm².
-    - expression: oppervlakte( 19, 17, 3 )
+    - expression: oppervlakte(19, 17, 3)
       return: 20.05
   - testcases:
     - stdin: "15\n8\n18"
       stdout: De oppervlakte bedraagt 59.36 cm².
-    - expression: oppervlakte( 15, 8, 18 )
+    - expression: oppervlakte(15, 8, 18)
       return: 59.36
   - testcases:
     - stdin: "9\n18\n10"
       stdout: De oppervlakte bedraagt 27.33 cm².
-    - expression: oppervlakte( 9, 18, 10 )
+    - expression: oppervlakte(9, 18, 10)
       return: 27.33
   - testcases:
     - stdin: "5\n8\n7"
       stdout: De oppervlakte bedraagt 17.32 cm².
-    - expression: oppervlakte( 5, 8, 7 )
+    - expression: oppervlakte(5, 8, 7)
       return: 17.32
   - testcases:
     - stdin: "18\n13\n16"
       stdout: De oppervlakte bedraagt 100.89 cm².
-    - expression: oppervlakte( 18, 13, 16 )
+    - expression: oppervlakte(18, 13, 16)
       return: 100.89
   - testcases:
     - stdin: "6\n17\n19"
       stdout: De oppervlakte bedraagt 50.2 cm².
-    - expression: oppervlakte( 6, 17, 19 )
+    - expression: oppervlakte(6, 17, 19)
       return: 50.2
   - testcases:
     - stdin: "13\n8\n7"
       stdout: De oppervlakte bedraagt 24.25 cm².
-    - expression: oppervlakte( 13, 8, 7 )
+    - expression: oppervlakte(13, 8, 7)
       return: 24.25
   - testcases:
     - stdin: "11\n13\n14"
       stdout: De oppervlakte bedraagt 67.53 cm².
-    - expression: oppervlakte( 11, 13, 14 )
+    - expression: oppervlakte(11, 13, 14)
       return: 67.53
   - testcases:
     - stdin: "9\n12\n20"
       stdout: De oppervlakte bedraagt 31.65 cm².
-    - expression: oppervlakte( 9, 12, 20 )
+    - expression: oppervlakte(9, 12, 20)
       return: 31.65
   - testcases:
     - stdin: "9\n10\n7"
       stdout: De oppervlakte bedraagt 30.59 cm².
-    - expression: oppervlakte( 9, 10, 7 )
+    - expression: oppervlakte(9, 10, 7)
       return: 30.59
   - testcases:
     - stdin: "11\n14\n4"
       stdout: De oppervlakte bedraagt 16.32 cm².
-    - expression: oppervlakte( 11, 14, 4 )
+    - expression: oppervlakte(11, 14, 4)
       return: 16.32
   - testcases:
     - stdin: "12\n8\n10"
       stdout: De oppervlakte bedraagt 39.69 cm².
-    - expression: oppervlakte( 12, 8, 10 )
+    - expression: oppervlakte(12, 8, 10)
       return: 39.69
   - testcases:
     - stdin: "17\n20\n13"
       stdout: De oppervlakte bedraagt 109.54 cm².
-    - expression: oppervlakte( 17, 20, 13 )
+    - expression: oppervlakte(17, 20, 13)
       return: 109.54
   - testcases:
     - stdin: "16\n11\n13"
       stdout: De oppervlakte bedraagt 70.99 cm².
-    - expression: oppervlakte( 16, 11, 13 )
+    - expression: oppervlakte(16, 11, 13)
       return: 70.99
   - testcases:
     - stdin: "11\n6\n16"
       stdout: De oppervlakte bedraagt 21.83 cm².
-    - expression: oppervlakte( 11, 6, 16 )
+    - expression: oppervlakte(11, 6, 16)
       return: 21.83
   - testcases:
     - stdin: "5\n7\n5"
       stdout: De oppervlakte bedraagt 12.5 cm².
-    - expression: oppervlakte( 5, 7, 5 )
+    - expression: oppervlakte(5, 7, 5)
       return: 12.5
   - testcases:
     - stdin: "4\n5\n5"
       stdout: De oppervlakte bedraagt 9.17 cm².
-    - expression: oppervlakte( 4, 5, 5 )
+    - expression: oppervlakte(4, 5, 5)
       return: 9.17

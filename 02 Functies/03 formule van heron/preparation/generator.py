@@ -1,6 +1,5 @@
 import os
-import sys
-import importlib
+import importlib.util
 import random
 import ruamel.yaml
 import subprocess
@@ -40,7 +39,8 @@ while len(cases) < ntests:
     b = random.randint(1,20)
     c = random.randint(1,20)
     if  b+c > a and a+c > b and a+b > c:
-        cases.append( (a, b, c) ) 
+        if (a,b,c) not in cases:
+            cases.append( (a, b, c) ) 
     
 # generate unit tests for functions
 yamldata = []
@@ -83,7 +83,7 @@ for i in range(len(cases)):
     
     # generate test expression
     #
-    expression_name = f"oppervlakte( {test[0]}, {test[1]}, {test[2]} )"
+    expression_name = f"oppervlakte({test[0]}, {test[1]}, {test[2]})"
     result = module.oppervlakte( test[0], test[1], test[2] )
 
     print(result)
