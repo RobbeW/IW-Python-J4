@@ -1,4 +1,4 @@
-De <a href="https://nl.wikipedia.org/wiki/Vlag_van_de_Verenigde_Staten" target="_blank">Stars and Stripes</a> is de bijnaam van de gekende val van de Verenigde Staten van Amerika. Deze bestaat uit 7 rode horizontale strepen gescheiden door 6 witte strepen. In het linkerbovenhoek vinden we 50 witte sterren op een blauwe achtergrond. Deze sterren stellen de 50 staten van de Verenigde Staten voor.
+De <a href="https://nl.wikipedia.org/wiki/Vlag_van_de_Verenigde_Staten" target="_blank">Stars and Stripes</a> is de bijnaam van de gekende vlag van de Verenigde Staten van Amerika. Deze bestaat uit 7 rode horizontale strepen gescheiden door 6 witte strepen. In het linkerbovenhoek vinden we 50 witte sterren op een blauwe achtergrond. Deze sterren stellen de 50 staten van de Verenigde Staten voor.
 
 ![Foto door R. D. Smith op Unsplash.](media/R_D_Smith.jpg "Foto door R. D. Smith op Unsplash."){:data-caption="Foto door R. D. Smith op Unsplash." width="45%"}
 
