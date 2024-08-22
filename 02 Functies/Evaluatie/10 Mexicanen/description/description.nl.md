@@ -11,7 +11,7 @@ In plaats daarvan is de puntentelling voor een worp als volgt:
 
   <span class="mdi mdi-36px mdi-dice-4-outline"></span> <span class="mdi mdi-36px mdi-dice-4-outline"></span>, ...
 
-  Indien beide spelers een dubbele worp hebben, dan wint diegene met het hoogste aantal ogen, vermenigvuldig hiervoor aantal ogen met 100.
+  Indien beide spelers een dubbele worp hebben, dan wint diegene met het hoogste aantal ogen, vermenigvuldig hiervoor het aantal ogen met 100.
 - De andere worpen worden gerangschikt zodat grootste aantal ogen eerst komt te staan. Onderstaande worp krijgt bijvoorbeeld 43 als score.
 
   <span class="mdi mdi-36px mdi-dice-4-outline"></span>  <span class="mdi mdi-36px mdi-dice-3-outline"></span>
