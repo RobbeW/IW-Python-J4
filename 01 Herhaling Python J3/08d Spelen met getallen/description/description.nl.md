@@ -1,4 +1,4 @@
-Juf Gerda wilt een spel ontwerpen om haar leerlingen de optelling, aftrekking, vermenigvuldiging en deling aan te leren. Ze wil haar leerlingen 'wiskundig' lereren nadenken en onderzoeken of twee gegeven getallen op één of andere manier in een derde getal kunnen resulteren via de voorgaande bewerkingen.
+Juf Gerda wilt een spel ontwerpen om haar leerlingen de optelling, aftrekking, vermenigvuldiging en deling aan te leren. Ze wil haar leerlingen 'wiskundig' leren nadenken en onderzoeken of twee gegeven getallen op één of andere manier in een derde getal kunnen resulteren via de voorgaande bewerkingen.
 
 Ze wil echter het antwoord van de leerlingen snel kunnen controleren zonder het denkwerk zelf te moeten doen.
 
