@@ -1,4 +1,4 @@
-Neem het het getal 9 425. Dit getal is duidelijk niet priem, maar wat is het kleinste priemgetal dat groter is dan 9 425?
+Neem het het getal 9 425. Dit getal is duidelijk niet priem, maar wat is het kleinste priemgetal dat groter is dan 9 425?
 
 ## Opgave
 
