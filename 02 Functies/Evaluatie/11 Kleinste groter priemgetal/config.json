@@ -1,21 +1,22 @@
 {
   "type": "exercise",
   "programming_language": "python",
-  "access": "public",
   "description": {
     "names": {
-      "nl": "2.1 - Lengte Wachtwoord",
-      "en": "2.1 - Password Length"
+      "nl": "Kleinste grotere priemgetal"
     }
   },
   "evaluation": {
-    "pythia_judge": "output"
+    "handler": "tested",
+    "test_suite": "tests.yaml"
   },
   "labels": [
-    "python",
-    "VBTL"
+    "evaluatie",
+    "functies",
+    "while-lus",
+    "voorwaardelijke herhaling"
   ],
-  "contact": "Robbe W <robbe.wulgaert@sintlievenscollege.be>",
+  "access": "public",
   "internals": {
     "token": "Fsan7askDaP497qiMWAB3uN6DEDRdqpicpbAB4QhffUYeKE2YIDacA4m7FxzxkkW",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
