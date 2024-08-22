@@ -32,10 +32,13 @@ module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 
 # generate test data
-ntests = 20
-cases = [(3,),(50,)]
+ntests = 38
+cases = [(9425,),(7,)]
 while len(cases) < ntests:
-    case = (random.randint(4,500),)
+    e = random.randint(0,5)
+    n = random.randint(10*e, 10**(e+1))
+    n = max(3, n)
+    case = (n, )
     if case not in cases:
         cases.append(case)
 
@@ -44,40 +47,38 @@ cases.sort()
 # generate unit tests for functions
 yamldata = []
 
-# input, expression, statement or stdin?
-input = 'stdin'
-# output, stdout or return?
-output = 'stdout'
-tabtitle = "Feedback"
+# Generate first tab
+tabtitle = "Feedback vorige_priem"
 
 yamldata.append( {'tab': tabtitle, 'contexts': []})
 
 for i in range(len(cases)):
     test = cases[i]
     yamldata[0]['contexts'].append( {'testcases' : []})
-    # generate test expression
-    # add input to input file
-    stdin = '\n'.join(f'{line}' for line in test)
+    
+    # setup for return expressions    
+    expression_name = f"vorige_priem({test[0]})"
+    result = module.vorige_priem(test[0])
 
-    # generate output to output file
-    script = os.path.join(solutiondir, 'solution.nl.py')
-    process= subprocess.run(
-        ['python3', script],
-        input=stdin,
-        encoding='utf-8',
-        capture_output=True
-    )
-    
-    result_lines = process.stdout.split("\n")
-    result_lines = [x for x in result_lines[:-1]] ## drop last element
-    
-    outputtxt = ""
-    for line in result_lines:
-        if not(line.startswith( 'Geef' ) or line.startswith( 'Voer' )):
-            print(line)
-            outputtxt += line + "\n"
-            
-    testcase = { input: stdin, output: outputtxt }            
+    # setup for return expressions
+    testcase = { "expression": expression_name, "return": result }
     yamldata[0]['contexts'][i]["testcases"].append( testcase)
+    
+# Generate second tab
+tabtitle = "Feedback is_priem"
+
+yamldata.append( {'tab': tabtitle, 'contexts': []})
+
+for i in range(len(cases)):
+    test = cases[i]
+    yamldata[1]['contexts'].append( {'testcases' : []})
+    
+    # setup for return expressions    
+    expression_name = f"is_priem({test[0]})"
+    result = module.is_priem(test[0])
+
+    # setup for return expressions
+    testcase = { "expression": expression_name, "return": result }
+    yamldata[1]['contexts'][i]["testcases"].append( testcase)
 
 write_yaml(yamldata)

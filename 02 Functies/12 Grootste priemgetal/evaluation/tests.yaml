@@ -1,0 +1,232 @@
+- tab: Feedback vorige_priem
+  contexts:
+  - testcases:
+    - expression: vorige_priem(5)
+      return: 3
+  - testcases:
+    - expression: vorige_priem(7)
+      return: 5
+  - testcases:
+    - expression: vorige_priem(17)
+      return: 13
+  - testcases:
+    - expression: vorige_priem(18)
+      return: 17
+  - testcases:
+    - expression: vorige_priem(28)
+      return: 23
+  - testcases:
+    - expression: vorige_priem(41)
+      return: 37
+  - testcases:
+    - expression: vorige_priem(42)
+      return: 41
+  - testcases:
+    - expression: vorige_priem(54)
+      return: 53
+  - testcases:
+    - expression: vorige_priem(57)
+      return: 53
+  - testcases:
+    - expression: vorige_priem(61)
+      return: 59
+  - testcases:
+    - expression: vorige_priem(71)
+      return: 67
+  - testcases:
+    - expression: vorige_priem(76)
+      return: 73
+  - testcases:
+    - expression: vorige_priem(79)
+      return: 73
+  - testcases:
+    - expression: vorige_priem(90)
+      return: 89
+  - testcases:
+    - expression: vorige_priem(100)
+      return: 97
+  - testcases:
+    - expression: vorige_priem(145)
+      return: 139
+  - testcases:
+    - expression: vorige_priem(411)
+      return: 409
+  - testcases:
+    - expression: vorige_priem(641)
+      return: 631
+  - testcases:
+    - expression: vorige_priem(693)
+      return: 691
+  - testcases:
+    - expression: vorige_priem(3651)
+      return: 3643
+  - testcases:
+    - expression: vorige_priem(3794)
+      return: 3793
+  - testcases:
+    - expression: vorige_priem(4532)
+      return: 4523
+  - testcases:
+    - expression: vorige_priem(5820)
+      return: 5813
+  - testcases:
+    - expression: vorige_priem(8056)
+      return: 8053
+  - testcases:
+    - expression: vorige_priem(9425)
+      return: 9421
+  - testcases:
+    - expression: vorige_priem(10157)
+      return: 10151
+  - testcases:
+    - expression: vorige_priem(16789)
+      return: 16787
+  - testcases:
+    - expression: vorige_priem(42967)
+      return: 42961
+  - testcases:
+    - expression: vorige_priem(59718)
+      return: 59707
+  - testcases:
+    - expression: vorige_priem(60768)
+      return: 60763
+  - testcases:
+    - expression: vorige_priem(62028)
+      return: 62017
+  - testcases:
+    - expression: vorige_priem(67582)
+      return: 67579
+  - testcases:
+    - expression: vorige_priem(83020)
+      return: 83009
+  - testcases:
+    - expression: vorige_priem(95841)
+      return: 95819
+  - testcases:
+    - expression: vorige_priem(104506)
+      return: 104491
+  - testcases:
+    - expression: vorige_priem(328405)
+      return: 328397
+  - testcases:
+    - expression: vorige_priem(617899)
+      return: 617887
+  - testcases:
+    - expression: vorige_priem(903362)
+      return: 903359
+- tab: Feedback is_priem
+  contexts:
+  - testcases:
+    - expression: is_priem(5)
+      return: true
+  - testcases:
+    - expression: is_priem(7)
+      return: true
+  - testcases:
+    - expression: is_priem(17)
+      return: true
+  - testcases:
+    - expression: is_priem(18)
+      return: false
+  - testcases:
+    - expression: is_priem(28)
+      return: false
+  - testcases:
+    - expression: is_priem(41)
+      return: true
+  - testcases:
+    - expression: is_priem(42)
+      return: false
+  - testcases:
+    - expression: is_priem(54)
+      return: false
+  - testcases:
+    - expression: is_priem(57)
+      return: false
+  - testcases:
+    - expression: is_priem(61)
+      return: true
+  - testcases:
+    - expression: is_priem(71)
+      return: true
+  - testcases:
+    - expression: is_priem(76)
+      return: false
+  - testcases:
+    - expression: is_priem(79)
+      return: true
+  - testcases:
+    - expression: is_priem(90)
+      return: false
+  - testcases:
+    - expression: is_priem(100)
+      return: false
+  - testcases:
+    - expression: is_priem(145)
+      return: false
+  - testcases:
+    - expression: is_priem(411)
+      return: false
+  - testcases:
+    - expression: is_priem(641)
+      return: true
+  - testcases:
+    - expression: is_priem(693)
+      return: false
+  - testcases:
+    - expression: is_priem(3651)
+      return: false
+  - testcases:
+    - expression: is_priem(3794)
+      return: false
+  - testcases:
+    - expression: is_priem(4532)
+      return: false
+  - testcases:
+    - expression: is_priem(5820)
+      return: false
+  - testcases:
+    - expression: is_priem(8056)
+      return: false
+  - testcases:
+    - expression: is_priem(9425)
+      return: false
+  - testcases:
+    - expression: is_priem(10157)
+      return: false
+  - testcases:
+    - expression: is_priem(16789)
+      return: false
+  - testcases:
+    - expression: is_priem(42967)
+      return: true
+  - testcases:
+    - expression: is_priem(59718)
+      return: false
+  - testcases:
+    - expression: is_priem(60768)
+      return: false
+  - testcases:
+    - expression: is_priem(62028)
+      return: false
+  - testcases:
+    - expression: is_priem(67582)
+      return: false
+  - testcases:
+    - expression: is_priem(83020)
+      return: false
+  - testcases:
+    - expression: is_priem(95841)
+      return: false
+  - testcases:
+    - expression: is_priem(104506)
+      return: false
+  - testcases:
+    - expression: is_priem(328405)
+      return: false
+  - testcases:
+    - expression: is_priem(617899)
+      return: false
+  - testcases:
+    - expression: is_priem(903362)
+      return: false

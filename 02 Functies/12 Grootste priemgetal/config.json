@@ -11,6 +11,7 @@
     "test_suite": "tests.yaml"
   },
   "labels": [
+    "functies",
     "while-lus",
     "voorwaardelijke herhaling"
   ],
