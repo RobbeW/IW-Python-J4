@@ -6,7 +6,7 @@ Schrijf een functie `dichtste_priem(getal)` dat gegeven een getal (groter dan 2)
 
 Indien het vorige en volgende priemgetal even ver liggen, kies dan het kleinste priemgetal. Zo liggen 3 en 7 even ver van 5, maar de keuze valt dan op 3.
 
-#### Voorbeelden
+#### Voorbeeld 1
 
 ```python
 >>> dichtste_priem(9425)
@@ -19,6 +19,8 @@ want
 >>> volgende_priem(9425)
 9431
 ```
+
+#### Voorbeeld 2
 
 ```python
 >>> dichtste_priem(5)
