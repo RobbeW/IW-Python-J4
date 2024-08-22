@@ -11,7 +11,10 @@
     }
   },
   "labels": [
-
+    "lijsten",
+    "functies",
+    "begrensde herhaling",
+    "for-lus"
   ],
   "access": "public",
   "internals": {

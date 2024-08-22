@@ -1,9 +1,7 @@
 import os
-import sys
-import importlib
+import importlib.util
 import random
 import ruamel.yaml
-import subprocess
 
 yaml = ruamel.yaml.YAML()
 
@@ -36,29 +34,23 @@ spec.loader.exec_module(module)
 ntests= 20
 cases = [ [3.0, -2.0, 5.0, 1.5] ]
 while len(cases) < ntests:
-    n = random.randint(3,100)
+    e = random.randint(0,4)
+    n = random.randint(10**e,10**(e+1))
+    n = max(3, n)
     test = []
     for _ in range(n):
         g = round(random.uniform(-30,30), 1)
         if g != 0:
             test.append(g)
-    cases.append(test)
+    if test not in cases:
+        cases.append(test)
 
-# huge test:
-test = []
-for _ in range(5000):
-    g = round(random.uniform(-100,100), 1)
-    if g != 0:
-        test.append(g)
-cases.append(test)
+cases = sorted(cases, key = lambda x : len(x))
 
 # generate unit tests for functions
 yamldata = []
 
-# input, expression, statement or stdin?
-input = 'stdin'
-# output, stdout or return?
-output = 'stdout'
+# new tab
 tabtitle = "Feedback"
 
 yamldata.append( {'tab': tabtitle, 'contexts': []})
@@ -69,8 +61,8 @@ for i in range(len(cases)):
         
     # generate test expression
     #
-    expression_name = f"harmonisch_gemiddelde( {test} )"
-    result = module.harmonisch_gemiddelde( test )
+    expression_name = f"harmonisch_gemiddelde({test})"
+    result = module.harmonisch_gemiddelde(test)
 
     print(result)
     # setup for return expressions
