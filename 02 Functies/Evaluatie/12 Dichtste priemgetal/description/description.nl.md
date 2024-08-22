@@ -1,4 +1,4 @@
-Neem het het getal 9 425. Dit getal is duidelijk niet priem, maar welk priemgetal ligt het dichtst in de buurt van dit getal?
+Neem het het getal 9 425. Dit getal is duidelijk niet priem, maar welk priemgetal ligt het dichtst in de buurt van dit getal?
 
 ## Opgave
 
