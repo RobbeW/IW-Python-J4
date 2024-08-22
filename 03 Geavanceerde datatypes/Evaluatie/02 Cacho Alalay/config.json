@@ -1,0 +1,21 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "description": {
+    "names": {
+      "nl": "Cacho Alalay"
+    }
+  },
+  "labels": [
+    "evaluatie",
+    "lijsten",
+    "functies",
+    "begrensde herhaling",
+    "for-lus"
+  ],
+  "access": "public"
+}
