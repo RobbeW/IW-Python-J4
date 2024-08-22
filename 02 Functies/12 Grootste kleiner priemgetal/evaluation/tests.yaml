@@ -1,6 +1,9 @@
 - tab: Feedback vorige_priem
   contexts:
   - testcases:
+    - expression: vorige_priem(3)
+      return: 2
+  - testcases:
     - expression: vorige_priem(5)
       return: 3
   - testcases:
@@ -106,9 +109,6 @@
     - expression: vorige_priem(104506)
       return: 104491
   - testcases:
-    - expression: vorige_priem(328405)
-      return: 328397
-  - testcases:
     - expression: vorige_priem(617899)
       return: 617887
   - testcases:
@@ -116,6 +116,9 @@
       return: 903359
 - tab: Feedback is_priem
   contexts:
+  - testcases:
+    - expression: is_priem(3)
+      return: true
   - testcases:
     - expression: is_priem(5)
       return: true
@@ -220,9 +223,6 @@
       return: false
   - testcases:
     - expression: is_priem(104506)
-      return: false
-  - testcases:
-    - expression: is_priem(328405)
       return: false
   - testcases:
     - expression: is_priem(617899)

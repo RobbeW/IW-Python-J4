@@ -1,6 +1,13 @@
 - tab: Feedback dichtste_priem
   contexts:
   - testcases:
+    - expression: dichtste_priem(3)
+      return: 2
+    - expression: vorige_priem(3)
+      return: 2
+    - expression: volgende_priem(3)
+      return: 5
+  - testcases:
     - expression: dichtste_priem(5)
       return: 3
     - expression: vorige_priem(5)
@@ -246,13 +253,6 @@
     - expression: volgende_priem(104506)
       return: 104513
   - testcases:
-    - expression: dichtste_priem(328405)
-      return: 328411
-    - expression: vorige_priem(328405)
-      return: 328397
-    - expression: volgende_priem(328405)
-      return: 328411
-  - testcases:
     - expression: dichtste_priem(617899)
       return: 617887
     - expression: vorige_priem(617899)
@@ -268,6 +268,9 @@
       return: 903367
 - tab: Feedback is_priem
   contexts:
+  - testcases:
+    - expression: is_priem(3)
+      return: true
   - testcases:
     - expression: is_priem(5)
       return: true
@@ -372,9 +375,6 @@
       return: false
   - testcases:
     - expression: is_priem(104506)
-      return: false
-  - testcases:
-    - expression: is_priem(328405)
       return: false
   - testcases:
     - expression: is_priem(617899)
