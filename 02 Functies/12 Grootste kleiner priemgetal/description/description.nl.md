@@ -1,4 +1,4 @@
-Neem het het getal 9425. Dit getal is duidelijk niet priem, wat is het grootste priemgetal dat kleiner is dan 9425?
+Neem het het getal 9 425. Dit getal is duidelijk niet priem, maar wat is het grootste priemgetal dat kleiner is dan 9 425?
 
 ## Opgave
 
