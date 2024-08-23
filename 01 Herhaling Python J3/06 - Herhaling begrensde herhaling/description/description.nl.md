@@ -21,7 +21,7 @@ range( 0, 8, 2 ) # i is achtereenvolgens 0, 2, 4, 6
 
 ## Opgave
 
-Elk jaar groeit de bevolking van België aan met ongeveer 62 770 inwoners. Dit door een combinatie van geboortecijfers (nataliteit die hoger ligt dan de mortaliteit) en immigratie. Op 1 januari 2023 telde België 11 697 557 inwoners.
+Elk jaar groeit de bevolking van België aan met ongeveer 62 770 inwoners. Dit door een combinatie van geboortecijfers (nataliteit die hoger ligt dan de mortaliteit) en immigratie. Op 1 januari 2023 telde België 11 697 557 inwoners.
 
 Voor de begrotingsopmaak en de staatsschuld wil men berekenen hoeveel Belgen er zullen zijn in een eindjaar. 
 
