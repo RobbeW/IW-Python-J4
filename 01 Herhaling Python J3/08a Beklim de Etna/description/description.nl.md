@@ -2,15 +2,15 @@ Uit een vorige oefening weet je dat het bovenop de Etna vrij koud is. Laura heef
 
 Opnieuw geldt er dat:
 
-- Vertrekpunt voor de klim is "*Rifugio Sapienza*", gelegen op 1 900 m boven de zeespiegel.
-- Voor elke 1 000 meter die je klimt, daalt de temperatuur 6,5°C.
-- Men spreekt af om te klimmen tot de "*Torre Del Filosofo*" op 2 900 m boven de zeespiegel en dus niet helemaal tot boven.
+- Vertrekpunt voor de klim is "*Rifugio Sapienza*", gelegen op 1 900 m boven de zeespiegel.
+- Voor elke 1 000 meter die je klimt, daalt de temperatuur 6,5°C.
+- Men spreekt af om te klimmen tot de "*Torre Del Filosofo*" op 2 900 m boven de zeespiegel en dus niet helemaal tot boven.
 
 ![Beklimming van de Etna.](media/giota-sakellariou.jpg "Foto door Giota Sakellariou op Pexels."){:data-caption="Beklimming van de Etna." width="40%"}
 
 ## Opgave
 
-Schrijf een programma dat de temperatuur op het vertrekpunt vraagt en daarna voor elke stijging van 100 m de temperatuur berekent en weergeeft. Herhaal dit tot het eindpunt (2 900 meter boven de zeespiegel) werd bereikt of de temperatuur Laura's grens bereikte.
+Schrijf een programma dat de temperatuur op het vertrekpunt vraagt en daarna voor elke stijging van 100 m de temperatuur berekent en weergeeft. Herhaal dit tot het eindpunt (2 900 meter boven de zeespiegel) werd bereikt of de temperatuur Laura's grens bereikte.
 
 **Rond** de temperatuur steeds **af** op 0,1°C.
 
