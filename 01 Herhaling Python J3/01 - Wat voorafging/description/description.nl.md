@@ -19,8 +19,7 @@ In de programmeertaal Python leerde je onder andere de volgende concepten:
 - selectie (`if`, `else` en `elif`)
 - begrensde herhaling (`for`)
 - voorwaardelijke herhaling (`while`)
-- `random` en `math` module
-- lijsten als geavanceerde datatypes
+- `random` en `math` bibliotheken
 
 In dit eerste hoofdstuk van deze lessenreeks herhalen we de basiskennis, de belangrijke **programmeerconcepten** en maken we veel herhalingsoefeningen. 
 
