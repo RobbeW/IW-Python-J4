@@ -6,7 +6,7 @@ Er bestaat een methode om manueel te controleren of een getal deelbaar is door 7
 
 ![Het getal 7.](media/alejandro-barba.jpg "Foto door Alejandro Barba op Unsplash."){:data-caption="Het getal 7." width="25%"}
 
-Beschouw bijvoorbeeld het getal 3024. Het cijfer van de eenheden is 4, het dubbele hiervan is 8. Het getal zonder het cijfer van de eenheden is 302. Het verschil van 302 en 8 is 294.
+Beschouw bijvoorbeeld het getal 3 024. Het cijfer van de eenheden is 4, het dubbele hiervan is 8. Het getal zonder het cijfer van de eenheden is 302. Het verschil van 302 en 8 is 294.
 
 Het proces wordt nogmaals herhaald, maar nu met de uitkomst van het vorige getal, namelijk 294. Het cijfer van de eenheden is opnieuw 4, het dubbele is 8. Het getal zonder het cijfer van de eenheden is 29. Het verschil van 29 en 8 is 21. 
 
