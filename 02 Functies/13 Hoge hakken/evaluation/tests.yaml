@@ -1,0 +1,128 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "10.5\nN"
+      stdout: Je mag hakken tot 8.0 cm dragen.
+    - expression: hakhoogte(10.5)
+      return: 8.0
+  - testcases:
+    - stdin: "10.5\nJ\n4"
+      stdout: Je mag hakken tot 3.3 cm dragen.
+    - expression: wankelfactor(4)
+      return: 0.21
+    - expression: hakhoogte(10.5, 0.21)
+      return: 3.3
+  - testcases:
+    - stdin: "4.0\nJ\n3"
+      stdout: Je mag hakken tot 3.4 cm dragen.
+    - expression: wankelfactor(3)
+      return: 0.25
+    - expression: hakhoogte(4.0, 0.25)
+      return: 3.4
+  - testcases:
+    - stdin: "10.5\nJ\n3"
+      stdout: Je mag hakken tot 4.0 cm dragen.
+    - expression: wankelfactor(3)
+      return: 0.25
+    - expression: hakhoogte(10.5, 0.25)
+      return: 4.0
+  - testcases:
+    - stdin: "2.5\nN"
+      stdout: Je mag hakken tot 6.5 cm dragen.
+    - expression: hakhoogte(2.5)
+      return: 6.5
+  - testcases:
+    - stdin: "3.0\nN"
+      stdout: Je mag hakken tot 6.6 cm dragen.
+    - expression: hakhoogte(3.0)
+      return: 6.6
+  - testcases:
+    - stdin: "6.0\nN"
+      stdout: Je mag hakken tot 7.1 cm dragen.
+    - expression: hakhoogte(6.0)
+      return: 7.1
+  - testcases:
+    - stdin: "6.0\nJ\n3"
+      stdout: Je mag hakken tot 3.6 cm dragen.
+    - expression: wankelfactor(3)
+      return: 0.25
+    - expression: hakhoogte(6.0, 0.25)
+      return: 3.6
+  - testcases:
+    - stdin: "3.5\nN"
+      stdout: Je mag hakken tot 6.7 cm dragen.
+    - expression: hakhoogte(3.5)
+      return: 6.7
+  - testcases:
+    - stdin: "6.5\nN"
+      stdout: Je mag hakken tot 7.2 cm dragen.
+    - expression: hakhoogte(6.5)
+      return: 7.2
+  - testcases:
+    - stdin: "8.5\nJ\n6"
+      stdout: Je mag hakken tot 2.4 cm dragen.
+    - expression: wankelfactor(6)
+      return: 0.16
+    - expression: hakhoogte(8.5, 0.16)
+      return: 2.4
+  - testcases:
+    - stdin: "3.0\nJ\n2"
+      stdout: Je mag hakken tot 4.1 cm dragen.
+    - expression: wankelfactor(2)
+      return: 0.31
+    - expression: hakhoogte(3.0, 0.31)
+      return: 4.1
+  - testcases:
+    - stdin: "5.5\nN"
+      stdout: Je mag hakken tot 7.0 cm dragen.
+    - expression: hakhoogte(5.5)
+      return: 7.0
+  - testcases:
+    - stdin: "10.0\nJ\n5"
+      stdout: Je mag hakken tot 2.8 cm dragen.
+    - expression: wankelfactor(5)
+      return: 0.18
+    - expression: hakhoogte(10.0, 0.18)
+      return: 2.8
+  - testcases:
+    - stdin: "9.5\nJ\n3"
+      stdout: Je mag hakken tot 3.9 cm dragen.
+    - expression: wankelfactor(3)
+      return: 0.25
+    - expression: hakhoogte(9.5, 0.25)
+      return: 3.9
+  - testcases:
+    - stdin: "6.0\nJ\n1"
+      stdout: Je mag hakken tot 5.8 cm dragen.
+    - expression: wankelfactor(1)
+      return: 0.41
+    - expression: hakhoogte(6.0, 0.41)
+      return: 5.8
+  - testcases:
+    - stdin: "9.5\nJ\n4"
+      stdout: Je mag hakken tot 3.3 cm dragen.
+    - expression: wankelfactor(4)
+      return: 0.21
+    - expression: hakhoogte(9.5, 0.21)
+      return: 3.3
+  - testcases:
+    - stdin: "6.0\nJ\n5"
+      stdout: Je mag hakken tot 2.6 cm dragen.
+    - expression: wankelfactor(5)
+      return: 0.18
+    - expression: hakhoogte(6.0, 0.18)
+      return: 2.6
+  - testcases:
+    - stdin: "6.5\nJ\n1"
+      stdout: Je mag hakken tot 5.9 cm dragen.
+    - expression: wankelfactor(1)
+      return: 0.41
+    - expression: hakhoogte(6.5, 0.41)
+      return: 5.9
+  - testcases:
+    - stdin: "8.5\nJ\n5"
+      stdout: Je mag hakken tot 2.7 cm dragen.
+    - expression: wankelfactor(5)
+      return: 0.18
+    - expression: hakhoogte(8.5, 0.18)
+      return: 2.7
