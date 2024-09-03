@@ -6,7 +6,7 @@ De televisie van Garfield heeft 100 kanalen, netjes genummerd van 0 tot en met 9
 
 
 ## Gevraagd
-Schrijf een programma dat het huidige kanaalnummer van Garfield vraagt, daarna vraag je naar het aantal achteruit en vooruit zappen. Geef vervolgens het nieuwe kanaalnummer weer.
+Schrijf een programma dat het huidige kanaalnummer van Garfield vraagt, daarna vraag je naar het aantal keer vooruit zappen. Geef vervolgens het nieuwe kanaalnummer weer.
 
 
 #### Voorbeelden
