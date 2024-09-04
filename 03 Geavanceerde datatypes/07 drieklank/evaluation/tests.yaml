@@ -2,7 +2,7 @@
   contexts:
   - testcases:
     - expression: drieklank((224, 40, 205))
-      return:
+      return: !list
       - !tuple
         - 205
         - 224
@@ -13,7 +13,7 @@
         - 224
   - testcases:
     - expression: drieklank((205, 224, 40))
-      return:
+      return: !list
       - !tuple
         - 40
         - 205
@@ -24,7 +24,7 @@
         - 205
   - testcases:
     - expression: drieklank((40, 205, 224))
-      return:
+      return: !list
       - !tuple
         - 224
         - 40
@@ -35,7 +35,7 @@
         - 40
   - testcases:
     - expression: drieklank((0, 0, 1))
-      return:
+      return: !list
       - !tuple
         - 1
         - 0
@@ -46,7 +46,7 @@
         - 0
   - testcases:
     - expression: drieklank((51, 117, 129))
-      return:
+      return: !list
       - !tuple
         - 129
         - 51
@@ -57,7 +57,7 @@
         - 51
   - testcases:
     - expression: drieklank((39, 171, 62))
-      return:
+      return: !list
       - !tuple
         - 62
         - 39
@@ -68,7 +68,7 @@
         - 39
   - testcases:
     - expression: drieklank((76, 179, 12))
-      return:
+      return: !list
       - !tuple
         - 12
         - 76
@@ -79,7 +79,7 @@
         - 76
   - testcases:
     - expression: drieklank((253, 20, 188))
-      return:
+      return: !list
       - !tuple
         - 188
         - 253
@@ -90,7 +90,7 @@
         - 253
   - testcases:
     - expression: drieklank((115, 247, 22))
-      return:
+      return: !list
       - !tuple
         - 22
         - 115
@@ -101,7 +101,7 @@
         - 115
   - testcases:
     - expression: drieklank((234, 113, 65))
-      return:
+      return: !list
       - !tuple
         - 65
         - 234
@@ -112,7 +112,7 @@
         - 234
   - testcases:
     - expression: drieklank((130, 35, 190))
-      return:
+      return: !list
       - !tuple
         - 190
         - 130
@@ -123,7 +123,7 @@
         - 130
   - testcases:
     - expression: drieklank((18, 219, 140))
-      return:
+      return: !list
       - !tuple
         - 140
         - 18
@@ -134,7 +134,7 @@
         - 18
   - testcases:
     - expression: drieklank((157, 195, 94))
-      return:
+      return: !list
       - !tuple
         - 94
         - 157
@@ -145,7 +145,7 @@
         - 157
   - testcases:
     - expression: drieklank((28, 64, 124))
-      return:
+      return: !list
       - !tuple
         - 124
         - 28
@@ -156,7 +156,7 @@
         - 28
   - testcases:
     - expression: drieklank((111, 206, 250))
-      return:
+      return: !list
       - !tuple
         - 250
         - 111
@@ -167,7 +167,7 @@
         - 111
   - testcases:
     - expression: drieklank((89, 233, 30))
-      return:
+      return: !list
       - !tuple
         - 30
         - 89
@@ -178,7 +178,7 @@
         - 89
   - testcases:
     - expression: drieklank((190, 113, 75))
-      return:
+      return: !list
       - !tuple
         - 75
         - 190
@@ -189,7 +189,7 @@
         - 190
   - testcases:
     - expression: drieklank((53, 225, 73))
-      return:
+      return: !list
       - !tuple
         - 73
         - 53
@@ -200,7 +200,7 @@
         - 53
   - testcases:
     - expression: drieklank((206, 121, 106))
-      return:
+      return: !list
       - !tuple
         - 106
         - 206
@@ -211,7 +211,7 @@
         - 206
   - testcases:
     - expression: drieklank((143, 110, 33))
-      return:
+      return: !list
       - !tuple
         - 33
         - 143
