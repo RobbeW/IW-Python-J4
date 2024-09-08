@@ -10,7 +10,7 @@ Beschouw bijvoorbeeld het getal 3 024. Het cijfer van de eenheden is 4, het du
 
 Het proces wordt nogmaals herhaald, maar nu met de uitkomst van het vorige getal, namelijk 294. Het cijfer van de eenheden is opnieuw 4, het dubbele is 8. Het getal zonder het cijfer van de eenheden is 29. Het verschil van 29 en 8 is 21. 
 
-Omdat 21 nu duidelijk deelbaar is door 7 geldt er dat het volledig getal, 3024 ook deelbaar is door 7.
+Omdat 21 nu duidelijk deelbaar is door 7 geldt er dat het volledig getal, 3 024 ook deelbaar is door 7.
 
 ## Gevraagd
 Schrijf een progamma dat een getal vraagt aan de gebruiker en dit proces uitvoert. Net zoals in het voorbeeld moet dit proces twee keer uitgevoerd worden.
