@@ -17,7 +17,7 @@ De invoer `3024` levert als uitvoer
 1e stap: Het verschil van 302 en 8 is 294
 2e stap: Het verschil van 29 en 8 is 21
 ```
-Omdat 21 nu duidelijk deelbaar is door 7 kan je besluiten dat 3 024 ook deelbaar is door 7.
+Omdat 21 nu duidelijk deelbaar is door 7 kan je besluiten dat 3 024 ook deelbaar is door 7.
 
 De invoer `153024` levert als uitvoer
 
@@ -27,4 +27,4 @@ De invoer `153024` levert als uitvoer
 3e stap: Het verschil van 152 en 2 is 150
 4e stap: Het verschil van 15 en 0 is 15
 ```
-Gezien 15 niet deelbaar is door 7 kan je besluiten dat 153 024 ook ondeelbaar is door 7.
+Gezien 15 niet deelbaar is door 7 kan je besluiten dat 153 024 ook ondeelbaar is door 7.
