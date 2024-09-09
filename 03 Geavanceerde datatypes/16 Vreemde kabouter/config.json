@@ -3,7 +3,7 @@
   "programming_language": "python",
   "evaluation": {
     "memory_limit": 500000000,
-    "time_limit": 3,
+    "time_limit": 4,
     "handler": "tested",
     "test_suite": "tests.yaml"
   },
