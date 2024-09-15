@@ -19,7 +19,7 @@ Om efficiëntieredenen wordt dit niet toegelaten: elk bestand moet een geheel aa
 Voor deze opgave moet je, gegeven de grootte van een bestand, uitrekenen hoeveel schijfruimte deze innemen, rekening houdend met interne fragmentatie.
 
 ## Gevraagd
-Schrijf een programma dat aan de gebruik de grootte van een bestand vraagt. Vervolgens geef je het aantal clusters weer dat nodig is om dit bestand te bewaren en bepaal je de efficiëntie van de opslag. Met andere woorden, hoeveel ruimte er procentueel verloren gaat. Rond dit af op 1 decimaal.
+Schrijf een programma dat aan de gebruiker de grootte van een bestand vraagt. Vervolgens geef je het aantal clusters weer dat nodig is om dit bestand te bewaren en bepaal je de efficiëntie van de opslag. Met andere woorden, hoeveel ruimte er procentueel verloren gaat. Rond dit af op 1 decimaal.
 
 
 #### Voorbeeld
