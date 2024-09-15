@@ -1,6 +1,6 @@
 Een **Reuleaux** driehoek, genoemd naar <a href="https://nl.wikipedia.org/wiki/Franz_Reuleaux" target="_blank">Franz Reuleaux</a>, is een driehoekige figuur met de merkwaardige eigenschap dat ze constante hoogte heeft.
 
-![Een Reuleaux driehoek tussen 2 evenwijdige rechten.](media/image.png "Een Reuleaux driehoek tussen 2 evenwijdige rechten."){:data-caption="Een Reuleaux driehoek tussen 2 evenwijdige rechten.." .light-only width="45%"}
+![Een Reuleaux driehoek tussen 2 evenwijdige rechten.](media/image.png "Een Reuleaux driehoek tussen 2 evenwijdige rechten."){:data-caption="Een Reuleaux driehoek tussen 2 evenwijdige rechten." .light-only width="45%"}
 
 ![Een Reuleaux driehoek tussen 2 evenwijdige rechten.](media/image_dark.png "Een Reuleaux driehoek tussen 2 evenwijdige rechten."){:data-caption="Een Reuleaux driehoek tussen 2 evenwijdige rechten." .dark-only width="45%"}
 
