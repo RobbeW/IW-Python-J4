@@ -14,5 +14,9 @@
   "labels": [
     "import math",
     "sequentie"
-  ]
+  ],
+  "internals": {
+    "token": "wM42Uer6YahAS8FxrRN3csIsEw3sVr8b5-7SkjGHVbV2gWfhGhtg8cx4h-4QFRPn",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
