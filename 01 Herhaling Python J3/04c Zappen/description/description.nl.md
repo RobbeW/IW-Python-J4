@@ -20,3 +20,6 @@ Als Garfield op knaal `81` zat en daarna in het totaal `53` keer op de △-knop 
 Nieuwe kanaalnummer: 34
 ```
 
+{: .callout.callout-danger}
+> #### Waarschuwing
+> Gebruik **geen** selectiestructuur in deze oefening. Je kan dit zonder selectie zeer efficiënt programmeren.
