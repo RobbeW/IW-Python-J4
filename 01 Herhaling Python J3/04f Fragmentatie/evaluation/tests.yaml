@@ -1,0 +1,62 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '1'
+      stdout: "Er zijn 1 clusters nodig. Dit is 0.0 % efficiënt.\n"
+  - testcases:
+    - stdin: '5729'
+      stdout: "Er zijn 2 clusters nodig. Dit is 69.9 % efficiënt.\n"
+  - testcases:
+    - stdin: '20480'
+      stdout: "Er zijn 5 clusters nodig. Dit is 100.0 % efficiënt.\n"
+  - testcases:
+    - stdin: '20481'
+      stdout: "Er zijn 6 clusters nodig. Dit is 83.3 % efficiënt.\n"
+  - testcases:
+    - stdin: '37167'
+      stdout: "Er zijn 10 clusters nodig. Dit is 90.7 % efficiënt.\n"
+  - testcases:
+    - stdin: '69632'
+      stdout: "Er zijn 17 clusters nodig. Dit is 100.0 % efficiënt.\n"
+  - testcases:
+    - stdin: '82113'
+      stdout: "Er zijn 21 clusters nodig. Dit is 95.5 % efficiënt.\n"
+  - testcases:
+    - stdin: '118784'
+      stdout: "Er zijn 29 clusters nodig. Dit is 100.0 % efficiënt.\n"
+  - testcases:
+    - stdin: '200704'
+      stdout: "Er zijn 49 clusters nodig. Dit is 100.0 % efficiënt.\n"
+  - testcases:
+    - stdin: '217341'
+      stdout: "Er zijn 54 clusters nodig. Dit is 98.3 % efficiënt.\n"
+  - testcases:
+    - stdin: '222549'
+      stdout: "Er zijn 55 clusters nodig. Dit is 98.8 % efficiënt.\n"
+  - testcases:
+    - stdin: '227803'
+      stdout: "Er zijn 56 clusters nodig. Dit is 99.3 % efficiënt.\n"
+  - testcases:
+    - stdin: '262144'
+      stdout: "Er zijn 64 clusters nodig. Dit is 100.0 % efficiënt.\n"
+  - testcases:
+    - stdin: '286720'
+      stdout: "Er zijn 70 clusters nodig. Dit is 100.0 % efficiënt.\n"
+  - testcases:
+    - stdin: '380928'
+      stdout: "Er zijn 93 clusters nodig. Dit is 100.0 % efficiënt.\n"
+  - testcases:
+    - stdin: '402041'
+      stdout: "Er zijn 99 clusters nodig. Dit is 99.1 % efficiënt.\n"
+  - testcases:
+    - stdin: '402413'
+      stdout: "Er zijn 99 clusters nodig. Dit is 99.2 % efficiënt.\n"
+  - testcases:
+    - stdin: '471649'
+      stdout: "Er zijn 116 clusters nodig. Dit is 99.3 % efficiënt.\n"
+  - testcases:
+    - stdin: '861685'
+      stdout: "Er zijn 211 clusters nodig. Dit is 99.7 % efficiënt.\n"
+  - testcases:
+    - stdin: '901887'
+      stdout: "Er zijn 221 clusters nodig. Dit is 99.6 % efficiënt.\n"
