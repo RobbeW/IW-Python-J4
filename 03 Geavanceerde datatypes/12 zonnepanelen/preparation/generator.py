@@ -42,6 +42,10 @@ while len(cases) < ntests:
     if (lijst, a) not in cases:
         cases.append( (lijst, a) )
 
+lijst = list( random.randint(10,100) for _ in range(100000) )
+a = 6000
+cases.append( (lijst, a) )
+
 cases = sorted(cases, key = lambda x: len(x[0]))
 
 
