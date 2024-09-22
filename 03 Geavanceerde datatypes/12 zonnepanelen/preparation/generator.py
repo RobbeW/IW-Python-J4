@@ -42,7 +42,7 @@ while len(cases) < ntests:
     if (lijst, a) not in cases:
         cases.append( (lijst, a) )
 
-lijst = list( random.randint(10,100) for _ in range(100000) )
+lijst = list( random.randint(10,100) for _ in range(90000) )
 a = 6000
 cases.append( (lijst, a) )
 
