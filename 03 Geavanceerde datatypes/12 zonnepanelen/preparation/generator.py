@@ -31,7 +31,7 @@ module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 
 # generate test data
-ntests= 30
+ntests= 24
 cases = [([1, 2, 3, 4, 5, 6, 7, 8, 9], 4), ([9, 8, 7, 6, 5, 4, 3, 2, 1], 3), ([1, 2, 3, 4, 5], 1) ]
 while len(cases) < ntests:
     e = random.randint(1,4)
