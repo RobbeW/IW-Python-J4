@@ -8,6 +8,6 @@ r_small = float( input( 'Geef de lengte van de kleine straal in: ' ) )
 k = r_large / r_small
 A = ( k + 1 ) * ( k + 2 ) * math.pi * r_small**2
 A = round( A, 3 )
-print()
+
 # Uitvoer
 print( "De oppervlakte van de epicycloïde is:", A, "cm²." )
