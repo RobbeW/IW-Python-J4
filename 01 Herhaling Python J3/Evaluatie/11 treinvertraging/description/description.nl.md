@@ -9,12 +9,13 @@ Vervolgens vraagt het programma naar de reistijd, door **opnieuw** eerst de uren
 Bereken daarna wanneer de trein op de bestemming zal toekomen.
 
 #### Voorbeeld
-Voor een trein met vertrektijd 14.25 u. en  2 uur en 20 minuten reistijd met 30 minuten vertraging verschijnt er:
+Voor een trein met vertrektijd `14`.`25` u. en `2` uur en `20` minuten reistijd met `30` minuten vertraging verschijnt er:
 
 ```
 Je trein komt aan om 17.15 u.
 ```
 
 {: .callout.callout-info}
-> #### Tip
-> Om het punt `.` tussen de uren en de minuten aan de uren vast te *plakken* kan je gebruik maken van `str()` (om een getal om te zetten naar tekst) en `+` (om te concateneren - tekst samenvoegen - zonder spatie).
+> #### Tips
+> - Je zal in deze oefening **vijf keer** een getal moeten vragen aan de gebruiker.
+> - Om het punt `.` tussen de uren en de minuten aan de uren vast te *plakken* kan je gebruik maken van `str()` (om een getal om te zetten naar tekst) en `+` (om te concateneren - tekst samenvoegen - zonder spatie).
