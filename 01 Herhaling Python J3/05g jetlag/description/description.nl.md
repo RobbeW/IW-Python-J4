@@ -14,7 +14,7 @@ Hierbij stelt $$\mathsf{u}$$ het aantal vlieguren van de reis voor en $$\mathsf{
 {:class="table table-striped table-condensed" style="width:auto;margin-left:auto;margin-right:auto;"}
 
 
-De grenzen die gebruikt worden om en te bepalen zijn steeds exclusief het beginuur en inclusief het einduur. Vertrek- en aankomsttijden zijn steeds aangegeven in de lokale tijd.
+De grenzen die gebruikt worden om $$\mathsf{v}$$ en $$\mathsf{a}$$ te bepalen zijn steeds **exclusief het beginuur en inclusief het einduur**. Vertrek- en aankomsttijden zijn steeds aangegeven in de lokale tijd.
 
 ![Slaap inhalen op de luchthaven.](media/joyce-romero.jpg "Foto door Joyce Romero op Unsplash."){:data-caption="Slaap inhalen op de luchthaven." width="50%"}
 
