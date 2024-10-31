@@ -31,5 +31,5 @@ Het rijksregisternummer is 03.01.25-224-95.
 {: .callout.callout-info}
 > #### Tips
 > - Gebruik `% 100`.
-> - Je kan voorloopnullen creëren via `zfill()`, bijvoorbeeld: `str( dagteller ).zfill(3)`. Dit zorgt ervoor dat `dagteller` steeds geschreven wordt met voorloopnullen tot er vier tekens zijn. Indien `dagteller = 17` dan is het vorige gelijk aan `003`.
+> - Je kan voorloopnullen creëren via `zfill()`, bijvoorbeeld: `str(dagteller).zfill(3)`. Dit zorgt ervoor dat `dagteller` steeds geschreven wordt met voorloopnullen tot er vier tekens zijn. Indien `dagteller = 17` dan is het vorige gelijk aan `017`.
 
