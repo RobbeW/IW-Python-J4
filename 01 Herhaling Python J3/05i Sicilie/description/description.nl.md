@@ -20,7 +20,7 @@ Laura en haar groep vrienden plannen een reis naar Sicilië. Ze gaan negen dagen
 
 
 ## Opgave
-Schrijf een programma dat de gebruiker vraagt naar het aantal reizigers. Bereken daarna de kostprijs voor beide formules en toon deze kostprijzen op het scherm. Geef ook weer welke keuze het voordeligst is.
+Schrijf een programma dat de gebruiker vraagt naar het aantal reizigers. Bereken daarna de kostprijs voor beide formules en toon deze kostprijzen op het scherm. Geef ook weer welke keuze het voordeligst is. **Rond af** op twee decimalen.
 
 #### Voorbeeld
 Voor twee reizigers verschijnt er:
