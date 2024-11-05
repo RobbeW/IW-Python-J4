@@ -13,6 +13,15 @@
     - stdin: "-4\n12\n-9"
       stdout: "Deze vkv kan meteen naar een kwadraat herleid worden.\n"
   - testcases:
+    - stdin: "-4\n-12\n-9"
+      stdout: "Deze vkv kan meteen naar een kwadraat herleid worden.\n"
+  - testcases:
+    - stdin: "-1\n-2\n-1"
+      stdout: "Deze vkv kan meteen naar een kwadraat herleid worden.\n"
+  - testcases:
+    - stdin: "-1\n2\n-1"
+      stdout: "Deze vkv kan meteen naar een kwadraat herleid worden.\n"
+  - testcases:
     - stdin: "49\n-112\n64"
       stdout: "Deze vkv kan meteen naar een kwadraat herleid worden.\n"
   - testcases:
@@ -59,4 +68,10 @@
       stdout: "Deze vkv kan niet meteen naar een kwadraat herleid worden.\n"
   - testcases:
     - stdin: "-16\n80\n-100"
+      stdout: "Deze vkv kan meteen naar een kwadraat herleid worden.\n"
+  - testcases:
+    - stdin: "-100\n60\n-9"
+      stdout: "Deze vkv kan meteen naar een kwadraat herleid worden.\n"
+  - testcases:
+    - stdin: "-1\n-4\n-4"
       stdout: "Deze vkv kan meteen naar een kwadraat herleid worden.\n"
