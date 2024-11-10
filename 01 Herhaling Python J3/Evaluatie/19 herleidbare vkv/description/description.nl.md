@@ -18,7 +18,7 @@ $$
 
 ## Opgave
 
-Schrijf een programma dat voor een gegeven volledige vierkantsvergelijking **in volgorde** naar de coefficienten $$\mathsf{a}$$, $$\mathsf{b}$$ en $$\mathsf{c}$$ vraagt en nadien op het scherm weergeeft of de bijbehorende vierkantsvergelijking te herleiden valt.
+Schrijf een programma dat voor een gegeven volledige vierkantsvergelijking **in volgorde** naar de coëfficiënten $$\mathsf{a}$$, $$\mathsf{b}$$ en $$\mathsf{c}$$ vraagt en nadien op het scherm weergeeft of de bijbehorende vierkantsvergelijking te herleiden valt.
 
 Het is **niet toegelaten** in deze oefening om de discrimant uit te rekenen.
 
