@@ -47,3 +47,8 @@ Bij een invoer van `2030` krijgt men de volgende uitvoer:
 ```
 In 2030 verwacht men 12136947 inwoners in België.
 ```
+
+{: .callout.callout-info}
+> #### Tip
+> Reken het aantal inwoners elk jaar uit, maar toon de informatie **enkel indien** het jaartal deelbaar is door 10...
+
