@@ -1,0 +1,21 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "description": {
+    "names": {
+      "nl": "Kerstboom - toets"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "ASCII patroon",
+    "Begrensde herhaling",
+    "for-lus"
+  ],
+  "access": "public",
+  "internals": {
+    }
+}
