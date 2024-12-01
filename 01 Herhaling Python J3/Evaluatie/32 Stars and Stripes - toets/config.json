@@ -1,0 +1,21 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "description": {
+    "names": {
+      "nl": "Stars and Stripes"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "modulo",
+    "for-lus",
+    "begrensde herhaling"
+  ],
+  "access": "public",
+  "internals": {
+  }
+}
