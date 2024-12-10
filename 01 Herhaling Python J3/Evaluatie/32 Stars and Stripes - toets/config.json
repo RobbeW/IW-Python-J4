@@ -1,0 +1,23 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "description": {
+    "names": {
+      "nl": "Stars and Stripes - toets"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "modulo",
+    "for-lus",
+    "begrensde herhaling"
+  ],
+  "access": "public",
+  "internals": {
+    "token": "vcj9GN7fTZM2AIrsWDWbAAmmgw2J5ThjW-uff5iyJZc_-xj4m3bCzAYk-NQciAfP",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
