@@ -1,0 +1,92 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '0'
+      stdout: ''
+  - testcases:
+    - stdin: '-6'
+      stdout: "Je tikte 0 positieve getallen in.\n"
+  - testcases:
+    - stdin: '-4'
+      stdout: "Je tikte 0 positieve getallen in.\n"
+  - testcases:
+    - stdin: "7\n-3"
+      stdout: "Je tikte één positief getal in.\n"
+  - testcases:
+    - stdin: "0\n4\n-9"
+      stdout: "Je tikte 2 positieve getallen in.\n"
+  - testcases:
+    - stdin: "5\n3\n2\n-1"
+      stdout: "Je tikte 3 positieve getallen in.\n"
+  - testcases:
+    - stdin: "6\n12\n15\n-13"
+      stdout: "Je tikte 3 positieve getallen in.\n"
+  - testcases:
+    - stdin: "10\n13\n3\n-7"
+      stdout: "Je tikte 3 positieve getallen in.\n"
+  - testcases:
+    - stdin: "0\n15\n10\n-4"
+      stdout: "Je tikte 3 positieve getallen in.\n"
+  - testcases:
+    - stdin: "4\n3\n4\n-13"
+      stdout: "Je tikte 3 positieve getallen in.\n"
+  - testcases:
+    - stdin: "2\n10\n3\n4\n-2"
+      stdout: "Je tikte 4 positieve getallen in.\n"
+  - testcases:
+    - stdin: "9\n12\n5\n1\n-13"
+      stdout: "Je tikte 4 positieve getallen in.\n"
+  - testcases:
+    - stdin: "12\n1\n6\n8\n-1"
+      stdout: "Je tikte 4 positieve getallen in.\n"
+  - testcases:
+    - stdin: "6\n4\n10\n8\n-5"
+      stdout: "Je tikte 4 positieve getallen in.\n"
+  - testcases:
+    - stdin: "0\n15\n1\n11\n7\n-8"
+      stdout: "Je tikte 5 positieve getallen in.\n"
+  - testcases:
+    - stdin: "3\n6\n15\n3\n11\n-12"
+      stdout: "Je tikte 5 positieve getallen in.\n"
+  - testcases:
+    - stdin: "3\n0\n3\n15\n6\n-6"
+      stdout: "Je tikte 5 positieve getallen in.\n"
+  - testcases:
+    - stdin: "8\n2\n15\n9\n10\n-4"
+      stdout: "Je tikte 5 positieve getallen in.\n"
+  - testcases:
+    - stdin: "7\n6\n8\n6\n2\n12\n-12"
+      stdout: "Je tikte 6 positieve getallen in.\n"
+  - testcases:
+    - stdin: "10\n5\n15\n3\n14\n7\n-13"
+      stdout: "Je tikte 6 positieve getallen in.\n"
+  - testcases:
+    - stdin: "6\n7\n8\n14\n1\n9\n-8"
+      stdout: "Je tikte 6 positieve getallen in.\n"
+  - testcases:
+    - stdin: "9\n5\n7\n5\n12\n14\n13\n-12"
+      stdout: "Je tikte 7 positieve getallen in.\n"
+  - testcases:
+    - stdin: "15\n14\n13\n9\n14\n9\n7\n-6"
+      stdout: "Je tikte 7 positieve getallen in.\n"
+  - testcases:
+    - stdin: "15\n6\n10\n2\n4\n9\n1\n-12"
+      stdout: "Je tikte 7 positieve getallen in.\n"
+  - testcases:
+    - stdin: "1\n14\n7\n4\n8\n2\n11\n1\n-9"
+      stdout: "Je tikte 8 positieve getallen in.\n"
+  - testcases:
+    - stdin: "14\n1\n11\n7\n4\n3\n14\n4\n-2"
+      stdout: "Je tikte 8 positieve getallen in.\n"
+  - testcases:
+    - stdin: "6\n9\n3\n14\n11\n6\n13\n7\n-5"
+      stdout: "Je tikte 8 positieve getallen in.\n"
+  - testcases:
+    - stdin: "14\n1\n10\n12\n13\n8\n11\n8\n9\n-4"
+      stdout: "Je tikte 9 positieve getallen in.\n"
+  - testcases:
+    - stdin: "7\n4\n12\n2\n6\n12\n6\n6\n7\n11\n-6"
+      stdout: "Je tikte 10 positieve getallen in.\n"
+  - testcases:
+    - stdin: "3\n1\n10\n1\n14\n13\n14\n7\n7\n9\n-5"
+      stdout: "Je tikte 10 positieve getallen in.\n"

@@ -1,0 +1,18 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "description": {
+    "names": {
+      "nl": "Getallen vragen (versie 1)"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "while-lus",
+    "voorwaardelijke herhaling"
+  ],
+  "access": "public"
+}
