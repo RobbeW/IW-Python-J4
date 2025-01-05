@@ -1,8 +1,8 @@
 - tab: Feedback
   contexts:
   - testcases:
-    - stdin: '0'
-      stdout: ''
+    - stdin: '-1'
+      stdout: "Je tikte 0 positieve getallen in.\n"
   - testcases:
     - stdin: '-6'
       stdout: "Je tikte 0 positieve getallen in.\n"
