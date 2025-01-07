@@ -14,5 +14,6 @@ Bij achtereenvolgende invoer van de volgende 7 temperaturen `27.6`, `29.1`, `31.
 Er werden 7 temperaturen ingevoerd.
 De hoogste temperatuur was 31.1 °C.
 ```
+E rwaren immers 3 temperaturen van 30° of meer, namelijk `31.1`, `30.0` en de laatste temperatuur `30.5`.
 
 ![Heatwave continues...](media/heatwave.gif "Heatwave continues..."){:data-caption="Heatwave continues..." width="320px"}
