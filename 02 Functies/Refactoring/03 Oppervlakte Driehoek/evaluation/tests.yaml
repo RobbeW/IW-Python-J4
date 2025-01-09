@@ -7,11 +7,11 @@
       return: 5.28
   - testcases:
     - stdin: "8\n9"
-      stdout: "De oppervlakte van een driehoek met basis 8 cm en hoogte 9 cm is 36 cm²."
+      stdout: "De oppervlakte van een driehoek met basis 8.0 cm en hoogte 9.0 cm is 36.0 cm²."
     - expression: "oppervlakte(8, 9)"
-      return: 36
+      return: 36.0
   - testcases:
     - stdin: "5.5\n3.3"
-      stdout: "De oppervlakte van een driehoek met basis 5.5 cm en hoogte 3.3 cm is 9.08 cm²."
+      stdout: "De oppervlakte van een driehoek met basis 5.5 cm en hoogte 3.3 cm is 9.07 cm²."
     - expression: "oppervlakte(5.5, 3.3)"
-      return: 9.08
+      return: 9.07
