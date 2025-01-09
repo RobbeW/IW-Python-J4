@@ -3,6 +3,6 @@
   - testcases:
     - stdin: "Jan"
     - stdout: "Hallo Jan!"
-    - expression: "begroeting("Jan")"
+    - expression: "begroeting(\"Jan\")"
       stdout: "Hallo Jan!"
 

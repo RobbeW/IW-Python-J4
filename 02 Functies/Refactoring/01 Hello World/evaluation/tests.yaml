@@ -1,7 +1,7 @@
 - tab: Feedback
   contexts:
   - testcases:
-    - stdout: "Hello world!"
+    - stdout: "Hello World!"
     - expression: "hello_world()"
-      stdout: "Hello world!"
+      stdout: "Hello World!"
 
