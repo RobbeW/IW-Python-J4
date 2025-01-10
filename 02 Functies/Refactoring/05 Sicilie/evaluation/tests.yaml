@@ -63,7 +63,7 @@
     - stdin: '9'
       stdout: "Verblijf 1 kost: € 297.0\nVerblijf 2 kost: € 349.65\nVerblijf 1 is
         goedkoper.\n"
-      - expression: "verblijf1(aantal)"
+    - expression: "verblijf1(aantal)"
       return: 297
     - expression: "verblijf2(aantal)"
       return: 349.65
