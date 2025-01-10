@@ -1,0 +1,77 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '1'
+      stdout: "Verblijf 1 kost: € 55\nVerblijf 2 kost: € 49.95\nVerblijf 2 is goedkoper.\n"
+    - expression: "verblijf1(aantal)"
+      return: 55
+    - expression: "verblijf2(aantal)"
+      return: 49.95
+  - testcases:
+    - stdin: '2'
+      stdout: "Verblijf 1 kost: € 110\nVerblijf 2 kost: € 99.9\nVerblijf 2 is goedkoper.\n"
+    - expression: "verblijf1(aantal)"
+      return: 110
+    - expression: "verblijf2(aantal)"
+      return: 99.9
+  - testcases:
+    - stdin: '3'
+      stdout: "Verblijf 1 kost: € 148.5\nVerblijf 2 kost: € 149.85\nVerblijf 1 is
+        goedkoper.\n"
+    - expression: "verblijf1(aantal)"
+      return: 148.5
+    - expression: "verblijf2(aantal)"
+      return: 149.85
+  - testcases:
+    - stdin: '4'
+      stdout: "Verblijf 1 kost: € 176.0\nVerblijf 2 kost: € 149.85\nVerblijf 2 is
+        goedkoper.\n"
+    - expression: "verblijf1(aantal)"
+      return: 176
+    - expression: "verblijf2(aantal)"
+      return: 149.85
+  - testcases:
+    - stdin: '5'
+      stdout: "Verblijf 1 kost: € 165.0\nVerblijf 2 kost: € 199.8\nVerblijf 1 is goedkoper.\n"
+    - expression: "verblijf1(aantal)"
+      return: 165
+    - expression: "verblijf2(aantal)"
+      return: 199.8
+  - testcases:
+    - stdin: '6'
+      stdout: "Verblijf 1 kost: € 198.0\nVerblijf 2 kost: € 199.8\nVerblijf 1 is goedkoper.\n"
+    - expression: "verblijf1(aantal)"
+      return: 198
+    - expression: "verblijf2(aantal)"
+      return: 199.8
+  - testcases:
+    - stdin: '7'
+      stdout: "Verblijf 1 kost: € 231.0\nVerblijf 2 kost: € 249.75\nVerblijf 1 is
+        goedkoper.\n"
+    - expression: "verblijf1(aantal)"
+      return: 231
+    - expression: "verblijf2(aantal)"
+      return: 249.75
+  - testcases:
+    - stdin: '8'
+      stdout: "Verblijf 1 kost: € 264.0\nVerblijf 2 kost: € 299.7\nVerblijf 1 is goedkoper.\n"
+    - expression: "verblijf1(aantal)"
+      return: 264
+    - expression: "verblijf2(aantal)"
+      return: 299.7
+  - testcases:
+    - stdin: '9'
+      stdout: "Verblijf 1 kost: € 297.0\nVerblijf 2 kost: € 349.65\nVerblijf 1 is
+        goedkoper.\n"
+      - expression: "verblijf1(aantal)"
+      return: 297
+    - expression: "verblijf2(aantal)"
+      return: 349.65
+  - testcases:
+    - stdin: '10'
+      stdout: "Verblijf 1 kost: € 330.0\nVerblijf 2 kost: € 399.6\nVerblijf 1 is goedkoper.\n"
+    - expression: "verblijf1(aantal)"
+      return: 330
+    - expression: "verblijf2(aantal)"
+      return: 399.6
+  

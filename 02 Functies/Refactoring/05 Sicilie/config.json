@@ -1,0 +1,19 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "description": {
+    "names": {
+      "nl": "Op reis naar Sicilië - Refactoring"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "selectie"
+  ],
+  "access": "public",
+  "internals": {
+  }
+}
