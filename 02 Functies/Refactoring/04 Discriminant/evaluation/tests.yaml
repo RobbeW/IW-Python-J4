@@ -4,35 +4,35 @@
     - stdin: "2\n6\n5"
       stdout: "Discriminant = -4.0\nEr zijn geen reële oplossingen.\n"
     - expression: "discriminant(2, 6, 5)"
-      return: -4.0
+      return: -4
     - expression: "printOplossingen(-4.0)"
       stdout: "Discriminant = -4.0\nEr zijn geen reële oplossingen.\n"
   - testcases:
     - stdin: "1\n2\n1"
       stdout: "Discriminant = 0.0\nEr is exact één reële oplossing.\n"
     - expression: "discriminant(1, 2, 1)"
-      return: 0.0
+      return: 0
     - expression: "printOplossingen(0.0)"
       stdout: "Discriminant = 0.0\nEr is exact één reële oplossing.\n"
   - testcases:
     - stdin: "1\n3\n-4"
       stdout: "Discriminant = 25.0\nEr zijn twee verschillende reële oplossingen.\n"
     - expression: "discriminant(1, 3, -4)"
-      return: 25.0
+      return: 25
     - expression: "printOplossingen(25.0)"
       stdout: "Discriminant = 25.0\nEr zijn twee verschillende reële oplossingen.\n"
   - testcases:
     - stdin: "4\n0\n-3"
       stdout: "Discriminant = 48.0\nEr zijn twee verschillende reële oplossingen.\n"
     - expression: "discriminant(4, 0, -3)"
-      return: 48.0
+      return: 48
     - expression: "printOplossingen(48.0)"
       stdout: "Discriminant = 48.0\nEr zijn twee verschillende reële oplossingen.\n"
   - testcases:
     - stdin: "4\n-12\n9"
       stdout: "Discriminant = 0.0\nEr is exact één reële oplossing.\n"
     - expression: "discriminant(4, -12, 9)"
-      return: 0.0
+      return: 0
     - expression: "printOplossingen(0.0)"
       stdout: "Discriminant = 0.0\nEr is exact één reële oplossing.\n"
   
