@@ -27,21 +27,21 @@
       stdout: "Verblijf 1 kost: € 176.0\nVerblijf 2 kost: € 149.85\nVerblijf 2 is
         goedkoper.\n"
     - expression: "verblijf1(4)"
-      return: 176
+      return: 176.0
     - expression: "verblijf2(4)"
       return: 149.85
   - testcases:
     - stdin: '5'
       stdout: "Verblijf 1 kost: € 165.0\nVerblijf 2 kost: € 199.8\nVerblijf 1 is goedkoper.\n"
     - expression: "verblijf1(5)"
-      return: 165
+      return: 165.0
     - expression: "verblijf2(5)"
       return: 199.8
   - testcases:
     - stdin: '6'
       stdout: "Verblijf 1 kost: € 198.0\nVerblijf 2 kost: € 199.8\nVerblijf 1 is goedkoper.\n"
     - expression: "verblijf1(6)"
-      return: 198
+      return: 198.0
     - expression: "verblijf2(6)"
       return: 199.8
   - testcases:
@@ -49,14 +49,14 @@
       stdout: "Verblijf 1 kost: € 231.0\nVerblijf 2 kost: € 249.75\nVerblijf 1 is
         goedkoper.\n"
     - expression: "verblijf1(7)"
-      return: 231
+      return: 231.0
     - expression: "verblijf2(7)"
       return: 249.75
   - testcases:
     - stdin: '8'
       stdout: "Verblijf 1 kost: € 264.0\nVerblijf 2 kost: € 299.7\nVerblijf 1 is goedkoper.\n"
     - expression: "verblijf1(8)"
-      return: 264
+      return: 264.0
     - expression: "verblijf2(8)"
       return: 299.7
   - testcases:
@@ -64,14 +64,14 @@
       stdout: "Verblijf 1 kost: € 297.0\nVerblijf 2 kost: € 349.65\nVerblijf 1 is
         goedkoper.\n"
     - expression: "verblijf1(9)"
-      return: 297
+      return: 297.0
     - expression: "verblijf2(9)"
       return: 349.65
   - testcases:
     - stdin: '10'
       stdout: "Verblijf 1 kost: € 330.0\nVerblijf 2 kost: € 399.6\nVerblijf 1 is goedkoper.\n"
     - expression: "verblijf1(10)"
-      return: 330
+      return: 330.0
     - expression: "verblijf2(10)"
       return: 399.6
   
