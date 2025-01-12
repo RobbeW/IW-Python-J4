@@ -4,23 +4,27 @@
     - stdin: "43\n20"
       stdout: "Na 20 minuten zijn er 86 bacteriën.\nHet startaantal werd met 2 vermenigvuldigd!\n"
     - expression: berekenToename(43, 20)
+      stdout: "Na 20 minuten zijn er 86 bacteriën."
       return: 2
   - testcases:
     - stdin: "62\n39"
       stdout: "Na 20 minuten zijn er 124 bacteriën.\nHet startaantal werd met 2 vermenigvuldigd!\n"
     - expression: berekenToename(62, 39)
+      stdout: "Na 20 minuten zijn er 124 bacteriën."
       return: 2
   - testcases:
     - stdin: "145\n44"
       stdout: "Na 20 minuten zijn er 290 bacteriën.\nNa 40 minuten zijn er 580 bacteriën.\n\
         Het startaantal werd met 4 vermenigvuldigd!\n"
     - expression: berekenToename(145, 44)
+      stdout: "Na 20 minuten zijn er 290 bacteriën.\nNa 40 minuten zijn er 580 bacteriën."
       return: 4
   - testcases:
     - stdin: "100\n56"
       stdout: "Na 20 minuten zijn er 200 bacteriën.\nNa 40 minuten zijn er 400 bacteriën.\n\
         Het startaantal werd met 4 vermenigvuldigd!\n"
     - expression: berekenToename(100, 56)
+      stdout: "Na 20 minuten zijn er 200 bacteriën.\nNa 40 minuten zijn er 400 bacteriën."
       return: 4
   - testcases:
     - stdin: "47\n87"
@@ -28,5 +32,6 @@
         Na 60 minuten zijn er 376 bacteriën.\nNa 80 minuten zijn er 752 bacteriën.\n\
         Het startaantal werd met 16 vermenigvuldigd!\n"
     - expression: berekenToename(47, 87)
+      stdout: "Na 20 minuten zijn er 94 bacteriën.\nNa 40 minuten zijn er 188 bacteriën.\nNa 60 minuten zijn er 376 bacteriën.\nNa 80 minuten zijn er 752 bacteriën."
       return: 16
   
