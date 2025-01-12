@@ -26,8 +26,8 @@
               }
             },
             {
-              "input": {
-                "expression": "hogerLager(614)"
+              "expression": {
+                "data": "hogerLager(614)"
               },
               "output": {
                 "stdout": {
