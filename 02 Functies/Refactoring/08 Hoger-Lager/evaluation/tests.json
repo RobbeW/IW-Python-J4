@@ -27,7 +27,7 @@
             },
             {
               "input": {
-                "statement": "hogerLager(614)"
+                "expression": "hogerLager(614)"
               },
               "output": {
                 "stdout": {
