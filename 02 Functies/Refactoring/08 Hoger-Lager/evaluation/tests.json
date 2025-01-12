@@ -29,6 +29,12 @@
               "expression": {
                 "data": "hogerLager(614)"
               },
+              "input":{
+                "stdin": {
+                  "type": "text",
+                  "data": "500\n750\n625\n562\n593\n609\n617\n613\n615\n614\n"
+                }
+              },
               "output": {
                 "stdout": {
                   "type": "text",
