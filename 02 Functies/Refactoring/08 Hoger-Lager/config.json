@@ -1,0 +1,22 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "evaluation": {
+    "handler": "TESTed",
+    "test_suite": "tests.json"
+  },
+  "description": {
+    "names": {
+      "nl": "Hoger-Lager - Refactoring"
+    }
+  },
+  "labels": [
+    "while-lus",
+    "voorwaardelijke herhaling",
+    "random",
+    "functies"
+  ],
+  "access": "public",
+  "internals": {
+  }
+}
