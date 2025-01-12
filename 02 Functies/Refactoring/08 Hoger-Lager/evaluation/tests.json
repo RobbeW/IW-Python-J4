@@ -27,7 +27,13 @@
             },
             {
               "expression": {
-                "data": "hogerLager(614)"
+                "data": "hogerLager"
+              },
+              "arguments":{
+                "items": {
+                  "type": "number",
+                  "data": 614
+                }
               },
               "output": {
                 "stdout": {
