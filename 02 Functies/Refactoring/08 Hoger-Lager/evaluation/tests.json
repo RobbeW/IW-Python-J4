@@ -27,11 +27,7 @@
             },
             {
               "expression": {
-                "data": "hogerLager"
-              },
-              "arguments":{
-                "type": "number",
-                 "data": "614"
+                "data": "hogerLager(614)"
               },
               "input":{
                 "stdin": {
