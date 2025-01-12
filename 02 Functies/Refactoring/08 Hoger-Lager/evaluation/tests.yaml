@@ -1,62 +1,13 @@
 - tab: Feedback
   contexts:
-  - testcases:
-    - stdin: "89.2\n9.6"
-      stdout: "Remweg: 31.976 m.\n"
-  - testcases:
-    - stdin: "85.2\n8.7"
-      stdout: "Remweg: 32.19 m.\n"
-  - testcases:
-    - stdin: "86.0\n7.8"
-      stdout: "Remweg: 36.582 m.\n"
-  - testcases:
-    - stdin: "90\n8"
-      stdout: "Remweg: 39.062 m.\n"
-  - testcases:
-    - stdin: "96.1\n8.3"
-      stdout: "Remweg: 42.927 m.\n"
-  - testcases:
-    - stdin: "104.3\n9.7"
-      stdout: "Remweg: 43.268 m.\n"
-  - testcases:
-    - stdin: "93.5\n7.5"
-      stdout: "Remweg: 44.97 m.\n"
-  - testcases:
-    - stdin: "110.8\n9.3"
-      stdout: "Remweg: 50.929 m.\n"
-  - testcases:
-    - stdin: "111.5\n9.2"
-      stdout: "Remweg: 52.135 m.\n"
-  - testcases:
-    - stdin: "107.9\n8.4"
-      stdout: "Remweg: 53.472 m.\n"
-  - testcases:
-    - stdin: "112.4\n8.8"
-      stdout: "Remweg: 55.388 m.\n"
-  - testcases:
-    - stdin: "108.4\n7.8"
-      stdout: "Remweg: 58.12 m.\n"
-  - testcases:
-    - stdin: "123.9\n9.6"
-      stdout: "Remweg: 61.693 m.\n"
-  - testcases:
-    - stdin: "120.4\n9.0"
-      stdout: "Remweg: 62.141 m.\n"
-  - testcases:
-    - stdin: "120.5\n7.7"
-      stdout: "Remweg: 72.753 m.\n"
-  - testcases:
-    - stdin: "120.2\n7.4"
-      stdout: "Remweg: 75.326 m.\n"
-  - testcases:
-    - stdin: "137.2\n8.5"
-      stdout: "Remweg: 85.439 m.\n"
-  - testcases:
-    - stdin: "128.8\n7.1"
-      stdout: "Remweg: 90.144 m.\n"
-  - testcases:
-    - stdin: "138.9\n8.2"
-      stdout: "Remweg: 90.773 m.\n"
-  - testcases:
-    - stdin: "133.8\n7.2"
-      stdout: "Remweg: 95.928 m.\n"
+  - context:
+    - before:
+      - python: "import random; random.seed(7247)"
+    - testcases:
+      - stdin: "500\n750\n625\n562\n593\n609\n617\n613\n615\n614\n"
+        stdout: "Het getal is hoger dan 500\nHet getal is lager dan 750\nHet getal is lager dan 625\nHet getal is hoger dan 562\nHet getal is hoger dan 593\nHet getal is hoger dan 609\nHet getal is lager dan 617\nHet getal is hoger dan 613\nHet getal is lager dan 615\nJe hebt 614 geraden in 10 pogingen!\n"
+      - expression: "hogerLager(614)"
+        stdin: "500\n750\n625\n562\n593\n609\n617\n613\n615\n614\n"
+        stdout: "Het getal is hoger dan 500\nHet getal is lager dan 750\nHet getal is lager dan 625\nHet getal is hoger dan 562\nHet getal is hoger dan 593\nHet getal is hoger dan 609\nHet getal is lager dan 617\nHet getal is hoger dan 613\nHet getal is lager dan 615\n"
+        return: 10
+  

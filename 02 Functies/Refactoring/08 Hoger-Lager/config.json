@@ -2,8 +2,8 @@
   "type": "exercise",
   "programming_language": "python",
   "evaluation": {
-    "handler": "TESTed",
-    "test_suite": "tests.json"
+    "handler": "tested",
+    "test_suite": "tests.yaml"
   },
   "description": {
     "names": {
