@@ -27,17 +27,17 @@
             },
             {
               "input": {
-                "expression": "hogerLager(614)"
+                "statement": "hogerLager(614)"
               },
               "output": {
                 "stdout": {
                   "type": "text",
                   "data": "Het getal is hoger dan 500\nHet getal is lager dan 750\nHet getal is lager dan 625\nHet getal is hoger dan 562\nHet getal is hoger dan 593\nHet getal is hoger dan 609\nHet getal is lager dan 617\nHet getal is hoger dan 613\nHet getal is lager dan 615"
-                },
-                "return": {
-                  "type": "number",
-                  "data": 10
                 }
+              },
+              "return": {
+                 "type": "number",
+                 "data": 10
               }
             }
           ]
