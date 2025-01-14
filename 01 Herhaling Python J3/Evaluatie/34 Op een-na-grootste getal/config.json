@@ -1,0 +1,23 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "description": {
+    "names": {
+      "nl": "Op een-na-grootste getal"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "evaluatie",
+    "while-lus",
+    "voorwaardelijke herhaling"
+  ],
+  "access": "public",
+  "internals": {
+    "token": "WU5cj9fGX98-Ur2_yMajntsrUBPEDq7IudkfEIz4QBes6M7YQNIWeb8ZSpmk2kPT",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
