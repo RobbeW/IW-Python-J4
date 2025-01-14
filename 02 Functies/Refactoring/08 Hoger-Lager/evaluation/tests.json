@@ -11,21 +11,6 @@
           },
           "testcases": [
             {
-              "description": "Uitvoeren met seed 7247 en gokken 500, 750, 625, 562, 593, 609, 617, 613, 615, 614 leidt tot:",
-              "input": {
-                "stdin": {
-                  "type": "text",
-                  "data": "500\n750\n625\n562\n593\n609\n617\n613\n615\n614\n"
-                }
-              },
-              "output": {
-                "stdout": {
-                  "type": "text",
-                  "data": "Het getal is hoger dan 500\nHet getal is lager dan 750\nHet getal is lager dan 625\nHet getal is hoger dan 562\nHet getal is hoger dan 593\nHet getal is hoger dan 609\nHet getal is lager dan 617\nHet getal is hoger dan 613\nHet getal is lager dan 615\nJe hebt 614 geraden in 10 pogingen!\n"
-                }
-              }
-            },
-            {
               "expression": {
                 "data": "hogerLager(614)"
               },
