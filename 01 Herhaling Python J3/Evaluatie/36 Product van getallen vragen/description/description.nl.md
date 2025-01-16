@@ -7,11 +7,11 @@ Toon daarna het product van al deze getallen op het scherm.
 Bij achtereenvolgende invoer `5`, `4`, `3`, `0` verschijnt er
 
 ```
-Het product van deze 3 getallen is 60
+60 is het product van deze 3 getallen.
 ```
 
 Bij achtereenvolgende invoer `8`, `4`, `6`, `12`, `50`, `0` verschijnt er
 
 ```
-Het product van deze 5 getallen is 115200
+115200 is het product van deze 5 getallen.
 ```

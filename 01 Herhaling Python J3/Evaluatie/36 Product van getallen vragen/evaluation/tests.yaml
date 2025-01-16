@@ -1,6 +1,12 @@
 - tab: Feedback
   contexts:
   - testcases:
+    - stdin: '0'
+      stdout: "Er werd geen enkel getal ingevoerd.\n"
+  - testcases:
+    - stdin: "-100\n0"
+      stdout: "Enkel het getal -100 werd ingevoerd.\n"
+  - testcases:
     - stdin: "2\n3\n0"
       stdout: "6 is het product van deze 2 getallen.\n"
   - testcases:
@@ -27,9 +33,6 @@
   - testcases:
     - stdin: "-9\n2\n12\n20\n8\n19\n-2\n11\n0"
       stdout: "14446080 is het product van deze 8 getallen.\n"
-  - testcases:
-    - stdin: "-16\n19\n-8\n-11\n-7\n10\n6\n-6\n10\n-15\n20\n-19\n0"
-      stdout: "-3842657280000 is het product van deze 12 getallen.\n"
   - testcases:
     - stdin: "18\n-4\n16\n12\n10\n-2\n9\n1\n-11\n-11\n16\n15\n5\n0"
       stdout: "361304064000 is het product van deze 13 getallen.\n"
@@ -62,7 +65,3 @@
     - stdin: "14\n6\n12\n5\n14\n-16\n-20\n-5\n11\n-6\n-4\n5\n-16\n-14\n11\n-17\n-13\n\
         -3\n8\n-6\n7\n5\n-14\n5\n-7\n5\n-8\n0"
       stdout: "8016265099471749120000000 is het product van deze 27 getallen.\n"
-  - testcases:
-    - stdin: "-11\n-8\n7\n20\n1\n6\n19\n-2\n-5\n2\n1\n-15\n6\n-7\n-7\n6\n6\n-14\n\
-        -10\n6\n-4\n-3\n12\n-16\n-15\n15\n7\n17\n-2\n0"
-      stdout: "462176523030233088000000 is het product van deze 29 getallen.\n"

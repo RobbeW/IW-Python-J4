@@ -1,6 +1,6 @@
 getal = int(input("Geef een getal in (0 om te stoppen): "))
 aantal = 0
-product = getal
+product = 1
 
 while getal != 0:
     aantal += 1

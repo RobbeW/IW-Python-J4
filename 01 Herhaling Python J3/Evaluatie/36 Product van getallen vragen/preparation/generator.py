@@ -26,7 +26,7 @@ def write_yaml( data:list ):
 
 # generate test data
 ncases = 20
-cases = [(5, 4, 3, 0), (8, 4, 6, 12, 50, 0)]
+cases = [(5, 4, 3, 0), (8, 4, 6, 12, 50, 0), (0,), (-100,0)]
 
 while len(cases) < ncases:
     n = random.randint(0, 30)
@@ -57,7 +57,7 @@ for i in range(len(cases)):
     stdin = '\n'.join(f'{line}' for line in test)
 
     # generate output to output file
-    script = os.path.join(solutiondir, 'solution_break.nl.py')
+    script = os.path.join(solutiondir, 'solution.nl.py')
     process= subprocess.run(
         ['python3', script],
         input=stdin,
