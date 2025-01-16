@@ -15,5 +15,9 @@
     "while-lus",
     "voorwaardelijke herhaling"
   ],
-  "access": "public"
+  "access": "public",
+  "internals": {
+    "token": "4TC8Sg6R5XC7msbM9C2CjrB945PZNq4vFGvH4jI544SQcMtU6Tiv5iZ4xngD4bhr",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
