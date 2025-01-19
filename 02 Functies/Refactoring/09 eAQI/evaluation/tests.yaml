@@ -1,0 +1,102 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "123\n65"
+      stdout: 'Europese AQI: 3'
+    - expression: "aqi(123, 65)"
+      return: 3
+  - testcases:
+    - stdin: "130\n40"
+      stdout: 'Europese AQI: 4'
+    - expression: "aqi(130, 40)"
+      return: 4
+  - testcases:
+    - stdin: "737\n12"
+      stdout: 'Europese AQI: 6'
+    - expression: "aqi(737, 12)"
+      return: 6
+  - testcases:
+    - stdin: "648\n75"
+      stdout: 'Europese AQI: 6'
+    - expression: "aqi(648, 75)"
+      return: 6
+  - testcases:
+    - stdin: "234\n97"
+      stdout: 'Europese AQI: 4'
+    - expression: "aqi(234, 97)"
+      return: 4
+  - testcases:
+    - stdin: "258\n99"
+      stdout: 'Europese AQI: 5'
+    - expression: "aqi(258, 99)"
+      return: 5
+  - testcases:
+    - stdin: "620\n65"
+      stdout: 'Europese AQI: 6'
+    - expression: "aqi(620, 65)"
+      return: 6
+  - testcases:
+    - stdin: "600\n93"
+      stdout: 'Europese AQI: 6'
+    - expression: "aqi(600, 93)"
+      return: 6
+  - testcases:
+    - stdin: "521\n9"
+      stdout: 'Europese AQI: 6'
+    - expression: "aqi(521, 9)"
+      return: 6
+  - testcases:
+    - stdin: "783\n42"
+      stdout: 'Europese AQI: 6'
+    - expression: "aqi(783, 42)"
+      return: 6
+  - testcases:
+    - stdin: "125\n19"
+      stdout: 'Europese AQI: 3'
+    - expression: "aqi(125, 19)"
+      return: 3
+  - testcases:
+    - stdin: "358\n3"
+      stdout: 'Europese AQI: 5'
+    - expression: "aqi(358, 3)"
+      return: 5
+  - testcases:
+    - stdin: "506\n5"
+      stdout: 'Europese AQI: 6'
+    - expression: "aqi(506, 5)"
+      return: 6
+  - testcases:
+    - stdin: "787\n47"
+      stdout: 'Europese AQI: 6'
+    - expression: "aqi(787, 47)"
+      return: 6
+  - testcases:
+    - stdin: "738\n28"
+      stdout: 'Europese AQI: 6'
+    - expression: "aqi(738, 28)"
+      return: 6
+  - testcases:
+    - stdin: "494\n69"
+      stdout: 'Europese AQI: 6'
+    - expression: "aqi(494, 69)"
+      return: 6
+  - testcases:
+    - stdin: "45\n58"
+      stdout: 'Europese AQI: 2'
+    - expression: "aqi(45, 58)"
+      return: 2
+  - testcases:
+    - stdin: "226\n70"
+      stdout: 'Europese AQI: 4'
+    - expression: "aqi(226, 70)"
+      return: 4
+  - testcases:
+    - stdin: "130\n32"
+      stdout: 'Europese AQI: 4'
+    - expression: "aqi(130, 32)"
+      return: 4
+  - testcases:
+    - stdin: "70\n47"
+      stdout: 'Europese AQI: 2'
+    - expression: "aqi(70, 47)"
+      return: 2
