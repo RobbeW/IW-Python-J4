@@ -1,0 +1,101 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "5000\n200\n125\n50"
+      stdout: "Na dag 1 bevat de silo 4925 kg graan.\nNa dag 2 bevat de silo 4900
+        kg graan.\nDe silo bevatte het minste graan na 2 dagen, namelijk 4900 kg.\n"
+  - testcases:
+    - stdin: "2000\n50\n26\n5"
+      stdout: "Na dag 1 bevat de silo 1976 kg graan.\nNa dag 2 bevat de silo 1957
+        kg graan.\nNa dag 3 bevat de silo 1943 kg graan.\nNa dag 4 bevat de silo 1934
+        kg graan.\nNa dag 5 bevat de silo 1930 kg graan.\nDe silo bevatte het minste
+        graan na 5 dagen, namelijk 1930 kg.\n"
+  - testcases:
+    - stdin: "30000\n1000\n141\n108"
+      stdout: "Na dag 1 bevat de silo 29141 kg graan.\nNa dag 2 bevat de silo 28390
+        kg graan.\nNa dag 3 bevat de silo 27747 kg graan.\nNa dag 4 bevat de silo
+        27212 kg graan.\nNa dag 5 bevat de silo 26785 kg graan.\nNa dag 6 bevat de
+        silo 26466 kg graan.\nNa dag 7 bevat de silo 26255 kg graan.\nNa dag 8 bevat
+        de silo 26152 kg graan.\nDe silo bevatte het minste graan na 8 dagen, namelijk
+        26152 kg.\n"
+  - testcases:
+    - stdin: "40000\n900\n558\n168"
+      stdout: "Na dag 1 bevat de silo 39658 kg graan.\nNa dag 2 bevat de silo 39484
+        kg graan.\nNa dag 3 bevat de silo 39478 kg graan.\nDe silo bevatte het minste
+        graan na 3 dagen, namelijk 39478 kg.\n"
+  - testcases:
+    - stdin: "9000\n50\n28\n3"
+      stdout: "Na dag 1 bevat de silo 8978 kg graan.\nNa dag 2 bevat de silo 8959
+        kg graan.\nNa dag 3 bevat de silo 8943 kg graan.\nNa dag 4 bevat de silo 8930
+        kg graan.\nNa dag 5 bevat de silo 8920 kg graan.\nNa dag 6 bevat de silo 8913
+        kg graan.\nNa dag 7 bevat de silo 8909 kg graan.\nNa dag 8 bevat de silo 8908
+        kg graan.\nDe silo bevatte het minste graan na 8 dagen, namelijk 8908 kg.\n"
+  - testcases:
+    - stdin: "70000\n9000\n4030\n1160"
+      stdout: "Na dag 1 bevat de silo 65030 kg graan.\nNa dag 2 bevat de silo 61220
+        kg graan.\nNa dag 3 bevat de silo 58570 kg graan.\nNa dag 4 bevat de silo
+        57080 kg graan.\nNa dag 5 bevat de silo 56750 kg graan.\nDe silo bevatte het
+        minste graan na 5 dagen, namelijk 56750 kg.\n"
+  - testcases:
+    - stdin: "1000\n40\n38\n28"
+      stdout: "Na dag 1 bevat de silo 998 kg graan.\nDe silo bevatte het minste graan
+        na één dag, namelijk 998 kg.\n"
+  - testcases:
+    - stdin: "8000\n900\n857\n145"
+      stdout: "Na dag 1 bevat de silo 7957 kg graan.\nDe silo bevatte het minste graan
+        na één dag, namelijk 7957 kg.\n"
+  - testcases:
+    - stdin: "6000\n30\n17\n5"
+      stdout: "Na dag 1 bevat de silo 5987 kg graan.\nNa dag 2 bevat de silo 5979
+        kg graan.\nNa dag 3 bevat de silo 5976 kg graan.\nDe silo bevatte het minste
+        graan na 3 dagen, namelijk 5976 kg.\n"
+  - testcases:
+    - stdin: "7000\n400\n376\n147"
+      stdout: "Na dag 1 bevat de silo 6976 kg graan.\nDe silo bevatte het minste graan
+        na één dag, namelijk 6976 kg.\n"
+  - testcases:
+    - stdin: "20000\n4000\n3220\n489"
+      stdout: "Na dag 1 bevat de silo 19220 kg graan.\nNa dag 2 bevat de silo 18929
+        kg graan.\nDe silo bevatte het minste graan na 2 dagen, namelijk 18929 kg.\n"
+  - testcases:
+    - stdin: "60000\n7000\n3769\n2914"
+      stdout: "Na dag 1 bevat de silo 56769 kg graan.\nNa dag 2 bevat de silo 56452
+        kg graan.\nDe silo bevatte het minste graan na 2 dagen, namelijk 56452 kg.\n"
+  - testcases:
+    - stdin: "50000\n4000\n2158\n442"
+      stdout: "Na dag 1 bevat de silo 48158 kg graan.\nNa dag 2 bevat de silo 46758
+        kg graan.\nNa dag 3 bevat de silo 45800 kg graan.\nNa dag 4 bevat de silo
+        45284 kg graan.\nNa dag 5 bevat de silo 45210 kg graan.\nDe silo bevatte het
+        minste graan na 5 dagen, namelijk 45210 kg.\n"
+  - testcases:
+    - stdin: "90000\n200\n185\n141"
+      stdout: "Na dag 1 bevat de silo 89985 kg graan.\nDe silo bevatte het minste
+        graan na één dag, namelijk 89985 kg.\n"
+  - testcases:
+    - stdin: "20000\n4000\n2513\n1871"
+      stdout: "Na dag 1 bevat de silo 18513 kg graan.\nDe silo bevatte het minste
+        graan na één dag, namelijk 18513 kg.\n"
+  - testcases:
+    - stdin: "1000\n50\n49\n47"
+      stdout: "Na dag 1 bevat de silo 999 kg graan.\nDe silo bevatte het minste graan
+        na één dag, namelijk 999 kg.\n"
+  - testcases:
+    - stdin: "10000\n6000\n3322\n997"
+      stdout: "Na dag 1 bevat de silo 7322 kg graan.\nNa dag 2 bevat de silo 5641
+        kg graan.\nNa dag 3 bevat de silo 4957 kg graan.\nDe silo bevatte het minste
+        graan na 3 dagen, namelijk 4957 kg.\n"
+  - testcases:
+    - stdin: "8000\n80\n26\n8"
+      stdout: "Na dag 1 bevat de silo 7946 kg graan.\nNa dag 2 bevat de silo 7900
+        kg graan.\nNa dag 3 bevat de silo 7862 kg graan.\nNa dag 4 bevat de silo 7832
+        kg graan.\nNa dag 5 bevat de silo 7810 kg graan.\nNa dag 6 bevat de silo 7796
+        kg graan.\nNa dag 7 bevat de silo 7790 kg graan.\nDe silo bevatte het minste
+        graan na 7 dagen, namelijk 7790 kg.\n"
+  - testcases:
+    - stdin: "3000\n30\n17\n10"
+      stdout: "Na dag 1 bevat de silo 2987 kg graan.\nNa dag 2 bevat de silo 2984
+        kg graan.\nDe silo bevatte het minste graan na 2 dagen, namelijk 2984 kg.\n"
+  - testcases:
+    - stdin: "3000\n300\n261\n131"
+      stdout: "Na dag 1 bevat de silo 2961 kg graan.\nDe silo bevatte het minste graan
+        na één dag, namelijk 2961 kg.\n"
