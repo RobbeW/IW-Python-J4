@@ -7,18 +7,15 @@
   },
   "description": {
     "names": {
-      "nl": "Hoger-Lager - Refactoring"
+      "nl": "eAQI - Refactoring"
     }
   },
   "labels": [
-    "while-lus",
-    "voorwaardelijke herhaling",
-    "random",
-    "functies"
+    "selectie"
   ],
   "access": "public",
   "internals": {
-    "token": "kifIcfNmtVMBQMnGgMtsiWaEFACEetkwnvRQWkCr_xp5jaPAdii2e-RK5Rz4jAJp",
+    "token": "Mz-JnsGvUAab_aKi9i56fkdN7TGkit2twqM6zYaVMqyfuGS7rYMEsAEbn-BE5DFB",
     "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }

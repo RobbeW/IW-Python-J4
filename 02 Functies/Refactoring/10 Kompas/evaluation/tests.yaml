@@ -1,0 +1,118 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "315\n45"
+      stdout: "90\n"
+    - expression: "berekenHoek(315, 45)"
+      return: 90
+  - testcases:
+    - stdin: "45\n270"
+      stdout: "-135\n"
+    - expression: "berekenHoek(45, 270)"
+      return: -135
+  - testcases:
+    - stdin: "180\n270"
+      stdout: "90\n"
+    - expression: "berekenHoek(180, 270)"
+      return: 90
+  - testcases:
+    - stdin: "90\n270"
+      stdout: "180\n"
+    - expression: "berekenHoek(90, 270)"
+      return: 180
+  - testcases:
+    - stdin: "23\n23"
+      stdout: "0\n"
+    - expression: "berekenHoek(23, 23)"
+      return: 0
+  - testcases:
+    - stdin: "51\n324"
+      stdout: "-87\n"
+    - expression: "berekenHoek(51, 324)"
+      return: -87
+  - testcases:
+    - stdin: "301\n117"
+      stdout: "176\n"
+    - expression: "berekenHoek(301, 117)"
+      return: 176
+  - testcases:
+    - stdin: "129\n310"
+      stdout: "-179\n"
+    - expression: "berekenHoek(129, 310)"
+      return: -179
+  - testcases:
+    - stdin: "263\n300"
+      stdout: "37\n"
+    - expression: "berekenHoek(263, 300)"
+      return: 37
+  - testcases:
+    - stdin: "260\n39"
+      stdout: "139\n"
+    - expression: "berekenHoek(260, 39)"
+      return: 139
+  - testcases:
+    - stdin: "171\n62"
+      stdout: "-109\n"
+    - expression: "berekenHoek(171, 62)"
+      return: -109
+  - testcases:
+    - stdin: "76\n179"
+      stdout: "103\n"
+    - expression: "berekenHoek(76, 179)"
+      return: 103
+  - testcases:
+    - stdin: "12\n253"
+      stdout: "-119\n"
+    - expression: "berekenHoek(12, 253)"
+      return: -119
+  - testcases:
+    - stdin: "20\n188"
+      stdout: "168\n"
+    - expression: "berekenHoek(20, 188)"
+      return: 168
+  - testcases:
+    - stdin: "115\n247"
+      stdout: "132\n"
+    - expression: "berekenHoek(115, 247)"
+      return: 132
+  - testcases:
+    - stdin: "277\n22"
+      stdout: "105\n"
+    - expression: "berekenHoek(277, 22)"
+      return: 105
+  - testcases:
+    - stdin: "234\n113"
+      stdout: "-121\n"
+    - expression: "berekenHoek(234, 113)"
+      return: -121
+  - testcases:
+    - stdin: "280\n65"
+      stdout: "145\n"
+    - expression: "berekenHoek(280, 65)"
+      return: 145
+  - testcases:
+    - stdin: "130\n35"
+      stdout: "-95\n"
+    - expression: "berekenHoek(130, 35)"
+      return: -95
+  - testcases:
+    - stdin: "190\n18"
+      stdout: "-172\n"
+    - expression: "berekenHoek(190, 18)"
+      return: -172
+  - testcases:
+    - stdin: "219\n140"
+      stdout: "-79\n"
+    - expression: "berekenHoek(219, 140)"
+      return: -79
+  - testcases:
+    - stdin: "286\n324"
+      stdout: "38\n"
+    - expression: "berekenHoek(286, 324)"
+      return: 38
+  - testcases:
+    - stdin: "157\n195"
+      stdout: "38\n"
+    - expression: "berekenHoek(157, 195)"
+      return: 38
+  

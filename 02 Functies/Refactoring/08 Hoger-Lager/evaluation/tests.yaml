@@ -1,11 +1,7 @@
 - tab: Feedback
   contexts:
-  - before:
-    - python: "import random; random.seed(7247)"
   - testcases:
-    - stdin: "500\n750\n625\n562\n593\n609\n617\n613\n615\n614\n"
-      stdout: "Het getal is hoger dan 500\nHet getal is lager dan 750\nHet getal is lager dan 625\nHet getal is hoger dan 562\nHet getal is hoger dan 593\nHet getal is hoger dan 609\nHet getal is lager dan 617\nHet getal is hoger dan 613\nHet getal is lager dan 615\nJe hebt 614 geraden in 10 pogingen!\n"
-    - expression: "hogerLager(614)"
+    - statement: "hogerLager(614)"
       stdin: "500\n750\n625\n562\n593\n609\n617\n613\n615\n614\n"
       stdout: "Het getal is hoger dan 500\nHet getal is lager dan 750\nHet getal is lager dan 625\nHet getal is hoger dan 562\nHet getal is hoger dan 593\nHet getal is hoger dan 609\nHet getal is lager dan 617\nHet getal is hoger dan 613\nHet getal is lager dan 615\n"
       return: 10
