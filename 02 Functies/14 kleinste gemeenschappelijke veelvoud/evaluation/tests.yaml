@@ -1,0 +1,102 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "15\n20"
+      stdout: Het kgv van 15 en 20 is 60
+    - expression: kgv(15, 20)
+      return: 60
+  - testcases:
+    - stdin: "7\n1"
+      stdout: Het kgv van 7 en 1 is 7
+    - expression: kgv(7, 1)
+      return: 7
+  - testcases:
+    - stdin: "93\n13"
+      stdout: Het kgv van 93 en 13 is 1209
+    - expression: kgv(93, 13)
+      return: 1209
+  - testcases:
+    - stdin: "82\n76"
+      stdout: Het kgv van 82 en 76 is 3116
+    - expression: kgv(82, 76)
+      return: 3116
+  - testcases:
+    - stdin: "30\n98"
+      stdout: Het kgv van 30 en 98 is 1470
+    - expression: kgv(30, 98)
+      return: 1470
+  - testcases:
+    - stdin: "33\n100"
+      stdout: Het kgv van 33 en 100 is 3300
+    - expression: kgv(33, 100)
+      return: 3300
+  - testcases:
+    - stdin: "78\n66"
+      stdout: Het kgv van 78 en 66 is 858
+    - expression: kgv(78, 66)
+      return: 858
+  - testcases:
+    - stdin: "76\n94"
+      stdout: Het kgv van 76 en 94 is 3572
+    - expression: kgv(76, 94)
+      return: 3572
+  - testcases:
+    - stdin: "66\n10"
+      stdout: Het kgv van 66 en 10 is 330
+    - expression: kgv(66, 10)
+      return: 330
+  - testcases:
+    - stdin: "98\n43"
+      stdout: Het kgv van 98 en 43 is 4214
+    - expression: kgv(98, 43)
+      return: 4214
+  - testcases:
+    - stdin: "16\n20"
+      stdout: Het kgv van 16 en 20 is 80
+    - expression: kgv(16, 20)
+      return: 80
+  - testcases:
+    - stdin: "45\n4"
+      stdout: Het kgv van 45 en 4 is 180
+    - expression: kgv(45, 4)
+      return: 180
+  - testcases:
+    - stdin: "64\n6"
+      stdout: Het kgv van 64 en 6 is 192
+    - expression: kgv(64, 6)
+      return: 192
+  - testcases:
+    - stdin: "99\n48"
+      stdout: Het kgv van 99 en 48 is 1584
+    - expression: kgv(99, 48)
+      return: 1584
+  - testcases:
+    - stdin: "93\n29"
+      stdout: Het kgv van 93 en 29 is 2697
+    - expression: kgv(93, 29)
+      return: 2697
+  - testcases:
+    - stdin: "62\n70"
+      stdout: Het kgv van 62 en 70 is 2170
+    - expression: kgv(62, 70)
+      return: 2170
+  - testcases:
+    - stdin: "6\n59"
+      stdout: Het kgv van 6 en 59 is 354
+    - expression: kgv(6, 59)
+      return: 354
+  - testcases:
+    - stdin: "29\n71"
+      stdout: Het kgv van 29 en 71 is 2059
+    - expression: kgv(29, 71)
+      return: 2059
+  - testcases:
+    - stdin: "17\n33"
+      stdout: Het kgv van 17 en 33 is 561
+    - expression: kgv(17, 33)
+      return: 561
+  - testcases:
+    - stdin: "9\n48"
+      stdout: Het kgv van 9 en 48 is 144
+    - expression: kgv(9, 48)
+      return: 144
