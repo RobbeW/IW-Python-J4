@@ -12,7 +12,7 @@ Hierbij stelt T de luchtemperatuur in °C en W de windsnelheid in km/u voor.
 
 ## Opgave
 
-Programmeer de functie `gevoelstemperatuur(T, W)` dat gegeven de luchttemperatuur `T` en de windsnelheid `W` de gevoelstemperatuur retourneert. Rond hierbij af op 2 decimalen.
+Programmeer de functie `gevoelstemperatuur(T, W)` die gegeven de luchttemperatuur `T` en de windsnelheid `W` de gevoelstemperatuur retourneert. Rond hierbij af op 2 decimalen.
 
 Vraag daarna in volgorde naar de luchttemperatuur en de windsnelheid en gebruik de functie `gevoelstemperatuur(T, W)` om de gevoelstemperatuur weer te geven.
 
