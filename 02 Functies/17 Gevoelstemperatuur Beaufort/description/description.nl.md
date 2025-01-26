@@ -5,7 +5,7 @@ De schaal van Beaufort werd in 1805 opgesteld door de Ier <a href="https://nl.wi
 Indien men de windkracht uitgedrukt in een aantal Beaufort (B) kent, dan kan men de windsnelheid (v) in m/s *benaderen* via de formule:
 
 $$
-\mathsf{v \approx 0,8360 \cdot B^{\nicefrac{3}{2}}}
+\mathsf{v \approx 0,8360 \cdot B^{\frac{3}{2}}}
 $$
 
 ## Opgave
