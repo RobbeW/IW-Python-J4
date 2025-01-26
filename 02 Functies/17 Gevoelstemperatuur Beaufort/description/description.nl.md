@@ -1,9 +1,11 @@
 De schaal van Beaufort werd in 1805 opgesteld door de Ier <a href="https://nl.wikipedia.org/wiki/Francis_Beaufort" target="_blank">Francis Beaufort</a>. Het is een manier om de snelheid van de wind te classificeren.
 
+![Afbeelding door Nathan Anderson op Unsplash.](media/nathan-anderson.jpg "Afbeelding door Nathan Anderson op Unsplash."){:data-caption="Afbeelding door Nathan Anderson op Unsplash."  width="40%"}
+
 Indien men de windkracht uitgedrukt in een aantal Beaufort (B) kent, dan kan men de windsnelheid (v) in m/s *benaderen* via de formule:
 
 $$
-\mathsf{v = 0,8360 \cdot B^{\frac{3}{2}}}
+\mathsf{v \approx 0,8360 \cdot B^{\frac{3}{2}}}
 $$
 
 ## Opgave
@@ -16,7 +18,7 @@ Kopieer het programma uit de vorige oefeningen, je zal aan dat programma enkele 
 
 * Vraag daarna in volgorde naar de luchttemperatuur en de windsnelheid **en de eenheid van windsnelheid**. Indien de gebruiker `B` intikt gebruik je de laatste functie. Indien de gebruiker `km/u` intikt gebruik je de functie `gevoelstemperatuur(T, W)` om de gevoelstemperatuur te berekenen. Geef deze nadien ook weer.
 
-#### Voorbeelden
+#### Voorbeeld 1
 
 Bij een temperatuur van `10.0` °C en een windsnelheid van `5.0` `km/u` verschijnt er:
 
@@ -29,6 +31,8 @@ Want de uitvoer van de functie is als volgt:
 >>> gevoelstemperatuur(10.0, 5.0)
 9.76
 ```
+
+#### Voorbeeld 2
 
 Bij een temperatuur van `3.0` °C en een windsnelheid van `5` `B` verschijnt er:
 
