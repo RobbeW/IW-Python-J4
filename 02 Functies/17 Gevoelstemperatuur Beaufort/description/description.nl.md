@@ -10,13 +10,13 @@ $$
 
 ## Opgave
 
-Kopieer het programma uit de vorige oefeningen, je zal aan dat programma enkele functies **toevoegen**.
+Kopieer het programma uit de vorige oefening, je zal aan dat programma enkele functies **toevoegen**.
 
 * Programmeer een functie `beaufort_naar_km_u(B)` die gegeven de Beaufort schaal de benaderende windsnelheid in **km/u** retourneert. Je rondt dit af op **6 decimalen**.
 
 * Programmeer een functie `gevoelstemperatuur_beaufort(T, B)` die gegeven de luchttemperatuur `T` en de windsnelheid uitgedrukt in de schaal van Beaufort de gevoelstemperatuur retourneert. In deze functie gebruik je zowel de functie `beaufort_naar_km_u(B)` als de functie `gevoelstemperatuur(T, W)`.
 
-* Vraag daarna in volgorde naar de luchttemperatuur en de windsnelheid **en de eenheid van windsnelheid**. Indien de gebruiker `B` intikt gebruik je de laatste functie. Indien de gebruiker `km/u` intikt gebruik je de functie `gevoelstemperatuur(T, W)` om de gevoelstemperatuur te berekenen. Geef deze nadien ook weer.
+* Vraag daarna **in volgorde** naar de luchttemperatuur en de windsnelheid **en de eenheid van windsnelheid**. Indien de gebruiker `"B"` intikt gebruik je de laatste functie. Indien de gebruiker `"km/u"` intikt gebruik je de functie `gevoelstemperatuur(T, W)` om de gevoelstemperatuur te berekenen. Geef deze nadien ook weer.
 
 #### Voorbeeld 1
 
