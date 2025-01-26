@@ -23,6 +23,7 @@ Bij een temperatuur van `10.0` °C en een windsnelheid van `5.0` km/u verschijnt
 De temperatuur voelt aan als 9.76 °C.
 ```
 
+Want de uitvoer van de functie is als volgt:
 ```python
 >>> gevoelstemperatuur(10.0, 5.0)
 9.76
