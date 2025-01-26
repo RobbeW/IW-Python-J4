@@ -1,0 +1,126 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "10.0\n5.0\nkm/u"
+      stdout: De temperatuur voelt aan als 7.58 °C.
+    - expression: gevoelstemperatuur(10.0, 5.0)
+      return: 7.58
+  - testcases:
+    - stdin: "3.0\n5\nB"
+      stdout: De temperatuur voelt aan als -6.95 °C.
+    - expression: gevoelstemperatuur_beaufort(3.0, 5)
+      return: -6.95
+    - expression: beaufort_naar_km_u(5)
+      return: 33.648351
+  - testcases:
+    - stdin: "5.8\n34.3\nkm/u"
+      stdout: De temperatuur voelt aan als -2.88 °C.
+    - expression: gevoelstemperatuur(5.8, 34.3)
+      return: -2.88
+  - testcases:
+    - stdin: "6.6\n34.4\nkm/u"
+      stdout: De temperatuur voelt aan als -1.7 °C.
+    - expression: gevoelstemperatuur(6.6, 34.4)
+      return: -1.7
+  - testcases:
+    - stdin: "-3.2\n0\nB"
+      stdout: De temperatuur voelt aan als 11.13 °C.
+    - expression: gevoelstemperatuur_beaufort(-3.2, 0)
+      return: 11.13
+    - expression: beaufort_naar_km_u(0)
+      return: 0.0
+  - testcases:
+    - stdin: "9.3\n0\nB"
+      stdout: De temperatuur voelt aan als 18.9 °C.
+    - expression: gevoelstemperatuur_beaufort(9.3, 0)
+      return: 18.9
+    - expression: beaufort_naar_km_u(0)
+      return: 0.0
+  - testcases:
+    - stdin: "6.5\n11\nB"
+      stdout: De temperatuur voelt aan als -5.73 °C.
+    - expression: gevoelstemperatuur_beaufort(6.5, 11)
+      return: -5.73
+    - expression: beaufort_naar_km_u(11)
+      return: 109.798854
+  - testcases:
+    - stdin: "7.9\n8\nB"
+      stdout: De temperatuur voelt aan als -1.84 °C.
+    - expression: gevoelstemperatuur_beaufort(7.9, 8)
+      return: -1.84
+    - expression: beaufort_naar_km_u(8)
+      return: 68.099474
+  - testcases:
+    - stdin: "-4.3\n24.7\nkm/u"
+      stdout: De temperatuur voelt aan als -16.36 °C.
+    - expression: gevoelstemperatuur(-4.3, 24.7)
+      return: -16.36
+  - testcases:
+    - stdin: "-1.2\n0\nB"
+      stdout: De temperatuur voelt aan als 12.37 °C.
+    - expression: gevoelstemperatuur_beaufort(-1.2, 0)
+      return: 12.37
+    - expression: beaufort_naar_km_u(0)
+      return: 0.0
+  - testcases:
+    - stdin: "1.4\n8\nB"
+      stdout: De temperatuur voelt aan als -12.09 °C.
+    - expression: gevoelstemperatuur_beaufort(1.4, 8)
+      return: -12.09
+    - expression: beaufort_naar_km_u(8)
+      return: 68.099474
+  - testcases:
+    - stdin: "7.5\n6\nB"
+      stdout: De temperatuur voelt aan als -1.12 °C.
+    - expression: gevoelstemperatuur_beaufort(7.5, 6)
+      return: -1.12
+    - expression: beaufort_naar_km_u(6)
+      return: 44.231906
+  - testcases:
+    - stdin: "-2.2\n5.7\nkm/u"
+      stdout: De temperatuur voelt aan als -8.1 °C.
+    - expression: gevoelstemperatuur(-2.2, 5.7)
+      return: -8.1
+  - testcases:
+    - stdin: "-1.7\n7\nB"
+      stdout: De temperatuur voelt aan als -16.07 °C.
+    - expression: gevoelstemperatuur_beaufort(-1.7, 7)
+      return: -16.07
+    - expression: beaufort_naar_km_u(7)
+      return: 55.738572
+  - testcases:
+    - stdin: "-2.4\n11\nB"
+      stdout: De temperatuur voelt aan als -20.45 °C.
+    - expression: gevoelstemperatuur_beaufort(-2.4, 11)
+      return: -20.45
+    - expression: beaufort_naar_km_u(11)
+      return: 109.798854
+  - testcases:
+    - stdin: "-4.1\n6.7\nkm/u"
+      stdout: De temperatuur voelt aan als -11.05 °C.
+    - expression: gevoelstemperatuur(-4.1, 6.7)
+      return: -11.05
+  - testcases:
+    - stdin: "1.6\n3\nB"
+      stdout: De temperatuur voelt aan als -6.35 °C.
+    - expression: gevoelstemperatuur_beaufort(1.6, 3)
+      return: -6.35
+    - expression: beaufort_naar_km_u(3)
+      return: 15.63834
+  - testcases:
+    - stdin: "7.0\n23.3\nkm/u"
+      stdout: De temperatuur voelt aan als 0.01 °C.
+    - expression: gevoelstemperatuur(7.0, 23.3)
+      return: 0.01
+  - testcases:
+    - stdin: "4.9\n17.8\nkm/u"
+      stdout: De temperatuur voelt aan als -2.18 °C.
+    - expression: gevoelstemperatuur(4.9, 17.8)
+      return: -2.18
+  - testcases:
+    - stdin: "8.0\n11\nB"
+      stdout: De temperatuur voelt aan als -3.25 °C.
+    - expression: gevoelstemperatuur_beaufort(8.0, 11)
+      return: -3.25
+    - expression: beaufort_naar_km_u(11)
+      return: 109.798854
