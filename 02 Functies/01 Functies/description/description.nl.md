@@ -55,7 +55,7 @@ $$
 We kunnen de valafstand eenvoudig berekenen met behulp van een functie in Python. 
 ```python
 def valafstand( t, g = 9.81 ):
-    d = 1/2 * g * pow( t, 2 )
+    d = 1/2 * g * t**2
     return d
 
 print( "Als een object 3 seconden valt, dan legt het", valafstand( 3 ), "m af.")
