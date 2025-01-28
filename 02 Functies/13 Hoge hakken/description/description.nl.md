@@ -31,10 +31,27 @@ Indien een gebruiker `10.5` als schoenmaat intikt en `"N"` antwoordt op de vraag
 Je kan hakken tot 8.0 cm dragen.
 ```
 
+want de achterliggende functie werd als volgt gebruikt:
+```python
+>>> hakhoogte(10.5)
+8.0
+```
+
 #### Voorbeeld 2
 Indien de gebruiker `10.5` als schoenmaat intikt en  `"J"` gevolgd door `4` intikt, dan verschijnt er:
 
 ```
 Je mag hakken tot 3.3 cm dragen.
+```
+
+want de achterliggende functies werden als volgt gebruikt:
+```python
+>>> wankelfactor(4)
+0.21
+```
+
+```python
+>>> hakhoogte(10.5, 0.21)
+3.3
 ```
 
