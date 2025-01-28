@@ -19,7 +19,7 @@ b = int(input("Geef de coëfficiënt van x in: "))
 c = int(input("Geef de constante in: "))
 
 aantal = aantal_oplossingen(a, b, c)
-if aantal < 0:
+if aantal == 0:
     print("Er zijn geen reële oplossingen.")
 elif aantal == 2:
     print("Er zijn twee verschillende reële oplossingen.")

@@ -2,7 +2,7 @@
   contexts:
   - testcases:
     - stdin: "2\n6\n5"
-      stdout: Er is exact één reële oplossing.
+      stdout: Er zijn geen reële oplossingen.
     - expression: discriminant(2, 6, 5)
       return: -4
     - expression: aantal_oplossingen(2, 6, 5)
@@ -37,14 +37,14 @@
       return: 1
   - testcases:
     - stdin: "11\n-9\n8"
-      stdout: Er is exact één reële oplossing.
+      stdout: Er zijn geen reële oplossingen.
     - expression: discriminant(11, -9, 8)
       return: -271
     - expression: aantal_oplossingen(11, -9, 8)
       return: 0
   - testcases:
     - stdin: "6\n-5\n12"
-      stdout: Er is exact één reële oplossing.
+      stdout: Er zijn geen reële oplossingen.
     - expression: discriminant(6, -5, 12)
       return: -263
     - expression: aantal_oplossingen(6, -5, 12)
@@ -58,14 +58,14 @@
       return: 2
   - testcases:
     - stdin: "4\n6\n11"
-      stdout: Er is exact één reële oplossing.
+      stdout: Er zijn geen reële oplossingen.
     - expression: discriminant(4, 6, 11)
       return: -140
     - expression: aantal_oplossingen(4, 6, 11)
       return: 0
   - testcases:
     - stdin: "4\n-10\n12"
-      stdout: Er is exact één reële oplossing.
+      stdout: Er zijn geen reële oplossingen.
     - expression: discriminant(4, -10, 12)
       return: -92
     - expression: aantal_oplossingen(4, -10, 12)
@@ -93,7 +93,7 @@
       return: 2
   - testcases:
     - stdin: "11\n-5\n3"
-      stdout: Er is exact één reële oplossing.
+      stdout: Er zijn geen reële oplossingen.
     - expression: discriminant(11, -5, 3)
       return: -107
     - expression: aantal_oplossingen(11, -5, 3)
@@ -107,7 +107,7 @@
       return: 2
   - testcases:
     - stdin: "-5\n5\n-8"
-      stdout: Er is exact één reële oplossing.
+      stdout: Er zijn geen reële oplossingen.
     - expression: discriminant(-5, 5, -8)
       return: -135
     - expression: aantal_oplossingen(-5, 5, -8)
@@ -121,7 +121,7 @@
       return: 2
   - testcases:
     - stdin: "-11\n1\n-4"
-      stdout: Er is exact één reële oplossing.
+      stdout: Er zijn geen reële oplossingen.
     - expression: discriminant(-11, 1, -4)
       return: -175
     - expression: aantal_oplossingen(-11, 1, -4)
@@ -135,7 +135,7 @@
       return: 2
   - testcases:
     - stdin: "-11\n-8\n-5"
-      stdout: Er is exact één reële oplossing.
+      stdout: Er zijn geen reële oplossingen.
     - expression: discriminant(-11, -8, -5)
       return: -156
     - expression: aantal_oplossingen(-11, -8, -5)
