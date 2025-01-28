@@ -1,10 +1,10 @@
 ## Opgave
 
-Programmeer de functie `discriminant(a, b, c)` dat gegeven de coëfficiënten $$\sf a$$, $$\sf b$$, $$\sf c$$ van een vierkantsvergelijking $$\mathsf{ax² + bx + c = 0}$$, de discriminant uitrekent en retourneert.
+* Programmeer de functie `discriminant(a, b, c)` dat gegeven de coëfficiënten $$\sf a$$, $$\sf b$$, $$\sf c$$ van een vierkantsvergelijking $$\mathsf{ax² + bx + c = 0}$$, de discriminant uitrekent en retourneert.
 
-Maak daarna een twee functie `aantal_oplossingen(a, b, c)` die de vorige functie gebruikt en het aantal reële oplossing van de vierkantsvergelijking retourneert.
+* Maak daarna een twee functie `aantal_oplossingen(a, b, c)` die de vorige functie gebruikt en het aantal reële oplossing van de vierkantsvergelijking retourneert.
 
-Vraag daarna in volgorde naar deze coëfficiënten en gebruik de functie `aantal_oplossingen(a, b, c)` om het aantal oplossingen weer te geven.
+* Vraag daarna in volgorde naar deze coëfficiënten en gebruik de functie `aantal_oplossingen(a, b, c)` om het aantal oplossingen weer te geven.
 
 #### Voorbeeld 1
 
