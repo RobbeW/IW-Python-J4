@@ -15,6 +15,11 @@
       stdout: 'Er zijn minimaal 12 sonars nodig.'
     - expression: minimum_sonar(9, 13)
       return: 12
+   - testcases:
+    - stdin: "3\n3"
+      stdout: 'Er is minimaal 1 sonar nodig.'
+    - expression: minimum_sonar(3, 3)
+      return: 1
   - testcases:
     - stdin: "24\n9"
       stdout: 'Er zijn minimaal 24 sonars nodig.'
