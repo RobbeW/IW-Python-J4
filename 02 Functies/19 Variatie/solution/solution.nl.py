@@ -16,4 +16,4 @@ k = int(input("Geef het aantal keuzes in: "))
 
 opl = variatie(n, k)
 
-print("Er zijn", opl, "mogelijken voor",k ,"verschillende keuzes uit", n, "opties.")
+print("Er zijn", opl, "mogelijkheden voor",k ,"verschillende keuzes uit", n, "opties.")
