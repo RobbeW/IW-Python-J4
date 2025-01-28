@@ -1,5 +1,7 @@
-def oppervlakte_van_driehoek( basis , hoogte ):
+def oppervlakte_driehoek(basis , hoogte):
     opp = 0.5 * basis * hoogte
-    print( "Een driehoek met basis", basis, "cm en hoogte", hoogte, "cm heeft oppervlakte", opp, "cm²." )
+    print(opp)
 
-print( oppervlakte_van_driehoek( 4.5 , 1.0 ) )
+basis = 4.5
+hoogte = 1.0
+print("Een driehoek met basis", basis, "cm en hoogte", hoogte, "cm heeft oppervlakte", oppervlakte_driehoek(basis, hoogte), "cm².")

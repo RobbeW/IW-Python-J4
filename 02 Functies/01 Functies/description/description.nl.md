@@ -68,7 +68,7 @@ print( "Als een object 3 seconden valt op de maan, dan legt het", valafstand( 3,
 ```
 
 ## Opgave
-Beschouw onderstaande code, deze bevat een kleine **foutje**. 
+Beschouw onderstaande code, deze bevat een **foutje**. 
 
 Corrigeer deze code zodat als uitvoer verschijnt:
 
