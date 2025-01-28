@@ -19,7 +19,7 @@ Links zie je een voorbeeld van een sonar, en de velden die door de sonar gecontr
 
 * Programmeer een functie `minimum_sonar(n, m)` die dit minimale aantal retourneert.
 
-* Vraag nadien naar het aantal rijen en het aantal kolommen en geef op het scherm weer hoevel sonars er nodig zijn.
+* Vraag nadien naar het aantal rijen en het aantal kolommen en geef op het scherm weer hoeveel sonars er nodig zijn.
 
 #### Voorbeelden
 
