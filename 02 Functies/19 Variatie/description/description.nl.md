@@ -8,11 +8,12 @@ $$
 \mathsf{\dfrac{n!}{(n-k)!}}
 $$
 
-In dit voorbeeld dus:
+In dit voorbeeld geldt dus `n = 10` en `k = 3`, zodat:
 
 $$
-\mathsf{\dfrac{10!}{(10-3)!} = 720}
+\mathsf{\dfrac{10!}{(10-3)!} = \dfrac{10!}{7!} = 720}
 $$
+Je berekent met andere woorden het quotiënt van **10 faculteit** en **7 faculteit**.
 
 ## Opgave
 

@@ -10,10 +10,12 @@ $$
 \mathsf{3! = 3 \cdot 2 \cdot 1 = 6}
 $$
 
+of **eenvoudiger** te programmeren als $$\mathsf{3! = 1 \cdot 2\cdot 3}$$.
+
 Algemeen geldt er, indien $$\mathsf{n}$$ natuurlijk is:
 
 $$
-\mathsf{n! = n \cdot (n-1)\cdot (n-2)\cdot \ldots \cdot 2\cdot 1}
+\mathsf{n! = 1 \cdot 2\cdot \ldots \cdot (n-2)\cdot (n-1)\cdot n}
 $$
 
 ## Opgave
@@ -22,7 +24,7 @@ $$
 
 * Vraag de gebruiker nadien om een natuurlijk getal en print de faculteit hiervan op het scherm.
 
-#### Voorbeeld
+#### Voorbeelden
 
 Bij invoer `3` verschijnt er:
 ```
@@ -33,4 +35,15 @@ Want de uitvoer van de functie is als volgt:
 ```python
 >>> faculteit(3)
 6
+```
+
+Bij invoer `5` verschijnt er:
+```
+5! is gelijk aan 120
+```
+
+Want de uitvoer van de functie is als volgt:
+```python
+>>> faculteit(5)
+120
 ```
