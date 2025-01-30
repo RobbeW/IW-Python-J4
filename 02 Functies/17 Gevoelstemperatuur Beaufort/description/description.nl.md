@@ -20,21 +20,21 @@ Kopieer het programma uit de vorige oefening, je zal aan dat programma enkele fu
 
 #### Voorbeeld 1
 
-Bij een temperatuur van `10.0` °C en een windsnelheid van `5.0` `km/u` verschijnt er:
+Bij een temperatuur van `10.0` °C en een windsnelheid van `5.0` `"km/u"` verschijnt er:
 
 ```
-De temperatuur voelt aan als 9.76 °C.
+De temperatuur voelt aan als 7.58 °C.
 ```
 
 Want de uitvoer van de functie is als volgt:
 ```python
 >>> gevoelstemperatuur(10.0, 5.0)
-9.76
+7.58
 ```
 
 #### Voorbeeld 2
 
-Bij een temperatuur van `3.0` °C en een windsnelheid van `5` `B` verschijnt er:
+Bij een temperatuur van `3.0` °C en een windsnelheid van `5` `"B"` verschijnt er:
 
 ```
 De temperatuur voelt aan als -6.95 °C.

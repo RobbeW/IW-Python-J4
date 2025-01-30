@@ -20,11 +20,11 @@ Vraag daarna in volgorde naar de luchttemperatuur en de windsnelheid en gebruik 
 Bij een temperatuur van `10.0` °C en een windsnelheid van `5.0` km/u verschijnt er:
 
 ```
-De temperatuur voelt aan als 9.76 °C.
+De temperatuur voelt aan als 7.58 °C.
 ```
 
 Want de uitvoer van de functie is als volgt:
 ```python
 >>> gevoelstemperatuur(10.0, 5.0)
-9.76
+7.58
 ```
