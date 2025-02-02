@@ -28,7 +28,7 @@ Je berekent met andere woorden het quotiënt van **10 faculteit** en **7 faculte
 
 Bij invoer `10` en `3` verschijnt er:
 ```
-Er zijn 720 mogelijken voor 3 verschillende keuzes uit 10 opties.
+Er zijn 720 mogelijkheden voor 3 verschillende keuzes uit 10 opties.
 ```
 
 Want de uitvoer van de aparte functies is als volgt:
