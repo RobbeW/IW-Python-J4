@@ -1,0 +1,107 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '1'
+      stdout: Het allereerste piramide getal is 1
+    - expression: piramidegetal(1)
+      return: 1
+  - testcases:
+    - stdin: '2'
+      stdout: Het 2 e piramidegetal is 5
+    - expression: piramidegetal(2)
+      return: 5
+  - testcases:
+    - stdin: '3'
+      stdout: Het 3 e piramidegetal is 14
+    - expression: piramidegetal(3)
+      return: 14
+  - testcases:
+    - stdin: '4'
+      stdout: Het 4 e piramidegetal is 30
+    - expression: piramidegetal(4)
+      return: 30
+  - testcases:
+    - stdin: '5'
+      stdout: Het 5 e piramidegetal is 55
+    - expression: piramidegetal(5)
+      return: 55
+  - testcases:
+    - stdin: '6'
+      stdout: Het 6 e piramidegetal is 91
+    - expression: piramidegetal(6)
+      return: 91
+  - testcases:
+    - stdin: '7'
+      stdout: Het 7 e piramidegetal is 140
+    - expression: piramidegetal(7)
+      return: 140
+  - testcases:
+    - stdin: '8'
+      stdout: Het 8 e piramidegetal is 204
+    - expression: piramidegetal(8)
+      return: 204
+  - testcases:
+    - stdin: '9'
+      stdout: Het 9 e piramidegetal is 285
+    - expression: piramidegetal(9)
+      return: 285
+  - testcases:
+    - stdin: '10'
+      stdout: Het 10 e piramidegetal is 385
+    - expression: piramidegetal(10)
+      return: 385
+  - testcases:
+    - stdin: '11'
+      stdout: Het 11 e piramidegetal is 506
+    - expression: piramidegetal(11)
+      return: 506
+  - testcases:
+    - stdin: '12'
+      stdout: Het 12 e piramidegetal is 650
+    - expression: piramidegetal(12)
+      return: 650
+  - testcases:
+    - stdin: '13'
+      stdout: Het 13 e piramidegetal is 819
+    - expression: piramidegetal(13)
+      return: 819
+  - testcases:
+    - stdin: '14'
+      stdout: Het 14 e piramidegetal is 1015
+    - expression: piramidegetal(14)
+      return: 1015
+  - testcases:
+    - stdin: '15'
+      stdout: Het 15 e piramidegetal is 1240
+    - expression: piramidegetal(15)
+      return: 1240
+  - testcases:
+    - stdin: '16'
+      stdout: Het 16 e piramidegetal is 1496
+    - expression: piramidegetal(16)
+      return: 1496
+  - testcases:
+    - stdin: '17'
+      stdout: Het 17 e piramidegetal is 1785
+    - expression: piramidegetal(17)
+      return: 1785
+  - testcases:
+    - stdin: '18'
+      stdout: Het 18 e piramidegetal is 2109
+    - expression: piramidegetal(18)
+      return: 2109
+  - testcases:
+    - stdin: '19'
+      stdout: Het 19 e piramidegetal is 2470
+    - expression: piramidegetal(19)
+      return: 2470
+  - testcases:
+    - stdin: '20'
+      stdout: Het 20 e piramidegetal is 2870
+    - expression: piramidegetal(20)
+      return: 2870
+  - testcases:
+    - stdin: '21'
+      stdout: Het 21 e piramidegetal is 3311
+    - expression: piramidegetal(21)
+      return: 3311

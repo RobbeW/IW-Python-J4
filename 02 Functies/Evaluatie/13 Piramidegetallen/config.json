@@ -1,0 +1,20 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "description": {
+    "names": {
+      "nl": "Vierkant piramidegetal"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "evaluatie",
+    "functies",
+    "for-lus",
+    "begrensde herhaling"
+  ],
+  "access": "public"
+}
