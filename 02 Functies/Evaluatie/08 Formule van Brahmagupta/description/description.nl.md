@@ -13,9 +13,9 @@ hierbij stelt $$\mathsf{s}$$ de halve omtrek van de vierhoek voor.
 ![Een vierhoek met zijden a, b, c en d.](media/image_dark.png "Een vierhoek met zijden a, b, c en d."){:data-caption="Een vierhoek met zijden a, b, c en d." .dark-only width="20%"}
 
 ## Opgave
-Schrijf een functie `oppervlakte(a, b, c, d)` die de oppervlakte van een willekeurige vierhoek, ingeschreven in een cirkel, berekent met behulp van de formule van Brahmagupta. **Rond** het resultaat **af** op 2 cijfers na de komma.
+- Schrijf een functie `oppervlakte(a, b, c, d)` die de oppervlakte van een willekeurige vierhoek, ingeschreven in een cirkel, berekent met behulp van de formule van Brahmagupta. **Rond** het resultaat **af** op 2 cijfers na de komma.
 
-Schrijf eronder een programma dat aan de gebruiker vier getallen **vraagt** en vervolgens de oppervlakte van de vierhoek op het scherm **weergeeft**.
+- Schrijf eronder een programma dat aan de gebruiker vier getallen **vraagt** en vervolgens de oppervlakte van de vierhoek op het scherm **weergeeft**.
 
 #### Voorbeeld
 
