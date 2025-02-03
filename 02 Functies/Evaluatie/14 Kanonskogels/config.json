@@ -1,0 +1,21 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "description": {
+    "names": {
+      "nl": "kanonskogels"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "evaluatie",
+    "functies",
+    "for-lus",
+    "begrensde herhaling",
+    "voorwaardelijke herhaling"
+  ],
+  "access": "public"
+}
