@@ -16,7 +16,6 @@ n = int(input("Geef het aantal kanonskogels in: "))
 
 antwoord = zijde_kanon(n)
 
-print()
 if antwoord > 1:
     print("Plaats", antwoord, "kanonskogels naast elkaar als zijde van het eerste vierkant.")
 else:
