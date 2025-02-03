@@ -33,3 +33,4 @@ want
 >>> piramidegetal(7)
 140
 ```
+Immers 1 + 4 + 9 + 16 + 25 + 36 + 49 = 140.
