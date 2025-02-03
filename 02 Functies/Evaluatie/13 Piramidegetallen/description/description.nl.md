@@ -1,4 +1,4 @@
-Een (vierkant) piramidegetallen is een getal dat geschreven kan worden als een som van opeenvolgende kwadraten. Zo is het piramidegetal gelijk aan 30. Want 30 = 1 + 4 + 9 + 16.
+Een (vierkant) piramidegetal is een getal dat geschreven kan worden als een som van opeenvolgende kwadraten. Zo is het piramidegetal gelijk aan 30. Want 30 = 1 + 4 + 9 + 16.
 
 ![Het vierde (vierkante) piramidegetal.](media/Square_pyramidal_number.png "Het vierde (vierkante) piramidegetal."){:data-caption="Het vierde (vierkante) piramidegetal." width="35%"}
 
