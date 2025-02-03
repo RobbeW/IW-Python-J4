@@ -1,4 +1,4 @@
-Kanonskogels kan je stabiel stapelen via in een vierkante piramide. Gegeven een aantal kanonskogels, hoe groot moet de zijde van de basis dan zijn, zodat er zo weinig mogelijk Kanonskogels overblijven na stapeling in deze structuur?
+Kanonskogels kan je stapelen in een vierkante piramide. Gegeven een aantal kanonskogels, hoe groot moet de zijde van de basis dan zijn, zodat er zo weinig mogelijk Kanonskogels overblijven na stapeling in deze structuur?
 
 ![Een stapel kanonskogels.](media/cannonball.jpg "Een stapel kanonskogels."){:data-caption="HEen stapel kanonskogels." width="45%"}
 
