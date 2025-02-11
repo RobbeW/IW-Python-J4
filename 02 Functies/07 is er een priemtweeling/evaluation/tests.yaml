@@ -9,7 +9,7 @@
       return: 2
   - testcases:
     - stdin: '11'
-      stdout: 'Je kan éen priemtweeling vinden van 11'
+      stdout: 'Je kan één priemtweeling vinden van 11'
     - expression: is_priem(11)
       return: true
     - expression: priemtweeling(11)
@@ -30,11 +30,11 @@
       return: 0
   - testcases:
     - stdin: '53'
-      stdout: 'Je kan één priemtweeling vinden van 53'
+      stdout: 'Je kan geen priemtweeling vinden van 53'
     - expression: is_priem(53)
       return: true
     - expression: priemtweeling(53)
-      return: 1
+      return: 0
   - testcases:
     - stdin: '83'
       stdout: 'Je kan geen priemtweeling vinden van 83'
@@ -69,7 +69,7 @@
     - expression: is_priem(523)
       return: true
     - expression: priemtweeling(523)
-      return: 2
+      return: 1
   - testcases:
     - stdin: '525'
       stdout: 'Je kan geen priemtweeling vinden van 525'
