@@ -10,7 +10,7 @@ Komt dit nog vaak voor? Je gaat dit (wiskundig) probleem hieronder oplossen met 
 
 * Schrijf een functie `som_onder(huisnummer)` die gegeven een huisnummer, de som van alle huisnummers eronder bepaalt.
 
-* Schrijf een functie `is_symmetrisch(huisnummer)` die gegeven het huisnummer onderzoekt of er een *nummer* bestaat zodat de som van alle getallen kleiner dan het gegeven huisnummer gelijk is aan de som van alle getallen groter dan het huisnummer. Deze functie retourneert enkele `True` of `False`.
+* Schrijf een functie `is_symmetrisch(huisnummer)` die gegeven het huisnummer onderzoekt of er een *nummer* bestaat zodat de som van alle getallen kleiner dan het gegeven huisnummer gelijk is aan de som van alle getallen groter dan het huisnummer. Deze functie retourneert enkele `True` of `False`. Gebruik **in deze functie** de vorige functie `som_onder(huisnummer)`.
 
 * Vraag de gebruiker nadien om een bovengrens en druk alle huisnummers af, **kleiner dan of gelijk aan** deze bovengrens, die aan de gevraagde eigenschap voldoen.
 
