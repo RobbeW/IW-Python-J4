@@ -1,6 +1,6 @@
-<a href="https://nl.wikipedia.org/wiki/Mexicanen_(dobbelspel)" target="_blank">Mexxen</a> is a game of dice played by 2 people. Each roll consists of 2 dice. The game mostly consists of bluffing about your dice, But here we're only focussing on the scoring. Contrary to a lot of other dice games, your points don't just equal the sum of your dice rolls.
+<a href="https://nl.wikipedia.org/wiki/Mexicanen_(dobbelspel)" target="_blank">Mexen</a> is a game of dice played by 2 people. Each roll consists of 2 dice. The game mostly consists of bluffing about your dice, but here we're only focussing on the scoring. Contrary to a lot of other dice games, your points don't just equal the sum of your dice rolls.
 
-![Afbeelding door Edge2Edge Media op Unsplash.](media/edge2edge-media.jpg "Afbeelding door Edge2Edge Media op Unsplash."){:data-caption="Image by Edge2Edge Media on Unsplash." width="35%"}
+![Image by Edge2Edge Media on Unsplash.](media/edge2edge-media.jpg "Image by Edge2Edge Media on Unsplash."){:data-caption="Image by Edge2Edge Media on Unsplash." width="35%"}
 
 Instead, the scoring works as follows:
 - A *Mex* always lands you the most points, namely 1000;
@@ -11,7 +11,7 @@ Instead, the scoring works as follows:
 
   <span class="mdi mdi-36px mdi-dice-4-outline"></span> <span class="mdi mdi-36px mdi-dice-4-outline"></span>, ...
 
-  If both players have a duplicate, the player with the higher pair wins, as the points equal the rolled result times 100.
+  If both players have a duplicate, the player with the higher pair wins, as your points equal the rolled result times 100.
 
 - In any other case the rolls get sorted so the higher result is put first. The rolls as pictured below would result in a score of 43.
 
@@ -19,7 +19,7 @@ Instead, the scoring works as follows:
 
 ## Assignment
 
-Create a function `mexen(s0, s1, t0, t1)` that determines the winner, where `s0` and `s1` are the rolls of player 1 and `t0` and `t1` belong to player 2. If player 1 wins, you return `"speler 1"`, if player 2 wins, you return `"speler 2"` and otherwise you return `"gelijkspel` (it's a tie).
+Create a function `mexen(s0, s1, t0, t1)` that determines the winner, where `s0` and `s1` are the rolls of player 1 and `t0` and `t1` belong to player 2. If player 1 wins, you return `"speler 1"`, if player 2 wins, you return `"speler 2"` and otherwise you return `"gelijkspel"` (it's a tie).
 
 To create this function you first create a helper function, `score(worp1, worp2)`, which determines the score of a single player given 2 rolls. 
 
