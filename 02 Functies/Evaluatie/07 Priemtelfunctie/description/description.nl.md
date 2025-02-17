@@ -8,11 +8,11 @@ De grafiek van de priemgetal-telfunctie ziet er als volgt uit:
 
 ## Opgave
 
-Schrijf een functie `is_priem(getal)` die controleert of een gegeven getal priem is.
+- Schrijf een functie `is_priem(getal)` die controleert of een gegeven getal priem is.
 
-Schrijf daarna een functie `telpriem(x)` dat voor een gegeven (komma)getal x het aantal priemgetallen kleiner dan of gelijk aan dit getal telt.
+- Schrijf daarna een functie `telpriem(x)` dat voor een gegeven (komma)getal x het aantal priemgetallen kleiner dan of gelijk aan dit getal telt.
 
-Schrijf **daarna** een programma dat aan de gebruiker een (strikt positief) reëel getal vraagt en de priemgetal-telfunctie hierop toepast. Het resultaat van deze functie wordt vervolgens op het scherm weergegeven.
+- Schrijf **daarna** een programma dat aan de gebruiker een (strikt positief) reëel getal **vraagt** en de priemgetal-telfunctie hierop toepast. Het resultaat van deze functie wordt vervolgens op het scherm weergegeven.
 
 #### Voorbeelden
 
