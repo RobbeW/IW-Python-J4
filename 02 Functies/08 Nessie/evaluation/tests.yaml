@@ -1,62 +1,107 @@
 - tab: Feedback
   contexts:
   - testcases:
+    - stdin: "6\n6"
+      stdout: 'Er zijn minimaal 4 sonars nodig.'
     - expression: minimum_sonar(6, 6)
       return: 4
   - testcases:
+    - stdin: "7\n7"
+      stdout: 'Er zijn minimaal 4 sonars nodig.'
     - expression: minimum_sonar(7, 7)
       return: 4
   - testcases:
+    - stdin: "9\n13"
+      stdout: 'Er zijn minimaal 12 sonars nodig.'
     - expression: minimum_sonar(9, 13)
       return: 12
   - testcases:
+    - stdin: "3\n3"
+      stdout: 'Er is minimaal 1 sonar nodig.'
+    - expression: minimum_sonar(3, 3)
+      return: 1
+  - testcases:
+    - stdin: "24\n9"
+      stdout: 'Er zijn minimaal 24 sonars nodig.'
     - expression: minimum_sonar(24, 9)
       return: 24
   - testcases:
+    - stdin: "10\n38"
+      stdout: 'Er zijn minimaal 36 sonars nodig.'
     - expression: minimum_sonar(10, 38)
       return: 36
   - testcases:
+    - stdin: "50\n9"
+      stdout: 'Er zijn minimaal 48 sonars nodig.'
     - expression: minimum_sonar(50, 9)
       return: 48
   - testcases:
+    - stdin: "8\n67"
+      stdout: 'Er zijn minimaal 44 sonars nodig.'
     - expression: minimum_sonar(8, 67)
       return: 44
   - testcases:
+    - stdin: "97\n7"
+      stdout: 'Er zijn minimaal 64 sonars nodig.'
     - expression: minimum_sonar(97, 7)
       return: 64
   - testcases:
+    - stdin: "57\n96"
+      stdout: 'Er zijn minimaal 608 sonars nodig.'
     - expression: minimum_sonar(57, 96)
       return: 608
   - testcases:
+    - stdin: "72\n679"
+      stdout: 'Er zijn minimaal 5424 sonars nodig.'
     - expression: minimum_sonar(72, 679)
       return: 5424
   - testcases:
+    - stdin: "14\n3770"
+      stdout: 'Er zijn minimaal 5024 sonars nodig.'
     - expression: minimum_sonar(14, 3770)
       return: 5024
   - testcases:
+    - stdin: "43\n4508"
+      stdout: 'Er zijn minimaal 21028 sonars nodig.'
     - expression: minimum_sonar(43, 4508)
       return: 21028
   - testcases:
+    - stdin: "974\n627"
+      stdout: 'Er zijn minimaal 67716 sonars nodig.'
     - expression: minimum_sonar(974, 627)
       return: 67716
   - testcases:
+    - stdin: "16755\n76"
+      stdout: 'Er zijn minimaal 139625 sonars nodig.'
     - expression: minimum_sonar(16755, 76)
       return: 139625
   - testcases:
+    - stdin: "10123\n131"
+      stdout: 'Er zijn minimaal 145082 sonars nodig.'
     - expression: minimum_sonar(10123, 131)
       return: 145082
   - testcases:
+    - stdin: "33\n52935"
+      stdout: 'Er zijn minimaal 194095 sonars nodig.'
     - expression: minimum_sonar(33, 52935)
       return: 194095
   - testcases:
+    - stdin: "5786\n3627"
+      stdout: 'Er zijn minimaal 2330952 sonars nodig.'
     - expression: minimum_sonar(5786, 3627)
       return: 2330952
   - testcases:
+    - stdin: "82986\n397"
+      stdout: 'Er zijn minimaal 3651384 sonars nodig.'
     - expression: minimum_sonar(82986, 397)
       return: 3651384
   - testcases:
+    - stdin: "2878\n76463"
+      stdout: 'Er zijn minimaal 24442033 sonars nodig.'
     - expression: minimum_sonar(2878, 76463)
       return: 24442033
   - testcases:
+    - stdin: "67548\n95807"
+      stdout: 'Er zijn minimaal 719048460 sonars nodig.'
     - expression: minimum_sonar(67548, 95807)
       return: 719048460

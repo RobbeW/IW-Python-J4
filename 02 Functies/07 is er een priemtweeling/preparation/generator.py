@@ -115,7 +115,7 @@ for i in range(len(cases)):
     result = module.priemtweeling(test[0])
 
     # setup for return expressions
-    testcase = { "expression": expression_name, "stdout": outputtxt }
+    testcase = { "expression": expression_name, "return": outputtxt }
     yamldata[0]['contexts'][i]["testcases"].append( testcase)
 
 write_yaml(yamldata)

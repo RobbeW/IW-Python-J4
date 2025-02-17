@@ -1,0 +1,185 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "10\n3"
+      stdout: Er zijn 720 mogelijkheden voor 3 verschillende keuzes uit 10 opties.
+    - expression: variatie(10, 3)
+      return: 720
+    - expression: faculteit(10)
+      return: 3628800
+    - expression: faculteit(7)
+      return: 5040
+  - testcases:
+    - stdin: "5\n5"
+      stdout: Er zijn 120 mogelijkheden voor 5 verschillende keuzes uit 5 opties.
+    - expression: variatie(5, 5)
+      return: 120
+    - expression: faculteit(5)
+      return: 120
+    - expression: faculteit(0)
+      return: 1
+  - testcases:
+    - stdin: "9\n5"
+      stdout: Er zijn 15120 mogelijkheden voor 5 verschillende keuzes uit 9 opties.
+    - expression: variatie(9, 5)
+      return: 15120
+    - expression: faculteit(9)
+      return: 362880
+    - expression: faculteit(4)
+      return: 24
+  - testcases:
+    - stdin: "18\n17"
+      stdout: Er zijn 6402373705728000 mogelijkheden voor 17 verschillende keuzes
+        uit 18 opties.
+    - expression: variatie(18, 17)
+      return: 6402373705728000
+    - expression: faculteit(18)
+      return: 6402373705728000
+    - expression: faculteit(1)
+      return: 1
+  - testcases:
+    - stdin: "4\n3"
+      stdout: Er zijn 24 mogelijkheden voor 3 verschillende keuzes uit 4 opties.
+    - expression: variatie(4, 3)
+      return: 24
+    - expression: faculteit(4)
+      return: 24
+    - expression: faculteit(1)
+      return: 1
+  - testcases:
+    - stdin: "5\n2"
+      stdout: Er zijn 20 mogelijkheden voor 2 verschillende keuzes uit 5 opties.
+    - expression: variatie(5, 2)
+      return: 20
+    - expression: faculteit(5)
+      return: 120
+    - expression: faculteit(3)
+      return: 6
+  - testcases:
+    - stdin: "13\n1"
+      stdout: Er zijn 13 mogelijkheden voor 1 verschillende keuzes uit 13 opties.
+    - expression: variatie(13, 1)
+      return: 13
+    - expression: faculteit(13)
+      return: 6227020800
+    - expression: faculteit(12)
+      return: 479001600
+  - testcases:
+    - stdin: "17\n2"
+      stdout: Er zijn 272 mogelijkheden voor 2 verschillende keuzes uit 17 opties.
+    - expression: variatie(17, 2)
+      return: 272
+    - expression: faculteit(17)
+      return: 355687428096000
+    - expression: faculteit(15)
+      return: 1307674368000
+  - testcases:
+    - stdin: "13\n12"
+      stdout: Er zijn 6227020800 mogelijkheden voor 12 verschillende keuzes uit 13
+        opties.
+    - expression: variatie(13, 12)
+      return: 6227020800
+    - expression: faculteit(13)
+      return: 6227020800
+    - expression: faculteit(1)
+      return: 1
+  - testcases:
+    - stdin: "9\n8"
+      stdout: Er zijn 362880 mogelijkheden voor 8 verschillende keuzes uit 9 opties.
+    - expression: variatie(9, 8)
+      return: 362880
+    - expression: faculteit(9)
+      return: 362880
+    - expression: faculteit(1)
+      return: 1
+  - testcases:
+    - stdin: "19\n2"
+      stdout: Er zijn 342 mogelijkheden voor 2 verschillende keuzes uit 19 opties.
+    - expression: variatie(19, 2)
+      return: 342
+    - expression: faculteit(19)
+      return: 121645100408832000
+    - expression: faculteit(17)
+      return: 355687428096000
+  - testcases:
+    - stdin: "16\n8"
+      stdout: Er zijn 518918400 mogelijkheden voor 8 verschillende keuzes uit 16 opties.
+    - expression: variatie(16, 8)
+      return: 518918400
+    - expression: faculteit(16)
+      return: 20922789888000
+    - expression: faculteit(8)
+      return: 40320
+  - testcases:
+    - stdin: "19\n5"
+      stdout: Er zijn 1395360 mogelijkheden voor 5 verschillende keuzes uit 19 opties.
+    - expression: variatie(19, 5)
+      return: 1395360
+    - expression: faculteit(19)
+      return: 121645100408832000
+    - expression: faculteit(14)
+      return: 87178291200
+  - testcases:
+    - stdin: "10\n2"
+      stdout: Er zijn 90 mogelijkheden voor 2 verschillende keuzes uit 10 opties.
+    - expression: variatie(10, 2)
+      return: 90
+    - expression: faculteit(10)
+      return: 3628800
+    - expression: faculteit(8)
+      return: 40320
+  - testcases:
+    - stdin: "15\n14"
+      stdout: Er zijn 1307674368000 mogelijkheden voor 14 verschillende keuzes uit
+        15 opties.
+    - expression: variatie(15, 14)
+      return: 1307674368000
+    - expression: faculteit(15)
+      return: 1307674368000
+    - expression: faculteit(1)
+      return: 1
+  - testcases:
+    - stdin: "10\n9"
+      stdout: Er zijn 3628800 mogelijkheden voor 9 verschillende keuzes uit 10 opties.
+    - expression: variatie(10, 9)
+      return: 3628800
+    - expression: faculteit(10)
+      return: 3628800
+    - expression: faculteit(1)
+      return: 1
+  - testcases:
+    - stdin: "11\n7"
+      stdout: Er zijn 1663200 mogelijkheden voor 7 verschillende keuzes uit 11 opties.
+    - expression: variatie(11, 7)
+      return: 1663200
+    - expression: faculteit(11)
+      return: 39916800
+    - expression: faculteit(4)
+      return: 24
+  - testcases:
+    - stdin: "7\n6"
+      stdout: Er zijn 5040 mogelijkheden voor 6 verschillende keuzes uit 7 opties.
+    - expression: variatie(7, 6)
+      return: 5040
+    - expression: faculteit(7)
+      return: 5040
+    - expression: faculteit(1)
+      return: 1
+  - testcases:
+    - stdin: "3\n1"
+      stdout: Er zijn 3 mogelijkheden voor 1 verschillende keuzes uit 3 opties.
+    - expression: variatie(3, 1)
+      return: 3
+    - expression: faculteit(3)
+      return: 6
+    - expression: faculteit(2)
+      return: 2
+  - testcases:
+    - stdin: "9\n4"
+      stdout: Er zijn 3024 mogelijkheden voor 4 verschillende keuzes uit 9 opties.
+    - expression: variatie(9, 4)
+      return: 3024
+    - expression: faculteit(9)
+      return: 362880
+    - expression: faculteit(5)
+      return: 120

@@ -1,0 +1,21 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "description": {
+    "names": {
+      "nl": "Faculteit"
+    }
+  },
+  "labels": [
+    "functies"
+  ],
+  "access": "public",
+  "internals": {
+    "token": "JgaK9KjixZbPYMf2r5f2vEg68sRsPxn5DMq7bVPIuv89JTuWfAVriz6DeVJSbKK2",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

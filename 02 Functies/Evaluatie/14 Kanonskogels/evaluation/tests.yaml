@@ -1,0 +1,182 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '1'
+      stdout: Deze ene kanonskogel kan je meteen rangschikken als een piramide.
+    - expression: zijde_kanon(1)
+      return: 1
+    - expression: piramidegetal(1)
+      return: 1
+    - expression: piramidegetal(2)
+      return: 5
+  - testcases:
+    - stdin: '30'
+      stdout: Plaats 4 kanonskogels naast elkaar als zijde van het eerste vierkant.
+    - expression: zijde_kanon(30)
+      return: 4
+    - expression: piramidegetal(4)
+      return: 30
+    - expression: piramidegetal(5)
+      return: 55
+  - testcases:
+    - stdin: '40'
+      stdout: Plaats 4 kanonskogels naast elkaar als zijde van het eerste vierkant.
+    - expression: zijde_kanon(40)
+      return: 4
+    - expression: piramidegetal(4)
+      return: 30
+    - expression: piramidegetal(5)
+      return: 55
+  - testcases:
+    - stdin: '52'
+      stdout: Plaats 4 kanonskogels naast elkaar als zijde van het eerste vierkant.
+    - expression: zijde_kanon(52)
+      return: 4
+    - expression: piramidegetal(4)
+      return: 30
+    - expression: piramidegetal(5)
+      return: 55
+  - testcases:
+    - stdin: '63'
+      stdout: Plaats 5 kanonskogels naast elkaar als zijde van het eerste vierkant.
+    - expression: zijde_kanon(63)
+      return: 5
+    - expression: piramidegetal(5)
+      return: 55
+    - expression: piramidegetal(6)
+      return: 91
+  - testcases:
+    - stdin: '118'
+      stdout: Plaats 6 kanonskogels naast elkaar als zijde van het eerste vierkant.
+    - expression: zijde_kanon(118)
+      return: 6
+    - expression: piramidegetal(6)
+      return: 91
+    - expression: piramidegetal(7)
+      return: 140
+  - testcases:
+    - stdin: '130'
+      stdout: Plaats 6 kanonskogels naast elkaar als zijde van het eerste vierkant.
+    - expression: zijde_kanon(130)
+      return: 6
+    - expression: piramidegetal(6)
+      return: 91
+    - expression: piramidegetal(7)
+      return: 140
+  - testcases:
+    - stdin: '172'
+      stdout: Plaats 7 kanonskogels naast elkaar als zijde van het eerste vierkant.
+    - expression: zijde_kanon(172)
+      return: 7
+    - expression: piramidegetal(7)
+      return: 140
+    - expression: piramidegetal(8)
+      return: 204
+  - testcases:
+    - stdin: '261'
+      stdout: Plaats 8 kanonskogels naast elkaar als zijde van het eerste vierkant.
+    - expression: zijde_kanon(261)
+      return: 8
+    - expression: piramidegetal(8)
+      return: 204
+    - expression: piramidegetal(9)
+      return: 285
+  - testcases:
+    - stdin: '264'
+      stdout: Plaats 8 kanonskogels naast elkaar als zijde van het eerste vierkant.
+    - expression: zijde_kanon(264)
+      return: 8
+    - expression: piramidegetal(8)
+      return: 204
+    - expression: piramidegetal(9)
+      return: 285
+  - testcases:
+    - stdin: '301'
+      stdout: Plaats 9 kanonskogels naast elkaar als zijde van het eerste vierkant.
+    - expression: zijde_kanon(301)
+      return: 9
+    - expression: piramidegetal(9)
+      return: 285
+    - expression: piramidegetal(10)
+      return: 385
+  - testcases:
+    - stdin: '302'
+      stdout: Plaats 9 kanonskogels naast elkaar als zijde van het eerste vierkant.
+    - expression: zijde_kanon(302)
+      return: 9
+    - expression: piramidegetal(9)
+      return: 285
+    - expression: piramidegetal(10)
+      return: 385
+  - testcases:
+    - stdin: '311'
+      stdout: Plaats 9 kanonskogels naast elkaar als zijde van het eerste vierkant.
+    - expression: zijde_kanon(311)
+      return: 9
+    - expression: piramidegetal(9)
+      return: 285
+    - expression: piramidegetal(10)
+      return: 385
+  - testcases:
+    - stdin: '325'
+      stdout: Plaats 9 kanonskogels naast elkaar als zijde van het eerste vierkant.
+    - expression: zijde_kanon(325)
+      return: 9
+    - expression: piramidegetal(9)
+      return: 285
+    - expression: piramidegetal(10)
+      return: 385
+  - testcases:
+    - stdin: '369'
+      stdout: Plaats 9 kanonskogels naast elkaar als zijde van het eerste vierkant.
+    - expression: zijde_kanon(369)
+      return: 9
+    - expression: piramidegetal(9)
+      return: 285
+    - expression: piramidegetal(10)
+      return: 385
+  - testcases:
+    - stdin: '375'
+      stdout: Plaats 9 kanonskogels naast elkaar als zijde van het eerste vierkant.
+    - expression: zijde_kanon(375)
+      return: 9
+    - expression: piramidegetal(9)
+      return: 285
+    - expression: piramidegetal(10)
+      return: 385
+  - testcases:
+    - stdin: '390'
+      stdout: Plaats 10 kanonskogels naast elkaar als zijde van het eerste vierkant.
+    - expression: zijde_kanon(390)
+      return: 10
+    - expression: piramidegetal(10)
+      return: 385
+    - expression: piramidegetal(11)
+      return: 506
+  - testcases:
+    - stdin: '392'
+      stdout: Plaats 10 kanonskogels naast elkaar als zijde van het eerste vierkant.
+    - expression: zijde_kanon(392)
+      return: 10
+    - expression: piramidegetal(10)
+      return: 385
+    - expression: piramidegetal(11)
+      return: 506
+  - testcases:
+    - stdin: '397'
+      stdout: Plaats 10 kanonskogels naast elkaar als zijde van het eerste vierkant.
+    - expression: zijde_kanon(397)
+      return: 10
+    - expression: piramidegetal(10)
+      return: 385
+    - expression: piramidegetal(11)
+      return: 506
+  - testcases:
+    - stdin: '467'
+      stdout: Plaats 10 kanonskogels naast elkaar als zijde van het eerste vierkant.
+    - expression: zijde_kanon(467)
+      return: 10
+    - expression: piramidegetal(10)
+      return: 385
+    - expression: piramidegetal(11)
+      return: 506

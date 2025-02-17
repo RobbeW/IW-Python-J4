@@ -1,0 +1,21 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "description": {
+    "names": {
+      "nl": "Discriminant (bis)"
+    }
+  },
+  "labels": [
+    "functies"
+  ],
+  "access": "public",
+  "internals": {
+    "token": "2nz8ZpCUErI22B2hUiw4Ire9E-NEkRDFIHtHCKFHht5tMYnaeFs8gQHT_dcHB7Rp",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

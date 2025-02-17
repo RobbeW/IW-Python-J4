@@ -1,0 +1,102 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "10.0\n5.0"
+      stdout: De temperatuur voelt aan als 7.58 °C.
+    - expression: gevoelstemperatuur(10.0, 5.0)
+      return: 7.58
+  - testcases:
+    - stdin: "3.0\n10.0"
+      stdout: De temperatuur voelt aan als -3.08 °C.
+    - expression: gevoelstemperatuur(3.0, 10.0)
+      return: -3.08
+  - testcases:
+    - stdin: "5.8\n28.5"
+      stdout: De temperatuur voelt aan als -2.3 °C.
+    - expression: gevoelstemperatuur(5.8, 28.5)
+      return: -2.3
+  - testcases:
+    - stdin: "-1.6\n11.4"
+      stdout: De temperatuur voelt aan als -9.62 °C.
+    - expression: gevoelstemperatuur(-1.6, 11.4)
+      return: -9.62
+  - testcases:
+    - stdin: "4.1\n26.4"
+      stdout: De temperatuur voelt aan als -4.53 °C.
+    - expression: gevoelstemperatuur(4.1, 26.4)
+      return: -4.53
+  - testcases:
+    - stdin: "8.7\n3.5"
+      stdout: De temperatuur voelt aan als 6.65 °C.
+    - expression: gevoelstemperatuur(8.7, 3.5)
+      return: 6.65
+  - testcases:
+    - stdin: "0.0\n6.7"
+      stdout: De temperatuur voelt aan als -5.8 °C.
+    - expression: gevoelstemperatuur(0.0, 6.7)
+      return: -5.8
+  - testcases:
+    - stdin: "7.6\n1.1"
+      stdout: De temperatuur voelt aan als 7.43 °C.
+    - expression: gevoelstemperatuur(7.6, 1.1)
+      return: 7.43
+  - testcases:
+    - stdin: "9.4\n22.3"
+      stdout: De temperatuur voelt aan als 3.55 °C.
+    - expression: gevoelstemperatuur(9.4, 22.3)
+      return: 3.55
+  - testcases:
+    - stdin: "6.5\n37.7"
+      stdout: De temperatuur voelt aan als -2.13 °C.
+    - expression: gevoelstemperatuur(6.5, 37.7)
+      return: -2.13
+  - testcases:
+    - stdin: "5.8\n10.1"
+      stdout: De temperatuur voelt aan als 0.61 °C.
+    - expression: gevoelstemperatuur(5.8, 10.1)
+      return: 0.61
+  - testcases:
+    - stdin: "3.1\n20.6"
+      stdout: De temperatuur voelt aan als -5.15 °C.
+    - expression: gevoelstemperatuur(3.1, 20.6)
+      return: -5.15
+  - testcases:
+    - stdin: "3.2\n11.5"
+      stdout: De temperatuur voelt aan als -3.22 °C.
+    - expression: gevoelstemperatuur(3.2, 11.5)
+      return: -3.22
+  - testcases:
+    - stdin: "0.6\n19.3"
+      stdout: De temperatuur voelt aan als -8.45 °C.
+    - expression: gevoelstemperatuur(0.6, 19.3)
+      return: -8.45
+  - testcases:
+    - stdin: "-0.9\n37.4"
+      stdout: De temperatuur voelt aan als -13.13 °C.
+    - expression: gevoelstemperatuur(-0.9, 37.4)
+      return: -13.13
+  - testcases:
+    - stdin: "9.8\n17.2"
+      stdout: De temperatuur voelt aan als 4.73 °C.
+    - expression: gevoelstemperatuur(9.8, 17.2)
+      return: 4.73
+  - testcases:
+    - stdin: "5.8\n5.7"
+      stdout: De temperatuur voelt aan als 2.02 °C.
+    - expression: gevoelstemperatuur(5.8, 5.7)
+      return: 2.02
+  - testcases:
+    - stdin: "-1.7\n24.3"
+      stdout: De temperatuur voelt aan als -12.57 °C.
+    - expression: gevoelstemperatuur(-1.7, 24.3)
+      return: -12.57
+  - testcases:
+    - stdin: "2.3\n39.5"
+      stdout: De temperatuur voelt aan als -8.57 °C.
+    - expression: gevoelstemperatuur(2.3, 39.5)
+      return: -8.57
+  - testcases:
+    - stdin: "3.7\n33.7"
+      stdout: De temperatuur voelt aan als -5.92 °C.
+    - expression: gevoelstemperatuur(3.7, 33.7)
+      return: -5.92

@@ -1,0 +1,24 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "description": {
+    "names": {
+      "nl": "Vierkant piramidegetal"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "evaluatie",
+    "functies",
+    "for-lus",
+    "begrensde herhaling"
+  ],
+  "access": "public",
+  "internals": {
+    "token": "_Jqm9H4iiKbHRrmMjrE5g4jz_SwJM7y79xdMJNNCED_gHgnpbYz6ZEzXwxRRqCXj",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

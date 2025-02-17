@@ -1,0 +1,21 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "description": {
+    "names": {
+      "nl": "Gevoelstemperatuur (bis)"
+    }
+  },
+  "labels": [
+    "functies"
+  ],
+  "access": "public",
+  "internals": {
+    "token": "NCCg435Tme_uIQeCzuNAmQwP-axSfwMwUur9nQ9k_6YGAPXHReFVnttiZnUmKRjB",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

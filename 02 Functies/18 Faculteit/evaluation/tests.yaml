@@ -1,0 +1,107 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '0'
+      stdout: 0! is gelijk aan 1
+    - expression: faculteit(0)
+      return: 1
+  - testcases:
+    - stdin: '1'
+      stdout: 1! is gelijk aan 1
+    - expression: faculteit(1)
+      return: 1
+  - testcases:
+    - stdin: '2'
+      stdout: 2! is gelijk aan 2
+    - expression: faculteit(2)
+      return: 2
+  - testcases:
+    - stdin: '3'
+      stdout: 3! is gelijk aan 6
+    - expression: faculteit(3)
+      return: 6
+  - testcases:
+    - stdin: '4'
+      stdout: 4! is gelijk aan 24
+    - expression: faculteit(4)
+      return: 24
+  - testcases:
+    - stdin: '5'
+      stdout: 5! is gelijk aan 120
+    - expression: faculteit(5)
+      return: 120
+  - testcases:
+    - stdin: '6'
+      stdout: 6! is gelijk aan 720
+    - expression: faculteit(6)
+      return: 720
+  - testcases:
+    - stdin: '7'
+      stdout: 7! is gelijk aan 5040
+    - expression: faculteit(7)
+      return: 5040
+  - testcases:
+    - stdin: '8'
+      stdout: 8! is gelijk aan 40320
+    - expression: faculteit(8)
+      return: 40320
+  - testcases:
+    - stdin: '9'
+      stdout: 9! is gelijk aan 362880
+    - expression: faculteit(9)
+      return: 362880
+  - testcases:
+    - stdin: '10'
+      stdout: 10! is gelijk aan 3628800
+    - expression: faculteit(10)
+      return: 3628800
+  - testcases:
+    - stdin: '11'
+      stdout: 11! is gelijk aan 39916800
+    - expression: faculteit(11)
+      return: 39916800
+  - testcases:
+    - stdin: '12'
+      stdout: 12! is gelijk aan 479001600
+    - expression: faculteit(12)
+      return: 479001600
+  - testcases:
+    - stdin: '13'
+      stdout: 13! is gelijk aan 6227020800
+    - expression: faculteit(13)
+      return: 6227020800
+  - testcases:
+    - stdin: '14'
+      stdout: 14! is gelijk aan 87178291200
+    - expression: faculteit(14)
+      return: 87178291200
+  - testcases:
+    - stdin: '15'
+      stdout: 15! is gelijk aan 1307674368000
+    - expression: faculteit(15)
+      return: 1307674368000
+  - testcases:
+    - stdin: '16'
+      stdout: 16! is gelijk aan 20922789888000
+    - expression: faculteit(16)
+      return: 20922789888000
+  - testcases:
+    - stdin: '17'
+      stdout: 17! is gelijk aan 355687428096000
+    - expression: faculteit(17)
+      return: 355687428096000
+  - testcases:
+    - stdin: '18'
+      stdout: 18! is gelijk aan 6402373705728000
+    - expression: faculteit(18)
+      return: 6402373705728000
+  - testcases:
+    - stdin: '19'
+      stdout: 19! is gelijk aan 121645100408832000
+    - expression: faculteit(19)
+      return: 121645100408832000
+  - testcases:
+    - stdin: '20'
+      stdout: 20! is gelijk aan 2432902008176640000
+    - expression: faculteit(20)
+      return: 2432902008176640000

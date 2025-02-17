@@ -2,211 +2,211 @@
   contexts:
   - testcases:
     - stdin: '5'
-      stdout: Je kan twee priemtweelingen vinden van 5, namelijk 3 en 7.
+      stdout: 'Je kan twee priemtweelingen vinden van 5'
     - expression: is_priem(5)
       return: true
     - expression: priemtweeling(5)
-      stdout: Je kan twee priemtweelingen vinden van 5, namelijk 3 en 7.
+      return: 2
   - testcases:
     - stdin: '11'
-      stdout: Je kan één priemtweeling vinden van 11, namelijk 13.
+      stdout: 'Je kan één priemtweeling vinden van 11'
     - expression: is_priem(11)
       return: true
     - expression: priemtweeling(11)
-      stdout: Je kan één priemtweeling vinden van 11, namelijk 13.
+      return: 1
   - testcases:
     - stdin: '20'
-      stdout: Je kan geen priemtweeling vinden van 20.
+      stdout: 'Je kan geen priemtweeling vinden van 20'
     - expression: is_priem(20)
       return: false
     - expression: priemtweeling(20)
-      stdout: Je kan geen priemtweeling vinden van 20.
+      return: 0
   - testcases:
     - stdin: '48'
-      stdout: Je kan geen priemtweeling vinden van 48.
+      stdout: 'Je kan geen priemtweeling vinden van 48'
     - expression: is_priem(48)
       return: false
     - expression: priemtweeling(48)
-      stdout: Je kan geen priemtweeling vinden van 48.
+      return: 0
   - testcases:
     - stdin: '53'
-      stdout: Je kan geen priemtweeling vinden van 53.
+      stdout: 'Je kan geen priemtweeling vinden van 53'
     - expression: is_priem(53)
       return: true
     - expression: priemtweeling(53)
-      stdout: Je kan geen priemtweeling vinden van 53.
+      return: 0
   - testcases:
     - stdin: '83'
-      stdout: Je kan geen priemtweeling vinden van 83.
+      stdout: 'Je kan geen priemtweeling vinden van 83'
     - expression: is_priem(83)
       return: true
     - expression: priemtweeling(83)
-      stdout: Je kan geen priemtweeling vinden van 83.
+      return: 0
   - testcases:
     - stdin: '251'
-      stdout: Je kan geen priemtweeling vinden van 251.
+      stdout: 'Je kan geen priemtweeling vinden van 251'
     - expression: is_priem(251)
       return: true
     - expression: priemtweeling(251)
-      stdout: Je kan geen priemtweeling vinden van 251.
+      return: 0
   - testcases:
     - stdin: '281'
-      stdout: Je kan één priemtweeling vinden van 281, namelijk 283.
+      stdout: 'Je kan één priemtweeling vinden van 281'
     - expression: is_priem(281)
       return: true
     - expression: priemtweeling(281)
-      stdout: Je kan één priemtweeling vinden van 281, namelijk 283.
+      return: 1
   - testcases:
     - stdin: '521'
-      stdout: Je kan één priemtweeling vinden van 521, namelijk 523.
+      stdout: 'Je kan één priemtweeling vinden van 521'
     - expression: is_priem(521)
       return: true
     - expression: priemtweeling(521)
-      stdout: Je kan één priemtweeling vinden van 521, namelijk 523.
+      return: 1
   - testcases:
     - stdin: '523'
-      stdout: Je kan één priemtweeling vinden van 523, namelijk 521.
+      stdout: 'Je kan één priemtweeling vinden van 523'
     - expression: is_priem(523)
       return: true
     - expression: priemtweeling(523)
-      stdout: Je kan één priemtweeling vinden van 523, namelijk 521.
+      return: 1
   - testcases:
     - stdin: '525'
-      stdout: Je kan geen priemtweeling vinden van 525.
+      stdout: 'Je kan geen priemtweeling vinden van 525'
     - expression: is_priem(525)
       return: false
     - expression: priemtweeling(525)
-      stdout: Je kan geen priemtweeling vinden van 525.
+      return: 0
   - testcases:
     - stdin: '599'
-      stdout: Je kan één priemtweeling vinden van 599, namelijk 601.
+      stdout: 'Je kan één priemtweeling vinden van 599'
     - expression: is_priem(599)
       return: true
     - expression: priemtweeling(599)
-      stdout: Je kan één priemtweeling vinden van 599, namelijk 601.
+      return: 1
   - testcases:
     - stdin: '605'
-      stdout: Je kan geen priemtweeling vinden van 605.
+      stdout: 'Je kan geen priemtweeling vinden van 605'
     - expression: is_priem(605)
       return: false
     - expression: priemtweeling(605)
-      stdout: Je kan geen priemtweeling vinden van 605.
+      return: 0
   - testcases:
     - stdin: '764'
-      stdout: Je kan geen priemtweeling vinden van 764.
+      stdout: 'Je kan geen priemtweeling vinden van 764'
     - expression: is_priem(764)
       return: false
     - expression: priemtweeling(764)
-      stdout: Je kan geen priemtweeling vinden van 764.
+      return: 0
   - testcases:
     - stdin: '823'
-      stdout: Je kan één priemtweeling vinden van 823, namelijk 821.
+      stdout: 'Je kan één priemtweeling vinden van 823'
     - expression: is_priem(823)
       return: true
     - expression: priemtweeling(823)
-      stdout: Je kan één priemtweeling vinden van 823, namelijk 821.
+      return: 1
   - testcases:
     - stdin: '827'
-      stdout: Je kan één priemtweeling vinden van 827, namelijk 829.
+      stdout: 'Je kan één priemtweeling vinden van 827'
     - expression: is_priem(827)
       return: true
     - expression: priemtweeling(827)
-      stdout: Je kan één priemtweeling vinden van 827, namelijk 829.
+      return: 1
   - testcases:
     - stdin: '877'
-      stdout: Je kan geen priemtweeling vinden van 877.
+      stdout: 'Je kan geen priemtweeling vinden van 877'
     - expression: is_priem(877)
       return: true
     - expression: priemtweeling(877)
-      stdout: Je kan geen priemtweeling vinden van 877.
+      return: 0
   - testcases:
     - stdin: '881'
-      stdout: Je kan één priemtweeling vinden van 881, namelijk 883.
+      stdout: 'Je kan één priemtweeling vinden van 881'
     - expression: is_priem(881)
       return: true
     - expression: priemtweeling(881)
-      stdout: Je kan één priemtweeling vinden van 881, namelijk 883.
+      return: 1
   - testcases:
     - stdin: '883'
-      stdout: Je kan één priemtweeling vinden van 883, namelijk 881.
+      stdout: 'Je kan één priemtweeling vinden van 883'
     - expression: is_priem(883)
       return: true
     - expression: priemtweeling(883)
-      stdout: Je kan één priemtweeling vinden van 883, namelijk 881.
+      return: 1
   - testcases:
     - stdin: '937'
-      stdout: Je kan geen priemtweeling vinden van 937.
+      stdout: 'Je kan geen priemtweeling vinden van 937'
     - expression: is_priem(937)
       return: true
     - expression: priemtweeling(937)
-      stdout: Je kan geen priemtweeling vinden van 937.
+      return: 0
   - testcases:
     - stdin: '990'
-      stdout: Je kan geen priemtweeling vinden van 990.
+      stdout: 'Je kan geen priemtweeling vinden van 990'
     - expression: is_priem(990)
       return: false
     - expression: priemtweeling(990)
-      stdout: Je kan geen priemtweeling vinden van 990.
+      return: 0
   - testcases:
     - stdin: '1123'
-      stdout: Je kan geen priemtweeling vinden van 1123.
+      stdout: 'Je kan geen priemtweeling vinden van 1123'
     - expression: is_priem(1123)
       return: true
     - expression: priemtweeling(1123)
-      stdout: Je kan geen priemtweeling vinden van 1123.
+      return: 0
   - testcases:
     - stdin: '1297'
-      stdout: Je kan geen priemtweeling vinden van 1297.
+      stdout: 'Je kan geen priemtweeling vinden van 1297'
     - expression: is_priem(1297)
       return: true
     - expression: priemtweeling(1297)
-      stdout: Je kan geen priemtweeling vinden van 1297.
+      return: 0
   - testcases:
     - stdin: '1476'
-      stdout: Je kan geen priemtweeling vinden van 1476.
+      stdout: 'Je kan geen priemtweeling vinden van 1476'
     - expression: is_priem(1476)
       return: false
     - expression: priemtweeling(1476)
-      stdout: Je kan geen priemtweeling vinden van 1476.
+      return: 0
   - testcases:
     - stdin: '1477'
-      stdout: Je kan geen priemtweeling vinden van 1477.
+      stdout: 'Je kan geen priemtweeling vinden van 1477'
     - expression: is_priem(1477)
       return: false
     - expression: priemtweeling(1477)
-      stdout: Je kan geen priemtweeling vinden van 1477.
+      return: 0
   - testcases:
     - stdin: '1559'
-      stdout: Je kan geen priemtweeling vinden van 1559.
+      stdout: 'Je kan geen priemtweeling vinden van 1559'
     - expression: is_priem(1559)
       return: true
     - expression: priemtweeling(1559)
-      stdout: Je kan geen priemtweeling vinden van 1559.
+      return: 0
   - testcases:
     - stdin: '1567'
-      stdout: Je kan geen priemtweeling vinden van 1567.
+      stdout: 'Je kan geen priemtweeling vinden van 1567'
     - expression: is_priem(1567)
       return: true
     - expression: priemtweeling(1567)
-      stdout: Je kan geen priemtweeling vinden van 1567.
+      return: 0
   - testcases:
     - stdin: '1587'
-      stdout: Je kan geen priemtweeling vinden van 1587.
+      stdout: 'Je kan geen priemtweeling vinden van 1587'
     - expression: is_priem(1587)
       return: false
     - expression: priemtweeling(1587)
-      stdout: Je kan geen priemtweeling vinden van 1587.
+      return: 0
   - testcases:
     - stdin: '1873'
-      stdout: Je kan één priemtweeling vinden van 1873, namelijk 1871.
+      stdout: 'Je kan één priemtweeling vinden van 1873'
     - expression: is_priem(1873)
       return: true
     - expression: priemtweeling(1873)
-      stdout: Je kan één priemtweeling vinden van 1873, namelijk 1871.
+      return: 1
   - testcases:
     - stdin: '1936'
-      stdout: Je kan geen priemtweeling vinden van 1936.
+      stdout: 'Je kan geen priemtweeling vinden van 1936'
     - expression: is_priem(1936)
       return: false
     - expression: priemtweeling(1936)
-      stdout: Je kan geen priemtweeling vinden van 1936.
+      return: 0

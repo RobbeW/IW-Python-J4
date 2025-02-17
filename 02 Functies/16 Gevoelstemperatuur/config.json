@@ -1,0 +1,21 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "description": {
+    "names": {
+      "nl": "Gevoelstemperatuur"
+    }
+  },
+  "labels": [
+    "functies"
+  ],
+  "access": "public",
+  "internals": {
+    "token": "R4ibi9wDx2TihYR76F6s8VGdZ9cYHBvhIEDrxBxhsYp_74Kt8xVnjvkdqAncGdwV",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

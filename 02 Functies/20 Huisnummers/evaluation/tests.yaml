@@ -1,0 +1,164 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '3'
+      stdout: Er waren geen nummers kleiner dan 3 die hieraan voldoen.
+    - expression: som_onder(3)
+      return: 3
+    - expression: is_symmetrisch(3)
+      return: false
+  - testcases:
+    - stdin: '4'
+      stdout: Er waren geen nummers kleiner dan 4 die hieraan voldoen.
+    - expression: som_onder(4)
+      return: 6
+    - expression: is_symmetrisch(4)
+      return: false
+  - testcases:
+    - stdin: '5'
+      stdout: Er waren geen nummers kleiner dan 5 die hieraan voldoen.
+    - expression: som_onder(5)
+      return: 10
+    - expression: is_symmetrisch(5)
+      return: false
+  - testcases:
+    - stdin: '6'
+      stdout: 6 voldoet aan de bijzondere eigenschap.
+    - expression: som_onder(6)
+      return: 15
+    - expression: is_symmetrisch(6)
+      return: true
+  - testcases:
+    - stdin: '7'
+      stdout: 6 voldoet aan de bijzondere eigenschap.
+    - expression: som_onder(7)
+      return: 21
+    - expression: is_symmetrisch(7)
+      return: false
+  - testcases:
+    - stdin: '8'
+      stdout: 6 voldoet aan de bijzondere eigenschap.
+    - expression: som_onder(8)
+      return: 28
+    - expression: is_symmetrisch(8)
+      return: false
+  - testcases:
+    - stdin: '10'
+      stdout: 6 voldoet aan de bijzondere eigenschap.
+    - expression: som_onder(10)
+      return: 45
+    - expression: is_symmetrisch(10)
+      return: false
+  - testcases:
+    - stdin: '17'
+      stdout: 6 voldoet aan de bijzondere eigenschap.
+    - expression: som_onder(17)
+      return: 136
+    - expression: is_symmetrisch(17)
+      return: false
+  - testcases:
+    - stdin: '35'
+      stdout: "6 voldoet aan de bijzondere eigenschap.\n35 voldoet aan de bijzondere
+        eigenschap."
+    - expression: som_onder(35)
+      return: 595
+    - expression: is_symmetrisch(35)
+      return: True
+  - testcases:
+    - stdin: '41'
+      stdout: "6 voldoet aan de bijzondere eigenschap.\n35 voldoet aan de bijzondere
+        eigenschap."
+    - expression: som_onder(41)
+      return: 820
+    - expression: is_symmetrisch(41)
+      return: false
+  - testcases:
+    - stdin: '42'
+      stdout: "6 voldoet aan de bijzondere eigenschap.\n35 voldoet aan de bijzondere
+        eigenschap."
+    - expression: som_onder(42)
+      return: 861
+    - expression: is_symmetrisch(42)
+      return: false
+  - testcases:
+    - stdin: '71'
+      stdout: "6 voldoet aan de bijzondere eigenschap.\n35 voldoet aan de bijzondere
+        eigenschap."
+    - expression: som_onder(71)
+      return: 2485
+    - expression: is_symmetrisch(71)
+      return: false
+  - testcases:
+    - stdin: '79'
+      stdout: "6 voldoet aan de bijzondere eigenschap.\n35 voldoet aan de bijzondere
+        eigenschap."
+    - expression: som_onder(79)
+      return: 3081
+    - expression: is_symmetrisch(79)
+      return: false
+  - testcases:
+    - stdin: '80'
+      stdout: "6 voldoet aan de bijzondere eigenschap.\n35 voldoet aan de bijzondere
+        eigenschap."
+    - expression: som_onder(80)
+      return: 3160
+    - expression: is_symmetrisch(80)
+      return: false
+  - testcases:
+    - stdin: '100'
+      stdout: "6 voldoet aan de bijzondere eigenschap.\n35 voldoet aan de bijzondere
+        eigenschap."
+    - expression: som_onder(100)
+      return: 4950
+    - expression: is_symmetrisch(100)
+      return: false
+  - testcases:
+    - stdin: '124'
+      stdout: "6 voldoet aan de bijzondere eigenschap.\n35 voldoet aan de bijzondere
+        eigenschap."
+    - expression: som_onder(124)
+      return: 7626
+    - expression: is_symmetrisch(124)
+      return: false
+  - testcases:
+    - stdin: '491'
+      stdout: "6 voldoet aan de bijzondere eigenschap.\n35 voldoet aan de bijzondere
+        eigenschap.\n204 voldoet aan de bijzondere eigenschap."
+    - expression: som_onder(491)
+      return: 120295
+    - expression: is_symmetrisch(491)
+      return: false
+  - testcases:
+    - stdin: '672'
+      stdout: "6 voldoet aan de bijzondere eigenschap.\n35 voldoet aan de bijzondere
+        eigenschap.\n204 voldoet aan de bijzondere eigenschap."
+    - expression: som_onder(672)
+      return: 225456
+    - expression: is_symmetrisch(672)
+      return: false
+  - testcases:
+    - stdin: '838'
+      stdout: "6 voldoet aan de bijzondere eigenschap.\n35 voldoet aan de bijzondere
+        eigenschap.\n204 voldoet aan de bijzondere eigenschap."
+    - expression: som_onder(838)
+      return: 350703
+    - expression: is_symmetrisch(838)
+      return: false
+  - testcases:
+    - stdin: '1666'
+      stdout: "6 voldoet aan de bijzondere eigenschap.\n35 voldoet aan de bijzondere
+        eigenschap.\n204 voldoet aan de bijzondere eigenschap.\n1189 voldoet aan de bijzondere
+        eigenschap."
+    - expression: som_onder(1666)
+      return: 1386945
+    - expression: is_symmetrisch(1666)
+      return: false
+  - testcases:
+    - stdin: '9026'
+      stdout: "6 voldoet aan de bijzondere eigenschap.\n35 voldoet aan de bijzondere
+        eigenschap.\n204 voldoet aan de bijzondere eigenschap.\n1189 voldoet aan de bijzondere
+        eigenschap.\n6930 voldoet aan de bijzondere eigenschap."
+    - expression: som_onder(9026)
+      return: 40729825
+    - expression: is_symmetrisch(9026)
+      return: false

@@ -1,0 +1,3 @@
+import math   # dit zal je nodig hebben...
+
+def 

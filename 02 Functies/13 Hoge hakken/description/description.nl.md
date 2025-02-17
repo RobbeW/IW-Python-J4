@@ -18,10 +18,11 @@ waarbij A het aantal uur is dat een vrouw achter elkaar op hoge hakken loopt of 
 
 ## Opgave
 
-Programmeer de functie `wankelfactor(aantal_uur)` die de wankelfactor retourneert, **afgerond** op twee decimalen.
-Programmeer daarna de functie `hakhoogte(s, w)` die de hakhoogte retourneert, **afgerond** op één decimaal. In deze functie is de parameter `w` een **optionele parameter**. Met andere woorden `hakhoogte(6.0)` berekent de hakhoogte met de eerste formule, terwijl `hakhoogte(6.0, 0.3)` de tweede formule gebruikt. 
+* Programmeer de functie `wankelfactor(aantal_uur)` die de wankelfactor retourneert, **afgerond** op twee decimalen.
 
-Vraag **hierna** aan de gebruiker de (Britse) schoenmaat en of de gebruiker rekening wil houden met het aantal uren dat deze recht zal staan. Indien de gebruiker daarop `"J"` antwoordt, dan vraag je naar dat aantal uur. Geef uiteindelijk de maximale hakgrootte weer. Gebruik de functies.
+* Programmeer daarna de functie `hakhoogte(s, w)` die de hakhoogte retourneert, **afgerond** op één decimaal. In deze functie is de parameter `w` een **optionele parameter**. Met andere woorden `hakhoogte(6.0)` berekent de hakhoogte met de eerste formule, terwijl `hakhoogte(6.0, 0.3)` de tweede formule gebruikt. 
+
+* Vraag **hierna** aan de gebruiker de (Britse) schoenmaat en of de gebruiker rekening wil houden met het aantal uren dat deze recht zal staan. Indien de gebruiker daarop `"J"` antwoordt, dan vraag je naar dat aantal uur. Geef uiteindelijk de maximale hakgrootte weer. Gebruik de functies.
 
 #### Voorbeeld 1
 
@@ -30,10 +31,27 @@ Indien een gebruiker `10.5` als schoenmaat intikt en `"N"` antwoordt op de vraag
 Je kan hakken tot 8.0 cm dragen.
 ```
 
+want de achterliggende functie werd als volgt gebruikt:
+```python
+>>> hakhoogte(10.5)
+8.0
+```
+
 #### Voorbeeld 2
 Indien de gebruiker `10.5` als schoenmaat intikt en  `"J"` gevolgd door `4` intikt, dan verschijnt er:
 
 ```
 Je mag hakken tot 3.3 cm dragen.
+```
+
+want de achterliggende functies werden als volgt gebruikt:
+```python
+>>> wankelfactor(4)
+0.21
+```
+
+```python
+>>> hakhoogte(10.5, 0.21)
+3.3
 ```
 

@@ -17,20 +17,38 @@ Links zie je een voorbeeld van een sonar, en de velden die door de sonar gecontr
 
 ![Een voorbeeld van een sonar en een oplossing op een 9 x 13 rooster.](media/image_dark.png "Een voorbeeld van een sonar en een oplossing op een 9 x 13 rooster."){:data-caption="Een voorbeeld van een sonar en een oplossing op een 9 x 13 rooster." .dark-only width="70%"}
 
-Programmeer een functie `minimum_sonar(n, m)` die dit minimale aantal retourneert.
+* Programmeer een functie `minimum_sonar(n, m)` die dit minimale aantal retourneert.
+
+* Vraag nadien naar het aantal rijen en het aantal kolommen en geef op het scherm weer hoeveel sonars er nodig zijn.
 
 #### Voorbeelden
 
+Bij `6` rijen en `6` kolommen verschijnt er:
+```
+Er zijn minimaal 4 sonars nodig.
+```
+want
 ```python
 >>> minimum_sonar(6, 6)
 4
 ```
+
+Bij `7` rijen en `7` kolommen verschijnt er:
+```
+Er zijn minimaal 4 sonars nodig.
+```
+want
 
 ```python
 >>> minimum_sonar(7, 7)
 4
 ```
 
+Bij `9` rijen en `13` kolommen verschijnt er:
+```
+Er zijn minimaal 12 sonars nodig.
+```
+want
 ```python
 >>> minimum_sonar(9, 13)
 12

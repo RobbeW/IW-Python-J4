@@ -1,0 +1,21 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "description": {
+    "names": {
+      "nl": "Kleinste gemeenschappelijke veelvoud"
+    }
+  },
+  "labels": [
+    "functies"
+  ],
+  "access": "public",
+  "internals": {
+    "token": "zYZECm8fRANWyH_NkwZRfKDsiWa8NcD5epTD2KcAVTq7Xc6uGfCVYrFzfzgsqN5-",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

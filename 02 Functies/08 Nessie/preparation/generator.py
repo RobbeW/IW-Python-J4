@@ -44,6 +44,7 @@ while len(cases) < ntests:
 
 cases = sorted(cases, key = lambda x: x[0]*x[1])
 
+   
 # generate unit tests for functions
 yamldata = []
 
@@ -58,6 +59,30 @@ yamldata.append( {'tab': tabtitle, 'contexts': []})
 for i in range(len(cases)):
     test = cases[i]
     yamldata[0]['contexts'].append( {'testcases' : []})
+    # generate test expression
+    # add input to input file
+    stdin = '\n'.join(f'{line}' for line in test)
+
+    # generate output to output file
+    script = os.path.join(solutiondir, 'solution.nl.py')
+    process= subprocess.run(
+        ['python3', script],
+        input=stdin,
+        encoding='utf-8',
+        capture_output=True
+    )
+    
+    result_lines = process.stdout.split("\n")
+    result_lines = [x for x in result_lines[:-1]] ## drop last element
+    
+    outputtxt = ""
+    for line in result_lines:
+        if not(line.startswith( 'Geef' )):
+            print(line)
+            outputtxt += line
+            
+    testcase = { input: stdin, output: outputtxt }            
+    yamldata[0]['contexts'][i]["testcases"].append( testcase)
     
     # generate test expression
     expression_name = f"minimum_sonar({test[0]}, {test[1]})"
@@ -67,5 +92,7 @@ for i in range(len(cases)):
     # setup for return expressions
     testcase = { "expression": expression_name, "return": result }
     yamldata[0]['contexts'][i]["testcases"].append( testcase)
+
+    
 
 write_yaml(yamldata)

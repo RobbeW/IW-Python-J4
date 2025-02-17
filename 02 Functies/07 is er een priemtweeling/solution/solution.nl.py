@@ -6,20 +6,25 @@ def is_priem(getal):
     return i == getal
 
 def priemtweeling( getal ):
+    resultaat = 0
     if is_priem( getal ):
         if is_priem( getal - 2) and is_priem( getal +2 ):
-            print(f"Je kan twee priemtweelingen vinden van {getal}, namelijk {getal-2} en {getal+2}.")
-        elif is_priem( getal - 2):
-            print(f"Je kan één priemtweeling vinden van {getal}, namelijk {getal-2}.")
-        elif is_priem( getal + 2):
-            print(f"Je kan één priemtweeling vinden van {getal}, namelijk {getal+2}.")
+            resultaat = 2
+        elif is_priem( getal - 2) or is_priem( getal + 2):
+            resultaat = 1
         else:
-            print(f"Je kan geen priemtweeling vinden van {getal}.")
-    else:
-        print(f"Je kan geen priemtweeling vinden van {getal}.")
+            resultaat = 0
+    return resultaat
 
 # Invoer vragen
 getal = int(input( "Geef een getal in: " ) )
 
 # Uitvoer
-priemtweeling(getal)
+aantal = priemtweeling(getal)
+
+if aantal == 2:
+    print("Je kan twee priemtweelingen vinden van", getal)
+elif aantal == 1:
+    print("Je kan één priemtweeling vinden van", getal)
+else:
+    print("Je kan geen priemtweeling vinden van", getal)
