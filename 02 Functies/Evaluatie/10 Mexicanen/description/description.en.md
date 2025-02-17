@@ -44,7 +44,7 @@ because
 >>> mexen(3, 3, 2, 1)
 speler 2
 ```
-want
+because
 ```python
 >>> score(3, 3)
 300
@@ -57,7 +57,7 @@ want
 >>> mexen(6, 6, 2, 2)
 speler 1
 ```
-want
+because
 ```python
 >>> score(6, 6)
 600
@@ -70,7 +70,7 @@ want
 >>> mexen(4, 2, 2, 4)
 gelijkspel
 ```
-want
+because
 ```python
 >>> score(4, 2)
 42
@@ -79,5 +79,5 @@ want
 ```
 
 {: .callout.callout-secondary}
->#### Bron
+>#### Source
 > Virginia Tech High School Programming Contest 2014
