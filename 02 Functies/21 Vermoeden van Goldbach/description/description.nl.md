@@ -39,4 +39,5 @@ Het vermoeden is hier niet van toepassing.
 {: .callout.callout-primary}
 > #### Leestip
 >*Oom Petros en het vermoeden van Goldbach* van *Apostolis Doxiadis*; een aansprekende roman over een oom die het zwarte schaap van de familie is, omdat hij zijn leven heeft verkwanseld in een poging het vermoeden van Goldbach te bewijzen. Een verhaal waaruit duidelijk blijkt hoe fascinerend, maar ook hoe frustrerend een onopgelost probleem kan zijn!
+>
 > ![Oom Petros en het vermoeden van Goldbach.](media/oom_petros.jpg "Oom Petros en het vermoeden van Goldbach."){:data-caption="Oom Petros en het vermoeden van Goldbach." width="15%"}
