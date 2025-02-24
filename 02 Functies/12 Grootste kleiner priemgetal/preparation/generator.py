@@ -47,38 +47,59 @@ cases.sort()
 # generate unit tests for functions
 yamldata = []
 
-# Generate first tab
-tabtitle = "Feedback vorige_priem"
+# input, expression, statement or stdin?
+input = 'stdin'
+# output, stdout or return?
+output = 'stdout'
+tabtitle = "Feedback"
 
 yamldata.append( {'tab': tabtitle, 'contexts': []})
 
 for i in range(len(cases)):
     test = cases[i]
     yamldata[0]['contexts'].append( {'testcases' : []})
-    
-    # setup for return expressions    
-    expression_name = f"vorige_priem({test[0]})"
-    result = module.vorige_priem(test[0])
+    # generate test expression
+    # add input to input file
+    stdin = '\n'.join(f'{line}' for line in test)
 
-    # setup for return expressions
-    testcase = { "expression": expression_name, "return": result }
+    # generate output to output file
+    script = os.path.join(solutiondir, 'solution.nl.py')
+    process= subprocess.run(
+        ['python3', script],
+        input=stdin,
+        encoding='utf-8',
+        capture_output=True
+    )
+    
+    result_lines = process.stdout.split("\n")
+    result_lines = [x for x in result_lines[:-1]] ## drop last element
+    
+    outputtxt = ""
+    for line in result_lines:
+        if not(line.startswith( 'Geef' )):
+            print(line)
+            outputtxt += line+"\n"
+            
+    testcase = { input: stdin, output: outputtxt }            
     yamldata[0]['contexts'][i]["testcases"].append( testcase)
     
-# Generate second tab
-tabtitle = "Feedback is_priem"
-
-yamldata.append( {'tab': tabtitle, 'contexts': []})
-
-for i in range(len(cases)):
-    test = cases[i]
-    yamldata[1]['contexts'].append( {'testcases' : []})
-    
-    # setup for return expressions    
-    expression_name = f"is_priem({test[0]})"
-    result = module.is_priem(test[0])
-
-    # setup for return expressions
+    #generate test expression
+    expression_name = f"vorige_priem({test[0]})"
+    result = module.vorige_priem(test[0])
+    print(result)
+    ## setup for return expressions
     testcase = { "expression": expression_name, "return": result }
-    yamldata[1]['contexts'][i]["testcases"].append( testcase)
+    yamldata[0]['contexts'][i]["testcases"].append( testcase)
+    #
+    ## generate test expression
+    #expression_name = f"is_symmetrisch({test[0]})"
+    #result = module.is_symmetrisch(test[0])
+    #print(result)
+    # setup for return expressions
+    #testcase = { "expression": expression_name, "return": result }
+    #yamldata[0]['contexts'][i]["testcases"].append( testcase)
+
+
+    
 
 write_yaml(yamldata)

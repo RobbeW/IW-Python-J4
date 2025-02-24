@@ -10,3 +10,7 @@ def vorige_priem(getal):
     while not is_priem(getal):
         getal -= 1
     return getal
+
+getal = int(input("Geef een getal in:"))
+vorige = vorige_priem(getal)
+print("Het eerste priemgetal voor", getal, "is", vorige)

@@ -1,232 +1,192 @@
-- tab: Feedback vorige_priem
+- tab: Feedback
   contexts:
   - testcases:
+    - stdin: '3'
+      stdout: "Het eerste priemgetal voor 3 is 2\n"
     - expression: vorige_priem(3)
       return: 2
   - testcases:
+    - stdin: '5'
+      stdout: "Het eerste priemgetal voor 5 is 3\n"
     - expression: vorige_priem(5)
       return: 3
   - testcases:
+    - stdin: '7'
+      stdout: "Het eerste priemgetal voor 7 is 5\n"
     - expression: vorige_priem(7)
       return: 5
   - testcases:
+    - stdin: '17'
+      stdout: "Het eerste priemgetal voor 17 is 13\n"
     - expression: vorige_priem(17)
       return: 13
   - testcases:
+    - stdin: '18'
+      stdout: "Het eerste priemgetal voor 18 is 17\n"
     - expression: vorige_priem(18)
       return: 17
   - testcases:
+    - stdin: '28'
+      stdout: "Het eerste priemgetal voor 28 is 23\n"
     - expression: vorige_priem(28)
       return: 23
   - testcases:
+    - stdin: '41'
+      stdout: "Het eerste priemgetal voor 41 is 37\n"
     - expression: vorige_priem(41)
       return: 37
   - testcases:
+    - stdin: '42'
+      stdout: "Het eerste priemgetal voor 42 is 41\n"
     - expression: vorige_priem(42)
       return: 41
   - testcases:
+    - stdin: '54'
+      stdout: "Het eerste priemgetal voor 54 is 53\n"
     - expression: vorige_priem(54)
       return: 53
   - testcases:
+    - stdin: '57'
+      stdout: "Het eerste priemgetal voor 57 is 53\n"
     - expression: vorige_priem(57)
       return: 53
   - testcases:
+    - stdin: '61'
+      stdout: "Het eerste priemgetal voor 61 is 59\n"
     - expression: vorige_priem(61)
       return: 59
   - testcases:
+    - stdin: '71'
+      stdout: "Het eerste priemgetal voor 71 is 67\n"
     - expression: vorige_priem(71)
       return: 67
   - testcases:
+    - stdin: '76'
+      stdout: "Het eerste priemgetal voor 76 is 73\n"
     - expression: vorige_priem(76)
       return: 73
   - testcases:
+    - stdin: '79'
+      stdout: "Het eerste priemgetal voor 79 is 73\n"
     - expression: vorige_priem(79)
       return: 73
   - testcases:
+    - stdin: '90'
+      stdout: "Het eerste priemgetal voor 90 is 89\n"
     - expression: vorige_priem(90)
       return: 89
   - testcases:
+    - stdin: '100'
+      stdout: "Het eerste priemgetal voor 100 is 97\n"
     - expression: vorige_priem(100)
       return: 97
   - testcases:
+    - stdin: '145'
+      stdout: "Het eerste priemgetal voor 145 is 139\n"
     - expression: vorige_priem(145)
       return: 139
   - testcases:
+    - stdin: '411'
+      stdout: "Het eerste priemgetal voor 411 is 409\n"
     - expression: vorige_priem(411)
       return: 409
   - testcases:
+    - stdin: '641'
+      stdout: "Het eerste priemgetal voor 641 is 631\n"
     - expression: vorige_priem(641)
       return: 631
   - testcases:
+    - stdin: '693'
+      stdout: "Het eerste priemgetal voor 693 is 691\n"
     - expression: vorige_priem(693)
       return: 691
   - testcases:
+    - stdin: '3651'
+      stdout: "Het eerste priemgetal voor 3651 is 3643\n"
     - expression: vorige_priem(3651)
       return: 3643
   - testcases:
+    - stdin: '3794'
+      stdout: "Het eerste priemgetal voor 3794 is 3793\n"
     - expression: vorige_priem(3794)
       return: 3793
   - testcases:
+    - stdin: '4532'
+      stdout: "Het eerste priemgetal voor 4532 is 4523\n"
     - expression: vorige_priem(4532)
       return: 4523
   - testcases:
+    - stdin: '5820'
+      stdout: "Het eerste priemgetal voor 5820 is 5813\n"
     - expression: vorige_priem(5820)
       return: 5813
   - testcases:
+    - stdin: '8056'
+      stdout: "Het eerste priemgetal voor 8056 is 8053\n"
     - expression: vorige_priem(8056)
       return: 8053
   - testcases:
+    - stdin: '9425'
+      stdout: "Het eerste priemgetal voor 9425 is 9421\n"
     - expression: vorige_priem(9425)
       return: 9421
   - testcases:
+    - stdin: '10157'
+      stdout: "Het eerste priemgetal voor 10157 is 10151\n"
     - expression: vorige_priem(10157)
       return: 10151
   - testcases:
+    - stdin: '16789'
+      stdout: "Het eerste priemgetal voor 16789 is 16787\n"
     - expression: vorige_priem(16789)
       return: 16787
   - testcases:
+    - stdin: '42967'
+      stdout: "Het eerste priemgetal voor 42967 is 42961\n"
     - expression: vorige_priem(42967)
       return: 42961
   - testcases:
+    - stdin: '59718'
+      stdout: "Het eerste priemgetal voor 59718 is 59707\n"
     - expression: vorige_priem(59718)
       return: 59707
   - testcases:
+    - stdin: '60768'
+      stdout: "Het eerste priemgetal voor 60768 is 60763\n"
     - expression: vorige_priem(60768)
       return: 60763
   - testcases:
+    - stdin: '62028'
+      stdout: "Het eerste priemgetal voor 62028 is 62017\n"
     - expression: vorige_priem(62028)
       return: 62017
   - testcases:
+    - stdin: '67582'
+      stdout: "Het eerste priemgetal voor 67582 is 67579\n"
     - expression: vorige_priem(67582)
       return: 67579
   - testcases:
+    - stdin: '83020'
+      stdout: "Het eerste priemgetal voor 83020 is 83009\n"
     - expression: vorige_priem(83020)
       return: 83009
   - testcases:
+    - stdin: '95841'
+      stdout: "Het eerste priemgetal voor 95841 is 95819\n"
     - expression: vorige_priem(95841)
       return: 95819
   - testcases:
+    - stdin: '104506'
+      stdout: "Het eerste priemgetal voor 104506 is 104491\n"
     - expression: vorige_priem(104506)
       return: 104491
   - testcases:
+    - stdin: '617899'
+      stdout: "Het eerste priemgetal voor 617899 is 617887\n"
     - expression: vorige_priem(617899)
       return: 617887
   - testcases:
+    - stdin: '903362'
+      stdout: "Het eerste priemgetal voor 903362 is 903359\n"
     - expression: vorige_priem(903362)
       return: 903359
-- tab: Feedback is_priem
-  contexts:
-  - testcases:
-    - expression: is_priem(3)
-      return: true
-  - testcases:
-    - expression: is_priem(5)
-      return: true
-  - testcases:
-    - expression: is_priem(7)
-      return: true
-  - testcases:
-    - expression: is_priem(17)
-      return: true
-  - testcases:
-    - expression: is_priem(18)
-      return: false
-  - testcases:
-    - expression: is_priem(28)
-      return: false
-  - testcases:
-    - expression: is_priem(41)
-      return: true
-  - testcases:
-    - expression: is_priem(42)
-      return: false
-  - testcases:
-    - expression: is_priem(54)
-      return: false
-  - testcases:
-    - expression: is_priem(57)
-      return: false
-  - testcases:
-    - expression: is_priem(61)
-      return: true
-  - testcases:
-    - expression: is_priem(71)
-      return: true
-  - testcases:
-    - expression: is_priem(76)
-      return: false
-  - testcases:
-    - expression: is_priem(79)
-      return: true
-  - testcases:
-    - expression: is_priem(90)
-      return: false
-  - testcases:
-    - expression: is_priem(100)
-      return: false
-  - testcases:
-    - expression: is_priem(145)
-      return: false
-  - testcases:
-    - expression: is_priem(411)
-      return: false
-  - testcases:
-    - expression: is_priem(641)
-      return: true
-  - testcases:
-    - expression: is_priem(693)
-      return: false
-  - testcases:
-    - expression: is_priem(3651)
-      return: false
-  - testcases:
-    - expression: is_priem(3794)
-      return: false
-  - testcases:
-    - expression: is_priem(4532)
-      return: false
-  - testcases:
-    - expression: is_priem(5820)
-      return: false
-  - testcases:
-    - expression: is_priem(8056)
-      return: false
-  - testcases:
-    - expression: is_priem(9425)
-      return: false
-  - testcases:
-    - expression: is_priem(10157)
-      return: false
-  - testcases:
-    - expression: is_priem(16789)
-      return: false
-  - testcases:
-    - expression: is_priem(42967)
-      return: true
-  - testcases:
-    - expression: is_priem(59718)
-      return: false
-  - testcases:
-    - expression: is_priem(60768)
-      return: false
-  - testcases:
-    - expression: is_priem(62028)
-      return: false
-  - testcases:
-    - expression: is_priem(67582)
-      return: false
-  - testcases:
-    - expression: is_priem(83020)
-      return: false
-  - testcases:
-    - expression: is_priem(95841)
-      return: false
-  - testcases:
-    - expression: is_priem(104506)
-      return: false
-  - testcases:
-    - expression: is_priem(617899)
-      return: false
-  - testcases:
-    - expression: is_priem(903362)
-      return: false
