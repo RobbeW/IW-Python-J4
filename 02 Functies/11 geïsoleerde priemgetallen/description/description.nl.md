@@ -1,8 +1,8 @@
-## Opgave
-
 Men noemt een priemgetal p een **geïsoleerd priemgetal** indien het priem is en p - 2 en p + 2 **niet** priem zijn. Met andere woorden, p is geen deel van een priemtweeling.
 
 Er geldt bijvoorbeeld dat 23 een geïsoleerd priemgetal is, immers noch 21, noch 25 zijn priemgetallen.
+
+## Opgave
 
 Schrijf een programma dat aan de gebruiker een bovengrens vraagt en vervolgens alle geïsoleerde priemgetallen **kleiner** dan deze bovengrens op het scherm afdrukt. Gebruik hierbij de functie `is_priem()`.
 
