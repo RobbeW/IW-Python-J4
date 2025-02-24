@@ -2,7 +2,7 @@
   contexts:
   - testcases:
     - stdin: '1'
-      stdout: "De benadering van pi met 1 factoren is: 2.8284\n"
+      stdout: "De benadering van pi met 1 factor is: 2.8284\n"
     - expression: benadering_euler(1)
       return: 1.333333
   - testcases:
@@ -46,6 +46,11 @@
     - expression: benadering_euler(80)
       return: 1.644365
   - testcases:
+    - stdin: '100'
+      stdout: "De benadering van pi met 100 factoren is: 3.1412\n"
+    - expression: benadering_euler(100)
+      return: 1.644515
+  - testcases:
     - stdin: '160'
       stdout: "De benadering van pi met 160 factoren is: 3.1414\n"
     - expression: benadering_euler(160)
@@ -66,12 +71,7 @@
     - expression: benadering_euler(1280)
       return: 1.644919
   - testcases:
-    - stdin: '2560'
-      stdout: "De benadering van pi met 2560 factoren is: 3.1416\n"
-    - expression: benadering_euler(2560)
-      return: 1.644928
-  - testcases:
-    - stdin: '5120'
-      stdout: "De benadering van pi met 5120 factoren is: 3.1416\n"
-    - expression: benadering_euler(5120)
-      return: 1.644931
+    - stdin: '4000'
+      stdout: "De benadering van pi met 4000 factoren is: 3.1416\n"
+    - expression: benadering_euler(4000)
+      return: 1.64493

@@ -33,7 +33,7 @@ spec.loader.exec_module(module)
 
 # generate tests
 ntests= 15
-cases = [(1, ),(2, ),(3, ),(4, ),(5, )]
+cases = [(1, ),(2, ),(3, ),(4, ),(5, ), (100,),(4000,)]
 n = 10
 while len(cases) < ntests:
     case = (n, )

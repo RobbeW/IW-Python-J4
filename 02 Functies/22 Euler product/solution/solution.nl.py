@@ -22,7 +22,10 @@ def benadering_euler(aantal_factoren):
 
 
 aantal = int(input("Geef het aantal factoren in: "))
-
 benadering = benadering_euler(aantal)
 benadering = math.sqrt(6 * benadering)
-print("De benadering van pi met", aantal, "factoren is:", round(benadering, 4))
+
+if aantal == 1:
+    print("De benadering van pi met 1 factor is:", round(benadering, 4))
+else:
+    print("De benadering van pi met", aantal, "factoren is:", round(benadering, 4))
