@@ -16,7 +16,7 @@ Aan het oneindig product wordt dus telkens een factor $$\mathsf{\dfrac{p^2}{p^2-
 
 - Schrijf tot slot een programma dat aan de gebruiker een aantal factoren vraagt, de functie `benadering_euler()` gebruikt om een benadering voor $$\mathsf{\dfrac{\pi^2}{6}}$$ bepaalt en daarna hieruit een benadering voor $$\pi$$ uitrekent. 
 
-  Als $$\mathsf{B}$$ een benadering voor het product is, dan zal $$\mathsf{\pi \approx \sqrt{6\cdot B}}$$ zijn... rond af op 4 decimalen.
+  Tip: Als $$\mathsf{B}$$ een benadering voor het product is, dan zal $$\mathsf{\pi \approx \sqrt{6\cdot B}}$$ zijn... rond af op 4 decimalen.
 
 
 #### Voorbeelden
