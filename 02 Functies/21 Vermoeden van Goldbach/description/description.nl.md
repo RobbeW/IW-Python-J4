@@ -33,7 +33,7 @@ Het vermoeden is hier niet van toepassing.
 
 {: .callout.callout-info}
 > #### Tip
-> Je zal met een geneste `for` lus moeten werken. Zoek zelf eens naar alle oplossingen indien het getal 16 is. Hoe pak je dit aan op papier?
+> Zoek zelf eens naar alle oplossingen indien het getal 16 is. Welke getallen moet je controleren?
 
 
 {: .callout.callout-primary}
