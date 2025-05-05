@@ -1,0 +1,886 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: verwissel(['feijoa', 'banaan'], 2, 1)
+      return:
+      - banaan
+      - feijoa
+  - testcases:
+    - expression: verwissel(['appel', 'banaan', 'peer', 'citroen', 'druif'], 1, 3)
+      return:
+      - peer
+      - banaan
+      - appel
+      - citroen
+      - druif
+  - testcases:
+    - expression: verwissel(['appel', 'banaan', 'peer', 'citroen', 'druif'], 3, 1)
+      return:
+      - peer
+      - banaan
+      - appel
+      - citroen
+      - druif
+  - testcases:
+    - expression: verwissel(['q', 'q', 'k', 'j', 's', 's'], 3, 6)
+      return:
+      - q
+      - q
+      - s
+      - j
+      - s
+      - k
+  - testcases:
+    - expression: verwissel(['salak', 'granaatappel', 'rode bes', 'bilimbi', 'jambolan',
+        'bananenpassievrucht', 'braam', 'canistel', 'rambutan', 'sinaasappel', 'mango'],
+        10, 6)
+      return:
+      - salak
+      - granaatappel
+      - rode bes
+      - bilimbi
+      - jambolan
+      - sinaasappel
+      - braam
+      - canistel
+      - rambutan
+      - bananenpassievrucht
+      - mango
+  - testcases:
+    - expression: verwissel(['safou', 'carambola', 'framboos', 'persimmon', 'olijf',
+        'bael', 'nectarine', 'mispel', 'kaki', 'jambolan', 'bilimbi'], 10, 5)
+      return:
+      - safou
+      - carambola
+      - framboos
+      - persimmon
+      - jambolan
+      - bael
+      - nectarine
+      - mispel
+      - kaki
+      - olijf
+      - bilimbi
+  - testcases:
+    - expression: verwissel(['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k',
+        'z'], 5, 5)
+      return:
+      - a
+      - b
+      - c
+      - d
+      - e
+      - f
+      - g
+      - h
+      - i
+      - j
+      - k
+      - z
+  - testcases:
+    - expression: verwissel(['q', 'f', 'g', 'p', 'p', 'x', 'c', 'i', 'd', 'v', 'a',
+        'y', 'm'], 13, 6)
+      return:
+      - q
+      - f
+      - g
+      - p
+      - p
+      - m
+      - c
+      - i
+      - d
+      - v
+      - a
+      - y
+      - x
+  - testcases:
+    - expression: verwissel(['i', 'c', 'y', 'y', 'q', 'v', 'm', 'w', 's', 't', 's',
+        'g', 'h', 'q', 'b', 'x', 'x', 's', 'a', 'q', 'm', 'z', 's', 't', 'i', 'm'],
+        15, 8)
+      return:
+      - i
+      - c
+      - y
+      - y
+      - q
+      - v
+      - m
+      - b
+      - s
+      - t
+      - s
+      - g
+      - h
+      - q
+      - w
+      - x
+      - x
+      - s
+      - a
+      - q
+      - m
+      - z
+      - s
+      - t
+      - i
+      - m
+  - testcases:
+    - expression: verwissel(['passievrucht', 'nectarine', 'abrikoos', 'ijsappel',
+        'mispel', 'tamarinde', 'moerbei', 'pitahaya', 'guave', 'rozenappel', 'veenbes',
+        'ramboetan', 'yuzu', 'youngberry', 'pomelo', 'braam', 'bilimbi', 'persimmon',
+        'sleedoorn', 'kumquat', 'tamarillo', 'olijf', 'monstera', 'aardbei', 'langsat',
+        'quandong'], 7, 24)
+      return:
+      - passievrucht
+      - nectarine
+      - abrikoos
+      - ijsappel
+      - mispel
+      - tamarinde
+      - aardbei
+      - pitahaya
+      - guave
+      - rozenappel
+      - veenbes
+      - ramboetan
+      - yuzu
+      - youngberry
+      - pomelo
+      - braam
+      - bilimbi
+      - persimmon
+      - sleedoorn
+      - kumquat
+      - tamarillo
+      - olijf
+      - monstera
+      - moerbei
+      - langsat
+      - quandong
+  - testcases:
+    - expression: verwissel(['j', 'w', 'p', 'q', 'v', 'f', 'z', 'p', 'r', 'u', 'r',
+        'a', 'z', 'a', 't', 'p', 'w', 'x', 'a', 'n', 'm', 'n', 'g', 'r', 'r', 'a'],
+        23, 21)
+      return:
+      - j
+      - w
+      - p
+      - q
+      - v
+      - f
+      - z
+      - p
+      - r
+      - u
+      - r
+      - a
+      - z
+      - a
+      - t
+      - p
+      - w
+      - x
+      - a
+      - n
+      - g
+      - n
+      - m
+      - r
+      - r
+      - a
+  - testcases:
+    - expression: verwissel(['m', 'b', 'f', 'd', 'b', 'a', 'w', 'o', 'q', 'i', 'e',
+        'b', 'g', 'v', 'k', 'e', 'n', 'l', 'b', 'p', 'd', 'l', 'v', 'g', 's', 'n',
+        'r', 'b', 'f'], 20, 15)
+      return:
+      - m
+      - b
+      - f
+      - d
+      - b
+      - a
+      - w
+      - o
+      - q
+      - i
+      - e
+      - b
+      - g
+      - v
+      - p
+      - e
+      - n
+      - l
+      - b
+      - k
+      - d
+      - l
+      - v
+      - g
+      - s
+      - n
+      - r
+      - b
+      - f
+  - testcases:
+    - expression: verwissel([3, 5, -3, 10, 8, 9, 1, -3, 6, -2, 0, -2, -4, 9, -10,
+        -1, -6, -5, 5, -5, -6, -1, 6, 3, 4, -10, 9, 1, 8, 5, 0, -2, -3, 6, -7, -4,
+        -4, 9, -4, -10, -3, 10, 10, -5, -10, 8, -1, 10, -9, 3, -6], 15, 50)
+      return:
+      - 3
+      - 5
+      - -3
+      - 10
+      - 8
+      - 9
+      - 1
+      - -3
+      - 6
+      - -2
+      - 0
+      - -2
+      - -4
+      - 9
+      - 3
+      - -1
+      - -6
+      - -5
+      - 5
+      - -5
+      - -6
+      - -1
+      - 6
+      - 3
+      - 4
+      - -10
+      - 9
+      - 1
+      - 8
+      - 5
+      - 0
+      - -2
+      - -3
+      - 6
+      - -7
+      - -4
+      - -4
+      - 9
+      - -4
+      - -10
+      - -3
+      - 10
+      - 10
+      - -5
+      - -10
+      - 8
+      - -1
+      - 10
+      - -9
+      - -10
+      - -6
+  - testcases:
+    - expression: verwissel(['m', 'o', 'd', 'o', 'd', 'w', 'y', 'z', 'l', 'i', 'm',
+        'f', 't', 'v', 'c', 'j', 'd', 'a', 'q', 'c', 'a', 'd', 'x', 'q', 'g', 'x',
+        's', 'm', 'k', 'n', 'y', 'w', 'i', 'd', 'w', 'e', 'b', 'j', 'p', 'r', 'o',
+        'c', 'u', 'k', 'z', 'h', 'a', 'z', 's', 'c', 'f', 'q', 'v', 'h', 'y', 'c',
+        'l', 'j', 'o', 'c', 'e'], 55, 39)
+      return:
+      - m
+      - o
+      - d
+      - o
+      - d
+      - w
+      - y
+      - z
+      - l
+      - i
+      - m
+      - f
+      - t
+      - v
+      - c
+      - j
+      - d
+      - a
+      - q
+      - c
+      - a
+      - d
+      - x
+      - q
+      - g
+      - x
+      - s
+      - m
+      - k
+      - n
+      - y
+      - w
+      - i
+      - d
+      - w
+      - e
+      - b
+      - j
+      - y
+      - r
+      - o
+      - c
+      - u
+      - k
+      - z
+      - h
+      - a
+      - z
+      - s
+      - c
+      - f
+      - q
+      - v
+      - h
+      - p
+      - c
+      - l
+      - j
+      - o
+      - c
+      - e
+  - testcases:
+    - expression: verwissel([-2, 9, -5, -9, -8, 3, -5, -5, -5, 1, -5, -6, 9, -7, 3,
+        7, 2, 5, 3, 9, 3, -6, -5, 0, 4, -5, 10, 0, -7, 7, -9, -6, -2, 5, 5, 3, -3,
+        0, 7, 4, 6, -1, 10, 2, 3, -8, -10, -3, 3, -5, -10, -4, -4, -6, 8, 1, 3, 7,
+        -9, -6, 3, -4, 10, -8, -6, 8, -2, -3, -2, -1, -2], 6, 7)
+      return:
+      - -2
+      - 9
+      - -5
+      - -9
+      - -8
+      - -5
+      - 3
+      - -5
+      - -5
+      - 1
+      - -5
+      - -6
+      - 9
+      - -7
+      - 3
+      - 7
+      - 2
+      - 5
+      - 3
+      - 9
+      - 3
+      - -6
+      - -5
+      - 0
+      - 4
+      - -5
+      - 10
+      - 0
+      - -7
+      - 7
+      - -9
+      - -6
+      - -2
+      - 5
+      - 5
+      - 3
+      - -3
+      - 0
+      - 7
+      - 4
+      - 6
+      - -1
+      - 10
+      - 2
+      - 3
+      - -8
+      - -10
+      - -3
+      - 3
+      - -5
+      - -10
+      - -4
+      - -4
+      - -6
+      - 8
+      - 1
+      - 3
+      - 7
+      - -9
+      - -6
+      - 3
+      - -4
+      - 10
+      - -8
+      - -6
+      - 8
+      - -2
+      - -3
+      - -2
+      - -1
+      - -2
+  - testcases:
+    - expression: verwissel(['w', 'y', 't', 'b', 's', 'l', 'r', 'g', 'h', 'c', 'n',
+        'e', 'k', 'y', 'v', 'x', 't', 't', 'a', 'h', 'x', 'o', 'o', 'a', 'n', 't',
+        'p', 'n', 'b', 'b', 'f', 'x', 'a', 'h', 'y', 'j', 'w', 'y', 'y', 'e', 'f',
+        'x', 'e', 'e', 'y', 'b', 'u', 'i', 'v', 'm', 'n', 'b', 'r', 'b', 'c', 'w',
+        'b', 'v', 'p', 't', 'c', 'i', 'x', 'x', 'e', 'k', 'm', 'z', 'f', 'l', 'h',
+        'h'], 60, 32)
+      return:
+      - w
+      - y
+      - t
+      - b
+      - s
+      - l
+      - r
+      - g
+      - h
+      - c
+      - n
+      - e
+      - k
+      - y
+      - v
+      - x
+      - t
+      - t
+      - a
+      - h
+      - x
+      - o
+      - o
+      - a
+      - n
+      - t
+      - p
+      - n
+      - b
+      - b
+      - f
+      - t
+      - a
+      - h
+      - y
+      - j
+      - w
+      - y
+      - y
+      - e
+      - f
+      - x
+      - e
+      - e
+      - y
+      - b
+      - u
+      - i
+      - v
+      - m
+      - n
+      - b
+      - r
+      - b
+      - c
+      - w
+      - b
+      - v
+      - p
+      - x
+      - c
+      - i
+      - x
+      - x
+      - e
+      - k
+      - m
+      - z
+      - f
+      - l
+      - h
+      - h
+  - testcases:
+    - expression: verwissel(['peer', 'ijsappel', 'monstera', 'rode bes', 'feijoa',
+        'mandarijn', 'ramboetan', 'physalis', 'surinaamse kers', 'sleedoorn', 'durian',
+        'rambutan', 'canistel', 'bosbes', 'rozenappel', 'jackfruit', 'limoen', 'guave',
+        'kumquat', 'olijf', 'honingbes', 'santol', 'moerbei', 'citroen', 'lychee',
+        'huckleberry', 'zwarte bes', 'perzik', 'pomelo', 'watermeloen', 'aardbei',
+        'carambola', 'ugli', 'boeddhistische hand', 'nangka', 'youngberry', 'sinaasappel',
+        'framboos', 'druif', 'lansat', 'nectarine', 'bananenpassievrucht', 'jujube',
+        'tamarillo', 'quandong', 'zuurzak', 'cranberry', 'sapodilla', 'cloudberry',
+        'ananas', 'mango', 'banaan', 'loganbes', 'safou', 'vlierbes', 'lucuma', 'bilimbi',
+        'braam', 'pruim', 'cactusvijg', 'bosaardbei', 'jambolan', 'pitahaya', 'persimmon',
+        'osage oranje', 'kers', 'goji bes', 'ackee', 'loquat', 'damson', 'papaja',
+        'zwarte sapote', 'kiwi', 'passievrucht', 'granaatappel'], 19, 12)
+      return:
+      - peer
+      - ijsappel
+      - monstera
+      - rode bes
+      - feijoa
+      - mandarijn
+      - ramboetan
+      - physalis
+      - surinaamse kers
+      - sleedoorn
+      - durian
+      - kumquat
+      - canistel
+      - bosbes
+      - rozenappel
+      - jackfruit
+      - limoen
+      - guave
+      - rambutan
+      - olijf
+      - honingbes
+      - santol
+      - moerbei
+      - citroen
+      - lychee
+      - huckleberry
+      - zwarte bes
+      - perzik
+      - pomelo
+      - watermeloen
+      - aardbei
+      - carambola
+      - ugli
+      - boeddhistische hand
+      - nangka
+      - youngberry
+      - sinaasappel
+      - framboos
+      - druif
+      - lansat
+      - nectarine
+      - bananenpassievrucht
+      - jujube
+      - tamarillo
+      - quandong
+      - zuurzak
+      - cranberry
+      - sapodilla
+      - cloudberry
+      - ananas
+      - mango
+      - banaan
+      - loganbes
+      - safou
+      - vlierbes
+      - lucuma
+      - bilimbi
+      - braam
+      - pruim
+      - cactusvijg
+      - bosaardbei
+      - jambolan
+      - pitahaya
+      - persimmon
+      - osage oranje
+      - kers
+      - goji bes
+      - ackee
+      - loquat
+      - damson
+      - papaja
+      - zwarte sapote
+      - kiwi
+      - passievrucht
+      - granaatappel
+  - testcases:
+    - expression: verwissel(['witte bes', 'monstera', 'krent', 'loquat', 'kiwi', 'maracuja',
+        'moerbei', 'mispel', 'physalis', 'cranberry', 'granaatappel', 'kokosnoot',
+        'zwarte bes', 'rambutan', 'olijf', 'aardbei', 'papaja', 'quandong', 'watermeloen',
+        'sleedoorn', 'ugli', 'cactusvijg', 'mirabelle', 'honingbes', 'veenbes', 'salak',
+        'jabuticaba', 'persimmon', 'sinaasappel', 'abrikoos', 'jambolan', 'youngberry',
+        'bosaardbei', 'surinaamse kers', 'pruim', 'bael', 'santol', 'jujube', 'ramboetan',
+        'nectarine', 'bosbes', 'lansat', 'perzik', 'safou', 'braam', 'lucuma', 'loganbes',
+        'longan', 'canistel', 'kaki', 'lychee', 'mango', 'kers', 'passievrucht', 'pomelo',
+        'peer', 'bananenpassievrucht', 'ackee', 'ananas', 'banaan', 'druif', 'kumquat',
+        'yuzu', 'tamarinde', 'goji bes', 'zuurzak', 'tamarillo', 'langsat', 'framboos',
+        'huckleberry', 'durian', 'lijsterbes', 'feijoa', 'citroen', 'carambola', 'cloudberry',
+        'guave'], 14, 7)
+      return:
+      - witte bes
+      - monstera
+      - krent
+      - loquat
+      - kiwi
+      - maracuja
+      - rambutan
+      - mispel
+      - physalis
+      - cranberry
+      - granaatappel
+      - kokosnoot
+      - zwarte bes
+      - moerbei
+      - olijf
+      - aardbei
+      - papaja
+      - quandong
+      - watermeloen
+      - sleedoorn
+      - ugli
+      - cactusvijg
+      - mirabelle
+      - honingbes
+      - veenbes
+      - salak
+      - jabuticaba
+      - persimmon
+      - sinaasappel
+      - abrikoos
+      - jambolan
+      - youngberry
+      - bosaardbei
+      - surinaamse kers
+      - pruim
+      - bael
+      - santol
+      - jujube
+      - ramboetan
+      - nectarine
+      - bosbes
+      - lansat
+      - perzik
+      - safou
+      - braam
+      - lucuma
+      - loganbes
+      - longan
+      - canistel
+      - kaki
+      - lychee
+      - mango
+      - kers
+      - passievrucht
+      - pomelo
+      - peer
+      - bananenpassievrucht
+      - ackee
+      - ananas
+      - banaan
+      - druif
+      - kumquat
+      - yuzu
+      - tamarinde
+      - goji bes
+      - zuurzak
+      - tamarillo
+      - langsat
+      - framboos
+      - huckleberry
+      - durian
+      - lijsterbes
+      - feijoa
+      - citroen
+      - carambola
+      - cloudberry
+      - guave
+  - testcases:
+    - expression: verwissel([-2, -1, 3, 8, 3, 0, 7, 1, 0, -4, -5, 0, -1, -5, -9, -8,
+        7, 1, -3, 7, 4, -9, 10, -3, 10, -3, 8, -5, 7, 8, -10, 2, 10, -4, 3, 8, -2,
+        6, 4, 7, 10, -5, 8, -9, 0, 8, 2, 8, 0, -6, 2, -7, 9, -2, 2, -8, -6, 10, -9,
+        -7, -8, 4, -10, -10, 7, -2, 1, 6, -9, 9, 0, -8, 4, -5, 9, -3, -10, -6, 3,
+        -4, -4, -8, 8, -4, 0, 2, 7, 5, 3, -9], 40, 37)
+      return:
+      - -2
+      - -1
+      - 3
+      - 8
+      - 3
+      - 0
+      - 7
+      - 1
+      - 0
+      - -4
+      - -5
+      - 0
+      - -1
+      - -5
+      - -9
+      - -8
+      - 7
+      - 1
+      - -3
+      - 7
+      - 4
+      - -9
+      - 10
+      - -3
+      - 10
+      - -3
+      - 8
+      - -5
+      - 7
+      - 8
+      - -10
+      - 2
+      - 10
+      - -4
+      - 3
+      - 8
+      - 7
+      - 6
+      - 4
+      - -2
+      - 10
+      - -5
+      - 8
+      - -9
+      - 0
+      - 8
+      - 2
+      - 8
+      - 0
+      - -6
+      - 2
+      - -7
+      - 9
+      - -2
+      - 2
+      - -8
+      - -6
+      - 10
+      - -9
+      - -7
+      - -8
+      - 4
+      - -10
+      - -10
+      - 7
+      - -2
+      - 1
+      - 6
+      - -9
+      - 9
+      - 0
+      - -8
+      - 4
+      - -5
+      - 9
+      - -3
+      - -10
+      - -6
+      - 3
+      - -4
+      - -4
+      - -8
+      - 8
+      - -4
+      - 0
+      - 2
+      - 7
+      - 5
+      - 3
+      - -9
+  - testcases:
+    - expression: verwissel([6, -7, -8, 7, 6, -3, 0, 8, 2, 8, -7, 3, -1, -9, -4, -2,
+        5, 3, -7, -9, -4, -5, -2, 5, 8, 2, -4, 9, 5, -1, -3, 3, -8, -6, 2, -6, 9,
+        3, -8, 8, -9, -6, -9, 6, 0, -2, -1, 5, 6, 0, 6, -10, 9, 5, 7, -1, -3, -1,
+        4, 3, 6, 9, 9, -9, -10, 2, 7, 7, 5, -7, -2, -9, 1, -10, 10, -7, -1, -8, 7,
+        4, -2, 6, 9, -7, 3, -6, 4, 4, 10, 7, 9, 2, -2, -9, -8, 9], 68, 16)
+      return:
+      - 6
+      - -7
+      - -8
+      - 7
+      - 6
+      - -3
+      - 0
+      - 8
+      - 2
+      - 8
+      - -7
+      - 3
+      - -1
+      - -9
+      - -4
+      - 7
+      - 5
+      - 3
+      - -7
+      - -9
+      - -4
+      - -5
+      - -2
+      - 5
+      - 8
+      - 2
+      - -4
+      - 9
+      - 5
+      - -1
+      - -3
+      - 3
+      - -8
+      - -6
+      - 2
+      - -6
+      - 9
+      - 3
+      - -8
+      - 8
+      - -9
+      - -6
+      - -9
+      - 6
+      - 0
+      - -2
+      - -1
+      - 5
+      - 6
+      - 0
+      - 6
+      - -10
+      - 9
+      - 5
+      - 7
+      - -1
+      - -3
+      - -1
+      - 4
+      - 3
+      - 6
+      - 9
+      - 9
+      - -9
+      - -10
+      - 2
+      - 7
+      - -2
+      - 5
+      - -7
+      - -2
+      - -9
+      - 1
+      - -10
+      - 10
+      - -7
+      - -1
+      - -8
+      - 7
+      - 4
+      - -2
+      - 6
+      - 9
+      - -7
+      - 3
+      - -6
+      - 4
+      - 4
+      - 10
+      - 7
+      - 9
+      - 2
+      - -2
+      - -9
+      - -8
+      - 9
