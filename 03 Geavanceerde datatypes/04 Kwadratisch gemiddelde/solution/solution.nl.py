@@ -5,5 +5,5 @@ def kwadratisch_gemiddelde( lijst ):
     som = 0
     for getal in lijst:
         som += getal**2
-    result = 1 / n * math.sqrt( som )
+    result = math.sqrt( 1 / n * som )
     return round( result, 3)
