@@ -32,10 +32,12 @@ spec.loader.exec_module(module)
 
 # generate test data
 ntests= 20
-cases = [[3, 0, 5, 0, 2, 2, 0, 6]]
+cases = [[3, 0, 5, 0, 2, 2, 0, 6],
+         [0, 2, 0, 0, 4, 0],
+         [0, 0, 0, 0]]
 
 while len(cases) < ntests:
-    e = random.randint(0,3)
+    e = random.randint(0,2)
     n = random.randint(10**e,10**(e+1))
     
     lijst = [random.randint(0, 10) for _ in range(n)]
