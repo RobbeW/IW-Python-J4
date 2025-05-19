@@ -2,6 +2,7 @@
   "type": "exercise",
   "programming_language": "python",
   "evaluation": {
+    "memory_limit": 200000000,
     "handler": "tested",
     "test_suite": "tests.yaml"
   },
