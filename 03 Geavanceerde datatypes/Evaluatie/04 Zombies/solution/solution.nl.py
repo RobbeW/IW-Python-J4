@@ -1,6 +1,5 @@
 import math
 def aantal_gezond(sectoren):
-    n = len(sectoren)
     aantal = 0
     for getal in sectoren:
         if getal == 0:
