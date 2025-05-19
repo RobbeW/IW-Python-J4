@@ -17,5 +17,9 @@
     "begrensde herhaling",
     "for-lus"
   ],
-  "access": "public"
+  "access": "public",
+  "internals": {
+    "token": "cevUWg6PEiycb8ejqMmz66JIMm7wjzmRNeSrSZ_wPDsnH97dDVd_-I2JzTHY_sG-",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
