@@ -32,14 +32,14 @@ spec.loader.exec_module(module)
 
 # generate test data
 ntests= 20
-cases = [ (1,2,3,4,5), (2,3,4,5,6), (1,4,4,4,5), (1,3,4,5,6), (1, 2, 2, 3, 6) ]
+cases = [ [1,2,3,4,5], [2,3,4,5,6], [1,4,4,4,5], [1,3,4,5,6], [1, 2, 2, 3, 6] ]
 while len(cases) < ntests:
     worp = [random.randint(1,6)]
     for i in range(4):
         a = random.randint(worp[i], 6)
         worp.append(a)
     if worp not in cases:
-        cases.append(tuple(worp))
+        cases.append(worp)
 
 # generate unit tests for functions
 yamldata = []

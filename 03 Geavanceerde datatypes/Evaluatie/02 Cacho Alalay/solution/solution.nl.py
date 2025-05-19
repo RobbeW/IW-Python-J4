@@ -1,3 +1,6 @@
 def escala(worpen):
-    result = worpen in [(1, 2, 3, 4, 5), (2, 3, 4, 5, 6)]
-    return result
+    flag = True
+    for i in range(1, len(worpen)):
+        if worpen[i] != worpen[i-1] + 1:
+            flag = False
+    return flag
