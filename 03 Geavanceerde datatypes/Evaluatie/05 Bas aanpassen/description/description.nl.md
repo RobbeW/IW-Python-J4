@@ -1,10 +1,10 @@
-Je maakt een DJ-app en beschikt over twee lijsten, een met de huidige bassniveau's en een lijst met de aanpassingen.
+Je maakt een DJ-app en beschikt over twee lijsten, een met de huidige bassniveau's en een lijst met aanpassingen voor deze bassniveau's (mogelijks negatief).
 
 ![Hier zitten de bassniveau's goed.](media/bas.gif "Hier zitten de bassniveau's goed."){:data-caption="Hier zitten de bassniveau's goed." width="200px"}
 
 ## Opgave
 
-Programmeer een functie `bas_aanpassen(basniveaus, aanpassingen)` dat de nieuwe basniveau's retourneert.
+Programmeer een functie `bas_aanpassen(basniveaus, aanpassingen)` dat de nieuwe basniveau's (als een lijst) retourneert.
 
 Bestudeer onderstaande voorbeelden grondig.
 
