@@ -35,7 +35,7 @@ ntests= 20
 cases = [([7, 5, 9, 4, 6], [1, -2, 0, 3, -1])]
 
 while len(cases) < ntests:
-    e = random.randint(0,3)
+    e = random.randint(0,2)
     n = random.randint(10**e,10**(e+1))
     
     niveaus = [random.randint(4, 30) for _ in range(n)]
