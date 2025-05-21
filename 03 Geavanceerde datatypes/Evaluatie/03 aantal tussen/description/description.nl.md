@@ -1,6 +1,6 @@
 ## Opgave
 
-Programmeer een functie `aantal_tussen(lijst, a, b)`, dat het aantal getallen in de lijst telt die tot het interval [a,b] behoren. Met andere woorden, tussen a en b (grenzen inbegrepen). Je mag ervan uitgaan dat a steeds kleiner (of gelijk) aan b is.
+Programmeer een functie `aantal_tussen(lijst, a, b)`, dat het aantal getallen in de lijst telt die tot het interval [a,b] behoren. Met andere woorden, tussen a en b (grenzen inbegrepen) met a ⩽ b.
 
 #### Voorbeelden
 
