@@ -2,9 +2,9 @@
 
 Gegeven een `lijst` met getallen:
 
-- Schrijf een functie `linkersom(lijst)` die een nieuwe lijst retourneert, met op elke plaats de som van alle getallen links van die plaats.
+- Schrijf een functie `linkersom(lijst)` die een nieuwe lijst retourneert, met op elke plaats de som van alle getallen links van die plaats. Staan er links geen getallen, neem dan `0`.
 
-- Schrijf een functie `rechtersom(lijst)` die een nieuwe lijst retourneert, met op elke plaats de som van alle getallen rechts van die plaats.
+- Schrijf een functie `rechtersom(lijst)` die een nieuwe lijst retourneert, met op elke plaats de som van alle getallen rechts van die plaats. Staan er rechts geen getallen, neem dan `0`.
 
 - Schrijf tot slot een functie `links_rechts_verschil(lijst)` die een nieuwe lijst retourneert met op elke plaats de absolute waarde van het verschil tussen de linker- en rechtersom.
 
