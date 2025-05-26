@@ -13,6 +13,6 @@ Schrijf een functie `som_van_drie(lijst)` die ons alle mogelijke opties van 3 ge
 ```
 
 ```python
->>> som_van_drie(1, 2, 3, 4, 5, -9, -9)
+>>> som_van_drie([1, 2, 3, 4, 5, -9, -9])
 [(3, 4, 5), (3, 4, 6)]
 ```
