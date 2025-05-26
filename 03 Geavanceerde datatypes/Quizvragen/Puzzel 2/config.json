@@ -1,0 +1,21 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "description": {
+    "names": {
+      "nl": "Puzzel 2"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "for-lus",
+    "begrensde herhaling",
+    "ASCII patroon"
+  ],
+  "access": "public",
+  "internals": {
+  }
+}
