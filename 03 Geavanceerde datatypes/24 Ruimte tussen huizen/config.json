@@ -1,0 +1,20 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "description": {
+    "names": {
+      "nl": "Vrije ruimte tussen huizen"
+    }
+  },
+  "labels": [
+    "lijsten",
+    "functies",
+    "begrensde herhaling",
+    "for-lus"
+  ],
+  "access": "public"
+}
