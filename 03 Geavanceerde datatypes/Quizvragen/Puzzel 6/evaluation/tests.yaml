@@ -1,0 +1,86 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: winnaar(['forgetful', 'number', 'less', 'utter', 'end', 'red', 'extend', 'early', 'treat', 'charge', 'psychedelic'])
+      return:
+      - number
+      - less
+      - extend
+      - charge
+  - testcases:
+    - expression: winnaar(['station', 'futuristic', 'pull', 'scream', 'undesirable', 'gleaming', 'attractive', 'torpid', 'inhale', 'tasteful'])
+      return:
+      - futuristic
+      - pull
+      - scream
+      - gleaming
+      - attractive
+      - torpid
+      - inhale
+      - tasteful
+  - testcases:
+    - expression: winnaar(['farm', 'pink', 'observe', 'step', 'flop', 'propose', 'kiss', 'damp', 'plead', 'infuse'])
+      return:
+      - farm
+      - pink
+      - step
+      - flop
+      - kiss
+      - damp
+      - infuse
+  - testcases:
+    - expression: winnaar(['note', 'speed', 'yard', 'vulgar', 'obscene', 'disobey', 'cent', 'abashed', 'electric', 'willing'])
+      return:
+      - note
+      - yard
+      - vulgar
+      - cent
+      - electric
+  - testcases:
+    - expression: winnaar(['powerful', 'event', 'disappear', 'soap', 'eggnog', 'scowl', 'lie', 'ordinary', 'fill', 'volatile'])
+      return:
+      - powerful
+      - soap
+      - eggnog
+      - ordinary
+      - fill
+      - volatile
+  - testcases:
+    - expression: winnaar(['innate', 'key', 'match', 'rend', 'tiresome', 'endorse', 'spray', 'stupid', 'gainful', 'even'])
+      return:
+      - innate
+      - rend
+      - tiresome
+      - stupid
+      - even
+  - testcases:
+    - expression: winnaar(['reaction', 'test', 'incise', 'convene', 'brush', 'therapeutic', 'vacuous', 'acoustic', 'shoe', 'glove'])
+      return:
+      - reaction
+      - test
+      - incise
+      - acoustic
+      - shoe
+  - testcases:
+    - expression: winnaar(['sap', 'bath', 'nail', 'bright', 'juicy', 'dry', 'immerse', 'bow', 'foretell', 'woozy'])
+      return:
+      - bath
+      - nail
+      - bright
+      - foretell
+  - testcases:
+    - expression: winnaar(['cleave', 'dirt', 'meet', 'sail', 'stretch', 'limp', 'map', 'righteous', 'signify', 'leg'])
+      return:
+      - cleave
+      - dirt
+      - meet
+      - sail
+      - limp
+  - testcases:
+    - expression: winnaar(['sad', 'bash', 'sass', 'slim', 'selection', 'library', 'hard-to-find', 'partner', 'fit', 'abortive'])
+      return:
+      - bash
+      - sass
+      - slim
+      - hard-to-find
+      - abortive
