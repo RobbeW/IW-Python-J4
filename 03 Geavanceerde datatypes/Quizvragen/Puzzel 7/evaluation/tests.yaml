@@ -5,28 +5,28 @@
       return: 1
   - testcases:
     - expression: trappen_lopen(2)
-      return: 1
-  - testcases:
-    - expression: trappen_lopen(3)
       return: 2
   - testcases:
-    - expression: trappen_lopen(4)
+    - expression: trappen_lopen(3)
       return: 3
   - testcases:
-    - expression: trappen_lopen(5)
+    - expression: trappen_lopen(4)
       return: 5
   - testcases:
-    - expression: trappen_lopen(6)
+    - expression: trappen_lopen(5)
       return: 8
   - testcases:
-    - expression: trappen_lopen(7)
+    - expression: trappen_lopen(6)
       return: 13
   - testcases:
-    - expression: trappen_lopen(8)
+    - expression: trappen_lopen(7)
       return: 21
   - testcases:
-    - expression: trappen_lopen(9)
+    - expression: trappen_lopen(8)
       return: 34
   - testcases:
-    - expression: trappen_lopen(10)
+    - expression: trappen_lopen(9)
       return: 55
+  - testcases:
+    - expression: trappen_lopen(10)
+      return: 89
