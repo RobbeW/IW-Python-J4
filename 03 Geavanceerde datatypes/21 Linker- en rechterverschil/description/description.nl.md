@@ -6,7 +6,7 @@ Gegeven een `lijst` met getallen:
 
 - Schrijf een functie `rechtersom(lijst)` die een nieuwe lijst retourneert, met op elke plaats de som van alle getallen rechts van die plaats.
 
-- Schrijft to slot een functie `links_rechts_verschil(lijst)` die een nieuwe lijst retourneert met op elke plaats de absolute waarde van het verschil tussen de linker- en rechtersom.
+- Schrijf tot slot een functie `links_rechts_verschil(lijst)` die een nieuwe lijst retourneert met op elke plaats de absolute waarde van het verschil tussen de linker- en rechtersom.
 
 Bestudeer onderstaande voorbeelden grondig.
 
