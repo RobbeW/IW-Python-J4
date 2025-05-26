@@ -10,10 +10,10 @@
       "nl": "Puzzel 1"
     }
   },
-  "labels": [
-  ],
+  "labels": [],
   "access": "public",
   "internals": {
-
+    "token": "q9xZmmFAmS6_y6Fcfub8uh8wtSpCC66VIwdFxaa8u-Dg7QvEwM47ndMMS-JSC-8X",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
   }
 }
