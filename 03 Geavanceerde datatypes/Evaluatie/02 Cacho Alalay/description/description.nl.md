@@ -13,27 +13,27 @@ Programmeer een functie `escala(worpen)` die gegeven een tupel `worpen` met de v
 #### Voorbeelden
 
 ```python
->>> escala((1, 2, 3, 4, 5))
+>>> escala([1, 2, 3, 4, 5])
 True
 ```
 
 ```python
->>> escala((2, 3, 4, 5, 6))
+>>> escala([2, 3, 4, 5, 6])
 True
 ```
 
 ```python
->>> escala((1, 4, 4, 4, 5))
+>>> escala([1, 4, 4, 4, 5])
 False
 ```
 
 ```python
->>> escala((1, 3, 4, 5, 6))
+>>> escala([1, 3, 4, 5, 6])
 False
 ```
 
 ```python
->>> escala((1, 2, 2, 3, 6))
+>>> escala([1, 2, 2, 3, 6])
 False
 ```
 

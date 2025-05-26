@@ -32,14 +32,25 @@ spec.loader.exec_module(module)
 
 # generate test data
 ntests= 20
-cases = [ [1,2,3,4,5], [2,3,4,5,6], [1,4,4,4,5], [1,3,4,5,6], [1, 2, 2, 3, 6] ]
+cases = [([-2, 0, 1, 3, 5, 2, 4], 0, 3),
+         ([-2, 0, 1, 3, 5, 2, 4], -5, -3),
+         ([-2, 0, 1, 3, 5, 2, 4], 0, 0)]
+
 while len(cases) < ntests:
-    worp = [random.randint(1,6)]
-    for i in range(4):
-        a = random.randint(worp[i], 6)
-        worp.append(a)
-    if worp not in cases:
-        cases.append(worp)
+    e = random.randint(0,3)
+    n = random.randint(10**e,10**(e+1))
+    
+    lijst = [random.randint(-50, 50) for _ in range(n)]
+    
+    a = random.randint(-50,50)
+    b = random.randint(-50,50)
+    
+    test = (lijst, min(a, b), max(a,b))
+    
+    if test not in cases:
+        cases.append(test)
+
+cases = sorted(cases, key = lambda x : len(x[0]))
 
 # generate unit tests for functions
 yamldata = []
@@ -55,8 +66,8 @@ for i in range(len(cases)):
         
     # generate test expression
     #
-    expression_name = f"escala({test})"
-    result = module.escala(test)
+    expression_name = f"aantal_tussen({test[0]}, {test[1]}, {test[2]})"
+    result = module.aantal_tussen(test[0], test[1], test[2])
 
     print(result)
     # setup for return expressions

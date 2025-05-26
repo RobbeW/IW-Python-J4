@@ -1,0 +1,22 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "description": {
+    "names": {
+      "nl": "Hoogtemeters"
+    }
+  },
+  "labels": [
+    "lijsten",
+    "functies"
+  ],
+  "access": "public",
+  "internals": {
+    "token": "Hmiqm-Cy2k5FDGJVYSEz-7nv_uT84CSERbUBeXgu5G2StVYx_FHz3iEBMs9YmqNR",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

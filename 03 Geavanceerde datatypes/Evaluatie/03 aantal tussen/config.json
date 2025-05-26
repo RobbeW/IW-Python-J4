@@ -1,0 +1,25 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "description": {
+    "names": {
+      "nl": "Aantal tussen"
+    }
+  },
+  "labels": [
+    "evaluatie",
+    "lijsten",
+    "functies",
+    "begrensde herhaling",
+    "for-lus"
+  ],
+  "access": "public",
+  "internals": {
+    "token": "cevUWg6PEiycb8ejqMmz66JIMm7wjzmRNeSrSZ_wPDsnH97dDVd_-I2JzTHY_sG-",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}

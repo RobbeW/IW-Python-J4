@@ -32,19 +32,29 @@ spec.loader.exec_module(module)
 
 # generate test data
 ntests= 20
-cases = [ [1,2,3,4,5], [2,3,4,5,6], [1,4,4,4,5], [1,3,4,5,6], [1, 2, 2, 3, 6] ]
+cases = [[-1, 5, 0, -3, 5],
+         [0, 0, 0, 0]]
+
+
 while len(cases) < ntests:
-    worp = [random.randint(1,6)]
-    for i in range(4):
-        a = random.randint(worp[i], 6)
-        worp.append(a)
-    if worp not in cases:
-        cases.append(worp)
+    e = random.randint(0,3)
+    n = random.randint(10**e, 10**(e+1))
+    lijst = [random.randint(-50, 50) for _ in range(n)]
+    
+    case = lijst
+    
+    if case not in cases:
+        cases.append(case)
+
+cases = sorted(cases, key = lambda x : len(x))
 
 # generate unit tests for functions
 yamldata = []
 
-# new tab
+# input, expression, statement or stdin?
+input = 'stdin'
+# output, stdout or return?
+output = 'stdout'
 tabtitle = "Feedback"
 
 yamldata.append( {'tab': tabtitle, 'contexts': []})
@@ -55,9 +65,9 @@ for i in range(len(cases)):
         
     # generate test expression
     #
-    expression_name = f"escala({test})"
-    result = module.escala(test)
-
+    expression_name = f"aantal_negatieve({test})"
+    result = module.aantal_negatieve(test)
+    
     print(result)
     # setup for return expressions
     testcase = { "expression": expression_name, "return": result }
