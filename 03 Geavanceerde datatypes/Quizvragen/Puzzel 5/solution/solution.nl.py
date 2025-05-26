@@ -14,7 +14,7 @@ def slaapplaats(lijst):
         hoogste = teller
 
     # Controleer in het midden
-    for i in range(teller, len(lijst)):
+    for i in range(len(lijst)):
         if lijst[i] == "X":
             if teller > hoogste:
                 hoogste = teller
