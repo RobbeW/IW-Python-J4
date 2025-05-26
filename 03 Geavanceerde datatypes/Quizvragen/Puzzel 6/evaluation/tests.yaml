@@ -1,14 +1,14 @@
 - tab: Feedback
   contexts:
   - testcases:
-    - expression: winnaar(['forgetful', 'number', 'less', 'utter', 'end', 'red', 'extend', 'early', 'treat', 'charge', 'psychedelic'])
+    - expression: even_strings(['forgetful', 'number', 'less', 'utter', 'end', 'red', 'extend', 'early', 'treat', 'charge', 'psychedelic'])
       return:
       - number
       - less
       - extend
       - charge
   - testcases:
-    - expression: winnaar(['station', 'futuristic', 'pull', 'scream', 'undesirable', 'gleaming', 'attractive', 'torpid', 'inhale', 'tasteful'])
+    - expression: even_strings(['station', 'futuristic', 'pull', 'scream', 'undesirable', 'gleaming', 'attractive', 'torpid', 'inhale', 'tasteful'])
       return:
       - futuristic
       - pull
@@ -19,7 +19,7 @@
       - inhale
       - tasteful
   - testcases:
-    - expression: winnaar(['farm', 'pink', 'observe', 'step', 'flop', 'propose', 'kiss', 'damp', 'plead', 'infuse'])
+    - expression: even_strings(['farm', 'pink', 'observe', 'step', 'flop', 'propose', 'kiss', 'damp', 'plead', 'infuse'])
       return:
       - farm
       - pink
@@ -29,7 +29,7 @@
       - damp
       - infuse
   - testcases:
-    - expression: winnaar(['note', 'speed', 'yard', 'vulgar', 'obscene', 'disobey', 'cent', 'abashed', 'electric', 'willing'])
+    - expression: even_strings(['note', 'speed', 'yard', 'vulgar', 'obscene', 'disobey', 'cent', 'abashed', 'electric', 'willing'])
       return:
       - note
       - yard
@@ -37,7 +37,7 @@
       - cent
       - electric
   - testcases:
-    - expression: winnaar(['powerful', 'event', 'disappear', 'soap', 'eggnog', 'scowl', 'lie', 'ordinary', 'fill', 'volatile'])
+    - expression: even_strings(['powerful', 'event', 'disappear', 'soap', 'eggnog', 'scowl', 'lie', 'ordinary', 'fill', 'volatile'])
       return:
       - powerful
       - soap
@@ -46,7 +46,7 @@
       - fill
       - volatile
   - testcases:
-    - expression: winnaar(['innate', 'key', 'match', 'rend', 'tiresome', 'endorse', 'spray', 'stupid', 'gainful', 'even'])
+    - expression: even_strings(['innate', 'key', 'match', 'rend', 'tiresome', 'endorse', 'spray', 'stupid', 'gainful', 'even'])
       return:
       - innate
       - rend
@@ -54,7 +54,7 @@
       - stupid
       - even
   - testcases:
-    - expression: winnaar(['reaction', 'test', 'incise', 'convene', 'brush', 'therapeutic', 'vacuous', 'acoustic', 'shoe', 'glove'])
+    - expression: even_strings(['reaction', 'test', 'incise', 'convene', 'brush', 'therapeutic', 'vacuous', 'acoustic', 'shoe', 'glove'])
       return:
       - reaction
       - test
@@ -62,14 +62,14 @@
       - acoustic
       - shoe
   - testcases:
-    - expression: winnaar(['sap', 'bath', 'nail', 'bright', 'juicy', 'dry', 'immerse', 'bow', 'foretell', 'woozy'])
+    - expression: even_strings(['sap', 'bath', 'nail', 'bright', 'juicy', 'dry', 'immerse', 'bow', 'foretell', 'woozy'])
       return:
       - bath
       - nail
       - bright
       - foretell
   - testcases:
-    - expression: winnaar(['cleave', 'dirt', 'meet', 'sail', 'stretch', 'limp', 'map', 'righteous', 'signify', 'leg'])
+    - expression: even_strings(['cleave', 'dirt', 'meet', 'sail', 'stretch', 'limp', 'map', 'righteous', 'signify', 'leg'])
       return:
       - cleave
       - dirt
@@ -77,7 +77,7 @@
       - sail
       - limp
   - testcases:
-    - expression: winnaar(['sad', 'bash', 'sass', 'slim', 'selection', 'library', 'hard-to-find', 'partner', 'fit', 'abortive'])
+    - expression: even_strings(['sad', 'bash', 'sass', 'slim', 'selection', 'library', 'hard-to-find', 'partner', 'fit', 'abortive'])
       return:
       - bash
       - sass
