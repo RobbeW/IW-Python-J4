@@ -1,4 +1,4 @@
-def winnaar(lijst):
+def winnaar(list):
     Owon = False
     Xwon = False
     if list[0][0] == "O" and list[0][1] == "O" and list[0][2] == "O" or list[1][0] == "O" and list[1][1] == "O" and list[1][2] == "O" or list[2][0] == "O" and list[2][1] == "O" and list[2][2] == "O" or list[0][0] == "O" and list[1][0] == "O" and list[2][0] == "O" or list[0][1] == "O" and list[1][1] == "O" and list[2][1] == "O" or list[0][2] == "O" and list[1][2] == "O" and list[2][2] == "O" or list[0][0] == "O" and list[1][1] == "O" and list[2][2] == "O" or list[0][2] == "O" and list[1][1] == "O" and list[2][0] == "O":
