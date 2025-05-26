@@ -1,0 +1,18 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "description": {
+    "names": {
+      "nl": "Draai om"
+    }
+  },
+  "labels": [
+    "lijsten",
+    "functies"
+  ],
+  "access": "public"
+}
