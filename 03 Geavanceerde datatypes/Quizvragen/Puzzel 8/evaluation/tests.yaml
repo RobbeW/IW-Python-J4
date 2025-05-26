@@ -1,0 +1,63 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: aantal_cijfers(1)
+      return: 1
+  - testcases:
+    - expression: aantal_cijfers(40)
+      return: 2
+  - testcases:
+    - expression: aantal_cijfers(38)
+      return: 2
+  - testcases:
+    - expression: aantal_cijfers(48)
+      return: 2
+  - testcases:
+    - expression: aantal_cijfers(438)
+      return: 3
+  - testcases:
+    - expression: aantal_cijfers(2234)
+      return: 4
+  - testcases:
+    - expression: aantal_cijfers(3804)
+      return: 4
+  - testcases:
+    - expression: aantal_cijfers(5684)
+      return: 4
+  - testcases:
+    - expression: aantal_cijfers(2082)
+      return: 4
+  - testcases:
+    - expression: aantal_cijfers(13803)
+      return: 5
+  - testcases:
+    - expression: aantal_cijfers(2609)
+      return: 4
+  - testcases:
+    - expression: aantal_cijfers(20215)
+      return: 5
+  - testcases:
+    - expression: aantal_cijfers(12473)
+      return: 5
+  - testcases:
+    - expression: aantal_cijfers(21225)
+      return: 5
+  - testcases:
+    - expression: aantal_cijfers(20585)
+      return: 5
+  - testcases:
+    - expression: aantal_cijfers(53676)
+      return: 5
+  - testcases:
+    - expression: aantal_cijfers(3771)
+      return: 4
+  - testcases:
+    - expression: aantal_cijfers(70404)
+      return: 5
+  - testcases:
+    - expression: aantal_cijfers(143420)
+      return: 6
+  - testcases:
+    - expression: aantal_cijfers(93129)
+      return: 5
+ 
