@@ -1,0 +1,63 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - expression: winnaar([['O', 'O', 'X'], ['X', 'O', 'X'], ['O', 'O', 'X']])
+      return: Draw
+  - testcases:
+    - expression: winnaar([['O', 'X', 'X'], ['O', 'O', 'O'], ['O', 'O', 'X']])
+      return: O
+  - testcases:
+    - expression: winnaar([['X', 'O', 'X'], ['X', 'O', 'X'], ['O', 'X', 'O']])
+      return: Draw
+  - testcases:
+    - expression: winnaar([['O', 'X', 'X'], ['O', 'O', 'X'], ['O', 'X', 'O']])
+      return: O
+  - testcases:
+    - expression: winnaar([['O', 'X', 'O'], ['X', 'O', 'X'], ['X', 'O', 'O']])
+      return: O
+  - testcases:
+    - expression: winnaar([['X', 'O', 'X'], ['X', 'O', 'X'], ['X', 'O', 'O']])
+      return: Draw
+  - testcases:
+    - expression: winnaar([['O', 'O', 'O'], ['X', 'O', 'X'], ['O', 'X', 'X']])
+      return: O
+  - testcases:
+    - expression: winnaar([['X', 'O', 'O'], ['X', 'X', 'X'], ['X', 'X', 'X']])
+      return: X
+  - testcases:
+    - expression: winnaar([['X', 'O', 'X'], ['O', 'X', 'X'], ['O', 'O', 'O']])
+      return: O
+  - testcases:
+    - expression: winnaar([['O', 'O', 'X'], ['O', 'O', 'X'], ['X', 'O', 'X']])
+      return: Draw
+  - testcases:
+    - expression: winnaar([['O', 'O', 'X'], ['X', 'O', 'X'], ['O', 'O', 'O']])
+      return: O
+  - testcases:
+    - expression: winnaar([['X', 'O', 'X'], ['X', 'O', 'X'], ['O', 'X', 'O']])
+      return: Draw
+  - testcases:
+    - expression: winnaar([['O', 'O', 'O'], ['O', 'X', 'X'], ['O', 'O', 'O']])
+      return: O
+  - testcases:
+    - expression: winnaar([['X', 'O', 'O'], ['O', 'O', 'X'], ['O', 'O', 'O']])
+      return: O
+  - testcases:
+    - expression: winnaar([['O', 'X', 'O'], ['O', 'X', 'O'], ['X', 'X', 'X']])
+      return: X
+  - testcases:
+    - expression: winnaar([['X', 'O', 'O'], ['O', 'O', 'X'], ['O', 'X', 'X']])
+      return: O
+  - testcases:
+    - expression: winnaar([['X', 'X', 'O'], ['O', 'X', 'O'], ['X', 'O', 'X']])
+      return: X
+  - testcases:
+    - expression: winnaar([['X', 'X', 'O'], ['X', 'X', 'X'], ['X', 'O', 'O']])
+      return: X
+  - testcases:
+    - expression: winnaar([['O', 'X', 'X'], ['X', 'X', 'X'], ['O', 'O', 'O']])
+      return: Draw
+  - testcases:
+    - expression: winnaar([['X', 'O', 'O'], ['X', 'O', 'X'], ['O', 'X', 'X']])
+      return: O
+ 

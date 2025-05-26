@@ -1,0 +1,19 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "description": {
+    "names": {
+      "nl": "Puzzel 5"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "for-lus"
+  ],
+  "access": "public",
+  "internals": {
+  }
+}
