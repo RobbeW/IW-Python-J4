@@ -1,3 +1,5 @@
+![Uno Reverse.](media/uno.gif "Uno Reverse."){:data-caption="Uno Reverse." height="200px"}
+
 ## Opgave
 
 Gegeven een `lijst` met getallen, schrijf een functie `draai_om(lijst)` die een nieuwe lijst retourneert met de elementen van de `lijst`, maar in omgekeerde volgorde.
