@@ -1,0 +1,29 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "evaluation": {
+    "time_limit": 5,
+    "memory_limit": 500000000,
+    "handler": "tested",
+    "test_suite": "tests.yaml",
+    "options": {
+      "mode": "context"
+    }
+  },
+  "description": {
+    "names": {
+      "nl": "Cumulatieve lijst omgekeerd"
+    }
+  },
+  "labels": [
+    "lijsten",
+    "functies",
+    "begrensde herhaling",
+    "for-lus"
+  ],
+  "access": "public",
+  "internals": {
+    "token": "XTWdTVFcjTNGkz3eAMQye_mia256sYNuuwIbWWYxES5kD4vZjrMaJEXZcApxvRYW",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
+}
