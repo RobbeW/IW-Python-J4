@@ -2,7 +2,7 @@ Beschouw deze lijst met blauwe en rode ballen: `["🔴", "🔵", "🔵", "🔴",
 
 Door van elk getal in deze lijst de rest te nemen bij deling door 2 bekomt men `[1, 1, 0, 1, 1, 1]`.
 
-Stel nu dat men zo'n lijst men `0` en `1` waarden krijgt, kan je dan zo'n oorspronkelijke ballenrij opstellen?
+Stel nu dat men zo'n lijst met `0` en `1` waarden krijgt, kan je dan zo'n oorspronkelijke ballenrij opstellen?
 
 ## Opgave
 
