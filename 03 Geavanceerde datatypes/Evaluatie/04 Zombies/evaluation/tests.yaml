@@ -132,6 +132,7 @@
     - expression: infectie([3])
       return:
       - 3
+      - 3
   - testcases:
     - expression: infectie([6, 10])
       return:
