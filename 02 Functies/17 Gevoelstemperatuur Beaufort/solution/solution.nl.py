@@ -25,5 +25,5 @@ if eenheid == "B":
 else:
     G = gevoelstemperatuur(T, W)
 
-print()
+
 print("De temperatuur voelt aan als", G, "°C.")
