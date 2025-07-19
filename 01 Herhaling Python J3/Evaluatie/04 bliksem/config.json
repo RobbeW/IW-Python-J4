@@ -11,7 +11,7 @@
     "test_suite": "tests.yaml"
   },
   "labels": [
-    "evaluatie"
+    "evaluatie", "python", "Robbe Wulgaert", "Dieter Vanderfaeillie", "Python in de Klas" 
   ],
   "access": "public",
   "internals": {
