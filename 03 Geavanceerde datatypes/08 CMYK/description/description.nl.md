@@ -21,7 +21,7 @@ Schrijf daarna een tweede functie `cmyk_to_rgb(kleurcode)` die gegeven een **CMY
 <div class="dodona-centered-group">
     <span style="color:#FF0000">R</span> = 255 · (1 - <span style="color:#00C5C0">C</span>) · (1 - K) <br/>
     <span style="color:#00FF00">G</span> = 255 · (1 - <span style="color:#FD01FD">M</span>) · (1 - K) <br/>
-    <span style="color:#0000FF">B</span> = 255 · (1 - <span style="color:#F1EB01">K</span>) · (1 - K)
+    <span style="color:#0000FF">B</span> = 255 · (1 - <span style="color:#F1EB01">Y</span>) · (1 - K)
 </div>
 
 #### Voorbeeld
