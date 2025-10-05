@@ -11,4 +11,4 @@ min = ( min1 + minuten + pauzes * 20 ) % 60
 uur = ( uur1 + ( min1 + minuten + pauzes * 20 ) // 60 ) % 24
 
 # Uitvoer
-print( "De vergadering eindigt om ", str(uur)+"."+str(min), "u." )
+print( "De vergadering eindigt om", str(uur)+"."+str(min), "u." )
