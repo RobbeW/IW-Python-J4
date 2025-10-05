@@ -9,7 +9,7 @@ Vervolgens vraagt het programma naar het aantal minuten dat de vergadering in be
 Bereken vervolgens het tijdstip waarop de vergadering eindigt en geef dit weer in een verzorgde zin.
 
 #### Voorbeeld
-Indien een vergadering start om 14.30 u. en 120 minuten in beslag zal nemen, met 2 pauzes, dan verschijnt er:
+Indien een vergadering start om `14`.`30` u. en `120` minuten in beslag zal nemen, met `2` pauzes, dan verschijnt er:
 
 ```
 De vergadering eindigt om 17.10 u.
