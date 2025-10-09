@@ -10,17 +10,17 @@ Vraag de gebruiker vervolgens **hoeveel uren** (als **kommagetal**) de klok voor
 **Bereken** vervolgens de tijd in de andere tijdzone en geeft dit weer op het scherm.
 
 #### Voorbeelden
-Indien de tijd in de huidige tijdzone 8.20 u. is en er moet anderhalf uur (1,5 uur) bijgeteld worden, dan resulteert dit in:
+Indien de tijd in de huidige tijdzone `8`.`20` u. is en er moet anderhalf uur (`1.5` uur) bijgeteld worden, dan resulteert dit in:
 ```
 Het is 9 uur en 50 minuten in de andere tijdzone.
 ```
 
-Indien de tijd in de huidige tijdzone 23.45 u. is en er moet 2 uur bijgeteld worden, dan resulteert dit in:
+Indien de tijd in de huidige tijdzone `23`.`45` u. is en er moet `2` uur bijgeteld worden, dan resulteert dit in:
 ```
 Het is 1 uur en 45 minuten in de andere tijdzone.
 ```
 
-Indien de tijd in de huidige tijdzone 7.10 u. is en er moet een uur en een kwart (-1,25 uur) afgetrokken worden, dan resulteert dit in:
+Indien de tijd in de huidige tijdzone `7`.`10` u. is en er moet een uur en een kwart (`-1.25` uur) afgetrokken worden, dan resulteert dit in:
 ```
 Het is 5 uur en 55 minuten in de andere tijdzone.
 ```
