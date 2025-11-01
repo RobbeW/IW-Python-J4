@@ -18,5 +18,8 @@
     "exy sabbe"
   ],
   "access": "public",
-  "internals": {}
+  "internals": {
+    "token": "7jI6qTYusFwKuYGhUbTJPuSnHugDXRYq7Qb8-pbN8qTQt2WE-hedHjVQz-6UwD2x",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
