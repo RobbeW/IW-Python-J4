@@ -1,0 +1,7 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdout: "De discriminant van de veelterm 2x²+6x+5 is -4\n"
+    - expression: discriminant(2, 6, 5)
+      return: -4
+  
