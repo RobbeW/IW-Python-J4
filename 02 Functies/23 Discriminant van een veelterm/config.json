@@ -11,7 +11,11 @@
     "test_suite": "tests.yaml"
   },
   "labels": [
-    "selectie"
+    "functies",
+    "python",
+    "robbe wulgaert",
+    "python in de klas",
+    "exy sabbe"
   ],
   "access": "public",
   "internals": {}
