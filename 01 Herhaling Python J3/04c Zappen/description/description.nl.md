@@ -10,12 +10,12 @@ Schrijf een programma dat het huidige kanaalnummer van Garfield vraagt, daarna v
 
 
 #### Voorbeelden
-Als Garfield op knaal `15` zat en daarna in het totaal `21` keer op de △-knop drukte, dan verschijnt er:
+Als Garfield op kanaal `15` zat en daarna in het totaal `21` keer op de △-knop drukte, dan verschijnt er:
 ```
 Nieuwe kanaalnummer: 36
 ```
 
-Als Garfield op knaal `81` zat en daarna in het totaal `53` keer op de △-knop drukte, dan verschijnt er:
+Als Garfield op kanaal `81` zat en daarna in het totaal `53` keer op de △-knop drukte, dan verschijnt er:
 ```
 Nieuwe kanaalnummer: 34
 ```
