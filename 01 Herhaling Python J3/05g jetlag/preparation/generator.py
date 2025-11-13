@@ -32,8 +32,8 @@ module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 
 # generate test data
-ntests= 20
-cases = [(7,4,7,19),(10,7,23,21),]
+ntests= 25
+cases = [(7,4,7,19),(10,7,23,21),(5,3,0,0), (7,3,5,0)]
 while len(cases) < ntests:
     vertrek = random.randint(0,23)
     aankomst = random.randint(0,23)
