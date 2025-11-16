@@ -6,7 +6,9 @@ Ze wil echter het antwoord van de leerlingen snel kunnen controleren zonder het 
 
 ## Opgave
 
-Help juf Gerda om een programma te maken dat aan de gebruiker drie getallen (groter dan 0) vraagt en controleert of de eerste twee op een bepaalde manier het derde getal kan maken via de optelling, aftrekking, vermenigvuldiging of deling. Je mag echter slechts één enkele bewerking gebruiken.
+Help juf Gerda om een programma te maken dat aan de gebruiker drie getallen (groter dan 0) vraagt en controleert of de eerste twee op een bepaalde manier het derde getal kan maken via de optelling, aftrekking, vermenigvuldiging of deling.
+
+Programmeer dit met één **tweezijdige** selectie. 
 
 ##### Voorbeelden
 
