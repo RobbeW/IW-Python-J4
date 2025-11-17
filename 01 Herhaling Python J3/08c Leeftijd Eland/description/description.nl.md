@@ -12,17 +12,17 @@ Gegeven het aantal hoorns aan de linker- en rechterkant, bepaal dan het **aantal
 
 #### Voorbeelden
 
-Indien de eland links 2 en rechte 3 hoorns heeft, dan verschijnt er:
+Indien de eland links 2 en rechts 3 hoorns heeft, dan verschijnt er:
 ```
 6 oneven
 ```
 
-Indien de eland links 3 en rechte 3 hoorns heeft, dan verschijnt er:
+Indien de eland links 3 en rechts 3 hoorns heeft, dan verschijnt er:
 ```
 6 even
 ```
 
-Indien de eland links 0 en rechte 0 hoorns heeft, dan verschijnt er:
+Indien de eland links 0 en rechts 0 hoorns heeft, dan verschijnt er:
 ```
 Geen eland
 ```
