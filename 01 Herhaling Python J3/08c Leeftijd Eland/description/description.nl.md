@@ -1,4 +1,4 @@
-Om de leeftijd van een mannelijke eland te bepalen kan het aantal hoorns van het gewei gebruiken. Een oudere eland heeft meer hoorns dan een jonger exemplaar. Gewoon het aantal hoorns tellen kan echter misleidend zijn, soms kunnen ze immers afbreken zoals door gevechten met andere elanden.
+Om de leeftijd van een mannelijke eland te bepalen kan men het aantal hoorns van het gewei gebruiken. Een oudere eland heeft meer hoorns dan een jonger exemplaar. Gewoon het aantal hoorns tellen kan echter misleidend zijn, soms kunnen ze immers afbreken zoals door gevechten met andere elanden.
 
 ![Foto door Pixabay op Pexels.](media/pixabay.jpg "Foto door Pixabay op Pexels."){:data-caption="Foto door Pixabay op Pexels." width="45%"}
 
