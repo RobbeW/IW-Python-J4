@@ -11,8 +11,15 @@
     }
   },
   "labels": [
-    "functies", "python", "Robbe Wulgaert", "Exy Sabbe", "Python in de Klas" 
+    "functies",
+    "python",
+    "Robbe Wulgaert",
+    "Exy Sabbe",
+    "Python in de Klas"
   ],
   "access": "public",
-  "internals": {}
+  "internals": {
+    "token": "86fqrTbbfbscG256yFuWzn55DRQKhMsdNdhQUJ3R5ex_2PQdV4DY9NrNihzRvMjt",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
