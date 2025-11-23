@@ -1,4 +1,4 @@
-Om de leeftijd van een mannelijke eland te bepalen kan het aantal hoorns van het gewei gebruiken. Een oudere eland heeft meer hoorns dan een jonger exemplaar. Gewoon het aantal hoorns tellen kan echter misleidend zijn, soms kunnen ze immers afbreken zoals door gevechten met andere elanden.
+Om de leeftijd van een mannelijke eland te bepalen kan men het aantal hoorns van het gewei gebruiken. Een oudere eland heeft meer hoorns dan een jonger exemplaar. Gewoon het aantal hoorns tellen kan echter misleidend zijn, soms kunnen ze immers afbreken zoals door gevechten met andere elanden.
 
 ![Foto door Pixabay op Pexels.](media/pixabay.jpg "Foto door Pixabay op Pexels."){:data-caption="Foto door Pixabay op Pexels." width="45%"}
 
@@ -12,17 +12,17 @@ Gegeven het aantal hoorns aan de linker- en rechterkant, bepaal dan het **aantal
 
 #### Voorbeelden
 
-Indien de eland links 2 en rechte 3 hoorns heeft, dan verschijnt er:
+Indien de eland links `2` en rechts `3` hoorns heeft, dan verschijnt er:
 ```
 6 oneven
 ```
 
-Indien de eland links 3 en rechte 3 hoorns heeft, dan verschijnt er:
+Indien de eland links `3` en rechts `3` hoorns heeft, dan verschijnt er:
 ```
 6 even
 ```
 
-Indien de eland links 0 en rechte 0 hoorns heeft, dan verschijnt er:
+Indien de eland links `0` en rechts `0` hoorns heeft, dan verschijnt er:
 ```
 Geen eland
 ```

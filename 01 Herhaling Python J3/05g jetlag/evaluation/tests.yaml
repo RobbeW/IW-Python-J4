@@ -7,6 +7,12 @@
     - stdin: "10\n7\n23\n21"
       stdout: "Je hebt 1.3 dagen nodig om te herstellen.\n"
   - testcases:
+    - stdin: "5\n3\n0\n0"
+      stdout: "Je hebt 0.75 dagen nodig om te herstellen.\n"
+  - testcases:
+    - stdin: "7\n3\n5\n0"
+      stdout: "Je hebt 0.95 dagen nodig om te herstellen.\n"
+  - testcases:
     - stdin: "1\n9\n8\n19"
       stdout: "Je hebt 1.15 dagen nodig om te herstellen.\n"
   - testcases:
@@ -60,3 +66,12 @@
   - testcases:
     - stdin: "16\n4\n22\n11"
       stdout: "Je hebt 1.6 dagen nodig om te herstellen.\n"
+  - testcases:
+    - stdin: "1\n5\n9\n16"
+      stdout: "Je hebt 0.45 dagen nodig om te herstellen.\n"
+  - testcases:
+    - stdin: "16\n4\n12\n1"
+      stdout: "Je hebt 1.0 dagen nodig om te herstellen.\n"
+  - testcases:
+    - stdin: "9\n6\n12\n10"
+      stdout: "Je hebt 1.15 dagen nodig om te herstellen.\n"
