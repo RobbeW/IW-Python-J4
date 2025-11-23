@@ -5,10 +5,10 @@ Erik gaat naar school in Gent waar ze nogal streng zijn voor leerlingen die per 
 
 ## Opgave
 Het programma vraagt aan de gebruiker hoe vaak hij al te laat op school kwam en geeft op basis hiervan een antwoord: 
-Bij de eerste twee keer, gebeurt er niets. 
-Bij de derde keer krijgt hij de waarschuwing: "Kijk uit! Het is je derde maal te laat. Een volgende keer zal gesanctioneerd worden." 
-Bij de vierde maal: "Jammer maar helaas… Dat zal aanstaande vrijdag strafstudie worden. Volgende keer beter!" 
-Bij elke volgende keer: "Oei, dit wordt wel echt problematisch he. Dit is al je 6e keer te laat. Het is jammer, maar dat is strafstudie VANAVOND."
+- Bij de eerste twee keer, gebeurt er niets. 
+- Bij de derde keer krijgt hij de waarschuwing: "Kijk uit! Het is je derde maal te laat. Een volgende keer zal gesanctioneerd worden." 
+- Bij de vierde maal: "Jammer maar helaas… Dat zal aanstaande vrijdag strafstudie worden. Volgende keer beter!" 
+- Bij elke volgende keer: "Oei, dit wordt wel echt problematisch he. Dit is al je 6e keer te laat. Het is jammer, maar dat is strafstudie VANAVOND."
 
 #### Voorbeelden
 
