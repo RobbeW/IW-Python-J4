@@ -5,33 +5,40 @@
       stdout: Je gaat beter met het vliegtuig, je bespaart dan € 80.0.
     - expression: kostAuto(3100)
       return: 465.0
-    - expression: kostVliegtuig(3000, 100)
+    - expression: kostVliegen(3000, 100)
       return: 385.0
   - testcases:
     - stdin: "200\n20"
       stdout: Je gaat beter met de auto, je bespaart dan € 76.0.
     - expression: kostAuto(420)
       return: 63.0
-    - expression: kostVliegtuig(400, 20)
+    - expression: kostVliegen(400, 20)
       return: 139.0
+  - testcases:
+    - stdin: "20\n20"
+      stdout: Je gaat beter met de auto, je bespaart dan € 97.6.
+    - expression: kostAuto(60)
+      return: 9.0
+    - expression: kostVliegen(40, 20)
+      return: 106.6
   - testcases:
     - stdin: "500\n100"
       stdout: Je gaat beter met de auto, je bespaart dan € 40.0.
     - expression: kostAuto(1100)
       return: 165.0
-    - expression: kostVliegtuig(1000, 100)
+    - expression: kostVliegen(1000, 100)
       return: 205.0
   - testcases:
     - stdin: "750\n40"
       stdout: Je gaat beter met de auto, je bespaart dan € 10.0.
     - expression: kostAuto(1540)
       return: 231.0
-    - expression: kostVliegtuig(1500, 40)
+    - expression: kostVliegen(1500, 40)
       return: 241.0
   - testcases:
     - stdin: "3000\n100"
       stdout: Je gaat beter met het vliegtuig, je bespaart dan € 260.0.
     - expression: kostAuto(6100)
       return: 915.0
-    - expression: kostVliegtuig(6000, 100)
+    - expression: kostVliegen(6000, 100)
       return: 655.0
