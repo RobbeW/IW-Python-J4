@@ -1,0 +1,47 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "15"
+      stdout: Voor 15 flesjes voorziet de brouwer 1 bak en 1 palet.
+  - testcases:
+    - stdin: "23"
+      stdout: Voor 23 flesjes voorziet de brouwer 1 bak en 1 palet.
+  - testcases:
+    - stdin: "24"
+      stdout: Voor 24 flesjes voorziet de brouwer 1 bak en 1 palet.
+  - testcases:
+    - stdin: "25"
+      stdout: Voor 25 flesjes voorziet de brouwer 2 bakken en 1 palet.
+  - testcases:
+    - stdin: "205"
+      stdout: Voor 205 flesjes voorziet de brouwer 9 bakken en 1 palet.
+  - testcases:
+    - stdin: "347"
+      stdout: Voor 347 flesjes voorziet de brouwer 15 bakken en 1 palet.
+  - testcases:
+    - stdin: "828"
+      stdout: Voor 828 flesjes voorziet de brouwer 35 bakken en 1 palet.
+  - testcases:
+    - stdin: "1374"
+      stdout: Voor 1374 flesjes voorziet de brouwer 58 bakken en 1 palet.
+  - testcases:
+    - stdin: "1680"
+      stdout: Voor 1680 flesjes voorziet de brouwer 70 bakken en 1 palet.
+  - testcases:
+    - stdin: "1681"
+      stdout: Voor 1681 flesjes voorziet de brouwer 71 bakken en 2 paletten.
+  - testcases:
+    - stdin: "2579"
+      stdout: Voor 2579 flesjes voorziet de brouwer 108 bakken en 2 paletten.
+  - testcases:
+    - stdin: "3333"
+      stdout: Voor 3333 flesjes voorziet de brouwer 139 bakken en 2 paletten.
+  - testcases:
+    - stdin: "3500"
+      stdout: Voor 3500 flesjes voorziet de brouwer 146 bakken en 3 paletten.
+  - testcases:
+    - stdin: "5040"
+      stdout: Voor 5040 flesjes voorziet de brouwer 210 bakken en 3 paletten.
+  - testcases:
+    - stdin: "6969"
+      stdout: Voor 6969 flesjes voorziet de brouwer 291 bakken en 5 paletten.
