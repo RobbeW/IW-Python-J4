@@ -1,9 +1,9 @@
 ## Gegeven
-Bij Fizzbuzz vertrek je van een willekeurig getal en ga je zo snel mogelijk tot een eindgetal door elk getal hiertussen op te sommen. De moeilijkheid in dit spel is dat je alle veelvouden van 3 vervangt door “FIZZ” en alle veelvouden van 5 door “BUZZ”. 
-Zo zijn de eerste 10 getallen niet gewoon: 
-1, 2, 3, 4, 5, 6, 7, 8, 9 en 10 
-Maar krijg je wel: 
-1, 2, FIZZ, 4, BUZZ, FIZZ, 7, 8, FIZZ en BUZZ. 
+Bij Fizzbuzz vertrek je van een willekeurig getal en ga je zo snel mogelijk tot een eindgetal door elk getal hiertussen op te sommen. De moeilijkheid in dit spel is dat je alle veelvouden van 3 vervangt door `FIZZ` en alle veelvouden van 5 door `BUZZ`.  
+Zo zijn de eerste 10 getallen niet gewoon:  
+1, 2, 3, 4, 5, 6, 7, 8, 9 en 10  
+Maar krijg je wel:  
+1, 2, FIZZ, 4, BUZZ, FIZZ, 7, 8, FIZZ en BUZZ.  
 Elk getal dat een veelvoud van zowel 3 als 5 is, wordt FIZZBUZZ.  
 
 ![Erik tijdens het programmeren.](media/programmeur.jpg "Erik tijdens het programmeren."){:data-caption="Erik tijdens het programmeren." width="45%"}
