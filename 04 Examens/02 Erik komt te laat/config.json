@@ -1,0 +1,18 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "description": {
+    "names": {
+      "nl": "Erik komt te laat"
+    }
+  },
+  "labels": [
+    "functies", "python", "Robbe Wulgaert", "Exy Sabbe", "Python in de Klas" 
+  ],
+  "access": "public",
+  "internals": {}
+}

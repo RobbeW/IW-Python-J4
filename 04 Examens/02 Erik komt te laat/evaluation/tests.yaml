@@ -1,0 +1,35 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "0"
+      stdout: Er zijn geen gevolgen.
+  - testcases:
+    - stdin: "1"
+      stdout: Er zijn geen gevolgen.
+  - testcases:
+    - stdin: "2"
+      stdout: Er zijn geen gevolgen.
+  - testcases:
+    - stdin: "3"
+      stdout: Kijk uit! Het is je derde maal te laat. Een volgende keer zal gesanctioneerd worden.
+  - testcases:
+    - stdin: "4"
+      stdout: Jammer maar helaas… Dat zal aanstaande vrijdag strafstudie worden. Volgende keer beter!
+  - testcases:
+    - stdin: "5"
+      stdout: Oei, dit wordt wel echt problematisch he. Dit is al je 5e keer te laat. Het is jammer, maar dat is strafstudie VANAVOND.
+  - testcases:
+    - stdin: "6"
+      stdout: Oei, dit wordt wel echt problematisch he. Dit is al je 6e keer te laat. Het is jammer, maar dat is strafstudie VANAVOND.
+  - testcases:
+    - stdin: "7"
+      stdout: Oei, dit wordt wel echt problematisch he. Dit is al je 7e keer te laat. Het is jammer, maar dat is strafstudie VANAVOND.
+  - testcases:
+    - stdin: "8"
+      stdout: Oei, dit wordt wel echt problematisch he. Dit is al je 8e keer te laat. Het is jammer, maar dat is strafstudie VANAVOND.
+  - testcases:
+    - stdin: "9"
+      stdout: Oei, dit wordt wel echt problematisch he. Dit is al je 9e keer te laat. Het is jammer, maar dat is strafstudie VANAVOND.
+  - testcases:
+    - stdin: "10"
+      stdout: Oei, dit wordt wel echt problematisch he. Dit is al je 10e keer te laat. Het is jammer, maar dat is strafstudie VANAVOND.
