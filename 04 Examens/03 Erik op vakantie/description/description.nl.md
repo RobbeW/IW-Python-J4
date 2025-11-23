@@ -10,7 +10,7 @@ Schrijf een programma om de ouders te helpen bij dit probleem en op basis van de
 
 Schrijf hiervoor 2 functies:
 - De functie `kostAuto(...)` berekent de kost (in euro) van het rijden met een auto aan 15 cent per gereden kilometer. 
-- De functie `kostVliegen(...)` berekent de totaalprijs van de vliegvakantie op basis van de vlucht (€30 **per persoon** per 1000 kilometer), de huurprijs van de auto (€100 startprijs) en de gereden afstand met deze auto.
+- De functie `kostVliegen(...)` berekent de totaalprijs van de vliegvakantie op basis van de vlucht (€30 **per persoon** per 1000 kilometer), de huurprijs van de auto (€100 startprijs) en de gereden afstand met deze auto. **Maak voor dit laatste stuk dus gebruik van de vorige functie**.
 
 Schrijf hierna een programma dat aan de gebruiker vraagt hoe ver de vakantiebestemming ligt (in km) en hoe veel km het gezin nog wil rondrijden op de bestemming. Het programma berekent daarna welke optie er goedkoper is en hoeveel ze daarmee besparen.
 
