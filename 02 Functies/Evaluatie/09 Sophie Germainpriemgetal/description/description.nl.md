@@ -6,9 +6,7 @@ Naar haar genoemd zijn de Sophie Germainpriemgetallen, die gebruikt worden in de
 
 ## Opgave
 
-Schrijf een functie `is_priem(getal)` die controleert of een gegeven getal priem is.
-
-Schrijf daarna een functie `is_germainpriem(getal)` dat controleert of een gegeven getal een Sophie Germainpriemgetal is. Gebruik hierbij de functie `is_priem()`. Test deze functie door een getal aan de gebruiker te vragen en nadien weer te geven of dit al of niet Sophie Germainpriem is. Geef ook het veilige priemgetal weer indien dit bestaat.
+Schrijf een functie `is_germainpriem(getal)` dat controleert of een gegeven getal een Sophie Germainpriemgetal is. Gebruik hierbij de functie `is_priem()`. Test deze functie door een getal aan de gebruiker te vragen en nadien weer te geven of dit al of niet Sophie Germainpriem is. Geef ook het veilige priemgetal weer indien dit bestaat.
 
 #### Voorbeelden
 
