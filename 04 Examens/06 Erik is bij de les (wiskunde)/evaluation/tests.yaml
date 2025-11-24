@@ -1,0 +1,35 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "2"
+      stdout: De Leibniz-benadering van pi met 2 termen is 2.666667
+  - testcases:
+    - stdin: "10"
+      stdout: De Leibniz-benadering van pi met 10 termen is 3.04184
+  - testcases:
+    - stdin: "50"
+      stdout: De Leibniz-benadering van pi met 50 termen is 3.121595
+  - testcases:
+    - stdin: "100"
+      stdout: De Leibniz-benadering van pi met 2 termen is 3.131593
+  - testcases:
+    - stdin: "250"
+      stdout: De Leibniz-benadering van pi met 2 termen is 3.137593
+  - testcases:
+    - stdin: "500"
+      stdout: De Leibniz-benadering van pi met 2 termen is 3.139593
+  - testcases:
+    - stdin: "1000"
+      stdout: De Leibniz-benadering van pi met 2 termen is 3.140593
+  - testcases:
+    - stdin: "2500"
+      stdout: De Leibniz-benadering van pi met 2 termen is 3.141193
+  - testcases:
+    - stdin: "5000"
+      stdout: De Leibniz-benadering van pi met 2 termen is 3.141393
+  - testcases:
+    - stdin: "10000"
+      stdout: De Leibniz-benadering van pi met 2 termen is 3.141493
+  - testcases:
+    - stdin: "100000"
+      stdout: De Leibniz-benadering van pi met 2 termen is 3.141583
