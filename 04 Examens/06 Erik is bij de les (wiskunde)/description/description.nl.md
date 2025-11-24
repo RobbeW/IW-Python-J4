@@ -12,7 +12,7 @@ $$
 Je kan deze uitdrukking omvormen om de waarde van π te berekenen (in de praktijk: *benaderen*)
 
 $$
-\mathsf{\pi = 4 \cdot \left( dfrac{1}{1} - \dfrac{1}{3} + \dfrac{1}{5} - \dfrac{1}{7} + \dfrac{1}{9} - \dfrac{1}{11} + \ldots \right)}
+\mathsf{\pi = 4 \cdot \left( \dfrac{1}{1} - \dfrac{1}{3} + \dfrac{1}{5} - \dfrac{1}{7} + \dfrac{1}{9} - \dfrac{1}{11} + \ldots \right)}
 $$
 
 ## Opgave
