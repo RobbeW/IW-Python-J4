@@ -11,25 +11,25 @@
       stdout: De Leibniz-benadering van pi met 50 termen is 3.121595
   - testcases:
     - stdin: "100"
-      stdout: De Leibniz-benadering van pi met 2 termen is 3.131593
+      stdout: De Leibniz-benadering van pi met 100 termen is 3.131593
   - testcases:
     - stdin: "250"
-      stdout: De Leibniz-benadering van pi met 2 termen is 3.137593
+      stdout: De Leibniz-benadering van pi met 250 termen is 3.137593
   - testcases:
     - stdin: "500"
-      stdout: De Leibniz-benadering van pi met 2 termen is 3.139593
+      stdout: De Leibniz-benadering van pi met 500 termen is 3.139593
   - testcases:
     - stdin: "1000"
-      stdout: De Leibniz-benadering van pi met 2 termen is 3.140593
+      stdout: De Leibniz-benadering van pi met 1000 termen is 3.140593
   - testcases:
     - stdin: "2500"
-      stdout: De Leibniz-benadering van pi met 2 termen is 3.141193
+      stdout: De Leibniz-benadering van pi met 2500 termen is 3.141193
   - testcases:
     - stdin: "5000"
-      stdout: De Leibniz-benadering van pi met 2 termen is 3.141393
+      stdout: De Leibniz-benadering van pi met 5000 termen is 3.141393
   - testcases:
     - stdin: "10000"
-      stdout: De Leibniz-benadering van pi met 2 termen is 3.141493
+      stdout: De Leibniz-benadering van pi met 10000 termen is 3.141493
   - testcases:
     - stdin: "100000"
-      stdout: De Leibniz-benadering van pi met 2 termen is 3.141583
+      stdout: De Leibniz-benadering van pi met 100000 termen is 3.141583
