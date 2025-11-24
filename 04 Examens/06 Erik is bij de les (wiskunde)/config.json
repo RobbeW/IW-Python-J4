@@ -18,5 +18,8 @@
     "Python in de Klas"
   ],
   "access": "public",
-  "internals": {}
+  "internals": {
+    "token": "23WhwH-YTyvnZN9T9kNMJ4eYB3uFGERpXigCTkQqZZQYzjCK9ftq-_SnMEReigai",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
