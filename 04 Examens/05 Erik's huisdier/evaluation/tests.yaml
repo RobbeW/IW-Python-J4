@@ -1,0 +1,102 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '13'
+      stdout: "Het duurt één dag om uit een put met diepte 13 cm te klimmen.\n"
+    - expression: berekenDuur(13)
+      return: 1
+  - testcases:
+    - stdin: '15'
+      stdout: "Het duurt één dag om uit een put met diepte 15 cm te klimmen.\n"
+    - expression: berekenDuur(15)
+      return: 1
+  - testcases:
+    - stdin: '19'
+      stdout: "Het duurt één dag om uit een put met diepte 19 cm te klimmen.\n"
+    - expression: berekenDuur(19)
+      return: 1
+  - testcases:
+    - stdin: '22'
+      stdout: "Het duurt 2 dagen om uit een put met diepte 22 cm te klimmen.\n"
+    - expression: berekenDuur(22)
+      return: 2
+  - testcases:
+    - stdin: '25'
+      stdout: "Het duurt 2 dagen om uit een put met diepte 25 cm te klimmen.\n"
+    - expression: berekenDuur(25)
+      return: 2
+  - testcases:
+    - stdin: '29'
+      stdout: "Het duurt 2 dagen om uit een put met diepte 29 cm te klimmen.\n"
+    - expression: berekenDuur(29)
+      return: 2
+  - testcases:
+    - stdin: '38'
+      stdout: "Het duurt 3 dagen om uit een put met diepte 38 cm te klimmen.\n"
+    - expression: berekenDuur(38)
+      return: 3
+  - testcases:
+    - stdin: '39'
+      stdout: "Het duurt 3 dagen om uit een put met diepte 39 cm te klimmen.\n"
+    - expression: berekenDuur(39)
+      return: 3
+  - testcases:
+    - stdin: '42'
+      stdout: "Het duurt 3 dagen om uit een put met diepte 42 cm te klimmen.\n"
+    - expression: berekenDuur(42)
+      return: 3
+  - testcases:
+    - stdin: '50'
+      stdout: "Het duurt 3 dagen om uit een put met diepte 50 cm te klimmen.\n"
+    - expression: berekenDuur(50)
+      return: 3
+  - testcases:
+    - stdin: '52'
+      stdout: "Het duurt 4 dagen om uit een put met diepte 52 cm te klimmen.\n"
+    - expression: berekenDuur(52)
+      return: 4
+  - testcases:
+    - stdin: '54'
+      stdout: "Het duurt 4 dagen om uit een put met diepte 54 cm te klimmen.\n"
+    - expression: berekenDuur(54)
+      return: 4
+  - testcases:
+    - stdin: '57'
+      stdout: "Het duurt 4 dagen om uit een put met diepte 57 cm te klimmen.\n"
+    - expression: berekenDuur(57)
+      return: 4
+  - testcases:
+    - stdin: '71'
+      stdout: "Het duurt 5 dagen om uit een put met diepte 71 cm te klimmen.\n"
+    - expression: berekenDuur(71)
+      return: 5
+  - testcases:
+    - stdin: '73'
+      stdout: "Het duurt 6 dagen om uit een put met diepte 73 cm te klimmen.\n"
+    - expression: berekenDuur(73)
+      return: 6
+  - testcases:
+    - stdin: '75'
+      stdout: "Het duurt 6 dagen om uit een put met diepte 75 cm te klimmen.\n"
+    - expression: berekenDuur(75)
+      return: 6
+  - testcases:
+    - stdin: '79'
+      stdout: "Het duurt 6 dagen om uit een put met diepte 79 cm te klimmen.\n"
+    - expression: berekenDuur(79)
+      return: 6
+  - testcases:
+    - stdin: '85'
+      stdout: "Het duurt 7 dagen om uit een put met diepte 85 cm te klimmen.\n"
+    - expression: berekenDuur(85)
+      return: 7
+  - testcases:
+    - stdin: '87'
+      stdout: "Het duurt 8 dagen om uit een put met diepte 87 cm te klimmen.\n"
+    - expression: berekenDuur(87)
+      return: 8
+  - testcases:
+    - stdin: '91'
+      stdout: "Het duurt 8 dagen om uit een put met diepte 91 cm te klimmen.\n"
+    - expression: berekenDuur(91)
+      return: 8
