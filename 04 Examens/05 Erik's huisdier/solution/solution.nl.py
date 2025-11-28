@@ -1,4 +1,4 @@
-def berekenDuur(diepte):
+def aantalDagen(diepte):
     dag = 0
     hoogte = 0
 
@@ -13,7 +13,7 @@ def berekenDuur(diepte):
 
 # Vraagt naar de diepte
 d = int( input( "Geef de diepte in: " ) )
-dag = berekenDuur(d)
+dag = aantalDagen(d)
 # Eindweergave
 if dag == 1:
     print( "Het duurt één dag om uit een put met diepte", d,"cm te klimmen." )
