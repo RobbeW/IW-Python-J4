@@ -21,7 +21,7 @@ Voor deze opgave moet je, gegeven de grootte van een bestand, uitrekenen hoeveel
 ## Gevraagd
 Schrijf een programma dat aan de gebruiker de **grootte van een bestand** (in bytes) vraagt. 
 
-Vervolgens geef je het aantal clusters weer dat nodig is om dit bestand te bewaren en bepaal je de efficiëntie van de opslag. Met andere woorden, hoeveel ruimte er procentueel verloren gaat. Rond dit af op 1 decimaal.
+Vervolgens geef je het aantal clusters weer dat nodig is om dit bestand te bewaren en bepaal je de efficiëntie van de opslag. Met andere woorden, hoeveel ruimte er procentueel ingenomen is. Rond dit af op 1 decimaal.
 
 
 #### Voorbeeld
