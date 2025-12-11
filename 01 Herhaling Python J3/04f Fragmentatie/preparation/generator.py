@@ -32,13 +32,14 @@ module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
 
 # generate test data
-ntests= 20
-cases = [(20480,), (20481,), (1,), (861685,), (901887,), (217341,),(222549,),(5729,), (471649,)]
+ntests= 25
+cases = [(20480,), (20481,), (1,), (861685,), (901887,), (217341,),(222549,),(5729,), (471649,), (8193,), (8191,), (10240,)]
 while len(cases) < ntests:
     n = random.randint(1,100)
     size = n * 4096 + random.randint(0,1)*random.randint(1,4096)
     if (size,) not in cases:
         cases.append( (size,))
+        
 cases.sort()
 
 # generate unit tests for functions
