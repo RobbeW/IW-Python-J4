@@ -1,0 +1,20 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "2"
+      stdout: De Nilakantha-benadering van pi met 2 termen is 3.133333
+  - testcases:
+    - stdin: "5"
+      stdout: De Nilakantha-benadering van pi met 5 termen is 3.142713
+  - testcases:
+    - stdin: "10"
+      stdout: De Nilakantha-benadering van pi met 10 termen is 3.141407
+  - testcases:
+    - stdin: "25"
+      stdout: De Nilakantha-benadering van pi met 25 termen is 3.141607
+  - testcases:
+    - stdin: "50"
+      stdout: De Nilakantha-benadering van pi met 50 termen is 3.141591
+  - testcases:
+    - stdin: "100"
+      stdout: De Nilakantha-benadering van pi met 100 termen is 3.141592
