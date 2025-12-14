@@ -1,5 +1,5 @@
 ## Gegeven
-Erik heeft een groot idool. Nilakantha was een wiskundige en astronoom die leefde tijdens de 15e eeuw. Hij kwam uit India en schreef onder andere het boek *Tantrasangraha*, waarin meerdere voorbeelden van wiskunde die, voor die tijd, zeer geavanceerd was stonden. In dit boek stond er ook een reeks om het getal **pi** te kunnen benaderen.
+Erik heeft een groot idool. Nilakantha was een wiskundige en astronoom die leefde tijdens de 15e eeuw. Hij kwam uit India en schreef onder andere het boek *Tantrasangraha*, waarin meerdere voorbeelden van wiskunde, die (voor die tijd) zeer geavanceerd waren, stonden. In dit boek stond er ook een reeks om het getal **pi** te kunnen benaderen.
 
 ![Erik's idool Nilakantha.](media/nilakantha.jpg "Erik's idool Nilakantha."){:data-caption="Erik's idool Nilakantha." width="45%"}
 
