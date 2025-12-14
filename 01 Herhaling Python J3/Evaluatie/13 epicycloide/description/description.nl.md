@@ -10,7 +10,7 @@ $$
     \mathsf{A = (k+1)\cdot (k+2)\cdot \pi r^2}
 $$
 
-waarbij $$\mathsf{r}$$ de straal van de kleine cirkel is en $$\mathsf{kr}$$ de straal van de grote cirkel. 
+waarbij $$\mathsf{r}$$ de straal van de kleine cirkel is en $$\mathsf{k\cdot r}$$ de straal van de grote cirkel. 
 
 ## Opgave
 Schrijf een programma dat **eerst** de straal van de *grote cirkel* en vervolgens de straal van de *kleine cirkel* vraagt. Daarna berekent het programma de oppervlakte van de epicycloïde en **rondt** het deze oppervlakte **af** op 3 cijfers na de komma.

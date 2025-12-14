@@ -7,6 +7,15 @@
     - stdin: '5729'
       stdout: "Er zijn 2 clusters nodig. Dit is 69.9 % efficiënt.\n"
   - testcases:
+    - stdin: '8191'
+      stdout: "Er zijn 2 clusters nodig. Dit is 100.0 % efficiënt.\n"
+  - testcases:
+    - stdin: '8193'
+      stdout: "Er zijn 3 clusters nodig. Dit is 66.7 % efficiënt.\n"
+  - testcases:
+    - stdin: '10240'
+      stdout: "Er zijn 3 clusters nodig. Dit is 83.3 % efficiënt.\n"
+  - testcases:
     - stdin: '20480'
       stdout: "Er zijn 5 clusters nodig. Dit is 100.0 % efficiënt.\n"
   - testcases:
@@ -21,6 +30,9 @@
   - testcases:
     - stdin: '82113'
       stdout: "Er zijn 21 clusters nodig. Dit is 95.5 % efficiënt.\n"
+  - testcases:
+    - stdin: '94693'
+      stdout: "Er zijn 24 clusters nodig. Dit is 96.3 % efficiënt.\n"
   - testcases:
     - stdin: '118784'
       stdout: "Er zijn 29 clusters nodig. Dit is 100.0 % efficiënt.\n"
@@ -42,6 +54,9 @@
   - testcases:
     - stdin: '286720'
       stdout: "Er zijn 70 clusters nodig. Dit is 100.0 % efficiënt.\n"
+  - testcases:
+    - stdin: '290734'
+      stdout: "Er zijn 71 clusters nodig. Dit is 100.0 % efficiënt.\n"
   - testcases:
     - stdin: '380928'
       stdout: "Er zijn 93 clusters nodig. Dit is 100.0 % efficiënt.\n"
