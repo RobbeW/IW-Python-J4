@@ -36,7 +36,7 @@ De Nilakantha-benadering van pi met 2 termen is 3.133333
 Indien de gebruiker `5` intikt, dan wordt de volgende berekening uitg'evoerd:
 
 $$
-\mathsf{4 \cdot \left(\dfrac{1}{2 \cdot 3 \cdot 4} - \dfrac{1}{4 \cdot 5 \cdot 6} + \dfrac{1}{6 \cdot 7 \cdot 8} - \dfrac{1}{8 \cdot 9 \cdot 10} + \dfrac{1}{10 \cdot 11 \cdot 12} \right ) \approx 3,142713\ldots}
+\mathsf{3 + 4 \cdot \left(\dfrac{1}{2 \cdot 3 \cdot 4} - \dfrac{1}{4 \cdot 5 \cdot 6} + \dfrac{1}{6 \cdot 7 \cdot 8} - \dfrac{1}{8 \cdot 9 \cdot 10} + \dfrac{1}{10 \cdot 11 \cdot 12} \right ) \approx 3,142713\ldots}
 $$
 
 Zodat er verschijnt:
