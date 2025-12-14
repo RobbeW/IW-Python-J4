@@ -8,4 +8,4 @@ elif scoreOp20 <= 13:
 elif scoreOp20 < 17:
     print("Beste", leerling + ", dit is een goed resultaat. Doe zo voort!")
 else:
-    print(" Wat een subliem resultaat! Met een", scoreOp20, "bewijs je talent te hebben voor dit vak!")
+    print("Wat een subliem resultaat! Met een", scoreOp20, "bewijs je talent te hebben voor dit vak!")
