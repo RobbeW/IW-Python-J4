@@ -1,0 +1,22 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "description": {
+    "names": {
+      "nl": "Erik in de Cola-fabriek"
+    }
+  },
+  "labels": [
+    "functies",
+    "python",
+    "Robbe Wulgaert",
+    "Exy Sabbe",
+    "Python in de Klas"
+  ],
+  "access": "public",
+  "internals": {}
+}

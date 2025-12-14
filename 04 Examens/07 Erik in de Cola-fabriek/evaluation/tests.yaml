@@ -1,0 +1,47 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: "1"
+      stdout: Met 1 liter worden er 3 blikjes gevuld en 1 pakket gemaakt.
+  - testcases:
+    - stdin: "2"
+      stdout: Met 2 liter worden er 6 blikjes gevuld en 1 pakket gemaakt.
+  - testcases:
+    - stdin: "6"
+      stdout: Met 6 liter worden er 18 blikjes gevuld en 1 pakket gemaakt.
+  - testcases:
+    - stdin: "8"
+      stdout: Met 8 liter worden er 24 blikjes gevuld en 1 pakket gemaakt.
+  - testcases:
+    - stdin: "10"
+      stdout: Met 10 liter worden er 30 blikjes gevuld en 2 pakketten gemaakt.
+  - testcases:
+    - stdin: "20"
+      stdout: Met 20 liter worden er 60 blikjes gevuld en 3 pakketten gemaakt.
+  - testcases:
+    - stdin: "32"
+      stdout: Met 32 liter worden er 96 blikjes gevuld en 4 pakketten gemaakt.
+  - testcases:
+    - stdin: "33"
+      stdout: Met 33 liter worden er 100 blikjes gevuld en 5 pakketten gemaakt.
+  - testcases:
+    - stdin: "500"
+      stdout: Met 500 liter worden er 1515 blikjes gevuld en 64 pakketten gemaakt.
+  - testcases:
+    - stdin: "1681"
+      stdout: Met 1681 liter worden er 5093 blikjes gevuld en 213 pakketten gemaakt.
+  - testcases:
+    - stdin: "2579"
+      stdout: Met 2579 liter worden er 7815 blikjes gevuld en 326 pakketten gemaakt.
+  - testcases:
+    - stdin: "3333"
+      stdout: Met 3333 liter worden er 10100 blikjes gevuld en 421 pakketten gemaakt.
+  - testcases:
+    - stdin: "3500"
+      stdout: Met 3500 liter worden er 10606 blikjes gevuld en 442 pakketten gemaakt.
+  - testcases:
+    - stdin: "5040"
+      stdout: Met 5040 liter worden er 15272 blikjes gevuld en 637 pakketten gemaakt.
+  - testcases:
+    - stdin: "6969"
+      stdout: Met 6969 liter worden er 21118 blikjes gevuld en 880 pakketten gemaakt.
