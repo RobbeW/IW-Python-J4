@@ -7,11 +7,17 @@
     - stdin: "Fred\n15"
       stdout: Beste Fred, dit is een goed resultaat. Doe zo voort!
   - testcases:
+    - stdin: "Jos\n14.5"
+      stdout: Beste Jos, dit is een goed resultaat. Doe zo voort!
+  - testcases:
     - stdin: "Sam\n20"
-      stdout: Wat een subliem resultaat! Met een 20 bewijs je talent te hebben voor dit vak!
+      stdout: Wat een subliem resultaat! Met een 20.0 bewijs je talent te hebben voor dit vak!
   - testcases:
     - stdin: "Tom\n12"
       stdout: Je behaalt een voldoende Tom, maar zal je toch moeten herpakken. Herhaal deze leerstof en maak meer oefeningen voor het examen!
+  - testcases:
+    - stdin: "Tim\n4.5"
+      stdout: Je behaalt een onvoldoende voor deze toets Erik, je krijgt van mij een remediëring.
   - testcases:
     - stdin: "Max\n10"
       stdout: Je behaalt een voldoende Max, maar zal je toch moeten herpakken. Herhaal deze leerstof en maak meer oefeningen voor het examen!
@@ -19,5 +25,8 @@
     - stdin: "Ben\n13"
       stdout: Je behaalt een voldoende Ben, maar zal je toch moeten herpakken. Herhaal deze leerstof en maak meer oefeningen voor het examen!
   - testcases:
+    - stdin: "Seb\n18.5"
+      stdout: Wat een subliem resultaat! Met een 18.5 bewijs je talent te hebben voor dit vak!
+  - testcases:
     - stdin: "Leo\n17"
-      stdout: Wat een subliem resultaat! Met een 17 bewijs je talent te hebben voor dit vak!
+      stdout: Wat een subliem resultaat! Met een 17.0 bewijs je talent te hebben voor dit vak!

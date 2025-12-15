@@ -1,5 +1,5 @@
 leerling = input("Wat is de naam van de leerling?")
-scoreOp20 = int(input("Wat is de score van de leerling? (op 20)"))
+scoreOp20 = float(input("Wat is de score van de leerling? (op 20)"))
 
 if scoreOp20 < 10:
     print("Je behaalt een onvoldoende voor deze toets", leerling + ", je krijgt van mij een remediëring.")

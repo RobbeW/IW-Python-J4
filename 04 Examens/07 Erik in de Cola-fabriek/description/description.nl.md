@@ -6,7 +6,7 @@ Erik gaat op schooluitstap naar de Cola-fabriek. Hij leert daar dat alle Cola ve
 Het aantal liter dat per dag geproduceerd wordt verschilt regelmatig. Er wordt momenteel dagelijks geteld hoeveel blikjes en pakketten dit oplevert, maar dit kost veel tijd. Aan jou om een programma te schrijven dat deze berekening voor hun doet.
 
 ## Opgave
-Schrijf nu het programma dat aan de fabrikant vraagt hoeveel **liter** Cola er vandaag geproduceerd werd. Het programma berekent hoeveel blikjes er nodig zijn om deze Cola over te verdelen. Daarnaast wordt ook berekend hoeveel pakketten blikjes er nodig zijn om deze te kunnen verkopen.
+Schrijf nu het programma dat aan de fabrikant vraagt hoeveel **liter** (als geheel getal) Cola er vandaag geproduceerd werd. Het programma berekent hoeveel blikjes er nodig zijn om deze Cola over te verdelen. Daarnaast wordt ook berekend hoeveel pakketten blikjes er nodig zijn om deze te kunnen verkopen.
 
 #### Voorbeelden
 
