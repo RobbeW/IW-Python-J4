@@ -12,7 +12,7 @@ Schrijf een programma dat aan de leerkracht de naam van de leerling en de score 
 
 #### Voorbeelden
 
-`Erik` behaalt een `7`:
+`Erik` behaalt een `7.5`:
 ```
 Je behaalt een onvoldoende voor deze toets Erik, je krijgt van mij een remediëring.
 ```

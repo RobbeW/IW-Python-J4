@@ -17,7 +17,7 @@
       stdout: Je behaalt een voldoende Tom, maar zal je toch moeten herpakken. Herhaal deze leerstof en maak meer oefeningen voor het examen!
   - testcases:
     - stdin: "Tim\n4.5"
-      stdout: Je behaalt een onvoldoende voor deze toets Erik, je krijgt van mij een remediëring.
+      stdout: Je behaalt een onvoldoende voor deze toets Tim, je krijgt van mij een remediëring.
   - testcases:
     - stdin: "Max\n10"
       stdout: Je behaalt een voldoende Max, maar zal je toch moeten herpakken. Herhaal deze leerstof en maak meer oefeningen voor het examen!
