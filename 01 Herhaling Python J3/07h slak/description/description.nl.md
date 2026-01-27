@@ -9,7 +9,7 @@ Schrijf een programma dat naar de diepte van de regenput vraagt. Vervolgens bere
 Bij een invoer van `50` is de uitvoer van je programma:
 
 ```
-Het duurt 3 dagen om uit een put met diepte 50 m te klimmen.
+Het duurt 3 dagen om uit een put met diepte 50 cm te klimmen.
 ```
 
 ![Traag maar zeker.](media/slak.gif "Traag maar zeker."){:data-caption="Traag maar zeker." width="480px"}
