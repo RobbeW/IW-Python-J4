@@ -14,12 +14,12 @@ BPost hanteert de volgende tarieven voor verzending van pakjes binnen België. H
 Schrijf een programma dat aan de gebruiker de *massa* van het pakje **vraagt** en vervolgens het *aantal pakjes*. Daarna wordt berekend hoeveel er betaald moet worden voor de verzending. **Rond** het eindresultaat **af** op 2 cijfers na de komma.
 
 #### Voorbeelden
-Voor achtereenvolgende invoer `25.6` en `3` verschijnt
+Voor een invoer van `25.6` kg en `3` pakjes verschijnt:
 ```
 U dient EUR 11.34 te betalen.
 ```
 
-Voor achtereenvolgende invoer `514.6` en `12` verschijnt
+Voor een invoer van `514.6` kg en `12` pakjes verschijnt:
 ```
 U dient EUR 111.6 te betalen.
 ```
