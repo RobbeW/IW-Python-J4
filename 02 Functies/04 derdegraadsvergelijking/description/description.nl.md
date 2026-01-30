@@ -25,7 +25,7 @@ Test het programma vervolgens uit door aan de gebruiker de waarde van $$\mathsf{
 #### Voorbeelden
 De derdegraadsvergelijking $$\mathsf{x^3-3x+2=0}$$ heeft als oplossingenverzameling $$\mathsf{V = \{-2, 1\}}$$.
 ```
-Van de drie oplossingen zijn er minstens twee aan elkaar gelijk
+Van de drie oplossingen zijn er minstens twee aan elkaar gelijk.
 ```
 want
 ```python
@@ -35,7 +35,7 @@ want
 
 De derdegraadsvergelijking $$\mathsf{x^3+x+2 = 0}$$ heeft als oplossingenverzameling $$\mathsf{V = \{-1\}}$$.
 ```
-Er is exact één reële oplossing
+Er is exact één reële oplossing.
 ```
 want
 ```python
@@ -45,7 +45,7 @@ want
 
 De derdegraadsvergelijking $$\mathsf{x^3-4x= 0}$$ heeft als oplossingenverzameling $$\mathsf{V = \{-2,0,2\}}$$.
 ```
-Er zijn drie verschillende reële oplossingen
+Er zijn drie verschillende reële oplossingen.
 ```
 want
 ```python
