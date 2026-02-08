@@ -20,8 +20,11 @@
     "python",
     "Robbe Wulgaert",
     "Exy Sabbe",
-    "Python in de Klas" 
+    "Python in de Klas"
   ],
   "access": "public",
-  "internals": {}
+  "internals": {
+    "token": "4Fg-nimh7nZp3RTmsmDvaDfnVrMwSvrnsAXrUh-4eyVZNJUEdA-rmQR-2EqcZPzR",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
