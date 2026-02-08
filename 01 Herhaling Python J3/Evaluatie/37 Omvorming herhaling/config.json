@@ -1,0 +1,27 @@
+{
+  "type": "exercise",
+  "programming_language": "python",
+  "description": {
+    "names": {
+      "nl": "Omvorming herhaling"
+    }
+  },
+  "evaluation": {
+    "handler": "tested",
+    "test_suite": "tests.yaml"
+  },
+  "labels": [
+    "evaluatie",
+    "while-lus",
+    "voorwaardelijke herhaling",
+    "for-lus",
+    "begrensde herhaling",
+    "math",
+    "python",
+    "Robbe Wulgaert",
+    "Exy Sabbe",
+    "Python in de Klas" 
+  ],
+  "access": "public",
+  "internals": {}
+}

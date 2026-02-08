@@ -1,0 +1,16 @@
+- tab: Feedback
+  contexts:
+  - testcases:
+    - stdin: '1000\n3.5'
+      stdout: "Na 0 jaar en 3 maand heeft Jos € 1035.0 op zijn rekening staan.\n
+        Na 0 jaar en 6 maand heeft Jos € 1071.22 op zijn rekening staan.\n
+        Na 0 jaar en 9 maand heeft Jos € 1108.72 op zijn rekening staan.\n
+        Na 1 jaar en 0 maand heeft Jos € 1147.52 op zijn rekening staan.\n
+        Na 1 jaar en 3 maand heeft Jos € 1187.69 op zijn rekening staan.\n
+        Na 1 jaar en 6 maand heeft Jos € 1229.26 op zijn rekening staan.\n
+        Na 1 jaar en 9 maand heeft Jos € 1272.28 op zijn rekening staan.\n
+        Na 2 jaar en 0 maand heeft Jos € 1316.81 op zijn rekening staan.\n
+        Na 2 jaar en 3 maand heeft Jos € 1362.9 op zijn rekening staan.\n
+        Na 2 jaar en 6 maand heeft Jos € 1410.6 op zijn rekening staan.\n
+        Na 2 jaar en 9 maand heeft Jos € 1459.97 op zijn rekening staan.\n
+        Na 3 jaar en 0 maand heeft Jos € 1511.07 op zijn rekening staan."
