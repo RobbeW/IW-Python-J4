@@ -2,7 +2,9 @@ Neem het het getal 9 425. Dit getal is duidelijk niet priem, maar wat is het k
 
 ## Opgave
 
-Schrijf een functie `volgende_priem(getal)` dat gegeven een getal (groter dan 1) het kleinste priemgetal groter dan dit gegeven getal bepaalt. Programmeer hiervoor zelf een functie `is_priem(getal)` die je in de functie `volgende_priem()` kan gebruiken.
+Schrijf een functie `volgende_priem(getal)` dat gegeven een getal (groter dan 1) het kleinste priemgetal groter dan dit gegeven getal bepaalt. De `is_priem(getal)` functie werd al gegeven.
+
+Je hoeft **geen** programma te schrijven om inputs te lezen en de functie te gebruiken.
 
 #### Voorbeelden
 
