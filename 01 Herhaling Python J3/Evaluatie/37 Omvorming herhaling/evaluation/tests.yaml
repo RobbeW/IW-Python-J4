@@ -1,7 +1,7 @@
 - tab: Feedback
   contexts:
   - testcases:
-    - stdin: '1000\n3.5'
+    - stdin: "1000\n3.5"
       stdout: "Na 0 jaar en 3 maand heeft Jos € 1035.0 op zijn rekening staan.\n
         Na 0 jaar en 6 maand heeft Jos € 1071.22 op zijn rekening staan.\n
         Na 0 jaar en 9 maand heeft Jos € 1108.72 op zijn rekening staan.\n
