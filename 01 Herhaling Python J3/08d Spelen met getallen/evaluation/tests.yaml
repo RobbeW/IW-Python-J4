@@ -16,77 +16,263 @@
     - stdin: "1633\n9654\n15764982"
       stdout: "Mogelijk\n"
   - testcases:
+    - stdin: "15764982\n9654\n1633"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "9654\n1633\n15764982"
+      stdout: "Mogelijk\n"
+  - testcases:
     - stdin: "4138\n9930\n9610"
+      stdout: "Onmogelijk\n"
+  - testcases:
+    - stdin: "9610\n9930\n4138"
+      stdout: "Onmogelijk\n"
+  - testcases:
+    - stdin: "9930\n4138\n9610"
       stdout: "Onmogelijk\n"
   - testcases:
     - stdin: "8342\n1265\n5494"
       stdout: "Onmogelijk\n"
   - testcases:
+    - stdin: "5494\n1265\n8342"
+      stdout: "Onmogelijk\n"
+  - testcases:
+    - stdin: "1265\n8342\n5494"
+      stdout: "Onmogelijk\n"
+  - testcases:
     - stdin: "2009\n2442\n5736"
+      stdout: "Onmogelijk\n"
+  - testcases:
+    - stdin: "5736\n2442\n2009"
+      stdout: "Onmogelijk\n"
+  - testcases:
+    - stdin: "2442\n2009\n5736"
       stdout: "Onmogelijk\n"
   - testcases:
     - stdin: "385\n8104\n8489"
       stdout: "Mogelijk\n"
   - testcases:
+    - stdin: "8489\n8104\n385"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "8104\n385\n8489"
+      stdout: "Mogelijk\n"
+  - testcases:
     - stdin: "3686\n3686\n1"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "1\n3686\n3686"
       stdout: "Mogelijk\n"
   - testcases:
     - stdin: "8676\n723\n12"
       stdout: "Mogelijk\n"
   - testcases:
+    - stdin: "12\n723\n8676"
+      stdout: "Mogelijk\n"
+  - testcases:
     - stdin: "723\n8676\n12"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "3622\n8991\n32565402"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "32565402\n8991\n3622"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "8991\n3622\n32565402"
       stdout: "Mogelijk\n"
   - testcases:
     - stdin: "4187\n1127\n3060"
       stdout: "Mogelijk\n"
   - testcases:
+    - stdin: "3060\n1127\n4187"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "1127\n4187\n3060"
+      stdout: "Mogelijk\n"
+  - testcases:
     - stdin: "605\n7017\n4503"
+      stdout: "Onmogelijk\n"
+  - testcases:
+    - stdin: "4503\n7017\n605"
+      stdout: "Onmogelijk\n"
+  - testcases:
+    - stdin: "7017\n605\n4503"
       stdout: "Onmogelijk\n"
   - testcases:
     - stdin: "5045\n5045\n1"
       stdout: "Mogelijk\n"
   - testcases:
+    - stdin: "1\n5045\n5045"
+      stdout: "Mogelijk\n"
+  - testcases:
     - stdin: "3029\n908\n2750332"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "2750332\n908\n3029"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "908\n3029\n2750332"
       stdout: "Mogelijk\n"
   - testcases:
     - stdin: "3991\n3562\n8857"
       stdout: "Onmogelijk\n"
   - testcases:
+    - stdin: "8857\n3562\n3991"
+      stdout: "Onmogelijk\n"
+  - testcases:
+    - stdin: "3562\n3991\n8857"
+      stdout: "Onmogelijk\n"
+  - testcases:
     - stdin: "6617\n8027\n53114659"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "53114659\n8027\n6617"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "8027\n6617\n53114659"
       stdout: "Mogelijk\n"
   - testcases:
     - stdin: "8576\n8576\n1"
       stdout: "Mogelijk\n"
   - testcases:
+    - stdin: "1\n8576\n8576"
+      stdout: "Mogelijk\n"
+  - testcases:
     - stdin: "969\n6102\n3646"
+      stdout: "Onmogelijk\n"
+  - testcases:
+    - stdin: "3646\n6102\n969"
+      stdout: "Onmogelijk\n"
+  - testcases:
+    - stdin: "6102\n969\n3646"
       stdout: "Onmogelijk\n"
   - testcases:
     - stdin: "1712\n1712\n1"
       stdout: "Mogelijk\n"
   - testcases:
+    - stdin: "1\n1712\n1712"
+      stdout: "Mogelijk\n"
+  - testcases:
     - stdin: "2368\n6605\n15640640"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "15640640\n6605\n2368"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "6605\n2368\n15640640"
       stdout: "Mogelijk\n"
   - testcases:
     - stdin: "3396\n8488\n5092"
       stdout: "Mogelijk\n"
   - testcases:
+    - stdin: "5092\n8488\n3396"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "8488\n3396\n5092"
+      stdout: "Mogelijk\n"
+  - testcases:
     - stdin: "3255\n1085\n3"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "3\n1085\n3255"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "1085\n3255\n3"
       stdout: "Mogelijk\n"
   - testcases:
     - stdin: "3765\n7592\n671"
       stdout: "Onmogelijk\n"
   - testcases:
+    - stdin: "671\n7592\n3765"
+      stdout: "Onmogelijk\n"
+  - testcases:
+    - stdin: "7592\n3765\n671"
+      stdout: "Onmogelijk\n"
+  - testcases:
     - stdin: "5131\n5131\n1"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "1\n5131\n5131"
       stdout: "Mogelijk\n"
   - testcases:
     - stdin: "4172\n6139\n4340"
       stdout: "Onmogelijk\n"
   - testcases:
+    - stdin: "4340\n6139\n4172"
+      stdout: "Onmogelijk\n"
+  - testcases:
+    - stdin: "6139\n4172\n4340"
+      stdout: "Onmogelijk\n"
+  - testcases:
     - stdin: "4924\n3279\n1645"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "1645\n3279\n4924"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "3279\n4924\n1645"
       stdout: "Mogelijk\n"
   - testcases:
     - stdin: "7035\n1818\n5322"
       stdout: "Onmogelijk\n"
   - testcases:
+    - stdin: "5322\n1818\n7035"
+      stdout: "Onmogelijk\n"
+  - testcases:
+    - stdin: "1818\n7035\n5322"
+      stdout: "Onmogelijk\n"
+  - testcases:
     - stdin: "1674\n3079\n7914"
       stdout: "Onmogelijk\n"
+  - testcases:
+    - stdin: "7914\n3079\n1674"
+      stdout: "Onmogelijk\n"
+  - testcases:
+    - stdin: "3079\n1674\n7914"
+      stdout: "Onmogelijk\n"
+  - testcases:
+    - stdin: "1723\n5786\n9969278"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "9969278\n5786\n1723"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "5786\n1723\n9969278"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "4664\n8454\n6482"
+      stdout: "Onmogelijk\n"
+  - testcases:
+    - stdin: "6482\n8454\n4664"
+      stdout: "Onmogelijk\n"
+  - testcases:
+    - stdin: "8454\n4664\n6482"
+      stdout: "Onmogelijk\n"
+  - testcases:
+    - stdin: "966\n3310\n2344"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "2344\n3310\n966"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "3310\n966\n2344"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "3665\n102\n8044"
+      stdout: "Onmogelijk\n"
+  - testcases:
+    - stdin: "8044\n102\n3665"
+      stdout: "Onmogelijk\n"
+  - testcases:
+    - stdin: "102\n3665\n8044"
+      stdout: "Onmogelijk\n"
+  - testcases:
+    - stdin: "5483\n6418\n935"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "935\n6418\n5483"
+      stdout: "Mogelijk\n"
+  - testcases:
+    - stdin: "6418\n5483\n935"
+      stdout: "Mogelijk\n"

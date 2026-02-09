@@ -34,7 +34,7 @@ spec.loader.exec_module(module)
 # generate test data
 cases = [(1,2,3),(2,24,12),(5,3,1),(12,24,2)]
 
-while len(cases) < 30:
+while len(cases) < 90:
     a,b = tuple(random.randint(1,10000) for _ in range(2))
     optie = random.randint(1,7)
     if optie == 1:
@@ -50,6 +50,12 @@ while len(cases) < 30:
     else:
         c = random.randint(1,10000)
     case = (a,b,c)
+    if case not in cases:
+        cases.append(case)
+    case = (c, b, a)
+    if case not in cases:
+        cases.append(case)
+    case = (b, a, c)
     if case not in cases:
         cases.append(case)
 
