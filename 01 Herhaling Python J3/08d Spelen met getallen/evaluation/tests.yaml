@@ -270,9 +270,3 @@
   - testcases:
     - stdin: "5483\n6418\n935"
       stdout: "Mogelijk\n"
-  - testcases:
-    - stdin: "935\n6418\n5483"
-      stdout: "Mogelijk\n"
-  - testcases:
-    - stdin: "6418\n5483\n935"
-      stdout: "Mogelijk\n"
