@@ -8,7 +8,10 @@
   },
   "evaluation": {
     "handler": "tested",
-    "test_suite": "tests.yaml"
+    "test_suite": "tests.yaml",
+    "options": {
+      "linter": false
+    }
   },
   "labels": [
     "selectie"
